@@ -1,6 +1,38 @@
+# Python
 __pycache__/
-*.pyc
-*.tmp
-data/debug/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 密钥（绝不提交）
+.env
+.env.*
+*.key
+secrets.yaml
+
+# 中间产物：原始抓取数据体积大（约 110KB/天）且可重跑得到。
+#
+# ⚠️ data/seen.json 不在排除之列——它是**跨天去重的基准**，必须提交。
+# 不提交的话每天都会重新发布同样的文章。
+# （BD 雷达踩过同类坑：seen.json 里缺日期字段时，当天第二次运行会把
+#   当天新闻全判为"已报道"，产出 0 篇。）
 data/raw/
-data/seen.json
+data/debug/
+data/_tmp*
+data/compose_*.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+
+# 临时文件（提交信息草稿等）
+*.tmp
+*.bak
+COMMIT_MSG*
