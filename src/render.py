@@ -188,6 +188,24 @@ def parse_content(text: str) -> dict:
             doc["sections"].append(cur_sec)
             continue
 
+        # ---- 光秃秃的标记行：必须报错，不能当普通段落 ----
+        #
+        # ⚠️ 实测事故：模型把结尾写成了单独一行 `ENDCARD`（漏了「标题 | 内容」），
+        #    而上面的 RE_ENDCARD 要求有竖线，于是**不匹配**，
+        #    这行就掉进"普通段落"分支，最终输出成 <p>ENDCARD</p>——
+        #    稿子发到公众号，读者看到的是两个大写的 ENDCARD。
+        #    校验层当时只查 TITLE/HOOK/小节数/脚注，没查结语卡，也没拦住。
+        #
+        #    现在显式识别"像标记但格式不全"的行，记进 marker_errors，
+        #    交给 validate_content 判失败并触发重写。
+        #    （静默降级比报错危险得多——错误会一路流到读者眼前。）
+        bare = re.match(r"^(ENDCARD|ENDTABLE|ENDCARD|TABLE|BOX|FN|KICKER|"
+                        r"TITLE|SUB|HOOK)\b\s*$", s, re.I)
+        if bare:
+            doc.setdefault("marker_errors", []).append(
+                f"标记行格式不全：{s!r}（应写成 `关键词 标题 | 内容`）")
+            continue
+
         # 普通段落
         _append_block({"type": "p", "text": s})
 

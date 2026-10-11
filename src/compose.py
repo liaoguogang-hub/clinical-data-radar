@@ -396,6 +396,18 @@ def validate_content(doc: dict, text: str, style_cfg: dict,
         errs.append(f"小节太少（{len(doc.get('sections') or [])} 个，至少 3 个）")
     if not doc.get("footnotes"):
         errs.append("缺少 FN 来源脚注")
+    # ⚠️ 结语卡必须检查。
+    # 实测事故：模型把结尾写成单独一行 `ENDCARD`（漏了「标题 | 内容」），
+    # 解析器不匹配 → 被当普通段落 → 输出 <p>ENDCARD</p>，
+    # 稿子发到公众号，读者看到两个大写的 ENDCARD。
+    # 当时校验只查 TITLE/HOOK/小节数/脚注，正好漏了这条。
+    if not doc.get("end"):
+        errs.append(
+            "缺少 ENDCARD 结语卡。格式必须是 `ENDCARD 标题 | 内容`，"
+            "不能只写一个 ENDCARD。")
+    # 解析层记下的"标记格式不全"一并上报
+    for me in (doc.get("marker_errors") or []):
+        errs.append(me)
 
     # 2. 字数
     n = body_chars(doc)
