@@ -1,0 +1,886 @@
+{
+  "62fcc609d87c70d6": {
+    "id": "62fcc609d87c70d6",
+    "title": "AstraZeneca blames trial design for Phase 3 failure of bone disease drug",
+    "score": 8.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b926f70b60d23763": {
+    "id": "b926f70b60d23763",
+    "title": "卓越·制胜局丨殷咏梅教授：Dato-DXd获批TNBC一线治疗适应症，树立晚期TNBC新里程碑",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "a1b04a7865783d86": {
+    "id": "a1b04a7865783d86",
+    "title": "登顶《自然·医学》！中国狼疮新疗法重大突破：无需定制、现货可用，6成患者实现临床完全缓解",
+    "score": 8.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:完全缓解"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:完全缓解"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:完全缓解",
+    "registry": {
+      "best": {
+        "nct": "NCT07075185",
+        "title": "A Study to Evaluate a Novel Gene Therapy in Patients With Relapsed and Refractory Multiple Myeloma",
+        "official_title": "A Phase 1 Study to Evaluate the Safety of KLN-1010, a Novel, In Vivo Gene Therapy to Generate Anti-B Cell Maturation Antigen (Anti-BCMA) Chimeric Antigen Receptor-T Cells (CAR-T) in Patients With Relapsed and Refractory Multiple Myeloma",
+        "acronym": "inMMyCAR",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1",
+        "sponsor": "Kelonia Therapeutics, Inc.",
+        "conditions": [
+          "Multiple Myeloma in Relapse",
+          "Myeloma Multiple",
+          "Multiple Myeloma Progression",
+          "Neoplasms by Histologic Type",
+          "Neoplasm",
+          "Hemostatic Disorders",
+          "Vascular Disorder",
+          "Paraproteinemias",
+          "Blood Protein Disorders",
+          "Hematologic Disease and Disorders",
+          "Lymphoproliferative Disorders",
+          "Immunoproliferative Disorders",
+          "Immune System Disease",
+          "Gene Therapy"
+        ],
+        "interventions": [
+          "KLN-1010"
+        ],
+        "primary_outcomes": [
+          "Incidence and severity of treatment-emergent adverse events (TEAEs), including dose-limiting toxicities (DLTs), and/or establish the recommended Phase 2 Dose"
+        ],
+        "enrollment": 70,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-07-16",
+        "primary_completion": "2027-03",
+        "completion": "2042-05",
+        "last_update": "2026-08-28",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07075185",
+          "title": "A Study to Evaluate a Novel Gene Therapy in Patients With Relapsed and Refractory Multiple Myeloma",
+          "official_title": "A Phase 1 Study to Evaluate the Safety of KLN-1010, a Novel, In Vivo Gene Therapy to Generate Anti-B Cell Maturation Antigen (Anti-BCMA) Chimeric Antigen Receptor-T Cells (CAR-T) in Patients With Relapsed and Refractory Multiple Myeloma",
+          "acronym": "inMMyCAR",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Kelonia Therapeutics, Inc.",
+          "conditions": [
+            "Multiple Myeloma in Relapse",
+            "Myeloma Multiple",
+            "Multiple Myeloma Progression",
+            "Neoplasms by Histologic Type",
+            "Neoplasm",
+            "Hemostatic Disorders",
+            "Vascular Disorder",
+            "Paraproteinemias",
+            "Blood Protein Disorders",
+            "Hematologic Disease and Disorders",
+            "Lymphoproliferative Disorders",
+            "Immunoproliferative Disorders",
+            "Immune System Disease",
+            "Gene Therapy"
+          ],
+          "interventions": [
+            "KLN-1010"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of treatment-emergent adverse events (TEAEs), including dose-limiting toxicities (DLTs), and/or establish the recommended Phase 2 Dose"
+          ],
+          "enrollment": 70,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-07-16",
+          "primary_completion": "2027-03",
+          "completion": "2042-05",
+          "last_update": "2026-08-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "生物科技",
+          "血液制品股份",
+          "鲁南制药集团",
+          "Kelonia Therapeutics"
+        ],
+        "sponsor_en": [
+          "生物科技",
+          "血液制品股份",
+          "鲁南制药集团",
+          "Kelonia Therapeutics"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "15b408b2a16a0b7c": {
+    "id": "15b408b2a16a0b7c",
+    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:全部应答"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:全部应答"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:全部应答",
+    "registry": {
+      "best": {
+        "nct": "NCT06413498",
+        "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+        "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+        "acronym": "iMMagine-3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Kite, A Gilead Company",
+        "conditions": [
+          "Multiple Myeloma"
+        ],
+        "interventions": [
+          "Anitocabtagene Autoleucel",
+          "Cyclophosphamide",
+          "Fludarabine",
+          "Pomalidomide",
+          "Bortezomib",
+          "Dexamethasone",
+          "Daratumumab",
+          "Carfilzomib"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)",
+          "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+        ],
+        "enrollment": 452,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-08-23",
+        "primary_completion": "2028-07",
+        "completion": "2031-07",
+        "last_update": "2026-07-29",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "Czechia",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Poland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06413498",
+          "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+          "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+          "acronym": "iMMagine-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Anitocabtagene Autoleucel",
+            "Cyclophosphamide",
+            "Fludarabine",
+            "Pomalidomide",
+            "Bortezomib",
+            "Dexamethasone",
+            "Daratumumab",
+            "Carfilzomib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+          ],
+          "enrollment": 452,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-08-23",
+          "primary_completion": "2028-07",
+          "completion": "2031-07",
+          "last_update": "2026-07-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05396885",
+          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+          "official_title": "A Phase II Study of CART-ddBCMA for the Treatment of Patients With Relapsed or Refractory Multiple Myeloma",
+          "acronym": "iMMagine-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 136,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-15",
+          "primary_completion": "2026-12",
+          "completion": "2026-12",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04155749",
+          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+          "official_title": "Master Protocol for the Phase 1 Study of Cell Therapies for the Treatment of Patients With Relapsed Refractory Multiple Myeloma, Including Long-term Safety Follow-up",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Relapsed and Refractory Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
+            "Establish the RP2D of the investigational agent"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-23",
+          "primary_completion": "2024-10-03",
+          "completion": "2027-05",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "anito-cel",
+          "anitocabtagene",
+          "autoleucel",
+          "Anito-cel"
+        ],
+        "sponsor": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ],
+        "sponsor_en": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "bd5103b9c10f0830": {
+    "id": "bd5103b9c10f0830",
+    "title": "国产PDE4B抑制剂III期头对头赢下安进",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [
+          "NCT07712731"
+        ],
+        "drug": [
+          "HY1999",
+          "HPP737",
+          "PALI-2108"
+        ],
+        "sponsor": [
+          "与恒翼生物",
+          "均由恒翼生物",
+          "海美迪西生物",
+          "医药股份"
+        ],
+        "sponsor_en": [
+          "与恒翼生物",
+          "均由恒翼生物",
+          "海美迪西生物",
+          "医药股份"
+        ]
+      },
+      "note": "注册库检索到 5 个试验，但没有一个能对上主药名「HY1999」（其余抽到的药名多为对照药，不作依据），判定为不匹配，不采用"
+    }
+  },
+  "64e90b90d0d0f17a": {
+    "id": "64e90b90d0d0f17a",
+    "title": "医药科技简讯 | 国产首款！信达生物IGF-1R抗体III期告捷",
+    "score": 7.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05795621",
+        "title": "A Study of IBI311 in Subjects With Active Thyroid Eye Disease",
+        "official_title": "A Multicenter, Randomized, Double-masked, Placebo-controlled Phase II/III Study Evaluating the Efficacy and Safety of IBI311 in Subjects With Active Thyroid Eye Disease",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+        "conditions": [
+          "Thyroid Eye Disease"
+        ],
+        "interventions": [
+          "IBI311",
+          "placebo"
+        ],
+        "primary_outcomes": [
+          "The proptosis responder rate of the study eye (defined as percentage of subjects with a ≥ 2mm reduction from Baseline in proptosis in the study eye, without deterioration [≥ 2 mm increase] of proptosis in the non-study eye)."
+        ],
+        "enrollment": 115,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-02-14",
+        "primary_completion": "2023-12-20",
+        "completion": "2023-12-20",
+        "last_update": "2024-02-08",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05795621",
+          "title": "A Study of IBI311 in Subjects With Active Thyroid Eye Disease",
+          "official_title": "A Multicenter, Randomized, Double-masked, Placebo-controlled Phase II/III Study Evaluating the Efficacy and Safety of IBI311 in Subjects With Active Thyroid Eye Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "conditions": [
+            "Thyroid Eye Disease"
+          ],
+          "interventions": [
+            "IBI311",
+            "placebo"
+          ],
+          "primary_outcomes": [
+            "The proptosis responder rate of the study eye (defined as percentage of subjects with a ≥ 2mm reduction from Baseline in proptosis in the study eye, without deterioration [≥ 2 mm increase] of proptosis in the non-study eye)."
+          ],
+          "enrollment": 115,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-02-14",
+          "primary_completion": "2023-12-20",
+          "completion": "2023-12-20",
+          "last_update": "2024-02-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06126783",
+          "title": "A Multicenter, Open-label Extension Study Evaluating the Efficacy and Safety of IBI311 in Subjects With Thyroid Eye Disease",
+          "official_title": "A Multicenter, Open-label Extension Study Evaluating the Efficacy and Safety of IBI311 in Subjects With Thyroid Eye Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "conditions": [
+            "Thyroid Eye Disease, TED"
+          ],
+          "interventions": [
+            "IBI311"
+          ],
+          "primary_outcomes": [
+            "The response rate of exophthalmos was studied."
+          ],
+          "enrollment": 91,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-10-20",
+          "primary_completion": "2025-09-23",
+          "completion": "2025-09-23",
+          "last_update": "2026-05-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06269393",
+          "title": "A Study of IBI311 in Subjects With Steroid-resistant, Thyroid Associated Ophthalmopathy",
+          "official_title": "An Exploratory Study of the Efficacy and Safety of IBI311, a Modified Anti-IGF-1R Antibody, in Patients With Steroid-resistant, Thyroid Associated Ophthalmopathy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Peking University People's Hospital",
+          "conditions": [
+            "Thyroid Associated Ophthalmopathy"
+          ],
+          "interventions": [
+            "Placebo",
+            "IBI311"
+          ],
+          "primary_outcomes": [
+            "The proptosis responder rate (defined as percentage of subjects with a ≥ 2mm reduction from baseline in proptosis in the study eye, without deterioration [≥ 2 mm increase] of proptosis in the non-study eye) of the study eye."
+          ],
+          "enrollment": 53,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-01-01",
+          "primary_completion": "2025-04-03",
+          "completion": "2025-07-03",
+          "last_update": "2026-03-24",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "IBI311",
+          "CD122",
+          "FB102"
+        ],
+        "sponsor": [
+          "医药科技",
+          "信达生物",
+          "信达生物制药",
+          "Protagonist Therapeutics"
+        ],
+        "sponsor_en": [
+          "医药科技",
+          "Innovent",
+          "Innovent",
+          "Protagonist Therapeutics"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "dcdf1c28c50d7c95": {
+    "id": "dcdf1c28c50d7c95",
+    "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "safiglipron",
+          "dapagliflozin",
+          "tested"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "86346d9e266f48b1": {
+    "id": "86346d9e266f48b1",
+    "title": "速递｜安进AMG133启动1300例三期，每月一针头对头叫板司美格鲁肽",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT07428525",
+        "title": "A Study to Evaluate AMG 133 in Participants With Varying Degrees of Hepatic Impairment or Normal Hepatic Function",
+        "official_title": "A Phase 1, Open-label, Single-Dose Study to Evaluate the Pharmacokinetics of AMG 133 in Participants With Varying Degrees of Hepatic Impairment or Normal Hepatic Function",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1",
+        "sponsor": "Amgen",
+        "conditions": [
+          "Hepatic Impairment"
+        ],
+        "interventions": [
+          "AMG 133"
+        ],
+        "primary_outcomes": [
+          "Maximum Observed Plasma Concentration (Cmax) of AMG 133",
+          "Area Under the Plasma Concentration-time Curve (AUC) from Time Zero to Time of Last Quantifiable Concentration (AUClast) of AMG 133",
+          "AUC from Time Zero to Infinity (AUCinf) of AMG 133"
+        ],
+        "enrollment": 36,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2025-03-14",
+        "primary_completion": "2026-02-26",
+        "completion": "2026-02-26",
+        "last_update": "2026-03-11",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07428525",
+          "title": "A Study to Evaluate AMG 133 in Participants With Varying Degrees of Hepatic Impairment or Normal Hepatic Function",
+          "official_title": "A Phase 1, Open-label, Single-Dose Study to Evaluate the Pharmacokinetics of AMG 133 in Participants With Varying Degrees of Hepatic Impairment or Normal Hepatic Function",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Amgen",
+          "conditions": [
+            "Hepatic Impairment"
+          ],
+          "interventions": [
+            "AMG 133"
+          ],
+          "primary_outcomes": [
+            "Maximum Observed Plasma Concentration (Cmax) of AMG 133",
+            "Area Under the Plasma Concentration-time Curve (AUC) from Time Zero to Time of Last Quantifiable Concentration (AUClast) of AMG 133",
+            "AUC from Time Zero to Infinity (AUCinf) of AMG 133"
+          ],
+          "enrollment": 36,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-03-14",
+          "primary_completion": "2026-02-26",
+          "completion": "2026-02-26",
+          "last_update": "2026-03-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AMG133",
+          "cafraglutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
