@@ -186,7 +186,11 @@ def record_published(topics: list[dict], today: str | None = None,
     ⚠️ 只记录真正写成稿的，不要记录抓取到的全部条目。
     记录全部会把"没写过的高分条目"永久埋掉——见 filter_history 的坑二。
 
-    topics: [{"lead_id":..., "title":...}, ...]
+    ⚠️ 必须一并记录 cluster_key。同一件临床事件常被多个源报道，
+    标题措辞差异大（模糊匹配拦不住），但 cluster_key 相同。
+    不记 cluster_key 的话，同一件事会被不同源各发一遍。
+
+    topics: [{"lead_id":..., "title":..., "cluster_key":...}, ...]
     """
     today = today or today_cst()
     data = read_json(SEEN_FILE, {})
@@ -199,13 +203,33 @@ def record_published(topics: list[dict], today: str | None = None,
         title = t.get("title") or ""
         if not tid or tid in known:
             continue
-        entries.append({"id": tid, "title": title, "date": today})
+        entries.append({"id": tid, "title": title, "date": today,
+                        "cluster_key": t.get("cluster_key") or ""})
         known.add(tid)
         added += 1
 
     entries = entries[-cap:]
     write_json(SEEN_FILE, {"version": 3, "entries": entries})
     print(f"  [seen] 记录已发表 {added} 篇（库中共 {len(entries)} 篇）")
+
+
+def published_cluster_keys(today: str) -> set[str]:
+    """
+    今天已发表过的 cluster_key 集合。
+
+    用途：防止"同一件临床事件、不同源的不同标题"被重复写成两篇。
+    实测踩坑：众生药业 RAY1225 的 III 期结果，摩熵医药和药时代
+    各报一次，标题措辞差很远（模糊去重拦不住），于是发了两篇。
+
+    只限今天——跨天不限制，因为同一个药后续会有新的读出
+    （II 期今天、III 期下个月），那是不同的新闻。
+    """
+    data = read_json(SEEN_FILE, {})
+    out = set()
+    for e in _load_entries(data):
+        if e.get("date") == today and e.get("cluster_key"):
+            out.add(str(e["cluster_key"]))
+    return out
 
 
 def run(date: str | None = None) -> list[RawItem]:

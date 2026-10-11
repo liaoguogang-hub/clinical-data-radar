@@ -67,12 +67,26 @@ def _evidence(s: dict) -> int:
 
 
 def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
-                        cluster_max: int = 3) -> list[dict]:
+                        cluster_max: int = 3,
+                        published_ck: set[str] | None = None) -> list[dict]:
     """单个栏目内的选题逻辑"""
+    published_ck = published_ck or set()
+
     # 排除已发表与低置信度
+    #
+    # ⚠️ 按 cluster_key 排除是必需的，不能只按 lead_id。
+    # 实测踩坑：众生药业 RAY1225 的 III 期结果，摩熵医药和药时代
+    # 各报一次，标题措辞差很远（模糊去重拦不住 lead_id 也不同），
+    # 结果同一件事发了两篇稿。cluster_key 是"同一件临床事件"的标识，
+    # 用它去重才拦得住跨源重复。
+    before = len(pool)
     pool = [s for s in pool
             if s["id"][:8] not in published
-            and "not_clinical" not in (s.get("flags") or [])]
+            and "not_clinical" not in (s.get("flags") or [])
+            and (s.get("cluster_key") or "") not in published_ck]
+    dropped = before - len(pool)
+    if dropped:
+        print(f"    （排除已发表/已覆盖 {dropped} 条）")
 
     clusters: dict[str, list[dict]] = defaultdict(list)
     singles: list[dict] = []
@@ -117,7 +131,9 @@ def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
             break
         plan.append({
             "type": s.get("article_type") or "readout",
-            "cluster_key": None,
+            # 保留 cluster_key：成稿后要写进 seen.json，
+            # 供"同一事件、不同源"的同日去重使用（见 _select_for_channel）
+            "cluster_key": s.get("cluster_key") or None,
             "lead_id": s["id"],
             "title": s.get("title", ""),
             "score": s.get("score", 0),
@@ -154,6 +170,12 @@ def run(date: str | None = None) -> dict:
     published = _published_leads(date)
     if published:
         print(f"[select] 排除已发表 {len(published)} 篇")
+    # 今天已覆盖的临床事件（cluster_key），防止跨源重复
+    from dedupe import published_cluster_keys
+    published_ck = published_cluster_keys(date)
+    if published_ck:
+        print(f"[select] 今日已覆盖事件 {len(published_ck)} 个："
+              f"{'、'.join(sorted(published_ck)[:5])}")
 
     pool = [s for s in scored
             if s.get("score", 0) >= keep_thr
@@ -180,7 +202,8 @@ def run(date: str | None = None) -> dict:
     plan: list[dict] = []
     for ch in ("china", "global"):
         dmax = channels.get(ch, {}).get("daily_max", cfg.get("daily_max", 3))
-        got = _select_for_channel(by_chan[ch], dmax, published, cluster_max)
+        got = _select_for_channel(by_chan[ch], dmax, published, cluster_max,
+                                  published_ck)
         label = channels.get(ch, {}).get("label", ch)
         print(f"\n  [{label}] 选定 {len(got)} 篇")
         for p in got:
@@ -193,7 +216,7 @@ def run(date: str | None = None) -> dict:
         print("\n[select] 两栏目均为空，放宽到全池前三")
         plan = _select_for_channel(
             sorted(pool, key=lambda x: -x.get("score", 0)),
-            cfg.get("daily_max", 3), published, cluster_max)
+            cfg.get("daily_max", 3), published, cluster_max, published_ck)
 
     for i, p in enumerate(plan, 1):
         p["_idx"] = i

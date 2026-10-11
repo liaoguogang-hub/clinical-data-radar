@@ -774,8 +774,13 @@ def run(date: str | None = None) -> list[dict]:
 
     # 把【已发表】的选题写进 seen.json，作为跨天去重基准。
     # 只记写成的，不记抓到的——否则没入选的高分条目会被永久埋掉。
+    #
+    # ⚠️ cluster_key 必须一并记录。同一件临床事件常被多个源报道，
+    # 标题措辞差异大（模糊匹配拦不住），只有 cluster_key 相同。
+    # 不记的话，同一件事会被不同源各发一遍（实测踩过）。
     published = [
-        {"lead_id": it.get("lead_id"), "title": it.get("title", "")}
+        {"lead_id": it.get("lead_id"), "title": it.get("title", ""),
+         "cluster_key": it.get("cluster_key") or ""}
         for it, r in zip(plan["plan"], results)
         if r.get("ok")
     ]

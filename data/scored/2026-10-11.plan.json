@@ -1,116 +1,62 @@
 {
   "date": "2026-10-11",
-  "count": 4,
+  "count": 2,
   "plan": [
     {
       "type": "readout",
-      "cluster_key": null,
-      "lead_id": "455af6d0f6ed5f5e",
-      "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
-      "score": 6.5,
-      "channel": "china",
+      "cluster_key": "drug:anito-cel",
+      "lead_id": "15b408b2a16a0b7c",
+      "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+      "score": 7.0,
+      "channel": "global",
       "member_ids": [
-        "455af6d0f6ed5f5e"
+        "15b408b2a16a0b7c"
       ],
       "members": [
         {
-          "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
-          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382940",
-          "score": 6.5,
-          "reasoning": "与条目92e52ccf为同药（RAY1225）同结果，III期成功全球首个双周GLP-1R/GIPR激动剂，但为公司公告无正式统计量，依据文本「积极结果」。"
+          "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+          "url": "http://news.bioon.com/article/e4c095418330.html",
+          "score": 7.0,
+          "reasoning": "Anito-cel治疗R/R多发性骨髓瘤I期试验发表于NEJM，38例全部应答（ORR 100%），近80%完全缓解，3年生存65%；疗效数字极为亮眼，但I期单臂小样本（n=38，适用small_n -0.5），尚无正式主要终点统计声明，依据为疗效数据。"
         }
       ],
-      "reasoning": "与条目92e52ccf为同药（RAY1225）同结果，III期成功全球首个双周GLP-1R/GIPR激动剂，但为公司公告无正式统计量，依据文本「积极结果」。",
+      "reasoning": "Anito-cel治疗R/R多发性骨髓瘤I期试验发表于NEJM，38例全部应答（ORR 100%），近80%完全缓解，3年生存65%；疗效数字极为亮眼，但I期单臂小样本（n=38，适用small_n -0.5），尚无正式主要终点统计声明，依据为疗效数据。",
+      "verify_todo": [
+        "核查原始NEJM文章主要终点设计及统计声明"
+      ],
+      "flags": [
+        "positive_data",
+        "single_arm",
+        "small_n"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:safiglipron",
+      "lead_id": "dcdf1c28c50d7c95",
+      "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+      "score": 6.0,
+      "channel": "global",
+      "member_ids": [
+        "dcdf1c28c50d7c95"
+      ],
+      "members": [
+        {
+          "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+          "url": "https://www.nature.com/articles/s41591-026-04713-y",
+          "score": 6.0,
+          "reasoning": "Nature Medicine正式发表III期研究结果：口服safiglipron在所有测试剂量非劣于dapagliflozin（HbA1c），90mg剂量显示优效性，有统计检验。顶刊发表数据可信度最高（2.0分）。但糖尿病/减重领域竞争激烈（GLP-1类主导），口服GLP-1RA虽有差异化（口服vs注射），市场空间受竞品挤压。"
+        }
+      ],
+      "reasoning": "Nature Medicine正式发表III期研究结果：口服safiglipron在所有测试剂量非劣于dapagliflozin（HbA1c），90mg剂量显示优效性，有统计检验。顶刊发表数据可信度最高（2.0分）。但糖尿病/减重领域竞争激烈（GLP-1类主导），口服GLP-1RA虽有差异化（口服vs注射），市场空间受竞品挤压。",
       "verify_todo": [],
       "flags": [
         "met"
       ],
       "endpoint_verdict": "met",
-      "_idx": 1
-    },
-    {
-      "type": "readout",
-      "cluster_key": null,
-      "lead_id": "f027e45149fee65e",
-      "title": "<![CDATA[Iberdomide Triplet Improves PFS by 51% in Phase 3 Myeloma Trial]]>",
-      "score": 8.9,
-      "channel": "global",
-      "member_ids": [
-        "f027e45149fee65e"
-      ],
-      "members": [
-        {
-          "title": "<![CDATA[Iberdomide Triplet Improves PFS by 51% in Phase 3 Myeloma Trial]]>",
-          "url": "https://www.targetedonc.com/view/iberdomide-excaliber-rrmm-pfs-benefit-myeloma",
-          "score": 8.9,
-          "reasoning": "III期EXCALIBER研究达到PFS主要终点，Iberdomide三联疗法PFS改善51%，有统计检验结果（HR/p值/CI）。III期注册试验规模大，数据来源为Onclive/Targeted Oncology头条报道，来源可信度较高。复发难治多发性骨髓瘤未满足需求高（现有疗法疗效有限），为首次III期成功读出。"
-        }
-      ],
-      "reasoning": "III期EXCALIBER研究达到PFS主要终点，Iberdomide三联疗法PFS改善51%，有统计检验结果（HR/p值/CI）。III期注册试验规模大，数据来源为Onclive/Targeted Oncology头条报道，来源可信度较高。复发难治多发性骨髓瘤未满足需求高（现有疗法疗效有限），为首次III期成功读出。",
-      "verify_todo": [
-        "核查NCT注册库完整统计结果及Nature Medicine发表状态"
-      ],
-      "flags": [
-        "met"
-      ],
-      "endpoint_verdict": "met",
       "_idx": 2
-    },
-    {
-      "type": "readout",
-      "cluster_key": null,
-      "lead_id": "c7272e70b751dd3c",
-      "title": "Kodiak股价暴涨177.96%！III期DAYBREAK临床成功，Zenkuda与tabirafusp-ted同步击败非劣终点",
-      "score": 8.1,
-      "channel": "global",
-      "member_ids": [
-        "c7272e70b751dd3c"
-      ],
-      "members": [
-        {
-          "title": "Kodiak股价暴涨177.96%！III期DAYBREAK临床成功，Zenkuda与tabirafusp-ted同步击败非劣终点",
-          "url": "https://www.pharnexcloud.com/zixun/sx_381804",
-          "score": 8.1,
-          "reasoning": "III期DAYBREAK研究Zenkuda和tabirafusp-ted均达到一年BCVA变化的非劣效主要终点，有统计结论（非劣效性预设界值）。54%患者实现6个月给药间隔为重大临床差异化亮点。两款候选药同步达标为行业级事件。依据为统计结论（预设非劣界值+统计检验），公司顶线数据可信度中高。"
-        }
-      ],
-      "reasoning": "III期DAYBREAK研究Zenkuda和tabirafusp-ted均达到一年BCVA变化的非劣效主要终点，有统计结论（非劣效性预设界值）。54%患者实现6个月给药间隔为重大临床差异化亮点。两款候选药同步达标为行业级事件。依据为统计结论（预设非劣界值+统计检验），公司顶线数据可信度中高。",
-      "verify_todo": [
-        "核查注册库完整统计结果及非劣界值设定"
-      ],
-      "flags": [
-        "met"
-      ],
-      "endpoint_verdict": "met",
-      "_idx": 3
-    },
-    {
-      "type": "readout",
-      "cluster_key": null,
-      "lead_id": "d4b8b4b0fc5375cb",
-      "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
-      "score": 7.8,
-      "channel": "global",
-      "member_ids": [
-        "d4b8b4b0fc5375cb"
-      ],
-      "members": [
-        {
-          "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
-          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01804-0/fulltext?rss=yes",
-          "score": 7.8,
-          "reasoning": "ROAM/EORTC-1308 III期随机对照试验（Lancet发表），结论明确建议'考虑辅助放疗以减少脑膜瘤复发'，提示主要终点（无复发生存）达成；但摘要未直接声明统计检验结果，依据为积极结论表述。罕见肿瘤适应症，未满足需求加分。"
-        }
-      ],
-      "reasoning": "ROAM/EORTC-1308 III期随机对照试验（Lancet发表），结论明确建议'考虑辅助放疗以减少脑膜瘤复发'，提示主要终点（无复发生存）达成；但摘要未直接声明统计检验结果，依据为积极结论表述。罕见肿瘤适应症，未满足需求加分。",
-      "verify_todo": [
-        "核查注册库NCT编号及主要终点具体统计结果"
-      ],
-      "flags": [
-        "positive_data"
-      ],
-      "endpoint_verdict": "positive_data",
-      "_idx": 4
     }
   ]
 }
