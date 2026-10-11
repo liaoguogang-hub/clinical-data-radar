@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-12",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:allogeneic-car-t-sle",
+      "lead_id": "a1b04a7865783d86",
+      "title": "登顶《自然·医学》！中国狼疮新疗法重大突破：无需定制、现货可用，6成患者实现临床完全缓解",
+      "score": 8.0,
+      "channel": "china",
+      "member_ids": [
+        "a1b04a7865783d86"
+      ],
+      "members": [
+        {
+          "title": "登顶《自然·医学》！中国狼疮新疗法重大突破：无需定制、现货可用，6成患者实现临床完全缓解",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_383103",
+          "score": 8.0,
+          "reasoning": "登顶Nature Medicine——同种异体CAR-T治疗SLE，'6成患者实现临床完全缓解'为明确疗效数据；SLE为典型未满足需求；国产同类首创；数据成熟度因顶刊发表而提升。"
+        }
+      ],
+      "reasoning": "登顶Nature Medicine——同种异体CAR-T治疗SLE，'6成患者实现临床完全缓解'为明确疗效数据；SLE为典型未满足需求；国产同类首创；数据成熟度因顶刊发表而提升。",
+      "verify_todo": [
+        "获取具体样本量、主要终点定义及统计量"
+      ],
+      "flags": [],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:tefuynab-ibrutinib",
+      "lead_id": "64e90b90d0d0f17a",
+      "title": "医药科技简讯 | 国产首款！信达生物IGF-1R抗体III期告捷",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "64e90b90d0d0f17a"
+      ],
+      "members": [
+        {
+          "title": "医药科技简讯 | 国产首款！信达生物IGF-1R抗体III期告捷",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_383096",
+          "score": 7.5,
+          "reasoning": "信达IBI311（IGF-1R抗体）Ⅲ期研究'达成第24周主要研究终点'——统计结论明确；甲状腺眼病中国尚无有效药物，属国产首款该靶点药物；公司公告，无同行评审但可信度尚可。"
+        }
+      ],
+      "reasoning": "信达IBI311（IGF-1R抗体）Ⅲ期研究'达成第24周主要研究终点'——统计结论明确；甲状腺眼病中国尚无有效药物，属国产首款该靶点药物；公司公告，无同行评审但可信度尚可。",
+      "verify_todo": [
+        "核实具体主要终点数值、p值及是否支持NDA申报"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:prifemilast",
+      "lead_id": "bd5103b9c10f0830",
+      "title": "国产PDE4B抑制剂III期头对头赢下安进",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "bd5103b9c10f0830"
+      ],
+      "members": [
+        {
+          "title": "国产PDE4B抑制剂III期头对头赢下安进",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_383102",
+          "score": 6.5,
+          "reasoning": "国产PDE4B抑制剂prifemilast三项研究数据发布，标题明确'头对头赢下安进'（阿普司特），607例中重度斑块状银屑病III期研究，壁报形式发布；中国首个该靶点III期数据；但壁报可信度低于口头报告。"
+        }
+      ],
+      "reasoning": "国产PDE4B抑制剂prifemilast三项研究数据发布，标题明确'头对头赢下安进'（阿普司特），607例中重度斑块状银屑病III期研究，壁报形式发布；中国首个该靶点III期数据；但壁报可信度低于口头报告。",
+      "verify_todo": [
+        "获取PASI-75等具体主要终点数值及p值，核实是否达到预设非劣/优效界值"
+      ],
+      "flags": [],
+      "endpoint_verdict": "positive_data",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:astrazeneca-bone-disease-ert",
+      "lead_id": "62fcc609d87c70d6",
+      "title": "AstraZeneca blames trial design for Phase 3 failure of bone disease drug",
+      "score": 8.5,
+      "channel": "global",
+      "member_ids": [
+        "62fcc609d87c70d6"
+      ],
+      "members": [
+        {
+          "title": "AstraZeneca blames trial design for Phase 3 failure of bone disease drug",
+          "url": "https://endpoints.news/astrazeneca-blames-trial-design-for-phase-3-failure-of-bone-disease-drug/",
+          "score": 8.5,
+          "reasoning": "标题明确'AstraZeneca Phase 3 failure'，虽无统计量但失败结论明确；骨病属于未满足需求；Phase 3失败是行业级事件，提升权重。"
+        }
+      ],
+      "reasoning": "标题明确'AstraZeneca Phase 3 failure'，虽无统计量但失败结论明确；骨病属于未满足需求；Phase 3失败是行业级事件，提升权重。",
+      "verify_todo": [
+        "核实注册库具体NCT编号、试验终点及失败原因细节"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:anito-cel",
+      "lead_id": "15b408b2a16a0b7c",
+      "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "15b408b2a16a0b7c"
+      ],
+      "members": [
+        {
+          "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+          "url": "http://news.bioon.com/article/e4c095418330.html",
+          "score": 7.5,
+          "reasoning": "NEJM正式发表的1期临床数据，38例复发/难治多发性骨髓瘤患者ORR 100%（CR ~80%），3年OS 65%，无迟发神经毒性——疗效数字极为积极，但I期单臂试验未预设主要终点统计假设，p值/CI未明确报道，按规则归入positive_data而非met。"
+        }
+      ],
+      "reasoning": "NEJM正式发表的1期临床数据，38例复发/难治多发性骨髓瘤患者ORR 100%（CR ~80%），3年OS 65%，无迟发神经毒性——疗效数字极为积极，但I期单臂试验未预设主要终点统计假设，p值/CI未明确报道，按规则归入positive_data而非met。",
+      "verify_todo": [
+        "核查NEJM原文是否包含预设主要终点及p值"
+      ],
+      "flags": [
+        "positive_data",
+        "single_arm",
+        "small_n"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 5
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:datopotamab-deruxtecan",
+      "lead_id": "b926f70b60d23763",
+      "title": "卓越·制胜局丨殷咏梅教授：Dato-DXd获批TNBC一线治疗适应症，树立晚期TNBC新里程碑",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "b926f70b60d23763"
+      ],
+      "members": [
+        {
+          "title": "卓越·制胜局丨殷咏梅教授：Dato-DXd获批TNBC一线治疗适应症，树立晚期TNBC新里程碑",
+          "url": "https://bydrug.pharmcube.com/news/detail/ce68a42c27b4214ccd192eaa0a6bce72",
+          "score": 7.0,
+          "reasoning": "Dato-DXd获批TNBC一线治疗属Regulatory approval（临床终点结果），复发/难治性TNBC预后差、未满足需求高；Dato-DXd为全球首个TROP2 ADC。"
+        }
+      ],
+      "reasoning": "Dato-DXd获批TNBC一线治疗属Regulatory approval（临床终点结果），复发/难治性TNBC预后差、未满足需求高；Dato-DXd为全球首个TROP2 ADC。",
+      "verify_todo": [
+        "核实获批具体适应症描述（一线/后线）及支持该适应症的注册试验数据"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 6
+    }
+  ]
+}
