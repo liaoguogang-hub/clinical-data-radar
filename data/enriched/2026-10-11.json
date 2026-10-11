@@ -1,8 +1,8 @@
 {
-  "cf3d732cc1110bc0": {
-    "id": "cf3d732cc1110bc0",
-    "title": "重磅！帕金森FIC口服疗法3期成功",
-    "score": 8.5,
+  "c7272e70b751dd3c": {
+    "id": "c7272e70b751dd3c",
+    "title": "Kodiak股价暴涨177.96%！III期DAYBREAK临床成功，Zenkuda与tabirafusp-ted同步击败非劣终点",
+    "score": 8.1,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -10,7 +10,7 @@
         "basis": "textual",
         "confidence": 0.75,
         "evidence": [
-          "达到表述:3期成功"
+          "达到表述:临床成功"
         ]
       },
       "statistical": null,
@@ -19,29 +19,44 @@
       "basis": "textual",
       "confidence": 0.5,
       "evidence": [
-        "达到表述:3期成功"
+        "达到表述:临床成功"
       ],
       "conflict": false,
       "halt_reason": "",
       "note": "注册库未找到对应试验，结论仅来自新闻措辞"
     },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:3期成功",
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:临床成功",
     "registry": {
       "best": {},
       "trials": [],
       "terms": {
         "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
+        "drug": [
+          "tabirafusp-ted",
+          "tarcocimab",
+          "KSI-501",
+          "KSI-101"
+        ],
+        "sponsor": [
+          "生物科技",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "生物科技",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
       },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+      "note": "注册库未找到相关度足够的试验"
     }
   },
   "1deb4e2b8ce81443": {
     "id": "1deb4e2b8ce81443",
     "title": "[Articles] Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial",
-    "score": 8.0,
+    "score": 7.8,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -256,237 +271,75 @@
       "note": ""
     }
   },
-  "92e52ccf48e277ed": {
-    "id": "92e52ccf48e277ed",
-    "title": "长效减重新选择，全球首个双周给药GLP‑1R/GIPR双受体激动剂临床三期成功",
+  "d4b8b4b0fc5375cb": {
+    "id": "d4b8b4b0fc5375cb",
+    "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
     "score": 7.8,
-    "channel": "china",
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:benefit"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:benefit"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:benefit",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "EORTC-1308"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "cf3d732cc1110bc0": {
+    "id": "cf3d732cc1110bc0",
+    "title": "重磅！帕金森FIC口服疗法3期成功",
+    "score": 7.3,
+    "channel": "global",
     "verdict": {
       "textual": {
         "verdict": "met",
         "basis": "textual",
         "confidence": 0.75,
         "evidence": [
-          "达到表述:取得积极结果"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:取得积极结果"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
-    "registry": {
-      "best": {
-        "nct": "NCT06893016",
-        "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
-        "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
-        "acronym": "",
-        "status": "RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-        "conditions": [
-          "Obesity"
-        ],
-        "interventions": [
-          "RAY1225",
-          "Placebo"
-        ],
-        "primary_outcomes": [
-          "Percent Change From Baseline in Body Weight at Week 52",
-          "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
-        ],
-        "enrollment": 640,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2025-06-15",
-        "primary_completion": "2026-06-15",
-        "completion": "2026-09-15",
-        "last_update": "2025-07-17",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "China"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT06893016",
-          "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
-          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-          "conditions": [
-            "Obesity"
-          ],
-          "interventions": [
-            "RAY1225",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Percent Change From Baseline in Body Weight at Week 52",
-            "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
-          ],
-          "enrollment": 640,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-06-15",
-          "primary_completion": "2026-06-15",
-          "completion": "2026-09-15",
-          "last_update": "2025-07-17",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07139535",
-          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
-          "official_title": "A Randomized, Double-blind, Placebo-Controlled Trial Comparing the Efficacy and Safety of RAY1225 Versus Placebo in Patients With Type 2 Diabetes, Inadequately Controlled With Diet and Exercise Alone",
-          "acronym": "",
-          "status": "NOT_YET_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-          "conditions": [
-            "T2DM"
-          ],
-          "interventions": [
-            "RAY1225",
-            "placebo"
-          ],
-          "primary_outcomes": [
-            "Change From Baseline in Hemoglobin A1c (HbA1c)"
-          ],
-          "enrollment": 350,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-08-31",
-          "primary_completion": "2026-12-01",
-          "completion": "2026-12-31",
-          "last_update": "2025-08-24",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06254274",
-          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes",
-          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants With Type 2 Diabetes",
-          "acronym": "",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-          "conditions": [
-            "T2DM (Type 2 Diabetes Mellitus)"
-          ],
-          "interventions": [
-            "RAY1225",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Change From Baseline in Hemoglobin A1c (HbA1c)"
-          ],
-          "enrollment": 210,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2024-02-26",
-          "primary_completion": "2025-12-20",
-          "completion": "2025-12-20",
-          "last_update": "2025-08-05",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "RAY1225",
-          "Bilpatide"
-        ],
-        "sponsor": [
-          "众生药业"
-        ],
-        "sponsor_en": [
-          "众生药业"
-        ]
-      },
-      "note": ""
-    }
-  },
-  "8fbb942e627917be": {
-    "id": "8fbb942e627917be",
-    "title": "脑癌疫苗Ⅱ期未达终点，公司仍有信心",
-    "score": 7.2,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "missed",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "未达到表述:未达终点"
+          "达到表述:3期成功"
         ]
       },
       "statistical": null,
       "numbers": null,
-      "verdict": "missed",
+      "verdict": "met",
       "basis": "textual",
       "confidence": 0.5,
       "evidence": [
-        "未达到表述:未达终点"
+        "达到表述:3期成功"
       ],
       "conflict": false,
       "halt_reason": "",
       "note": "注册库未找到对应试验，结论仅来自新闻措辞"
     },
-    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：未达到表述:未达终点",
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:3期成功",
     "registry": {
       "best": {},
       "trials": [],
@@ -499,19 +352,17 @@
       "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
-  "455af6d0f6ed5f5e": {
-    "id": "455af6d0f6ed5f5e",
-    "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
-    "score": 7.8,
-    "channel": "china",
+  "f027e45149fee65e": {
+    "id": "f027e45149fee65e",
+    "title": "<![CDATA[Iberdomide Triplet Improves PFS by 51% in Phase 3 Myeloma Trial]]>",
+    "score": 8.9,
+    "channel": "global",
     "verdict": {
       "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:研究成功"
-        ]
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
       },
       "statistical": {
         "verdict": "unknown",
@@ -520,47 +371,47 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:研究成功"
-      ],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:研究成功",
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
     "registry": {
       "best": {
-        "nct": "NCT06893016",
-        "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
-        "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
+        "nct": "NCT04564703",
+        "title": "Iberdomide (Cc220) Maintenance After Asct in Newly Diagnosed MM Patients",
+        "official_title": "Phase II Study of Iberdomide (Cc220) Maintenance After Autologous Stem Cell Transplantation in Newly Diagnosed Multiple Myeloma Patients",
         "acronym": "",
-        "status": "RECRUITING",
+        "status": "ACTIVE_NOT_RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+        "phase": "PHASE2",
+        "sponsor": "Stichting European Myeloma Network",
         "conditions": [
-          "Obesity"
+          "Multiple Myeloma"
         ],
         "interventions": [
-          "RAY1225",
-          "Placebo"
+          "Iberdomide"
         ],
         "primary_outcomes": [
-          "Percent Change From Baseline in Body Weight at Week 52",
-          "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
+          "Efficacy: rate of improvement in response with iberdomide maintenance after autologous stem cell transplantation (ASCT)",
+          "Rate of dose reductions/discontinuations with iberdomide maintenance after ASCT"
         ],
-        "enrollment": 640,
+        "enrollment": 160,
         "enrollment_type": "ESTIMATED",
-        "start_date": "2025-06-15",
-        "primary_completion": "2026-06-15",
-        "completion": "2026-09-15",
-        "last_update": "2025-07-17",
+        "start_date": "2021-02-22",
+        "primary_completion": "2023-07-27",
+        "completion": "2027-12",
+        "last_update": "2026-07-16",
         "results_first_post": "",
         "has_results": false,
         "countries": [
-          "China"
+          "France",
+          "Greece",
+          "Italy",
+          "Netherlands"
         ],
         "results": {
           "primary": [],
@@ -572,111 +423,118 @@
       },
       "trials": [
         {
-          "nct": "NCT06893016",
-          "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
-          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-          "conditions": [
-            "Obesity"
-          ],
-          "interventions": [
-            "RAY1225",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Percent Change From Baseline in Body Weight at Week 52",
-            "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
-          ],
-          "enrollment": 640,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-06-15",
-          "primary_completion": "2026-06-15",
-          "completion": "2026-09-15",
-          "last_update": "2025-07-17",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07139535",
-          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
-          "official_title": "A Randomized, Double-blind, Placebo-Controlled Trial Comparing the Efficacy and Safety of RAY1225 Versus Placebo in Patients With Type 2 Diabetes, Inadequately Controlled With Diet and Exercise Alone",
-          "acronym": "",
-          "status": "NOT_YET_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
-          "conditions": [
-            "T2DM"
-          ],
-          "interventions": [
-            "RAY1225",
-            "placebo"
-          ],
-          "primary_outcomes": [
-            "Change From Baseline in Hemoglobin A1c (HbA1c)"
-          ],
-          "enrollment": 350,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-08-31",
-          "primary_completion": "2026-12-01",
-          "completion": "2026-12-31",
-          "last_update": "2025-08-24",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06254274",
-          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes",
-          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants With Type 2 Diabetes",
+          "nct": "NCT04564703",
+          "title": "Iberdomide (Cc220) Maintenance After Asct in Newly Diagnosed MM Patients",
+          "official_title": "Phase II Study of Iberdomide (Cc220) Maintenance After Autologous Stem Cell Transplantation in Newly Diagnosed Multiple Myeloma Patients",
           "acronym": "",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
           "phase": "PHASE2",
-          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "sponsor": "Stichting European Myeloma Network",
           "conditions": [
-            "T2DM (Type 2 Diabetes Mellitus)"
+            "Multiple Myeloma"
           ],
           "interventions": [
-            "RAY1225",
-            "Placebo"
+            "Iberdomide"
           ],
           "primary_outcomes": [
-            "Change From Baseline in Hemoglobin A1c (HbA1c)"
+            "Efficacy: rate of improvement in response with iberdomide maintenance after autologous stem cell transplantation (ASCT)",
+            "Rate of dose reductions/discontinuations with iberdomide maintenance after ASCT"
           ],
-          "enrollment": 210,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2024-02-26",
-          "primary_completion": "2025-12-20",
-          "completion": "2025-12-20",
-          "last_update": "2025-08-05",
+          "enrollment": 160,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-02-22",
+          "primary_completion": "2023-07-27",
+          "completion": "2027-12",
+          "last_update": "2026-07-16",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "China"
+            "France",
+            "Greece",
+            "Italy",
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04776395",
+          "title": "Iberdomide Alone or in Combination With Dexamethasone for the Treatment of Intermediate- or High-Risk Smoldering Multiple Myeloma",
+          "official_title": "Iberdomide in Intermediate- and High-Risk Smoldering Myeloma (SMM) Patients: A Phase 2 Study With a Safety Run-in",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Emory University",
+          "conditions": [
+            "Smoldering Plasma Cell Myeloma"
+          ],
+          "interventions": [
+            "Dexamethasone",
+            "Iberdomide Hydrochloride",
+            "Quality-of-Life Assessment"
+          ],
+          "primary_outcomes": [
+            "Overall response rate"
+          ],
+          "enrollment": 68,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-07-09",
+          "primary_completion": "2027-09-01",
+          "completion": "2029-09-01",
+          "last_update": "2026-06-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06518551",
+          "title": "Elotuzumab + Iberdomide + Dexamethasone Post Ide-Cel in RRMM",
+          "official_title": "A Phase I Study of Elotuzumab and Iberdomide and Dexamethasone Post Idecabtagene Vicleucel in Relapsed and Refractory Multiple Myeloma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Omar Nadeem, MD",
+          "conditions": [
+            "Myeloma",
+            "Multiple Myeloma",
+            "Refractory Multiple Myeloma"
+          ],
+          "interventions": [
+            "Elotuzumab",
+            "Iberdomide",
+            "Dexamethasone"
+          ],
+          "primary_outcomes": [
+            "Number of Participants Experiencing Dose Limiting Toxicity (DLT)",
+            "Maximum Tolerated Dose (MTD)"
+          ],
+          "enrollment": 49,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-11-01",
+          "primary_completion": "2029-12-31",
+          "completion": "2034-12-31",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
           ],
           "results": {
             "primary": [],
@@ -690,15 +548,10 @@
       "terms": {
         "nct": [],
         "drug": [
-          "RAY1225",
-          "Bilpatide"
+          "Iberdomide"
         ],
-        "sponsor": [
-          "众生药业"
-        ],
-        "sponsor_en": [
-          "众生药业"
-        ]
+        "sponsor": [],
+        "sponsor_en": []
       },
       "note": ""
     }
@@ -706,7 +559,7 @@
   "61cdacdcf8380079": {
     "id": "61cdacdcf8380079",
     "title": "<![CDATA[Iberdomide Plus Daratumumab/Dexamethasone Yields Significant PFS Benefit in R/R Myeloma]]>",
-    "score": 7.0,
+    "score": 8.9,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -913,94 +766,10 @@
       "note": ""
     }
   },
-  "dcdf1c28c50d7c95": {
-    "id": "dcdf1c28c50d7c95",
-    "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "safiglipron",
-          "dapagliflozin",
-          "tested"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "192d591bf8f2f979": {
-    "id": "192d591bf8f2f979",
-    "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
-    "score": 6.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [
-          "摩熵医药",
-          "年将受到生物",
-          "入驻摩熵医药",
-          "代表摩熵医药"
-        ],
-        "sponsor_en": [
-          "摩熵医药",
-          "年将受到生物",
-          "入驻摩熵医药",
-          "代表摩熵医药"
-        ]
-      },
-      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（摩熵医药、年将受到生物、入驻摩熵医药、代表摩熵医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
-    }
-  },
   "5bc154cf559cd60e": {
     "id": "5bc154cf559cd60e",
     "title": "君赛生物诺吉仑赛注射液II期数据亮眼拟纳入CDE优先审评，黑色素瘤治疗迎全球首款减负方案",
-    "score": 7.8,
+    "score": 7.7,
     "channel": "china",
     "verdict": {
       "textual": {
@@ -1206,53 +975,262 @@
       "note": ""
     }
   },
-  "c2e5b4a4dbd5084b": {
-    "id": "c2e5b4a4dbd5084b",
-    "title": "刚刚！FDA批准突破性抗病毒小分子",
-    "score": 6.5,
+  "15b408b2a16a0b7c": {
+    "id": "15b408b2a16a0b7c",
+    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+    "score": 7.0,
     "channel": "global",
     "verdict": {
       "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:全部应答"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
         "verdict": "unknown",
         "basis": "none",
-        "confidence": 0.2,
+        "confidence": 0.0,
         "evidence": []
       },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:全部应答"
+      ],
       "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+      "halt_reason": ""
     },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:全部应答",
     "registry": {
-      "best": {},
-      "trials": [],
+      "best": {
+        "nct": "NCT06413498",
+        "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+        "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+        "acronym": "iMMagine-3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Kite, A Gilead Company",
+        "conditions": [
+          "Multiple Myeloma"
+        ],
+        "interventions": [
+          "Anitocabtagene Autoleucel",
+          "Cyclophosphamide",
+          "Fludarabine",
+          "Pomalidomide",
+          "Bortezomib",
+          "Dexamethasone",
+          "Daratumumab",
+          "Carfilzomib"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)",
+          "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+        ],
+        "enrollment": 452,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-08-23",
+        "primary_completion": "2028-07",
+        "completion": "2031-07",
+        "last_update": "2026-07-29",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "Czechia",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Poland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06413498",
+          "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+          "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+          "acronym": "iMMagine-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Anitocabtagene Autoleucel",
+            "Cyclophosphamide",
+            "Fludarabine",
+            "Pomalidomide",
+            "Bortezomib",
+            "Dexamethasone",
+            "Daratumumab",
+            "Carfilzomib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+          ],
+          "enrollment": 452,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-08-23",
+          "primary_completion": "2028-07",
+          "completion": "2031-07",
+          "last_update": "2026-07-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05396885",
+          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+          "official_title": "A Phase II Study of CART-ddBCMA for the Treatment of Patients With Relapsed or Refractory Multiple Myeloma",
+          "acronym": "iMMagine-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 136,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-15",
+          "primary_completion": "2026-12",
+          "completion": "2026-12",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04155749",
+          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+          "official_title": "Master Protocol for the Phase 1 Study of Cell Therapies for the Treatment of Patients With Relapsed Refractory Multiple Myeloma, Including Long-term Safety Follow-up",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Relapsed and Refractory Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
+            "Establish the RP2D of the investigational agent"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-23",
+          "primary_completion": "2024-10-03",
+          "completion": "2027-05",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
       "terms": {
         "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
+        "drug": [
+          "anito-cel",
+          "anitocabtagene",
+          "autoleucel",
+          "Anito-cel"
+        ],
+        "sponsor": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ],
+        "sponsor_en": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ]
       },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+      "note": ""
     }
   },
-  "a68520aeadccc16d": {
-    "id": "a68520aeadccc16d",
-    "title": "这款罕见病药物2b期试验达成主要终点",
+  "92e52ccf48e277ed": {
+    "id": "92e52ccf48e277ed",
+    "title": "长效减重新选择，全球首个双周给药GLP‑1R/GIPR双受体激动剂临床三期成功",
     "score": 6.5,
-    "channel": "global",
+    "channel": "china",
     "verdict": {
       "textual": {
         "verdict": "met",
         "basis": "textual",
         "confidence": 0.75,
         "evidence": [
-          "达到表述:达成主要终点"
+          "达到表述:取得积极结果"
         ]
       },
       "statistical": {
@@ -1266,55 +1244,43 @@
       "basis": "textual",
       "confidence": 0.75,
       "evidence": [
-        "达到表述:达成主要终点"
+        "达到表述:取得积极结果"
       ],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达成主要终点",
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
     "registry": {
       "best": {
-        "nct": "NCT04968574",
-        "title": "A Study Evaluating the Safety and Efficacy of ENV-101 in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
-        "official_title": "A Phase 2, Multi-Center Study Evaluating the Safety and Efficacy of ENV-101 (Taladegib) in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+        "nct": "NCT06893016",
+        "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
+        "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
         "acronym": "",
-        "status": "COMPLETED",
+        "status": "RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE2",
-        "sponsor": "Endeavor Biomedicines, Inc.",
+        "phase": "PHASE3",
+        "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
         "conditions": [
-          "Idiopathic Pulmonary Fibrosis"
+          "Obesity"
         ],
         "interventions": [
-          "taladegib",
-          "placebo"
+          "RAY1225",
+          "Placebo"
         ],
         "primary_outcomes": [
-          "Change from baseline in frequency of adverse events (AEs)",
-          "Change from baseline in severity of AEs",
-          "Change from baseline in vital sign measurements - pulse",
-          "Change from baseline in vital sign measurements - blood pressure",
-          "Change from baseline in vital sign measurements - respiration rate",
-          "Change from baseline in vital sign measurements - temperature",
-          "Change from baseline in blood oxygen saturation level",
-          "Incidence of clinical laboratory abnormalities",
-          "Severity of clinical laboratory abnormalities",
-          "Number of hospitalizations"
+          "Percent Change From Baseline in Body Weight at Week 52",
+          "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
         ],
-        "enrollment": 41,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-08-26",
-        "primary_completion": "2023-11-30",
-        "completion": "2023-11-30",
-        "last_update": "2024-12-02",
+        "enrollment": 640,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-06-15",
+        "primary_completion": "2026-06-15",
+        "completion": "2026-09-15",
+        "last_update": "2025-07-17",
         "results_first_post": "",
         "has_results": false,
         "countries": [
-          "Australia",
-          "Canada",
-          "Malaysia",
-          "Mexico",
-          "South Korea"
+          "China"
         ],
         "results": {
           "primary": [],
@@ -1326,47 +1292,73 @@
       },
       "trials": [
         {
-          "nct": "NCT04968574",
-          "title": "A Study Evaluating the Safety and Efficacy of ENV-101 in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
-          "official_title": "A Phase 2, Multi-Center Study Evaluating the Safety and Efficacy of ENV-101 (Taladegib) in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+          "nct": "NCT06893016",
+          "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
           "acronym": "",
-          "status": "COMPLETED",
+          "status": "RECRUITING",
           "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Endeavor Biomedicines, Inc.",
+          "phase": "PHASE3",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
           "conditions": [
-            "Idiopathic Pulmonary Fibrosis"
+            "Obesity"
           ],
           "interventions": [
-            "taladegib",
+            "RAY1225",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percent Change From Baseline in Body Weight at Week 52",
+            "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
+          ],
+          "enrollment": 640,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-06-15",
+          "primary_completion": "2026-06-15",
+          "completion": "2026-09-15",
+          "last_update": "2025-07-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07139535",
+          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
+          "official_title": "A Randomized, Double-blind, Placebo-Controlled Trial Comparing the Efficacy and Safety of RAY1225 Versus Placebo in Patients With Type 2 Diabetes, Inadequately Controlled With Diet and Exercise Alone",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "conditions": [
+            "T2DM"
+          ],
+          "interventions": [
+            "RAY1225",
             "placebo"
           ],
           "primary_outcomes": [
-            "Change from baseline in frequency of adverse events (AEs)",
-            "Change from baseline in severity of AEs",
-            "Change from baseline in vital sign measurements - pulse",
-            "Change from baseline in vital sign measurements - blood pressure",
-            "Change from baseline in vital sign measurements - respiration rate",
-            "Change from baseline in vital sign measurements - temperature",
-            "Change from baseline in blood oxygen saturation level",
-            "Incidence of clinical laboratory abnormalities",
-            "Severity of clinical laboratory abnormalities",
-            "Number of hospitalizations"
+            "Change From Baseline in Hemoglobin A1c (HbA1c)"
           ],
-          "enrollment": 41,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-08-26",
-          "primary_completion": "2023-11-30",
-          "completion": "2023-11-30",
-          "last_update": "2024-12-02",
+          "enrollment": 350,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-08-31",
+          "primary_completion": "2026-12-01",
+          "completion": "2026-12-31",
+          "last_update": "2025-08-24",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "Australia",
-            "Canada",
-            "Malaysia",
-            "Mexico",
-            "South Korea"
+            "China"
           ],
           "results": {
             "primary": [],
@@ -1377,83 +1369,34 @@
           }
         },
         {
-          "nct": "NCT05199584",
-          "title": "A Study Evaluating the Safety and Efficacy of ENV-101 (Taladegib) in Patients With Advanced Solid Tumors Harboring PTCH1 Loss of Function Mutations",
-          "official_title": "A Phase 2, Multi-Center Study Evaluating the Safety and Efficacy of ENV-101 (Taladegib) in Patients With Advanced Solid Tumors Harboring PTCH1 Loss of Function Mutations",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Endeavor Biomedicines, Inc.",
-          "conditions": [
-            "Solid Tumors With PTCH1 Loss-of-function Mutations"
-          ],
-          "interventions": [
-            "ENV-101 (taladegib)"
-          ],
-          "primary_outcomes": [
-            "Objective Response Rate (ORR)"
-          ],
-          "enrollment": 20,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2022-05-24",
-          "primary_completion": "2024-02-20",
-          "completion": "2024-02-20",
-          "last_update": "2026-03-05",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06422884",
-          "title": "A Phase 2 Trial of ENV-101 in Patients With Lung Fibrosis (WHISTLE-PF Trial)",
-          "official_title": "A Phase 2, Multi-Center, Randomized, Double-Blind, Controlled Trial Evaluating the Safety and Efficacy of ENV-101 in Patients With Lung Fibrosis (WHISTLE-PF Trial)",
+          "nct": "NCT06254274",
+          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants With Type 2 Diabetes",
           "acronym": "",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
           "phase": "PHASE2",
-          "sponsor": "Endeavor Biomedicines, Inc.",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
           "conditions": [
-            "Idiopathic Pulmonary Fibrosis",
-            "Progressive Fibrosing Interstitial Lung Disease"
+            "T2DM (Type 2 Diabetes Mellitus)"
           ],
           "interventions": [
-            "ENV-101",
+            "RAY1225",
             "Placebo"
           ],
           "primary_outcomes": [
-            "Change in percent predicted forced vital capacity (ppFVC) compared to placebo"
+            "Change From Baseline in Hemoglobin A1c (HbA1c)"
           ],
-          "enrollment": 213,
+          "enrollment": 210,
           "enrollment_type": "ACTUAL",
-          "start_date": "2024-11-15",
-          "primary_completion": "2026-10",
-          "completion": "2026-10",
-          "last_update": "2026-02-24",
+          "start_date": "2024-02-26",
+          "primary_completion": "2025-12-20",
+          "completion": "2025-12-20",
+          "last_update": "2025-08-05",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "Argentina",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Canada",
-            "France",
-            "Germany",
-            "Ireland",
-            "Italy",
-            "Malaysia",
-            "Mexico",
-            "New Zealand"
+            "China"
           ],
           "results": {
             "primary": [],
@@ -1467,204 +1410,71 @@
       "terms": {
         "nct": [],
         "drug": [
-          "ENV-101"
+          "RAY1225",
+          "Bilpatide"
         ],
-        "sponsor": [],
-        "sponsor_en": []
+        "sponsor": [
+          "众生药业"
+        ],
+        "sponsor_en": [
+          "众生药业"
+        ]
       },
       "note": ""
     }
   },
-  "c7272e70b751dd3c": {
-    "id": "c7272e70b751dd3c",
-    "title": "Kodiak股价暴涨177.96%！III期DAYBREAK临床成功，Zenkuda与tabirafusp-ted同步击败非劣终点",
-    "score": 6.2,
+  "dcdf1c28c50d7c95": {
+    "id": "dcdf1c28c50d7c95",
+    "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+    "score": 6.0,
     "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "safiglipron",
+          "dapagliflozin",
+          "tested"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "455af6d0f6ed5f5e": {
+    "id": "455af6d0f6ed5f5e",
+    "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
+    "score": 6.5,
+    "channel": "china",
     "verdict": {
       "textual": {
         "verdict": "met",
         "basis": "textual",
         "confidence": 0.75,
         "evidence": [
-          "达到表述:临床成功"
+          "达到表述:研究成功"
         ]
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "达到表述:临床成功"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:临床成功",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "tabirafusp-ted",
-          "tarcocimab",
-          "KSI-501",
-          "KSI-101"
-        ],
-        "sponsor": [
-          "生物科技",
-          "摩熵医药",
-          "入驻摩熵医药",
-          "代表摩熵医药"
-        ],
-        "sponsor_en": [
-          "生物科技",
-          "摩熵医药",
-          "入驻摩熵医药",
-          "代表摩熵医药"
-        ]
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "b2c54049f7ad5551": {
-    "id": "b2c54049f7ad5551",
-    "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
-    "score": 6.0,
-    "channel": "china",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [
-          "金赛药业",
-          "台湾逸达生物",
-          "与逸达生物",
-          "据摩熵医药"
-        ],
-        "sponsor_en": [
-          "GeneScience",
-          "台湾逸达生物",
-          "与逸达生物",
-          "据摩熵医药"
-        ]
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "d4b8b4b0fc5375cb": {
-    "id": "d4b8b4b0fc5375cb",
-    "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
-    "score": 6.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "positive_data",
-        "basis": "textual",
-        "confidence": 0.5,
-        "evidence": [
-          "疗效数据表述:benefit"
-        ],
-        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "positive_data",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "疗效数据表述:benefit"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:benefit",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "EORTC-1308"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "7e191016123c80eb": {
-    "id": "7e191016123c80eb",
-    "title": "Four Deaths Prompt FDA Safety Concerns About Novel Schizophrenia Drug",
-    "score": 6.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "reported",
-          "evenamide"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "f027e45149fee65e": {
-    "id": "f027e45149fee65e",
-    "title": "<![CDATA[Iberdomide Triplet Improves PFS by 51% in Phase 3 Myeloma Trial]]>",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
       },
       "statistical": {
         "verdict": "unknown",
@@ -1673,47 +1483,47 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:研究成功"
+      ],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:研究成功",
     "registry": {
       "best": {
-        "nct": "NCT04564703",
-        "title": "Iberdomide (Cc220) Maintenance After Asct in Newly Diagnosed MM Patients",
-        "official_title": "Phase II Study of Iberdomide (Cc220) Maintenance After Autologous Stem Cell Transplantation in Newly Diagnosed Multiple Myeloma Patients",
+        "nct": "NCT06893016",
+        "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
+        "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
         "acronym": "",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "status": "RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE2",
-        "sponsor": "Stichting European Myeloma Network",
+        "phase": "PHASE3",
+        "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
         "conditions": [
-          "Multiple Myeloma"
+          "Obesity"
         ],
         "interventions": [
-          "Iberdomide"
+          "RAY1225",
+          "Placebo"
         ],
         "primary_outcomes": [
-          "Efficacy: rate of improvement in response with iberdomide maintenance after autologous stem cell transplantation (ASCT)",
-          "Rate of dose reductions/discontinuations with iberdomide maintenance after ASCT"
+          "Percent Change From Baseline in Body Weight at Week 52",
+          "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
         ],
-        "enrollment": 160,
+        "enrollment": 640,
         "enrollment_type": "ESTIMATED",
-        "start_date": "2021-02-22",
-        "primary_completion": "2023-07-27",
-        "completion": "2027-12",
-        "last_update": "2026-07-16",
+        "start_date": "2025-06-15",
+        "primary_completion": "2026-06-15",
+        "completion": "2026-09-15",
+        "last_update": "2025-07-17",
         "results_first_post": "",
         "has_results": false,
         "countries": [
-          "France",
-          "Greece",
-          "Italy",
-          "Netherlands"
+          "China"
         ],
         "results": {
           "primary": [],
@@ -1725,118 +1535,111 @@
       },
       "trials": [
         {
-          "nct": "NCT04564703",
-          "title": "Iberdomide (Cc220) Maintenance After Asct in Newly Diagnosed MM Patients",
-          "official_title": "Phase II Study of Iberdomide (Cc220) Maintenance After Autologous Stem Cell Transplantation in Newly Diagnosed Multiple Myeloma Patients",
+          "nct": "NCT06893016",
+          "title": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "conditions": [
+            "Obesity"
+          ],
+          "interventions": [
+            "RAY1225",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percent Change From Baseline in Body Weight at Week 52",
+            "Number of Participants who Achieved a ≥ 5% Reduction in Body Weight from Baseline at Week 52"
+          ],
+          "enrollment": 640,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-06-15",
+          "primary_completion": "2026-06-15",
+          "completion": "2026-09-15",
+          "last_update": "2025-07-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07139535",
+          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
+          "official_title": "A Randomized, Double-blind, Placebo-Controlled Trial Comparing the Efficacy and Safety of RAY1225 Versus Placebo in Patients With Type 2 Diabetes, Inadequately Controlled With Diet and Exercise Alone",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "conditions": [
+            "T2DM"
+          ],
+          "interventions": [
+            "RAY1225",
+            "placebo"
+          ],
+          "primary_outcomes": [
+            "Change From Baseline in Hemoglobin A1c (HbA1c)"
+          ],
+          "enrollment": 350,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-08-31",
+          "primary_completion": "2026-12-01",
+          "completion": "2026-12-31",
+          "last_update": "2025-08-24",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06254274",
+          "title": "A Study of RAY1225 in Participants With Type 2 Diabetes",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants With Type 2 Diabetes",
           "acronym": "",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
           "phase": "PHASE2",
-          "sponsor": "Stichting European Myeloma Network",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
           "conditions": [
-            "Multiple Myeloma"
+            "T2DM (Type 2 Diabetes Mellitus)"
           ],
           "interventions": [
-            "Iberdomide"
+            "RAY1225",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "Efficacy: rate of improvement in response with iberdomide maintenance after autologous stem cell transplantation (ASCT)",
-            "Rate of dose reductions/discontinuations with iberdomide maintenance after ASCT"
+            "Change From Baseline in Hemoglobin A1c (HbA1c)"
           ],
-          "enrollment": 160,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2021-02-22",
-          "primary_completion": "2023-07-27",
-          "completion": "2027-12",
-          "last_update": "2026-07-16",
+          "enrollment": 210,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-02-26",
+          "primary_completion": "2025-12-20",
+          "completion": "2025-12-20",
+          "last_update": "2025-08-05",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "France",
-            "Greece",
-            "Italy",
-            "Netherlands"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT04776395",
-          "title": "Iberdomide Alone or in Combination With Dexamethasone for the Treatment of Intermediate- or High-Risk Smoldering Multiple Myeloma",
-          "official_title": "Iberdomide in Intermediate- and High-Risk Smoldering Myeloma (SMM) Patients: A Phase 2 Study With a Safety Run-in",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Emory University",
-          "conditions": [
-            "Smoldering Plasma Cell Myeloma"
-          ],
-          "interventions": [
-            "Dexamethasone",
-            "Iberdomide Hydrochloride",
-            "Quality-of-Life Assessment"
-          ],
-          "primary_outcomes": [
-            "Overall response rate"
-          ],
-          "enrollment": 68,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2021-07-09",
-          "primary_completion": "2027-09-01",
-          "completion": "2029-09-01",
-          "last_update": "2026-06-01",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06518551",
-          "title": "Elotuzumab + Iberdomide + Dexamethasone Post Ide-Cel in RRMM",
-          "official_title": "A Phase I Study of Elotuzumab and Iberdomide and Dexamethasone Post Idecabtagene Vicleucel in Relapsed and Refractory Multiple Myeloma",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Omar Nadeem, MD",
-          "conditions": [
-            "Myeloma",
-            "Multiple Myeloma",
-            "Refractory Multiple Myeloma"
-          ],
-          "interventions": [
-            "Elotuzumab",
-            "Iberdomide",
-            "Dexamethasone"
-          ],
-          "primary_outcomes": [
-            "Number of Participants Experiencing Dose Limiting Toxicity (DLT)",
-            "Maximum Tolerated Dose (MTD)"
-          ],
-          "enrollment": 49,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2024-11-01",
-          "primary_completion": "2029-12-31",
-          "completion": "2034-12-31",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
+            "China"
           ],
           "results": {
             "primary": [],
@@ -1850,10 +1653,15 @@
       "terms": {
         "nct": [],
         "drug": [
-          "Iberdomide"
+          "RAY1225",
+          "Bilpatide"
         ],
-        "sponsor": [],
-        "sponsor_en": []
+        "sponsor": [
+          "众生药业"
+        ],
+        "sponsor_en": [
+          "众生药业"
+        ]
       },
       "note": ""
     }

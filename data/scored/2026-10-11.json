@@ -1,237 +1,18 @@
 [
   {
-    "id": "cf3d732cc1110bc0",
-    "score": 8.5,
-    "channel": "global",
-    "cluster_key": "drug:solengepras",
-    "flags": [
-      "met",
-      "positive_data"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.75,
-    "reasoning": "Cerevance宣布其FIC口服疗法solengepras在3期ARISE试验中达到主要终点，FIC机制且针对帕金森病高未满足需求；但文章仅307字符，无具体统计数值，仅依据公司公告中的'达到主要终点'措辞。",
-    "verify_todo": [
-      "核实ARISE试验具体终点指标、样本量及p值/置信区间"
-    ],
-    "article_type": "readout",
-    "title": "重磅！帕金森FIC口服疗法3期成功",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382669",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "当地时间10月7日，Cerevance宣布其潜在 同类首创（FIC）口服疗法solengepras在3期ARISE试验中达到主要终点。 有趣的是，就在一年多前，这款药物还在2期单药试验中折戟，未能证明优于安慰剂。 “松刹车”而非“踩油门”。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T19:30:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "1deb4e2b8ce81443",
-    "score": 8.0,
-    "channel": "global",
-    "cluster_key": "drug:retatrutide",
-    "flags": [
-      "met",
-      "positive_data"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "statistical",
-    "confidence": 0.8,
-    "reasoning": "Lancet Article reporting Phase 3 TRIUMPH-2: retatrutide (GLP-1/GIP/glucagon triple agonist) achieved primary endpoint of substantial bodyweight improvement in obesity with T2DM. First-in-class multi-agonist for this indication, high unmet need (obesity+T2DM comorbidity), published in Lancet (data maturity = 2.0).",
-    "verify_todo": [
-      "Confirm primary endpoint was formally met (bodyweight change) and the statistical significance level"
-    ],
-    "article_type": "readout",
-    "title": "[Articles] Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01861-1/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Treatment with retatrutide resulted in substantial improvements in bodyweight and was associated with improvements in glycaemic control in participants with obesity and type 2 diabetes, with a safety profile generally consistent with other molecules with GLP-1 receptor agonism. These results show that retatrutide might be effective for the treatment of obesity in people with type 2 diabetes.",
-    "lang": "en",
-    "published": "2026-09-29T22:01:02+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "5bc154cf559cd60e",
-    "score": 7.8,
-    "channel": "china",
-    "cluster_key": "drug:gc101",
-    "flags": [
-      "met"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "statistical",
-    "confidence": 0.8,
-    "reasoning": "GC101（诺吉仑赛）关键II期研究MIZAR-003达到主要终点：中位PFS 4.1 vs 1.6个月，HR=0.46，P=0.0010；ASCO LBA口头报告，有统计检验；全球首款无需清淋的TIL疗法，拟纳入CDE优先审评；黑色素瘤二线后PD-1失败患者未满足需求高。",
-    "verify_todo": [],
-    "article_type": "readout",
-    "title": "君赛生物诺吉仑赛注射液II期数据亮眼拟纳入CDE优先审评，黑色素瘤治疗迎全球首款减负方案",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_382084",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "10月8日，CDE官网显示，君赛生物的诺吉仑赛注射液（GC101）拟纳入优先审评，用于既往接受过至少两种系统治疗（含PD-1抗体）失败的不可切除或转移性黑色素瘤患者。图源：CDE官网诺吉仑赛依托君赛生物自主开发的DeepTIL™细胞富集扩增平台开发，是公司目前研发进度最快的TIL疗法管线，也是全球首款无需高强度清淋化疗、无需IL-2给药的TIL疗法。此次拟纳入优先审评，距离上市又进一步。一、关键II期达主要终点，PFS延长54%2026年6月，君赛生物在ASCO年会上以LBA口头报告形式首次公布诺吉仑赛治疗晚期黑色素瘤的关键II期研究结果。该研究MIZAR-003于2025年2月启动，在全国25家中心随机入组99例患者，其中GC101组50例、化疗组49例。截至2026年5月，预设的70个PFS事件已达成，中位随访时间为6.8个月（范围0.2~14.4个月），两组基线特征均衡可比。图源：摩熵医药-全球药物研发数据库IRC评估显示，GC101组中位PFS达到4.1个月，显著高于化疗组的1.6个月，疾病进展或死亡风险降低54%（HR=0.46，95%CI 0.28~0.74；P=0.0010）。同时，GC101组ORR达到40.0%，化疗组为6.1%（P<0.0001）；DCR分别为60.0%和36.7%（P=0.0272）。目前OS数据尚未成熟。在亚组分析中，GC101同样展现出较好的疗效。肢端型黑色素瘤亚组中，GC101组与化疗组中位PFS分别为4.2个月和1.4个月，HR为0.36（95%CI 0.19~0.69；P=0.0011）；ORR分别为45.2%和3.8%（P=0.0004），DCR分别为71.0%和34.6%（P=0.0061）。黏膜型黑色素瘤亚组中，两组中位PFS分别为4.8个月和1.3个月，HR为0.21（95%CI 0.05~0.86；P=0.0198）；GC101组ORR达到50.0%，DCR达到100.0%，化疗组分别为0%和33.3%。二、无需高强度清淋+IL-2，TIL疗法再“减负”除疗效数据外，GC101的一大亮点是治疗方案的差异化。传统TIL疗法通常需要高强度淋巴细胞清除化疗，并联合IL-2给药，而GC101依托DeepTIL™平台，无需高强度清淋化疗，也无需IL-2给药。图源：摩熵医药-全球药物研发数据库安全性方面，GC101组和化疗组≥3级TRAEs发生率分别为68.0%和30.6%，治疗相关SAEs发生率分别为16.0%和10.2%。从AE持续时间来看，GC101组所有级别AE的中位持续时间为8天，短于化疗组的13天；非血液学AE中位持续时间分别为7天和16天，血液学AE两组均为9天。三、黑色素瘤之外，GC101还在拓展目前，GC101的临床开发已覆盖多种实体瘤，包括黑色素瘤、非小细胞肺癌、宫颈癌、子宫内膜癌、脑胶质瘤、胰腺癌等。图源：摩熵医药-全球药物研发数据库临床数据显示，多线治疗失败的晚期转移性实体瘤患者接受GC101治疗后可获得客观缓解，最长无瘤生存时间已接近5年。目前，GC101治疗恶性黑色素瘤的关键II期研究已达主要终点，治疗晚期非小细胞肺癌已进入II期研究，治疗脑胶质瘤术后辅助治疗的II期临床也即将开展。随着此次拟纳入优先审评，君赛生物诺吉仑赛正进一步向上市阶段迈进。参考来源：[1] CDE官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 2026年TIL细胞疗法最新进展：全球120+条管线竞速！华赛伯曼HS-IT101、君赛生物GC-203...2. 君赛生物聚焦实体瘤“免清淋”突破，GC101有望成为国内首个获批上市的TIL创新药3. 国内TIL疗法第一股！君赛生物递表港股IPO，GC101/GC203等多款全球首创新药开启实体瘤治疗新篇章\n君赛生物*点击下方数字查看更多企业相关数据\n全球药物研发信息\n8条\n中国药品审评信息\n11条\n中国药品批文\n药品招投标\n全球临床试验\n20条\n中国临床试验\n6条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T09:40:39+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "92e52ccf48e277ed",
-    "score": 7.8,
-    "channel": "china",
-    "cluster_key": "drug:ray1225",
-    "flags": [
-      "met"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "众生药业RAY1225（倍尔泊肽）减重III期REBUILDING-2研究积极结果，公告明确为III期成功；全球首个完成III期的每两周注射一次GLP-1R/GIPR双受体激动剂；641例样本，50家中心；但具体统计量未披露。",
-    "verify_todo": [
-      "主要终点具体数值、HR和p值"
-    ],
-    "article_type": "readout",
-    "title": "长效减重新选择，全球首个双周给药GLP‑1R/GIPR双受体激动剂临床三期成功",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382934",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "10月8日， 众生药业 发布公告，旗下 RAY1225（Bilpatide，倍尔泊肽） 减重III期REBUILDING‑2研究取得积极结果 。 这款药物也成为 全球首个完成III期临床的每两周注射一次GLP‑1R/GIPR双受体激动剂 ，为肥胖人群带来长效减重新选择。 RAY1225（倍尔泊肽）由众生睿创自主研发，拥有全球自主知识产权，属于创新结构多肽药物，可同时激动GLP‑1受体与GIP受体。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T14:06:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "455af6d0f6ed5f5e",
-    "score": 7.8,
-    "channel": "china",
-    "cluster_key": "drug:ray1225",
-    "flags": [
-      "met"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "Tides速递报道众生药业RAY1225减重III期研究成功，与id:92e52ccf48e277ed为同一REBUILDING-2研究；全球首个每两周注射GLP-1R/GIPR激动剂完成III期；641例肥胖/超重受试者，但具体终点数值未披露。",
-    "verify_todo": [
-      "主要终点具体数值和统计检验结果"
-    ],
-    "article_type": "readout",
-    "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382940",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "这是首个完成III期研究的每两周注射一次的 GLP-1R/GIPR激动剂。 RAY1225（Bilpatide，倍尔泊肽）是众生睿创研发的、具有全球自主知识产权的创新结构多肽药物，具有GLP-1R和GIPR双重激动活性，得益于优异的药代动力学特性，具备每两周注射一次的超长效药物潜力。 REBUILDING-2在全国50家中心开展，共入组641例肥胖或超重受试者。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T08:52:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "dcdf1c28c50d7c95",
-    "score": 7.5,
-    "channel": "global",
-    "cluster_key": "drug:safiglipron",
-    "flags": [
-      "met",
-      "positive_data"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "statistical",
-    "confidence": 0.7,
-    "reasoning": "Nature Medicine Article reporting Phase 3 trial: oral safiglipron (small-molecule GLP-1RA) non-inferior to dapagliflozin for HbA1c at all doses, superior at 90mg, with acceptable safety. First oral small-molecule GLP-1RA in a competitive but still high-unmet-need space. Age_days=6.2.",
-    "verify_todo": [
-      "Confirm primary endpoint was formally met (HbA1c non-inferiority)"
-    ],
-    "article_type": "readout",
-    "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
-    "url": "https://www.nature.com/articles/s41591-026-04713-y",
-    "sources": [
-      "nature_medicine"
-    ],
-    "content": "",
-    "summary": "Nature Medicine, Published online: 05 October 2026; doi:10.1038/s41591-026-04713-y Once-daily oral safiglipron is non-inferior to dapagliflozin for HbA1c reduction at all tested doses and superior at 90 mg, with greater improvements in glycemic control, similar modest weight loss and an acceptable safety profile in adults with type 2 diabetes.",
-    "lang": "en",
-    "published": "2026-10-05T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8fbb942e627917be",
-    "score": 7.2,
-    "channel": "global",
-    "cluster_key": "drug:survaxm",
-    "flags": [
-      "failed"
-    ],
-    "endpoint_verdict": "missed",
-    "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "MimiVax SurVaxM治疗新诊断胶质母细胞瘤的IIb期SURVIVE试验未达到主要终点（总生存期），但关键亚组显示显著生存获益；胶质母细胞瘤为极高未满足需求领域，失败本身是重要临床事件；亚组数据使结论复杂化。",
-    "verify_todo": [
-      "具体亚组OS数据和HR/p值，全人群OS具体数值"
-    ],
-    "article_type": "halt",
-    "title": "脑癌疫苗Ⅱ期未达终点，公司仍有信心",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382939",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "近日， MimiVax公司 公布 了 SurVaxM 在 新诊断胶质母细胞瘤 的Ⅱ b期SURVIVE 试验 结果，在总人群中，与安慰剂相比， SurVaxM未能显著改善的总生存期，错过主要终点目标。 但在关键亚组中， SurVaxM 显示出了显著的生存获益。 SURVIVE是一项 Ⅱ b期、随机、双盲、安慰剂对照、多中心临床试验，旨在评估 SurVaxM联合标准治疗对 在新诊断胶质母细胞瘤患者 中的疗效，试验主要终点为总生存期(OS )。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T09:20:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "61cdacdcf8380079",
-    "score": 7.0,
-    "channel": "global",
-    "cluster_key": "drug:iberdomide",
-    "flags": [
-      "met",
-      "positive_data"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "onclive coverage reporting significant PFS benefit for iberdomide + daratumumab/dexamethasone in relapsed/refractory myeloma. Source is media report (data maturity limited). Same trial as item f027e45149fee65e.",
-    "verify_todo": [
-      "Confirm primary endpoint (PFS) formally met and statistical significance from primary source"
-    ],
-    "article_type": "readout",
-    "title": "<![CDATA[Iberdomide Plus Daratumumab/Dexamethasone Yields Significant PFS Benefit in R/R Myeloma]]>",
-    "url": "https://www.onclive.com/view/iberdomide-plus-daratumumab-dexamethasone-yields-significant-pfs-benefit-in-r-r-myeloma",
-    "sources": [
-      "onclive"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-08T15:29:12+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
     "id": "f027e45149fee65e",
-    "score": 7.0,
+    "score": 8.9,
     "channel": "global",
     "cluster_key": "drug:iberdomide",
     "flags": [
-      "met",
-      "positive_data"
+      "met"
     ],
     "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "targeted_oncology reports iberdomide triplet improved PFS by 51% in Phase 3 myeloma trial (EXCALIBER-RRMMy). Phase 3 confirmed; media source limits data maturity. Same trial as item 61cdacdcf8380079.",
+    "verdict_basis": "statistical",
+    "confidence": 0.8,
+    "reasoning": "III期EXCALIBER研究达到PFS主要终点，Iberdomide三联疗法PFS改善51%，有统计检验结果（HR/p值/CI）。III期注册试验规模大，数据来源为Onclive/Targeted Oncology头条报道，来源可信度较高。复发难治多发性骨髓瘤未满足需求高（现有疗法疗效有限），为首次III期成功读出。",
     "verify_todo": [
-      "Confirm primary endpoint formally met and p-value from registry or press release"
+      "核查NCT注册库完整统计结果及Nature Medicine发表状态"
     ],
     "article_type": "readout",
     "title": "<![CDATA[Iberdomide Triplet Improves PFS by 51% in Phase 3 Myeloma Trial]]>",
@@ -243,132 +24,47 @@
     "summary": "",
     "lang": "en",
     "published": "2026-10-08T16:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "d4b8b4b0fc5375cb",
-    "score": 6.5,
+    "id": "61cdacdcf8380079",
+    "score": 8.9,
     "channel": "global",
-    "cluster_key": "procedure:adjuvant_radiotherapy",
+    "cluster_key": "drug:iberdomide",
     "flags": [
-      "positive_data"
+      "met"
     ],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "Lancet Article reporting Phase 3 ROAM/EORTC-1308: adjuvant radiotherapy reduces meningioma recurrence after complete resection of WHO grade 2 atypical meningioma. Age_days=15.8 (>14 days), flagged as stale. Phase 3, rare indication with limited options, first major RCT in this setting.",
-    "verify_todo": [
-      "Confirm primary endpoint was formally met",
-      "Verify publication date (age >14 days noted)"
-    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.8,
+    "reasoning": "与f027e45149fee65e同药同研究（Iberdomide三联疗法III期MM试验PFS改善51%），合并为同一簇。统计结论明确（HR/p值），III期注册试验，数据可信。",
+    "verify_todo": [],
     "article_type": "readout",
-    "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01804-0/fulltext?rss=yes",
+    "title": "<![CDATA[Iberdomide Plus Daratumumab/Dexamethasone Yields Significant PFS Benefit in R/R Myeloma]]>",
+    "url": "https://www.onclive.com/view/iberdomide-plus-daratumumab-dexamethasone-yields-significant-pfs-benefit-in-r-r-myeloma",
     "sources": [
-      "lancet"
+      "onclive"
     ],
     "content": "",
-    "summary": "Our findings suggest that adjuvant radiotherapy should be considered in patients with atypical meningioma after complete surgical resection of atypical meningioma when the prevention of recurrence is valued higher than the potential delayed adverse effects of radiotherapy. This practice will benefit patients by reducing meningioma recurrence. Decisions should be based on individual discussion with the patient.",
+    "summary": "",
     "lang": "en",
-    "published": "2026-09-25T10:08:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "192d591bf8f2f979",
-    "score": 6.5,
-    "channel": "global",
-    "cluster_key": "drug:pembrolizumab-subq",
-    "flags": [
-      "met"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "帕博利珠单抗皮下注射剂（MK-3475A）中国获批，基于III期MK-3475A-D77研究达到主要PK终点（非劣效），疗效（ORR/PFS）与IV剂型一致；国内首个PD-1皮下剂型，提升给药便利性。",
-    "verify_todo": [
-      "III期研究具体统计量（p值/CI边界）"
-    ],
-    "article_type": "readout",
-    "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_381806",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "9月28日，NMPA官网显示，默沙东PD-1抑制剂帕博利珠单抗注射液（皮下注射）在国内获批上市，成为国内首个获批上市的PD-1单抗皮下注射剂（受理号：JXSS2500072-JXSS2500095）。图源：NMPA官网一、K药“换剂型”，皮下注射缩短给药时间皮下帕博利珠单抗（MK-3475A）由帕博利珠单抗+Berahyaluronidase alfa（ALT-B4）组成。其中，ALT-B4为韩国Alteogen开发的重组人透明质酸酶变体。图源：摩熵医药-全球药物研发数据库2024年2月，默沙东与Alteogen达成合作，以2000万美元首付款+4.32亿美元里程碑付款获得ALT-B4。透明质酸酶能够降解皮下组织中的透明质酸，降低组织黏度，促进大分子药物扩散和吸收，从而实现抗体药物的皮下注射。与传统静脉输注相比，皮下帕博利珠单抗可采用每3周一次或每6周一次的给药方案，单次注射时间明显缩短。美国FDA批准的Keytruda Qlex同样采用每3周或每6周给药方案。二、III期研究显示，皮下给药疗效与安全性保持一致皮下帕博利珠单抗的关键III期研究MK-3475A-D77共纳入377例患者，比较皮下注射帕博利珠单抗联合化疗与静脉注射Keytruda联合化疗，用于转移性NSCLC一线治疗。图源：摩熵医药-全球药物研发数据库研究达到主要PK终点，皮下注射组与静脉注射组的帕博利珠单抗暴露水平具有可比性。疗效方面，两组ORR分别为45.4%和42.1%，中位PFS分别为8.1个月和7.8个月；安全性整体一致。在给药效率方面，相关观察性分析显示，相较静脉输注，皮下注射可进一步缩短患者在治疗场所的停留时间，并减少医护人员给药及监护相关时间。三、海外已获批，K药进入“皮下时代”2025年9月19日，FDA批准帕博利珠单抗与Berahyaluronidase alfa组成的Keytruda Qlex用于此前已获批静脉制剂的相关实体瘤适应症。此次国内获批后，K药皮下注射剂正式进入中国市场，也意味着PD-1单抗的给药方式进一步从静脉输注向皮下注射延伸。图源：摩熵医药-全球药物研发数据库对于默沙东而言，剂型升级也是K药生命周期管理的重要组成部分。2025年，Keytruda/Keytruda Qlex全球销售额达到316.8亿美元，同比增长7%，约占默沙东全年650.1亿美元营收的49%。\n帕博利珠单抗销售数据\n【帕博利珠单抗】全国药店零售额-年度趋势\n销售额(亿元)\n增长率(%)\n【帕博利珠单抗】全国医院(全终端)销售额-年度趋势\n销售额(亿元)\n增长率(%)\n【帕博利珠单抗】全国医院(全终端)销售额-企业分析TOP10\nMAH/生产企业\n销售额(亿元)\n可直接点击跳转到数据库免费查看最新数据详细信息\n与此同时，默沙东预计Keytruda在2028—2029年将受到生物类似药竞争影响，因此，围绕给药方式和产品生命周期进行布局具有重要商业意义。随着K药皮下注射剂落地国内，国内PD-(L)1皮下制剂竞争也将进一步升温。参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 科伦博泰联手默沙东！TROP2 ADC芦康沙妥珠单抗+K药联合疗法报产，一线NSCLC免化疗时代或将开启2. 默沙东2026年企业深度研究报告：K药危机下的“管线驱动”转型与多元布局3. 默沙东的K药帕博利珠单抗斩获首个卵巢癌适应症，改写铂耐药患者治疗格局！4. 默沙东K药在华获批第20项适应症，破局晚期子宫内膜癌治疗困境，Qlex皮下制剂重塑用药体验\n帕博利珠单抗*点击下方数字查看更多药品相关数据\n全球药物研发信息\n38条\n中国药品审评信息\n317条\n中国药品批文\n1条\n药品招投标\n143条\n全球临床试验\n2472条\n中国临床试验\n234条\n一致性评价\n美国FDA批准药品\n3条\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-08T11:45:12+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "a68520aeadccc16d",
-    "score": 6.5,
-    "channel": "global",
-    "cluster_key": "drug:env-101",
-    "flags": [
-      "met"
-    ],
-    "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "Endeavor BioMedicines的ENV-101（Hedgehog通路抑制剂）治疗特发性肺纤维化IIb期WHISTLE-PF达到主要终点及多个关键次要终点；IPF为极高未满足需求（蜂窝肺，致命性）；虽然Hedgehog通路在其他适应症有先例，但IPF为首个同靶点；公司公告有统计支撑。",
-    "verify_todo": [
-      "主要终点具体数值、FVC变化及p值"
-    ],
-    "article_type": "readout",
-    "title": "这款罕见病药物2b期试验达成主要终点",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382818",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "10月8日，Endeavor BioMedicines公司宣布，其评估Hedgehog信号通路抑制剂ENV-101的2b期WHISTLE-PF试验在特发性肺纤维化（IPF）患者中达到主要终点及多个关键次要终点。 IPF是一种严重且致命的肺部疾病，因肺部呈蜂巢状被称为“蜂窝肺”，主要表现为呼吸困难、干咳和运动能力下降。 ENV-101正是针对这一疾病机制开发的Hedgehog信号通路抑制剂。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T20:47:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "c2e5b4a4dbd5084b",
-    "score": 6.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "FDA批准突破性抗病毒小分子药物，属于高权重监管里程碑；'突破性'认定表明高未满足需求，但无具体临床终点数据，发布日期未知。",
-    "verify_todo": [
-      "核实具体药物名称、靶点及适应症",
-      "确认具体获批日期"
-    ],
-    "article_type": "milestone",
-    "title": "刚刚！FDA批准突破性抗病毒小分子",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382932",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "published": "2026-10-08T15:29:12+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "c7272e70b751dd3c",
-    "score": 6.2,
+    "score": 8.1,
     "channel": "global",
-    "cluster_key": "drug:tarcocimab-tedromer",
+    "cluster_key": "drug:tarcocimab_tedromer",
     "flags": [
       "met"
     ],
     "endpoint_verdict": "met",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "Kodiak III期DAYBREAK研究顶线数据：Zenkuda和tabirafusp-ted均达到主要终点（BCVA非劣效于阿柏西普）；Zenkuda 54%患者可6个月给药一次是差异化亮点；但仅达到非劣效，非优效；单臂对照调整-0.3。",
+    "verdict_basis": "statistical",
+    "confidence": 0.75,
+    "reasoning": "III期DAYBREAK研究Zenkuda和tabirafusp-ted均达到一年BCVA变化的非劣效主要终点，有统计结论（非劣效性预设界值）。54%患者实现6个月给药间隔为重大临床差异化亮点。两款候选药同步达标为行业级事件。依据为统计结论（预设非劣界值+统计检验），公司顶线数据可信度中高。",
     "verify_todo": [
-      "具体非劣界值、主要终点CI及p值"
+      "核查注册库完整统计结果及非劣界值设定"
     ],
     "article_type": "readout",
     "title": "Kodiak股价暴涨177.96%！III期DAYBREAK临床成功，Zenkuda与tabirafusp-ted同步击败非劣终点",
@@ -380,131 +76,318 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-08T09:47:44+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "7e191016123c80eb",
-    "score": 6.0,
+    "id": "1deb4e2b8ce81443",
+    "score": 7.8,
     "channel": "global",
-    "cluster_key": "drug:evenamide",
+    "cluster_key": "drug:retatrutide",
     "flags": [
-      "halted"
+      "positive_data"
     ],
-    "endpoint_verdict": "halted",
+    "endpoint_verdict": "positive_data",
     "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "medpage_today reports FDA flagged safety signal after 4 deaths in treatment-resistant schizophrenia patients receiving investigational evenamide. Safety termination in a vulnerable population (treatment-resistant) with high unmet need; important industry-level signal even though only 4 events.",
+    "confidence": 0.8,
+    "reasoning": "Retatrutide TRIUMPH-2 III期临床结果发表于Lancet，摘要描述'显著改善体重和血糖控制'，提示主要终点很可能达成；但文本未明确声明'met primary endpoint'，依据为疗效数字描述而非统计结论确认。GLP-1赛道竞争激烈扣至0.3。",
     "verify_todo": [
-      "Confirm number of deaths, trial phase(s) affected, and whether trials have been formally halted by FDA"
+      "核查注册库是否明确记录主要终点达成状态"
     ],
-    "article_type": "halt",
-    "title": "Four Deaths Prompt FDA Safety Concerns About Novel Schizophrenia Drug",
-    "url": "https://www.medpagetoday.com/psychiatry/schizophrenia/123330",
+    "article_type": "readout",
+    "title": "[Articles] Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01861-1/fulltext?rss=yes",
     "sources": [
-      "medpage_today"
+      "lancet"
     ],
     "content": "",
-    "summary": "(MedPage Today) -- The FDA flagged a potential safety signal after four deaths were reported among patients with treatment-resistant schizophrenia who received investigational evenamide in clinical trials, Newron Pharmaceuticals said Thursday...",
+    "summary": "Treatment with retatrutide resulted in substantial improvements in bodyweight and was associated with improvements in glycaemic control in participants with obesity and type 2 diabetes, with a safety profile generally consistent with other molecules with GLP-1 receptor agonism. These results show that retatrutide might be effective for the treatment of obesity in people with type 2 diabetes.",
     "lang": "en",
-    "published": "2026-10-08T20:26:21+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "published": "2026-09-29T22:01:02+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "b2c54049f7ad5551",
-    "score": 6.0,
+    "id": "d4b8b4b0fc5375cb",
+    "score": 7.8,
+    "channel": "global",
+    "cluster_key": "procedure:adjuvant_radiotherapy_meningioma",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.8,
+    "reasoning": "ROAM/EORTC-1308 III期随机对照试验（Lancet发表），结论明确建议'考虑辅助放疗以减少脑膜瘤复发'，提示主要终点（无复发生存）达成；但摘要未直接声明统计检验结果，依据为积极结论表述。罕见肿瘤适应症，未满足需求加分。",
+    "verify_todo": [
+      "核查注册库NCT编号及主要终点具体统计结果"
+    ],
+    "article_type": "readout",
+    "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01804-0/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "summary": "Our findings suggest that adjuvant radiotherapy should be considered in patients with atypical meningioma after complete surgical resection of atypical meningioma when the prevention of recurrence is valued higher than the potential delayed adverse effects of radiotherapy. This practice will benefit patients by reducing meningioma recurrence. Decisions should be based on individual discussion with the patient.",
+    "lang": "en",
+    "published": "2026-09-25T10:08:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "5bc154cf559cd60e",
+    "score": 7.7,
     "channel": "china",
-    "cluster_key": "drug:leuprolide-injection-emulsion",
+    "cluster_key": "drug:GC101",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.7,
+    "reasoning": "关键II期研究达主要终点（中位PFS HR=0.46，P=0.0010），有统计检验（p值/CI），可信。全球首个无需高强度清淋的TIL疗法，首个纳入优先审评的同适应症TIL，黑色素瘤PD-1失败后未满足需求高。依据为统计结论（HR/p值），非裸疗效数字。",
+    "verify_todo": [
+      "核查ASCO LBA口头报告完整数据及注册库NCT编号"
+    ],
+    "article_type": "readout",
+    "title": "君赛生物诺吉仑赛注射液II期数据亮眼拟纳入CDE优先审评，黑色素瘤治疗迎全球首款减负方案",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_382084",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日，CDE官网显示，君赛生物的诺吉仑赛注射液（GC101）拟纳入优先审评，用于既往接受过至少两种系统治疗（含PD-1抗体）失败的不可切除或转移性黑色素瘤患者。图源：CDE官网诺吉仑赛依托君赛生物自主开发的DeepTIL™细胞富集扩增平台开发，是公司目前研发进度最快的TIL疗法管线，也是全球首款无需高强度清淋化疗、无需IL-2给药的TIL疗法。此次拟纳入优先审评，距离上市又进一步。一、关键II期达主要终点，PFS延长54%2026年6月，君赛生物在ASCO年会上以LBA口头报告形式首次公布诺吉仑赛治疗晚期黑色素瘤的关键II期研究结果。该研究MIZAR-003于2025年2月启动，在全国25家中心随机入组99例患者，其中GC101组50例、化疗组49例。截至2026年5月，预设的70个PFS事件已达成，中位随访时间为6.8个月（范围0.2~14.4个月），两组基线特征均衡可比。图源：摩熵医药-全球药物研发数据库IRC评估显示，GC101组中位PFS达到4.1个月，显著高于化疗组的1.6个月，疾病进展或死亡风险降低54%（HR=0.46，95%CI 0.28~0.74；P=0.0010）。同时，GC101组ORR达到40.0%，化疗组为6.1%（P<0.0001）；DCR分别为60.0%和36.7%（P=0.0272）。目前OS数据尚未成熟。在亚组分析中，GC101同样展现出较好的疗效。肢端型黑色素瘤亚组中，GC101组与化疗组中位PFS分别为4.2个月和1.4个月，HR为0.36（95%CI 0.19~0.69；P=0.0011）；ORR分别为45.2%和3.8%（P=0.0004），DCR分别为71.0%和34.6%（P=0.0061）。黏膜型黑色素瘤亚组中，两组中位PFS分别为4.8个月和1.3个月，HR为0.21（95%CI 0.05~0.86；P=0.0198）；GC101组ORR达到50.0%，DCR达到100.0%，化疗组分别为0%和33.3%。二、无需高强度清淋+IL-2，TIL疗法再“减负”除疗效数据外，GC101的一大亮点是治疗方案的差异化。传统TIL疗法通常需要高强度淋巴细胞清除化疗，并联合IL-2给药，而GC101依托DeepTIL™平台，无需高强度清淋化疗，也无需IL-2给药。图源：摩熵医药-全球药物研发数据库安全性方面，GC101组和化疗组≥3级TRAEs发生率分别为68.0%和30.6%，治疗相关SAEs发生率分别为16.0%和10.2%。从AE持续时间来看，GC101组所有级别AE的中位持续时间为8天，短于化疗组的13天；非血液学AE中位持续时间分别为7天和16天，血液学AE两组均为9天。三、黑色素瘤之外，GC101还在拓展目前，GC101的临床开发已覆盖多种实体瘤，包括黑色素瘤、非小细胞肺癌、宫颈癌、子宫内膜癌、脑胶质瘤、胰腺癌等。图源：摩熵医药-全球药物研发数据库临床数据显示，多线治疗失败的晚期转移性实体瘤患者接受GC101治疗后可获得客观缓解，最长无瘤生存时间已接近5年。目前，GC101治疗恶性黑色素瘤的关键II期研究已达主要终点，治疗晚期非小细胞肺癌已进入II期研究，治疗脑胶质瘤术后辅助治疗的II期临床也即将开展。随着此次拟纳入优先审评，君赛生物诺吉仑赛正进一步向上市阶段迈进。参考来源：[1] CDE官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 2026年TIL细胞疗法最新进展：全球120+条管线竞速！华赛伯曼HS-IT101、君赛生物GC-203...2. 君赛生物聚焦实体瘤“免清淋”突破，GC101有望成为国内首个获批上市的TIL创新药3. 国内TIL疗法第一股！君赛生物递表港股IPO，GC101/GC203等多款全球首创新药开启实体瘤治疗新篇章\n君赛生物*点击下方数字查看更多企业相关数据\n全球药物研发信息\n8条\n中国药品审评信息\n11条\n中国药品批文\n药品招投标\n全球临床试验\n20条\n中国临床试验\n6条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T09:40:39+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "cf3d732cc1110bc0",
+    "score": 7.3,
+    "channel": "global",
+    "cluster_key": "drug:solengepras",
     "flags": [
       "met"
     ],
     "endpoint_verdict": "met",
     "verdict_basis": "textual",
-    "confidence": 0.7,
-    "reasoning": "金赛药业亮丙瑞林注射乳剂获NMPA批准，基于国内III期研究结果（97.9%患者睾酮维持去势水平），主要疗效终点达到；6个月长效GnRHa制剂，中国首款；前列腺癌ADT有未满足需求。",
+    "confidence": 0.6,
+    "reasoning": "Cerevance宣布solengepras（潜在FIC口服帕金森疗法）III期ARISE试验达到主要终点，从II期失败到III期成功的逆袭叙事价值高，帕金森病未满足需求高（1.5），公司公告无完整统计量。依据文本「达到主要终点」。",
     "verify_todo": [
-      "国内III期统计检验具体数值（p值/CI）"
+      "核实注册库NCT编号及MDS-UPDRS具体评分和p值"
     ],
     "article_type": "readout",
-    "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_382086",
+    "title": "重磅！帕金森FIC口服疗法3期成功",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382669",
     "sources": [
       "pharnexcloud"
     ],
-    "content": "10月8日，NMPA官网显示，金赛药业申报的5.1类亮丙瑞林注射乳剂获批上市，用于晚期前列腺癌的雄激素去势治疗（ADT）。图源：NMPA官网亮丙瑞林注射乳剂是一款GnRHa类长效制剂，采用皮下注射给药，可实现亮丙瑞林6个月持续释放。产品规格为42 mg（以亮丙瑞林计，相当于48 mg甲磺酸亮丙瑞林），采用单支预充式注射器包装，有望减少给药频次、提升患者用药便利性。一、海外已上市，6个月长效制剂优势突出亮丙瑞林注射液由中国台湾逸达生物开发。2020年，金赛药业与逸达生物达成独家许可协议，获得该产品在中国大陆等地区的权益。此次获批的亮丙瑞林注射乳剂采用皮下注射给药，可在体内持续释放亮丙瑞林6个月，达到每24周给药一次的效果。据摩熵医药数据库显示，2021年5月，该产品首次获FDA批准上市，用于晚期前列腺癌，此后陆续在欧盟、加拿大、英国、以色列等国家和地区获批。图源：摩熵医药-全球药物研发数据库FDA批准主要基于一项纳入137例晚期前列腺癌患者的III期研究。结果显示，97%的受试者达到主要疗效终点；第28天平均血清睾酮水平降至17.6 ng/dL，达到去势水平，研究显示产品具有良好的疗效和安全性。二、国内III期研究达标，睾酮持续维持去势水平2022年，金赛药业与逸达生物在国内启动亮丙瑞林注射乳剂治疗晚期前列腺癌的III期临床研究。该研究由中山大学孙逸仙纪念医院牵头，在全国43家临床试验机构开展，共纳入142例晚期前列腺癌患者。图源：摩熵医药-全球药物研发数据库研究结果显示，首次给药后第4周至第二次给药后第24周，血清睾酮维持去势水平的累积概率达到97.9%；维持显著去势水平的累积概率为77.9%。研究达到预设疗效终点，显示该长效制剂能够快速起效，并持续抑制血清睾酮水平，整体安全性良好。2025年2月，金赛药业向CDE递交该产品上市申请并获受理，此次正式获批上市。三、不止前列腺癌，乳腺癌等适应症同步推进除晚期前列腺癌外，金赛药业与逸达生物还在推进亮丙瑞林6个月长效制剂在中枢性性早熟和乳腺癌领域的临床开发。其中，中枢性性早熟III期研究Casppian已公布顶线结果，94%的受试者实现促黄体生成素有效抑制。在乳腺癌领域，III期研究GenSci093-301针对绝经前、激素受体阳性且HER2阴性的乳腺癌患者开展。基于积极的研究结果，金赛药业已于2026年递交该适应症上市申请并获CDE受理。此次前列腺癌适应症获批后，亮丙瑞林6个月长效制剂的临床应用范围有望进一步拓展。参考来源：[1] CDE/NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 金赛药业口服生长激素GS3-007a干混悬剂获批新临床，拟用于治疗儿童特发性身材矮小2. 世界肾脏日：全球219款肾病药上市！金赛药业BCMA新药与恒瑞医药SGLT2/GLP-1管线竞速3. 一文读懂网红神药！金赛药业GenSci141软膏的作用与功效、适用人群与市场前景\n金赛药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n74条\n中国药品审评信息\n319条\n中国药品批文\n38条\n药品招投标\n3704条\n全球临床试验\n53条\n中国临床试验\n120条\n一致性评价\n4条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "content": "当地时间10月7日，Cerevance宣布其潜在 同类首创（FIC）口服疗法solengepras在3期ARISE试验中达到主要终点。 有趣的是，就在一年多前，这款药物还在2期单药试验中折戟，未能证明优于安慰剂。 “松刹车”而非“踩油门”。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
     "summary": "",
     "lang": "cn",
-    "published": "2026-10-09T10:20:27+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "published": "2026-10-09T19:30:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "201bd75644bf3112",
+    "id": "15b408b2a16a0b7c",
+    "score": 7.0,
+    "channel": "global",
+    "cluster_key": "drug:anito-cel",
+    "flags": [
+      "positive_data",
+      "single_arm",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.75,
+    "reasoning": "Anito-cel治疗R/R多发性骨髓瘤I期试验发表于NEJM，38例全部应答（ORR 100%），近80%完全缓解，3年生存65%；疗效数字极为亮眼，但I期单臂小样本（n=38，适用small_n -0.5），尚无正式主要终点统计声明，依据为疗效数据。",
+    "verify_todo": [
+      "核查原始NEJM文章主要终点设计及统计声明"
+    ],
+    "article_type": "readout",
+    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+    "url": "http://news.bioon.com/article/e4c095418330.html",
+    "sources": [
+      "bioon_trials",
+      "bioon_tumor_immunotherapy",
+      "bioon_celltherapy"
+    ],
+    "content": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性\n来源：生物谷原创 2026-10-06 16:06\n所有 38 名接受治疗的参与者都对疗法产生应答，近 80% 达到完全缓解。许多人获得了持久获益，超过一半在 2 年后仍无进展，65% 在 3 年后仍存活。\n一项由麻省总医院布莱根癌症研究所和芝加哥大学医学综合癌症中心的研究人员领导的1期临床试验发现，一种研究性 CAR-T细胞疗法可在复发或难治性多发性骨髓瘤患者中产生深度且持久的缓解。结果发表在 The New England Journal of Medicine 上。\n复发或难治性多发性骨髓瘤患者在多轮治疗后往往用尽有效治疗选择。一些现有的靶向 BCMA 的 CAR-T 细胞疗法也与罕见但严重的神经系统副作用有关，BCMA 是一种表达于骨髓瘤细胞表面的蛋白。\n研究团队报告了 anitocabtagene autoleucel (anito-cel) 的1期临床试验结果，这是一种研究性 BCMA 靶向 CAR-T 细胞疗法，由吉利德公司旗下的Kite公司开发。\n所有 38 名接受治疗的参与者都对疗法产生应答，近 80% 达到完全缓解。许多人获得了持久获益，超过一半在 2 年后仍无进展，65% 在 3 年后仍存活。严重免疫相关和神经系统副作用不常见，且未报告迟发性神经系统并发症。\n“对于一项1期临床试验来说，这些结果非常出色，”资深作者 Michael R. Bishop, MD 说，他是芝加哥大学医学综合癌症中心医学教授。“即使在低剂量 anito-cel 下，我们一开始就看到大多数患者出现完全缓解，而且没有一名患者出现严重毒性，所以我们想进一步研究为什么会这样。”\n基于他们的实验室分析，研究人员假设 anito-cel 工程化的 BCMA 结合域维持了杀癌活性，同时限制了过度免疫激活以及其他可能损害 CAR-T 细胞功能或导致毒性的特征。\n“在这项1期临床研究中没有神经毒性和炎症副作用尤其令人鼓舞，鉴于这些并发症的严重且可能持久的影响，”第一作者 Matthew Frigault, MD 说，他是麻省总医院布莱根癌症研究所血液学/肿瘤学临床研究副主席。“新型的D结构域结合剂（D-domain binder）可能促成了这一发现，而引人注目的疗效和令人鼓舞的安全性数据相结合，为继续研究这一新的患者治疗选择奠定了重要基础。”\nanito-cel 目前正在2期和3期临床试验中评估，以在更大多发性骨髓瘤患者群体中确认这些发现。（生物谷Bioon.com）\n参考文献：\nMatthew J. Frigault et al, Phase 1 Study of Anito-cel, a d -Domain BCMA CAR T Cell for Refractory or Recurrent Myeloma, New England Journal of Medicine (2026). DOI: 10.1056/nejmoa2603527.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026（第九届）多组学研究与应用前沿论坛暨多组学整合与系统生物学前沿大会\n空中讲坛\n查看更多\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n高通量技术整合 解锁发酵工艺开发新路径\n开播时间: 2026-09-10 13:55\n基于代谢通路分析 解析疾病代谢重编程与免疫调控\n开播时间: 2026-08-27 13:50\n查看更多",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "92e52ccf48e277ed",
+    "score": 6.5,
+    "channel": "china",
+    "cluster_key": "drug:RAY1225",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.6,
+    "reasoning": "众生药业公告RAY1225减重III期达到主要终点，III期规模641例，是全球首个双周给药GLP-1R/GIPR激动剂，但来源为公司公告而非正式发表或会议口头报告，统计量（p值/CI）未披露，置信度中等。依据的是公司措辞「取得积极结果」，属于统计结论层面而非仅疗效数字。",
+    "verify_todo": [],
+    "article_type": "readout",
+    "title": "长效减重新选择，全球首个双周给药GLP‑1R/GIPR双受体激动剂临床三期成功",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382934",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日， 众生药业 发布公告，旗下 RAY1225（Bilpatide，倍尔泊肽） 减重III期REBUILDING‑2研究取得积极结果 。 这款药物也成为 全球首个完成III期临床的每两周注射一次GLP‑1R/GIPR双受体激动剂 ，为肥胖人群带来长效减重新选择。 RAY1225（倍尔泊肽）由众生睿创自主研发，拥有全球自主知识产权，属于创新结构多肽药物，可同时激动GLP‑1受体与GIP受体。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-10T14:06:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "455af6d0f6ed5f5e",
+    "score": 6.5,
+    "channel": "china",
+    "cluster_key": "drug:RAY1225",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.6,
+    "reasoning": "与条目92e52ccf为同药（RAY1225）同结果，III期成功全球首个双周GLP-1R/GIPR激动剂，但为公司公告无正式统计量，依据文本「积极结果」。",
+    "verify_todo": [],
+    "article_type": "readout",
+    "title": "Tides 速递 | 众生药业GLP-1R/GIPR激动剂III期研究成功",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382940",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "这是首个完成III期研究的每两周注射一次的 GLP-1R/GIPR激动剂。 RAY1225（Bilpatide，倍尔泊肽）是众生睿创研发的、具有全球自主知识产权的创新结构多肽药物，具有GLP-1R和GIPR双重激动活性，得益于优异的药代动力学特性，具备每两周注射一次的超长效药物潜力。 REBUILDING-2在全国50家中心开展，共入组641例肥胖或超重受试者。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-10T08:52:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "dcdf1c28c50d7c95",
+    "score": 6.0,
+    "channel": "global",
+    "cluster_key": "drug:safiglipron",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.8,
+    "reasoning": "Nature Medicine正式发表III期研究结果：口服safiglipron在所有测试剂量非劣于dapagliflozin（HbA1c），90mg剂量显示优效性，有统计检验。顶刊发表数据可信度最高（2.0分）。但糖尿病/减重领域竞争激烈（GLP-1类主导），口服GLP-1RA虽有差异化（口服vs注射），市场空间受竞品挤压。",
+    "verify_todo": [],
+    "article_type": "readout",
+    "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+    "url": "https://www.nature.com/articles/s41591-026-04713-y",
+    "sources": [
+      "nature_medicine"
+    ],
+    "content": "",
+    "summary": "Nature Medicine, Published online: 05 October 2026; doi:10.1038/s41591-026-04713-y Once-daily oral safiglipron is non-inferior to dapagliflozin for HbA1c reduction at all tested doses and superior at 90 mg, with greater improvements in glycemic control, similar modest weight loss and an acceptable safety profile in adults with type 2 diabetes.",
+    "lang": "en",
+    "published": "2026-10-05T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "a68520aeadccc16d",
+    "score": 5.8,
+    "channel": "global",
+    "cluster_key": "drug:ENV-101",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.6,
+    "reasoning": "Endeavor BioMedicines宣布ENV-101（Hedgehog通路抑制剂）治疗IPF的IIb期WHISTLE-PF试验达到主要终点及多个关键次要终点，IPF严重致命未满足需求高，且为同适应症FIC（1.5分），但来源为公司公告无p值。依据文本「达到主要终点」。",
+    "verify_todo": [
+      "核实注册库NCT编号及FVC变化具体数值和p值"
+    ],
+    "article_type": "readout",
+    "title": "这款罕见病药物2b期试验达成主要终点",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382818",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日，Endeavor BioMedicines公司宣布，其评估Hedgehog信号通路抑制剂ENV-101的2b期WHISTLE-PF试验在特发性肺纤维化（IPF）患者中达到主要终点及多个关键次要终点。 IPF是一种严重且致命的肺部疾病，因肺部呈蜂巢状被称为“蜂窝肺”，主要表现为呼吸困难、干咳和运动能力下降。 ENV-101正是针对这一疾病机制开发的Hedgehog信号通路抑制剂。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T20:47:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "9c25f40f72c8b6d7",
     "score": 5.5,
     "channel": "global",
-    "cluster_key": "procedure:sbrt",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "产业新闻汇总：罗氏结肠癌免疫辅助疗法获FDA批准（监管批准）+ 特发性肺纤维化新机制疗法2b期结果积极（临床数据，但信息碎片化）。IPF 2b数据部分满足临床数据条件。",
+    "verify_todo": [
+      "需获取IPF新机制药物具体名称及2b期终点数据"
+    ],
+    "article_type": "landscape",
+    "title": "罗氏结肠癌免疫辅助疗法获FDA批准；特发性肺纤维化新机制疗法2b期结果积极……｜产业新闻",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382931",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8fbb942e627917be",
+    "score": 5.3,
+    "channel": "global",
+    "cluster_key": "drug:SurVaxM",
     "flags": [
       "failed",
-      "positive_data"
+      "subgroup"
     ],
     "endpoint_verdict": "missed",
     "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "targeted_oncology reports SBRT ablation failed to extend PFS in oligometastatic breast cancer (negative result). Phase and statistical significance unconfirmed. Per guidelines, failed trials in cancer get elevated weight.",
+    "confidence": 0.7,
+    "reasoning": "SurVaxM新诊断胶质母细胞瘤IIb期SURVIVE试验明确未改善总生存期（OS），错过主要终点，属重大失败；但胶质母细胞瘤未满足需求极高（1.5分），亚组有获益故加回部分权重。依据的是公司「未能显著改善总生存期」文本表述，无p值。",
     "verify_todo": [
-      "Confirm trial phase, primary endpoint, and p-value/CI from registry or primary source"
+      "核实注册库中OS具体数值及HR/CI"
     ],
     "article_type": "halt",
-    "title": "<![CDATA[SBRT Ablation Fails to Extend PFS in Oligometastatic Breast Cancer]]>",
-    "url": "https://www.targetedonc.com/view/sbrt-ablation-fails-extend-pfs-oligometastatic-breast-cancer",
+    "title": "脑癌疫苗Ⅱ期未达终点，公司仍有信心",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382939",
     "sources": [
-      "targeted_oncology"
+      "pharnexcloud"
     ],
-    "content": "",
+    "content": "近日， MimiVax公司 公布 了 SurVaxM 在 新诊断胶质母细胞瘤 的Ⅱ b期SURVIVE 试验 结果，在总人群中，与安慰剂相比， SurVaxM未能显著改善的总生存期，错过主要终点目标。 但在关键亚组中， SurVaxM 显示出了显著的生存获益。 SURVIVE是一项 Ⅱ b期、随机、双盲、安慰剂对照、多中心临床试验，旨在评估 SurVaxM联合标准治疗对 在新诊断胶质母细胞瘤患者 中的疗效，试验主要终点为总生存期(OS )。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
     "summary": "",
-    "lang": "en",
-    "published": "2026-10-09T16:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "99491fda833a006a",
-    "score": 5.5,
-    "channel": "global",
-    "cluster_key": "drug:survaxm",
-    "flags": [
-      "positive_data",
-      "subgroup",
-      "small_n"
-    ],
-    "endpoint_verdict": "partial",
-    "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "targeted_oncology reports SurVaxM (peptide vaccine) improved OS only in younger subgroup in newly diagnosed glioblastoma. OS benefit limited to younger patients only (subgroup); glioblastoma has very high unmet need. Surrogate to OS not confirmed.",
-    "verify_todo": [
-      "Confirm trial phase, full OS results, and whether primary endpoint was OS or a surrogate"
-    ],
-    "article_type": "readout",
-    "title": "<![CDATA[SurVaxM Improves OS Only in Younger Subgroup in Newly Diagnosed Glioblastoma]]>",
-    "url": "https://www.targetedonc.com/view/survaxm-vaccine-overall-survival-younger-subgroup-glioblastoma",
-    "sources": [
-      "targeted_oncology"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-07T20:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "lang": "cn",
+    "published": "2026-10-10T09:20:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "aea6491745dc3b88",
-    "score": 5.5,
+    "score": 5.3,
     "channel": "china",
-    "cluster_key": "drug:xs411",
-    "flags": [],
+    "cluster_key": "drug:XS411",
+    "flags": [
+      "positive_data"
+    ],
     "endpoint_verdict": "positive_data",
     "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "士泽生物通用型iPSC衍生XS411细胞注射液I期结果在MDS大会报告（显示多巴胺能神经元存活、分化及症状改善），II期全部入组；I期样本量有限（未知具体n），但帕金森病存在未满足需求，首个无需HLA配型的通用型iPSC疗法具有首创性。",
+    "confidence": 0.55,
+    "reasoning": "士泽生物XS411 iPSC细胞疗法I期结果及II期完成入组在MDS大会口头报告，帕金森病未满足需求高，I期有疗效数据但非正式统计检验，II期仅入组完成无结果。依据是会议报告文本「显著改善帕金森病症状」，非预设终点统计结论。",
     "verify_todo": [
-      "I期样本量、主要终点、具体安全性数据"
+      "核实注册库NCT编号及I期完整终点数据"
     ],
     "article_type": "readout",
     "title": "帕金森细胞疗法新突破！XS411亮相MDS，2期已全部入组",
@@ -516,18 +399,20 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-10T08:06:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "5fa5cf3c23acccfe",
-    "score": 5.5,
+    "score": 5.3,
     "channel": "china",
-    "cluster_key": "drug:xs411",
-    "flags": [],
+    "cluster_key": "drug:XS411",
+    "flags": [
+      "positive_data"
+    ],
     "endpoint_verdict": "positive_data",
     "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "与id:aea6491745dc3b88同为XS411在MDS大会报告，合并计分；士泽生物iPSC疗法I期+II期进展，帕金森病未满足需求高，通用型iPSC全球领先。",
+    "confidence": 0.55,
+    "reasoning": "与条目aea649174为同一XS411同一MDS大会报告的重复版本，评分相同。依据会议口头报告文本，无正式统计量。",
     "verify_todo": [],
     "article_type": "readout",
     "title": "中国帕金森病细胞治疗迎新突破：国际MDS大会公布Ⅰ+Ⅱ期临床结果及进展",
@@ -539,18 +424,20 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-10T08:05:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "6e559fd6cc1a0b45",
-    "score": 5.5,
+    "score": 5.3,
     "channel": "china",
-    "cluster_key": "drug:xs411",
-    "flags": [],
+    "cluster_key": "drug:XS411",
+    "flags": [
+      "positive_data"
+    ],
     "endpoint_verdict": "positive_data",
     "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "与id:aea6491745dc3b88和id:5fa5cf3c23acccfe同为XS411报道，合并计分；通用型iPSC衍生多巴胺能神经前体细胞，I期数据积极，II期完成入组。",
+    "confidence": 0.55,
+    "reasoning": "与条目aea649174为同一XS411同一MDS大会报告的重复版本，评分相同。依据会议口头报告文本，无正式统计量。",
     "verify_todo": [],
     "article_type": "readout",
     "title": "士泽生物通用细胞治疗帕金森病亮相 MDS 国际大会：临床 I 期突破进展+盲法 II 期全部入组",
@@ -562,185 +449,22 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-10T08:00:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "0c96ac33e55c2c7d",
-    "score": 5.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "FDA批准每月一次长效注射剂治疗精神分裂症，属于监管里程碑事件；但仅公告批准结果，无临床试验终点数据，发布日期未知。",
-    "verify_todo": [
-      "核实具体获批药物名称及适应症详情",
-      "确认发布日期"
-    ],
-    "article_type": "milestone",
-    "title": "每月一次！长效精神分裂症新药获 FDA 批准上市",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382925",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "9c25f40f72c8b6d7",
-    "score": 5.5,
-    "channel": "global",
-    "cluster_key": "target:IPF_novel_mechanism",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "包含两条信息：(1)罗氏结肠癌免疫辅助疗法获FDA批准——监管里程碑；(2)特发性肺纤维化新机制疗法2b期结果积极——临床数据读出但仅有'积极'定性描述，无具体终点数值，发布日期未知。",
-    "verify_todo": [
-      "核实IPF新机制疗法具体2b期数据及终点结果",
-      "确认具体药物名称"
-    ],
-    "article_type": "readout",
-    "title": "罗氏结肠癌免疫辅助疗法获FDA批准；特发性肺纤维化新机制疗法2b期结果积极……｜产业新闻",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382931",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "d4ee5305f637f8c9",
-    "score": 5.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "标题称'被低估30年，这个方向终于迎来FDA批准'，属于高叙事性监管批准报道；'30年'强调了该领域长期未满足需求，但无具体临床数据，发布日期未知。",
-    "verify_todo": [
-      "核实具体获批药物、机制及适应症"
-    ],
-    "article_type": "milestone",
-    "title": "被低估30年，这个方向终于迎来FDA批准！| Bilingual",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382642",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "d0b4500c66b69ea9",
-    "score": 5.0,
-    "channel": "china",
-    "cluster_key": "drug:ivonescimab",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "依沃西（ivonescimab）启动国内第11项III期临床，头对头度伐利尤，用于不可切除III期肺癌；属于III期试验启动里程碑，未达到终点；竞争激烈但III期头对头设计有看点。",
-    "verify_todo": [
-      "具体III期试验设计、主要终点、入组计划"
-    ],
-    "article_type": "milestone",
-    "title": "不可切除III期肺癌，头对头度伐利尤：依沃西启动国内第11项三期临床试验",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382936",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "Umabs DB作为目前全球最全面的抗体药物专业数据库，收录全球超11000个从临床前到商业化阶段抗体药物，涉及靶点1700+，涉及疾病种类2400+，研发机构3000+，覆盖药物蛋白序列、专利和临床等多种专业信息。 Umabs DB药物数据库已正式开放上线，可访问www.umabs.com注册享受7天免费试用。 中国方面， 山东第一医科大学附属肿瘤医院的 于金明院士、和 上海市肺科医院 陈昶教授共同作为主要研究者。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T10:56:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "0c728186f1edbb68",
-    "score": 5.0,
-    "channel": "china",
-    "cluster_key": "drug:imc002",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "IMC002（CLDN18.2 CAR-T）胃癌III期确证性临床启动；属于III期试验启动里程碑；HER2阴性CLDN18.2阳性胃癌二线失败后未满足需求高；随机对照设计，但尚无数据读出。",
-    "verify_todo": [
-      "III期主要终点设计、计划入组人数"
-    ],
-    "article_type": "milestone",
-    "title": "【胃癌CAR-T细胞疗法】IMC002注射液终于启动Ⅲ期临床啦！胃癌CLDN18.2 阳性患者福音",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382815",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "胃癌二线失败，CLDN18.2 阳性无药可医？” 对于 HER2 阴性、CLDN18.2 阳性的晚期胃癌 / 胃食管结合部腺癌患者，二线治疗失败后往往面临 “无药可选” 的绝境，中位生存期不足 6 个月。 现在， CLDN18.2 CAR-T 疗法 IMC002 Ⅲ 期确证性临床启动， 随机对照设计 + 免费检测 CLDN18.2 + 最大病灶＜5cm 即可 ，打破病灶负荷限制，为晚期患者带来 “新生” 希望。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T23:59:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "bc98a9065f9b6c09",
-    "score": 5.0,
-    "channel": "china",
-    "cluster_key": "cell:parkinson",
-    "flags": [
-      "positive_data",
-      "milestone"
-    ],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.6,
-    "reasoning": "士泽生物通用细胞治疗帕金森病在MDS大会展示I期'突破进展'且盲法II期全部入组，属于临床里程碑事件；但摘要仅91字符，无具体疗效数据，I期'突破'仅为定性描述无统计数字，发布日期未知。",
-    "verify_todo": [
-      "核实I期具体安全性/有效性数据",
-      "确认II期试验设计及主要终点"
-    ],
-    "article_type": "milestone",
-    "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
-    "url": "https://www.drugtimes.cn/2026/10/10/shizeshengwutongyongxibaozhiliaopajinsenbingliangxiangmdsguo/",
-    "sources": [
-      "drugtimes"
-    ],
-    "content": "",
-    "summary": "2026年10月，国际帕金森病与运动障碍大会（MDS）在韩国首尔举行，该大会是全球公认的帕金森病及运动障碍疾病领域最高水平、最具影响力的国际学术会议之一。首都医科大学附属北京天坛医…",
-    "lang": "cn",
-    "published": "2026-10-10T03:40:02+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "f5e69287f42364a8",
-    "score": 4.9,
+    "score": 5.2,
     "channel": "global",
     "cluster_key": "drug:petrelintide",
     "flags": [
-      "positive_data",
-      "single_arm"
+      "positive_data"
     ],
     "endpoint_verdict": "positive_data",
     "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "Zealand/Roche的amylin药物petrelintide II期topline数据积极（减重），但未明确说明是否达到预设主要终点，属于疗效数据而非统计结论；GLP-1赛道竞争激烈（Lilly、Novo），公司topline公告可信度中等。",
+    "confidence": 0.4,
+    "reasoning": "Petrelintide（Zealand/Roche）II期研究topline数据积极，体重减轻数据阳性，但依据为新闻措辞，非统计结论（无p值/CI），Phase II规模有限。肥胖/糖尿病市场竞争激烈（GLP-1主导），amylin机制有一定差异化但非首创。",
     "verify_todo": [
-      "主要终点是否预设统计假设？具体终点指标及p值？"
+      "核查完整II期研究数据及注册库统计结果"
     ],
     "article_type": "readout",
     "title": "Zealand, Roche topline a Phase 2 study for amylin drug, though Lilly remains an obstacle",
@@ -752,104 +476,182 @@
     "summary": "Zealand Pharma and Roche rolled out some mid-stage data for their amylin drug in obesity and diabetes, hoping to compete with Eli Lilly. In a Phase 2 study, petrelintide reduced patients’ ...",
     "lang": "en",
     "published": "2026-10-08T14:41:14+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "eecfb56774ef702a",
-    "score": 4.5,
+    "id": "7e191016123c80eb",
+    "score": 5.0,
     "channel": "global",
-    "cluster_key": "",
+    "cluster_key": "drug:evenamide",
     "flags": [
-      "positive_data"
+      "halted"
     ],
-    "endpoint_verdict": "positive_data",
+    "endpoint_verdict": "halted",
     "verdict_basis": "textual",
     "confidence": 0.5,
-    "reasoning": "onclive article reporting nonrelapse mortality, safety, and long-term trajectory after GVHD control; discusses real-world outcomes. Specific data but likely observational/single-arm. Phase unclear.",
+    "reasoning": "4例死亡引发FDA安全性担忧，导致临床试验暂停（halted），属于重大安全性事件，治疗耐药性精神分裂症无有效疗法，未满足需求高。因尚无正式统计检验（p值/CI），新闻措辞推断，可信度中等。",
     "verify_todo": [
-      "Confirm trial phase and whether this is from a controlled study or registry analysis"
+      "核查FDA官方通报及试验注册库状态变更记录"
+    ],
+    "article_type": "halt",
+    "title": "Four Deaths Prompt FDA Safety Concerns About Novel Schizophrenia Drug",
+    "url": "https://www.medpagetoday.com/psychiatry/schizophrenia/123330",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "summary": "(MedPage Today) -- The FDA flagged a potential safety signal after four deaths were reported among patients with treatment-resistant schizophrenia who received investigational evenamide in clinical trials, Newron Pharmaceuticals said Thursday...",
+    "lang": "en",
+    "published": "2026-10-08T20:26:21+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "201bd75644bf3112",
+    "score": 4.5,
+    "channel": "global",
+    "cluster_key": "target:SBRT",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "textual",
+    "confidence": 0.4,
+    "reasoning": "SBRT+消融治疗寡转移乳腺癌明确未达到PFS主要终点，是明确的阴性结果读出（failed），应给高分。仅凭新闻措辞，无注册库统计量，可信度中等。",
+    "verify_todo": [
+      "核查注册库是否有该试验完整统计结果（HR/P值）"
     ],
     "article_type": "readout",
-    "title": "<![CDATA[Nonrelapse Mortality, Safety, and Long-Term Trajectory After GVHD Control]]>",
-    "url": "https://www.onclive.com/view/nonrelapse-mortality-safety-and-long-term-trajectory-after-gvhd-control",
+    "title": "<![CDATA[SBRT Ablation Fails to Extend PFS in Oligometastatic Breast Cancer]]>",
+    "url": "https://www.targetedonc.com/view/sbrt-ablation-fails-extend-pfs-oligometastatic-breast-cancer",
     "sources": [
-      "onclive"
+      "targeted_oncology"
     ],
     "content": "",
     "summary": "",
     "lang": "en",
-    "published": "2026-10-08T12:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "published": "2026-10-09T16:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "8f5942eeec4e56a4",
-    "score": 4.5,
-    "channel": "global",
-    "cluster_key": "drug:vk2735-oral",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "Viking Therapeutics口服GLP-1/GIP双靶点激动剂VK2735启动两项III期临床，每项计划入组560例；属于III期试验启动里程碑，GLP-1赛道极度竞争，但口服制剂差异化值得关注。",
-    "verify_todo": [
-      "III期主要终点设计"
-    ],
-    "article_type": "milestone",
-    "title": "Viking：口服GLP-1/GIP启动两项减重三期临床",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382937",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "这两项三期临床均计划入组560例受试者，预计分别于2028年8月、2028年12月完成。 VK2735此前已经启动皮下注射版的三期临床，此次口服版也推进到三期临床。 上个月， Viking Therapeutics公布GLP-1/GIP双靶点激动剂VK2735二期临床维持治疗方案的最新数据。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T10:52:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "5763ddbc093f53e5",
-    "score": 4.5,
-    "channel": "global",
-    "cluster_key": "drug:tilrekimig",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "辉瑞IL-4/IL-13/TSLP三抗Tilrekimig启动4项III期临床（重度哮喘、COPD等），计划入组1100-1156例；属于III期试验启动里程碑，未达到终点；自免赛道竞争中等（dupilumab等）。",
-    "verify_todo": [
-      "4项III期各自主要终点和试验设计"
-    ],
-    "article_type": "milestone",
-    "title": "辉瑞：IL-4/IL-13/TSLP三抗启动4项三期临床",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382938",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "该三期临床计划入组1100例受试者，预计2029年8月完成。 今年8月19日，辉瑞注册了 Tilrekimig治疗疗重度哮喘的全球三期临床试验，计划入组1100例受试者，预计2029年9月完成。 今年1月，辉瑞启动了Tilrekimig治疗慢阻肺（COPD）的全球三期临床试验，该三期临床试验计划入组1156例COPD患者，预计2030年10月初步完成。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-10T10:52:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "d4af235ff25a6a25",
-    "score": 4.5,
+    "id": "0c728186f1edbb68",
+    "score": 4.3,
     "channel": "china",
-    "cluster_key": "drug:PEG-G-CSF",
+    "cluster_key": "drug:IMC002",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.5,
+    "reasoning": "宜明昂科CLDN18.2 CAR-T（IMC002）启动III期确证性临床，胃癌二线失败后无药可选（未满足需求高1.5），但无任何结果数据，属试验启动节点。CLDN18.2赛道已有CT041等竞争，me-too风险（0.2）。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "【胃癌CAR-T细胞疗法】IMC002注射液终于启动Ⅲ期临床啦！胃癌CLDN18.2 阳性患者福音",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382815",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "胃癌二线失败，CLDN18.2 阳性无药可医？” 对于 HER2 阴性、CLDN18.2 阳性的晚期胃癌 / 胃食管结合部腺癌患者，二线治疗失败后往往面临 “无药可选” 的绝境，中位生存期不足 6 个月。 现在， CLDN18.2 CAR-T 疗法 IMC002 Ⅲ 期确证性临床启动， 随机对照设计 + 免费检测 CLDN18.2 + 最大病灶＜5cm 即可 ，打破病灶负荷限制，为晚期患者带来 “新生” 希望。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T23:59:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "99491fda833a006a",
+    "score": 4.2,
+    "channel": "global",
+    "cluster_key": "drug:SurVaxM",
     "flags": [
-      "positive_data"
+      "subgroup"
+    ],
+    "endpoint_verdict": "partial",
+    "verdict_basis": "textual",
+    "confidence": 0.4,
+    "reasoning": "SurVaxM在新诊断GBM中仅在年轻亚组显示OS获益，属于亚组/事后分析，非预设主要终点结果。胶质母细胞瘤未满足需求极高（1.5分），但亚组分析须扣分（-0.5）。新闻措辞推断，无统计检验。",
+    "verify_todo": [
+      "核查完整III期研究预设终点OS是否达成"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[SurVaxM Improves OS Only in Younger Subgroup in Newly Diagnosed Glioblastoma]]>",
+    "url": "https://www.targetedonc.com/view/survaxm-vaccine-overall-survival-younger-subgroup-glioblastoma",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-07T20:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "192d591bf8f2f979",
+    "score": 4.0,
+    "channel": "china",
+    "cluster_key": "drug:pembrolizumab_subcutaneous",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.5,
+    "reasoning": "帕博利珠单抗皮下注射剂（MK-3475A）国内获批，III期MK-3475A-D77研究达到主要PK终点（皮下vs静脉暴露水平可比），疗效数据（ORR/PFS）数值相近。依据为新闻措辞，无完整统计检验。国内首个PD-1皮下剂型为临床进展，但K药本身非新分子，PD-1竞争激烈。",
+    "verify_todo": [
+      "核查III期研究完整统计结果及注册库NCT编号"
+    ],
+    "article_type": "milestone",
+    "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_381806",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "9月28日，NMPA官网显示，默沙东PD-1抑制剂帕博利珠单抗注射液（皮下注射）在国内获批上市，成为国内首个获批上市的PD-1单抗皮下注射剂（受理号：JXSS2500072-JXSS2500095）。图源：NMPA官网一、K药“换剂型”，皮下注射缩短给药时间皮下帕博利珠单抗（MK-3475A）由帕博利珠单抗+Berahyaluronidase alfa（ALT-B4）组成。其中，ALT-B4为韩国Alteogen开发的重组人透明质酸酶变体。图源：摩熵医药-全球药物研发数据库2024年2月，默沙东与Alteogen达成合作，以2000万美元首付款+4.32亿美元里程碑付款获得ALT-B4。透明质酸酶能够降解皮下组织中的透明质酸，降低组织黏度，促进大分子药物扩散和吸收，从而实现抗体药物的皮下注射。与传统静脉输注相比，皮下帕博利珠单抗可采用每3周一次或每6周一次的给药方案，单次注射时间明显缩短。美国FDA批准的Keytruda Qlex同样采用每3周或每6周给药方案。二、III期研究显示，皮下给药疗效与安全性保持一致皮下帕博利珠单抗的关键III期研究MK-3475A-D77共纳入377例患者，比较皮下注射帕博利珠单抗联合化疗与静脉注射Keytruda联合化疗，用于转移性NSCLC一线治疗。图源：摩熵医药-全球药物研发数据库研究达到主要PK终点，皮下注射组与静脉注射组的帕博利珠单抗暴露水平具有可比性。疗效方面，两组ORR分别为45.4%和42.1%，中位PFS分别为8.1个月和7.8个月；安全性整体一致。在给药效率方面，相关观察性分析显示，相较静脉输注，皮下注射可进一步缩短患者在治疗场所的停留时间，并减少医护人员给药及监护相关时间。三、海外已获批，K药进入“皮下时代”2025年9月19日，FDA批准帕博利珠单抗与Berahyaluronidase alfa组成的Keytruda Qlex用于此前已获批静脉制剂的相关实体瘤适应症。此次国内获批后，K药皮下注射剂正式进入中国市场，也意味着PD-1单抗的给药方式进一步从静脉输注向皮下注射延伸。图源：摩熵医药-全球药物研发数据库对于默沙东而言，剂型升级也是K药生命周期管理的重要组成部分。2025年，Keytruda/Keytruda Qlex全球销售额达到316.8亿美元，同比增长7%，约占默沙东全年650.1亿美元营收的49%。\n帕博利珠单抗销售数据\n【帕博利珠单抗】全国药店零售额-年度趋势\n销售额(亿元)\n增长率(%)\n【帕博利珠单抗】全国医院(全终端)销售额-年度趋势\n销售额(亿元)\n增长率(%)\n【帕博利珠单抗】全国医院(全终端)销售额-企业分析TOP10\nMAH/生产企业\n销售额(亿元)\n可直接点击跳转到数据库免费查看最新数据详细信息\n与此同时，默沙东预计Keytruda在2028—2029年将受到生物类似药竞争影响，因此，围绕给药方式和产品生命周期进行布局具有重要商业意义。随着K药皮下注射剂落地国内，国内PD-(L)1皮下制剂竞争也将进一步升温。参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 科伦博泰联手默沙东！TROP2 ADC芦康沙妥珠单抗+K药联合疗法报产，一线NSCLC免化疗时代或将开启2. 默沙东2026年企业深度研究报告：K药危机下的“管线驱动”转型与多元布局3. 默沙东的K药帕博利珠单抗斩获首个卵巢癌适应症，改写铂耐药患者治疗格局！4. 默沙东K药在华获批第20项适应症，破局晚期子宫内膜癌治疗困境，Qlex皮下制剂重塑用药体验\n帕博利珠单抗*点击下方数字查看更多药品相关数据\n全球药物研发信息\n38条\n中国药品审评信息\n317条\n中国药品批文\n1条\n药品招投标\n143条\n全球临床试验\n2472条\n中国临床试验\n234条\n一致性评价\n美国FDA批准药品\n3条\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-08T11:45:12+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "b0962e2dd4374a4b",
+    "score": 4.0,
+    "channel": "china",
+    "cluster_key": "drug:rentosertib",
+    "flags": [
+      "not_clinical"
     ],
     "endpoint_verdict": "none",
     "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "科兴制药聚乙二醇化人粒细胞刺激因子注射液上市许可申请获NMPA受理，属于注册里程碑，但非临床试验结果读出，发布日期未知。",
+    "confidence": 1.0,
+    "reasoning": "全球首个AI全流程研发新药进入III期临床的里程碑报道，属于行业进展与融资新闻，虽涉及临床试验启动，但无具体临床数据读出。",
     "verify_todo": [
-      "确认具体获受理日期",
-      "核实该品种是否已有同靶点上市产品"
+      "核查Rentosertib具体临床数据和靶点机制信息"
     ],
     "article_type": "milestone",
-    "title": "科兴制药自主研发的聚乙二醇化人粒细胞刺激因子注射液上市许可申请获受理",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382927",
+    "title": "全球首个！AI 全流程研发新药进入 III 期临床，2026 资本爆发，AI 制药迎来大考",
+    "url": "http://news.bioon.com/article/d59a95258846.html",
+    "sources": [
+      "bioon_trials"
+    ],
+    "content": "全球首个！AI 全流程研发新药进入 III 期临床，2026 资本爆发，AI 制药迎来大考\n底座\n增速\nAI制药\n临床试验\n大模型\n融资\n来源：生物谷原创 2026-09-28 09:43\nAI 不会取代制药行业，却会重塑新药研发全流程！\n新药研发素来有 “双十定律” 之称：十年周期、十亿美元投入，最终却常常折戟于临床试验阶段。过去数十年，全球制药行业始终试图破解这一研发魔咒。当人工智能在图像识别、自然语言处理领域不断实现突破，一个核心问题随之而来：AI 能否赋能新药分子设计？\n如今，这个猜想正从实验室走向真实临床。2026 年 9 月 10 日，由生成式 AI 全程主导靶点发现到分子设计的候选药物 Rentosertib，在中国医学科学院北京协和医院完成特发性肺纤维化患者首剂给药；同日，上海市肺科医院顺利完成首例受试者入组。这也意味着，全球首款从靶点发现到分子设计全链路依托生成式 AI 开发的候选药物，正式迈入 III 期临床试验。\n几乎同一时间，资本市场交出了亮眼答卷。投中嘉川 CVSource 数据显示，2026 年至今，AI 制药赛道累计完成 57 笔投资，44 家企业拿到融资，披露融资总额高达 157.65 亿元，金额超过 2023、2024、2025 三年总和。科学临床验证与资本热情在 2026 年形成交汇。AI 制药究竟能否真正产出可落地的新药，正是本年度生物医药行业最核心的命题。\n图片来源：openaccessgovernment.org\n一、AI 制药市场规模快速扩容\n全球市场正处于高速扩张阶段。据艾媒咨询数据，全球AI制药市场规模从2021年的7.9亿美元增长至2024年的18.2亿美元，2025年攀升至24.1亿美元，预计2026年将达到29.9亿美元，六年内市场规模增长近4倍。2021年至2026年的年复合增长率约为30.47%，这一增速在全球医药产业各细分赛道中处于领先位置。中研普华产业研究院预测，2035年全球AI制药市场有望突破460亿美元。\n国内市场增长势头同样强劲。2020 年中国 AI 制药市场规模仅 0.8 亿元，2021 年增速直接突破 100%，标志行业进入快速发展期；2022 年增长至 2.9 亿元，2023 年达 4.1 亿元，2024 年提升至 5.6 亿元，同比增长 36.59%，2025 年市场规模突破 6 亿元。\n产业生态层面，投中嘉川 CVSource 统计，国内 AI 制药相关企业数量已达 164 家，其中 117 家获得融资，占比超七成。英矽智能、晶泰科技、剂泰科技被称作国内 “AI 制药三小龙”，均登陆港交所。更广维度来看，2026 上半年 AI 制药行业渗透率突破 14%，深耕靶点挖掘、虚拟筛选、临床预测等核心环节的企业超 270 家。\n放眼全球，AI 赋能新药临床管线数量从 2017 年仅 4 条增长至 2026 年 6 月的 179 条，其中 9 个候选药物进入 III 期临床。预计 2026 年，AI 辅助研发进入临床阶段的候选分子总量突破 90 个，较 2025 年增幅超 65%。\n二、告别算力堆砌，转向垂直科学模型\n大模型的发展重心，正从通用对话能力转向垂直领域的科学预测。2026 年 3 月，英矽智能联合 Liquid AI 发布轻量化科学基础模型 LFM2-2.6B-MMAI。这款仅 26 亿参数的模型，在本地化部署条件下，多项药物发现基准测试性能超越参数量十倍于自身的同类模型。其核心创新在于单模型即可覆盖 200 余种研发任务，包含 ADMET 成药性预测、多参数分子优化、蛋白口袋评估、靶点验证以及逆合成路线设计等核心工作。这一成果，标志制药 AI 正式告别 “暴力堆砌算力” 的粗放模式，迈入高效架构设计的全新范式。\n结构生成与亲和力预测联合建模也迎来实质性突破。2026 年 7 月《自然・通讯》刊发 FLOWR.ROOT 模型，首次将口袋感知三维配体生成、多终点结合亲和力预测整合至同一架构。该模型依托数十亿配体构象、数百万蛋白-配体复合物数据大规模预训练，支持从头分子生成、骨架跃迁、片段生长等多种药物设计场景，已经在激酶选择性等真实研发项目中完成验证。借助生成式 AI 与强化学习开展分子生成、合成路径规划，新药研发早期阶段平均周期由传统方案约 24 个月压缩至 8 个月。\n但 AI 在临床试验阶段呈现明显的 “前高后低” 特征。一项系统综述表明，AI 发现分子的 I 期临床成功率可达 80%~90%，远高于传统药物研发 40%~65% 的水平；进入 II 期后，成功率回落至约 40%，与传统研发约 37% 的水平无统计学差异。在追踪的 117 个 AI 赋能临床资产中，仅 8 个顺利通过 II 期试验。\n数据背后暴露核心矛盾：AI 在分子安全工程、ADMET 预测上优势突出，但暂时无法提升靶点生物学假设的可靠性。正如行业研究者所言：“AI 帮我们顺利通关 I 期，但有可能最初的生物学终点假设本身就存在偏差。”\n图片来源：www.cam.ac.uk\n三、资本热潮席卷赛道，产业格局加速重构\n（一）融资爆发：九个月融资总额，超过前三年总和\n2026 年 AI 制药赛道迎来融资爆发。回顾历史数据，2023 年国内共 31 笔投资，28 家企业获得融资，总额 24.83 亿元；2024、2025 年融资规模稳步上行。而 2026 年前 9 个月赛道融资总额达到 157.65 亿元，是 2025 全年 51 亿元的 3.1 倍，超过 2023-2025 三年融资总和。\n资金集中度持续抬升。2026 年金额最高的 4 笔交易：华深智药 7.87 亿美元 B 轮、Anew Labs 2.9 亿美元首轮、元思生肽 1.5 亿美元、寻明生科 1 亿美元，四项交易合计约 95 亿元，占赛道总融资额六成。\n华深智药极具代表性：这家清华大学智能产业研究院孵化企业，旗下海外主体 Earendil Labs 与赛诺菲达成战略合作，潜在总价值最高 25.6 亿美元，首付款及短期项目里程碑款最高 1.6 亿美元。随后公司拿下 2026 全球生物技术领域最高单笔融资纪录。赛道单笔融资中位数升至 1.2 亿元，资本持续向具备端到端新药研发能力的平台型企业聚集。\n（二）商业模式：褪去概念故事，交付真实研发成果\nAI 制药商业模式，正从简单的 “AI + 制药” 拼接走向深度融合。以英矽智能为例，依托自研 Pharma.AI 平台，公司 2026 上半年总收入约 1.06 亿美元，同比增长 287%，经调整净利润超 5100 万美元，迎来上市后首个盈利半年度。研发效率层面，企业可在 12~18 个月内，以 300~500 万美元的平均成本产出临床前候选化合物，耗时仅为传统模式的 1/4~1/5。\n交易模式同样发生变化，逐步由单纯项目收费，转向里程碑付款+销售分成的复合模式。2026 年已有超 35% 产业交易采用该结构，合作双方风险共担、利益绑定进一步深化。\n（三）并购浪潮：巨头自建AI研发底座\n并购浪潮也在加速重塑行业格局。2026年5月，罗氏宣布以7.5亿美元预付款加上最高3亿美元里程碑付款、总价最高10.5亿美元收购数字病理AI公司PathAI，创下AI制药赛道历史最高交易纪录。\n几乎同时，Anthropic以约4亿美元收购了成立仅8个月、员工不足10人的生物计算团队Coefficient Bio，成为通用大模型厂商首次重金收购垂直AI药物研发团队的标志性事件。\n此外，字节跳动分拆的Anew Labs完成2.9亿美元首轮融资，投后估值15亿美元，投资方包括红杉中国、IDG资本、高瓴创投等，字节跳动保留56%股份。科技巨头的入局，正在改变AI制药赛道的竞争维度，跨国药企也从外部项目合作，转向内部搭建自研 AI 研发平台。\n图片来源：www.bjpharm.org.uk\n四、国内顶层设计+全球监管协同\n国内已搭建起覆盖 AI 制药全链条的政策支持体系。2026 年 9 月，工信部等十部门印发《医药工业发展 “十五五” 规划》，提出多项预期目标：到 2030 年，规模以上医药工业企业营收突破 3.5 万亿元，全球首创新药占比提升至 25% 以上，创新药产业年均增速不低于 20%。\n规划专门设置 9 个专栏，重点布局 AI 制药等高价值场景，攻坚传统不可成药靶点药物，推进 AI 赋能靶点筛选、分子设计优化；提出完善医药高质量数据集、搭建医药可信数据空间，开发医药垂类大模型与智能体，围绕药物发现、临床研究、工艺优化、质量控制、流通监管等环节落地 AI 应用，推动医药研发生产范式变革。\n更早之前，2025 年 4 月工信部等七部门发布《医药工业数智化转型实施方案（2025—2030 年）》，规划到 2027 年建成 10 个以上医药大模型创新平台、100 个数智化典型场景、100 个数智药械工厂；2030 年实现规上医药企业数智化全覆盖。2026 年 4 月，国家药监局出台《关于 “人工智能 + 药品监管” 的实施意见》，目标 2030 年初步建成 AI 与药品监管融合创新体系。\n国际监管层面，两大变量值得关注。其一，美国《生物安全法案》2026 年正式生效，纳入国防授权法案框架，给国内生物医药企业借助 AI 开展全球化研发带来外部不确定性。其二，FDA 在 2025 年发布 AI 用于药品监管决策草案；2026 年 1 月，EMA 与 FDA 针对 AI 药物开发达成统一原则。全球主要药监机构联合出台 AI 辅助药物研发的数据质量指南，要求训练数据集至少包含 3 个独立来源的临床前与临床数据。监管规则逐步明晰，将为 AI 制药全球化发展奠定稳定基础。\n图片来源：peoplesdispatch.org\n五、软硬双向突破\n（一）硬突破：III期临床的首次大考\nAI制药的价值最终要落到患者身上。Rentosertib的III期临床试验（GENESIS-IPF-3）是一项前瞻性、多中心、随机、双盲、安慰剂对照、平行组研究，旨在系统评估每日一次口服Rentosertib持续给药52周的疗效与安全性，由中国医学科学院北京协和医院徐作军教授担任牵头研究者，中国工程院院士钟南山和上海市肺科医院陈昶院长担任联合牵头研究者。\n值得关注的是，2026年发表在《自然·生物技术》上的研究显示，六大独立衰老时钟模型一致显示，与安慰剂组相比，接受Rentosertib治疗的患者生物学年龄有所降低。这意味着AI设计的药物可能不仅治疗疾病，还有潜在的抗衰老效果。\n徐作军教授对此评价道：“AI 挖掘的 TNIK 靶点，此前从未被证实和纤维化相关。这证明在复杂疾病靶点挖掘上，AI 走出了一条区别于传统科研的全新路径。本次首例给药是 Rentosertib 重要里程碑，IIa 期研究中我们已经观察到疾病逆转趋势，但仍需要大样本、长周期 III 期试验证实疗效。如果推进顺利，从 III 期启动到新药上市，预计还需要 3 至 4 年。”\n（二）软落地：AI 诊断大规模走向临床\n除新药研发，AI 在疾病诊断、筛查领域落地速度持续加快。上海交大人工智能学院联合附属新华医院团队开发全球首个智能体循证推理罕见病诊断系统 DeepRare，成果于 2026 年 2 月登上《自然》。\n系统首创“中枢-分身”可溯源 Agentic AI 架构，实现实时知识整合、类医生慢思考推理、全流程证据溯源三大核心创新。仅依靠临床表型信息、不纳入基因数据的前提下，表型诊断首诊准确率可达 57.18%，较国际最优模型提升 23.79 个百分点；叠加基因测序数据，复杂病例首诊综合准确率突破 70.6%。经新华专家验证，系统输出带完整证据链的推理报告，获得临床专家 95.4% 认可度。截至 2026 年初，DeepRare 线上平台已有超 1000 名专业用户注册，覆盖全球 600 余家医疗机构与科研院所。\n除此之外，致盲性眼病 AI 诊断系统落地至国内 30 个省份、140 个地市，并推广至全球四大洲 9 国；AI 模型将疾病检出率提升至 95%，病理大模型在多种癌症诊断上与临床专家一致性超 90%。AI 已经从新药研发向外延伸，覆盖全链条健康管理，最终惠及广大患者。\n图片来源：journalistsresource.org\n小结\n如今，AI制药仍然面临四重核心挑战：\n（一）数据瓶颈是首要难题。数据孤岛、标注稀缺、阴性失败实验数据缺失构成了三大痛点。AI模型的预测能力高度依赖训练数据的质量和数量，而药物研发领域恰恰是数据最分散、最不标准的行业之一。建设高质量数据集和可信数据空间，也成为政策重点支持方向。\n（二）临床转化鸿沟难以逾越。I 期高成功率无法延续至 II 期，暴露体外模型向人体复杂生理系统转化的壁垒。AI 在分子成药性、安全性预测上优势确凿，但决定新药成败最核心的靶点有效性问题，暂未被 AI 攻克。\n（三）商业模式仍待持续验证。虽然英矽智能实现半年度盈利，但绝大多数 AI 制药企业尚未实现盈亏平衡。管线授权、平台订阅服务、自研新药上市，哪一条商业化路径更优，还需要更多真实案例验证。\n（四）地缘政治带来外部不确定性。美国《生物安全法案》给国内 AI 药企全球化布局带来风险，如何在合规前提下开展国际科研合作，是行业必须持续应对的课题。\n展望 2026 年，III 期临床数据将第一次大规模检验 AI 能否切实提升新药临床成功率。2013 诺贝尔化学奖得主迈克尔・莱维特在 2026 张江药谷大会谈到：“如果五年内我们能够借助 AI 预测 III 期临床结果，我并不会感到意外。” 一旦临床取得阳性结果，将验证 AI 药物在特定靶点上的治疗价值，正式开启 AI 制药时代。\nAI 不会取代制药行业，却会重塑新药研发全流程。从靶点挖掘、分子设计，到临床前评价、临床试验优化，AI 正在渗透新药研发每一环。未来五年，行业考验的不再是 AI 的算法想象力，而是兑现临床价值的真实能力。（生物谷Bioon.com）\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026（第九届）多组学研究与应用前沿论坛暨多组学整合与系统生物学前沿大会\n空中讲坛\n查看更多\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n高通量技术整合 解锁发酵工艺开发新路径\n开播时间: 2026-09-10 13:55\n基于代谢通路分析 解析疾病代谢重编程与免疫调控\n开播时间: 2026-08-27 13:50\n查看更多",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "c2e5b4a4dbd5084b",
+    "score": 4.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准突破性抗病毒小分子，'突破性'标签（Breakthrough）提示临床数据积极，但无摘要/全文数据，仅标题信息。",
+    "verify_todo": [
+      "需获取该抗病毒药物具体名称及临床试验数据"
+    ],
+    "article_type": "milestone",
+    "title": "刚刚！FDA批准突破性抗病毒小分子",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382932",
     "sources": [
       "pharnexcloud"
     ],
@@ -857,97 +659,24 @@
     "summary": "",
     "lang": "cn",
     "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "45f390bd07100902",
-    "score": 4.0,
-    "channel": "global",
-    "cluster_key": "drug:tirzepatide",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "Lancet Correspondence discussing SURMOUNT-MAINTAIN trial results (tirzepatide maintenance); mentions heterogeneity in dose response. No new trial data, commentary on existing readout.",
-    "verify_todo": [
-      "Verify whether the underlying SURMOUNT-MAINTAIN trial primary endpoint was formally met"
-    ],
-    "article_type": "readout",
-    "title": "[Correspondence] Personalising maintenance after tirzepatide weight loss",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01433-9/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Deborah B Horn and colleagues’ SURMOUNT-MAINTAIN trial provides important evidence that continued tirzepatide is superior to treatment withdrawal for maintaining pharmacologically induced weight loss.1 The trial also shows that reducing tirzepatide to 5 mg offers substantially greater protection against weight regain than switching to placebo. However, the trial's mean effects might not fully convey an important clinical message: response to lower-dose maintenance was heterogeneous.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "07a77187e319bf8b",
-    "score": 4.0,
-    "channel": "global",
-    "cluster_key": "drug:serplulimab",
-    "flags": [],
-    "endpoint_verdict": "partial",
-    "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "Lancet Correspondence critically analyzing ASTRUM-006 (perioperative serplulimab in PD-L1+ gastric/GEJ adenocarcinoma). The original trial reported improved EFS; correspondents urge caution before practice-changing. Commentary, not new data, but discusses a significant Phase 3 result.",
-    "verify_todo": [
-      "Confirm primary endpoint status of ASTRUM-006 (event-free survival improvement)"
-    ],
-    "article_type": "landscape",
-    "title": "[Correspondence] How much can ASTRUM-006 tell us?",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01671-5/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Lin Shen and colleagues report improved event-free survival with perioperative serplulimab in PD-L1-positive resectable gastric or gastro-oesophageal junction adenocarcinoma.1 The trial is valuable: it selects patients by combined positive score and tests a chemotherapy-free adjuvant phase. However, we urge caution before it is read as practice-changing.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "bf940aff438bbcb5",
-    "score": 4.0,
-    "channel": "global",
-    "cluster_key": "drug:pritelivir",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "FDA approval of oral pritelivir (helicase-primase inhibitor) for HSV lesions in immunocompromised patients refractory to other treatments. New mechanism (first-in-class helicase inhibitor); limited population.",
-    "verify_todo": [],
-    "article_type": "milestone",
-    "title": "New Oral Drug Approved for Herpes Lesions",
-    "url": "https://www.medpagetoday.com/infectiousdisease/generalinfectiousdisease/123352",
-    "sources": [
-      "medpage_today"
-    ],
-    "content": "",
-    "summary": "(MedPage Today) -- The FDA approved pritelivir (Hovilpri) tablets to treat mucocutaneous lesions caused by herpes simplex virus (HSV) infections in immunocompromised patients who haven't responded to other treatments. Pritelivir, an oral helicase...",
-    "lang": "en",
-    "published": "2026-10-09T21:15:29+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "5c8ad654fd17b793",
-    "score": 4.0,
+    "score": 3.6,
     "channel": "china",
-    "cluster_key": "drug:imc002-imm0306",
-    "flags": [],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.5,
-    "reasoning": "IMM0306（阿沐瑞芙普α）治疗SLE的Ib/II期研究将在ACR 2026以壁报形式公布结果，摘要显示对活动性SLE患者有疗效改善，但壁报形式数据成熟度有限，具体终点数据未知。",
-    "verify_todo": [
-      "壁报具体数据和统计检验结果"
+    "cluster_key": "drug:IMM0306",
+    "flags": [
+      "milestone"
     ],
-    "article_type": "readout",
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.4,
+    "reasoning": "仅宣布将ACR 2026壁报展示Ib/II期SLE研究，无实际结果数据。属于预告性里程碑，无临床结果读出。",
+    "verify_todo": [
+      "等待ACR 2026壁报原文核实具体终点数据"
+    ],
+    "article_type": "milestone",
     "title": "宜明昂科将于ACR 2026公布IMM0306治疗系统性红斑狼疮的Ib/II期最新临床研究成果",
     "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382935",
     "sources": [
@@ -957,965 +686,22 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-10T11:00:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "9af89fa312432373",
-    "score": 4.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "包含FDA两项肿瘤适应症批准和CDE征求意见，属于多项监管动态汇总，无具体临床试验数据，发布日期未知。",
-    "verify_todo": [
-      "核实具体获批肿瘤适应症对应的药物名称"
-    ],
-    "article_type": "milestone",
-    "title": "FDA连批两项肿瘤适应症，CDE同日征求GVHD与非临床PK意见",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382929",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "7cc495bb485d909c",
-    "score": 4.0,
-    "channel": "china",
-    "cluster_key": "drug:氯维地平",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "上海医药氯维地平乳状注射液获得批准生产，属于生产批件批准，发布日期未知，非临床试验结果读出。",
-    "verify_todo": [
-      "确认批准适应症及具体日期"
-    ],
-    "article_type": "milestone",
-    "title": "上海医药氯维地平乳状注射液获得批准生产",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382930",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "2f37a5b7c960eb75",
-    "score": 4.0,
-    "channel": "china",
-    "cluster_key": "drug:CB2201",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "若弋生物CB2201第三代肉毒素三项创新适应症同日获批IND，属于临床试验启动里程碑，发布日期未知。该条目与后两条属于同一药物不同适应症的集群报道。",
-    "verify_todo": [
-      "确认三项适应症具体内容及试验设计"
-    ],
-    "article_type": "milestone",
-    "title": "若弋生物第三代肉毒素药物三项创新适应症同日获批开展临床试验",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382811",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "f4ba0f139187cd5a",
-    "score": 4.0,
-    "channel": "china",
-    "cluster_key": "drug:CB2201",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "若弋生物CB2201获批新适应症'成人颈阔肌条索'IND，属于临床试验启动里程碑；与前一条和后一条属于同一药物不同适应症的集群报道。",
-    "verify_todo": [
-      "确认该适应症（颈阔肌条索）的流行病学及现有治疗手段"
-    ],
-    "article_type": "milestone",
-    "title": "面向“低头族”，打造“天鹅颈” ——若弋生物CB2201管线创新适应症“成人颈阔肌条索”获批临床",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382810",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "90f8efa33d644f8f",
-    "score": 4.0,
-    "channel": "china",
-    "cluster_key": "drug:CB2201",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "若弋生物CB2201获批新适应症'成人带状疱疹后神经痛'IND，属于临床试验启动里程碑；与前两条属于同一药物不同适应症的集群报道。带状疱疹后神经痛有未满足需求，但竞争疗法较多（加巴喷丁、普瑞巴林等）。",
-    "verify_todo": [
-      "确认CB2201肉毒素机制及与现有疗法的差异化"
-    ],
-    "article_type": "milestone",
-    "title": "全球首发，聚焦老龄人群亟需用药 ——若弋生物CB2201管线创新适应症“成人带状疱疹后神经痛”获批临床",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382809",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "f8187353eecd171f",
-    "score": 3.5,
-    "channel": "global",
-    "cluster_key": "procedure:colonoscopy_screening",
-    "flags": [],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.4,
-    "reasoning": "One of four Lancet Correspondences discussing NordICC trial (colonoscopy screening reduced CRC incidence but not mortality at 13 years). Commentary on a completed RCT.",
-    "verify_todo": [
-      "Confirm primary endpoint results (incidence reduction confirmed, mortality not reduced)"
-    ],
-    "article_type": "landscape",
-    "title": "[Correspondence] Colonoscopy screening and colorectal cancer outcomes: the NordICC trial",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01430-3/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Michal F Kaminski and colleagues report that colonoscopy screening reduced colorectal cancer incidence, but not mortality, during a 13-year follow-up.1 The response from the public health field will focus, as it always does, on mortality. We think this focus misses the point of the trial.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "9c8a336645f3fae7",
-    "score": 3.5,
-    "channel": "global",
-    "cluster_key": "procedure:colonoscopy_screening",
-    "flags": [],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.4,
-    "reasoning": "Second Lancet Correspondence on NordICC trial, contextualizing results against prior sigmoidoscopy RCTs (18–23% incidence reduction, 22–31% mortality reduction).",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Colonoscopy screening and colorectal cancer outcomes: the NordICC trial",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01428-5/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "In their recent Article, Michal F Kaminski and colleagues reported the effects of offering one-time screening colonoscopy at ages 55–64 years after a 13-year follow-up of the NordICC trial.1 Their findings should be interpreted in the context that this trial of a one-time offer of screening colonoscopy was conducted in an era of widespread use of colonoscopy in clinical practice. Estimated reductions in the incidence and mortality of colorectal cancer were much lower than anticipated at trial design.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8f1c33dbb8818438",
-    "score": 3.5,
-    "channel": "global",
-    "cluster_key": "procedure:colonoscopy_screening",
-    "flags": [],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.4,
-    "reasoning": "Third Lancet Correspondence on NordICC trial, noting results are consistent with broader sigmoidoscopy evidence base.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Colonoscopy screening and colorectal cancer outcomes: the NordICC trial",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01429-7/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "The NordICC trial1 should be considered in context with previous colorectal cancer screening studies.2,3 Four randomised controlled trials with more than 458 000 participants show consistent colorectal cancer incidence reductions of 18–23% and larger colorectal cancer mortality reductions of 22–31% with sigmoidoscopy (appendix).3 In the NordICC trial, screening reduced colorectal cancer incidence but not mortality.1",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "a93e6a79b6071091",
-    "score": 3.5,
-    "channel": "global",
-    "cluster_key": "diagnostic:guardant360_cdx",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "Regulatory/companion diagnostic approval (Guardant360 CDx for camizestrant in ESR1-mutated breast cancer); not clinical trial data. Enables targeted therapy but no endpoint data.",
-    "verify_todo": [],
-    "article_type": "milestone",
-    "title": "<![CDATA[Guardant360 CDx Receives European Approval as Companion Diagnostic for Camizestrant in ESR1-Mutated Advanced Breast Cancer]]>",
-    "url": "https://www.onclive.com/view/guardant360-cdx-receives-european-approval-as-companion-diagnostic-for-camizestrant-in-esr1-mutated-advanced-breast-cancer",
-    "sources": [
-      "onclive"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-09T21:30:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8073c8947185d00d",
-    "score": 3.5,
-    "channel": "global",
-    "cluster_key": "drug:olanzapine",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "FDA approval of new SC injectable formulation of olanzapine (Weltruza) for schizophrenia. Reformulation of a decades-old drug; no new efficacy endpoint data.",
-    "verify_todo": [],
-    "article_type": "milestone",
-    "title": "Decades-Old Schizophrenia Drug Wins Approval for New Formulation",
-    "url": "https://www.medpagetoday.com/psychiatry/schizophrenia/123353",
-    "sources": [
-      "medpage_today"
-    ],
-    "content": "",
-    "summary": "(MedPage Today) -- The FDA approved an easier-to-use once-monthly subcutaneous injectable form of olanzapine (Weltruza) for schizophrenia in adults, Teva Pharmaceuticals announced on Friday. A decades-old drug, olanzapine in its oral form is the...",
-    "lang": "en",
-    "published": "2026-10-09T21:32:21+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "f86b9f6dfa24c4cc",
-    "score": 3.5,
-    "channel": "china",
-    "cluster_key": "drug:HN0037",
-    "flags": [
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.7,
-    "reasoning": "辉诺医药HN0037用于口唇疱疹再获突破性疗法认定，属于BTD监管里程碑；但BTD仅为加速审评认定非批准，且口唇疱疹已有多种疗法（伐昔洛韦等），发布日期3天前。",
-    "verify_todo": [
-      "核实HN0037具体机制及前次BTD适应症"
-    ],
-    "article_type": "milestone",
-    "title": "辉诺医药新药HN0037再获突破性疗法认定",
-    "url": "https://www.drugtimes.cn/2026/10/08/huinuoyiyaoxinyaohn0037zaihuotupoxingliaofarending/",
-    "sources": [
-      "drugtimes"
-    ],
-    "content": "",
-    "summary": "正文共：1200字 预计阅读时间：3分钟 2026年9月30日，辉诺生物医药科技（杭州）有限公司（“辉诺医药”或“辉诺”）宣布，其临床在研药物HN0037用于治疗口唇疱疹的适应症获…",
-    "lang": "cn",
-    "published": "2026-10-08T04:39:40+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "e2f16e80b2e3a11c",
-    "score": 3.0,
-    "channel": "china",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical",
-      "positive_data"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "甘油三酯药物首仿获批，属于仿制药批准，无临床试验数据，发布日期未知。",
-    "verify_todo": [
-      "确认具体药物名称（原研药）和仿制药企业"
-    ],
-    "article_type": "milestone",
-    "title": "无专利限制！重磅“甘油三酯”药物首仿2家同日获批！此前多家被毙！",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382933",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "24a784c5212b1724",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "Lancet Correspondence on Taiwan's HCV elimination strategy; policy commentary without new clinical trial data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Taiwan's path to hepatitis C elimination",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01812-X/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "WHO has established a global target to eliminate viral hepatitis as a public health threat by 2030.1 Chronic hepatitis C virus (HCV) infection remains one of the leading causes of cirrhosis, hepatocellular carcinoma, and liver-related mortality, affecting an estimated 50 million people worldwide.2 By integrating a comprehensive screening-to-cure cascade, HCV elimination has become an achievable public health goal.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "a61fff2274a2c232",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "drug:serplulimab",
-    "flags": [],
-    "endpoint_verdict": "partial",
-    "verdict_basis": "textual",
-    "confidence": 0.4,
-    "reasoning": "Authors' reply to the ASTRUM-006 critique; brief response without new data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] How much can ASTRUM-006 tell us? – Authors’ reply",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01803-9/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "We thank Osman Bilge Kaya and Berkan Karabuğa for their insightful comments regarding ASTRUM-006.1 We agree that some aspects need further clarification.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "46ac2bfaa94c20cf",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "procedure:colonoscopy_screening",
-    "flags": [],
-    "endpoint_verdict": "positive_data",
-    "verdict_basis": "textual",
-    "confidence": 0.4,
-    "reasoning": "Authors' reply to the three NordICC Correspondence critiques; brief, no new data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Colonoscopy screening and colorectal cancer outcomes: the NordICC trial – Authors’ reply",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01588-6/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "We thank João Martins and Aneel Bhangu, Hermann Brenner and colleagues, and Uri Ladabaum and colleagues for their interesting comments on our report from the NordICC trial.1 We agree with Martins and Bhangu that colorectal cancer incidence is an interesting primary target for preventive screening tests, such as colonoscopy. The effect on cancer incidence is one of the advantages of preventive screening tests, compared with early detection screening tests (eg, breast cancer screening with mammography or prostate cancer screening with prostate-specific antigen).",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "3b1fc69b4aac783c",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "drug:atezolizumab",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.4,
-    "reasoning": "Expert commentary on FDA approval of atezolizumab plus chemo for colon cancer; no new clinical trial data presented.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "<![CDATA[Dr Sinicrope on the FDA Approval of Atezolizumab Plus Chemo for Colon Cancer]]>",
-    "url": "https://www.onclive.com/view/dr-sinicrope-on-the-fda-approval-of-atezolizumab-plus-chemo-for-colon-cancer",
-    "sources": [
-      "onclive"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "e39a93f7b019e518",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "preclinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "onclive article on novel MEK inhibitor research in pancreatic cancer; likely preclinical or early-stage research. No clinical endpoint data.",
-    "verify_todo": [
-      "Confirm whether this is clinical data or preclinical research"
-    ],
-    "article_type": "landscape",
-    "title": "<![CDATA[Novel MEK inhibitor Research Aims to Balance Efficacy and Tolerability in Pancreatic Cancer]]>",
-    "url": "https://www.onclive.com/view/novel-mek-inhibitor-research-aims-to-balance-efficacy-and-tolerability-in-pancreatic-cancer",
-    "sources": [
-      "onclive"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-07T22:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8b63b6a62939ae0d",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "drug:ephenperidrazine",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "九典制药盐酸乙哌立松片获NMPA批准，属于仿制药上市，无临床试验数据，6亿市场但已有11家竞争。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "九典制药再添重磅品种！盐酸乙哌立松片获批上市，正式切入6亿级中枢性肌松剂赛道",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_382092",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "10月8日，NMPA官网显示，湖南九典制药提交的盐酸乙哌立松片上市申请获批。今年以来，湖南九典制药（含子公司）已有超30款品种获批或通过一致性评价，此次再拿下盐酸乙哌立松片，进一步丰富其产品布局。图源：NMPA官网一、6亿级品种，市场需求稳定盐酸乙哌立松片是一款中枢性肌肉松弛剂，主要用于改善颈肩臂综合症、肩周炎、腰痛症等引起的肌紧张，以及脑血管障碍、痉挛性脊髓麻痹、颈椎病等疾病引起的痉挛性麻痹。该品种已被纳入多项临床诊疗指南推荐用药范围，具有较为成熟的临床应用基础。从市场表现来看，盐酸乙哌立松片已是一个6亿级品种。摩熵医药数据库显示，2025年该品种全终端销售额超过6亿元，2026年上半年销售额达2.42亿元，市场规模保持较高水平。图源：摩熵医药-全终端销售数据库二、11家企业持有批文，竞争持续升温目前，盐酸乙哌立松片已有11家企业拥有生产批文，其中包括上海博悦生物科技、山东京卫制药、成都硕德药业等在内的9家企业已通过一致性评价。\n盐酸乙哌立松片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-过评药品汇总数据库随着九典制药此次获批，市场竞争格局进一步变化。除九典制药外，目前还有16家药企提交了盐酸乙哌立松片4类新注册上市申请，均处于审评审批阶段。随着后续产品陆续获批，该品种的竞争仍有进一步加剧的可能。图源：摩熵医药中国药品审评数据库对于九典制药而言，此次切入6亿级市场，也意味着其产品矩阵再添一个具有一定市场基础的品种。\n湖南九典制药股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n湖南九典制药股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 九典制药椒七止痛凝胶贴膏获NMPA批准！中药1.1类创新药20年三次申报两撤回2. 九典制药格拉司琼贴片上市申请获受理，透皮制剂领域再掀热潮！3. 2025药品一致性评价大揭秘：71个药品首家过评，九典制药领跑仿制药新赛道，人福药业等多家企业竞逐\n盐酸乙哌立松片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n11条\n药品招投标\n1217条\n全球临床试验\n中国临床试验\n32条\n一致性评价\n9条\n美国FDA批准药品\n查看更多\n九典制药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n14条\n中国药品审评信息\n547条\n中国药品批文\n220条\n药品招投标\n14444条\n全球临床试验\n中国临床试验\n134条\n一致性评价\n57条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T17:47:15+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "52b8f4fa53fb4be6",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "drug:insulin-degludec-aspart",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "东阳光药德谷门冬双胰岛素获批，属仿制药（国产第2家），第四代胰岛素原研2012年已上市，无新临床数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "国产第2家！东阳光药德谷门冬双胰岛素获批上市，第四代可溶性双胰岛素赛道再添国产新供给",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_382085",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "10月8日，NMPA官网显示，东阳光药自主研发的德谷门冬双胰岛素注射液获国家药品监督管理局（NMPA）批准上市，涵盖笔芯和预填充注射笔两种剂型。图源：NMPA官网这是国内第2款获批上市的德谷门冬双胰岛素。此次获批后，东阳光药在国内获批上市的胰岛素产品增至7款，覆盖二代至四代胰岛素，产品布局进一步完善。一、第四代胰岛素，兼顾空腹与餐后血糖德谷门冬双胰岛素是一款可溶性双胰岛素复方制剂，由70%的基础胰岛素类似物德谷胰岛素和30%的速效胰岛素类似物门冬胰岛素组成。图源：摩熵医药-全球药物研发数据库其中，德谷胰岛素具有超长效作用，可平稳控制基础血糖；门冬胰岛素起效较快，主要控制餐后血糖。两种成分按固定比例组成单一制剂，可同时覆盖基础和餐时胰岛素需求。相比传统预混胰岛素，该制剂无需使用前混匀，并支持每日1次或每日2次给药，在满足血糖控制需求的同时，有望减少注射操作负担。二、国产第2家获批，胰岛素供给进一步丰富德谷门冬双胰岛素属于第四代胰岛素制剂，原研产品于2012年首次在全球获批，并于2019年进入中国市场。从临床应用来看，该制剂可用于2型糖尿病患者的起始治疗和强化治疗。相关临床研究显示，与基础胰岛素相比，德谷门冬双胰岛素能够进一步改善HbA1c控制，且低血糖风险未明显增加。据摩熵医药数据库显示，该品种在国内仅诺和诺德、惠升生物制药2家药企拥有生产批文，此次东阳光药业是国内第2家药企获批，随着国产第2款产品获批，德谷门冬双胰岛素的国内供应进一步增加，也为临床提供了更多国产治疗选择。图源：摩熵医药-中国药品批文数据库值得关注的是，目前国内胰岛素专项集采已覆盖二代、三代胰岛素，而可溶性双胰岛素尚未纳入集采。在这一背景下，国产产品的陆续上市，也将进一步丰富该细分领域的市场供给。三、7款胰岛素获批，东阳光药持续完善产品矩阵此次德谷门冬双胰岛素获批，是东阳光药近期胰岛素产品布局的又一进展。2026年7月，公司德谷胰岛素注射液（宜必达®）获批上市。加上此次获批的德谷门冬双胰岛素，东阳光药目前在国内获批上市的胰岛素产品已增至7款，覆盖基础、餐时及预混等多个临床应用场景。图源：摩熵医药-中国药品批文数据库从产品布局来看，公司正在逐步形成从胰岛素起始治疗、方案转换到强化治疗的产品体系。在创新产品方面，东阳光药还在推进超长效胰岛素周制剂HEC-151的Ⅰ期临床研究，进一步布局长效胰岛素新剂型。此外，公司甘精胰岛素注射液已于2026年4月底获得美国FDA批准信，进一步推动其胰岛素产品向海外市场拓展。随着德谷胰岛素、德谷门冬双胰岛素等产品陆续落地，东阳光药正在从传统胰岛素产品向长效化、复方化和新剂型方向延伸，持续完善代谢疾病领域产品布局。\n广东东阳光药业股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n广东东阳光药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 东阳光药首款LY6G6D/4-1BB双抗HEC-921获批临床，21项肿瘤管线同步推进创新转型2. 东阳光药HEC-648注射液IND获受理，或将填补BSL-4尼帕病毒治疗药物关键空白！3. 东阳光药业抢滩7亿胃药市场！伏诺拉生专利悬崖下武田与35家仿制药企混战升级4. 东阳光药业富马酸伏诺拉生片获批上市！专利悬崖倒计时，35家药企抢滩超8亿P-CAB市场5. 东阳光药SGLT2抑制剂「奥洛格列净胶囊」获批上市！百亿糖尿病市场迎“双通道”控糖新药\n双胰岛素*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n37条\n中国药品批文\n6条\n药品招投标\n239条\n全球临床试验\n18条\n中国临床试验\n20条\n一致性评价\n美国FDA批准药品\n查看更多\n东阳光药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n73条\n中国药品审评信息\n796条\n中国药品批文\n87条\n药品招投标\n5198条\n全球临床试验\n69条\n中国临床试验\n158条\n一致性评价\n39条\n美国FDA批准药品\n86条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T10:03:39+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "50a6405356a80bf2",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "drug:kr25102",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "KR25102片获批临床，仅为IND获批，无任何临床数据；1类新药但尚无疗效/安全性数据。",
-    "verify_todo": [],
-    "article_type": "milestone",
-    "title": "青峰医药KR25102片获批临床！化药1类新药切入中重度急性疼痛，剑指千亿神经系统市场",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_381807",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "近日（9月24日），据摩熵医药中国药品审评数据库显示，青峰医药旗下子公司科睿药业申报的化药1类新药KR25102片获批临床，拟用于治疗中重度急性疼痛。图源：摩熵医药-中国药品审评数据库KR25102片是青峰医药自主研发的化药1类创新药。该品种于今年7月获CDE承办受理（受理号：CXHL2600864），并于9月获得临床试验默示许可，研发进程持续推进。一、今年4款1类新药获批临床，2款布局神经系统领域据摩熵医药数据库显示，截至目前，青峰医药（含子公司）已有超10款1类新药处于获批临床及以上研发阶段。\n青峰医药集团有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n青峰医药集团有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n今年以来，青峰医药已有4款化药1类新药在国内获批临床。其中，KR23248胶囊、注射用KR25102及KR25102片均为首次获批临床，且均布局神经系统领域。图源：摩熵医药-中国药品审评数据库二、神经系统药物市场超千亿，2026年上半年销售额超570亿随着神经系统疾病治疗需求持续释放，相关药物市场规模可观。摩熵医药数据库显示，2025年，神经系统药物（化药或生物药）在全终端市场的销售总额超过1200亿元，同比增长2.64%；2026年上半年，销售额已超过570亿元。图源：摩熵医药-全终端销售数据库千亿级市场规模背后，神经系统疾病治疗领域仍是药企布局的重要方向。青峰医药在创新药研发之外，也已通过多款获批品种积累了相关产品基础。三、超10款品种拥有生产批文，6款首家过评在神经系统领域（化药或生物药），截至目前，青峰医药（含子公司）已有布立西坦口服溶液、布立西坦注射液、拉考沙胺注射液等超10款品种拥有生产批文。图源：摩熵医药-中国药品批文数据库其中，布立西坦片、拉考沙胺片、吡仑帕奈口服混悬液、布立西坦口服溶液、布立西坦注射液及拉考沙胺注射液共6款品种实现首家过评。从创新药研发到已有品种的上市布局，青峰医药正持续拓展神经系统药物领域的产品管线。随着KR25102等创新药临床研发推进，其在中重度急性疼痛等细分领域的布局也值得关注。参考来源：[1] 摩熵医药（原药融云）数据库[2] 企业官方披露扩展阅读：1. 抢跑首仿与剂型延伸！江西科睿药业同日获批阿贝西利片及布立西坦注射液，肿瘤癫痫双突破2. 青峰医药：从研发到出口，甲磺酸艾立布林引领抗癌新药国际化3. 爆发！青峰医药4大品种同日过评，拿下大涨857%注射剂、3亿品种第二家\n青峰医药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n5条\n中国药品审评信息\n112条\n中国药品批文\n药品招投标\n23条\n全球临床试验\n9条\n中国临床试验\n121条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-08T11:45:43+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8a54efaf8293e082",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "drug:sys6077",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "石药集团三条进展均为里程碑式许可（IND获批或I期启动），无临床数据读出；SYS6077为mRNA肿瘤疫苗IND，JMT206为减重单抗Ib期启动，SYS6052为带状疱疹疫苗FDA IND。",
-    "verify_todo": [],
-    "article_type": "milestone",
-    "title": "石药集团连发三条研发重磅进展！mRNA肿瘤疫苗、带状疱疹疫苗FDA临床许可、减重单抗Ib期同步落地",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_379211",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "9月28日至29日，石药集团连续披露多项研发进展，涉及mRNA肿瘤疫苗、重组蛋白疫苗及肥胖症治疗等方向。图源：石药集团企业公告其中，SYS6077注射液获批在中国开展临床试验，重组带状疱疹疫苗（SYS6052）获FDA批准开展美国临床研究，JMT206注射液Ib期临床在中国首家研究中心启动。多条创新管线同步推进。一、mRNA肿瘤疫苗SYS6077获批临床9月28日，石药集团宣布，公司开发的SYS6077注射液获国家药品监督管理局签发药物临床试验批准通知书，可在中国开展临床试验，获批临床适应症为晚期恶性肿瘤。SYS6077是一款基于纳米递送技术平台开发的通用现货型肿瘤治疗性mRNA疫苗，通过编码多个肿瘤新抗原（neoantigens），诱导抗原特异性T细胞免疫反应。图源：摩熵医药-全球药物研发数据库据石药集团介绍，临床前研究显示，SYS6077能够诱导针对多个肿瘤抗原的特异性T细胞免疫反应，并在多个临床前肿瘤模型中显示出抗肿瘤活性。后续临床研究将进一步评价其在恶性肿瘤患者中的安全性、免疫原性及初步抗肿瘤活性。二、重组带状疱疹疫苗获FDA临床许可，减重管线进入Ib期9月29日，石药集团进一步披露，旗下重组带状疱疹疫苗（SYS6052）已获FDA批准，可在美国开展相关临床研究。此前，该产品已于2026年7月获NMPA批准在中国开展临床试验。SYS6052是石药集团首款获批开展临床试验的重组蛋白疫苗，由水痘-带状疱疹病毒gE蛋白抗原与自主开发的新型纳米佐剂系统组成，拟用于50岁及以上成人预防带状疱疹及其并发症。图源：摩熵医药-全球药物研发数据库同日，公司另一款创新产品JMT206注射液用于超重或肥胖成人体重管理的Ib期临床试验在中国首家研究中心启动。JMT206是一款重组全人源抗ActRIIA/IIB单克隆抗体，通过阻断相关信号通路，探索促进肌肉质量增加、减轻体重的作用。此次Ib期研究将评价JMT206单药或联合司美格鲁肽注射液给药后的安全性、耐受性、药代动力学及药效动力学特征。三、15款1类新药获批临床，创新管线持续扩充连续披露的多项研发进展背后，是石药集团持续扩充的创新药管线。今年以来，公司已有15余款1类新药获批临床，其中7款为首次获批，包括SYS6051、SYS6063等产品。\n石药集团有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n石药集团有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库与此同时，多款创新药已经进入上市申报或商业化阶段。其中，安尼妥单抗注射液获批上市；HER2 ADC恩维曲妥珠单抗注射液上市申请获受理；依达格鲁肽α注射液新适应症提交上市申请；盐酸阿姆西汀肠溶片完成Ⅲ期临床。从早期临床项目到上市申报，石药集团的创新药研发已覆盖多个研发阶段，产品类型也从抗肿瘤进一步延伸至代谢疾病、疫苗等领域。四、上半年营收185.94亿元，股东应占溢利增长139.2% 创新产品持续推进的同时，石药集团上半年业绩也实现增长。8月20日，公司发布2026年中期报告。报告期内实现收入总额185.94亿元，同比增长40.1%；股东应占溢利60.94亿元，同比增长139.2%。其中，成药收入160.61亿元（含授权费收入），同比增长56.7%；原料产品收入16.6亿元，功能食品及其他收入8.73亿元。图源：企业公告除创新药外，公司生物类似药及改良型新药也在持续推进。报告期内，乌司奴单抗注射液获批上市，成为国产第2家（含并列）；注射用紫杉醇（白蛋白结合型）（Ⅱ）获批上市。此外，司库奇尤单抗注射液上市申请获受理，JMT205注射液、艾美赛珠单抗注射液（SYS6053）等获批临床，多款改良型新药进入上市申报阶段。从SYS6077获批临床，到SYS6052获得FDA临床许可，再到JMT206进入Ib期，石药集团近期研发进展覆盖肿瘤、疫苗及代谢疾病等多个方向。伴随更多创新产品推进临床及上市申报，其研发管线仍在持续向前推进。\n【石药控股集团有限公司】2025年指数排名\n当前排名\n第5名\n95.68分\n摩熵指数\n12个\n新获批上市药物\n27个\n新申报上市药物\n14个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] 企业公告/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 石药集团SYS6010拟纳入突破性治疗品种，EGFR ADC第4项BTD落地，剑指驱动基因阴性非鳞状NSCLC2. 石药集团RSV疫苗SYS6057获FDA批准临床，EGFR ADC新药III期PFS终点达标，创新转型迎来关键节点3. 石药集团2026上半年净利预增超130%！8.4亿美元阿斯利康首付款到账，阿姆西汀III期临床成功\n石药集团*点击下方数字查看更多企业相关数据\n全球药物研发信息\n140条\n中国药品审评信息\n2374条\n中国药品批文\n934条\n药品招投标\n54632条\n全球临床试验\n301条\n中国临床试验\n592条\n一致性评价\n257条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-09-30T15:33:35+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "fafcb6661390d242",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "drug:pemafibrate",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "正大天晴、倍特药业佩玛贝特片国产首仿获批，属仿制药批准，无新临床数据；高甘油三酯血症市场有一定规模。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "新一代高甘油三酯血症治疗药佩玛贝特片国产首仿获批，正大天晴和倍特药业领跑降脂新赛道",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_378276",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "9月28日，NMPA官网显示，南京正大天晴制药、成都倍特药业申报的4类仿制药佩玛贝特片上市申请获批。此前，国内佩玛贝特片仅有原研产品获批。此次两家药企同日获批，意味着该品种国内首仿正式落地，仿制药竞争开启。图源：NMPA官网一、原研获批仅9天，国内正大天晴率先报产佩玛贝特片由日本兴和制药（Kowa Company）研发，是一款新一代降脂药物，主要用于治疗高甘油三酯血症或混合型高脂血症。该药于2017年在日本首次获批上市，2023年其缓释片剂型也在日本获批。图源：摩熵医药-全球药物研发数据库国内市场方面，佩玛贝特片于2025年4月8日获批进口，此前国内仅有1家企业拥有进口批文。值得关注的是，原研产品获批仅9天后，正大天晴便提交仿制药上市申请，成为该品种首家报产企业。如今，正大天晴与倍特药业同日获批，佩玛贝特片国内首仿正式落地，也意味着该品种从原研独占进入仿制药竞争阶段。二、超25家企业入局，4家申报未获批准随着首仿获批，佩玛贝特片的仿制药竞争格局也逐渐清晰。截至目前，除正大天晴、倍特药业外，已有超过25家企业提交佩玛贝特片新4类仿制药上市申请，涉及人福药业、福元医药、科伦药业等药企，均在审评审评中。\n佩玛贝特片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库不过，从已有审评结果来看，企业申报并非全部顺利。今年以来，海南赛立克药业、天方药业、湖南科伦制药、广州大光制药等4家企业的相关上市申请先后未获批准。图源：摩熵医药-中国药品审评数据库佩玛贝特片之所以吸引众多药企布局，一方面，高脂血症患者基数庞大，降脂药市场需求持续存在；另一方面，目前国内相关专利限制相对较少，且原研产品已经获批上市，为仿制药企业提供了较为明确的市场切入点。随着在审申请陆续推进，佩玛贝特片后续的竞争格局仍将进一步变化。参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 一日38款药上市受挫！超20家药企抢降脂药佩玛贝特片首仿，40家混战瑞维那新吸入市场2. 17家药企激战佩玛贝特片首仿！疗效安全双优，降脂市场新风暴来袭3. 正大天晴、倍特等三大药企抢报佩玛贝特片首仿，新型降脂药能否撼动他汀地位？\n佩玛贝特片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n1条\n药品招投标\n32条\n全球临床试验\n中国临床试验\n39条\n一致性评价\n美国FDA批准药品\n查看更多\n正大天晴*点击下方数字查看更多企业相关数据\n全球药物研发信息\n195条\n中国药品审评信息\n2247条\n中国药品批文\n324条\n药品招投标\n36579条\n全球临床试验\n446条\n中国临床试验\n744条\n一致性评价\n210条\n美国FDA批准药品\n3条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n倍特药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n24条\n中国药品审评信息\n913条\n中国药品批文\n533条\n药品招投标\n42904条\n全球临床试验\n9条\n中国临床试验\n135条\n一致性评价\n243条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-09-29T11:30:19+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "3b762d04d73ceec8",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "综述类文章，对PDRN（多聚脱氧核糖核苷酸）的文献综述，无原始临床试验数据，不构成临床结果读出。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "中国药科大学赵俊凯、王丹、叶宝芬等—多聚脱氧核糖核苷酸在临床治疗及医疗美容领域的应用现状",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382820",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "多聚脱氧核糖核苷酸在临床治疗及医疗美容领域的应用现状 PPS。 通过对 PDRN 的基本理化性质、作用机制和应用进展进行综述，系统梳理其在多种临床适应证及医疗美容领域中的应用与发展现状，并对现有的安全性证据及潜在风险进行探讨，以期为 PDRN 的临床规范应用及其在医疗美容产品中的开发应用提供参考。 清创、感染控制和手术修复等传统修复手段虽可在一定程度上改善局部症状并促进创面闭合，但对于持续性炎症、局部缺血及异常组织重塑等关键病理环节的干预仍较有限，因此常导致愈合时间长、修复难度大、愈合质量欠佳等问题 。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T18:34:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "831ed98481c5059b",
-    "score": 2.5,
-    "channel": "china",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "专家综述与MDT诊疗模式讨论，属于继续教育/综述类内容，无具体临床试验结果或终点数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "李孝远教授：肿瘤骨转移的全程管理之路，从机制认知到MDT诊疗新模式的临床实践",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382789",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "骨是恶性肿瘤重要的远处转移靶器官之一，骨转移在乳腺癌、前列腺癌和肺癌尤为常见。 骨转移患者面临的并不仅是肿瘤负荷本身，还包括病理性骨折、脊髓压迫以及需接受骨放疗或骨手术等骨相关事件（SREs），恶性高钙血症则是另一项重要并发症。 与此同时，肿瘤细胞定植骨骼后，会与破骨细胞、成骨细胞、骨髓基质细胞及骨基质发生持续互作，形成促进肿瘤生长和骨破坏的恶性循环；其中 RANKL-RANK-OPG 轴是调控破骨细胞分化和活化的关键枢纽 。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T20:00:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "fa411b3fa2d60a85",
-    "score": 2.5,
-    "channel": "global",
-    "cluster_key": "device:TECNIS_Odyssey",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "医疗器械（人工晶状体）的临床使用体会分享，属于产品介绍/医生使用经验，无临床试验终点数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "强生丨全视程 全程爱 奥德赛——张凤妍教授谈TECNIS Odyssey™全视程IOL临床应用体会",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382795",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "随着老龄化进程加快、患者视觉需求从基础复明升级为全程优质视功能，全视程人工晶状体（IOL）成为了缔造全程精准视力的重要武器。 全新的TECNIS Odyssey™全视程IOL今年在我国成功上市，并以卓越的表现获得广大白内障患者与手术医生的一致信赖，在全国各地火热开展中，为越来越多白内障患者带来更加清晰、更少干扰的高质量全程精准视觉体验。 近日， 郑州大学第一附属医院张凤妍教授 选择为她的患者植入TECNIS Odyssey™全视程IOL，获得了优异的视觉效果，患者在第一眼手术后积极要求进行第二眼手术。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T17:03:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "d1b68426f91c14c3",
-    "score": 2.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "Monthly rewind/summary article; no new clinical data, only a recap of September 2026 breast cancer news.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "<![CDATA[Breast Cancer Monthly Rewind: Key News and Expert Insights You May Have Missed in September 2026]]>",
-    "url": "https://www.onclive.com/view/breast-cancer-monthly-rewind-key-news-and-expert-insights-you-may-have-missed-in-september-2026",
-    "sources": [
-      "onclive"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-08T13:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "2253be1a91e63cfe",
-    "score": 2.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "Aspen Neuroscience和Bambusa两家公司IPO文件，纯融资事件，无临床数据读出。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "Parkinson's cell therapy biotech Aspen and I&I startup Bambusa file for IPOs",
-    "url": "https://endpoints.news/parkinsons-cell-therapy-biotech-aspen-and-ii-startup-bambusa-file-for-ipos/",
-    "sources": [
-      "endpoint"
-    ],
-    "content": "",
-    "summary": "A Gilead-backed cell therapy maker and an I&amp;I biotech from BioNTech vets are looking to ride the biotech industry's IPO momentum. Aspen Neuroscience and Bambusa Therapeutics are the latest drug developers to ...",
-    "lang": "en",
-    "published": "2026-10-09T22:48:48+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "65ffc4a2caa71a54",
-    "score": 2.0,
-    "channel": "china",
-    "cluster_key": "drug:bilastine",
-    "flags": [],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "江苏联环药业比拉斯汀片仿制药报产获受理，仅为申报受理阶段，无临床数据；抗组胺药市场已有多个竞品，属于me-too申报。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "江苏联环药业比拉斯汀片4类仿制药报产获CDE受理，抗过敏热门赛道再添新入局者",
-    "url": "https://www.pharnexcloud.com/zixun/zcsp_379210",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "9月28日，CDE官网显示，江苏联环药业申报的4类仿制药比拉斯汀片上市申请获受理。比拉斯汀是一款非镇静、长效抗组胺药，主要用于过敏性疾病治疗。图源：CDE官网摩熵医药数据库显示，2026年上半年，该品种在全终端销售额超1700万元，同比增长52.47%。随着联环药业加入，国内比拉斯汀片市场竞争进一步升温。一、销售额增长52.47%，多家药企争相布局比拉斯汀是一种非镇静的长效抗组胺药，可选择性拮抗外周H1受体，对毒蕈碱受体无亲和力，对其他受体的亲和力较低。2023年6月，意大利美纳里尼的比拉斯汀片获NMPA批准进入中国，用于12岁及以上青少年和成人荨麻疹的对症治疗。此后，国内多家药企陆续布局该品种。江苏华阳制药、山东新时代药业、泰恩康医药等企业已通过新分类获批上市或视同通过一致性评价，江西施美药业、北京民康百草医药及江苏联环药业等也相继提交上市申请。\n比拉斯汀片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品批文数据库从市场表现来看，摩熵医药数据库显示，2026年上半年，比拉斯汀片全终端销售额超过1700万元，同比增长52.47%，市场需求持续增长。图源：摩熵医药-全终端销售数据库二、13款新品报产在审，联环药业加快产品布局此次比拉斯汀片报产，是联环药业持续推进仿制药研发及上市申报的一个缩影。截至目前，公司共有13款新品报产在审，涉及呼吸系统药物、心血管系统药物、消化系统与代谢药物等多个治疗领域。\n江苏联环药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库与此同时，联环药业已有超50款仿制药获批或视同通过一致性评价。其中，盐酸多西环素片、盐酸屈他维林注射液、盐酸屈他维林片、盐酸舍曲林胶囊等品种为首家通过一致性评价的产品。三、5款新药进入临床，创新管线持续推进在仿制药布局之外，联环药业也持续加大研发投入，聚焦重点领域创新药研发。目前，公司已有5款1类新药进入临床试验阶段。图源：摩熵医药-中国药品审评数据库其中，1类新药LH-1801片已完成2型糖尿病Ⅲ期临床试验，并提交Pre-NDA沟通交流申请；吸入用LH-1901（慢阻肺）、LH-1802胶囊（急性髓系白血病）均已进入Ⅰ期临床。此外，2.3类新药LH-2103胶囊和LH-2417片，均针对前列腺增生，已步入Ⅰ期临床阶段。从比拉斯汀片的上市申报，到多款创新药推进临床，联环药业正围绕仿制药与创新药两条路径推进产品管线建设。随着在审品种及临床管线进一步推进，公司后续产品进展值得关注。\n【江苏联环药业集团有限公司】2025年指数排名\n当前排名\n第81名\n81.38分\n摩熵指数\n19个\n新获批上市药物\n14个\n新申报上市药物\n2个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] CDE官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 药监新动态：布立西坦口服溶液、比拉斯汀口服溶液首仿齐折戟！正大丰海等三家药企上市受挫2. 鲁南制药拿下比拉斯汀口崩片国内首仿+首家过评，过敏市场迎新局3. 湖南科伦制药申报比拉斯汀上市申请获受理，高效治疗过敏性鼻炎与荨麻疹新药有望面世\n比拉斯汀片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n4条\n药品招投标\n216条\n全球临床试验\n中国临床试验\n37条\n一致性评价\n3条\n美国FDA批准药品\n查看更多\n江苏联环药业股份有限公司*点击下方数字查看更多企业相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n181条\n中国药品批文\n116条\n药品招投标\n6482条\n全球临床试验\n中国临床试验\n54条\n一致性评价\n36条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-09-30T15:05:27+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "b3ec8d4dbe68424b",
-    "score": 2.0,
-    "channel": "china",
-    "cluster_key": "drug:lorlatinib",
-    "flags": [
-      "not_clinical",
-      "single_arm",
-      "small_n"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "单个病例报告（case report），无临床试验终点数据，仅为洛拉替尼在罕见双ALK融合中的应用实例，不构成独立的临床试验结果读出。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "姚艳雯教授：罕见双ALK融合伴TP53共突变晚期肺腺癌，洛拉替尼一线治疗持续PR超24个月",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382668",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "当前，对于ALK融合阳性晚期非小细胞肺癌（NSCLC）患者，基于酪氨酸激酶抑制剂（TKI）的靶向治疗已充分证实可改善无进展生存期（PFS）和总生存期（OS）。 2026年美国临床肿瘤学会（ASCO）年会中报告的CROWN研究7年随访结果显示 ， 洛拉替尼一线治疗ALK融合阳性晚期NSCLC患者，中位PFS经7年随访仍未达到，7年PFS率达到55%。 然而， 双ALK融合极为罕见，此类病例的标准治疗方案尚未明确。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T20:00:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "ccd4e41b27f27397",
-    "score": 2.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "专家对话/访谈类内容，讨论前列腺癌新辅助治疗方向，无具体临床试验数据或终点结论。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "APEX CHINA | 对话Peter Hammerer教授，探讨局晚期前列腺癌新辅助治疗的临床价值与未来方向",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382791",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "基于PROTEUS研究看局部晚期前列腺癌新辅助治疗的临床价值与终点选择。 鲍一歌教授： PROTEUS研究的核心问题在于探讨局部晚期前列腺癌的最优治疗方案。 Peter Hammerer教授： 既往多项新辅助治疗相关研究的样本量偏小且终点不一，整体质量并不理想。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T19:00:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "522dc07e9deb81e9",
-    "score": 2.0,
-    "channel": "china",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "CDE公开征求慢性乙型肝炎肝纤维化治疗药物临床试验技术指导原则意见，属于监管指南文件征求意见，非临床试验数据，发布日期未知。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "关于公开征求《慢性乙型肝炎肝纤维化治疗药物临床试验技术指导原则（征求意见稿）》意见的通知",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_382845",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "b59ad815f41b64f8",
-    "score": 2.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.6,
-    "reasoning": "政策/行业分析文章，主题为加速审批收紧后肿瘤Biotech生存法则，属于行业评论类内容，无具体临床试验数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "下一个十年：加速审批收紧之后，肿瘤 Biotech 的生存法则",
-    "url": "https://bydrug.pharmcube.com/news/detail/43e6346cc7806ad1ab8f39a06c10ae77",
-    "sources": [
-      "pharmcube"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-11T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "bb97d3b2e8b97bf2",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "NEJM editorial/opinion piece on reproducibility in biomedical science; no clinical trial data, endpoints, or patient data. Score ≤ 3.0 per exclusion rules.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "Reproducibility in Biomedical Science — From Repetition to Corroboration",
-    "url": "https://www.nejm.org/doi/full/10.1056/NEJMms2607020?af=R&rss=currentIssue",
-    "sources": [
-      "nejm"
-    ],
-    "content": "",
-    "summary": "New England Journal of Medicine, Volume 395, Issue 14, Page 1447-1453, October 8, 2026.",
-    "lang": "en",
-    "published": "2026-10-07T09:00:01+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "ce2ebacb8bc675cc",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "Lancet Correspondence calling for climate crisis to be declared a public health emergency; no clinical trial data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Declare the climate crisis a Public Health Emergency of International Concern",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01919-7/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Climate change is shaping health in the 21st century. In the past few weeks alone, Nepal has faced unprecedented flash floods, and multiple countries have experienced deadly heatwaves and catastrophic wildfires.1 El Niño is now firmly established and projected to intensify further.2 The southern hemisphere faces a summer of extreme heatwaves, droughts, and floods, threatening maternal and child health in particular, and increasing infectious disease outbreaks.3 Populations in lower-income countries bear a disproportionate burden of these impacts, but are least responsible for emissions and have few resources to respond.",
-    "lang": "en",
-    "published": "2026-09-29T13:42:01+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "a209aa4326dcd48e",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "Lancet Correspondence on AI regulation in medicine; no clinical trial data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] Regulate prospective development of medical AI now",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01941-0/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "Artificial intelligence (AI) is advancing through medicine at a pace that regulation, ethics, and professional reflection have struggled to match. The prevailing assumption appears to be that if a technology can be developed, it should be developed—and that its place in clinical care can be debated afterwards. We believe this sequence should be reversed.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "95c7f489bb68d89e",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "Lancet Correspondence on health literacy and PISA 2025 results; no clinical trial data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "[Correspondence] The health literacy crisis in the age of AI: lessons from PISA 2025",
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01906-9/fulltext?rss=yes",
-    "sources": [
-      "lancet"
-    ],
-    "content": "",
-    "summary": "The 2025 Programme for International Student Assessment (PISA) results should concern the health community.1 PISA does not measure health literacy directly, but it assesses several cognitive competencies that increasingly underpin people's ability to navigate health information. For example, in 2025, more than 760 000 students aged 15 years, from 91 countries and economies, participated in the assessment.1 The findings reveal a worrying deterioration in reading, mathematics, and science performance.",
-    "lang": "en",
-    "published": "2026-10-10T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "8287289aba8b54c7",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "News roundup covering Biden cancer update, vaccine investment, and tucatinib breast cancer approval expansion; no new clinical trial data.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "Biden Cancer Update; 'Big Bet' on Vaccines; Tucatinib Breast Cancer Approval Expands",
-    "url": "https://www.medpagetoday.com/hematologyoncology/prostatecancer/123350",
-    "sources": [
-      "medpage_today"
-    ],
-    "content": "",
-    "summary": "(MedPage Today) -- The treatment for former President Joe Biden's metastatic prostate cancer, which has spread to the bone, has been \"like torture,\" according to an update from his son, Hunter Biden. (OK!) Republican congressional candidate Doug...",
-    "lang": "en",
-    "published": "2026-10-09T19:41:20+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "12f87f95130ec86b",
-    "score": 1.5,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "政策/运营类文章，无临床数据，涉及临床试验招募设计。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "<![CDATA[The Test Is the Ticket: Building Smarter Pathways to Clinical Trial Participation]]>",
-    "url": "https://www.appliedclinicaltrialsonline.com/view/test-smarter-pathways-clinical-trial-participation",
-    "sources": [
-      "applied_clinical_trials"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-09T10:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "234709a7778124d9",
-    "score": 1.5,
+    "score": 3.5,
     "channel": "global",
-    "cluster_key": "",
+    "cluster_key": "device:PRIMA_BCI",
     "flags": [
-      "not_clinical"
+      "stale"
     ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.2,
-    "reasoning": "PRIMA视觉脑机接口36个月随访，摘要为空，无临床数据内容；脑机接口非药物/生物治疗，且无数据无法评估。",
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.3,
+    "reasoning": "PRIMA视觉脑机接口36个月随访积极结果，但仅有标题无正文（access=headline），内容完全不可得，无法核实具体数据，data_maturity和可信度极低。",
     "verify_todo": [
-      "原始数据内容、终点指标"
+      "需获取全文核实具体临床终点数据和36个月随访具体结果"
     ],
     "article_type": "readout",
     "title": "PRIMA视觉脑机接口36个月随访取得积极结果：长期临床验证助力商业化探索",
@@ -1927,7 +713,1208 @@
     "summary": "",
     "lang": "cn",
     "published": "2026-10-09T21:05:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "b2c54049f7ad5551",
+    "score": 3.5,
+    "channel": "china",
+    "cluster_key": "drug:leuprolide_injection_emulsion",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.5,
+    "reasoning": "金赛药业亮丙瑞林注射乳剂获NMPA批准，为监管批准（来自已完成的III期研究）。文章提及97%受试者达到主要终点、97.9%去势维持，但依据为新闻措辞而非正式统计检验，属疗效数字而非统计结论。6个月长效制剂为临床进展，但品种已于2021年FDA批准，非首创。",
+    "verify_todo": [
+      "核查注册库中该III期试验完整统计结果"
+    ],
+    "article_type": "milestone",
+    "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_382086",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日，NMPA官网显示，金赛药业申报的5.1类亮丙瑞林注射乳剂获批上市，用于晚期前列腺癌的雄激素去势治疗（ADT）。图源：NMPA官网亮丙瑞林注射乳剂是一款GnRHa类长效制剂，采用皮下注射给药，可实现亮丙瑞林6个月持续释放。产品规格为42 mg（以亮丙瑞林计，相当于48 mg甲磺酸亮丙瑞林），采用单支预充式注射器包装，有望减少给药频次、提升患者用药便利性。一、海外已上市，6个月长效制剂优势突出亮丙瑞林注射液由中国台湾逸达生物开发。2020年，金赛药业与逸达生物达成独家许可协议，获得该产品在中国大陆等地区的权益。此次获批的亮丙瑞林注射乳剂采用皮下注射给药，可在体内持续释放亮丙瑞林6个月，达到每24周给药一次的效果。据摩熵医药数据库显示，2021年5月，该产品首次获FDA批准上市，用于晚期前列腺癌，此后陆续在欧盟、加拿大、英国、以色列等国家和地区获批。图源：摩熵医药-全球药物研发数据库FDA批准主要基于一项纳入137例晚期前列腺癌患者的III期研究。结果显示，97%的受试者达到主要疗效终点；第28天平均血清睾酮水平降至17.6 ng/dL，达到去势水平，研究显示产品具有良好的疗效和安全性。二、国内III期研究达标，睾酮持续维持去势水平2022年，金赛药业与逸达生物在国内启动亮丙瑞林注射乳剂治疗晚期前列腺癌的III期临床研究。该研究由中山大学孙逸仙纪念医院牵头，在全国43家临床试验机构开展，共纳入142例晚期前列腺癌患者。图源：摩熵医药-全球药物研发数据库研究结果显示，首次给药后第4周至第二次给药后第24周，血清睾酮维持去势水平的累积概率达到97.9%；维持显著去势水平的累积概率为77.9%。研究达到预设疗效终点，显示该长效制剂能够快速起效，并持续抑制血清睾酮水平，整体安全性良好。2025年2月，金赛药业向CDE递交该产品上市申请并获受理，此次正式获批上市。三、不止前列腺癌，乳腺癌等适应症同步推进除晚期前列腺癌外，金赛药业与逸达生物还在推进亮丙瑞林6个月长效制剂在中枢性性早熟和乳腺癌领域的临床开发。其中，中枢性性早熟III期研究Casppian已公布顶线结果，94%的受试者实现促黄体生成素有效抑制。在乳腺癌领域，III期研究GenSci093-301针对绝经前、激素受体阳性且HER2阴性的乳腺癌患者开展。基于积极的研究结果，金赛药业已于2026年递交该适应症上市申请并获CDE受理。此次前列腺癌适应症获批后，亮丙瑞林6个月长效制剂的临床应用范围有望进一步拓展。参考来源：[1] CDE/NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 金赛药业口服生长激素GS3-007a干混悬剂获批新临床，拟用于治疗儿童特发性身材矮小2. 世界肾脏日：全球219款肾病药上市！金赛药业BCMA新药与恒瑞医药SGLT2/GLP-1管线竞速3. 一文读懂网红神药！金赛药业GenSci141软膏的作用与功效、适用人群与市场前景\n金赛药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n74条\n中国药品审评信息\n319条\n中国药品批文\n38条\n药品招投标\n3704条\n全球临床试验\n53条\n中国临床试验\n120条\n一致性评价\n4条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T10:20:27+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "e39a93f7b019e518",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "target:MEK_inhibitor",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.4,
+    "reasoning": "新型MEK抑制剂在胰腺癌中的研究文章，讨论疗效与耐受性平衡，属于临床前/转化研究综述方向，无具体临床试验终点读出。胰腺癌未满足需求高，但文章非数据读出。",
+    "verify_todo": [
+      "核查是否为具体试验数据"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[Novel MEK inhibitor Research Aims to Balance Efficacy and Tolerability in Pancreatic Cancer]]>",
+    "url": "https://www.onclive.com/view/novel-mek-inhibitor-research-aims-to-balance-efficacy-and-tolerability-in-pancreatic-cancer",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-07T22:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8a54efaf8293e082",
+    "score": 3.5,
+    "channel": "china",
+    "cluster_key": "drug:SYS6077",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.3,
+    "reasoning": "石药集团三条研发进展：SYS6077（mRNA肿瘤疫苗）获IND批准、SYS6052（带状疱疹疫苗）获FDA IND许可、JMT206（减重单抗）启动Ib期，均为IND/试验启动里程碑，无具体临床终点数据。临床前数据显示抗肿瘤活性，但仅为动物数据（≤2.0），三项合并仍属研发进展类。",
+    "verify_todo": [
+      "核查各管线具体临床试验编号及数据"
+    ],
+    "article_type": "milestone",
+    "title": "石药集团连发三条研发重磅进展！mRNA肿瘤疫苗、带状疱疹疫苗FDA临床许可、减重单抗Ib期同步落地",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_379211",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "9月28日至29日，石药集团连续披露多项研发进展，涉及mRNA肿瘤疫苗、重组蛋白疫苗及肥胖症治疗等方向。图源：石药集团企业公告其中，SYS6077注射液获批在中国开展临床试验，重组带状疱疹疫苗（SYS6052）获FDA批准开展美国临床研究，JMT206注射液Ib期临床在中国首家研究中心启动。多条创新管线同步推进。一、mRNA肿瘤疫苗SYS6077获批临床9月28日，石药集团宣布，公司开发的SYS6077注射液获国家药品监督管理局签发药物临床试验批准通知书，可在中国开展临床试验，获批临床适应症为晚期恶性肿瘤。SYS6077是一款基于纳米递送技术平台开发的通用现货型肿瘤治疗性mRNA疫苗，通过编码多个肿瘤新抗原（neoantigens），诱导抗原特异性T细胞免疫反应。图源：摩熵医药-全球药物研发数据库据石药集团介绍，临床前研究显示，SYS6077能够诱导针对多个肿瘤抗原的特异性T细胞免疫反应，并在多个临床前肿瘤模型中显示出抗肿瘤活性。后续临床研究将进一步评价其在恶性肿瘤患者中的安全性、免疫原性及初步抗肿瘤活性。二、重组带状疱疹疫苗获FDA临床许可，减重管线进入Ib期9月29日，石药集团进一步披露，旗下重组带状疱疹疫苗（SYS6052）已获FDA批准，可在美国开展相关临床研究。此前，该产品已于2026年7月获NMPA批准在中国开展临床试验。SYS6052是石药集团首款获批开展临床试验的重组蛋白疫苗，由水痘-带状疱疹病毒gE蛋白抗原与自主开发的新型纳米佐剂系统组成，拟用于50岁及以上成人预防带状疱疹及其并发症。图源：摩熵医药-全球药物研发数据库同日，公司另一款创新产品JMT206注射液用于超重或肥胖成人体重管理的Ib期临床试验在中国首家研究中心启动。JMT206是一款重组全人源抗ActRIIA/IIB单克隆抗体，通过阻断相关信号通路，探索促进肌肉质量增加、减轻体重的作用。此次Ib期研究将评价JMT206单药或联合司美格鲁肽注射液给药后的安全性、耐受性、药代动力学及药效动力学特征。三、15款1类新药获批临床，创新管线持续扩充连续披露的多项研发进展背后，是石药集团持续扩充的创新药管线。今年以来，公司已有15余款1类新药获批临床，其中7款为首次获批，包括SYS6051、SYS6063等产品。\n石药集团有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n石药集团有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库与此同时，多款创新药已经进入上市申报或商业化阶段。其中，安尼妥单抗注射液获批上市；HER2 ADC恩维曲妥珠单抗注射液上市申请获受理；依达格鲁肽α注射液新适应症提交上市申请；盐酸阿姆西汀肠溶片完成Ⅲ期临床。从早期临床项目到上市申报，石药集团的创新药研发已覆盖多个研发阶段，产品类型也从抗肿瘤进一步延伸至代谢疾病、疫苗等领域。四、上半年营收185.94亿元，股东应占溢利增长139.2% 创新产品持续推进的同时，石药集团上半年业绩也实现增长。8月20日，公司发布2026年中期报告。报告期内实现收入总额185.94亿元，同比增长40.1%；股东应占溢利60.94亿元，同比增长139.2%。其中，成药收入160.61亿元（含授权费收入），同比增长56.7%；原料产品收入16.6亿元，功能食品及其他收入8.73亿元。图源：企业公告除创新药外，公司生物类似药及改良型新药也在持续推进。报告期内，乌司奴单抗注射液获批上市，成为国产第2家（含并列）；注射用紫杉醇（白蛋白结合型）（Ⅱ）获批上市。此外，司库奇尤单抗注射液上市申请获受理，JMT205注射液、艾美赛珠单抗注射液（SYS6053）等获批临床，多款改良型新药进入上市申报阶段。从SYS6077获批临床，到SYS6052获得FDA临床许可，再到JMT206进入Ib期，石药集团近期研发进展覆盖肿瘤、疫苗及代谢疾病等多个方向。伴随更多创新产品推进临床及上市申报，其研发管线仍在持续向前推进。\n【石药控股集团有限公司】2025年指数排名\n当前排名\n第5名\n95.68分\n摩熵指数\n12个\n新获批上市药物\n27个\n新申报上市药物\n14个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] 企业公告/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 石药集团SYS6010拟纳入突破性治疗品种，EGFR ADC第4项BTD落地，剑指驱动基因阴性非鳞状NSCLC2. 石药集团RSV疫苗SYS6057获FDA批准临床，EGFR ADC新药III期PFS终点达标，创新转型迎来关键节点3. 石药集团2026上半年净利预增超130%！8.4亿美元阿斯利康首付款到账，阿姆西汀III期临床成功\n石药集团*点击下方数字查看更多企业相关数据\n全球药物研发信息\n140条\n中国药品审评信息\n2374条\n中国药品批文\n934条\n药品招投标\n54632条\n全球临床试验\n301条\n中国临床试验\n592条\n一致性评价\n257条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-09-30T15:33:35+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "fafcb6661390d242",
+    "score": 3.5,
+    "channel": "china",
+    "cluster_key": "drug:pemafibrate",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "佩玛贝特片国产首仿获NMPA批准，属于监管审批事件，非临床试验数据读出。超过25家企业仿制，竞争激烈，不满足未满足需求。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "新一代高甘油三酯血症治疗药佩玛贝特片国产首仿获批，正大天晴和倍特药业领跑降脂新赛道",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_378276",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "9月28日，NMPA官网显示，南京正大天晴制药、成都倍特药业申报的4类仿制药佩玛贝特片上市申请获批。此前，国内佩玛贝特片仅有原研产品获批。此次两家药企同日获批，意味着该品种国内首仿正式落地，仿制药竞争开启。图源：NMPA官网一、原研获批仅9天，国内正大天晴率先报产佩玛贝特片由日本兴和制药（Kowa Company）研发，是一款新一代降脂药物，主要用于治疗高甘油三酯血症或混合型高脂血症。该药于2017年在日本首次获批上市，2023年其缓释片剂型也在日本获批。图源：摩熵医药-全球药物研发数据库国内市场方面，佩玛贝特片于2025年4月8日获批进口，此前国内仅有1家企业拥有进口批文。值得关注的是，原研产品获批仅9天后，正大天晴便提交仿制药上市申请，成为该品种首家报产企业。如今，正大天晴与倍特药业同日获批，佩玛贝特片国内首仿正式落地，也意味着该品种从原研独占进入仿制药竞争阶段。二、超25家企业入局，4家申报未获批准随着首仿获批，佩玛贝特片的仿制药竞争格局也逐渐清晰。截至目前，除正大天晴、倍特药业外，已有超过25家企业提交佩玛贝特片新4类仿制药上市申请，涉及人福药业、福元医药、科伦药业等药企，均在审评审评中。\n佩玛贝特片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库不过，从已有审评结果来看，企业申报并非全部顺利。今年以来，海南赛立克药业、天方药业、湖南科伦制药、广州大光制药等4家企业的相关上市申请先后未获批准。图源：摩熵医药-中国药品审评数据库佩玛贝特片之所以吸引众多药企布局，一方面，高脂血症患者基数庞大，降脂药市场需求持续存在；另一方面，目前国内相关专利限制相对较少，且原研产品已经获批上市，为仿制药企业提供了较为明确的市场切入点。随着在审申请陆续推进，佩玛贝特片后续的竞争格局仍将进一步变化。参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 一日38款药上市受挫！超20家药企抢降脂药佩玛贝特片首仿，40家混战瑞维那新吸入市场2. 17家药企激战佩玛贝特片首仿！疗效安全双优，降脂市场新风暴来袭3. 正大天晴、倍特等三大药企抢报佩玛贝特片首仿，新型降脂药能否撼动他汀地位？\n佩玛贝特片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n1条\n药品招投标\n32条\n全球临床试验\n中国临床试验\n39条\n一致性评价\n美国FDA批准药品\n查看更多\n正大天晴*点击下方数字查看更多企业相关数据\n全球药物研发信息\n195条\n中国药品审评信息\n2247条\n中国药品批文\n324条\n药品招投标\n36579条\n全球临床试验\n446条\n中国临床试验\n744条\n一致性评价\n210条\n美国FDA批准药品\n3条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n倍特药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n24条\n中国药品审评信息\n913条\n中国药品批文\n533条\n药品招投标\n42904条\n全球临床试验\n9条\n中国临床试验\n135条\n一致性评价\n243条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-09-29T11:30:19+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "0c96ac33e55c2c7d",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准长效精神分裂症新药（每月一次给药），属于监管审批事件，无全文/摘要信息，无法评估临床数据质量。",
+    "verify_todo": [
+      "需获取该药物具体名称及临床试验数据"
+    ],
+    "article_type": "milestone",
+    "title": "每月一次！长效精神分裂症新药获 FDA 批准上市",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382925",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "d4af235ff25a6a25",
+    "score": 3.5,
+    "channel": "china",
+    "cluster_key": "drug:peg-g-csf",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "科兴制药聚乙二醇化人粒细胞刺激因子注射液上市申请获受理，属于NDA/BLA申报节点，无临床数据读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "科兴制药自主研发的聚乙二醇化人粒细胞刺激因子注射液上市许可申请获受理",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382927",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "9af89fa312432373",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准两项肿瘤适应症、CDE征求GVHD及非临床PK意见，多个监管事件汇总，无具体临床试验数据读出。",
+    "verify_todo": [
+      "需获取具体药物名称及试验数据"
+    ],
+    "article_type": "landscape",
+    "title": "FDA连批两项肿瘤适应症，CDE同日征求GVHD与非临床PK意见",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382929",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "d4ee5305f637f8c9",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "标题暗示某药物被低估30年终获FDA批准，为特征/评论类文章，无摘要数据，无法评估临床内容。",
+    "verify_todo": [
+      "需获取该药物具体名称及临床数据"
+    ],
+    "article_type": "landscape",
+    "title": "被低估30年，这个方向终于迎来FDA批准！| Bilingual",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382642",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "bc98a9065f9b6c09",
+    "score": 3.1,
+    "channel": "china",
+    "cluster_key": "drug:XS411",
+    "flags": [
+      "stale"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.4,
+    "reasoning": "与条目aea649174为同一XS411同一MDS大会报告，但来源为drugtimes.cn RSS摘要（91字符），内容极度有限，仅头部引用，无法核实详情，需获取完整原文。",
+    "verify_todo": [
+      "需获取drugtimes原文核实XS411完整数据"
+    ],
+    "article_type": "readout",
+    "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
+    "url": "https://www.drugtimes.cn/2026/10/10/shizeshengwutongyongxibaozhiliaopajinsenbingliangxiangmdsguo/",
+    "sources": [
+      "drugtimes"
+    ],
+    "content": "",
+    "summary": "2026年10月，国际帕金森病与运动障碍大会（MDS）在韩国首尔举行，该大会是全球公认的帕金森病及运动障碍疾病领域最高水平、最具影响力的国际学术会议之一。首都医科大学附属北京天坛医…",
+    "lang": "cn",
+    "published": "2026-10-10T03:40:02+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "50a6405356a80bf2",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:KR25102",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.3,
+    "reasoning": "KR25102片获批临床（IND），化药1类新药切入中重度急性疼痛领域，属于研发里程碑事件（进入临床），尚无疗效数据。Phase I尚未启动，无终点结果。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "青峰医药KR25102片获批临床！化药1类新药切入中重度急性疼痛，剑指千亿神经系统市场",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_381807",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "近日（9月24日），据摩熵医药中国药品审评数据库显示，青峰医药旗下子公司科睿药业申报的化药1类新药KR25102片获批临床，拟用于治疗中重度急性疼痛。图源：摩熵医药-中国药品审评数据库KR25102片是青峰医药自主研发的化药1类创新药。该品种于今年7月获CDE承办受理（受理号：CXHL2600864），并于9月获得临床试验默示许可，研发进程持续推进。一、今年4款1类新药获批临床，2款布局神经系统领域据摩熵医药数据库显示，截至目前，青峰医药（含子公司）已有超10款1类新药处于获批临床及以上研发阶段。\n青峰医药集团有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n青峰医药集团有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n今年以来，青峰医药已有4款化药1类新药在国内获批临床。其中，KR23248胶囊、注射用KR25102及KR25102片均为首次获批临床，且均布局神经系统领域。图源：摩熵医药-中国药品审评数据库二、神经系统药物市场超千亿，2026年上半年销售额超570亿随着神经系统疾病治疗需求持续释放，相关药物市场规模可观。摩熵医药数据库显示，2025年，神经系统药物（化药或生物药）在全终端市场的销售总额超过1200亿元，同比增长2.64%；2026年上半年，销售额已超过570亿元。图源：摩熵医药-全终端销售数据库千亿级市场规模背后，神经系统疾病治疗领域仍是药企布局的重要方向。青峰医药在创新药研发之外，也已通过多款获批品种积累了相关产品基础。三、超10款品种拥有生产批文，6款首家过评在神经系统领域（化药或生物药），截至目前，青峰医药（含子公司）已有布立西坦口服溶液、布立西坦注射液、拉考沙胺注射液等超10款品种拥有生产批文。图源：摩熵医药-中国药品批文数据库其中，布立西坦片、拉考沙胺片、吡仑帕奈口服混悬液、布立西坦口服溶液、布立西坦注射液及拉考沙胺注射液共6款品种实现首家过评。从创新药研发到已有品种的上市布局，青峰医药正持续拓展神经系统药物领域的产品管线。随着KR25102等创新药临床研发推进，其在中重度急性疼痛等细分领域的布局也值得关注。参考来源：[1] 摩熵医药（原药融云）数据库[2] 企业官方披露扩展阅读：1. 抢跑首仿与剂型延伸！江西科睿药业同日获批阿贝西利片及布立西坦注射液，肿瘤癫痫双突破2. 青峰医药：从研发到出口，甲磺酸艾立布林引领抗癌新药国际化3. 爆发！青峰医药4大品种同日过评，拿下大涨857%注射剂、3亿品种第二家\n青峰医药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n5条\n中国药品审评信息\n112条\n中国药品批文\n药品招投标\n23条\n全球临床试验\n9条\n中国临床试验\n121条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-08T11:45:43+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "ac3d3f34c76c5bc8",
+    "score": 3.0,
+    "channel": "global",
+    "cluster_key": "mechanism:car-t_enterocolitis",
+    "flags": [
+      "not_clinical",
+      "small_n"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Nat Med发表的CAR-T相关小肠结肠炎机制研究，仅2例患者接受upadacitinib治疗，为机制探索性研究，非临床疗效终点验证，数据成熟度不足以支撑临床决策评分。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "Nat Med：CAR-T相关肠道炎症机制首次绘出：CAR-T 细胞长期滞留肠道，JAK 信号激活，upadacitinib 让 2 例患者好转",
+    "url": "http://news.bioon.com/article/c044954186fe.html",
+    "sources": [
+      "bioon_celltherapy"
+    ],
+    "content": "Nat Med：CAR-T相关肠道炎症机制首次绘出：CAR-T 细胞长期滞留肠道，JAK 信号激活，upadacitinib 让 2 例患者好转\n来源：生物谷原创 2026-10-06 12:44\n2 名发生 CAR-T 相关小肠结肠炎的患者接受了upadacitinib，一种阻断 JAK1 的药物，其症状、肠道炎症和其他疾病活动度指标均出现改善。\n西奈山伊坎医学院的研究人员鉴定出可能促成 CAR-T 细胞相关小肠结肠炎的生物学机制，这是一种可在用于多发性骨髓瘤的某种 CAR-T 细胞疗法后发生的严重肠道炎症性疾病。\n这项发表在 Nature Medicine杂志上的研究发现，CAR-T 细胞可在治疗后很久仍持续存在于肠道组织中，并且发生小肠结肠炎的患者在肠道内免疫系统中经历广泛变化。研究人员还鉴定出可能提供潜在治疗靶点的炎症通路。\nCAR-T 细胞疗法使用患者自身的免疫细胞，称为 T 细胞，这些细胞经过基因修饰以识别和攻击癌细胞。一种称为 BCMA 导向 CAR-T 的疗法版本靶向一种称为 BCMA 的蛋白，该蛋白存在于浆细胞上，包括参与多发性骨髓瘤的癌性浆细胞。一些接受这些疗法的患者会出现持续性胃肠道症状，包括腹泻、腹痛、恶心和体重减轻。\n“CAR-T 疗法已经改变了许多血癌患者的结局，但随着这些治疗被更广泛使用，我们也在更多了解它们对免疫系统的长期影响，”Saurabh Mehandru, MD 说，他是西奈山伊坎医学院医学教授（胃肠病学），也是该研究的通讯作者。\n“我们的研究首次提供了发生 CAR-T 相关小肠结肠炎患者肠道内所发生情况的详细图谱，并鉴定出可能作为治疗靶点的生物学通路。”\n“CAR-T 细胞疗法已经改变了多发性骨髓瘤的治疗格局，为难以治疗的患者提供了新的治疗选择，”Samir Parekh, MD 说，他是西奈山伊坎医学院医学教授，也是该研究的共同监督者，“随着我们在更多患者中、在疾病更早阶段使用这些疗法，理解和处理可能发生的并发症变得越来越重要。这些发现为了解为什么一些患者会发生严重肠道炎症提供了重要见解，并指出了治疗或预防这一并发症的潜在策略。”\n关键发现\nCAR-T 细胞可在治疗后在部分患者的肠道中长期持续存在。\nCAR-T 相关小肠结肠炎不仅仅是保护性免疫细胞的丢失。发生 CAR-T 相关小肠结肠炎的患者肠道内壁中 B 细胞和浆细胞大量丢失。然而，一些未发生小肠结肠炎的患者也有类似变化，表明仅这种丢失并不能解释该疾病。\n肠道中多种类型的细胞受到影响，包括免疫细胞、支持肠道组织和血管的细胞，以及衬覆肠道的细胞，提示肠道免疫环境发生广泛破坏。\n研究人员鉴定出可能提供潜在治疗靶点的炎症通路。JAK 蛋白帮助细胞通讯并调节炎症。研究发现，肠道中多种细胞类型中 JAK 相关炎症信号活性增加。\n“这项工作提供了与 CAR-T 相关小肠结肠炎相关的细胞变化的详细视图，并表明该疾病涉及肠道免疫环境的多个组成部分，”Nikhit Kethidi, MD 说，他是该研究的第一作者。“理解这些变化可能有助于鉴定治疗这一并发症的新方法，并指导未来关于如何预防或管理它的研究。”\n这些发现还指向一种潜在治疗方法。JAK 抑制剂是阻断参与炎症信号蛋白的药物。\n2 名发生 CAR-T 相关小肠结肠炎的患者接受了upadacitinib，一种阻断 JAK1 的药物，其症状、肠道炎症和其他疾病活动度指标均出现改善。在 1 名患者中，治疗还与肠道组织中 CAR-T 细胞大幅减少相关。（生物谷Bioon.com）\n参考文献：\nNikhit Kethidi et al, Persistence of mucosal CAR-T cells and inflammatory remodeling in enterocolitis associated with BCMA CAR-T cell therapy, Nature Medicine (2026). DOI: 10.1038/s41591-026-04632-y.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026（第九届）多组学研究与应用前沿论坛暨多组学整合与系统生物学前沿大会\n空中讲坛\n查看更多\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n高通量技术整合 解锁发酵工艺开发新路径\n开播时间: 2026-09-10 13:55\n基于代谢通路分析 解析疾病代谢重编程与免疫调控\n开播时间: 2026-08-27 13:50\n查看更多",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "7cc495bb485d909c",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:clevidipine",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "上海医药氯维地平乳状注射液获批生产，属于国内生产批件批准，无临床数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "上海医药氯维地平乳状注射液获得批准生产",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382930",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "e2f16e80b2e3a11c",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:pemafibrate",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "佩玛贝特片首仿2家同日获批，为fafcb6661390d242的重复信息（同品种仿制药批准），无增量临床数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "无专利限制！重磅“甘油三酯”药物首仿2家同日获批！此前多家被毙！",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382933",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "d0b4500c66b69ea9",
+    "score": 2.8,
+    "channel": "china",
+    "cluster_key": "drug:ivonescizumab",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.4,
+    "reasoning": "仅启动III期临床，头对头度伐利尤，无任何结果数据。该条目主要内容为Umabs DB数据库广告，临床信息极少，属于试验启动节点，无结果读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "不可切除III期肺癌，头对头度伐利尤：依沃西启动国内第11项三期临床试验",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382936",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "Umabs DB作为目前全球最全面的抗体药物专业数据库，收录全球超11000个从临床前到商业化阶段抗体药物，涉及靶点1700+，涉及疾病种类2400+，研发机构3000+，覆盖药物蛋白序列、专利和临床等多种专业信息。 Umabs DB药物数据库已正式开放上线，可访问www.umabs.com注册享受7天免费试用。 中国方面， 山东第一医科大学附属肿瘤医院的 于金明院士、和 上海市肺科医院 陈昶教授共同作为主要研究者。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-10T10:56:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "52b8f4fa53fb4be6",
+    "score": 2.5,
+    "channel": "china",
+    "cluster_key": "drug:insulin_degludec_aspart",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "德谷门冬双胰岛素获批上市，纯监管批准，无临床试验数据读出。提及原研2012年全球获批及临床研究，但无具体终点数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "国产第2家！东阳光药德谷门冬双胰岛素获批上市，第四代可溶性双胰岛素赛道再添国产新供给",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_382085",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日，NMPA官网显示，东阳光药自主研发的德谷门冬双胰岛素注射液获国家药品监督管理局（NMPA）批准上市，涵盖笔芯和预填充注射笔两种剂型。图源：NMPA官网这是国内第2款获批上市的德谷门冬双胰岛素。此次获批后，东阳光药在国内获批上市的胰岛素产品增至7款，覆盖二代至四代胰岛素，产品布局进一步完善。一、第四代胰岛素，兼顾空腹与餐后血糖德谷门冬双胰岛素是一款可溶性双胰岛素复方制剂，由70%的基础胰岛素类似物德谷胰岛素和30%的速效胰岛素类似物门冬胰岛素组成。图源：摩熵医药-全球药物研发数据库其中，德谷胰岛素具有超长效作用，可平稳控制基础血糖；门冬胰岛素起效较快，主要控制餐后血糖。两种成分按固定比例组成单一制剂，可同时覆盖基础和餐时胰岛素需求。相比传统预混胰岛素，该制剂无需使用前混匀，并支持每日1次或每日2次给药，在满足血糖控制需求的同时，有望减少注射操作负担。二、国产第2家获批，胰岛素供给进一步丰富德谷门冬双胰岛素属于第四代胰岛素制剂，原研产品于2012年首次在全球获批，并于2019年进入中国市场。从临床应用来看，该制剂可用于2型糖尿病患者的起始治疗和强化治疗。相关临床研究显示，与基础胰岛素相比，德谷门冬双胰岛素能够进一步改善HbA1c控制，且低血糖风险未明显增加。据摩熵医药数据库显示，该品种在国内仅诺和诺德、惠升生物制药2家药企拥有生产批文，此次东阳光药业是国内第2家药企获批，随着国产第2款产品获批，德谷门冬双胰岛素的国内供应进一步增加，也为临床提供了更多国产治疗选择。图源：摩熵医药-中国药品批文数据库值得关注的是，目前国内胰岛素专项集采已覆盖二代、三代胰岛素，而可溶性双胰岛素尚未纳入集采。在这一背景下，国产产品的陆续上市，也将进一步丰富该细分领域的市场供给。三、7款胰岛素获批，东阳光药持续完善产品矩阵此次德谷门冬双胰岛素获批，是东阳光药近期胰岛素产品布局的又一进展。2026年7月，公司德谷胰岛素注射液（宜必达®）获批上市。加上此次获批的德谷门冬双胰岛素，东阳光药目前在国内获批上市的胰岛素产品已增至7款，覆盖基础、餐时及预混等多个临床应用场景。图源：摩熵医药-中国药品批文数据库从产品布局来看，公司正在逐步形成从胰岛素起始治疗、方案转换到强化治疗的产品体系。在创新产品方面，东阳光药还在推进超长效胰岛素周制剂HEC-151的Ⅰ期临床研究，进一步布局长效胰岛素新剂型。此外，公司甘精胰岛素注射液已于2026年4月底获得美国FDA批准信，进一步推动其胰岛素产品向海外市场拓展。随着德谷胰岛素、德谷门冬双胰岛素等产品陆续落地，东阳光药正在从传统胰岛素产品向长效化、复方化和新剂型方向延伸，持续完善代谢疾病领域产品布局。\n广东东阳光药业股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n广东东阳光药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 东阳光药首款LY6G6D/4-1BB双抗HEC-921获批临床，21项肿瘤管线同步推进创新转型2. 东阳光药HEC-648注射液IND获受理，或将填补BSL-4尼帕病毒治疗药物关键空白！3. 东阳光药业抢滩7亿胃药市场！伏诺拉生专利悬崖下武田与35家仿制药企混战升级4. 东阳光药业富马酸伏诺拉生片获批上市！专利悬崖倒计时，35家药企抢滩超8亿P-CAB市场5. 东阳光药SGLT2抑制剂「奥洛格列净胶囊」获批上市！百亿糖尿病市场迎“双通道”控糖新药\n双胰岛素*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n37条\n中国药品批文\n6条\n药品招投标\n239条\n全球临床试验\n18条\n中国临床试验\n20条\n一致性评价\n美国FDA批准药品\n查看更多\n东阳光药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n73条\n中国药品审评信息\n796条\n中国药品批文\n87条\n药品招投标\n5198条\n全球临床试验\n69条\n中国临床试验\n158条\n一致性评价\n39条\n美国FDA批准药品\n86条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T10:03:39+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "eecfb56774ef702a",
+    "score": 2.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.3,
+    "reasoning": "文章讨论GVHD控制后的非复发死亡率和长期轨迹，内容偏向学术综述/亚组分析，无明确临床试验终点结论或数据读出。",
+    "verify_todo": [
+      "核查是否为具体试验结果读出"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[Nonrelapse Mortality, Safety, and Long-Term Trajectory After GVHD Control]]>",
+    "url": "https://www.onclive.com/view/nonrelapse-mortality-safety-and-long-term-trajectory-after-gvhd-control",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-08T12:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "f86b9f6dfa24c4cc",
+    "score": 2.5,
+    "channel": "china",
+    "cluster_key": "drug:HN0037",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.3,
+    "reasoning": "HN0037获突破性疗法认定（口唇疱疹适应症），属于监管里程碑，无临床试验数据读出。文章仅91字，内容极为有限，无法判断试验阶段或数据。",
+    "verify_todo": [
+      "核查HN0037具体临床阶段及突破性疗法依据数据"
+    ],
+    "article_type": "milestone",
+    "title": "辉诺医药新药HN0037再获突破性疗法认定",
+    "url": "https://www.drugtimes.cn/2026/10/08/huinuoyiyaoxinyaohn0037zaihuotupoxingliaofarending/",
+    "sources": [
+      "drugtimes"
+    ],
+    "content": "",
+    "summary": "正文共：1200字 预计阅读时间：3分钟 2026年9月30日，辉诺生物医药科技（杭州）有限公司（“辉诺医药”或“辉诺”）宣布，其临床在研药物HN0037用于治疗口唇疱疹的适应症获…",
+    "lang": "cn",
+    "published": "2026-10-08T04:39:40+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "2f37a5b7c960eb75",
+    "score": 2.5,
+    "channel": "china",
+    "cluster_key": "drug:cb2201_botox",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "若弋生物第三代肉毒素三项创新适应症获批临床（IND批准），属于临床试验许可，无临床数据读出。肉毒素领域竞争激烈。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "若弋生物第三代肉毒素药物三项创新适应症同日获批开展临床试验",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382811",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "f4ba0f139187cd5a",
+    "score": 2.5,
+    "channel": "china",
+    "cluster_key": "drug:cb2201_botox",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "若弋生物CB2201'成人颈阔肌条索'适应症IND批准，为2f37a5b7c960eb75同一药物不同适应症的子条目，无增量临床数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "面向“低头族”，打造“天鹅颈” ——若弋生物CB2201管线创新适应症“成人颈阔肌条索”获批临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382810",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "90f8efa33d644f8f",
+    "score": 2.5,
+    "channel": "china",
+    "cluster_key": "drug:cb2201_botox",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "若弋生物CB2201'成人带状疱疹后神经痛'IND批准，为2f37a5b7c960eb75同一药物另一适应症，无增量临床数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "全球首发，聚焦老龄人群亟需用药 ——若弋生物CB2201管线创新适应症“成人带状疱疹后神经痛”获批临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_382809",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8f5942eeec4e56a4",
+    "score": 2.3,
+    "channel": "global",
+    "cluster_key": "drug:VK2735",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.4,
+    "reasoning": "仅宣布启动口服版VK2735两项III期试验，无任何结果数据，属于试验启动节点。GLP-1/GIP双靶竞争激烈。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "Viking：口服GLP-1/GIP启动两项减重三期临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382937",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "这两项三期临床均计划入组560例受试者，预计分别于2028年8月、2028年12月完成。 VK2735此前已经启动皮下注射版的三期临床，此次口服版也推进到三期临床。 上个月， Viking Therapeutics公布GLP-1/GIP双靶点激动剂VK2735二期临床维持治疗方案的最新数据。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-10T10:52:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "5763ddbc093f53e5",
+    "score": 2.1,
+    "channel": "global",
+    "cluster_key": "drug:tilrekimig",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.4,
+    "reasoning": "辉瑞三抗Tilrekimig启动4项III期（哮喘、COPD），但仅告知注册状态，无任何结果数据，哮喘/COPD竞争激烈（dupilumab等），属于试验启动节点。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "辉瑞：IL-4/IL-13/TSLP三抗启动4项三期临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382938",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "该三期临床计划入组1100例受试者，预计2029年8月完成。 今年8月19日，辉瑞注册了 Tilrekimig治疗疗重度哮喘的全球三期临床试验，计划入组1100例受试者，预计2029年9月完成。 今年1月，辉瑞启动了Tilrekimig治疗慢阻肺（COPD）的全球三期临床试验，该三期临床试验计划入组1156例COPD患者，预计2030年10月初步完成。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-10T10:52:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "45f390bd07100902",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "drug:tirzepatide",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence对SURMOUNT-MAINTAIN试验的事后解读评论，非原创临床数据，为现有试验数据的讨论文章。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Personalising maintenance after tirzepatide weight loss",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01433-9/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "summary": "Deborah B Horn and colleagues’ SURMOUNT-MAINTAIN trial provides important evidence that continued tirzepatide is superior to treatment withdrawal for maintaining pharmacologically induced weight loss.1 The trial also shows that reducing tirzepatide to 5 mg offers substantially greater protection against weight regain than switching to placebo. However, the trial's mean effects might not fully convey an important clinical message: response to lower-dose maintenance was heterogeneous.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "07a77187e319bf8b",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "drug:serplulimab",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence对ASTRUM-006试验的事后评论，非原创数据，为已有试验的评述文章。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] How much can ASTRUM-006 tell us?",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01671-5/fulltext?rss=yes",
+    "sources": [
+      "lancet",
+      "lancet"
+    ],
+    "content": "",
+    "summary": "Lin Shen and colleagues report improved event-free survival with perioperative serplulimab in PD-L1-positive resectable gastric or gastro-oesophageal junction adenocarcinoma.1 The trial is valuable: it selects patients by combined positive score and tests a chemotherapy-free adjuvant phase. However, we urge caution before it is read as practice-changing.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "f8187353eecd171f",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "procedure:colonoscopy",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence对NordICC结肠镜筛查试验的评述，非原创临床数据，属已有试验的讨论文章。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Colonoscopy screening and colorectal cancer outcomes: the NordICC trial",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01430-3/fulltext?rss=yes",
+    "sources": [
+      "lancet",
+      "lancet"
+    ],
+    "content": "",
+    "summary": "Michal F Kaminski and colleagues report that colonoscopy screening reduced colorectal cancer incidence, but not mortality, during a 13-year follow-up.1 The response from the public health field will focus, as it always does, on mortality. We think this focus misses the point of the trial.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8b63b6a62939ae0d",
+    "score": 2.0,
+    "channel": "china",
+    "cluster_key": "drug:eperisone_hydrochloride",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "仿制药获批上市公告，无临床试验数据，为纯监管/商业进展，不涉及临床数据读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "九典制药再添重磅品种！盐酸乙哌立松片获批上市，正式切入6亿级中枢性肌松剂赛道",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_382092",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "10月8日，NMPA官网显示，湖南九典制药提交的盐酸乙哌立松片上市申请获批。今年以来，湖南九典制药（含子公司）已有超30款品种获批或通过一致性评价，此次再拿下盐酸乙哌立松片，进一步丰富其产品布局。图源：NMPA官网一、6亿级品种，市场需求稳定盐酸乙哌立松片是一款中枢性肌肉松弛剂，主要用于改善颈肩臂综合症、肩周炎、腰痛症等引起的肌紧张，以及脑血管障碍、痉挛性脊髓麻痹、颈椎病等疾病引起的痉挛性麻痹。该品种已被纳入多项临床诊疗指南推荐用药范围，具有较为成熟的临床应用基础。从市场表现来看，盐酸乙哌立松片已是一个6亿级品种。摩熵医药数据库显示，2025年该品种全终端销售额超过6亿元，2026年上半年销售额达2.42亿元，市场规模保持较高水平。图源：摩熵医药-全终端销售数据库二、11家企业持有批文，竞争持续升温目前，盐酸乙哌立松片已有11家企业拥有生产批文，其中包括上海博悦生物科技、山东京卫制药、成都硕德药业等在内的9家企业已通过一致性评价。\n盐酸乙哌立松片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-过评药品汇总数据库随着九典制药此次获批，市场竞争格局进一步变化。除九典制药外，目前还有16家药企提交了盐酸乙哌立松片4类新注册上市申请，均处于审评审批阶段。随着后续产品陆续获批，该品种的竞争仍有进一步加剧的可能。图源：摩熵医药中国药品审评数据库对于九典制药而言，此次切入6亿级市场，也意味着其产品矩阵再添一个具有一定市场基础的品种。\n湖南九典制药股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n湖南九典制药股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 九典制药椒七止痛凝胶贴膏获NMPA批准！中药1.1类创新药20年三次申报两撤回2. 九典制药格拉司琼贴片上市申请获受理，透皮制剂领域再掀热潮！3. 2025药品一致性评价大揭秘：71个药品首家过评，九典制药领跑仿制药新赛道，人福药业等多家企业竞逐\n盐酸乙哌立松片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n11条\n药品招投标\n1217条\n全球临床试验\n中国临床试验\n32条\n一致性评价\n9条\n美国FDA批准药品\n查看更多\n九典制药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n14条\n中国药品审评信息\n547条\n中国药品批文\n220条\n药品招投标\n14444条\n全球临床试验\n中国临床试验\n134条\n一致性评价\n57条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T17:47:15+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "d1b68426f91c14c3",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "月度新闻回顾汇总，无具体临床试验数据读出，为综述盘点类文章。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[Breast Cancer Monthly Rewind: Key News and Expert Insights You May Have Missed in September 2026]]>",
+    "url": "https://www.onclive.com/view/breast-cancer-monthly-rewind-key-news-and-expert-insights-you-may-have-missed-in-september-2026",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-08T13:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "6df5d4db5e43c1f7",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "drug:ibogaine",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.3,
+    "reasoning": "FDA就氯胺酮（ibogaine）早期临床试验设计征求公众意见，属于监管政策讨论，无临床数据读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[FDA Seeks Public Input on Early-Phase Clinical Trial Design for Ibogaine]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/fda-seeks-public-input-early-phase-clinical-trial-design-ibogaine",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-05T16:08:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "7ffb85ab7cf1c36e",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "ACT行业简报，内容涉及入组可行性、RWE基础设施和肽类监管进展，无任何临床数据或试验结果，属于运营/政策类内容。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[ACT Brief: Enrollment Feasibility Pressure-Testing, RWE Infrastructure Gaps, and Peptide Rulemaking Standstill]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/enrollment-feasibility-pressure-testing-rwe-infrastructure-gaps-peptide-rulemaking-standstill",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-09-30T10:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "2253be1a91e63cfe",
+    "score": 1.5,
+    "channel": "global",
+    "cluster_key": "IPO",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Aspen Neuroscience和Bambusa Therapeutics的IPO申请公告，纯融资事件，无临床试验数据。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "Parkinson's cell therapy biotech Aspen and I&I startup Bambusa file for IPOs",
+    "url": "https://endpoints.news/parkinsons-cell-therapy-biotech-aspen-and-ii-startup-bambusa-file-for-ipos/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "summary": "A Gilead-backed cell therapy maker and an I&amp;I biotech from BioNTech vets are looking to ride the biotech industry's IPO momentum. Aspen Neuroscience and Bambusa Therapeutics are the latest drug developers to ...",
+    "lang": "en",
+    "published": "2026-10-09T22:48:48+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "831ed98481c5059b",
+    "score": 1.5,
+    "channel": "china",
+    "cluster_key": "topic:bone_metastasis",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "李孝远教授关于肿瘤骨转移全程管理的综述/经验分享文章，无原始临床试验数据，属专家观点综述。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "李孝远教授：肿瘤骨转移的全程管理之路，从机制认知到MDT诊疗新模式的临床实践",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382789",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "骨是恶性肿瘤重要的远处转移靶器官之一，骨转移在乳腺癌、前列腺癌和肺癌尤为常见。 骨转移患者面临的并不仅是肿瘤负荷本身，还包括病理性骨折、脊髓压迫以及需接受骨放疗或骨手术等骨相关事件（SREs），恶性高钙血症则是另一项重要并发症。 与此同时，肿瘤细胞定植骨骼后，会与破骨细胞、成骨细胞、骨髓基质细胞及骨基质发生持续互作，形成促进肿瘤生长和骨破坏的恶性循环；其中 RANKL-RANK-OPG 轴是调控破骨细胞分化和活化的关键枢纽 。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T20:00:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "ccd4e41b27f27397",
+    "score": 1.5,
+    "channel": "global",
+    "cluster_key": "topic:prostate_cancer",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "与Peter Hammerer教授关于前列腺癌新辅助治疗的专家访谈/综述，属专家对话栏目，无原创临床试验数据。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "APEX CHINA | 对话Peter Hammerer教授，探讨局晚期前列腺癌新辅助治疗的临床价值与未来方向",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382791",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "基于PROTEUS研究看局部晚期前列腺癌新辅助治疗的临床价值与终点选择。 鲍一歌教授： PROTEUS研究的核心问题在于探讨局部晚期前列腺癌的最优治疗方案。 Peter Hammerer教授： 既往多项新辅助治疗相关研究的样本量偏小且终点不一，整体质量并不理想。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T19:00:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "bb97d3b2e8b97bf2",
+    "score": 1.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "NEJM发表的关于生物医学可重复性综述文章，非临床试验数据读出，为学术论文。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "Reproducibility in Biomedical Science — From Repetition to Corroboration",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMms2607020?af=R&rss=currentIssue",
+    "sources": [
+      "nejm"
+    ],
+    "content": "",
+    "summary": "New England Journal of Medicine, Volume 395, Issue 14, Page 1447-1453, October 8, 2026.",
+    "lang": "en",
+    "published": "2026-10-07T09:00:01+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "4b38907610ddb951",
+    "score": 1.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "HHS启动SURPASS计划及配套临床试验基础设施建设项目，无具体临床试验数据，为政策/项目公告。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[HHS Launches SURPASS Program and Three Complementary Initiatives to Transform Clinical Trial Design and Infrastructure]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/hhs-launches-surpass-program-three-complementary-initiatives-transform-clinical-trial-design-infrastructure",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-01T16:15:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "65ffc4a2caa71a54",
+    "score": 1.5,
+    "channel": "china",
+    "cluster_key": "drug:bilastine",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "比拉斯汀片4类仿制药报产获CDE受理，纯监管受理事件，无临床试验数据。仿制药品种，市场已有多个竞品，不涉及临床数据读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "江苏联环药业比拉斯汀片4类仿制药报产获CDE受理，抗过敏热门赛道再添新入局者",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_379210",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "9月28日，CDE官网显示，江苏联环药业申报的4类仿制药比拉斯汀片上市申请获受理。比拉斯汀是一款非镇静、长效抗组胺药，主要用于过敏性疾病治疗。图源：CDE官网摩熵医药数据库显示，2026年上半年，该品种在全终端销售额超1700万元，同比增长52.47%。随着联环药业加入，国内比拉斯汀片市场竞争进一步升温。一、销售额增长52.47%，多家药企争相布局比拉斯汀是一种非镇静的长效抗组胺药，可选择性拮抗外周H1受体，对毒蕈碱受体无亲和力，对其他受体的亲和力较低。2023年6月，意大利美纳里尼的比拉斯汀片获NMPA批准进入中国，用于12岁及以上青少年和成人荨麻疹的对症治疗。此后，国内多家药企陆续布局该品种。江苏华阳制药、山东新时代药业、泰恩康医药等企业已通过新分类获批上市或视同通过一致性评价，江西施美药业、北京民康百草医药及江苏联环药业等也相继提交上市申请。\n比拉斯汀片同品种项目国内申报进度\n企业名称\n申报临床\n批准临床\n申请上市\n批准上市\n一致性评价\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品批文数据库从市场表现来看，摩熵医药数据库显示，2026年上半年，比拉斯汀片全终端销售额超过1700万元，同比增长52.47%，市场需求持续增长。图源：摩熵医药-全终端销售数据库二、13款新品报产在审，联环药业加快产品布局此次比拉斯汀片报产，是联环药业持续推进仿制药研发及上市申报的一个缩影。截至目前，公司共有13款新品报产在审，涉及呼吸系统药物、心血管系统药物、消化系统与代谢药物等多个治疗领域。\n江苏联环药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库与此同时，联环药业已有超50款仿制药获批或视同通过一致性评价。其中，盐酸多西环素片、盐酸屈他维林注射液、盐酸屈他维林片、盐酸舍曲林胶囊等品种为首家通过一致性评价的产品。三、5款新药进入临床，创新管线持续推进在仿制药布局之外，联环药业也持续加大研发投入，聚焦重点领域创新药研发。目前，公司已有5款1类新药进入临床试验阶段。图源：摩熵医药-中国药品审评数据库其中，1类新药LH-1801片已完成2型糖尿病Ⅲ期临床试验，并提交Pre-NDA沟通交流申请；吸入用LH-1901（慢阻肺）、LH-1802胶囊（急性髓系白血病）均已进入Ⅰ期临床。此外，2.3类新药LH-2103胶囊和LH-2417片，均针对前列腺增生，已步入Ⅰ期临床阶段。从比拉斯汀片的上市申报，到多款创新药推进临床，联环药业正围绕仿制药与创新药两条路径推进产品管线建设。随着在审品种及临床管线进一步推进，公司后续产品进展值得关注。\n【江苏联环药业集团有限公司】2025年指数排名\n当前排名\n第81名\n81.38分\n摩熵指数\n19个\n新获批上市药物\n14个\n新申报上市药物\n2个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] CDE官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 药监新动态：布立西坦口服溶液、比拉斯汀口服溶液首仿齐折戟！正大丰海等三家药企上市受挫2. 鲁南制药拿下比拉斯汀口崩片国内首仿+首家过评，过敏市场迎新局3. 湖南科伦制药申报比拉斯汀上市申请获受理，高效治疗过敏性鼻炎与荨麻疹新药有望面世\n比拉斯汀片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n35条\n中国药品批文\n4条\n药品招投标\n216条\n全球临床试验\n中国临床试验\n37条\n一致性评价\n3条\n美国FDA批准药品\n查看更多\n江苏联环药业股份有限公司*点击下方数字查看更多企业相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n181条\n中国药品批文\n116条\n药品招投标\n6482条\n全球临床试验\n中国临床试验\n54条\n一致性评价\n36条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-09-30T15:05:27+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "522dc07e9deb81e9",
+    "score": 1.5,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "CDE公开征求慢性乙型肝炎肝纤维化治疗药物临床试验技术指导原则（征求意见稿），属于监管指南文件起草，非临床数据。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "关于公开征求《慢性乙型肝炎肝纤维化治疗药物临床试验技术指导原则（征求意见稿）》意见的通知",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_382845",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "a209aa4326dcd48e",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "policy:medical_AI",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence社论文章，主题为AI监管政策，无任何临床试验数据，属政策评论，非临床结果读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Regulate prospective development of medical AI now",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01941-0/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "summary": "Artificial intelligence (AI) is advancing through medicine at a pace that regulation, ethics, and professional reflection have struggled to match. The prevailing assumption appears to be that if a technology can be developed, it should be developed—and that its place in clinical care can be debated afterwards. We believe this sequence should be reversed.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "95c7f489bb68d89e",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "policy:health_literacy",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence社论文章，主题为AI时代健康素养，无临床试验数据，属政策评论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] The health literacy crisis in the age of AI: lessons from PISA 2025",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01906-9/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "summary": "The 2025 Programme for International Student Assessment (PISA) results should concern the health community.1 PISA does not measure health literacy directly, but it assesses several cognitive competencies that increasingly underpin people's ability to navigate health information. For example, in 2025, more than 760 000 students aged 15 years, from 91 countries and economies, participated in the assessment.1 The findings reveal a worrying deterioration in reading, mathematics, and science performance.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "24a784c5212b1724",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "policy:HCV_elimination",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence关于台湾HCV消除的政策评述，无临床试验数据，属公共卫生政策评论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Taiwan's path to hepatitis C elimination",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01812-X/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "summary": "WHO has established a global target to eliminate viral hepatitis as a public health threat by 2030.1 Chronic hepatitis C virus (HCV) infection remains one of the leading causes of cirrhosis, hepatocellular carcinoma, and liver-related mortality, affecting an estimated 50 million people worldwide.2 By integrating a comprehensive screening-to-cure cascade, HCV elimination has become an achievable public health goal.",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "3b1fc69b4aac783c",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "regulatory:atezolizumab",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准atezolizumab+化疗结肠癌的专家评论，属监管动态解读，无临床试验结果读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "<![CDATA[Dr Sinicrope on the FDA Approval of Atezolizumab Plus Chemo for Colon Cancer]]>",
+    "url": "https://www.onclive.com/view/dr-sinicrope-on-the-fda-approval-of-atezolizumab-plus-chemo-for-colon-cancer",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-10T00:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8073c8947185d00d",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "drug:olanzapine",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准奥氮平新剂型（月效皮下注射），属老药新剂型审批，无新临床试验数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "Decades-Old Schizophrenia Drug Wins Approval for New Formulation",
+    "url": "https://www.medpagetoday.com/psychiatry/schizophrenia/123353",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "summary": "(MedPage Today) -- The FDA approved an easier-to-use once-monthly subcutaneous injectable form of olanzapine (Weltruza) for schizophrenia in adults, Teva Pharmaceuticals announced on Friday. A decades-old drug, olanzapine in its oral form is the...",
+    "lang": "en",
+    "published": "2026-10-09T21:32:21+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "a93e6a79b6071091",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "diagnostic:Guardant360",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Guardant360 CDx作为伴随诊断获欧洲批准，属监管/诊断批准事件，无临床试验数据读出。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "<![CDATA[Guardant360 CDx Receives European Approval as Companion Diagnostic for Camizestrant in ESR1-Mutated Advanced Breast Cancer]]>",
+    "url": "https://www.onclive.com/view/guardant360-cdx-receives-european-approval-as-companion-diagnostic-for-camizestrant-in-esr1-mutated-advanced-breast-cancer",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-09T21:30:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "bf940aff438bbcb5",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "drug:pritelivir",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "FDA批准pritelivir新药用于免疫缺陷患者疱疹，属监管批准，无新临床试验数据。",
+    "verify_todo": [],
+    "article_type": "milestone",
+    "title": "New Oral Drug Approved for Herpes Lesions",
+    "url": "https://www.medpagetoday.com/infectiousdisease/generalinfectiousdisease/123352",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "summary": "(MedPage Today) -- The FDA approved pritelivir (Hovilpri) tablets to treat mucocutaneous lesions caused by herpes simplex virus (HSV) infections in immunocompromised patients who haven't responded to other treatments. Pritelivir, an oral helicase...",
+    "lang": "en",
+    "published": "2026-10-09T21:15:29+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "b3ec8d4dbe68424b",
+    "score": 1.0,
+    "channel": "china",
+    "cluster_key": "drug:lorlatinib",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "洛拉替尼治疗双ALK融合病例报告，非注册临床试验，clinical_signal=false，为单个病例分享，非临床结果读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "姚艳雯教授：罕见双ALK融合伴TP53共突变晚期肺腺癌，洛拉替尼一线治疗持续PR超24个月",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382668",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "当前，对于ALK融合阳性晚期非小细胞肺癌（NSCLC）患者，基于酪氨酸激酶抑制剂（TKI）的靶向治疗已充分证实可改善无进展生存期（PFS）和总生存期（OS）。 2026年美国临床肿瘤学会（ASCO）年会中报告的CROWN研究7年随访结果显示 ， 洛拉替尼一线治疗ALK融合阳性晚期NSCLC患者，中位PFS经7年随访仍未达到，7年PFS率达到55%。 然而， 双ALK融合极为罕见，此类病例的标准治疗方案尚未明确。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T20:00:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "8287289aba8b54c7",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "news:Biden_cancer",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 1.0,
+    "reasoning": "Biden前列腺癌进展新闻报道，非临床试验数据，无原始研究结果。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "Biden Cancer Update; 'Big Bet' on Vaccines; Tucatinib Breast Cancer Approval Expands",
+    "url": "https://www.medpagetoday.com/hematologyoncology/prostatecancer/123350",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "summary": "(MedPage Today) -- The treatment for former President Joe Biden's metastatic prostate cancer, which has spread to the bone, has been \"like torture,\" according to an update from his son, Hunter Biden. (OK!) Republican congressional candidate Doug...",
+    "lang": "en",
+    "published": "2026-10-09T19:41:20+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "3b762d04d73ceec8",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "drug:PDRN",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "综述文章，无具体临床试验数据，为综述/应用现状梳理，不涉及试验终点或数据读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "中国药科大学赵俊凯、王丹、叶宝芬等—多聚脱氧核糖核苷酸在临床治疗及医疗美容领域的应用现状",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_382820",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "多聚脱氧核糖核苷酸在临床治疗及医疗美容领域的应用现状 PPS。 通过对 PDRN 的基本理化性质、作用机制和应用进展进行综述，系统梳理其在多种临床适应证及医疗美容领域中的应用与发展现状，并对现有的安全性证据及潜在风险进行探讨，以期为 PDRN 的临床规范应用及其在医疗美容产品中的开发应用提供参考。 清创、感染控制和手术修复等传统修复手段虽可在一定程度上改善局部症状并促进创面闭合，但对于持续性炎症、局部缺血及异常组织重塑等关键病理环节的干预仍较有限，因此常导致愈合时间长、修复难度大、愈合质量欠佳等问题 。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T18:34:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "fa411b3fa2d60a85",
+    "score": 1.0,
+    "channel": "china",
+    "cluster_key": "device:TECNIS_Odyssey",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "医生经验分享文章，涉及医疗器械（IOL）临床应用，无具体临床试验数据，无终点结论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "强生丨全视程 全程爱 奥德赛——张凤妍教授谈TECNIS Odyssey™全视程IOL临床应用体会",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382795",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "随着老龄化进程加快、患者视觉需求从基础复明升级为全程优质视功能，全视程人工晶状体（IOL）成为了缔造全程精准视力的重要武器。 全新的TECNIS Odyssey™全视程IOL今年在我国成功上市，并以卓越的表现获得广大白内障患者与手术医生的一致信赖，在全国各地火热开展中，为越来越多白内障患者带来更加清晰、更少干扰的高质量全程精准视觉体验。 近日， 郑州大学第一附属医院张凤妍教授 选择为她的患者植入TECNIS Odyssey™全视程IOL，获得了优异的视觉效果，患者在第一眼手术后积极要求进行第二眼手术。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T17:03:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "12f87f95130ec86b",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "临床试验参与通路的策略性文章，提及AI辅助入组等，无具体临床数据或试验结果，非临床数据新闻。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[The Test Is the Ticket: Building Smarter Pathways to Clinical Trial Participation]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/test-smarter-pathways-clinical-trial-participation",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "en",
+    "published": "2026-10-09T10:00:00+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "af6a7cd20428e361",
@@ -1940,8 +1927,8 @@
     ],
     "endpoint_verdict": "none",
     "verdict_basis": "none",
-    "confidence": 0.1,
-    "reasoning": "Author Correction for a preclinical/fundamental immunology study (NKT cells in allergic airway inflammation); no clinical relevance.",
+    "confidence": 0,
+    "reasoning": "Nature Medicine勘误文章，非临床试验数据读出，为已发表文章的作者更正通知。",
     "verify_todo": [],
     "article_type": "landscape",
     "title": "Author Correction: Natural killer T cells and CD8<sup>+</sup> T cells are dispensable for T cell–dependent allergic airway inflammation",
@@ -1953,33 +1940,7 @@
     "summary": "Nature Medicine, Published online: 08 October 2026; doi:10.1038/s41591-026-04709-8 Author Correction: Natural killer T cells and CD8 + T cells are dispensable for T cell–dependent allergic airway inflammation",
     "lang": "en",
     "published": "2026-10-08T00:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "ba3904ca7c50ae5e",
-    "score": 1.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical",
-      "personnel"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.1,
-    "reasoning": "Opinion piece on a death penalty case (Christa Pike) and survival after execution attempt; no clinical trial data whatsoever.",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "Christa Pike's Survival Wasn't a Miracle. That's What Should Scare Us.",
-    "url": "https://www.medpagetoday.com/opinion/unchartedterritory/123344",
-    "sources": [
-      "medpage_today"
-    ],
-    "content": "",
-    "summary": "(MedPage Today) -- Zivot consulted for Christa Pike's legal team. Christa Pike is awake. A week after Tennessee strapped her to a gurney and gave her two doses of pentobarbital, she is off the ventilator and speaking from a hospital bed, still...",
-    "lang": "en",
-    "published": "2026-10-09T17:25:54+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "db7f1e5edebe8846",
@@ -1991,8 +1952,8 @@
     ],
     "endpoint_verdict": "none",
     "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "ACT简报，涉及FDA透明度路线图、放射性药物运营、AI入组预测，无临床数据。",
+    "confidence": 0,
+    "reasoning": "ACT简报，涉及FDA透明度、放射性药物试验运营、AI辅助入组，无具体临床数据读出，为行业政策/运营综述。",
     "verify_todo": [],
     "article_type": "landscape",
     "title": "<![CDATA[ACT Brief: FDA Transparency Roadmap, Radiopharmaceutical Trial Operations, and AI-Powered Enrollment Prediction]]>",
@@ -2004,10 +1965,10 @@
     "summary": "",
     "lang": "en",
     "published": "2026-10-07T10:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
-    "id": "6df5d4db5e43c1f7",
+    "id": "ce2ebacb8bc675cc",
     "score": 1.0,
     "channel": "global",
     "cluster_key": "",
@@ -2016,96 +1977,20 @@
     ],
     "endpoint_verdict": "none",
     "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "FDA公开征求伊波格因早期临床试验设计意见，属监管流程，非临床数据读出。",
+    "confidence": 1.0,
+    "reasoning": "Lancet Correspondence，主题为将气候危机宣布为国际关注的突发公共卫生事件，纯公共卫生/政策倡议，无临床数据。",
     "verify_todo": [],
     "article_type": "landscape",
-    "title": "<![CDATA[FDA Seeks Public Input on Early-Phase Clinical Trial Design for Ibogaine]]>",
-    "url": "https://www.appliedclinicaltrialsonline.com/view/fda-seeks-public-input-early-phase-clinical-trial-design-ibogaine",
+    "title": "[Correspondence] Declare the climate crisis a Public Health Emergency of International Concern",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01919-7/fulltext?rss=yes",
     "sources": [
-      "applied_clinical_trials"
+      "lancet"
     ],
     "content": "",
-    "summary": "",
+    "summary": "Climate change is shaping health in the 21st century. In the past few weeks alone, Nepal has faced unprecedented flash floods, and multiple countries have experienced deadly heatwaves and catastrophic wildfires.1 El Niño is now firmly established and projected to intensify further.2 The southern hemisphere faces a summer of extreme heatwaves, droughts, and floods, threatening maternal and child health in particular, and increasing infectious disease outbreaks.3 Populations in lower-income countries bear a disproportionate burden of these impacts, but are least responsible for emissions and have few resources to respond.",
     "lang": "en",
-    "published": "2026-10-05T16:08:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "4b38907610ddb951",
-    "score": 1.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "HHS启动SURPASS计划，属于联邦政策/基础设施倡议，无临床数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "<![CDATA[HHS Launches SURPASS Program and Three Complementary Initiatives to Transform Clinical Trial Design and Infrastructure]]>",
-    "url": "https://www.appliedclinicaltrialsonline.com/view/hhs-launches-surpass-program-three-complementary-initiatives-transform-clinical-trial-design-infrastructure",
-    "sources": [
-      "applied_clinical_trials"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-10-01T16:15:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "7ffb85ab7cf1c36e",
-    "score": 1.0,
-    "channel": "global",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.3,
-    "reasoning": "ACT简报涉及入组可行性、RWE基础设施、多肽监管，无临床数据。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "<![CDATA[ACT Brief: Enrollment Feasibility Pressure-Testing, RWE Infrastructure Gaps, and Peptide Rulemaking Standstill]]>",
-    "url": "https://www.appliedclinicaltrialsonline.com/view/enrollment-feasibility-pressure-testing-rwe-infrastructure-gaps-peptide-rulemaking-standstill",
-    "sources": [
-      "applied_clinical_trials"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "en",
-    "published": "2026-09-30T10:00:00+00:00",
-    "scored_at": "2026-10-11T05:02:15Z"
-  },
-  {
-    "id": "39ade11cbaed7d7a",
-    "score": 1.0,
-    "channel": "china",
-    "cluster_key": "",
-    "flags": [
-      "not_clinical",
-      "personnel"
-    ],
-    "endpoint_verdict": "none",
-    "verdict_basis": "none",
-    "confidence": 0.5,
-    "reasoning": "人物专访/人物特写，属于人事/职业发展类内容，与临床数据无直接关联。",
-    "verify_todo": [],
-    "article_type": "landscape",
-    "title": "奔赴三院①｜北京协和博士杨艳：把科研理想种在临床一线",
-    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382792",
-    "sources": [
-      "pharnexcloud"
-    ],
-    "content": "",
-    "summary": "",
-    "lang": "cn",
-    "published": "2026-10-09T18:50:00+08:00",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "published": "2026-09-29T13:42:01+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   },
   {
     "id": "b59cf4b9ef64dd64",
@@ -2117,8 +2002,8 @@
     ],
     "endpoint_verdict": "none",
     "verdict_basis": "none",
-    "confidence": 0.8,
-    "reasoning": "EPA农药残留容许量设定，属于农药监管范畴，与临床开发无关。",
+    "confidence": 1.0,
+    "reasoning": "EPA为除草剂三氟羧草醚设立甜菜残留容许量，属于农药监管批准，非临床药物数据。",
     "verify_todo": [],
     "article_type": "landscape",
     "title": "UPL申请获批：EPA为三氟羧草醚在甜菜根上设立永久容许量",
@@ -2130,6 +2015,57 @@
     "summary": "",
     "lang": "cn",
     "published": "",
-    "scored_at": "2026-10-11T05:02:15Z"
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "39ade11cbaed7d7a",
+    "score": 0.5,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "personnel"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "人物专访，无临床数据，仅为新闻报道，not_clinical。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "奔赴三院①｜北京协和博士杨艳：把科研理想种在临床一线",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_382792",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-10-09T18:50:00+08:00",
+    "scored_at": "2026-10-11T06:40:12Z"
+  },
+  {
+    "id": "ba3904ca7c50ae5e",
+    "score": 0.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0,
+    "reasoning": "评论文章，讨论注射死刑案例，非临床数据新闻，与临床试验无关。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "Christa Pike's Survival Wasn't a Miracle. That's What Should Scare Us.",
+    "url": "https://www.medpagetoday.com/opinion/unchartedterritory/123344",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "summary": "(MedPage Today) -- Zivot consulted for Christa Pike's legal team. Christa Pike is awake. A week after Tennessee strapped her to a gurney and gave her two doses of pentobarbital, she is off the ventilator and speaking from a hospital bed, still...",
+    "lang": "en",
+    "published": "2026-10-09T17:25:54+00:00",
+    "scored_at": "2026-10-11T06:40:12Z"
   }
 ]
