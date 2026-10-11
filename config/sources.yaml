@@ -1,0 +1,383 @@
+# 临床数据雷达 · 源清单
+#
+# 定位：搜临床专业网站/自媒体拿话题 → 打分 → 搜一手材料 → 成文
+# 注册库（ClinicalTrials.gov 等）不做发现源，只在"搜一手材料"环节使用。
+#
+# access 分级：
+#   full     正文可读，可直接用于写作
+#   headline 只有标题/摘要
+#   rss      走 RSS
+#   blocked  确认封爬
+#   disabled 无有效产出
+#
+# 所有条目均为 2026-10-11 实测结论，不要凭印象增删。
+
+version: 1
+
+fetch:
+  # 正文抓取配额（按源）。正文是这个雷达最有价值的部分
+  # （标题只有一句话，正文才有终点结果、数值、安全性数据），
+  # 所以配额给得比较宽。
+  article_quota:
+    bioon_trials: 12
+    bioon_tumor_immunotherapy: 8
+    bioon_celltherapy: 8
+    bioon_genetherapy: 6
+    bioon_antibodies: 8
+    bioon_neuroscience: 6
+    pharnexcloud: 30
+    pharmcube: 8
+  timeout: 25
+  # 陈旧过滤阈值（天）。发布日期未知的条目不受限。
+  max_age_days: 21
+
+sources:
+  # ============================================================
+  # 英文 · 顶刊（最高价值：结论权威、带完整统计）
+  # ============================================================
+  - id: nejm
+    name: NEJM
+    lang: en
+    url: https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm
+    mode: rss
+    access: rss
+    weight: 1.5
+    tier: journal
+    note: 实测 40-47 条
+
+  - id: lancet
+    name: The Lancet
+    lang: en
+    url: https://www.thelancet.com/rssfeed/lancet_current.xml
+    mode: rss
+    access: rss
+    weight: 1.5
+    tier: journal
+    note: 实测 27-28 条
+
+  - id: nature_medicine
+    name: Nature Medicine
+    lang: en
+    url: https://www.nature.com/nm.rss
+    mode: rss
+    access: rss
+    weight: 1.4
+    tier: journal
+    note: 实测 8-9 条
+
+  # ============================================================
+  # 英文 · 临床专业媒体
+  # ============================================================
+  - id: onclive
+    name: OncLive
+    lang: en
+    url: https://www.onclive.com/rss
+    mode: rss
+    access: rss
+    weight: 1.2
+    tier: clinical_media
+    note: 实测 30 条，肿瘤临床
+
+  - id: targeted_oncology
+    name: Targeted Oncology
+    lang: en
+    url: https://www.targetedonc.com/rss
+    mode: rss
+    access: rss
+    weight: 1.2
+    tier: clinical_media
+    note: 实测 30 条
+
+  - id: medpage_today
+    name: MedPage Today
+    lang: en
+    url: https://www.medpagetoday.com/rss/headlines.xml
+    mode: rss
+    access: rss
+    weight: 1.1
+    tier: clinical_media
+    note: 实测 20 条
+
+  - id: applied_clinical_trials
+    name: Applied Clinical Trials
+    lang: en
+    url: https://www.appliedclinicaltrialsonline.com/rss
+    mode: rss
+    access: rss
+    weight: 0.9
+    tier: clinical_media
+    note: 实测 30 条，偏试验运营，临床数据少
+
+  - id: endpoint
+    name: Endpoints News
+    lang: en
+    url: https://endpts.com/feed
+    mode: rss
+    access: rss
+    weight: 1.2
+    tier: trade_media
+    note: 实测 24 条
+
+  # 实测不可用（保留记录，不要启用）
+  - id: medscape
+    name: Medscape
+    lang: en
+    url: https://www.medscape.com/cx/rssfeeds/2700.xml
+    mode: rss
+    access: blocked
+    weight: 0.0
+    note: 实测 HTTP 403
+
+  - id: gen
+    name: GEN
+    lang: en
+    url: https://www.genengnews.com/feed/
+    mode: rss
+    access: blocked
+    weight: 0.0
+    note: 实测 HTTP 403
+
+  - id: clinical_trials_arena
+    name: Clinical Trials Arena
+    lang: en
+    url: https://www.clinicaltrialsarena.com/feed/
+    mode: rss
+    access: blocked
+    weight: 0.0
+    note: 实测 HTTP 403
+
+  - id: medcitynews
+    name: MedCity News
+    lang: en
+    url: https://medcitynews.com/feed/
+    mode: rss
+    access: blocked
+    weight: 0.0
+    note: 实测 HTTP 403
+
+  - id: biospace
+    name: BioSpace
+    lang: en
+    url: https://www.biospace.com/rss/news/
+    mode: rss
+    access: blocked
+    weight: 0.0
+    note: 实测 HTTP 202 空响应
+
+  - id: raps
+    name: RAPS
+    lang: en
+    url: https://www.raps.org/rss/news
+    mode: rss
+    access: disabled
+    weight: 0.0
+    note: 实测 HTTP 404
+
+  # ============================================================
+  # 中文 · 生物谷专科频道（实测正文可抓，div.content）
+  #
+  # 实测：频道页 14-19 篇文章链接，正文 1600-6300 字符。
+  # 链接模式 http://news.bioon.com/article/<hex>.html
+  # 内容质量高，标题直接带临床数据，例如：
+  #   "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤
+  #    ——38 例全部应答，近 80% 完全缓解，3 年生存 65%"
+  #
+  # ⚠️ 实测：连续请求 bioon.com 的 6 个频道（无间隔）会触发腾讯 WAF，
+  # 之后【全站所有路径】都返回同一个 1681 字节验证码页，HTTP 仍是 200。
+  # 规避手段：只保留 3 个临床相关性最高的频道 + 同域请求间隔 2 秒。
+  # 想加回更多频道，先确认 WAF 容忍度，别一次开满。
+  - id: bioon_trials
+    name: 生物谷 - 临床研究
+    lang: cn
+    url: https://www.bioon.com/trials
+    mode: html
+    access: full
+    weight: 1.3
+    tier: cn_channel
+    note: 实测 16-19 篇，正文可抓（div.content）
+
+  - id: bioon_tumor_immunotherapy
+    name: 生物谷 - 肿瘤免疫治疗
+    lang: cn
+    url: https://www.bioon.com/tumor-immunotherapy
+    mode: html
+    access: full
+    weight: 1.2
+    tier: cn_channel
+
+  - id: bioon_celltherapy
+    name: 生物谷 - 细胞治疗
+    lang: cn
+    url: https://www.bioon.com/celltherapy
+    mode: html
+    access: full
+    weight: 1.2
+    tier: cn_channel
+
+  # 以下 bioon 频道可用但为规避 WAF 暂时关闭，需要时逐个开
+  - id: bioon_genetherapy
+    name: 生物谷 - 基因治疗
+    lang: cn
+    url: https://www.bioon.com/genetherapy
+    mode: html
+    access: disabled
+    weight: 0.0
+    tier: cn_channel
+    note: 可用，为降低 WAF 风险暂时关闭
+
+  - id: bioon_antibodies
+    name: 生物谷 - 双特异性抗体
+    lang: cn
+    url: https://www.bioon.com/antibodies
+    mode: html
+    access: disabled
+    weight: 0.0
+    tier: cn_channel
+    note: 可用，为降低 WAF 风险暂时关闭
+
+  - id: bioon_neuroscience
+    name: 生物谷 - 神经科学
+    lang: cn
+    url: https://www.bioon.com/neuroscience
+    mode: html
+    access: disabled
+    weight: 0.0
+    tier: cn_channel
+    note: 可用，为降低 WAF 风险暂时关闭
+
+  # ============================================================
+  # 中文 · 行业媒体 / 自媒体
+  # ============================================================
+  - id: pharnexcloud
+    name: 摩熵医药
+    lang: cn
+    url: https://www.pharnexcloud.com/zixun/
+    mode: html
+    access: full
+    weight: 1.3
+    tier: cn_media
+    note: |
+      实测最丰产的源（单次 161 条链接，临床过滤后 43 条）。
+      正文在 div.left（不是 div.content——后者只有 365 字符，是诱饵）。
+      日期在 JSON-LD 的 datePublished。
+      标题形态极对口，例如：
+        "脑癌疫苗Ⅱ期未达终点，公司仍有信心"
+        "众生药业GLP-1R/GIPR激动剂III期研究成功"
+        "帕金森细胞疗法新突破！XS411亮相MDS，2期已全部入组"
+
+  - id: drugtimes
+    name: 药时代
+    lang: cn
+    url: https://www.drugtimes.cn/feed/
+    mode: rss
+    access: rss
+    weight: 1.1
+    tier: cn_media
+    note: |
+      实测 RSS 10 条。内容混有临床进展、BD 交易、人事——
+      必须靠噪声过滤把后两类剔掉。
+      样本："士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨
+            临床I期突破进展+盲法II期全部入组"
+
+  - id: pharmcube
+    name: 医药魔方 ByDrug
+    lang: cn
+    url: https://bydrug.pharmcube.com/news
+    mode: html
+    access: full
+    weight: 1.0
+    tier: cn_media
+    note: 实测 11 条链接，产出偏少
+
+  # 实测不可用
+  - id: yaozh
+    name: 药智网
+    lang: cn
+    url: https://www.yaozh.com/archive
+    mode: html
+    access: disabled
+    weight: 0.0
+    note: 实测 /archive 返回 404；首页全是平台推广，无临床内容
+
+  - id: medsci
+    name: 梅斯医学
+    lang: cn
+    url: https://www.medsci.cn/article
+    mode: html
+    access: disabled
+    weight: 0.0
+    note: 实测 /article 与 /sci 均重定向到工具页，首页是指南与会议
+
+  - id: vcbeat
+    name: 动脉网
+    lang: cn
+    url: https://www.vcbeat.top/
+    mode: html
+    access: disabled
+    weight: 0.0
+    note: 实测首页只有页脚与报告入口，无文章列表
+
+  - id: dxy
+    name: 丁香园
+    lang: cn
+    url: https://www.dxy.cn/
+    mode: html
+    access: disabled
+    weight: 0.0
+    note: 实测首页 16KB，JS 渲染，无文章列表
+
+  - id: bioon_default
+    name: 生物谷首页
+    lang: cn
+    url: https://www.bioon.com/
+    mode: html
+    access: disabled
+    weight: 0.0
+    note: |
+      实测首页只有导航和考研/招聘类推广，没有临床文章列表。
+      必须走专科频道（见上面 bioon_* 条目）。
+
+# ============================================================
+# 一手材料源（不做发现，只在"搜一手材料"环节调用）
+# ============================================================
+primary_sources:
+  clinicaltrials_gov:
+    name: ClinicalTrials.gov v2 API
+    base: https://clinicaltrials.gov/api/v2/studies
+    enabled: true
+    note: |
+      实测可用。按药名/申办方/NCT号查，拿结构化结果：
+      - resultsSection.outcomeMeasures[]  终点定义与数值
+      - analyses[]                         p值/CI（仅部分试验有，实测 1/3）
+      - whyStopped                         终止原因原文
+      实测：近 10 天 781 项 III 期有更新；近一月 348 项终止。
+      注册库不给"是否达到终点"的结论，只给数值。判定逻辑见 verdict.py
+
+  pubmed:
+    name: PubMed E-utilities
+    base: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+    enabled: true
+    note: 实测可用，2026 年临床试验 25,250 篇
+
+  medrxiv:
+    name: medRxiv API
+    base: https://api.biorxiv.org/details/medrxiv
+    enabled: true
+    note: 实测可用，10 天区间 481 篇预印本
+
+  sec_edgar:
+    name: SEC EDGAR（公司顶线结果公告）
+    base: https://www.sec.gov
+    enabled: true
+    note: 复用 BD 雷达的 edgar.py
+
+  conferences:
+    name: 学术会议（ASCO/ESMO/ASH/ADA/AACR…）
+    enabled: false
+    note: 摘要库与会议日历待接入
+
+  openfda:
+    name: openFDA
+    base: https://api.fda.gov
+    enabled: false
+    note: 实测查询返回 HTTP 500，日期语法需调整，暂缓

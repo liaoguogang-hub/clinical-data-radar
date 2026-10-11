@@ -1,0 +1,236 @@
+# 临床数据雷达 · 评分配置
+#
+# 评分维度与 BD 雷达完全不同：
+#   BD 雷达看"这笔交易值多少钱"
+#   本雷达看"这个临床数据有多重要"——终点结果、阶段、未满足需求、可信度
+
+score:
+  dimensions:
+    # 权重最高。临床雷达的核心就是"终点到底达没达到"
+    endpoint_result:
+      label: 终点结果
+      max: 3.0
+      desc: |
+        主要终点达到且统计学显著 = 3.0
+        主要终点未达到（明确失败）= 2.8   ← 失败同样是行业级事件，不降权
+        因安全性终止 = 3.0
+        达到但未达预设阈值 / 部分达到 = 1.5
+        疗效数据积极但未明确终点结论 = 1.2
+        仅有进展（入组完成/启动）= 0.5
+        无法判定 = 0.6
+      note: |
+        ⚠️ 必须区分"疗效数据"与"达到终点"。
+        "38 例全部应答，80% 完全缓解" 是疗效数据，
+        不等于达到了试验预设的主要终点——后者取决于统计假设。
+        数据来自注册库统计检验（analyses/p值）的，可信度高于只转载新闻措辞的。
+
+    stage_scale:
+      label: 阶段与规模
+      max: 2.0
+      desc: |
+        III期/注册试验 = 2.0（样本量 >500 再加 0.3，上限 2.0）
+        II期 = 1.2
+        I期 = 0.5
+        研究者发起/回顾性 = 0.3
+        前瞻性队列/真实世界 = 0.4
+      note: 样本量过小（<100）应下调，单臂无对照下调
+
+    unmet_need:
+      label: 未满足需求
+      max: 1.5
+      desc: |
+        无有效疗法（如胰腺癌、胶质瘤）= 1.5
+        现有疗法有限/预后差 = 1.0
+        已有多种疗法但仍有空间 = 0.6
+        竞争激烈（如 PD-1、GLP-1）= 0.3
+
+    first_in_class:
+      label: 首创性
+      max: 1.5
+      desc: |
+        全球首个同机制/靶点 = 1.5
+        全球首个同适应症 = 1.2
+        国产首个 = 1.0
+        国内前 3 家 = 0.6
+        me-too / 仿制 = 0.2
+
+    data_maturity:
+      label: 数据成熟度与可信度
+      max: 2.0
+      desc: |
+        顶刊正式发表（NEJM/Lancet/Nature Medicine/JAMA）= 2.0
+        学术会议口头报告（ASCO/ESMO/ASH 全会）= 1.5
+        会议摘要/壁报 = 1.2
+        公司顶线公告 = 1.0
+        注册库有统计检验（p值/CI）= 1.3
+        注册库仅裸数值 = 0.6
+        仅有媒体转述 = 0.5
+      note: |
+        这一维是可信度闸门。同一件事，来源不同分值差一倍——
+        这是为了防止"把媒体转述当成确证结论"。
+
+  # ===== 阈值 =====
+  #
+  # ⚠️ 尚未在真实数据上标定。
+  # BD 雷达的教训：那组 8.5/7.5 是在"41 笔旧交易被当成新交易"的
+  # 污染数据上定出来的，清掉污染后真实分布顶格只有 7.5，
+  # 导致多数日子产出 0-1 篇。
+  #
+  # 所以这里先给保守初值，**跑够 3 天真实数据后再回头校准**，
+  # 校准时看的是分数分布，不是感觉。
+  must_publish: 7.5
+  keep: 6.0
+  min_confidence: 0.5
+  daily_max: 3
+  daily_min: 2
+  # 同药/同靶点最多展开几条，超过则合并成一篇 landscape 综述
+  same_target_cluster_max: 3
+
+# ===== 两个栏目（用户要求：中国 + 全球都要）=====
+channels:
+  china:
+    label: 中国创新药临床
+    desc: 中国原研 / 中国申办方 / 中国主要站点
+    keywords:
+      - 中国
+      - 国产
+      - NMPA
+      - CDE
+      - 恒瑞
+      - 百济
+      - 信达
+      - 君实
+      - 石药
+      - 复星
+      - 再鼎
+      - 康方
+      - 诺诚健华
+      - 翰森
+      - 齐鲁
+      - 正大天晴
+      - 科伦
+      - 先声
+      - 和黄
+      - 传奇
+      - 驯鹿
+      - 亘喜
+      - 荣昌
+      - 贝达
+      - 三生
+      - 天境
+      - 基石
+      - 亚盛
+      - 迪哲
+      - 泽璟
+      - 微芯
+      - 艾力斯
+      - 青峰
+      - 君赛
+      - 金赛
+      - 东阳光
+      - 九典
+      - 联环
+      - 众生
+      - 士泽
+    daily_max: 3
+
+  global:
+    label: 全球重大临床
+    desc: 全球 III 期读出 / 顶刊发表 / 首个机制
+    keywords: []          # 非中国相关的都归这里
+    daily_max: 3
+
+# ===== 硬性排除（命中即 0 分）=====
+exclude_keywords:
+  # 这些是 BD 雷达的领域，本雷达不做
+  pure_bd:
+    - 达成合作
+    - 签署协议
+    - 授权引进
+    - 对外授权
+    - 收购
+    - 并购
+    - license
+    - acquisition
+    - merger
+    - buyout
+  personnel:
+    - 履新
+    - 任命
+    - 加盟
+    - 离职
+    - 出任
+    - appointed
+    - hires
+  pure_financing:
+    - IPO
+    - raises
+    - financing round
+    - Series A
+    - Series B
+    - 定增
+    - 融资轮
+    - 上市募资
+  # 综述/预告类，没有具体数据
+  stale:
+    - what to watch
+    - preview
+    - calendar
+    - recap
+    - 一周
+    - 本月盘点
+
+# ===== LLM 配置 =====
+# 环境变量：LLM_API_KEY（统一）或 MINIMAX_API_KEY / DEEPSEEK_API_KEY
+#
+# ⚠️ MiniMax 的 max_tokens 含思考 token，设太小会返回空 content。
+# ⚠️ 国内 key 只能走 api.minimaxi.com；国际站 api.minimax.io 会 401。
+
+llm:
+  provider: minimax_domestic
+  model: MiniMax-M2.7
+  base_url: https://api.minimaxi.com/v1
+  temperature: 0.3
+  max_tokens: 16000
+  json_mode: false     # MiniMax 不支持 response_format，靠 prompt + 鲁棒解析
+  batch_size: 30
+  max_retries: 2
+
+providers:
+  deepseek:
+    base_url: https://api.deepseek.com/v1
+    model: deepseek-chat
+    max_tokens: 8000
+    json_mode: true
+    env_key: DEEPSEEK_API_KEY
+  minimax:
+    base_url: https://api.minimax.io/v1
+    model: MiniMax-M3.1-Flash-Preview
+    max_tokens: 16000
+    json_mode: false
+    env_key: MINIMAX_API_KEY
+  minimax_domestic:
+    base_url: https://api.minimaxi.com/v1
+    model: MiniMax-M2.7
+    max_tokens: 16000
+    json_mode: false
+    env_key: MINIMAX_API_KEY
+  minimax_flash:
+    base_url: https://api.minimaxi.com/v1
+    model: MiniMax-M3.1-Flash-Preview
+    max_tokens: 16000
+    json_mode: false
+    env_key: MINIMAX_API_KEY
+
+# 成稿配置
+#
+# ⚠️ 实测（BD 雷达，同一篇文章 A/B）：内容/模板分离后，
+#   推理模型 M2.7 全面优于 Flash：46s/3291字符 对 113s/0字符（空响应）。
+#   此前 M2.7 显得差，是因为它同时扛 HTML+CSS 的格式负担。
+gen_llm:
+  provider: minimax_domestic
+  model: MiniMax-M2.7
+  base_url: https://api.minimaxi.com/v1
+  max_tokens: 32000
+  temperature: 0.7
+  json_mode: false

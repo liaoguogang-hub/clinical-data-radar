@@ -1,0 +1,208 @@
+"""
+选题模块（临床数据雷达）。
+
+与 BD 雷达的关键差异：**按栏目分别选题**。
+用户要求中国和全球都要，所以两个栏目各自独立跑一遍选题逻辑，
+各自有每日上限——不能出现"全球大新闻把中国名额挤光"的情况。
+
+规则：
+1. >= keep 进池，>= must_publish 必选
+2. 同 cluster_key（同药/同靶点）>= 2 条 → 合并成一篇 landscape 综述
+3. 分数接近时优先有正文素材、有多源交叉印证的
+4. 每栏目各自 daily_max 上限，宁缺毋滥
+5. 已发表过的 lead_id 不重复选
+"""
+from __future__ import annotations
+
+import re
+import sys
+from collections import defaultdict
+
+from common import (ROOT, SCORED_DIR, load_yaml, read_json, write_json,
+                    today_cst)
+
+POSTS_DIR = ROOT / "posts"
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
+
+def _has_body(s: dict) -> bool:
+    return len(s.get("content") or "") > 500
+
+
+def _published_leads(date: str) -> set[str]:
+    """任意日期已成稿的 lead_id 前 8 位。
+
+    ⚠️ 必须跨全部日期查，不能只看今天——BD 雷达踩过这个坑：
+    同一笔交易在 10-10 和 10-11 各发了一遍。
+    """
+    if not POSTS_DIR.exists():
+        return set()
+    out = set()
+    for p in POSTS_DIR.rglob("*.html"):
+        m = re.search(r"-([0-9a-f]{8})\.html$", p.name)
+        if m:
+            out.add(m.group(1))
+    return out
+
+
+def _evidence(s: dict) -> int:
+    """素材完整度，用于同分 tie-break"""
+    n = 0
+    if _has_body(s):
+        n += 3
+    if len(s.get("sources") or []) > 1:
+        n += 2              # 多家媒体交叉印证
+    if s.get("access") == "full":
+        n += 1
+    # 有一手材料（注册库）的优先，因为能给出准确分期/样本量/NCT号
+    if s.get("registry_nct"):
+        n += 2
+    if s.get("verdict_basis") in ("statistical", "registry_status"):
+        n += 2              # 有可信统计量或状态记录
+    return n
+
+
+def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
+                        cluster_max: int = 3) -> list[dict]:
+    """单个栏目内的选题逻辑"""
+    # 排除已发表与低置信度
+    pool = [s for s in pool
+            if s["id"][:8] not in published
+            and "not_clinical" not in (s.get("flags") or [])]
+
+    clusters: dict[str, list[dict]] = defaultdict(list)
+    singles: list[dict] = []
+    for s in pool:
+        ck = (s.get("cluster_key") or "").strip()
+        if ck:
+            clusters[ck].append(s)
+        else:
+            singles.append(s)
+
+    plan: list[dict] = []
+
+    # 1) 多条同簇 → 合并成综述
+    for ck, group in clusters.items():
+        if len(group) >= 2:
+            group.sort(key=lambda x: (x.get("score", 0), _evidence(x)),
+                       reverse=True)
+            lead = group[0]
+            plan.append({
+                "type": "landscape",
+                "cluster_key": ck,
+                "lead_id": lead["id"],
+                "title": lead.get("title", ""),
+                "score": lead.get("score", 0),
+                "channel": lead.get("channel", ""),
+                "member_ids": [g["id"] for g in group[:cluster_max]],
+                "members": [
+                    {"title": g.get("title"), "url": g.get("url"),
+                     "score": g.get("score"), "reasoning": g.get("reasoning")}
+                    for g in group[:cluster_max]
+                ],
+                "reasoning": lead.get("reasoning", ""),
+            })
+        else:
+            singles.append(group[0])
+
+    # 2) 单篇按分数排
+    singles.sort(key=lambda x: (x.get("score", 0), _evidence(x)),
+                 reverse=True)
+    for s in singles:
+        if len(plan) >= dmax:
+            break
+        plan.append({
+            "type": s.get("article_type") or "readout",
+            "cluster_key": None,
+            "lead_id": s["id"],
+            "title": s.get("title", ""),
+            "score": s.get("score", 0),
+            "channel": s.get("channel", ""),
+            "member_ids": [s["id"]],
+            "members": [{"title": s.get("title"), "url": s.get("url"),
+                         "score": s.get("score"),
+                         "reasoning": s.get("reasoning")}],
+            "reasoning": s.get("reasoning", ""),
+            "verify_todo": s.get("verify_todo", []),
+            "flags": s.get("flags", []),
+            "endpoint_verdict": s.get("endpoint_verdict", ""),
+        })
+
+    # 3) 综述优先（landscape 放前面），且保证至少一篇有实质数据
+    plan.sort(key=lambda p: (p["type"] != "landscape", -p.get("score", 0)))
+    return plan[:dmax]
+
+
+def run(date: str | None = None) -> dict:
+    date = date or today_cst()
+    cfg_all = load_yaml("scoring.yaml")
+    cfg = cfg_all["score"]
+    channels = cfg_all.get("channels", {}) or {}
+
+    scored = read_json(SCORED_DIR / f"{date}.json", [])
+    if not scored:
+        print(f"[select] 没有评分数据: {SCORED_DIR}/{date}.json")
+        return {}
+
+    keep_thr = cfg.get("keep", 6.0)
+    min_conf = cfg.get("min_confidence", 0.5)
+    cluster_max = cfg.get("same_target_cluster_max", 3)
+    published = _published_leads(date)
+    if published:
+        print(f"[select] 排除已发表 {len(published)} 篇")
+
+    pool = [s for s in scored
+            if s.get("score", 0) >= keep_thr
+            and s.get("confidence", 0) >= min_conf]
+    print(f"[select] 候选池 {len(pool)} 条（>= {keep_thr} 分）")
+
+    # ---- 按栏目分流 ----
+    # 未标栏目的按关键词兜底判断，避免因 LLM 漏标而丢失
+    china_kw = channels.get("china", {}).get("keywords", []) or []
+
+    def _chan(s: dict) -> str:
+        c = (s.get("channel") or "").strip()
+        if c in ("china", "global"):
+            return c
+        t = s.get("title", "")
+        return "china" if any(k in t for k in china_kw) else "global"
+
+    by_chan: dict[str, list[dict]] = {"china": [], "global": []}
+    for s in pool:
+        by_chan[_chan(s)].append(s)
+    print(f"  栏目分布：中国 {len(by_chan['china'])} / "
+          f"全球 {len(by_chan['global'])}")
+
+    plan: list[dict] = []
+    for ch in ("china", "global"):
+        dmax = channels.get(ch, {}).get("daily_max", cfg.get("daily_max", 3))
+        got = _select_for_channel(by_chan[ch], dmax, published, cluster_max)
+        label = channels.get(ch, {}).get("label", ch)
+        print(f"\n  [{label}] 选定 {len(got)} 篇")
+        for p in got:
+            print(f"    · [{p['type']}] {p['score']}分  {p['title'][:50]}")
+        plan.extend(got)
+
+    # 兜底：若两个栏目都没选出（阈值过高或数据太差），
+    # 放宽到全池前三，避免整天零产出
+    if not plan and pool:
+        print("\n[select] 两栏目均为空，放宽到全池前三")
+        plan = _select_for_channel(
+            sorted(pool, key=lambda x: -x.get("score", 0)),
+            cfg.get("daily_max", 3), published, cluster_max)
+
+    for i, p in enumerate(plan, 1):
+        p["_idx"] = i
+
+    out = {"date": date, "count": len(plan), "plan": plan}
+    write_json(SCORED_DIR / f"{date}.plan.json", out)
+    print(f"\n[select] 合计选定 {len(plan)} 篇")
+    return out
+
+
+if __name__ == "__main__":
+    run(sys.argv[1] if len(sys.argv) > 1 else None)
