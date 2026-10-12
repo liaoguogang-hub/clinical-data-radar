@@ -1,0 +1,1217 @@
+{
+  "15b408b2a16a0b7c": {
+    "id": "15b408b2a16a0b7c",
+    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+    "score": 8.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:全部应答"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:全部应答"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:全部应答",
+    "registry": {
+      "best": {
+        "nct": "NCT06413498",
+        "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+        "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+        "acronym": "iMMagine-3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Kite, A Gilead Company",
+        "conditions": [
+          "Multiple Myeloma"
+        ],
+        "interventions": [
+          "Anitocabtagene Autoleucel",
+          "Cyclophosphamide",
+          "Fludarabine",
+          "Pomalidomide",
+          "Bortezomib",
+          "Dexamethasone",
+          "Daratumumab",
+          "Carfilzomib"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)",
+          "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+        ],
+        "enrollment": 452,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-08-23",
+        "primary_completion": "2028-07",
+        "completion": "2031-07",
+        "last_update": "2026-07-29",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "Czechia",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Poland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06413498",
+          "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+          "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+          "acronym": "iMMagine-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Anitocabtagene Autoleucel",
+            "Cyclophosphamide",
+            "Fludarabine",
+            "Pomalidomide",
+            "Bortezomib",
+            "Dexamethasone",
+            "Daratumumab",
+            "Carfilzomib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+          ],
+          "enrollment": 452,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-08-23",
+          "primary_completion": "2028-07",
+          "completion": "2031-07",
+          "last_update": "2026-07-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05396885",
+          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+          "official_title": "A Phase II Study of CART-ddBCMA for the Treatment of Patients With Relapsed or Refractory Multiple Myeloma",
+          "acronym": "iMMagine-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 136,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-15",
+          "primary_completion": "2026-12",
+          "completion": "2026-12",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04155749",
+          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+          "official_title": "Master Protocol for the Phase 1 Study of Cell Therapies for the Treatment of Patients With Relapsed Refractory Multiple Myeloma, Including Long-term Safety Follow-up",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Relapsed and Refractory Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
+            "Establish the RP2D of the investigational agent"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-23",
+          "primary_completion": "2024-10-03",
+          "completion": "2027-05",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "anito-cel",
+          "anitocabtagene",
+          "autoleucel",
+          "Anito-cel"
+        ],
+        "sponsor": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ],
+        "sponsor_en": [
+          "权均属于生物",
+          "户都在用生物",
+          "合与系统生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "0c4cba2c75ee9c62": {
+    "id": "0c4cba2c75ee9c62",
+    "title": "mRNA 肿瘤疫苗三期读出阳性，拐点上的三个变量",
+    "score": 9.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得阳性结果"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:取得阳性结果"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:取得阳性结果",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "海创药业股份",
+          "东东阳光药业",
+          "华东医药股份",
+          "诺诚健华医药"
+        ],
+        "sponsor_en": [
+          "海创药业股份",
+          "HEC",
+          "华东医药股份",
+          "InnoCare"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "aac79c6ff8d556f8": {
+    "id": "aac79c6ff8d556f8",
+    "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+        "acronym": "ACTION-1",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "RayzeBio, Inc.",
+        "conditions": [
+          "GEP-NET",
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+          "Neuroendocrine Tumors",
+          "Carcinoid",
+          "Carcinoid Tumor",
+          "Pancreatic NET"
+        ],
+        "interventions": [
+          "RYZ101",
+          "Everolimus",
+          "Sunitinib",
+          "Octreotide",
+          "Lanreotide"
+        ],
+        "primary_outcomes": [
+          "Phase 1b: RP3D",
+          "Phase 3: PFS as determined by BICR"
+        ],
+        "enrollment": 343,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-24",
+        "primary_completion": "2026-12",
+        "completion": "2030-12",
+        "last_update": "2026-10-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Netherlands",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05477576",
+          "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+          "acronym": "ACTION-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "GEP-NET",
+            "Gastroenteropancreatic Neuroendocrine Tumor",
+            "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+            "Neuroendocrine Tumors",
+            "Carcinoid",
+            "Carcinoid Tumor",
+            "Pancreatic NET"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Everolimus",
+            "Sunitinib",
+            "Octreotide",
+            "Lanreotide"
+          ],
+          "primary_outcomes": [
+            "Phase 1b: RP3D",
+            "Phase 3: PFS as determined by BICR"
+          ],
+          "enrollment": 343,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-24",
+          "primary_completion": "2026-12",
+          "completion": "2030-12",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Netherlands",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06590857",
+          "title": "Trial of 225Ac-DOTATATE (RYZ101) in Subjects With ER+, HER2-negative Unresectable or Metastatic Breast Cancer Expressing SSTRs.",
+          "official_title": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or Metastatic Breast Cancer Expressing Somatostatin Receptors (SSTRs) (TRACY-1).",
+          "acronym": "TRACY-1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer",
+            "HER2-negative Breast Cancer",
+            "ER+ Breast Cancer",
+            "Advanced Breast Cancer",
+            "Metastatic Breast Cancer With Bone Involvement",
+            "Bone Metastases in Subjects With Advanced Breast Cancer",
+            "ER-Positive HER2-Negative Breast Cancer",
+            "Estrogen Receptor-positive Breast Cancer",
+            "Hormone-sensitive Metastatic Breast Cancer",
+            "Hormone-Sensitive Breast Cancer"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Standard of Care Endocrine Therapy"
+          ],
+          "primary_outcomes": [
+            "Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation and Expansion",
+            "Endocrine Therapy Combination Dose Escalation and Expansion"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-07-19",
+          "primary_completion": "2028-10",
+          "completion": "2033-11",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07150806",
+          "title": "RYZ101 for the Treatment of Progressive or Recurrent Intracranial Meningioma",
+          "official_title": "Progressive/Recurrent Intracranial Meningioma Treated With SSTR-Targeted Alpha Emitter RYZ101 (PRIMe-STAR)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Joshua Palmer",
+          "conditions": [
+            "Recurrent Meningioma"
+          ],
+          "interventions": [
+            "Actinium Ac 225 DOTATATE RYZ101",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Gallium Ga 68-DOTATATE",
+            "L-lysine/L-arginine-containing Amino Acid",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Positron Emission Tomography",
+            "Somatostatin Receptor Positron Emission Tomography"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-12",
+          "primary_completion": "2026-12-31",
+          "completion": "2026-12-31",
+          "last_update": "2026-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e958250640595662": {
+    "id": "e958250640595662",
+    "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "reported"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "201bd75644bf3112": {
+    "id": "201bd75644bf3112",
+    "title": "<![CDATA[SBRT Ablation Fails to Extend PFS in Oligometastatic Breast Cancer]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "74c93ac549419223": {
+    "id": "74c93ac549419223",
+    "title": "伏美替尼全球III期“失败”了，但问题可能不在药上",
+    "score": 7.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "海艾力斯医药",
+          "科技股份"
+        ],
+        "sponsor_en": [
+          "Allist",
+          "科技股份"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "a196530cb3477b63": {
+    "id": "a196530cb3477b63",
+    "title": "能否干掉药王？辉瑞三抗首次公布临床数据",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "江苏荃信生物",
+          "医药股份",
+          "江苏恒瑞医药",
+          "科伦博泰生物"
+        ],
+        "sponsor_en": [
+          "江苏荃信生物",
+          "医药股份",
+          "Hengrui",
+          "科伦博泰生物"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "b2c54049f7ad5551": {
+    "id": "b2c54049f7ad5551",
+    "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "金赛药业",
+          "台湾逸达生物",
+          "与逸达生物",
+          "据摩熵医药"
+        ],
+        "sponsor_en": [
+          "GeneScience",
+          "台湾逸达生物",
+          "与逸达生物",
+          "据摩熵医药"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "faf2cbf79318c134": {
+    "id": "faf2cbf79318c134",
+    "title": "阿斯利康：ALXN1850低磷酸酯酶症三期临床失败",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {
+        "nct": "NCT04573309",
+        "title": "Copper and Molybdenum Balance in Participants With Wilson Disease Treated With ALXN1840",
+        "official_title": "A Phase 2, Open-label Study to Assess Copper and Molybdenum Balance in Participants With Wilson Disease Treated With ALXN1840",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Alexion Pharmaceuticals, Inc.",
+        "conditions": [
+          "Wilson Disease"
+        ],
+        "interventions": [
+          "ALXN1840"
+        ],
+        "primary_outcomes": [
+          "Mean Daily Copper Balance: Day 1 Through Day 8",
+          "Mean Daily Copper Balance: Day 31 Through Day 35",
+          "Mean Daily Copper Balance: Day 25 Through Day 28",
+          "Mean Daily Copper Balance: Day 36 Through Day 39"
+        ],
+        "enrollment": 9,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-09-07",
+        "primary_completion": "2022-06-07",
+        "completion": "2022-06-07",
+        "last_update": "2024-06-24",
+        "results_first_post": "2023-10-27",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "New Zealand",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04573309",
+          "title": "Copper and Molybdenum Balance in Participants With Wilson Disease Treated With ALXN1840",
+          "official_title": "A Phase 2, Open-label Study to Assess Copper and Molybdenum Balance in Participants With Wilson Disease Treated With ALXN1840",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Wilson Disease"
+          ],
+          "interventions": [
+            "ALXN1840"
+          ],
+          "primary_outcomes": [
+            "Mean Daily Copper Balance: Day 1 Through Day 8",
+            "Mean Daily Copper Balance: Day 31 Through Day 35",
+            "Mean Daily Copper Balance: Day 25 Through Day 28",
+            "Mean Daily Copper Balance: Day 36 Through Day 39"
+          ],
+          "enrollment": 9,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-09-07",
+          "primary_completion": "2022-06-07",
+          "completion": "2022-06-07",
+          "last_update": "2024-06-24",
+          "results_first_post": "2023-10-27",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "New Zealand",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03075904",
+          "title": "A Safety and Dose-Finding Study of SYNT001 in Subjects With Pemphigus (Vulgaris or Foliaceus)",
+          "official_title": "A Phase 1B/2, Multicenter, Open-Label, Safety, and Dose-Finding Study of SYNT001 in Subjects With Pemphigus (Vulgaris or Foliaceus)",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Study objectives achieved",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Pemphigus",
+            "Pemphigus Vulgaris",
+            "Pemphigus Foliaceus"
+          ],
+          "interventions": [
+            "ALXN1830"
+          ],
+          "primary_outcomes": [
+            "Count Of Participants Reporting Treatment-emergent Adverse Events (TEAEs)"
+          ],
+          "enrollment": 8,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-07-18",
+          "primary_completion": "2019-01-16",
+          "completion": "2019-01-16",
+          "last_update": "2020-02-05",
+          "results_first_post": "2020-02-05",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04980248",
+          "title": "Study of ALXN1850 in Participants With Hypophosphatasia (HPP)",
+          "official_title": "A Phase 1, Open-label, Dose-escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ALXN1850 in Adults With Hypophosphatasia",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Hypophosphatasia"
+          ],
+          "interventions": [
+            "ALXN1850"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)"
+          ],
+          "enrollment": 15,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-09-28",
+          "primary_completion": "2022-08-24",
+          "completion": "2022-08-24",
+          "last_update": "2024-12-27",
+          "results_first_post": "2024-12-27",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "ALXN1850"
+        ],
+        "sponsor": [
+          "Insilico Medicine",
+          "Ultragenyx Pharmaceutical",
+          "Alexion Pharmaceuticals",
+          "Rallybio"
+        ],
+        "sponsor_en": [
+          "Insilico Medicine",
+          "Ultragenyx Pharmaceutical",
+          "Alexion Pharmaceuticals",
+          "Rallybio"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "b0322650dd1c1b3d": {
+    "id": "b0322650dd1c1b3d",
+    "title": "<![CDATA[Alpha-Emitting RYZ101 Meets Phase 3 PFS End Point in Advanced GEP-NETs]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+        "acronym": "ACTION-1",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "RayzeBio, Inc.",
+        "conditions": [
+          "GEP-NET",
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+          "Neuroendocrine Tumors",
+          "Carcinoid",
+          "Carcinoid Tumor",
+          "Pancreatic NET"
+        ],
+        "interventions": [
+          "RYZ101",
+          "Everolimus",
+          "Sunitinib",
+          "Octreotide",
+          "Lanreotide"
+        ],
+        "primary_outcomes": [
+          "Phase 1b: RP3D",
+          "Phase 3: PFS as determined by BICR"
+        ],
+        "enrollment": 343,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-24",
+        "primary_completion": "2026-12",
+        "completion": "2030-12",
+        "last_update": "2026-10-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Netherlands",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05477576",
+          "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+          "acronym": "ACTION-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "GEP-NET",
+            "Gastroenteropancreatic Neuroendocrine Tumor",
+            "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+            "Neuroendocrine Tumors",
+            "Carcinoid",
+            "Carcinoid Tumor",
+            "Pancreatic NET"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Everolimus",
+            "Sunitinib",
+            "Octreotide",
+            "Lanreotide"
+          ],
+          "primary_outcomes": [
+            "Phase 1b: RP3D",
+            "Phase 3: PFS as determined by BICR"
+          ],
+          "enrollment": 343,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-24",
+          "primary_completion": "2026-12",
+          "completion": "2030-12",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Netherlands",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06590857",
+          "title": "Trial of 225Ac-DOTATATE (RYZ101) in Subjects With ER+, HER2-negative Unresectable or Metastatic Breast Cancer Expressing SSTRs.",
+          "official_title": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or Metastatic Breast Cancer Expressing Somatostatin Receptors (SSTRs) (TRACY-1).",
+          "acronym": "TRACY-1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer",
+            "HER2-negative Breast Cancer",
+            "ER+ Breast Cancer",
+            "Advanced Breast Cancer",
+            "Metastatic Breast Cancer With Bone Involvement",
+            "Bone Metastases in Subjects With Advanced Breast Cancer",
+            "ER-Positive HER2-Negative Breast Cancer",
+            "Estrogen Receptor-positive Breast Cancer",
+            "Hormone-sensitive Metastatic Breast Cancer",
+            "Hormone-Sensitive Breast Cancer"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Standard of Care Endocrine Therapy"
+          ],
+          "primary_outcomes": [
+            "Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation and Expansion",
+            "Endocrine Therapy Combination Dose Escalation and Expansion"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-07-19",
+          "primary_completion": "2028-10",
+          "completion": "2033-11",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07150806",
+          "title": "RYZ101 for the Treatment of Progressive or Recurrent Intracranial Meningioma",
+          "official_title": "Progressive/Recurrent Intracranial Meningioma Treated With SSTR-Targeted Alpha Emitter RYZ101 (PRIMe-STAR)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Joshua Palmer",
+          "conditions": [
+            "Recurrent Meningioma"
+          ],
+          "interventions": [
+            "Actinium Ac 225 DOTATATE RYZ101",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Gallium Ga 68-DOTATATE",
+            "L-lysine/L-arginine-containing Amino Acid",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Positron Emission Tomography",
+            "Somatostatin Receptor Positron Emission Tomography"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-12",
+          "primary_completion": "2026-12-31",
+          "completion": "2026-12-31",
+          "last_update": "2026-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

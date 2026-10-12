@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-13",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "target:mRNA_neoantigen",
+      "lead_id": "0c4cba2c75ee9c62",
+      "title": "mRNA 肿瘤疫苗三期读出阳性，拐点上的三个变量",
+      "score": 9.0,
+      "channel": "china",
+      "member_ids": [
+        "0c4cba2c75ee9c62"
+      ],
+      "members": [
+        {
+          "title": "mRNA 肿瘤疫苗三期读出阳性，拐点上的三个变量",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_383527",
+          "score": 9.0,
+          "reasoning": "全球首个mRNA肿瘤治疗疫苗III期阳性结果（1137例，2:1随机），具高度首创性，但具体终点数值（主要终点）未在摘要中披露，data maturity为公司公告级（非顶会口头报告）。"
+        }
+      ],
+      "reasoning": "全球首个mRNA肿瘤治疗疫苗III期阳性结果（1137例，2:1随机），具高度首创性，但具体终点数值（主要终点）未在摘要中披露，data maturity为公司公告级（非顶会口头报告）。",
+      "verify_todo": [
+        "确认具体主要终点指标名称及统计量，核实是否在顶刊或大会口头报告"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:furmonertinib",
+      "lead_id": "74c93ac549419223",
+      "title": "伏美替尼全球III期“失败”了，但问题可能不在药上",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "74c93ac549419223"
+      ],
+      "members": [
+        {
+          "title": "伏美替尼全球III期“失败”了，但问题可能不在药上",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_383531",
+          "score": 7.5,
+          "reasoning": "伏美替尼FURVENT全球III期未达BICR评估PFS主要终点，属明确的Phase 3失败，次日公司公告确认，市场影响重大，但摘要中次要终点有分裂图景需进一步核实。"
+        }
+      ],
+      "reasoning": "伏美替尼FURVENT全球III期未达BICR评估PFS主要终点，属明确的Phase 3失败，次日公司公告确认，市场影响重大，但摘要中次要终点有分裂图景需进一步核实。",
+      "verify_todo": [
+        "核实具体PFS数值差异及次要终点OS数据"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:leuprolide-injection-emulsion",
+      "lead_id": "b2c54049f7ad5551",
+      "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "b2c54049f7ad5551"
+      ],
+      "members": [
+        {
+          "title": "金赛药业亮丙瑞林注射乳剂获NMPA批准上市，6个月长效制剂开启晚期前列腺癌ADT「半年一针」时代",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_382086",
+          "score": 6.0,
+          "reasoning": "金赛药业亮丙瑞林注射乳剂III期研究达到预设疗效终点（97.9%维持去势水平），并获NMPA批准上市。依据来自文字描述'研究达到预设疗效终点'，非注册库统计检验，故 verdict_basis 为 textual；疗效数字（97.9%）为统计结论支撑，非单纯疗效数据。"
+        }
+      ],
+      "reasoning": "金赛药业亮丙瑞林注射乳剂III期研究达到预设疗效终点（97.9%维持去势水平），并获NMPA批准上市。依据来自文字描述'研究达到预设疗效终点'，非注册库统计检验，故 verdict_basis 为 textual；疗效数字（97.9%）为统计结论支撑，非单纯疗效数据。",
+      "verify_todo": [
+        "需在ClinicalTrials.gov或CDE注册库核实III期研究NCT编号、具体终点指标及p值"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:ryz101",
+      "lead_id": "aac79c6ff8d556f8",
+      "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "aac79c6ff8d556f8",
+        "b0322650dd1c1b3d"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+          "url": "https://www.onclive.com/view/ryz101-meets-primary-pfs-end-point-in-phase-3-action-1-trial-for-post-lutetium-177-gep-nets",
+          "score": 7.5,
+          "reasoning": "RYZ101在Phase 3 ACTION-1试验中达到主要PFS终点，但标题/摘要无具体HR/p值，data maturity为Onclive报道级（非会议全文），需与注册库交叉核实。"
+        },
+        {
+          "title": "<![CDATA[Alpha-Emitting RYZ101 Meets Phase 3 PFS End Point in Advanced GEP-NETs]]>",
+          "url": "https://www.targetedonc.com/view/ryz101-phase-3-pfs-endpoint-advanced-gep-nets",
+          "score": 7.5,
+          "reasoning": "RYZ101 Phase 3 PFS终点达成为核心事件，与aac79c6ff8d556f8同药同数据源，Targeted Oncology报道。"
+        }
+      ],
+      "reasoning": "RYZ101在Phase 3 ACTION-1试验中达到主要PFS终点，但标题/摘要无具体HR/p值，data maturity为Onclive报道级（非会议全文），需与注册库交叉核实。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:anito-cel",
+      "lead_id": "15b408b2a16a0b7c",
+      "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "15b408b2a16a0b7c"
+      ],
+      "members": [
+        {
+          "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+          "url": "http://news.bioon.com/article/e4c095418330.html",
+          "score": 8.0,
+          "reasoning": "anito-cel（BCMA CAR-T）Phase I试验结果发表于NEJM：38例患者100% ORR，近80% CR，3年OS 65%，未见迟发神经毒性。数据来源为NEJM正式发表（data_maturity满分2.0），属于统计可验证的高质量数据；rrMM为高度未满足需求；Kite公司开发为BCMA靶点CAR-T中具有差异化的新一代产品（无迟发神经毒性特点）。Phase I小样本（n=38）扣分0.5。"
+        }
+      ],
+      "reasoning": "anito-cel（BCMA CAR-T）Phase I试验结果发表于NEJM：38例患者100% ORR，近80% CR，3年OS 65%，未见迟发神经毒性。数据来源为NEJM正式发表（data_maturity满分2.0），属于统计可验证的高质量数据；rrMM为高度未满足需求；Kite公司开发为BCMA靶点CAR-T中具有差异化的新一代产品（无迟发神经毒性特点）。Phase I小样本（n=38）扣分0.5。",
+      "verify_todo": [
+        "需在ClinicalTrials.gov核实完整试验方案及剂量爬坡主要终点定义"
+      ],
+      "flags": [
+        "positive_data",
+        "small_n"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:admilparant",
+      "lead_id": "e958250640595662",
+      "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "e958250640595662"
+      ],
+      "members": [
+        {
+          "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+          "url": "https://endpoints.news/bristol-myers-reveals-a-pair-of-phase-3-wins-for-fibrosis-rayzebio-drugs/",
+          "score": 7.8,
+          "reasoning": "BMS公布admilparant（肺纤维化项目）和RayzeBio药物两个Phase 3成功，但新闻仅以'Phase 3 successes'概述，无具体p值/CI，data maturity为公司公告级，非顶线数据发布。"
+        }
+      ],
+      "reasoning": "BMS公布admilparant（肺纤维化项目）和RayzeBio药物两个Phase 3成功，但新闻仅以'Phase 3 successes'概述，无具体p值/CI，data maturity为公司公告级，非顶线数据发布。",
+      "verify_todo": [
+        "核实具体试验NCT编号、样本量、主要终点指标及统计量"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
