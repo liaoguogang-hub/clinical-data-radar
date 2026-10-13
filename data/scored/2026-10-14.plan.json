@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:ryz101",
+      "lead_id": "aac79c6ff8d556f8",
+      "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "aac79c6ff8d556f8",
+        "b0322650dd1c1b3d"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+          "url": "https://www.onclive.com/view/ryz101-meets-primary-pfs-end-point-in-phase-3-action-1-trial-for-post-lutetium-177-gep-nets",
+          "score": 7.5,
+          "reasoning": "RYZ101 (alpha-emitting radiopharmaceutical) met primary PFS endpoint in Phase 3 ACTION-1 trial for post-Lutetium-177 GEP-NETs. Positive Phase 3 readout with first-in-class alpha-emitting mechanism. Company announcement only, no statistical details."
+        },
+        {
+          "title": "<![CDATA[Alpha-Emitting RYZ101 Meets Phase 3 PFS End Point in Advanced GEP-NETs]]>",
+          "url": "https://www.targetedonc.com/view/ryz101-phase-3-pfs-endpoint-advanced-gep-nets",
+          "score": 7.5,
+          "reasoning": "Same RYZ101 Phase 3 ACTION-1 trial as other Onclive entry; confirms met primary PFS endpoint in advanced GEP-NETs. Duplicate source, same data."
+        }
+      ],
+      "reasoning": "RYZ101 (alpha-emitting radiopharmaceutical) met primary PFS endpoint in Phase 3 ACTION-1 trial for post-Lutetium-177 GEP-NETs. Positive Phase 3 readout with first-in-class alpha-emitting mechanism. Company announcement only, no statistical details.",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:niktimvo",
+      "lead_id": "3cb598bb2df68a88",
+      "title": "Syndax's lung disease ambitions for Niktimvo end with a Phase 2 failure",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "3cb598bb2df68a88"
+      ],
+      "members": [
+        {
+          "title": "Syndax's lung disease ambitions for Niktimvo end with a Phase 2 failure",
+          "url": "https://endpoints.news/syndaxs-lung-disease-ambitions-for-niktimvo-end-with-a-phase-2-failure/",
+          "score": 7.5,
+          "reasoning": "Syndax公司Niktimvo(抗CSF-2R单抗)在特发性肺纤维化II期临床中'missed the trial primary endpoint'，明确失败。IPF属于未满足需求高的适应症，Phase II失败影响后续开发策略。Endpoints News来源可信。"
+        }
+      ],
+      "reasoning": "Syndax公司Niktimvo(抗CSF-2R单抗)在特发性肺纤维化II期临床中'missed the trial primary endpoint'，明确失败。IPF属于未满足需求高的适应症，Phase II失败影响后续开发策略。Endpoints News来源可信。",
+      "verify_todo": [
+        "确认具体II期试验编号和主要终点指标",
+        "核实安全性数据情况"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:admilparant",
+      "lead_id": "e958250640595662",
+      "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "e958250640595662"
+      ],
+      "members": [
+        {
+          "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+          "url": "https://endpoints.news/bristol-myers-reveals-a-pair-of-phase-3-wins-for-fibrosis-rayzebio-drugs/",
+          "score": 7.5,
+          "reasoning": "BMS announced two Phase 3 successes: admilparant for lung disease (fibrosis) and RayzeBio drug. Phase 3 wins are industry-level events. Based on company announcement only, no statistical details provided."
+        }
+      ],
+      "reasoning": "BMS announced two Phase 3 successes: admilparant for lung disease (fibrosis) and RayzeBio drug. Phase 3 wins are industry-level events. Based on company announcement only, no statistical details provided.",
+      "verify_todo": [
+        "Obtain specific p-values, hazard ratios, and trial identifiers from BMS announcement"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    }
+  ]
+}

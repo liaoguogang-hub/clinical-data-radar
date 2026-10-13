@@ -1,0 +1,1044 @@
+{
+  "3cb598bb2df68a88": {
+    "id": "3cb598bb2df68a88",
+    "title": "Syndax's lung disease ambitions for Niktimvo end with a Phase 2 failure",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b0322650dd1c1b3d": {
+    "id": "b0322650dd1c1b3d",
+    "title": "<![CDATA[Alpha-Emitting RYZ101 Meets Phase 3 PFS End Point in Advanced GEP-NETs]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+        "acronym": "ACTION-1",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "RayzeBio, Inc.",
+        "conditions": [
+          "GEP-NET",
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+          "Neuroendocrine Tumors",
+          "Carcinoid",
+          "Carcinoid Tumor",
+          "Pancreatic NET"
+        ],
+        "interventions": [
+          "RYZ101",
+          "Everolimus",
+          "Sunitinib",
+          "Octreotide",
+          "Lanreotide"
+        ],
+        "primary_outcomes": [
+          "Phase 1b: RP3D",
+          "Phase 3: PFS as determined by BICR"
+        ],
+        "enrollment": 343,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-24",
+        "primary_completion": "2026-12",
+        "completion": "2030-12",
+        "last_update": "2026-10-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Netherlands",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05477576",
+          "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+          "acronym": "ACTION-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "GEP-NET",
+            "Gastroenteropancreatic Neuroendocrine Tumor",
+            "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+            "Neuroendocrine Tumors",
+            "Carcinoid",
+            "Carcinoid Tumor",
+            "Pancreatic NET"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Everolimus",
+            "Sunitinib",
+            "Octreotide",
+            "Lanreotide"
+          ],
+          "primary_outcomes": [
+            "Phase 1b: RP3D",
+            "Phase 3: PFS as determined by BICR"
+          ],
+          "enrollment": 343,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-24",
+          "primary_completion": "2026-12",
+          "completion": "2030-12",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Netherlands",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06590857",
+          "title": "Trial of 225Ac-DOTATATE (RYZ101) in Subjects With ER+, HER2-negative Unresectable or Metastatic Breast Cancer Expressing SSTRs.",
+          "official_title": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or Metastatic Breast Cancer Expressing Somatostatin Receptors (SSTRs) (TRACY-1).",
+          "acronym": "TRACY-1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer",
+            "HER2-negative Breast Cancer",
+            "ER+ Breast Cancer",
+            "Advanced Breast Cancer",
+            "Metastatic Breast Cancer With Bone Involvement",
+            "Bone Metastases in Subjects With Advanced Breast Cancer",
+            "ER-Positive HER2-Negative Breast Cancer",
+            "Estrogen Receptor-positive Breast Cancer",
+            "Hormone-sensitive Metastatic Breast Cancer",
+            "Hormone-Sensitive Breast Cancer"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Standard of Care Endocrine Therapy"
+          ],
+          "primary_outcomes": [
+            "Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation and Expansion",
+            "Endocrine Therapy Combination Dose Escalation and Expansion"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-07-19",
+          "primary_completion": "2028-10",
+          "completion": "2033-11",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07150806",
+          "title": "RYZ101 for the Treatment of Progressive or Recurrent Intracranial Meningioma",
+          "official_title": "Progressive/Recurrent Intracranial Meningioma Treated With SSTR-Targeted Alpha Emitter RYZ101 (PRIMe-STAR)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Joshua Palmer",
+          "conditions": [
+            "Recurrent Meningioma"
+          ],
+          "interventions": [
+            "Actinium Ac 225 DOTATATE RYZ101",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Gallium Ga 68-DOTATATE",
+            "L-lysine/L-arginine-containing Amino Acid",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Positron Emission Tomography",
+            "Somatostatin Receptor Positron Emission Tomography"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-12",
+          "primary_completion": "2026-12-31",
+          "completion": "2026-12-31",
+          "last_update": "2026-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "a5e7e0dd26c02ac0": {
+    "id": "a5e7e0dd26c02ac0",
+    "title": "<![CDATA[Tenumomeran/Raplemomeran Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04696055",
+        "title": "Regorafenib Plus Pembrolizumab in Patients With Advanced or Spreading Liver Cancer Who Have Been Previously Treated With PD-1/PD-L1 Immune Checkpoint Inhibitors",
+        "official_title": "An Open-Label Study of Regorafenib in Combination With Pembrolizumab in Patients With Advanced or Metastatic Hepatocellular Carcinoma (HCC) After PD1/PD-L1 Immune Checkpoint Inhibitors",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Bayer",
+        "conditions": [
+          "Hepatocellular Carcinoma"
+        ],
+        "interventions": [
+          "Pembrolizumab",
+          "Regorafenib (Stivarga, BAY73-4506)"
+        ],
+        "primary_outcomes": [
+          "Overall Response Rate (ORR) Per RECIST 1.1 by Central Assessment"
+        ],
+        "enrollment": 95,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-02-03",
+        "primary_completion": "2022-05-05",
+        "completion": "2024-04-23",
+        "last_update": "2025-05-13",
+        "results_first_post": "2023-05-30",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "France",
+          "Germany",
+          "Israel",
+          "Italy",
+          "Japan",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04696055",
+          "title": "Regorafenib Plus Pembrolizumab in Patients With Advanced or Spreading Liver Cancer Who Have Been Previously Treated With PD-1/PD-L1 Immune Checkpoint Inhibitors",
+          "official_title": "An Open-Label Study of Regorafenib in Combination With Pembrolizumab in Patients With Advanced or Metastatic Hepatocellular Carcinoma (HCC) After PD1/PD-L1 Immune Checkpoint Inhibitors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Bayer",
+          "conditions": [
+            "Hepatocellular Carcinoma"
+          ],
+          "interventions": [
+            "Pembrolizumab",
+            "Regorafenib (Stivarga, BAY73-4506)"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR) Per RECIST 1.1 by Central Assessment"
+          ],
+          "enrollment": 95,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-02-03",
+          "primary_completion": "2022-05-05",
+          "completion": "2024-04-23",
+          "last_update": "2025-05-13",
+          "results_first_post": "2023-05-30",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "France",
+            "Germany",
+            "Israel",
+            "Italy",
+            "Japan",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02748564",
+          "title": "Aldesleukin and Pembrolizumab in Treating Patients With Stage III-IV Melanoma",
+          "official_title": "Trial of Interleukin-2 in Combination With Pembrolizumab for Patients With Unresectable or Metastatic Melanoma",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Study Complete",
+          "phase": "PHASE2",
+          "sponsor": "Rutgers, The State University of New Jersey",
+          "conditions": [
+            "Metastatic Melanoma",
+            "Stage III Mucosal Melanoma of the Head and Neck",
+            "Stage IIIA Skin Melanoma",
+            "Stage IIIB Skin Melanoma",
+            "Stage IIIC Skin Melanoma",
+            "Stage IV Skin Melanoma",
+            "Stage IVA Mucosal Melanoma of the Head and Neck",
+            "Stage IVB Mucosal Melanoma of the Head and Neck",
+            "Stage IVC Mucosal Melanoma of the Head and Neck"
+          ],
+          "interventions": [
+            "Aldesleukin",
+            "Laboratory Biomarker Analysis",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Best Overall Response Rate as Assessed by Response (BORR) Evaluation Criteria in Solid Tumors Version 1.1, With the Modification That Progressive Disease Must be Confirmed on a Subsequent Scan"
+          ],
+          "enrollment": 10,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-03-21",
+          "primary_completion": "2018-10-18",
+          "completion": "2023-06-05",
+          "last_update": "2023-08-03",
+          "results_first_post": "2023-02-09",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05980598",
+          "title": "TransCon (TC) TLR7/8 Agonist, TC IL-2 β/γ, Pembrolizumab Prior to Surgery for Advanced Head and Neck Squamous Cell Carcinoma",
+          "official_title": "BelieveIT-201: Phase 2, Randomized Open-labeled Trial of TransCon (TC) TLR7/8 Agonist in Combination With Pembrolizumab or With TC IL-2 β/γ, or Pembrolizumab Alone as Neoadjuvant Therapy for Stage III-IVA Resectable Locoregionally Advanced Head and Neck Squamous Cell Carcinoma",
+          "acronym": "BelieveIT-201",
+          "status": "TERMINATED",
+          "why_stopped": "The Sponsor made the decision to close enrollment as part of a strategic portfolio review.",
+          "phase": "PHASE2",
+          "sponsor": "Ascendis Pharma A/S",
+          "conditions": [
+            "Head and Neck Neoplasms"
+          ],
+          "interventions": [
+            "TransCon TLR7/8 Agonist",
+            "Pembrolizumab",
+            "TransCon IL-2 β/γ"
+          ],
+          "primary_outcomes": [
+            "Major Pathological Response"
+          ],
+          "enrollment": 27,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-09-29",
+          "primary_completion": "2025-03-28",
+          "completion": "2025-03-28",
+          "last_update": "2025-08-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Georgia",
+            "Germany",
+            "Hungary",
+            "Italy",
+            "Poland",
+            "Spain",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e958250640595662": {
+    "id": "e958250640595662",
+    "title": "Bristol Myers reveals a pair of Phase 3 wins for fibrosis, RayzeBio drugs",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "reported"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "201bd75644bf3112": {
+    "id": "201bd75644bf3112",
+    "title": "<![CDATA[SBRT Ablation Fails to Extend PFS in Oligometastatic Breast Cancer]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "aac79c6ff8d556f8": {
+    "id": "aac79c6ff8d556f8",
+    "title": "<![CDATA[RYZ101 Meets Primary PFS End Point in Phase 3 ACTION-1 Trial for Post–Lutetium-177 GEP-NETs]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+        "acronym": "ACTION-1",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "RayzeBio, Inc.",
+        "conditions": [
+          "GEP-NET",
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+          "Neuroendocrine Tumors",
+          "Carcinoid",
+          "Carcinoid Tumor",
+          "Pancreatic NET"
+        ],
+        "interventions": [
+          "RYZ101",
+          "Everolimus",
+          "Sunitinib",
+          "Octreotide",
+          "Lanreotide"
+        ],
+        "primary_outcomes": [
+          "Phase 1b: RP3D",
+          "Phase 3: PFS as determined by BICR"
+        ],
+        "enrollment": 343,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-24",
+        "primary_completion": "2026-12",
+        "completion": "2030-12",
+        "last_update": "2026-10-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Netherlands",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05477576",
+          "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+          "acronym": "ACTION-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "GEP-NET",
+            "Gastroenteropancreatic Neuroendocrine Tumor",
+            "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+            "Neuroendocrine Tumors",
+            "Carcinoid",
+            "Carcinoid Tumor",
+            "Pancreatic NET"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Everolimus",
+            "Sunitinib",
+            "Octreotide",
+            "Lanreotide"
+          ],
+          "primary_outcomes": [
+            "Phase 1b: RP3D",
+            "Phase 3: PFS as determined by BICR"
+          ],
+          "enrollment": 343,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-24",
+          "primary_completion": "2026-12",
+          "completion": "2030-12",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Netherlands",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06590857",
+          "title": "Trial of 225Ac-DOTATATE (RYZ101) in Subjects With ER+, HER2-negative Unresectable or Metastatic Breast Cancer Expressing SSTRs.",
+          "official_title": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or Metastatic Breast Cancer Expressing Somatostatin Receptors (SSTRs) (TRACY-1).",
+          "acronym": "TRACY-1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer",
+            "HER2-negative Breast Cancer",
+            "ER+ Breast Cancer",
+            "Advanced Breast Cancer",
+            "Metastatic Breast Cancer With Bone Involvement",
+            "Bone Metastases in Subjects With Advanced Breast Cancer",
+            "ER-Positive HER2-Negative Breast Cancer",
+            "Estrogen Receptor-positive Breast Cancer",
+            "Hormone-sensitive Metastatic Breast Cancer",
+            "Hormone-Sensitive Breast Cancer"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Standard of Care Endocrine Therapy"
+          ],
+          "primary_outcomes": [
+            "Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation and Expansion",
+            "Endocrine Therapy Combination Dose Escalation and Expansion"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-07-19",
+          "primary_completion": "2028-10",
+          "completion": "2033-11",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07150806",
+          "title": "RYZ101 for the Treatment of Progressive or Recurrent Intracranial Meningioma",
+          "official_title": "Progressive/Recurrent Intracranial Meningioma Treated With SSTR-Targeted Alpha Emitter RYZ101 (PRIMe-STAR)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Joshua Palmer",
+          "conditions": [
+            "Recurrent Meningioma"
+          ],
+          "interventions": [
+            "Actinium Ac 225 DOTATATE RYZ101",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Gallium Ga 68-DOTATATE",
+            "L-lysine/L-arginine-containing Amino Acid",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Positron Emission Tomography",
+            "Somatostatin Receptor Positron Emission Tomography"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-12",
+          "primary_completion": "2026-12-31",
+          "completion": "2026-12-31",
+          "last_update": "2026-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "3ec6813eb90d0c18": {
+    "id": "3ec6813eb90d0c18",
+    "title": "4例死亡，FDA暂停一款新药临床入组",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT07184619",
+        "title": "Evenamide, a Glutamate Release Modulator, as Add-On to Standard of Care in Subjects With Documented Treatment-Resistant Schizophrenia",
+        "official_title": "A Phase III, 12-week, Prospective, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multi-center Study to Determine the Efficacy, Safety, and Tolerability of a Dose of 15 mg Bid of Evenamide as add-on in Patients With Documented Treatment-resistant Schizophrenia, Which is Not Adequately Controlled by a Stable Therapeutic Dose of the Patient's Current Antipsychotic Medication(s)",
+        "acronym": "ENIGMA-TRS 2",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Newron Pharmaceuticals SPA",
+        "conditions": [
+          "Treatment-resistant Schizophrenia"
+        ],
+        "interventions": [
+          "Evenamide 15 mg bid",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Change from baseline to endpoint (Week 12) on the total score of the Positive and Negative Syndrome Scale (PANSS).",
+          "Incidence of treatment-emergent adverse events (TEAEs), AEs leading to discontinuation (ADOs), and serious AEs (SAEs)."
+        ],
+        "enrollment": 400,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-01-23",
+        "primary_completion": "2027-03-31",
+        "completion": "2027-03-31",
+        "last_update": "2026-09-10",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "India",
+          "Malaysia"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07184619",
+          "title": "Evenamide, a Glutamate Release Modulator, as Add-On to Standard of Care in Subjects With Documented Treatment-Resistant Schizophrenia",
+          "official_title": "A Phase III, 12-week, Prospective, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multi-center Study to Determine the Efficacy, Safety, and Tolerability of a Dose of 15 mg Bid of Evenamide as add-on in Patients With Documented Treatment-resistant Schizophrenia, Which is Not Adequately Controlled by a Stable Therapeutic Dose of the Patient's Current Antipsychotic Medication(s)",
+          "acronym": "ENIGMA-TRS 2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Newron Pharmaceuticals SPA",
+          "conditions": [
+            "Treatment-resistant Schizophrenia"
+          ],
+          "interventions": [
+            "Evenamide 15 mg bid",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from baseline to endpoint (Week 12) on the total score of the Positive and Negative Syndrome Scale (PANSS).",
+            "Incidence of treatment-emergent adverse events (TEAEs), AEs leading to discontinuation (ADOs), and serious AEs (SAEs)."
+          ],
+          "enrollment": 400,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-01-23",
+          "primary_completion": "2027-03-31",
+          "completion": "2027-03-31",
+          "last_update": "2026-09-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "India",
+            "Malaysia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04461119",
+          "title": "Study to Determine the Safety, Tolerability, and Efficacy of Evenamide in Patients With Chronic Schizophrenia",
+          "official_title": "A Phase II, Randomized, 4-Week, Double-Blind, Placebo-Controlled, Multiple-Dose Study, Designed to Determine the Safety, Tolerability, EEG Effects and Preliminary Efficacy of Fixed Oral Doses of 7.5 and 15 MG BID of Evenamide in Patients With Chronic Schizophrenia Who Are Symptomatic on Their Current Second-Generation Antipsychotic Medication",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Newron Pharmaceuticals SPA",
+          "conditions": [
+            "Schizophrenia"
+          ],
+          "interventions": [
+            "Evenamide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Safety and tolerability - incidence of Treatment-Emergent Adverse Events [TEAEs], Serious Adverse Events [AEs], and Adverse Events leading to discontinuation [ADOs]",
+            "Change from baseline in Positive and Negative Syndrome Scale [PANSS] total score"
+          ],
+          "enrollment": 138,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-06-16",
+          "primary_completion": "2021-02-20",
+          "completion": "2021-03-13",
+          "last_update": "2021-05-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "India"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03446274",
+          "title": "An Open Label, Single-Dose Study of 14C-NW-3509 in Healthy Male Subjects",
+          "official_title": "An Open Label, Single-Dose, Single-Period Study Designed to Assess the Mass Balance Recovery, Metabolite Profile and Metabolite Identification of [14C]-NW-3509 in Healthy Male Subjects",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Newron Pharmaceuticals SPA",
+          "conditions": [
+            "Healthy"
+          ],
+          "interventions": [
+            "Evenamide"
+          ],
+          "primary_outcomes": [
+            "Metabolic profiling for NW-3509 will be determined in plasma, urine and fecal samples"
+          ],
+          "enrollment": 6,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2018-04-02",
+          "primary_completion": "2018-04-23",
+          "completion": "2018-06",
+          "last_update": "2018-06-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "evenamide",
+          "venamide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
