@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-15",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:bnt113-hpv16-hnscc",
+      "lead_id": "ed253d216a7f4b78",
+      "title": "BioNTech mRNA癌症疫苗III期临床未达终点",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "ed253d216a7f4b78",
+        "a5e7a5e68aaa0989"
+      ],
+      "members": [
+        {
+          "title": "BioNTech mRNA癌症疫苗III期临床未达终点",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384441",
+          "score": 7.5,
+          "reasoning": "与abf57879条目相同来源，BNT113的III期AHEAD-MERIT试验明确未达PFS终点，与条目abf57879ea88c61e及a5e7a5e68aaa0989为同一事件，应合并；股价跌幅7%证实市场对此失败的确认。"
+        },
+        {
+          "title": "BioNTech跌7%：HPV mRNA疫苗头颈癌2/3期临床错失PFS主要终点",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384450",
+          "score": 7.5,
+          "reasoning": "与条目abf57879ea88c61e及ed253d216a7f4b78为同一事件（BNT113 + pembrolizumab AHEAD-MERIT III期），明确未达PFS主要终点；三条条目均为同一试验的不同媒体报道，应合并评分。"
+        }
+      ],
+      "reasoning": "与abf57879条目相同来源，BNT113的III期AHEAD-MERIT试验明确未达PFS终点，与条目abf57879ea88c61e及a5e7a5e68aaa0989为同一事件，应合并；股价跌幅7%证实市场对此失败的确认。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:bnt113",
+      "lead_id": "162a1860cd04c262",
+      "title": "BioNTech mRNA癌症疫苗首个3期失败！",
+      "score": 8.3,
+      "channel": "global",
+      "member_ids": [
+        "162a1860cd04c262"
+      ],
+      "members": [
+        {
+          "title": "BioNTech mRNA癌症疫苗首个3期失败！",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384259",
+          "score": 8.3,
+          "reasoning": "BioNTech BNT113联合帕博利珠单抗vs单药治疗HPV16+头颈鳞癌的AHEAD-MERIT 2/3期试验未能在PFS这一双重主要终点上取得统计学显著改善，属于明确的III期主要终点未达到，依据为新闻措辞和公司公告。BioNTech是全球mRNA肿瘤疫苗领域的头部玩家，此为该赛道首个III期失败，行业影响重大。"
+        }
+      ],
+      "reasoning": "BioNTech BNT113联合帕博利珠单抗vs单药治疗HPV16+头颈鳞癌的AHEAD-MERIT 2/3期试验未能在PFS这一双重主要终点上取得统计学显著改善，属于明确的III期主要终点未达到，依据为新闻措辞和公司公告。BioNTech是全球mRNA肿瘤疫苗领域的头部玩家，此为该赛道首个III期失败，行业影响重大。",
+      "verify_todo": [
+        "核实NCT04534205注册库中主要终点定义及最终统计分析结果"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:bnt113-pembrolizumab-hnscc",
+      "lead_id": "abf57879ea88c61e",
+      "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "abf57879ea88c61e"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+          "url": "https://www.targetedonc.com/view/bnt113-pembrolizumab-misses-pfs-hpv16-hnscc",
+          "score": 7.5,
+          "reasoning": "BNT113 + pembrolizumab在HPV16+头颈鳞癌Phase II/III（AHEAD-MERIT）中明确未达PFS主要终点，股价下跌7%体现市场确认；失败为行业级事件，III期注册试验规模可信度较高，但仅有媒体报道无注册库统计量。"
+        }
+      ],
+      "reasoning": "BNT113 + pembrolizumab在HPV16+头颈鳞癌Phase II/III（AHEAD-MERIT）中明确未达PFS主要终点，股价下跌7%体现市场确认；失败为行业级事件，III期注册试验规模可信度较高，但仅有媒体报道无注册库统计量。",
+      "verify_todo": [
+        "核实AHEAD-MERIT试验NCT编号及详细终点数据",
+        "确认OS数据是否仍在随访中（据同类条目提到OS作为次要终点）"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    }
+  ]
+}
