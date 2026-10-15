@@ -1,0 +1,1259 @@
+{
+  "8fe4d986755a684a": {
+    "id": "8fe4d986755a684a",
+    "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
+    "score": 7.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "192d591bf8f2f979": {
+    "id": "192d591bf8f2f979",
+    "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "年将受到生物",
+          "浙江华海药业",
+          "杭州阿诺生物"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "年将受到生物",
+          "Huahai",
+          "杭州阿诺生物"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "d6b0915266fa9d74": {
+    "id": "d6b0915266fa9d74",
+    "title": "Vanda’s social anxiety drug flunks Phase 3 trial in female patients",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:missed the primary endpoint"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:missed the primary endpoint"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:missed the primary endpoint",
+    "registry": {
+      "best": {
+        "nct": "NCT07221578",
+        "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+        "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Vanda Pharmaceuticals",
+        "conditions": [
+          "Social Anxiety Disorder (SAD)"
+        ],
+        "interventions": [
+          "VQW-765",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Subjective Units of Distress Scale (SUDS)"
+        ],
+        "enrollment": 500,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-09-22",
+        "primary_completion": "2026-12",
+        "completion": "2027-04",
+        "last_update": "2026-08-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07221578",
+          "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+          "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Vanda Pharmaceuticals",
+          "conditions": [
+            "Social Anxiety Disorder (SAD)"
+          ],
+          "interventions": [
+            "VQW-765",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Subjective Units of Distress Scale (SUDS)"
+          ],
+          "enrollment": 500,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-09-22",
+          "primary_completion": "2026-12",
+          "completion": "2027-04",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04800237",
+          "title": "Evaluating the Effects of VQW-765 vs. Placebo in Performance Anxiety",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate Efficacy and Safety of VQW-765 in Patients With Performance Anxiety",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanda Pharmaceuticals",
+          "conditions": [
+            "Performance Anxiety"
+          ],
+          "interventions": [
+            "VQW-765",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Subjective Units of Distress Scale (SUDS)"
+          ],
+          "enrollment": 230,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-02-23",
+          "primary_completion": "2022-08-02",
+          "completion": "2022-08-02",
+          "last_update": "2024-03-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "VQW-765"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "dd92cea6476654e7": {
+    "id": "dd92cea6476654e7",
+    "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT04534205"
+        ],
+        "drug": [
+          "BNT113"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "4052b1d0a3ff5f1a": {
+    "id": "4052b1d0a3ff5f1a",
+    "title": "<![CDATA[CHMP Recommends Approval of Daraxonrasib for Previously Treated Metastatic Pancreatic Cancer]]>",
+    "score": 8.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05024175",
+        "title": "Long-term Follow-up of Subjects Treated With CAR T Cells",
+        "official_title": "Long-term Follow-up of Subjects Treated With CAR T Cells",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "",
+        "sponsor": "Marcela V. Maus, M.D.,Ph.D.",
+        "conditions": [
+          "Long Term Adverse Effects",
+          "CAR-T",
+          "Duty to Follow Up",
+          "Adult",
+          "Progression-Free Survival",
+          "Disease-Free Survival",
+          "Overall Survival"
+        ],
+        "interventions": [
+          "Disease assessments",
+          "Tumor Biopsy",
+          "Blood test"
+        ],
+        "primary_outcomes": [
+          "Overall Survival",
+          "Overall Survival",
+          "Overall Survival",
+          "Overall Survival",
+          "Progresison Free Survival",
+          "Progresison Free Survival",
+          "Progresison Free Survival",
+          "Progresison Free Survival",
+          "New incidence or exacerbation of a pre-existing neurologic disorder or prior rheumatologic or other autoimmune disorder",
+          "New incidence of a hematologic disorder",
+          "Number of Participants with Treatment-Related Adverse Events as Assessed by CTCAE v 5.0",
+          "Vector-derived RCL",
+          "Assessment of CAR T cells persistence by VCN in peripheral blood",
+          "Progression-free Survival",
+          "Overall Survival"
+        ],
+        "enrollment": 45,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-08-07",
+        "primary_completion": "2038-08-01",
+        "completion": "2039-08-01",
+        "last_update": "2026-10-01",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05024175",
+          "title": "Long-term Follow-up of Subjects Treated With CAR T Cells",
+          "official_title": "Long-term Follow-up of Subjects Treated With CAR T Cells",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "",
+          "sponsor": "Marcela V. Maus, M.D.,Ph.D.",
+          "conditions": [
+            "Long Term Adverse Effects",
+            "CAR-T",
+            "Duty to Follow Up",
+            "Adult",
+            "Progression-Free Survival",
+            "Disease-Free Survival",
+            "Overall Survival"
+          ],
+          "interventions": [
+            "Disease assessments",
+            "Tumor Biopsy",
+            "Blood test"
+          ],
+          "primary_outcomes": [
+            "Overall Survival",
+            "Overall Survival",
+            "Overall Survival",
+            "Overall Survival",
+            "Progresison Free Survival",
+            "Progresison Free Survival",
+            "Progresison Free Survival",
+            "Progresison Free Survival",
+            "New incidence or exacerbation of a pre-existing neurologic disorder or prior rheumatologic or other autoimmune disorder",
+            "New incidence of a hematologic disorder",
+            "Number of Participants with Treatment-Related Adverse Events as Assessed by CTCAE v 5.0",
+            "Vector-derived RCL",
+            "Assessment of CAR T cells persistence by VCN in peripheral blood",
+            "Progression-free Survival",
+            "Overall Survival"
+          ],
+          "enrollment": 45,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-08-07",
+          "primary_completion": "2038-08-01",
+          "completion": "2039-08-01",
+          "last_update": "2026-10-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Treated"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "b0322650dd1c1b3d": {
+    "id": "b0322650dd1c1b3d",
+    "title": "<![CDATA[Alpha-Emitting RYZ101 Meets Phase 3 PFS End Point in Advanced GEP-NETs]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05477576",
+        "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+        "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+        "acronym": "ACTION-1",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "RayzeBio, Inc.",
+        "conditions": [
+          "GEP-NET",
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+          "Neuroendocrine Tumors",
+          "Carcinoid",
+          "Carcinoid Tumor",
+          "Pancreatic NET"
+        ],
+        "interventions": [
+          "RYZ101",
+          "Everolimus",
+          "Sunitinib",
+          "Octreotide",
+          "Lanreotide"
+        ],
+        "primary_outcomes": [
+          "Phase 1b: RP3D",
+          "Phase 3: PFS as determined by BICR"
+        ],
+        "enrollment": 343,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-24",
+        "primary_completion": "2026-12",
+        "completion": "2030-12",
+        "last_update": "2026-10-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Netherlands",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05477576",
+          "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "official_title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+          "acronym": "ACTION-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "GEP-NET",
+            "Gastroenteropancreatic Neuroendocrine Tumor",
+            "Gastroenteropancreatic Neuroendocrine Tumor Disease",
+            "Neuroendocrine Tumors",
+            "Carcinoid",
+            "Carcinoid Tumor",
+            "Pancreatic NET"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Everolimus",
+            "Sunitinib",
+            "Octreotide",
+            "Lanreotide"
+          ],
+          "primary_outcomes": [
+            "Phase 1b: RP3D",
+            "Phase 3: PFS as determined by BICR"
+          ],
+          "enrollment": 343,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-24",
+          "primary_completion": "2026-12",
+          "completion": "2030-12",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Netherlands",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06590857",
+          "title": "Trial of 225Ac-DOTATATE (RYZ101) in Subjects With ER+, HER2-negative Unresectable or Metastatic Breast Cancer Expressing SSTRs.",
+          "official_title": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or Metastatic Breast Cancer Expressing Somatostatin Receptors (SSTRs) (TRACY-1).",
+          "acronym": "TRACY-1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "RayzeBio, Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer",
+            "HER2-negative Breast Cancer",
+            "ER+ Breast Cancer",
+            "Advanced Breast Cancer",
+            "Metastatic Breast Cancer With Bone Involvement",
+            "Bone Metastases in Subjects With Advanced Breast Cancer",
+            "ER-Positive HER2-Negative Breast Cancer",
+            "Estrogen Receptor-positive Breast Cancer",
+            "Hormone-sensitive Metastatic Breast Cancer",
+            "Hormone-Sensitive Breast Cancer"
+          ],
+          "interventions": [
+            "RYZ101",
+            "Standard of Care Endocrine Therapy"
+          ],
+          "primary_outcomes": [
+            "Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation",
+            "Endocrine Therapy Combination Dose Escalation and Expansion",
+            "Endocrine Therapy Combination Dose Escalation and Expansion"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-07-19",
+          "primary_completion": "2028-10",
+          "completion": "2033-11",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07150806",
+          "title": "RYZ101 for the Treatment of Progressive or Recurrent Intracranial Meningioma",
+          "official_title": "Progressive/Recurrent Intracranial Meningioma Treated With SSTR-Targeted Alpha Emitter RYZ101 (PRIMe-STAR)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Joshua Palmer",
+          "conditions": [
+            "Recurrent Meningioma"
+          ],
+          "interventions": [
+            "Actinium Ac 225 DOTATATE RYZ101",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Gallium Ga 68-DOTATATE",
+            "L-lysine/L-arginine-containing Amino Acid",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Positron Emission Tomography",
+            "Somatostatin Receptor Positron Emission Tomography"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-12",
+          "primary_completion": "2026-12-31",
+          "completion": "2026-12-31",
+          "last_update": "2026-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e0a2cbbc26a5e719": {
+    "id": "e0a2cbbc26a5e719",
+    "title": "GFH375/VS-7375（口服KRAS G12D抑制剂）多项国内及海外临床研究取得积极进展，在多种实体瘤中显示优秀疗效",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:客观缓解"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:客观缓解"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:客观缓解",
+    "registry": {
+      "best": {
+        "nct": "NCT07262567",
+        "title": "Phase III Study to Compare GFH375 and Chemotherapy in Patients With KRAS G12D-Mutant Metastatic Pancreatic Cancer",
+        "official_title": "A Multicenter, Open-Label, Randomized Controlled Phase III Study to Compare the Efficacy and Safety/Tolerability of GFH375 Monotherapy Versus Investigator's Choice of Chemotherapy in Patients With Previously Treated KRAS G12D-Mutant Metastatic Pancreatic Cancer",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Genfleet Therapeutics (Shanghai) Inc.",
+        "conditions": [
+          "Metastatic Pancreatic Cancer"
+        ],
+        "interventions": [
+          "GFH375",
+          "Chemotherapy"
+        ],
+        "primary_outcomes": [
+          "OS",
+          "PFS"
+        ],
+        "enrollment": 320,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-12-04",
+        "primary_completion": "2027-06",
+        "completion": "2028-06",
+        "last_update": "2026-08-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07262567",
+          "title": "Phase III Study to Compare GFH375 and Chemotherapy in Patients With KRAS G12D-Mutant Metastatic Pancreatic Cancer",
+          "official_title": "A Multicenter, Open-Label, Randomized Controlled Phase III Study to Compare the Efficacy and Safety/Tolerability of GFH375 Monotherapy Versus Investigator's Choice of Chemotherapy in Patients With Previously Treated KRAS G12D-Mutant Metastatic Pancreatic Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Genfleet Therapeutics (Shanghai) Inc.",
+          "conditions": [
+            "Metastatic Pancreatic Cancer"
+          ],
+          "interventions": [
+            "GFH375",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "OS",
+            "PFS"
+          ],
+          "enrollment": 320,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-12-04",
+          "primary_completion": "2027-06",
+          "completion": "2028-06",
+          "last_update": "2026-08-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07668752",
+          "title": "A Study to Evaluate GFH375 Versus Docetaxel in Participants With Non-Small Cell Lung Cancer With KRAS G12D Mutation",
+          "official_title": "A Phase III, Randomized, Open-Label, Multicenter Study to Evaluate GFH375 Versus Docetaxel in Participants With Locally Advanced and Unresectable or Metastatic Non-Small Cell Lung Cancer With KRAS G12D Mutation Failed Prior Standard Therapy",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Genfleet Therapeutics (Shanghai) Inc.",
+          "conditions": [
+            "KRAS G12D Mutation",
+            "NSCLC (Non-small Cell Lung Cancer)"
+          ],
+          "interventions": [
+            "GFH375",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate(ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1. as assessed by blinded independent central review (BICR)",
+            "Progression-Free Survival (PFS) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1. as assessed by blinded independent central review (BICR)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 300,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-27",
+          "primary_completion": "2030-06-30",
+          "completion": "2031-04-30",
+          "last_update": "2026-08-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07026916",
+          "title": "A Phase II Study to Evaluate GFH375 in Patients With KRAS G12D Mutant Metastatic Pancreatic Cancer",
+          "official_title": "A Single-Arm, Multicenter, Open-Label, Phase II Clinical Study to Evaluate the Efficacy, Safety/Tolerability, and Pharmacokinetic Characteristics of GFH375 Monotherapy in Patients With Previously Treated KRAS G12D Mutant Metastatic Pancreatic Cancer",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Adjustment of Product Development Strategy",
+          "phase": "PHASE2",
+          "sponsor": "Genfleet Therapeutics (Shanghai) Inc.",
+          "conditions": [
+            "Metastatic Pancreatic Cancer"
+          ],
+          "interventions": [
+            "GFH375"
+          ],
+          "primary_outcomes": [
+            "Overall response rate (ORR)"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-08",
+          "primary_completion": "2027-08",
+          "completion": "2028-08",
+          "last_update": "2025-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "GFH375",
+          "VS-7375"
+        ],
+        "sponsor": [
+          "劲方医药"
+        ],
+        "sponsor_en": [
+          "劲方医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "9359158810876950": {
+    "id": "9359158810876950",
+    "title": "年销175亿美元！艾伯维重磅药物III期再传积极数据",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02694523",
+        "title": "BI 655066/ABBV-066 (Risankizumab) Compared to Active Comparator (Adalimumab) in Patients With Moderate to Severe Chronic Plaque Psoriasis",
+        "official_title": "BI 655066/ABBV-066 (Risankizumab) Versus Adalimumab in a Randomized, Double Blind, Parallel Group Trial in Moderate to Severe Plaque Psoriasis to Assess Safety and Efficacy After 16 Weeks of Treatment and After Inadequate Adalimumab Treatment Response (IMMvent)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AbbVie",
+        "conditions": [
+          "Psoriasis"
+        ],
+        "interventions": [
+          "risankizumab",
+          "adalimumab",
+          "placebo for risankizumab",
+          "placebo for adalimumab"
+        ],
+        "primary_outcomes": [
+          "Percentage of Participants Achieving 90% Improvement in Psoriasis Area and Severity Index (PASI) Score (PASI90) at Week 16 (Part A)",
+          "Percentage of Participants Achieving Static Physician Global Assessment (sPGA) Score of Clear or Almost Clear at Week 16 (Part A)",
+          "Percentage of Participants Who Were Re-Randomized to Receive Either Adalimumab or Risankizumab in Part B Achieving PASI90 at Week 44 (Part B)"
+        ],
+        "enrollment": 684,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-03",
+        "primary_completion": "2017-08",
+        "completion": "2017-08",
+        "last_update": "2021-07-30",
+        "results_first_post": "2019-05-28",
+        "has_results": true,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02694523",
+          "title": "BI 655066/ABBV-066 (Risankizumab) Compared to Active Comparator (Adalimumab) in Patients With Moderate to Severe Chronic Plaque Psoriasis",
+          "official_title": "BI 655066/ABBV-066 (Risankizumab) Versus Adalimumab in a Randomized, Double Blind, Parallel Group Trial in Moderate to Severe Plaque Psoriasis to Assess Safety and Efficacy After 16 Weeks of Treatment and After Inadequate Adalimumab Treatment Response (IMMvent)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Psoriasis"
+          ],
+          "interventions": [
+            "risankizumab",
+            "adalimumab",
+            "placebo for risankizumab",
+            "placebo for adalimumab"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants Achieving 90% Improvement in Psoriasis Area and Severity Index (PASI) Score (PASI90) at Week 16 (Part A)",
+            "Percentage of Participants Achieving Static Physician Global Assessment (sPGA) Score of Clear or Almost Clear at Week 16 (Part A)",
+            "Percentage of Participants Who Were Re-Randomized to Receive Either Adalimumab or Risankizumab in Part B Achieving PASI90 at Week 44 (Part B)"
+          ],
+          "enrollment": 684,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-03",
+          "primary_completion": "2017-08",
+          "completion": "2017-08",
+          "last_update": "2021-07-30",
+          "results_first_post": "2019-05-28",
+          "has_results": true,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03398135",
+          "title": "A Study to Assess the Efficacy and Safety of Risankizumab in Participants With Ulcerative Colitis",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo Controlled 52-Week Maintenance and an Open-Label Extension Study of the Efficacy and Safety of Risankizumab in Subjects With Ulcerative Colitis",
+          "acronym": "COMMAND",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Ulcerative Colitis (UC)"
+          ],
+          "interventions": [
+            "risankizumab",
+            "placebo for risankizumab"
+          ],
+          "primary_outcomes": [
+            "Sub-Study 1: Percentage of Participants Achieving Clinical Remission per Adapted Mayo Score",
+            "Percentage of Participants with Adverse Events (AE)"
+          ],
+          "enrollment": 1242,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-08-28",
+          "primary_completion": "2028-09",
+          "completion": "2029-02",
+          "last_update": "2026-01-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Croatia",
+            "Czechia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04862286",
+          "title": "Study to Evaluate Adverse Events and Change in Disease Activity in Participants Between 6 and 17 Years With Moderate to Severe Plaque Psoriasis Treated With Subcutaneous (SC) Injection of Risankizumab Who Have Completed Participation in Study M19-977",
+          "official_title": "OptIMMize-2: A Phase 3 Multicenter, Single-arm, Open-label Extension Study to Assess the Safety, Tolerability, and Efficacy of Risankizumab in Subjects With Moderate to Severe Plaque Psoriasis Who Have Completed Participation in Study M19-977 (OptIMMize-1)",
+          "acronym": "OptIMMize-2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Psoriasis"
+          ],
+          "interventions": [
+            "Risankizumab"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Adverse Events"
+          ],
+          "enrollment": 132,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-07-24",
+          "primary_completion": "2028-04",
+          "completion": "2028-04",
+          "last_update": "2025-08-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "Germany",
+            "Japan",
+            "Poland",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "risankizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-16",
+  "count": 5,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:gsx008",
+      "lead_id": "8fe4d986755a684a",
+      "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "8fe4d986755a684a"
+      ],
+      "members": [
+        {
+          "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_384678",
+          "score": 7.5,
+          "reasoning": "全球首个乙肝功能性治愈新药提交上市申请，乙型肝炎存在巨大未满足需求，国产首创创新药，上市申请意味着有支持性临床数据。依据：上市申请+标题数字（40万/功能性治愈），可信度中等，score=7.5"
+        }
+      ],
+      "reasoning": "全球首个乙肝功能性治愈新药提交上市申请，乙型肝炎存在巨大未满足需求，国产首创创新药，上市申请意味着有支持性临床数据。依据：上市申请+标题数字（40万/功能性治愈），可信度中等，score=7.5",
+      "verify_todo": [
+        "核实GSX008具体临床试验数据及终点结果"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:gfb375",
+      "lead_id": "e0a2cbbc26a5e719",
+      "title": "GFH375/VS-7375（口服KRAS G12D抑制剂）多项国内及海外临床研究取得积极进展，在多种实体瘤中显示优秀疗效",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "e0a2cbbc26a5e719"
+      ],
+      "members": [
+        {
+          "title": "GFH375/VS-7375（口服KRAS G12D抑制剂）多项国内及海外临床研究取得积极进展，在多种实体瘤中显示优秀疗效",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384899",
+          "score": 6.0,
+          "reasoning": "GFH375/VS-7375（口服KRAS G12D抑制剂）多项III期研究取得积极进展并公布数据，但摘要仅称'显示优秀疗效'，无具体数值；已获三项BTD且进入注册性III期，首创性高（KRAS G12D口服）。"
+        }
+      ],
+      "reasoning": "GFH375/VS-7375（口服KRAS G12D抑制剂）多项III期研究取得积极进展并公布数据，但摘要仅称'显示优秀疗效'，无具体数值；已获三项BTD且进入注册性III期，首创性高（KRAS G12D口服）。",
+      "verify_todo": [
+        "获取具体ORR/PFS/OS数值数据"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:daraxonrasib",
+      "lead_id": "4052b1d0a3ff5f1a",
+      "title": "<![CDATA[CHMP Recommends Approval of Daraxonrasib for Previously Treated Metastatic Pancreatic Cancer]]>",
+      "score": 8.5,
+      "channel": "global",
+      "member_ids": [
+        "4052b1d0a3ff5f1a"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[CHMP Recommends Approval of Daraxonrasib for Previously Treated Metastatic Pancreatic Cancer]]>",
+          "url": "https://www.onclive.com/view/chmp-recommends-approval-of-daraxonrasib-for-previously-treated-metastatic-pancreatic-cancer",
+          "score": 8.5,
+          "reasoning": "CHMP建议批准daraxonrasib用于经治转移性胰腺癌，属于监管层面的积极结论；胰腺癌高度未满足需求，verdict来自CHMP推荐措辞而非统计数字，但可信度较高。"
+        }
+      ],
+      "reasoning": "CHMP建议批准daraxonrasib用于经治转移性胰腺癌，属于监管层面的积极结论；胰腺癌高度未满足需求，verdict来自CHMP推荐措辞而非统计数字，但可信度较高。",
+      "verify_todo": [
+        "确认基于哪项试验数据及具体终点结果"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:pembrolizumab_sc",
+      "lead_id": "192d591bf8f2f979",
+      "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "192d591bf8f2f979"
+      ],
+      "members": [
+        {
+          "title": "默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_381806",
+          "score": 7.5,
+          "reasoning": "III期MK-3475A-D77试验达到主要PK终点（皮下与静脉暴露量可比），同时ORR/PFS数值接近，安全性一致；国内首个PD-1皮下制剂获NMPA批准。依据：统计结论（PK终点）+监管批准，score=7.5"
+        }
+      ],
+      "reasoning": "III期MK-3475A-D77试验达到主要PK终点（皮下与静脉暴露量可比），同时ORR/PFS数值接近，安全性一致；国内首个PD-1皮下制剂获NMPA批准。依据：统计结论（PK终点）+监管批准，score=7.5",
+      "verify_todo": [],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:vqw-765",
+      "lead_id": "d6b0915266fa9d74",
+      "title": "Vanda’s social anxiety drug flunks Phase 3 trial in female patients",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "d6b0915266fa9d74"
+      ],
+      "members": [
+        {
+          "title": "Vanda’s social anxiety drug flunks Phase 3 trial in female patients",
+          "url": "https://endpoints.news/vandas-social-anxiety-drug-flunks-phase-3-trial-in-female-patients/",
+          "score": 7.0,
+          "reasoning": "Vanda VQW-765在女性社交焦虑障碍患者III期试验中未达到主要终点，公司宣布暂停该适应症开发；明确的III期失败，属于行业级事件。"
+        }
+      ],
+      "reasoning": "Vanda VQW-765在女性社交焦虑障碍患者III期试验中未达到主要终点，公司宣布暂停该适应症开发；明确的III期失败，属于行业级事件。",
+      "verify_todo": [
+        "确认具体主要终点指标及数值"
+      ],
+      "flags": [
+        "failed",
+        "missed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 5
+    }
+  ]
+}
