@@ -1,8 +1,8 @@
 {
-  "abf57879ea88c61e": {
-    "id": "abf57879ea88c61e",
-    "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
-    "score": 7.5,
+  "3cb598bb2df68a88": {
+    "id": "3cb598bb2df68a88",
+    "title": "Syndax's lung disease ambitions for Niktimvo end with a Phase 2 failure",
+    "score": 8.0,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -11,187 +11,33 @@
         "confidence": 0.2,
         "evidence": []
       },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
+      "statistical": null,
+      "numbers": null,
       "verdict": "unknown",
       "basis": "none",
       "confidence": 0.2,
       "evidence": [],
       "conflict": false,
-      "halt_reason": ""
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
     },
     "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
     "registry": {
-      "best": {
-        "nct": "NCT04534205",
-        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-        "acronym": "AHEAD-MERIT",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2, PHASE3",
-        "sponsor": "BioNTech SE",
-        "conditions": [
-          "Unresectable Head and Neck Squamous Cell Carcinoma",
-          "Metastatic Head and Neck Cancer",
-          "Recurrent Head and Neck Cancer"
-        ],
-        "interventions": [
-          "BNT113",
-          "Pembrolizumab"
-        ],
-        "primary_outcomes": [
-          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-          "Part B - Overall survival (OS)",
-          "Part B - Progression-free survival (PFS)"
-        ],
-        "enrollment": 358,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-01-07",
-        "primary_completion": "2028-08",
-        "completion": "2028-08",
-        "last_update": "2026-10-14",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Argentina",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Brazil",
-          "Canada",
-          "Chile",
-          "Czechia",
-          "France",
-          "Germany",
-          "Hungary"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04534205",
-          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-          "acronym": "AHEAD-MERIT",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2, PHASE3",
-          "sponsor": "BioNTech SE",
-          "conditions": [
-            "Unresectable Head and Neck Squamous Cell Carcinoma",
-            "Metastatic Head and Neck Cancer",
-            "Recurrent Head and Neck Cancer"
-          ],
-          "interventions": [
-            "BNT113",
-            "Pembrolizumab"
-          ],
-          "primary_outcomes": [
-            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-            "Part B - Overall survival (OS)",
-            "Part B - Progression-free survival (PFS)"
-          ],
-          "enrollment": 358,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-01-07",
-          "primary_completion": "2028-08",
-          "completion": "2028-08",
-          "last_update": "2026-10-14",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Brazil",
-            "Canada",
-            "Chile",
-            "Czechia",
-            "France",
-            "Germany",
-            "Hungary"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03418480",
-          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
-          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
-          "acronym": "HARE-40",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "University of Southampton",
-          "conditions": [
-            "Human Papilloma Virus Related Carcinoma",
-            "Head and Neck Neoplasm",
-            "Cervical Neoplasm",
-            "Penile Neoplasms Malignant",
-            "Unknown Primary Tumors"
-          ],
-          "interventions": [
-            "BNT113"
-          ],
-          "primary_outcomes": [
-            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
-          ],
-          "enrollment": 30,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-04-11",
-          "primary_completion": "2023-11-01",
-          "completion": "2024-01-24",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
+      "best": {},
+      "trials": [],
       "terms": {
         "nct": [],
-        "drug": [
-          "BNT113",
-          "Pembrolizumab"
-        ],
+        "drug": [],
         "sponsor": [],
         "sponsor_en": []
       },
-      "note": ""
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
   "4919c446d3f74098": {
     "id": "4919c446d3f74098",
     "title": "北海康成祝贺合作伙伴Mirum Livmarli® III期EXPAND研究成功，胆道闭锁（BA）治疗迎来新曙光",
-    "score": 7.5,
+    "score": 7.6,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -235,862 +81,10 @@
       "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（北海康成制药、全球化的生物、医药科技）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
     }
   },
-  "ed253d216a7f4b78": {
-    "id": "ed253d216a7f4b78",
-    "title": "BioNTech mRNA癌症疫苗III期临床未达终点",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "missed",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "未达到表述:未达终点"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "missed",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "未达到表述:未达终点"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:未达终点",
-    "registry": {
-      "best": {
-        "nct": "NCT04534205",
-        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-        "acronym": "AHEAD-MERIT",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2, PHASE3",
-        "sponsor": "BioNTech SE",
-        "conditions": [
-          "Unresectable Head and Neck Squamous Cell Carcinoma",
-          "Metastatic Head and Neck Cancer",
-          "Recurrent Head and Neck Cancer"
-        ],
-        "interventions": [
-          "BNT113",
-          "Pembrolizumab"
-        ],
-        "primary_outcomes": [
-          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-          "Part B - Overall survival (OS)",
-          "Part B - Progression-free survival (PFS)"
-        ],
-        "enrollment": 358,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-01-07",
-        "primary_completion": "2028-08",
-        "completion": "2028-08",
-        "last_update": "2026-10-14",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Argentina",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Brazil",
-          "Canada",
-          "Chile",
-          "Czechia",
-          "France",
-          "Germany",
-          "Hungary"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04534205",
-          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-          "acronym": "AHEAD-MERIT",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2, PHASE3",
-          "sponsor": "BioNTech SE",
-          "conditions": [
-            "Unresectable Head and Neck Squamous Cell Carcinoma",
-            "Metastatic Head and Neck Cancer",
-            "Recurrent Head and Neck Cancer"
-          ],
-          "interventions": [
-            "BNT113",
-            "Pembrolizumab"
-          ],
-          "primary_outcomes": [
-            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-            "Part B - Overall survival (OS)",
-            "Part B - Progression-free survival (PFS)"
-          ],
-          "enrollment": 358,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-01-07",
-          "primary_completion": "2028-08",
-          "completion": "2028-08",
-          "last_update": "2026-10-14",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Brazil",
-            "Canada",
-            "Chile",
-            "Czechia",
-            "France",
-            "Germany",
-            "Hungary"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03418480",
-          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
-          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
-          "acronym": "HARE-40",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "University of Southampton",
-          "conditions": [
-            "Human Papilloma Virus Related Carcinoma",
-            "Head and Neck Neoplasm",
-            "Cervical Neoplasm",
-            "Penile Neoplasms Malignant",
-            "Unknown Primary Tumors"
-          ],
-          "interventions": [
-            "BNT113"
-          ],
-          "primary_outcomes": [
-            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
-          ],
-          "enrollment": 30,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-04-11",
-          "primary_completion": "2023-11-01",
-          "completion": "2024-01-24",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "BNT113",
-          "CD276"
-        ],
-        "sponsor": [
-          "信达生物制药",
-          "泰诺麦博制药",
-          "上海复星医药",
-          "百利天恒药业"
-        ],
-        "sponsor_en": [
-          "Innovent",
-          "泰诺麦博制药",
-          "Fosun",
-          "百利天恒药业"
-        ]
-      },
-      "note": ""
-    }
-  },
-  "a5e7a5e68aaa0989": {
-    "id": "a5e7a5e68aaa0989",
-    "title": "BioNTech跌7%：HPV mRNA疫苗头颈癌2/3期临床错失PFS主要终点",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "missed",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "未达到表述:临床失败"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "missed",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "未达到表述:临床失败"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
-    "registry": {
-      "best": {
-        "nct": "NCT04534205",
-        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-        "acronym": "AHEAD-MERIT",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2, PHASE3",
-        "sponsor": "BioNTech SE",
-        "conditions": [
-          "Unresectable Head and Neck Squamous Cell Carcinoma",
-          "Metastatic Head and Neck Cancer",
-          "Recurrent Head and Neck Cancer"
-        ],
-        "interventions": [
-          "BNT113",
-          "Pembrolizumab"
-        ],
-        "primary_outcomes": [
-          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-          "Part B - Overall survival (OS)",
-          "Part B - Progression-free survival (PFS)"
-        ],
-        "enrollment": 358,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-01-07",
-        "primary_completion": "2028-08",
-        "completion": "2028-08",
-        "last_update": "2026-10-14",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Argentina",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Brazil",
-          "Canada",
-          "Chile",
-          "Czechia",
-          "France",
-          "Germany",
-          "Hungary"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04534205",
-          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-          "acronym": "AHEAD-MERIT",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2, PHASE3",
-          "sponsor": "BioNTech SE",
-          "conditions": [
-            "Unresectable Head and Neck Squamous Cell Carcinoma",
-            "Metastatic Head and Neck Cancer",
-            "Recurrent Head and Neck Cancer"
-          ],
-          "interventions": [
-            "BNT113",
-            "Pembrolizumab"
-          ],
-          "primary_outcomes": [
-            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-            "Part B - Overall survival (OS)",
-            "Part B - Progression-free survival (PFS)"
-          ],
-          "enrollment": 358,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-01-07",
-          "primary_completion": "2028-08",
-          "completion": "2028-08",
-          "last_update": "2026-10-14",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Brazil",
-            "Canada",
-            "Chile",
-            "Czechia",
-            "France",
-            "Germany",
-            "Hungary"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03418480",
-          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
-          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
-          "acronym": "HARE-40",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "University of Southampton",
-          "conditions": [
-            "Human Papilloma Virus Related Carcinoma",
-            "Head and Neck Neoplasm",
-            "Cervical Neoplasm",
-            "Penile Neoplasms Malignant",
-            "Unknown Primary Tumors"
-          ],
-          "interventions": [
-            "BNT113"
-          ],
-          "primary_outcomes": [
-            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
-          ],
-          "enrollment": 30,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-04-11",
-          "primary_completion": "2023-11-01",
-          "completion": "2024-01-24",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "BNT113",
-          "BNT116",
-          "Autogene",
-          "CD276"
-        ],
-        "sponsor": [
-          "诺诚健华医药",
-          "苏州泽璟生物",
-          "制药股份",
-          "科伦博泰生物"
-        ],
-        "sponsor_en": [
-          "InnoCare",
-          "苏州泽璟生物",
-          "制药股份",
-          "科伦博泰生物"
-        ]
-      },
-      "note": ""
-    }
-  },
-  "162a1860cd04c262": {
-    "id": "162a1860cd04c262",
-    "title": "BioNTech mRNA癌症疫苗首个3期失败！",
-    "score": 8.3,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {
-        "nct": "NCT04534205",
-        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-        "acronym": "AHEAD-MERIT",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2, PHASE3",
-        "sponsor": "BioNTech SE",
-        "conditions": [
-          "Unresectable Head and Neck Squamous Cell Carcinoma",
-          "Metastatic Head and Neck Cancer",
-          "Recurrent Head and Neck Cancer"
-        ],
-        "interventions": [
-          "BNT113",
-          "Pembrolizumab"
-        ],
-        "primary_outcomes": [
-          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-          "Part B - Overall survival (OS)",
-          "Part B - Progression-free survival (PFS)"
-        ],
-        "enrollment": 358,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-01-07",
-        "primary_completion": "2028-08",
-        "completion": "2028-08",
-        "last_update": "2026-10-14",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Argentina",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Brazil",
-          "Canada",
-          "Chile",
-          "Czechia",
-          "France",
-          "Germany",
-          "Hungary"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04534205",
-          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
-          "acronym": "AHEAD-MERIT",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2, PHASE3",
-          "sponsor": "BioNTech SE",
-          "conditions": [
-            "Unresectable Head and Neck Squamous Cell Carcinoma",
-            "Metastatic Head and Neck Cancer",
-            "Recurrent Head and Neck Cancer"
-          ],
-          "interventions": [
-            "BNT113",
-            "Pembrolizumab"
-          ],
-          "primary_outcomes": [
-            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
-            "Part B - Overall survival (OS)",
-            "Part B - Progression-free survival (PFS)"
-          ],
-          "enrollment": 358,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-01-07",
-          "primary_completion": "2028-08",
-          "completion": "2028-08",
-          "last_update": "2026-10-14",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Brazil",
-            "Canada",
-            "Chile",
-            "Czechia",
-            "France",
-            "Germany",
-            "Hungary"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03418480",
-          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
-          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
-          "acronym": "HARE-40",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "University of Southampton",
-          "conditions": [
-            "Human Papilloma Virus Related Carcinoma",
-            "Head and Neck Neoplasm",
-            "Cervical Neoplasm",
-            "Penile Neoplasms Malignant",
-            "Unknown Primary Tumors"
-          ],
-          "interventions": [
-            "BNT113"
-          ],
-          "primary_outcomes": [
-            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
-          ],
-          "enrollment": 30,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-04-11",
-          "primary_completion": "2023-11-01",
-          "completion": "2024-01-24",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [
-          "NCT04534205"
-        ],
-        "drug": [
-          "BNT113"
-        ],
-        "sponsor": [
-          "德国生物制药",
-          "齐鲁制药",
-          "复宏汉霖生物",
-          "技术股份"
-        ],
-        "sponsor_en": [
-          "德国生物制药",
-          "Qilu",
-          "复宏汉霖生物",
-          "技术股份"
-        ]
-      },
-      "note": ""
-    }
-  },
-  "15b408b2a16a0b7c": {
-    "id": "15b408b2a16a0b7c",
-    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "positive_data",
-        "basis": "textual",
-        "confidence": 0.5,
-        "evidence": [
-          "疗效数据表述:全部应答"
-        ],
-        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "positive_data",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "疗效数据表述:全部应答"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:全部应答",
-    "registry": {
-      "best": {
-        "nct": "NCT06413498",
-        "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
-        "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
-        "acronym": "iMMagine-3",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Kite, A Gilead Company",
-        "conditions": [
-          "Multiple Myeloma"
-        ],
-        "interventions": [
-          "Anitocabtagene Autoleucel",
-          "Cyclophosphamide",
-          "Fludarabine",
-          "Pomalidomide",
-          "Bortezomib",
-          "Dexamethasone",
-          "Daratumumab",
-          "Carfilzomib"
-        ],
-        "primary_outcomes": [
-          "Progression-Free Survival (PFS)",
-          "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
-        ],
-        "enrollment": 452,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2024-08-23",
-        "primary_completion": "2028-07",
-        "completion": "2031-07",
-        "last_update": "2026-07-29",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Canada",
-          "Czechia",
-          "France",
-          "Germany",
-          "Italy",
-          "Japan",
-          "Netherlands",
-          "Poland"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT06413498",
-          "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
-          "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
-          "acronym": "iMMagine-3",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Kite, A Gilead Company",
-          "conditions": [
-            "Multiple Myeloma"
-          ],
-          "interventions": [
-            "Anitocabtagene Autoleucel",
-            "Cyclophosphamide",
-            "Fludarabine",
-            "Pomalidomide",
-            "Bortezomib",
-            "Dexamethasone",
-            "Daratumumab",
-            "Carfilzomib"
-          ],
-          "primary_outcomes": [
-            "Progression-Free Survival (PFS)",
-            "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
-          ],
-          "enrollment": 452,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2024-08-23",
-          "primary_completion": "2028-07",
-          "completion": "2031-07",
-          "last_update": "2026-07-29",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Canada",
-            "Czechia",
-            "France",
-            "Germany",
-            "Italy",
-            "Japan",
-            "Netherlands",
-            "Poland"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT05396885",
-          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
-          "official_title": "A Phase II Study of CART-ddBCMA for the Treatment of Patients With Relapsed or Refractory Multiple Myeloma",
-          "acronym": "iMMagine-1",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Kite, A Gilead Company",
-          "conditions": [
-            "Multiple Myeloma"
-          ],
-          "interventions": [
-            "anitocabtagene-autoleucel"
-          ],
-          "primary_outcomes": [
-            "Overall Response Rate (ORR)"
-          ],
-          "enrollment": 136,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2022-07-15",
-          "primary_completion": "2026-12",
-          "completion": "2026-12",
-          "last_update": "2026-02-11",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT04155749",
-          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
-          "official_title": "Master Protocol for the Phase 1 Study of Cell Therapies for the Treatment of Patients With Relapsed Refractory Multiple Myeloma, Including Long-term Safety Follow-up",
-          "acronym": "",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE1",
-          "sponsor": "Kite, A Gilead Company",
-          "conditions": [
-            "Relapsed and Refractory Multiple Myeloma"
-          ],
-          "interventions": [
-            "anitocabtagene-autoleucel"
-          ],
-          "primary_outcomes": [
-            "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
-            "Establish the RP2D of the investigational agent"
-          ],
-          "enrollment": 40,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2019-12-23",
-          "primary_completion": "2024-10-03",
-          "completion": "2027-05",
-          "last_update": "2026-02-11",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "anito-cel",
-          "anitocabtagene",
-          "autoleucel",
-          "Anito-cel"
-        ],
-        "sponsor": [
-          "权均属于生物",
-          "户都在用生物",
-          "合与系统生物"
-        ],
-        "sponsor_en": [
-          "权均属于生物",
-          "户都在用生物",
-          "合与系统生物"
-        ]
-      },
-      "note": ""
-    }
-  },
   "9445c4619742bf8b": {
     "id": "9445c4619742bf8b",
     "title": "BMS拿到两项III期临床成功大结果，怎么股价反而跌了？",
-    "score": 7.5,
+    "score": 8.5,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1334,6 +328,638 @@
         "nct": [],
         "drug": [
           "RYZ101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "956a7fc6b2a7be75": {
+    "id": "956a7fc6b2a7be75",
+    "title": "Endeavor IIb期治疗IPF临床结果喜人，Hedgehog信号通路靶点广受关注",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "达到表述:达到主要终点",
+        "注册库状态=TERMINATED，原因：The sponsor sold the drug TALADEGIB to another company during the trial and ther"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：达到表述:达到主要终点；注册库状态=TERMINATED，原因：The sponsor sold the drug TALADEGIB to another company during the trial and ther",
+    "registry": {
+      "best": {
+        "nct": "NCT02530437",
+        "title": "Taladegib, Paclitaxel, Carboplatin, and Radiation Therapy in Treating Patients With Localized Esophageal or Gastroesophageal Junction Cancer",
+        "official_title": "A Phase 1B/2 Study of Taladegib in Combination With Weekly Paclitaxel, Carboplatin, and Radiation in Localized Adenocarcinoma of the Esophagus or Gastroesophageal Junction",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "The sponsor sold the drug TALADEGIB to another company during the trial and thereafter no drug was available. The sponsor made a decision to stop development of this drug Taladegib.",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "M.D. Anderson Cancer Center",
+        "conditions": [
+          "Gastroesophageal Junction Adenocarcinoma",
+          "Stage IB Esophageal Adenocarcinoma AJCC v7",
+          "Stage II Esophageal Adenocarcinoma AJCC v7",
+          "Stage IIA Esophageal Adenocarcinoma AJCC v7",
+          "Stage IIB Esophageal Adenocarcinoma AJCC v7",
+          "Stage IIIA Esophageal Adenocarcinoma AJCC v7",
+          "Stage IIIB Esophageal Adenocarcinoma AJCC v7"
+        ],
+        "interventions": [
+          "Carboplatin",
+          "External Beam Radiation Therapy",
+          "Laboratory Biomarker Analysis",
+          "Paclitaxel",
+          "Taladegib"
+        ],
+        "primary_outcomes": [
+          "Safety of Taladegib When Given in Combination With Paclitaxel, Carboplatin, and Radiation Therapy Defined by Dose-limiting Toxicities (Phase IB)",
+          "Pathologic Complete Response Rate (Phase II)"
+        ],
+        "enrollment": 7,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2017-03-07",
+        "primary_completion": "2022-01-07",
+        "completion": "2022-01-07",
+        "last_update": "2023-07-10",
+        "results_first_post": "2023-07-10",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02530437",
+          "title": "Taladegib, Paclitaxel, Carboplatin, and Radiation Therapy in Treating Patients With Localized Esophageal or Gastroesophageal Junction Cancer",
+          "official_title": "A Phase 1B/2 Study of Taladegib in Combination With Weekly Paclitaxel, Carboplatin, and Radiation in Localized Adenocarcinoma of the Esophagus or Gastroesophageal Junction",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The sponsor sold the drug TALADEGIB to another company during the trial and thereafter no drug was available. The sponsor made a decision to stop development of this drug Taladegib.",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "M.D. Anderson Cancer Center",
+          "conditions": [
+            "Gastroesophageal Junction Adenocarcinoma",
+            "Stage IB Esophageal Adenocarcinoma AJCC v7",
+            "Stage II Esophageal Adenocarcinoma AJCC v7",
+            "Stage IIA Esophageal Adenocarcinoma AJCC v7",
+            "Stage IIB Esophageal Adenocarcinoma AJCC v7",
+            "Stage IIIA Esophageal Adenocarcinoma AJCC v7",
+            "Stage IIIB Esophageal Adenocarcinoma AJCC v7"
+          ],
+          "interventions": [
+            "Carboplatin",
+            "External Beam Radiation Therapy",
+            "Laboratory Biomarker Analysis",
+            "Paclitaxel",
+            "Taladegib"
+          ],
+          "primary_outcomes": [
+            "Safety of Taladegib When Given in Combination With Paclitaxel, Carboplatin, and Radiation Therapy Defined by Dose-limiting Toxicities (Phase IB)",
+            "Pathologic Complete Response Rate (Phase II)"
+          ],
+          "enrollment": 7,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-03-07",
+          "primary_completion": "2022-01-07",
+          "completion": "2022-01-07",
+          "last_update": "2023-07-10",
+          "results_first_post": "2023-07-10",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02784795",
+          "title": "A Study of LY3039478 in Participants With Advanced or Metastatic Solid Tumors",
+          "official_title": "A Phase 1b Study of LY3039478 in Combination With Other Anticancer Agents in Patients With Advanced or Metastatic Solid Tumors",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The study was terminated due to business considerations",
+          "phase": "PHASE1",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Solid Tumor",
+            "Breast Cancer",
+            "Colon Cancer",
+            "Cholangiocarcinoma",
+            "Soft Tissue Sarcoma"
+          ],
+          "interventions": [
+            "LY3039478",
+            "Taladegib",
+            "Abemaciclib",
+            "Cisplatin",
+            "Gemcitabine",
+            "Carboplatin",
+            "LY3023414"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With LY3039478 Dose-Limiting Toxicities (DLT) in Part A, B, C, D and E"
+          ],
+          "enrollment": 94,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-11-04",
+          "primary_completion": "2018-08-09",
+          "completion": "2020-02-13",
+          "last_update": "2025-08-21",
+          "results_first_post": "2025-08-21",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Denmark",
+            "France",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT01226485",
+          "title": "A Study in Advanced Cancer",
+          "official_title": "A Phase 1 Dose-Escalation Study of LY2940680 in Patients With Advanced Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Advanced Cancer"
+          ],
+          "interventions": [
+            "Taladegib"
+          ],
+          "primary_outcomes": [
+            "Recommended Phase 2 Dose: Maximum Tolerated Dose"
+          ],
+          "enrollment": 84,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2010-09",
+          "primary_completion": "2015-01",
+          "completion": "2017-10",
+          "last_update": "2019-09-13",
+          "results_first_post": "2019-09-13",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "taladegib",
+          "ENV-101"
+        ],
+        "sponsor": [
+          "中山康方生物",
+          "苏州泽璟生物",
+          "制药股份",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "苏州泽璟生物",
+          "制药股份",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "ed253d216a7f4b78": {
+    "id": "ed253d216a7f4b78",
+    "title": "BioNTech mRNA癌症疫苗III期临床未达终点",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:未达终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:未达终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:未达终点",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "CD276"
+        ],
+        "sponsor": [
+          "信达生物制药",
+          "泰诺麦博制药",
+          "上海复星医药",
+          "百利天恒药业"
+        ],
+        "sponsor_en": [
+          "Innovent",
+          "泰诺麦博制药",
+          "Fosun",
+          "百利天恒药业"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "abf57879ea88c61e": {
+    "id": "abf57879ea88c61e",
+    "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "Pembrolizumab"
         ],
         "sponsor": [],
         "sponsor_en": []
@@ -1591,10 +1217,454 @@
       "note": ""
     }
   },
-  "3cb598bb2df68a88": {
-    "id": "3cb598bb2df68a88",
-    "title": "Syndax's lung disease ambitions for Niktimvo end with a Phase 2 failure",
+  "a5e7a5e68aaa0989": {
+    "id": "a5e7a5e68aaa0989",
+    "title": "BioNTech跌7%：HPV mRNA疫苗头颈癌2/3期临床错失PFS主要终点",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "BNT116",
+          "Autogene",
+          "CD276"
+        ],
+        "sponsor": [
+          "天士力医药",
+          "集团股份",
+          "沈阳三生制药",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "天士力医药",
+          "集团股份",
+          "3SBio",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "162a1860cd04c262": {
+    "id": "162a1860cd04c262",
+    "title": "BioNTech mRNA癌症疫苗首个3期失败！",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT04534205"
+        ],
+        "drug": [
+          "BNT113"
+        ],
+        "sponsor": [
+          "德国生物制药",
+          "齐鲁制药",
+          "复宏汉霖生物",
+          "技术股份"
+        ],
+        "sponsor_en": [
+          "德国生物制药",
+          "Qilu",
+          "复宏汉霖生物",
+          "技术股份"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "bc98a9065f9b6c09": {
+    "id": "bc98a9065f9b6c09",
+    "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
     "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "士泽生物"
+        ],
+        "sponsor_en": [
+          "士泽生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（士泽生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "201bd75644bf3112": {
+    "id": "201bd75644bf3112",
+    "title": "<![CDATA[SBRT Ablation Fails to Extend PFS in Oligometastatic Breast Cancer]]>",
+    "score": 6.0,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1866,246 +1936,6 @@
       "note": ""
     }
   },
-  "956a7fc6b2a7be75": {
-    "id": "956a7fc6b2a7be75",
-    "title": "Endeavor IIb期治疗IPF临床结果喜人，Hedgehog信号通路靶点广受关注",
-    "score": 6.8,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "halted",
-      "basis": "registry_status",
-      "confidence": 0.85,
-      "evidence": [
-        "达到表述:达到主要终点",
-        "注册库状态=TERMINATED，原因：The sponsor sold the drug TALADEGIB to another company during the trial and ther"
-      ],
-      "conflict": false,
-      "halt_reason": "other"
-    },
-    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：达到表述:达到主要终点；注册库状态=TERMINATED，原因：The sponsor sold the drug TALADEGIB to another company during the trial and ther",
-    "registry": {
-      "best": {
-        "nct": "NCT02530437",
-        "title": "Taladegib, Paclitaxel, Carboplatin, and Radiation Therapy in Treating Patients With Localized Esophageal or Gastroesophageal Junction Cancer",
-        "official_title": "A Phase 1B/2 Study of Taladegib in Combination With Weekly Paclitaxel, Carboplatin, and Radiation in Localized Adenocarcinoma of the Esophagus or Gastroesophageal Junction",
-        "acronym": "",
-        "status": "TERMINATED",
-        "why_stopped": "The sponsor sold the drug TALADEGIB to another company during the trial and thereafter no drug was available. The sponsor made a decision to stop development of this drug Taladegib.",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "M.D. Anderson Cancer Center",
-        "conditions": [
-          "Gastroesophageal Junction Adenocarcinoma",
-          "Stage IB Esophageal Adenocarcinoma AJCC v7",
-          "Stage II Esophageal Adenocarcinoma AJCC v7",
-          "Stage IIA Esophageal Adenocarcinoma AJCC v7",
-          "Stage IIB Esophageal Adenocarcinoma AJCC v7",
-          "Stage IIIA Esophageal Adenocarcinoma AJCC v7",
-          "Stage IIIB Esophageal Adenocarcinoma AJCC v7"
-        ],
-        "interventions": [
-          "Carboplatin",
-          "External Beam Radiation Therapy",
-          "Laboratory Biomarker Analysis",
-          "Paclitaxel",
-          "Taladegib"
-        ],
-        "primary_outcomes": [
-          "Safety of Taladegib When Given in Combination With Paclitaxel, Carboplatin, and Radiation Therapy Defined by Dose-limiting Toxicities (Phase IB)",
-          "Pathologic Complete Response Rate (Phase II)"
-        ],
-        "enrollment": 7,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2017-03-07",
-        "primary_completion": "2022-01-07",
-        "completion": "2022-01-07",
-        "last_update": "2023-07-10",
-        "results_first_post": "2023-07-10",
-        "has_results": true,
-        "countries": [
-          "United States"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT02530437",
-          "title": "Taladegib, Paclitaxel, Carboplatin, and Radiation Therapy in Treating Patients With Localized Esophageal or Gastroesophageal Junction Cancer",
-          "official_title": "A Phase 1B/2 Study of Taladegib in Combination With Weekly Paclitaxel, Carboplatin, and Radiation in Localized Adenocarcinoma of the Esophagus or Gastroesophageal Junction",
-          "acronym": "",
-          "status": "TERMINATED",
-          "why_stopped": "The sponsor sold the drug TALADEGIB to another company during the trial and thereafter no drug was available. The sponsor made a decision to stop development of this drug Taladegib.",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "M.D. Anderson Cancer Center",
-          "conditions": [
-            "Gastroesophageal Junction Adenocarcinoma",
-            "Stage IB Esophageal Adenocarcinoma AJCC v7",
-            "Stage II Esophageal Adenocarcinoma AJCC v7",
-            "Stage IIA Esophageal Adenocarcinoma AJCC v7",
-            "Stage IIB Esophageal Adenocarcinoma AJCC v7",
-            "Stage IIIA Esophageal Adenocarcinoma AJCC v7",
-            "Stage IIIB Esophageal Adenocarcinoma AJCC v7"
-          ],
-          "interventions": [
-            "Carboplatin",
-            "External Beam Radiation Therapy",
-            "Laboratory Biomarker Analysis",
-            "Paclitaxel",
-            "Taladegib"
-          ],
-          "primary_outcomes": [
-            "Safety of Taladegib When Given in Combination With Paclitaxel, Carboplatin, and Radiation Therapy Defined by Dose-limiting Toxicities (Phase IB)",
-            "Pathologic Complete Response Rate (Phase II)"
-          ],
-          "enrollment": 7,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-03-07",
-          "primary_completion": "2022-01-07",
-          "completion": "2022-01-07",
-          "last_update": "2023-07-10",
-          "results_first_post": "2023-07-10",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT02784795",
-          "title": "A Study of LY3039478 in Participants With Advanced or Metastatic Solid Tumors",
-          "official_title": "A Phase 1b Study of LY3039478 in Combination With Other Anticancer Agents in Patients With Advanced or Metastatic Solid Tumors",
-          "acronym": "",
-          "status": "TERMINATED",
-          "why_stopped": "The study was terminated due to business considerations",
-          "phase": "PHASE1",
-          "sponsor": "Eli Lilly and Company",
-          "conditions": [
-            "Solid Tumor",
-            "Breast Cancer",
-            "Colon Cancer",
-            "Cholangiocarcinoma",
-            "Soft Tissue Sarcoma"
-          ],
-          "interventions": [
-            "LY3039478",
-            "Taladegib",
-            "Abemaciclib",
-            "Cisplatin",
-            "Gemcitabine",
-            "Carboplatin",
-            "LY3023414"
-          ],
-          "primary_outcomes": [
-            "Number of Participants With LY3039478 Dose-Limiting Toxicities (DLT) in Part A, B, C, D and E"
-          ],
-          "enrollment": 94,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2016-11-04",
-          "primary_completion": "2018-08-09",
-          "completion": "2020-02-13",
-          "last_update": "2025-08-21",
-          "results_first_post": "2025-08-21",
-          "has_results": true,
-          "countries": [
-            "United States",
-            "Denmark",
-            "France",
-            "Spain"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT01226485",
-          "title": "A Study in Advanced Cancer",
-          "official_title": "A Phase 1 Dose-Escalation Study of LY2940680 in Patients With Advanced Cancer",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1",
-          "sponsor": "Eli Lilly and Company",
-          "conditions": [
-            "Advanced Cancer"
-          ],
-          "interventions": [
-            "Taladegib"
-          ],
-          "primary_outcomes": [
-            "Recommended Phase 2 Dose: Maximum Tolerated Dose"
-          ],
-          "enrollment": 84,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2010-09",
-          "primary_completion": "2015-01",
-          "completion": "2017-10",
-          "last_update": "2019-09-13",
-          "results_first_post": "2019-09-13",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "taladegib",
-          "ENV-101"
-        ],
-        "sponsor": [
-          "中山康方生物",
-          "苏州泽璟生物",
-          "制药股份",
-          "江苏恒瑞医药"
-        ],
-        "sponsor_en": [
-          "Akeso",
-          "苏州泽璟生物",
-          "制药股份",
-          "Hengrui"
-        ]
-      },
-      "note": ""
-    }
-  },
   "ab0e300913d46de9": {
     "id": "ab0e300913d46de9",
     "title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
@@ -2146,7 +1976,7 @@
   "1111300ea6d10515": {
     "id": "1111300ea6d10515",
     "title": "Talazoparib plus enzalutamide in high-volume metastatic hormone-naive prostate cancer: a randomized phase 2 trial",
-    "score": 6.0,
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {
