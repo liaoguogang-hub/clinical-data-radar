@@ -101,6 +101,55 @@ def _split_row(line: str) -> list[str]:
     return [p.strip() for p in parts]
 
 
+def _merge_split_markers(text: str) -> str:
+    """
+    把「标记词单独一行、内容在下一行」的写法合并回一行。
+
+    # 为什么需要这个（2026-10-15 事故）
+
+    提示词里已经反复强调 `ENDCARD 标题 | 内容`，还给了 ❌/✅ 对照，
+    但模型仍然经常写成两行：
+
+        ENDCARD
+        真正的看点 | 这不是一次普通的读出，而是赛道的分水岭。
+
+    RE_ENDCARD 要求标记后必须有竖线，所以第一行匹配不上，
+    掉进下面的"裸标记行"分支 → marker_errors → 整篇作废。
+    **结果就是内容其实完全写对了，仅仅因为换了个行就被判死。**
+
+    实测那天 3 篇 × 4 次重试 = 12 次机会全部耗在这一个格式问题上，
+    最后 0 篇成稿 —— 而选题明明有 3 篇。
+
+    # 修法：在解析前做一次"缝合"，而不是报错
+
+    宽松只放在【解析】这一层，【输出】那层仍然严格：
+    缝合后照样走 RE_ENDCARD，生成的还是正规结语卡，
+    读者看到的 HTML 不受影响。
+    真正内容缺失（下一行也没有 `|`）的，仍然照旧报错。
+
+    只对 ENDCARD / TABLE / BOX / FN 这些"标签 | 内容"型标记做，
+    TITLE/HOOK/KICKER 那几个后面接的是多行正文，不能这么缝。
+    """
+    out: list[str] = []
+    lines = text.split("\n")
+    # 只处理这三个「标记 标题 | 内容」型的；TITLE/HOOK/KICKER 后面接的是
+    # 多行正文，不能这么缝（缝了反而把正文吞掉）。
+    for i, raw in enumerate(lines):
+        s = raw.strip()
+        m = re.match(r"^(ENDCARD|TABLE|BOX)\s*$", s, re.I)
+        if m and i + 1 < len(lines):
+            nxt = lines[i + 1].strip()
+            # 下一行必须有竖线，且不是又一个标记行，才值得缝
+            if nxt and "|" in nxt and not re.match(
+                    r"^(ENDCARD|ENDTABLE|TABLE|BOX|FN|KICKER|TITLE|SUB|HOOK)\b",
+                    nxt, re.I):
+                out.append(f"{m.group(1).upper()} {nxt}")
+                lines[i + 1] = ""      # 标记为已消费
+                continue
+        out.append(raw)
+    return "\n".join(out)
+
+
 def parse_content(text: str) -> dict:
     """
     把轻量标记文本解析成结构化内容。
@@ -133,7 +182,9 @@ def parse_content(text: str) -> dict:
         else:
             doc["loose"].append(blk)
 
-    for raw in text.split("\n"):
+    # ⚠️ 先缝合"标记单独成行、内容在下一行"的写法（见 _merge_split_markers 的说明）。
+    #    不做这一步的话，模型换行写的 ENDCARD 会被判成裸标记 → 整篇作废。
+    for raw in _merge_split_markers(text).split("\n"):
         line = raw.rstrip()
         s = line.strip()
         if not s:
