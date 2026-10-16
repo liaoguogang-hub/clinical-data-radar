@@ -1,0 +1,2252 @@
+{
+  "1c7c0d2c7f525db7": {
+    "id": "1c7c0d2c7f525db7",
+    "title": "[Articles] Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial",
+    "score": 9.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:discontinuation"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:discontinuation"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:discontinuation",
+    "registry": {
+      "best": {
+        "nct": "NCT06010004",
+        "title": "A Long-term Safety Study of Orforglipron (LY3502970) in Participants With Type 2 Diabetes",
+        "official_title": "A Phase 3, Long-term Safety Study of LY3502970 in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone or in Combination With Oral Antihyperglycemic Medications (ACHIEVE-J)",
+        "acronym": "ACHIEVE-J",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Eli Lilly and Company",
+        "conditions": [
+          "Type 2 Diabetes"
+        ],
+        "interventions": [
+          "Orforglipron"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Treatment Emergent Adverse Events (TEAEs)"
+        ],
+        "enrollment": 401,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-09-28",
+        "primary_completion": "2025-06-05",
+        "completion": "2025-06-05",
+        "last_update": "2026-06-30",
+        "results_first_post": "2026-06-30",
+        "has_results": true,
+        "countries": [
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06010004",
+          "title": "A Long-term Safety Study of Orforglipron (LY3502970) in Participants With Type 2 Diabetes",
+          "official_title": "A Phase 3, Long-term Safety Study of LY3502970 in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone or in Combination With Oral Antihyperglycemic Medications (ACHIEVE-J)",
+          "acronym": "ACHIEVE-J",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Type 2 Diabetes"
+          ],
+          "interventions": [
+            "Orforglipron"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Treatment Emergent Adverse Events (TEAEs)"
+          ],
+          "enrollment": 401,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-09-28",
+          "primary_completion": "2025-06-05",
+          "completion": "2025-06-05",
+          "last_update": "2026-06-30",
+          "results_first_post": "2026-06-30",
+          "has_results": true,
+          "countries": [
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06948422",
+          "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Hypertension and Obesity or Overweight: (ATTAIN-Hypertension Screening)",
+          "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants With Hypertension and Obesity or Overweight: Randomized, Double-Blind, Placebo-Controlled Trials (ATTAIN-HYPERTENSION)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Hypertension"
+          ],
+          "interventions": [
+            "Orforglipron",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of Participants Allocated to Each ISA"
+          ],
+          "enrollment": 974,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-04-30",
+          "primary_completion": "2027-09",
+          "completion": "2027-09",
+          "last_update": "2026-05-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "China",
+            "Czechia",
+            "Germany",
+            "Greece",
+            "India",
+            "Japan",
+            "Poland",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06948435",
+          "title": "A Master Protocol Study of Orforglipron (LY3502970) in Participants With Hypertension and Obesity or Overweight (ATTAIN-Hypertension) GZL1",
+          "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants With Hypertension and Obesity or Overweight: Randomized, Double-Blind, Placebo-Controlled Trials (ATTAIN-HYPERTENSION)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Hypertension",
+            "Overweight or Obesity"
+          ],
+          "interventions": [
+            "Orforglipron",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in office Systolic Blood Pressure (SBP)"
+          ],
+          "enrollment": 487,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-04-30",
+          "primary_completion": "2027-09",
+          "completion": "2027-09",
+          "last_update": "2026-05-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "China",
+            "Czechia",
+            "Germany",
+            "Greece",
+            "India",
+            "Japan",
+            "Poland",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "orforglipron"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "b43d502bb4df1af0": {
+    "id": "b43d502bb4df1af0",
+    "title": "<![CDATA[Retlirafusp Alfa Improves Overall Survival in Phase 3 Trial of HER2– Gastric Cancer]]>",
+    "score": 7.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT00677118",
+        "title": "Adjuvant Chemotherapy in Patients With Locoregionally Advanced Nasopharyngeal Carcinoma",
+        "official_title": "A Multicenter Prospective Randomized Trial Comparing Concurrent Chemoradiotherapy Plus Adjuvant Chemotherapy With Concurrent Chemoradiotherapy in Patients With Locoregionally Advanced Nasopharyngeal Carcinoma",
+        "acronym": "",
+        "status": "UNKNOWN",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Sun Yat-sen University",
+        "conditions": [
+          "Nasopharyngeal Carcinoma"
+        ],
+        "interventions": [
+          "Cisplatin,fluorouracil",
+          "Cisplatin"
+        ],
+        "primary_outcomes": [
+          "Failure-free survival"
+        ],
+        "enrollment": 506,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2006-06",
+        "primary_completion": "2015-03",
+        "completion": "2015-03",
+        "last_update": "2013-07-12",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT00677118",
+          "title": "Adjuvant Chemotherapy in Patients With Locoregionally Advanced Nasopharyngeal Carcinoma",
+          "official_title": "A Multicenter Prospective Randomized Trial Comparing Concurrent Chemoradiotherapy Plus Adjuvant Chemotherapy With Concurrent Chemoradiotherapy in Patients With Locoregionally Advanced Nasopharyngeal Carcinoma",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Sun Yat-sen University",
+          "conditions": [
+            "Nasopharyngeal Carcinoma"
+          ],
+          "interventions": [
+            "Cisplatin,fluorouracil",
+            "Cisplatin"
+          ],
+          "primary_outcomes": [
+            "Failure-free survival"
+          ],
+          "enrollment": 506,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2006-06",
+          "primary_completion": "2015-03",
+          "completion": "2015-03",
+          "last_update": "2013-07-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07682376",
+          "title": "Low-Dose Radiotherapy With Retlirafusp Alfa and Chemotherapy as Neoadjuvant Therapy for Resectable Locally Advanced Esophageal Squamous Cell Carcinoma",
+          "official_title": "Low-Dose Radiotherapy Combined With Retlirafusp Alfa and Chemotherapy as Neoadjuvant Therapy for Resectable Locally Advanced Esophageal Squamous Cell Carcinoma: An Exploratory Phase II Study",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Harbin Medical University",
+          "conditions": [
+            "Esophageal Squamous Cell Carcinoma (ESCC)"
+          ],
+          "interventions": [
+            "Low-dose radiotherapy + Retlirafusp alfa + nab-paclitaxel + cisplatin/carboplatin",
+            "Retlirafusp alfa + nab-paclitaxel + cisplatin/carboplatin"
+          ],
+          "primary_outcomes": [
+            "Pathological Complete Response (pCR)"
+          ],
+          "enrollment": 96,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-06-10",
+          "primary_completion": "2028-05-30",
+          "completion": "2029-05-30",
+          "last_update": "2026-07-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07752550",
+          "title": "Retlirafusp Alfa Combined With Chemotherapy or Fuzuloparib for Triple-Negative Breast Cancer",
+          "official_title": "Retlirafusp Alfa Combined With Chemotherapy or Fuzuloparib for Triple-Negative Breast Cancer: An Exploratory Clinical Study",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Harbin Medical University",
+          "conditions": [
+            "Triple-Negative Breast Cancer (TNBC)"
+          ],
+          "interventions": [
+            "Retlirafusp alfa+Nab-paclitaxel:",
+            "Retlirafusp alfa+Fluzoparib",
+            "Retlirafusp alfa+TP-AC",
+            "Retlirafusp alfa+Fluzoparib"
+          ],
+          "primary_outcomes": [
+            "Late-Stage Cohort-Objective Response Rate",
+            "Neoadjuvant Cohort-tpCR (ypT0/is ypN0)"
+          ],
+          "enrollment": 120,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-30",
+          "primary_completion": "2028-07-30",
+          "completion": "2029-07-30",
+          "last_update": "2026-08-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Retlirafusp"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "5cdbaa40d056e991": {
+    "id": "5cdbaa40d056e991",
+    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "abf57879ea88c61e": {
+    "id": "abf57879ea88c61e",
+    "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "dd92cea6476654e7": {
+    "id": "dd92cea6476654e7",
+    "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT04534205"
+        ],
+        "drug": [
+          "BNT113"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "37c656abf0dc2bd5": {
+    "id": "37c656abf0dc2bd5",
+    "title": "Syndax股价盘后大跌17%！axatilimab治疗IPF的II期MAXPIRe未达主要终点，FVC年下降率失败",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed_and_halted",
+        "basis": "textual",
+        "confidence": 0.85,
+        "evidence": [
+          "失败表述:未达主要终点",
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed_and_halted",
+      "basis": "textual",
+      "confidence": 0.85,
+      "evidence": [
+        "失败表述:未达主要终点",
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到终点且已终止\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.85\n证据：失败表述:未达主要终点；终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT03604692",
+        "title": "A Phase 1/2 Study to Evaluate Axatilimab in Participants With Active cGVHD",
+        "official_title": "A Phase 1/2, Open-Label, Dose Escalation and Dose Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamic Activity, and Efficacy of SNDX- 6352 in Subjects With Active Chronic Graft Versus Host Disease Who Have Received at Least 2 Lines of Prior Therapy",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Syndax Pharmaceuticals",
+        "conditions": [
+          "Chronic Graft-versus-host-disease"
+        ],
+        "interventions": [
+          "axatilimab"
+        ],
+        "primary_outcomes": [
+          "Phase 1: Number of Participants With DLTs",
+          "Phase 1: Recommended Phase 2 Dose (RP2D)",
+          "Phase 2: Overall Response Rate (ORR) as Assessed by the Number of Participants With Complete Response (CR) or Partial Response (PR) at Cycle 7 Day 1 (Day 168)"
+        ],
+        "enrollment": 41,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-11-01",
+        "primary_completion": "2022-08-12",
+        "completion": "2024-10-18",
+        "last_update": "2025-09-15",
+        "results_first_post": "2024-11-27",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03604692",
+          "title": "A Phase 1/2 Study to Evaluate Axatilimab in Participants With Active cGVHD",
+          "official_title": "A Phase 1/2, Open-Label, Dose Escalation and Dose Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamic Activity, and Efficacy of SNDX- 6352 in Subjects With Active Chronic Graft Versus Host Disease Who Have Received at Least 2 Lines of Prior Therapy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Syndax Pharmaceuticals",
+          "conditions": [
+            "Chronic Graft-versus-host-disease"
+          ],
+          "interventions": [
+            "axatilimab"
+          ],
+          "primary_outcomes": [
+            "Phase 1: Number of Participants With DLTs",
+            "Phase 1: Recommended Phase 2 Dose (RP2D)",
+            "Phase 2: Overall Response Rate (ORR) as Assessed by the Number of Participants With Complete Response (CR) or Partial Response (PR) at Cycle 7 Day 1 (Day 168)"
+          ],
+          "enrollment": 41,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-11-01",
+          "primary_completion": "2022-08-12",
+          "completion": "2024-10-18",
+          "last_update": "2025-09-15",
+          "results_first_post": "2024-11-27",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06585774",
+          "title": "A Study to Evaluate Axatilimab and Corticosteroids as Initial Treatment for Chronic Graft-Versus-Host Disease",
+          "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study of Axatilimab and Corticosteroids as Initial Treatment for Chronic Graft-Versus-Host Disease (AXemplify-357)",
+          "acronym": "AXemplify-357",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Incyte Corporation",
+          "conditions": [
+            "Chronic Graft-versus-host-disease"
+          ],
+          "interventions": [
+            "INCA034176",
+            "Placebo",
+            "Corticosteroids"
+          ],
+          "primary_outcomes": [
+            "Event Free Survival (EFS)"
+          ],
+          "enrollment": 240,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-01-21",
+          "primary_completion": "2027-09-28",
+          "completion": "2030-03-31",
+          "last_update": "2026-10-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Canada",
+            "Denmark",
+            "France",
+            "Germany",
+            "Ireland",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06388564",
+          "title": "A Study to Evaluate the Safety and Efficacy of Axatilimab in Combination With Ruxolitinib in Participants With Newly Diagnosed Chronic Graft-Versus-Host Disease",
+          "official_title": "A Phase 2, Open-Label, Randomized, Multicenter Study to Evaluate the Safety and Efficacy of Axatilimab in Combination With Ruxolitinib in Participants With Newly Diagnosed Chronic Graft-Versus-Host Disease",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Incyte Corporation",
+          "conditions": [
+            "Chronic Graft-versus-host-disease"
+          ],
+          "interventions": [
+            "Axatilimab",
+            "Ruxolitinib",
+            "Corticosteroids"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate"
+          ],
+          "enrollment": 130,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-10-11",
+          "primary_completion": "2026-10-01",
+          "completion": "2029-03-30",
+          "last_update": "2026-10-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Canada",
+            "Germany",
+            "Italy",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06388564",
+          "NCT06585774"
+        ],
+        "drug": [
+          "axatilimab"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "长春金赛药业",
+          "江苏恒瑞医药",
+          "北京泰德制药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "GeneScience",
+          "Hengrui",
+          "北京泰德制药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "597c1448cde1aa9d": {
+    "id": "597c1448cde1aa9d",
+    "title": "<![CDATA[SurVaxM Cancer Vaccine Shows Clinically Meaningful OS Signal in Newly Diagnosed Glioblastoma]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "bebf3d65e372814e": {
+    "id": "bebf3d65e372814e",
+    "title": "艾伯维公布3期AFFIRM研究新数据：SKYRIZI®（risankizumab-rzaa）皮下给药治疗中度至重度活动性克罗恩病的临床及内镜结果",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04102007",
+        "title": "A Study of the Safety and Efficacy of Risankizumab in Adult Participants With Plaque Psoriasis Who Have Had a Suboptimal Response to Secukinumab or Ixekizumab",
+        "official_title": "A Phase 3b, Multicenter, Interventional, Open-label Study of Adult Subjects With Moderate to Severe Plaque Psoriasis Who Have a Suboptimal Response to Secukinumab or Ixekizumab and Are Switched to Risankizumab",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AbbVie",
+        "conditions": [
+          "Plaque Psoriasis"
+        ],
+        "interventions": [
+          "Risankizumab"
+        ],
+        "primary_outcomes": [
+          "Proportion of Participants Achieving Static Physician Global Assessment (sPGA) 0/1"
+        ],
+        "enrollment": 244,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-11-12",
+        "primary_completion": "2022-01-17",
+        "completion": "2022-11-07",
+        "last_update": "2023-11-27",
+        "results_first_post": "2023-03-21",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Germany",
+          "Israel",
+          "Italy",
+          "Spain",
+          "Taiwan",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04102007",
+          "title": "A Study of the Safety and Efficacy of Risankizumab in Adult Participants With Plaque Psoriasis Who Have Had a Suboptimal Response to Secukinumab or Ixekizumab",
+          "official_title": "A Phase 3b, Multicenter, Interventional, Open-label Study of Adult Subjects With Moderate to Severe Plaque Psoriasis Who Have a Suboptimal Response to Secukinumab or Ixekizumab and Are Switched to Risankizumab",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Plaque Psoriasis"
+          ],
+          "interventions": [
+            "Risankizumab"
+          ],
+          "primary_outcomes": [
+            "Proportion of Participants Achieving Static Physician Global Assessment (sPGA) 0/1"
+          ],
+          "enrollment": 244,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-11-12",
+          "primary_completion": "2022-01-17",
+          "completion": "2022-11-07",
+          "last_update": "2023-11-27",
+          "results_first_post": "2023-03-21",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Germany",
+            "Israel",
+            "Italy",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03255382",
+          "title": "A Study to Assess the Efficacy of Risankizumab Compared to FUMADERM® in Subjects With Moderate to Severe Plaque Psoriasis Who Are Naïve to and Candidates for Systemic Therapy",
+          "official_title": "A Randomized, Controlled, Multicenter, Open Label Study With Blinded Assessment of the Efficacy of the Humanized Anti-IL-23p19 Risankizumab Compared to FUMADERM® in Subjects With Moderate to Severe Plaque Psoriasis Who Are Naïve to and Candidates for Systemic Therapy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Psoriasis"
+          ],
+          "interventions": [
+            "Fumaderm",
+            "risankizumab"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants Achieving 90% Improvement in Psoriasis Area and Severity Index (PASI90) at Week 24"
+          ],
+          "enrollment": 120,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-08-22",
+          "primary_completion": "2018-07-06",
+          "completion": "2018-07-06",
+          "last_update": "2019-09-13",
+          "results_first_post": "2019-09-13",
+          "has_results": true,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06641089",
+          "title": "Evaluation of Sonelokimab in Patients With Active Psoriatic Arthritis and Anti-TNFα Inadequate Response",
+          "official_title": "A Phase 3, Parallel-group, Randomized, Double-blind, 4-arm, Placebo-controlled, Multicenter Study With Risankizumab as Active Reference Arm, to Investigate the Efficacy and Safety of Subcutaneous Sonelokimab in Male and Female Participants Aged 18 Years and Over With Active Psoriatic Arthritis and Previous Inadequate Response or Intolerance to Tumor Necrosis Factor-α Inhibitors",
+          "acronym": "IZAR-2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "MoonLake Immunotherapeutics AG",
+          "conditions": [
+            "Arthritis, Psoriatic"
+          ],
+          "interventions": [
+            "Sonelokimab",
+            "Placebo",
+            "Risankizumab"
+          ],
+          "primary_outcomes": [
+            "Response rate of participants achieving at least a 50% improvement in the American College of Rheumatology criteria (ACR50)"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-15",
+          "primary_completion": "2027-01-04",
+          "completion": "2027-09-13",
+          "last_update": "2026-10-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Bulgaria",
+            "Canada",
+            "Czechia",
+            "France",
+            "Georgia",
+            "Germany",
+            "Hungary",
+            "Poland",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "risankizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "ad670d6d99a83c83": {
+    "id": "ad670d6d99a83c83",
+    "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "targeted"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "ef84688166819007": {
+    "id": "ef84688166819007",
+    "title": "疗效没有临床意义，还值得继续开发吗？",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到了主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到了主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到了主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "非劣效的生物"
+        ],
+        "sponsor_en": [
+          "非劣效的生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（非劣效的生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "9359158810876950": {
+    "id": "9359158810876950",
+    "title": "年销175亿美元！艾伯维重磅药物III期再传积极数据",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04102007",
+        "title": "A Study of the Safety and Efficacy of Risankizumab in Adult Participants With Plaque Psoriasis Who Have Had a Suboptimal Response to Secukinumab or Ixekizumab",
+        "official_title": "A Phase 3b, Multicenter, Interventional, Open-label Study of Adult Subjects With Moderate to Severe Plaque Psoriasis Who Have a Suboptimal Response to Secukinumab or Ixekizumab and Are Switched to Risankizumab",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AbbVie",
+        "conditions": [
+          "Plaque Psoriasis"
+        ],
+        "interventions": [
+          "Risankizumab"
+        ],
+        "primary_outcomes": [
+          "Proportion of Participants Achieving Static Physician Global Assessment (sPGA) 0/1"
+        ],
+        "enrollment": 244,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-11-12",
+        "primary_completion": "2022-01-17",
+        "completion": "2022-11-07",
+        "last_update": "2023-11-27",
+        "results_first_post": "2023-03-21",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Germany",
+          "Israel",
+          "Italy",
+          "Spain",
+          "Taiwan",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04102007",
+          "title": "A Study of the Safety and Efficacy of Risankizumab in Adult Participants With Plaque Psoriasis Who Have Had a Suboptimal Response to Secukinumab or Ixekizumab",
+          "official_title": "A Phase 3b, Multicenter, Interventional, Open-label Study of Adult Subjects With Moderate to Severe Plaque Psoriasis Who Have a Suboptimal Response to Secukinumab or Ixekizumab and Are Switched to Risankizumab",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Plaque Psoriasis"
+          ],
+          "interventions": [
+            "Risankizumab"
+          ],
+          "primary_outcomes": [
+            "Proportion of Participants Achieving Static Physician Global Assessment (sPGA) 0/1"
+          ],
+          "enrollment": 244,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-11-12",
+          "primary_completion": "2022-01-17",
+          "completion": "2022-11-07",
+          "last_update": "2023-11-27",
+          "results_first_post": "2023-03-21",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Germany",
+            "Israel",
+            "Italy",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03255382",
+          "title": "A Study to Assess the Efficacy of Risankizumab Compared to FUMADERM® in Subjects With Moderate to Severe Plaque Psoriasis Who Are Naïve to and Candidates for Systemic Therapy",
+          "official_title": "A Randomized, Controlled, Multicenter, Open Label Study With Blinded Assessment of the Efficacy of the Humanized Anti-IL-23p19 Risankizumab Compared to FUMADERM® in Subjects With Moderate to Severe Plaque Psoriasis Who Are Naïve to and Candidates for Systemic Therapy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Psoriasis"
+          ],
+          "interventions": [
+            "Fumaderm",
+            "risankizumab"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants Achieving 90% Improvement in Psoriasis Area and Severity Index (PASI90) at Week 24"
+          ],
+          "enrollment": 120,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-08-22",
+          "primary_completion": "2018-07-06",
+          "completion": "2018-07-06",
+          "last_update": "2019-09-13",
+          "results_first_post": "2019-09-13",
+          "has_results": true,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06641089",
+          "title": "Evaluation of Sonelokimab in Patients With Active Psoriatic Arthritis and Anti-TNFα Inadequate Response",
+          "official_title": "A Phase 3, Parallel-group, Randomized, Double-blind, 4-arm, Placebo-controlled, Multicenter Study With Risankizumab as Active Reference Arm, to Investigate the Efficacy and Safety of Subcutaneous Sonelokimab in Male and Female Participants Aged 18 Years and Over With Active Psoriatic Arthritis and Previous Inadequate Response or Intolerance to Tumor Necrosis Factor-α Inhibitors",
+          "acronym": "IZAR-2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "MoonLake Immunotherapeutics AG",
+          "conditions": [
+            "Arthritis, Psoriatic"
+          ],
+          "interventions": [
+            "Sonelokimab",
+            "Placebo",
+            "Risankizumab"
+          ],
+          "primary_outcomes": [
+            "Response rate of participants achieving at least a 50% improvement in the American College of Rheumatology criteria (ACR50)"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-15",
+          "primary_completion": "2027-01-04",
+          "completion": "2027-09-13",
+          "last_update": "2026-10-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Bulgaria",
+            "Canada",
+            "Czechia",
+            "France",
+            "Georgia",
+            "Germany",
+            "Hungary",
+            "Poland",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "risankizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "b80101b8624a2d20": {
+    "id": "b80101b8624a2d20",
+    "title": "[Articles] Efficacy and safety of garetosmab, an activin A-blocking antibody, in fibrodysplasia ossificans progressiva (OPTIMA): a randomised, double-blind, placebo-controlled, phase 3 trial",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04394351",
+        "title": "Study to Investigate the Efficacy and Safety of Dupilumab in Pediatric Patients With Active Eosinophilic Esophagitis (EoE)",
+        "official_title": "A Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Dupilumab in Pediatric Patients With Active Eosinophilic Esophagitis",
+        "acronym": "EoE KIDS",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Regeneron Pharmaceuticals",
+        "conditions": [
+          "Eosinophilic Esophagitis (EoE)"
+        ],
+        "interventions": [
+          "Dupilumab",
+          "Matching Placebo"
+        ],
+        "primary_outcomes": [
+          "Part A: Percentage of Participants Achieving Peak Esophageal Intraepithelial Eosinophil Count of Less Than or Equal to (≤) 6 Eosinophils/High Power Field (Eos/Hpf) at Week 16"
+        ],
+        "enrollment": 102,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-09-01",
+        "primary_completion": "2022-06-02",
+        "completion": "2024-05-14",
+        "last_update": "2025-10-27",
+        "results_first_post": "2024-08-27",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Canada"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04394351",
+          "title": "Study to Investigate the Efficacy and Safety of Dupilumab in Pediatric Patients With Active Eosinophilic Esophagitis (EoE)",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Dupilumab in Pediatric Patients With Active Eosinophilic Esophagitis",
+          "acronym": "EoE KIDS",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Regeneron Pharmaceuticals",
+          "conditions": [
+            "Eosinophilic Esophagitis (EoE)"
+          ],
+          "interventions": [
+            "Dupilumab",
+            "Matching Placebo"
+          ],
+          "primary_outcomes": [
+            "Part A: Percentage of Participants Achieving Peak Esophageal Intraepithelial Eosinophil Count of Less Than or Equal to (≤) 6 Eosinophils/High Power Field (Eos/Hpf) at Week 16"
+          ],
+          "enrollment": 102,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-09-01",
+          "primary_completion": "2022-06-02",
+          "completion": "2024-05-14",
+          "last_update": "2025-10-27",
+          "results_first_post": "2024-08-27",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05394116",
+          "title": "A Study to Assess Safety, Tolerability and Efficacy of Garetosmab Versus Placebo Administered Intravenously (IV) in Adult Participants With Fibrodysplasia Ossificans Progressiva (FOP)",
+          "official_title": "Phase 3 Randomized, Placebo-Controlled Study to Assess Safety, Tolerability, and Efficacy of Garetosmab in Patients With Fibrodysplasia Ossificans Progressiva",
+          "acronym": "OPTIMA",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Regeneron Pharmaceuticals",
+          "conditions": [
+            "Fibrodysplasia Ossificans Progressiva"
+          ],
+          "interventions": [
+            "Garetosmab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of new HO lesions",
+            "Incidence and severity of treatment-emergent adverse events of special interest (AESIs)"
+          ],
+          "enrollment": 63,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-11-21",
+          "primary_completion": "2025-07-17",
+          "completion": "2029-02-27",
+          "last_update": "2026-07-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Chile",
+            "China",
+            "Colombia",
+            "Finland",
+            "France",
+            "Hong Kong",
+            "Italy",
+            "Japan",
+            "Malaysia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04577820",
+          "title": "Study to Assess the Efficacy and Safety of Garetosmab in Japanese Adult Patients With Fibrodysplasia Ossificans Progressiva (FOP)",
+          "official_title": "Evaluation of Efficacy and Safety of Garetosmab in Japanese Adult Patients With Fibrodysplasia Ossificans Progressiva",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Phase 2 Study R2477-FOP-1940 has been withdrawn and the next phase of the development program is being planned",
+          "phase": "PHASE3",
+          "sponsor": "Regeneron Pharmaceuticals",
+          "conditions": [
+            "Fibrodyplasia Ossificans Progressiva (FOP)",
+            "Heterotopic Ossification (HO)"
+          ],
+          "interventions": [
+            "garetosmab"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of treatment-emergent adverse event (TEAEs)",
+            "Number of new HO lesions as assessed by CT"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-10-13",
+          "primary_completion": "2022-03-01",
+          "completion": "2022-10-08",
+          "last_update": "2021-11-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "garetosmab",
+          "Garetosmab",
+          "tolerated"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "665e4314566fb8b8": {
+    "id": "665e4314566fb8b8",
+    "title": "[Correspondence] Optimising standard of care in non-small-cell lung cancer trials",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：Due to a change in development priorities, no further clinical development of th"
+      ],
+      "conflict": false,
+      "halt_reason": "business"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：business\n证据：注册库状态=TERMINATED，原因：Due to a change in development priorities, no further clinical development of th",
+    "registry": {
+      "best": {
+        "nct": "NCT03992131",
+        "title": "A Study to Evaluate Rucaparib in Combination With Other Anticancer Agents in Participants With a Solid Tumor (SEASTAR)",
+        "official_title": "SEASTAR: A Phase 1b/2, Open-label, Parallel Arm Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Efficacy of Oral Rucaparib in Combination With Other Anticancer Agents in Patients With a Solid Tumor",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "Due to a change in development priorities, no further clinical development of the lucitanib plus rucaparib or lucitanib plus sacituzumab govitecan combinations is planned at this time.",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "pharmaand GmbH",
+        "conditions": [
+          "Ovarian Cancer",
+          "Triple-negative Breast Cancer",
+          "Urothelial Carcinoma",
+          "Solid Tumor"
+        ],
+        "interventions": [
+          "Rucaparib",
+          "Lucitanib",
+          "Sacituzumab govitecan"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Objective Response, as Assessed by the Investigator Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (v)1.1 (Phase 2)"
+        ],
+        "enrollment": 25,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-06-28",
+        "primary_completion": "2022-03-08",
+        "completion": "2022-04-22",
+        "last_update": "2024-01-16",
+        "results_first_post": "2024-01-16",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03992131",
+          "title": "A Study to Evaluate Rucaparib in Combination With Other Anticancer Agents in Participants With a Solid Tumor (SEASTAR)",
+          "official_title": "SEASTAR: A Phase 1b/2, Open-label, Parallel Arm Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Efficacy of Oral Rucaparib in Combination With Other Anticancer Agents in Patients With a Solid Tumor",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Due to a change in development priorities, no further clinical development of the lucitanib plus rucaparib or lucitanib plus sacituzumab govitecan combinations is planned at this time.",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "pharmaand GmbH",
+          "conditions": [
+            "Ovarian Cancer",
+            "Triple-negative Breast Cancer",
+            "Urothelial Carcinoma",
+            "Solid Tumor"
+          ],
+          "interventions": [
+            "Rucaparib",
+            "Lucitanib",
+            "Sacituzumab govitecan"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Objective Response, as Assessed by the Investigator Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (v)1.1 (Phase 2)"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-06-28",
+          "primary_completion": "2022-03-08",
+          "completion": "2022-04-22",
+          "last_update": "2024-01-16",
+          "results_first_post": "2024-01-16",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06311214",
+          "title": "Personalized Antibody-Drug Conjugate Therapy Based on RNA and Protein Testing for the Treatment of Advanced or Metastatic Solid Tumors (The ADC MATCH Screening and Treatment Trial)",
+          "official_title": "Optimizing Antibody-Drug Conjugate Therapy Through Molecular Analysis for Therapy Choice (ADC MATCH)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Advanced Malignant Solid Neoplasm",
+            "Metastatic Malignant Solid Neoplasm"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Echocardiography Test",
+            "Electronic Health Record Review",
+            "Enfortumab Vedotin",
+            "Immunohistochemistry Staining Method",
+            "Magnetic Resonance Imaging",
+            "Multigated Acquisition Scan",
+            "Sacituzumab Govitecan",
+            "Trastuzumab Deruxtecan"
+          ],
+          "primary_outcomes": [
+            "Frequency of high protein expression in patients with high ribonucleic acid (RNA) expression of each antibody-drug conjugate target (screening protocol)",
+            "Objective response rate (treatment cohorts)"
+          ],
+          "enrollment": 500,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-03-18",
+          "primary_completion": "2028-03-31",
+          "completion": "2028-03-31",
+          "last_update": "2026-09-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07252739",
+          "title": "KEYMAKER-U01 Substudy 01J: A Study of Pembrolizumab Plus MK-1084 in Participants With Non-Small Cell Lung Cancer (NSCLC) With Kirsten Rat Sarcoma Viral Oncogene Homolog (KRAS) G12C Mutations (MK-3475-01J/KEYMAKER-U01J)",
+          "official_title": "KEYMAKER-U01 Substudy 01J: A Randomized Phase 2 Umbrella Study With Rolling Arms of Investigational Agents for First-line Treatment of Participants With Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With KRAS G12C Mutations",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Malignant Neoplasm"
+          ],
+          "interventions": [
+            "MK-1084",
+            "Pembrolizumab",
+            "Cetuximab",
+            "Sacituzumab tirumotecan (sac-TMT)",
+            "Rescue medication"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants with a Dose Limiting Toxicity (DLT)",
+            "Percentage of Participants who Experience at Least One Adverse Event (AE)",
+            "Percentage of Participants who Discontinue Study Intervention Due to an AE",
+            "Objective Response Rate (ORR) per Response Evaluation Criteria In Solid Tumors (RECIST) 1.1 as assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 140,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-12-19",
+          "primary_completion": "2029-11-15",
+          "completion": "2032-05-31",
+          "last_update": "2026-09-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Chile",
+            "China",
+            "Finland",
+            "Greece",
+            "Hong Kong",
+            "Italy",
+            "Netherlands",
+            "South Korea",
+            "Spain",
+            "Thailand",
+            "Turkey (Türkiye)"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "sacituzumab",
+          "pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e260536465f84833": {
+    "id": "e260536465f84833",
+    "title": "9月临床大盘点：WCLC披露多个Ⅲ期试验结果，新版GCP落地，解读371项CDE临床登记",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:显著延长"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:显著延长"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:显著延长",
+    "registry": {
+      "best": {
+        "nct": "NCT06417008",
+        "title": "A Study of HS-20117 Combined With Aumolertinib in Participants With Advanced Non-Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Phase Ib/III Clinical Study to Evaluate the Safety, Efficacy, Pharmacokinetics and Immunogenicity of HS-20117 Combined With Aumolertinib in Participants With Advanced Non-Squamous Non-Small Cell Lung Cancer",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Hansoh BioMedical R&D Company",
+        "conditions": [
+          "Non-Squamous Non-Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "HS-20117",
+          "Aumolertinib"
+        ],
+        "primary_outcomes": [
+          "[Phase Ib] Objective response rate (ORR) According to response evaluation criteria in solid tumors (RECIST) v1.1 by Investigators (INVs)",
+          "[Phase III] Progression-Free Survival (PFS) According to RECIST v1.1 by Independent Review Committee(IRC)"
+        ],
+        "enrollment": 1080,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-05-28",
+        "primary_completion": "2026-06-01",
+        "completion": "2030-06-01",
+        "last_update": "2025-08-01",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06417008",
+          "title": "A Study of HS-20117 Combined With Aumolertinib in Participants With Advanced Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Phase Ib/III Clinical Study to Evaluate the Safety, Efficacy, Pharmacokinetics and Immunogenicity of HS-20117 Combined With Aumolertinib in Participants With Advanced Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Hansoh BioMedical R&D Company",
+          "conditions": [
+            "Non-Squamous Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "HS-20117",
+            "Aumolertinib"
+          ],
+          "primary_outcomes": [
+            "[Phase Ib] Objective response rate (ORR) According to response evaluation criteria in solid tumors (RECIST) v1.1 by Investigators (INVs)",
+            "[Phase III] Progression-Free Survival (PFS) According to RECIST v1.1 by Independent Review Committee(IRC)"
+          ],
+          "enrollment": 1080,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-05-28",
+          "primary_completion": "2026-06-01",
+          "completion": "2030-06-01",
+          "last_update": "2025-08-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07464327",
+          "title": "A Phase III Study of HS-20093 Injection Combined With Adebrelimab Versus Docetaxel in Previously Treated Patients With Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer Without Actionable Genomic Alterations",
+          "official_title": "A Multicenter, Randomized, Open-Label, Controlled Phase III Clinical Study Evaluating the Efficacy and Safety of HS-20093 Injection Combined With Adebrelimab Versus Docetaxel in Previously Treated Patients With Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer Without Actionable Genomic Alterations",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hansoh BioMedical R&D Company",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "HS-20093",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS) assessed by Blinded Independent Central Review (BICR)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": 450,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-03-31",
+          "primary_completion": "2028-12-31",
+          "completion": "2029-12-31",
+          "last_update": "2026-03-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06112704",
+          "title": "HS-20093 in Patients with Advanced Esophageal Carcinoma and Other Advanced Solid Tumors",
+          "official_title": "A Phase 2, Open-label, Multi-center Study to Evaluate the Efficacy, Safety, Pharmacokinetics and Immunogenicity of HS-20093 in Patients with Advanced Esophageal Carcinoma and Other Advanced Solid Tumors (ARTEMIS-005)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Hansoh BioMedical R&D Company",
+          "conditions": [
+            "Advanced Solid Tumor"
+          ],
+          "interventions": [
+            "HS-20093"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR) determined by investigators according to Response Evaluation Criteria in Solid Tumors (RECIST) 1.1."
+          ],
+          "enrollment": 220,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-02-06",
+          "primary_completion": "2026-07-31",
+          "completion": "2026-12-31",
+          "last_update": "2024-12-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "HS-20093",
+          "Pelacarsen"
+        ],
+        "sponsor": [
+          "翰森制药",
+          "康方生物"
+        ],
+        "sponsor_en": [
+          "Hansoh",
+          "Akeso"
+        ]
+      },
+      "note": ""
+    }
+  }
+}

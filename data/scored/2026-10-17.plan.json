@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-17",
+  "count": 5,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "target:multiple_china",
+      "lead_id": "e260536465f84833",
+      "title": "9月临床大盘点：WCLC披露多个Ⅲ期试验结果，新版GCP落地，解读371项CDE临床登记",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "e260536465f84833"
+      ],
+      "members": [
+        {
+          "title": "9月临床大盘点：WCLC披露多个Ⅲ期试验结果，新版GCP落地，解读371项CDE临床登记",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384894",
+          "score": 6.0,
+          "reasoning": "9 月临床大盘点汇总多个 Ⅲ 期试验结果：翰森制药 HS-20093 在 SCLC 二线显著延长 OS（阳性），康方生物依沃西在 PD-L1+ NSCLC 一线 OS 优效帕博利珠单抗（阳性），诺华 Pelacarsen 未达主要终点（失败）。月评类报道属二次来源，降数据可信度；但涵盖多个重大 Ⅲ 期读出，包括一个失败案例，仍具临床价值。"
+        }
+      ],
+      "reasoning": "9 月临床大盘点汇总多个 Ⅲ 期试验结果：翰森制药 HS-20093 在 SCLC 二线显著延长 OS（阳性），康方生物依沃西在 PD-L1+ NSCLC 一线 OS 优效帕博利珠单抗（阳性），诺华 Pelacarsen 未达主要终点（失败）。月评类报道属二次来源，降数据可信度；但涵盖多个重大 Ⅲ 期读出，包括一个失败案例，仍具临床价值。",
+      "verify_todo": [
+        "获取各试验具体 OS 数据、HR、p 值",
+        "确认诺华 Pelacarsen 的详细失败原因"
+      ],
+      "flags": [],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:retlirafusp_alfa",
+      "lead_id": "b43d502bb4df1af0",
+      "title": "<![CDATA[Retlirafusp Alfa Improves Overall Survival in Phase 3 Trial of HER2– Gastric Cancer]]>",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "b43d502bb4df1af0"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Retlirafusp Alfa Improves Overall Survival in Phase 3 Trial of HER2– Gastric Cancer]]>",
+          "url": "https://www.targetedonc.com/view/retlirafusp-alfa-improves-overall-survival-in-phase-3-trial-of-her2-gastric-cancer",
+          "score": 7.5,
+          "reasoning": "Retlirafusp alfa（同类首创靶向 PD-L1/VEGF 的双功能抗体）Ⅲ 期 HER2- 胃癌试验改善总生存期（OS），属明确临床获益；中国原研，高未满足需求（胃癌预后差），但非 peer-reviewed 发表，降数据成熟度。"
+        }
+      ],
+      "reasoning": "Retlirafusp alfa（同类首创靶向 PD-L1/VEGF 的双功能抗体）Ⅲ 期 HER2- 胃癌试验改善总生存期（OS），属明确临床获益；中国原研，高未满足需求（胃癌预后差），但非 peer-reviewed 发表，降数据成熟度。",
+      "verify_todo": [
+        "核实 OS 具体数值、HR 和 p 值",
+        "确认试验注册信息（NCT）及主要终点定义"
+      ],
+      "flags": [],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:BNT113",
+      "lead_id": "dd92cea6476654e7",
+      "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "dd92cea6476654e7",
+        "abf57879ea88c61e"
+      ],
+      "members": [
+        {
+          "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384560",
+          "score": 7.5,
+          "reasoning": "BioNTech BNT113联合帕博利珠单抗治疗HPV16阳性头颈部鳞癌的II/III期研究AHEAD-MERIT明确未达到共同主要终点PFS（独立数据监测委员会确认），公司已宣布失利。属于行业级临床失败事件。"
+        },
+        {
+          "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+          "url": "https://www.targetedonc.com/view/bnt113-pembrolizumab-misses-pfs-hpv16-hnscc",
+          "score": 7.5,
+          "reasoning": "与dd92cea6476654e7为同一事件（BNT113 PFS终点未达到），Targeted Oncology来源确认。与前一条合并，cluster_key: BNT113。"
+        }
+      ],
+      "reasoning": "BioNTech BNT113联合帕博利珠单抗治疗HPV16阳性头颈部鳞癌的II/III期研究AHEAD-MERIT明确未达到共同主要终点PFS（独立数据监测委员会确认），公司已宣布失利。属于行业级临床失败事件。",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:risankizumab",
+      "lead_id": "9359158810876950",
+      "title": "年销175亿美元！艾伯维重磅药物III期再传积极数据",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "9359158810876950",
+        "bebf3d65e372814e"
+      ],
+      "members": [
+        {
+          "title": "年销175亿美元！艾伯维重磅药物III期再传积极数据",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384692",
+          "score": 7.0,
+          "reasoning": "AbbVie risankizumab（Skyrizi）治疗克罗恩病III期AFFIRM研究皮下诱导达到主要终点（24周内镜缓解35.8%），公司公告明确积极结果。III期注册试验、289人规模、克罗恩病存在未满足需求，但数据来自公司公告非正式发表，降权至7.0。"
+        },
+        {
+          "title": "艾伯维公布3期AFFIRM研究新数据：SKYRIZI®（risankizumab-rzaa）皮下给药治疗中度至重度活动性克罗恩病的临床及内镜结果",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384693",
+          "score": 7.0,
+          "reasoning": "与上条相同——AbbVie AFFIRM研究数据，risankizumab皮下给药治疗克罗恩病24周内镜缓解35.8%，为同一试验结果的重复报道，cluster_key一致，合并计分。"
+        }
+      ],
+      "reasoning": "AbbVie risankizumab（Skyrizi）治疗克罗恩病III期AFFIRM研究皮下诱导达到主要终点（24周内镜缓解35.8%），公司公告明确积极结果。III期注册试验、289人规模、克罗恩病存在未满足需求，但数据来自公司公告非正式发表，降权至7.0。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:garetosmab",
+      "lead_id": "1c7c0d2c7f525db7",
+      "title": "[Articles] Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial",
+      "score": 9.0,
+      "channel": "global",
+      "member_ids": [
+        "1c7c0d2c7f525db7"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01865-9/fulltext?rss=yes",
+          "score": 9.0,
+          "reasoning": "Lancet发表的III期OPTIMA试验，garetosmab（抗activin A抗体）显著减少FOP患者新发异位骨病变，首个FOP疾病修饰疗法，罕见病极高未满足需求。但距今18天，须降2分。"
+        }
+      ],
+      "reasoning": "Lancet发表的III期OPTIMA试验，garetosmab（抗activin A抗体）显著减少FOP患者新发异位骨病变，首个FOP疾病修饰疗法，罕见病极高未满足需求。但距今18天，须降2分。",
+      "verify_todo": [],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    }
+  ]
+}
