@@ -67,11 +67,33 @@ RE_NCT = re.compile(_L + r"(NCT\d{8})" + _R, re.I)
 # ⚠️ 这份表永远不够全。实测漏过：
 #   Iberdomide（-mide 没收录）→ 只抽到对照药 Daratumumab
 #   safiglipron（-glipron 没收录）→ 只抽到对照药 dapagliflozin
+#   Daraxonrasib（-rasib 没收录！）→ 见下方 2026-10-16 事故
 # 所以不能只靠后缀表：enrich 里还有一道"最终闸门"兜底。
+#
+# ⚠️⚠️ 2026-10-16 事故：CHMP 批准 daraxonrasib 那条新闻，标题里明明白白
+#   写着 "Daraxonrasib"，但 -rasib 不在表里 → 抽不到这个药名；
+#   反而 `-ted` 把正文里的普通英文词 "Treated" 抽成了药名。
+#   于是拿 "Treated" 去 CT.gov 全文检索，命中了一堆含 treated 的无关试验，
+#   最终闸门又要求"试验必须能对上药名 Treated"——一条
+#   "Long-term Follow-up of Subjects Treated With CAR T Cells"（CAR-T 长期随访，
+#   跟 KRAS 抑制剂毫无关系）完美通过，被当成 daraxonrasib 的一手材料写进稿子。
+#   教训：后缀表既漏了整整一个药类（RAS 抑制剂），又收了一个会撞普通英文词的短后缀。
 INN_SUFFIX = (r"(?:glutide|zumab|ximab|omab|umab|leucel|tinib|ciclib|parib|"
               r"sortib|siran|rsen|glipron|domide|metinib|lisib|degib|prubart|"
-              r"fusp|cel|mab|nib|tide|vir|stat|sen|vec|gene|ted|mide|azine|"
-              r"azepam|prazole|sartan|gliptin|gliflozin)")
+              r"rasib|alfa|fusp|cel|mab|nib|tide|vir|stat|sen|vec|gene|ted|"
+              r"mide|azine|azepam|prazole|sartan|gliptin|gliflozin)")
+# 无连字符形态（Retatrutide / Daraxonrasib）用的后缀表。
+# ⚠️ 比上面少了 `ted`：带连字符的 "tabirafusp-ted" 是明确药名，
+#    但不带连字符时 ted 会命中 treated/related/evaluated/completed…
+#    这类英文过去分词，把普通词当药名去检索（本次事故的直接触发点）。
+#
+# ⚠️ `alfa` 与 `fusp` 并存的原因：融合蛋白类 INN 常见两段式
+#    （bintrafusp alfa / retlirafusp alfa）。词干常以后者结尾，
+#    两个后缀都要在表里，否则名字会被截断成半截。
+INN_SUFFIX_BARE = (r"(?:glutide|zumab|ximab|omab|umab|leucel|tinib|ciclib|parib|"
+                   r"sortib|siran|rsen|glipron|domide|metinib|lisib|degib|"
+                   r"prubart|rasib|alfa|fusp|cel|mab|nib|tide|vir|stat|sen|"
+                   r"vec|gene|mide|azine|azepam|prazole|sartan|gliptin|gliflozin)")
 # ⚠️ 首字母大写也要能匹配。标题里的 INN 常写成 "Retatrutide" 而非全小写，
 # 早先只写 [a-z]，导致 Retatrutide / Semaglutide 这类标准药名全抽不出来。
 _INN = r"[A-Za-z][a-z]{2,13}"
@@ -79,8 +101,29 @@ RE_DRUG = re.compile(
     _L + r"(?:"
     r"[A-Z]{2,6}-?\d{3,6}"                      # SHR-1819 / KR25102 / SPR2015
     r"|" + _INN + r"-" + INN_SUFFIX + r"|"      # anito-cel / tabirafusp-ted
-    r"" + _INN + INN_SUFFIX +                   # Retatrutide / Semaglutide
+    r"" + _INN + INN_SUFFIX_BARE +              # Retatrutide / Daraxonrasib
     r")" + _R)
+
+# ⚠️ 普通英文词黑名单（无连字符分支专用）。
+#
+# 为什么需要它而不是只靠后缀表：INN 后缀很多是短词根，会撞上日常英文词。
+# 实测事故就是 "Treated" 被当成药名（-ted）。同类碰撞还有：
+#   peptide / nucleotide （-tide）、oncogene（-gene）、magazine（-azine）、
+#   parcel / excel（-cel）、lessen（-sen）、amide（-mide，长度恰好够时）
+# 这些词拿去 CT.gov 检索会拉回大量无关试验，而"最终闸门"还要求
+# 试验文本能对上这个词——于是就"自洽地"挂上一条完全无关的试验。
+# 宁可漏掉一个罕见药名，也不能把普通词当药名（错材料比没材料严重）。
+EN_WORD_STOP = {
+    "treated", "related", "evaluated", "completed", "reported", "selected",
+    "limited", "generated", "estimated", "investigated", "detected",
+    "adjusted", "associated", "presented", "started", "tested", "included",
+    "excluded", "required", "received", "observed", "measured", "assessed",
+    "analyzed", "analysed", "randomized", "randomised", "documented",
+    "peptide", "nucleotide", "oligonucleotide", "oncogene", "magazine",
+    "parcel", "excel", "lessen", "loosen", "amide", "imide", "stat",
+    "gene", "cel", "sen", "vir", "vec", "nib", "mab", "tide", "mide",
+    "azine", "creased", "released", "increased", "decreased",
+}
 
 # 明确不是药名的连字符英文词（双保险）
 DRUG_STOP = {
@@ -170,6 +213,58 @@ CN_EN_COMPANY = {
     "凯莱英": "Asymchem",
 }
 
+# ⚠️ 跨国药企的**中文名**也要收录（2026-10-17 补）。
+#    原来只有中国公司，且抽取规则要求名字以「药业/生物/制药…」结尾，
+#    于是「艾伯维」「礼来」「诺华」这类中文简称**完全抽不出来**——
+#    公司背景补全因此对 MNC 一直不生效。
+#    openFDA 的 sponsor_name 用这些英文名可以查到已上市产品。
+MNC_CN_EN = {
+    "礼来": "Lilly", "礼来公司": "Lilly",
+    "诺华": "Novartis", "罗氏": "Roche",
+    "默沙东": "Merck Sharp", "默克": "Merck",
+    "阿斯利康": "AstraZeneca", "辉瑞": "Pfizer",
+    "艾伯维": "AbbVie", "强生": "Johnson", "杨森": "Janssen",
+    "赛诺菲": "Sanofi", "葛兰素史克": "GlaxoSmithKline",
+    "百时美施贵宝": "Bristol", "施贵宝": "Bristol",
+    "武田": "Takeda", "安进": "Amgen",
+    "勃林格殷格翰": "Boehringer", "拜耳": "Bayer",
+    "诺和诺德": "Novo Nordisk", "卫材": "Eisai",
+    "第一三共": "Daiichi", "大冢": "Otsuka", "优时比": "UCB",
+    "吉利德": "Gilead", "渤健": "Biogen", "再生元": "Regeneron",
+    "安斯泰来": "Astellas", "盐野义": "Shionogi", "灵北": "Lundbeck",
+    "泰它西普": "RemeGen", "艾尔建": "Allergan",
+}
+CN_EN_COMPANY.update(MNC_CN_EN)
+
+
+def find_companies(text: str, limit: int = 3) -> list[tuple[str, str]]:
+    """
+    从文本里找出可能的公司，返回 [(中文名, 英文名)]。
+
+    用两张表：CN_EN_COMPANY（含跨国药企中文名）+ 英文公司名正则。
+    按**出现位置**排序，靠前的优先（标题里的通常是主角）。
+
+    ⚠️ 这里只做"识别"，不做"确认"——识别错了不会造成错误事实，
+    因为下游 companyinfo 取不到材料时会如实说"未取到"，绝不编。
+    """
+    hits: list[tuple[int, str, str]] = []
+    for zh, en in CN_EN_COMPANY.items():
+        i = text.find(zh)
+        if i >= 0:
+            hits.append((i, zh, en))
+    for m in RE_EN_CO.finditer(text):
+        hits.append((m.start(), m.group(1), m.group(1)))
+    hits.sort(key=lambda x: x[0])
+    out, seen = [], set()
+    for _, zh, en in hits:
+        if en.lower() in seen:
+            continue
+        seen.add(en.lower())
+        out.append((zh, en))
+        if len(out) >= limit:
+            break
+    return out
+
 
 def to_english_co(name: str) -> str:
     """中文公司名 → CT.gov 可检索的英文名。找不到返回原值。"""
@@ -194,6 +289,9 @@ def extract_terms(*texts: str) -> dict[str, list[str]]:
     drug = []
     for m in RE_DRUG.findall(blob):
         if m.lower() in DRUG_STOP:
+            continue
+        # 无连字符的普通英文词不当药名（"Treated" 事故，见 EN_WORD_STOP 注释）
+        if "-" not in m and m.lower() in EN_WORD_STOP:
             continue
         if re.fullmatch(r"(?:PHASE|NCT|FDA|NMPA|CDE|III|II|IV)\w*", m, re.I):
             continue
@@ -275,6 +373,18 @@ def _norm(s: str) -> str:
 IV_STOP = {"placebo", "standardlymphodepletionregimen", "standardofcare",
            "best supportive care", "chemotherapy", "salinetreatment"}
 
+# ⚠️ 干预名长度上限：超过它的基本是**拼接起来的联合方案**，不能当药物锚。
+#
+# 实测事故（2026-10-17，retlirafusp alfa → 误配 NCT00677118 2005 年化疗试验）：
+#   CT.gov 上有的试验把整个联合方案塞成**一个**干预条目，归一化后形如
+#     lowdoseradiotherapyretlirafuspalfanabpaclitaxelcisplatincarboplatin
+#   这种超长串一旦进了锚集合，配合 _iv_match 的子串判定，
+#   任何一个组分药名（cisplatin / carboplatin / paclitaxel）都会命中锚，
+#   于是完全无关的化疗试验也拿到 +3 分并通过闸门。
+#   丢掉超长串的代价很小：真正需要的药名通常另有**独立的**干预条目
+#   （实测该试验同时有干净的 retlirafuspalfa）。
+IV_MAXLEN = 40
+
 
 def _iv_names(study: dict) -> set[str]:
     """试验的干预名称集合（归一化），用作"同一药物"的锚"""
@@ -283,8 +393,12 @@ def _iv_names(study: dict) -> set[str]:
     out = set()
     for a in arms:
         n = _norm((a or {}).get("name", ""))
-        if len(n) > 3 and n not in IV_STOP:
-            out.add(n)
+        if len(n) <= 3 or n in IV_STOP:
+            continue
+        if len(n) > IV_MAXLEN:
+            # 拼接的联合方案名 —— 见 IV_MAXLEN 上方的事故说明，绝不收进锚
+            continue
+        out.add(n)
     return out
 
 
@@ -305,13 +419,22 @@ def _iv_match(a: str, b: str) -> bool:
 
     判据（任一成立即算同药）：
       · 完全相同
-      · 一个是另一个的子串
+      · 一个是另一个的子串（**仅当两边都是"短名"时**，见下）
       · 共同前缀 >= 6 字符（anitoc… 命中 anitocel / anitocabtagene…）
+
+    ⚠️ 子串判定必须限定长度（2026-10-17 事故）：
+      子串匹配在**归一化后的拼接串**上毫无意义——"cisplatin" 是
+      "…nabpaclitaxelcisplatincarboplatin" 的子串，于是无关的化疗试验
+      被判成"同一个药"。所以只有双方都 <= IV_MAXLEN 时才允许子串判定；
+      超长串只走"完全相同/共同前缀"这两条更严的规则。
     """
     if not a or not b:
         return False
-    if a == b or a in b or b in a:
+    if a == b:
         return True
+    if max(len(a), len(b)) <= IV_MAXLEN and min(len(a), len(b)) >= 5:
+        if a in b or b in a:
+            return True
     if len(a) >= 6 and len(b) >= 6:
         n = 0
         for x, y in zip(a, b):
@@ -509,6 +632,64 @@ STATUS_RANK = {"COMPLETED": 3, "TERMINATED": 3, "ACTIVE_NOT_RECRUITING": 2,
                "SUSPENDED": 2, "WITHDRAWN": 2, "RECRUITING": 1,
                "NOT_YET_RECRUITING": 1, "ENROLLING_BY_INVITATION": 1,
                "UNKNOWN": 0}
+
+
+# 疾病词表：(英文词, 中文词)。中文新闻标题必须也能识别——
+# ⚠️ 实测踩坑（2026-10-17）：只放英文词时，"多发性骨髓瘤" 这类中文标题
+#    一律判成"看不出病名"，于是对完全正确的试验也发"适应症未能对应"的警告。
+#    这种误报会让人不再信任提示，比不判还糟（skill §6）。
+_DISEASE = (
+    ("gastric", "胃癌"), ("gastroesophageal", "胃食管"), ("pancreatic", "胰腺癌"),
+    ("crohn", "克罗恩"), ("colitis", "结肠炎"), ("melanoma", "黑色素瘤"),
+    ("nsclc", "非小细胞肺癌"), ("lung", "肺癌"), ("myeloma", "骨髓瘤"),
+    ("leukemia", "白血病"), ("lymphoma", "淋巴瘤"),
+    ("hepatocellular", "肝癌"), ("esophageal", "食管癌"),
+    ("colorectal", "结直肠癌"), ("prostate", "前列腺癌"), ("breast", "乳腺癌"),
+    ("ovarian", "卵巢癌"), ("fibrosis", "纤维化"), ("psoriasis", "银屑病"),
+    ("arthritis", "关节炎"), ("obesity", "肥胖"), ("diabetes", "糖尿病"),
+    ("anxiety", "焦虑"), ("parkinson", "帕金森"), ("alzheimer", "阿尔茨海默"),
+    ("sclerosis", "硬化"), ("atopic dermatitis", "特应性皮炎"),
+    ("myasthenia", "重症肌无力"), ("renal", "肾"), ("liver", "肝"),
+)
+
+
+def _indication_overlap(news_title: str, study: dict) -> bool | None:
+    """
+    试验适应症是否与新闻指向同一个病。
+
+    返回 True（一致）/ False（明显不一致）/ None（看不出来，不做判断）。
+
+    ⚠️ 为什么需要它（2026-10-17）：同一个药往往同时在多个瘤种做试验
+    （daraxonrasib 既有胰腺癌 NCT06625320，也有肺癌 NCT06881784）。
+    只验药名会选中"药对、病不对"的那条，稿子照样错。
+
+    ⚠️ 三态而不是布尔：新闻标题里没有可识别的病名时返回 None，
+    调用方**不得**因此报警或降权。只有能明确读出病名、而试验里没有时，
+    才是有意义的"不一致"信号。
+    """
+    news = (news_title or "").lower()
+    if len(news) < 4:
+        return None
+    ps = (study or {}).get("protocolSection", {}) or {}
+    ident = ps.get("identificationModule", {}) or {}
+    conds = (ps.get("conditionsModule", {}) or {}).get("conditions", []) or []
+    # ⚠️ 这里**不能**用 _norm（它把空格去掉再拼接）：
+    #    实测 "Atopic Dermatitis" 与 "Dermatitis, Atopic" 归一化后分别是
+    #    atopicdermatitis / dermatitisatopic —— 子串互不包含，
+    #    于是一条完全对得上的试验被判成"适应症不一致"（误报）。
+    #    改为按**词**比对，词序无关。
+    trial_low = " ".join([str(c) for c in conds] + [
+        ident.get("briefTitle", "") or "", ident.get("officialTitle", "") or ""
+    ]).lower()
+
+    news_hits = [en for en, zh in _DISEASE
+                 if (en in news) or (zh in (news_title or ""))]
+    if not news_hits:
+        return None              # 读不出病名 → 不判断
+    for en in news_hits:
+        if all(w in trial_low for w in en.split()):
+            return True
+    return False
 
 
 def rank_trials(studies: list[dict]) -> list[dict]:
@@ -714,17 +895,54 @@ async def enrich(title: str, content: str = "",
     primary = drugs[0] if drugs else ""
 
     final: list[dict] = []
+    # 两档证据，**都保留**，只用来排序：
+    #   name_ok   = 试验文本里真的出现了主药名 —— 最强
+    #   anchor_ok = 只靠干预锚命中 —— 用来捞回 INN 写法不同的 pivotal 试验
+    #               （实测 anito-cel ↔ Anitocabtagene Autoleucel）
+    #
+    # ⚠️ 2026-10-17 两次踩坑，方向相反，都记在这里：
+    #   ① 原来两档混在一起不加区分 → NCT00677118（2005 年化疗试验）靠被污染的
+    #      锚拿到 3 分，又因"优先取有结果的试验"胜出，被当成 retlirafusp 的材料。
+    #   ② 我第一版修成 `final = strong or weak`（有 strong 就丢 weak）→
+    #      立刻把 anito-cel 的 III 期（n=452）挤掉、只剩 I 期（n=30），
+    #      正是本文件开头那条注释警告过的"严重低估资产"。
+    #   正确做法：**都留，按 (药名命中, 适应症命中) 分层排序**，层内保留
+    #   rank_trials 的 期别>有结果>样本量 顺序（stable sort）。
+    tiers: list[tuple[int, int, dict]] = []
     for st in good:
         if not drugs:
-            final.append(st)          # 只能靠申办方定位，不做这层
+            name_ok = True            # 只能靠申办方定位，不做这层
+        else:
+            name_ok = bool(primary) and _term_matches(primary, st)
+        anchor_ok = bool(anchors_iv) and any(
+            _iv_match(iv, a) for iv in _iv_names(st) for a in anchors_iv)
+        if not (name_ok or anchor_ok):
             continue
-        if primary and _term_matches(primary, st):
-            final.append(st)
-            continue
-        # 或对上主药名对应的干预锚（解决 INN 全称/缩写不一致）
-        if anchors_iv and any(_iv_match(iv, a)
-                              for iv in _iv_names(st) for a in anchors_iv):
-            final.append(st)
+        ov = _indication_overlap(title, st)
+        # 三态处理：False（能读出病名但试验里没有）= 降权；True / None = 不降权。
+        #
+        # ⚠️ 适应症必须排在药名前（2026-10-17 实测）：
+        #    新闻是"anito-cel 治疗多发性骨髓瘤"，候选里有
+        #      NCT06626919  I 期，适应症=重症肌无力  ← 标题里字面含 "anito-cel"
+        #      NCT06413498  III 期，适应症=多发性骨髓瘤 ← 标题写全称 Anitocabtagene
+        #    若先按"药名命中"排，会把那条**药对但病不对**的 I 期排到最前，
+        #    而它恰恰是错的那条。先病后药才对。
+        tiers.append((0 if ov is False else 1, 1 if name_ok else 0, st))
+
+    tiers.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    final = [st for _, _, st in tiers]
+    ind_ok = tiers[0][0] if tiers else 1
+    name_ok0 = tiers[0][1] if tiers else 1
+
+    if final and drugs and not name_ok0:
+        out["note"] = (f"注册库只命中干预锚、未在试验文本中出现主药名"
+                       f"「{primary}」，按弱证据采用，写入前需人工复核")
+    if final and ind_ok == 0:
+        _nct = (((final[0].get("protocolSection") or {})
+                 .get("identificationModule") or {}).get("nctId", ""))
+        out["note"] = (out["note"] + "；" if out["note"] else "") + (
+            f"注册库命中的试验适应症与新闻标题不一致（首选 {_nct}），"
+            f"写入前需确认是否同一适应症")
 
     if good and not final:
         out["note"] = (

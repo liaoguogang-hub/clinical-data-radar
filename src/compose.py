@@ -23,6 +23,8 @@ from common import (ROOT, SCORED_DIR, RAW_DIR, DATA_DIR, load_yaml,
 from render import (parse_content, render_html, body_chars,
                     structure_report, content_text)
 from score import _client, _call_llm, _strip_think
+from factguard import check_facts, split_entity_tags, material_is_thin  # noqa: F401
+import claimcheck  # noqa: E402
 
 POSTS_DIR = ROOT / "posts"
 
@@ -95,6 +97,17 @@ def build_material(date: str, plan_item: dict) -> str:
             blocks.append(f"标题：{s.get('title','')}")
             blocks.append(f"来源：{', '.join(s.get('sources',[]) or [])}")
             blocks.append(f"链接：{s.get('url','')}")
+            # ⚠️ 新闻站自动实体标签【不是原始披露内容】——显式隔离，
+            #    否则成稿会把标签里的靶点/公司当成事实（实测事故：
+            #    标签里的一个靶点名被写成了"该药的机制"，还顺藤摸瓜编出
+            #    一个原文没有的分子代号）。标签已在抓取阶段从正文剥离。
+            etags = (s.get("entity_tags") or []) + (r.get("entity_tags") or [])
+            if etags:
+                blocks.append(
+                    f"⚠️ 新闻站自动标注的实体标签：{'、'.join(etags)}\n"
+                    "   这是新闻网站自己的实体识别结果，【不是原文披露的事实】。"
+                    "除非正文里明确写了某个靶点/药物，否则不要把它当作"
+                    "本次事件的机制、适应症或结论来写。")
             # ⚠️ 发布日期必须显式给出，且要标成"这就是新闻的日期"。
             # 实测踩坑：素材里没有日期时，模型会自己编年份
             # （2026-10-09 的新闻被写成"2025年10月8日"）。
@@ -185,6 +198,41 @@ def build_material(date: str, plan_item: dict) -> str:
             else:
                 blocks.append("⚠️ 本条无正文，仅有标题。"
                               "不要在文中编造任何未在标题出现的事实。")
+        blocks.append("")
+
+    # ── 公司背景（可引用）───────────────────────────────────────────
+    #
+    # 用户 2026-10-17 定的规则：素材不足时，首选扩写方向是"介绍相关公司"。
+    # 但扩写**必须有出处**，否则就是下一个胡编入口。所以这里主动去把
+    # 可引用的公司公开信息取回来（美国批准产品 / CT.gov 在研管线 / 官网自述），
+    # 让成稿写得出来、断言核验也验得过。
+    #
+    # ⚠️ 取不到就不写（companyinfo 会如实说明"未取到"），绝不编。
+    try:
+        import companyinfo
+        import registry as _R
+        # 从标题 + 各素材的标题/摘要/正文开头里找公司。
+        # ⚠️ 必须带上正文：实测新闻**标题常常不含公司名**
+        #    （如某药 III 期读出那条，标题只有药名，正文才提公司），
+        #    只看标题会让公司背景对一大半条目失效。
+        _parts = [plan_item.get("title", "")]
+        for i in ids:
+            _s = by_id.get(i, {}) or {}
+            _r = raw_by_id.get(i, {}) or {}
+            _parts += [_s.get("title", ""), _s.get("summary", "")[:600],
+                       (_s.get("content") or "")[:1500],
+                       _r.get("title", ""), (_r.get("content") or "")[:800]]
+        _blob = " ".join(p for p in _parts if p)
+        _found = _R.find_companies(_blob, limit=1)
+        if _found:
+            _zh, _en = _found[0]
+            brief = companyinfo.company_brief(_zh, _en)
+            if brief:
+                blocks.append(brief)
+                blocks.append("")
+    except Exception as _e:
+        blocks.append(f"（公司背景补全失败：{type(_e).__name__}，"
+                      f"请勿编造公司信息）")
         blocks.append("")
 
     return "\n".join(blocks)
@@ -288,6 +336,36 @@ FN 1. 来源：xxx（机构｜日期）
 3. **素材只有标题时**：坦率说明信息有限，聚焦标题支撑得起的分析，
    不要用推测填满 2800 字
 4. **注册库没有命中时**：写"注册库未检索到对应试验"，不要假装有 NCT 号
+
+## ⚠️ 素材很短怎么办：写公司与药物背景，别编临床数据（2026-10-16 用户定）
+
+素材常常只有一句标题（一则 CHMP 批准意见、一个会议摘要），
+但正文要求 2800-3200 字。**扩写的正确方向是介绍背景**，写它不产生事实风险：
+
+- ✅ 药企背景：主营方向、研发管线规模、已上市产品与商业化能力、出海历史
+- ✅ 靶点/疾病背景：该靶点的生物学、已上市同靶点药物的机制与获批情况、
+  该适应症的流行病学与现有治疗格局
+- ✅ 监管流程背景：CHMP/FDA 审评机制、positive opinion 与正式批准的区别、
+  分阶段审评（phased review）是什么
+- ✅ 临床研究背景：分期、终点设计、常见统计口径怎么读
+
+**但临床事实本身仍然只能来自素材**，素材没给就写"未披露"，绝不脑补：
+
+- ❌ 具体的分子代号 / 代号（原文没出现的，一个字都不能编）
+- ❌ 具体样本量、期中分析时间点、效应量（ORR/PFS/OS 的具体数值）
+- ❌ 具体的突变亚型、作用机制断言（素材只说靶点 X，就只写靶点 X）
+- ❌ 申办方名称、试验编号（NCT 号）
+
+⚠️ **实测事故（2026-10-16 daraxonrasib 那条）就是这么来的**：素材是一句
+"CHMP 建议批准 daraxonrasib 用于经治转移性胰腺癌"。成稿为了凑字数，
+编了一个原文没有的分子代号，还断言了具体突变亚型和机制——而这些信息
+其实公开可查，正确的做法是**去查**（注册库、公告、学术会议），
+查不到就写未披露，而不是自己编。
+
+⚠️⚠️ **"注册库里没有结果" ≠ "数据未公开"。** 这是最贵的一个教训：
+   实测某三期试验在 CT.gov 上 `has_results: false`，但它的结果早已在
+   ASCO 全体大会发表并同步上了 NEJM。**写"数据未披露"之前，
+   必须同时查注册库、公司公告和学术会议**；只有全都查不到才能这么写。
 
 # 来源标注
 
@@ -592,6 +670,32 @@ def validate_content(doc: dict, text: str, style_cfg: dict,
     if "<p>" in text or "<div" in text:
         errs.append("正文里混入了 HTML 标签（应使用标记格式）")
 
+    # 6. 事实闸门 —— 成稿里有、素材里没有的高风险实体。
+    #
+    # 实测事故（daraxonrasib 那条，2026-10-16）：素材是一句 CHMP 批准的标题，
+    # 成稿为了凑字数和"显得有料"，编了一个原文没有的分子代号，还顺着新闻站
+    # 实体标签里的靶点写了一套机制。结构校验（字数/表格/日期）全过——
+    # 因为它"写得很完整"，只有拿实体和素材比对才能发现。
+    #
+    # 放在最后：先确认这是个体完整的稿子，再去质疑它的真伪，
+    # 避免对着半成品反复报错烧掉重试次数。
+    errs.extend(check_facts(content_text(doc) + " " + (doc.get("title") or ""),
+                            material))
+
+    # 7. 素材太薄 —— 直接拒绝，不给"用世界知识填满字数"的机会。
+    #
+    # 实测事故（retlirafusp alfa，2026-10-17）：当天 63% 的条目正文为空，
+    # 成稿阶段凭标题写满 5000 字，把恒瑞的药写成君实的、
+    # 把 TGF-β 写成 VEGF、把已发表数据写成"未披露"。
+    # 这条必须在最前面就拦住——事后的事实闸门对空素材是静默放行的。
+    thin, why = material_is_thin(material)
+    if thin:
+        errs.append(
+            f"素材太薄，禁止成稿：{why}。本条只有标题/少量信息，"
+            f"凭世界知识扩写成 2800 字必然产生假事实。"
+            f"正确做法是跳过本条，或先补一手材料"
+            f"（公司公告 / 期刊 / 学术会议 / 注册库）。")
+
     return errs
 
 
@@ -605,15 +709,24 @@ LENGTH_HINT = """
 上一版正文只有 {n} 字，目标是 {target} 字。请按下面的方式扩写：
 
 1. 每个 `## ` 小节至少 3 段（当前普遍只有 1-2 段）
-2. **终点结果**一节展开成表格：主要终点名称 / 试验组数值 / 对照组数值 /
-   统计学指标（HR、95%CI、P 值）/ 依据层级（注册库统计量 or 公告措辞）
-3. 增加"横向对照"段落：同类药物或既有标准疗法在同一适应症上的数据对比
-4. 增加"未满足需求"段落：这个适应症现在的治疗现状、还有哪些没被解决的
-5. 增加"安全性数据"段落：≥3 级不良事件、停药率、与对照组的差异
+2. **介绍公司与药物背景**——这是最推荐的扩写方向，写它不产生事实风险：
+   - 申办方的主营方向、研发管线规模、已上市产品与商业化能力、出海历史
+   - 靶点/疾病的生物学背景、已上市同靶点药物的机制与获批情况
+   - 该适应症的流行病学、现有治疗格局与未满足需求
+   - 监管流程背景：positive opinion 与正式批准的区别、分阶段审评是什么、
+     常见统计口径（PFS/OS/ORR）怎么读
+3. 素材里**确实有**的终点结果展开成表格：主要终点名称 / 试验组数值 /
+   对照组数值 / 统计学指标 / 依据层级（注册库统计量 or 公告措辞）
+4. 增加"未满足需求"段落：这个适应症现在的治疗现状、还有哪些没被解决
+5. 增加"安全性数据"段落（仅当素材里有安全性数字时才写）
 6. 结尾加"下一步看什么"的时间表（读出节点、申报计划、随访成熟时间）
 
 **注意：素材里已有的数字要展开写透，不要只罗列。**
 **已知信息要写足，不要把多个"未找到公开数据"堆成段落。**
+
+⚠️ **扩写背景 ≠ 可以编临床数据。** 公司/靶点/疾病/监管流程背景可以写，
+但分子代号、具体样本量、具体效应量、突变亚型、申办方名称、NCT 号
+仍然只能来自素材；素材没披露就写"未披露"，绝不脑补。
 """
 
 STYLE_HINT = """
@@ -712,19 +825,66 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
               f"{'✅通过' if not errs else '❌' + str(len(errs)) + '个问题'}")
 
         if not errs:
-            html = render_html(doc)
-            idx = plan_item.get("_idx", 1)
-            atype = plan_item.get("type", "event_report")
-            fname = f"{idx:02d}-{atype}-{plan_item.get('lead_id','')[:8]}.html"
-            out_dir.mkdir(parents=True, exist_ok=True)
-            (out_dir / fname).write_text(html, encoding="utf-8")
-            # 同时存一份标记原文，便于人工比对
-            (out_dir / (fname.replace(".html", ".txt"))).write_text(
-                txt, encoding="utf-8")
-            return {"ok": True, "file": fname, "stats": st,
-                    "html_len": len(html)}
+            # 结构过了，再跑【逐条断言核验】——这一步要调 LLM，所以放在
+            # 结构校验之后：别对着一个连格式都不对的半成品烧核查调用。
+            #
+            # ⚠️ 为什么必须有这一步：事实闸门（正则抓分子代号）实测对 6 类
+            #    编造只拦住 1 类，企业归属/机制/数值/状态/编造缺失全都放行。
+            #    这里换成"每条断言要能逐字引出素材原文"，并对引文做程序化核验。
+            print("      → 断言核验…")
+            try:
+                cok, cerrs, cstat = claimcheck.check_article(
+                    client, eff, txt, material)
+            except Exception as e:
+                # 核查本身异常不能当成"通过"（那会让闸门静默失效）
+                cok, cerrs, cstat = False, [f"断言核验异常 {type(e).__name__}"], {}
+            print(f"        断言 {cstat.get('ok', 0)}/{cstat.get('total', 0)} 有出处"
+                  f"（无出处 {cstat.get('no_evidence', 0)}，"
+                  f"编造出处 {cstat.get('fake_evidence', 0)}）"
+                  f"{'  ✅通过' if cok else '  ❌' + str(len(cerrs)) + '条无依据'}")
+            if cok:
+                html = render_html(doc)
+                idx = plan_item.get("_idx", 1)
+                atype = plan_item.get("type", "event_report")
+                fname = f"{idx:02d}-{atype}-{plan_item.get('lead_id','')[:8]}.html"
+                out_dir.mkdir(parents=True, exist_ok=True)
+                (out_dir / fname).write_text(html, encoding="utf-8")
+                # 同时存一份标记原文，便于人工比对
+                (out_dir / (fname.replace(".html", ".txt"))).write_text(
+                    txt, encoding="utf-8")
+                return {"ok": True, "file": fname, "stats": st,
+                        "claims": cstat, "html_len": len(html)}
+            errs = cerrs
 
+        # ── 字数不达标 / 断言无依据，重试都救不回来时：放弃，不写 ──
+        #    用户 2026-10-17 定的规则：扩写只允许写【可核验的公司背景】；
+        #    连那样都到不了字数，就**不写**，不要用世界知识凑。
+        if attempt >= retries:
+            short = body_chars(doc)
+            if short < int(target * 0.9):
+                reason = (f"字数不达标（{short} 字），扩写可核验内容后仍不足，"
+                          f"按规则放弃成稿（不用世界知识凑字数）")
+            elif errs:
+                reason = f"断言核验未通过：{errs[0][:160]}"
+            else:
+                reason = "重试用尽"
+            return {"ok": False, "skipped": True, "reason": reason,
+                    "stats": st}
+
+        fact_errs = [e for e in errs if "找不到" in e or "捏造" in e]
         feedback = "\n".join(f"- {e}" for e in errs)
+        if fact_errs:
+            feedback += (
+                "\n\n# ⚠️ 事实错误（必须删掉，不能换个说法保留）\n"
+                "上面这些断言在本次素材里**找不到出处**。正确做法：\n"
+                "  · 删掉没有出处的断言，或改成素材支持的表述\n"
+                "  · 素材只说靶点 X，就只写靶点 X，不要自行补亚型或机制\n"
+                "  · 篇幅不够就写【公司与药物背景】——但**背景里的每个数字和\n"
+                "    产品名也要能在素材里找到**；素材没有就写不了\n"
+                "  · 素材里确实没有、但公开可查的，写进脚注标明需核实渠道，\n"
+                "    不要直接当事实写\n"
+                "不要解释这些说法是否真实——素材里没有出处就是没有。"
+            )
         print(f"      问题: {feedback[:180]}")
 
     return {"ok": False, "error": feedback[:400],
@@ -772,6 +932,22 @@ def run(date: str | None = None) -> list[dict]:
                                 "stats": {}})
                 continue
             material = build_material(date, item)
+            # ⚠️ 素材太薄就别生成（2026-10-17）。
+            #    当天 63% 的条目正文为空，成稿却能凭标题写满 5000 字——
+            #    retlirafusp alfa 那篇就是这么把恒瑞的药写成君实的。
+            #    在这里拦住，比让它生成完再被 validate 拒绝更省（不烧 LLM 调用），
+            #    而且日志里能一眼看出"今天有多少条因素材不足被跳过"。
+            thin, why = material_is_thin(material)
+            if thin:
+                print(f"\n  [{i}] ⏭ 素材太薄，跳过：{why}")
+                print(f"      {item.get('title','')[:60]}")
+                results.append({"ok": False, "skipped": True,
+                                "reason": f"素材太薄：{why}",
+                                "title": item.get("title", ""),
+                                "score": item.get("score", 0),
+                                "type": item.get("type", ""),
+                                "stats": {}})
+                continue
             print(f"\n  [{i}] {item.get('type')} | {item.get('score')}分")
             print(f"      {item.get('title','')[:60]}")
             # 取源发布日期，用于校验 HOOK 里的年份（防模型编日期）

@@ -160,6 +160,22 @@ III 期失败是行业级事件，可能影响整个赛道。
 - `global`：其余
 在 reasoning 里说明依据。
 
+**⑨ reasoning 只写"为什么值得报道"，不写事实结论（2026-10-17 新增）**
+
+`reasoning` 会被**原样喂给成稿阶段**当"选题理由"。你在这里下的每一个
+事实判断，成稿都会当成既成事实继续扩写——下游所有环节都在你的前提上做加法。
+**评分只负责选材，不负责定稿。**
+
+- ❌ "Retlirafusp alfa（同类首创靶向 **PD-L1/VEGF** 的双功能抗体）Ⅲ 期改善 OS"
+      —— 机制是错的（实为 PD-L1/TGF-β），而这条错误结论被成稿放大成了
+      整篇 5000 字的错误叙事，还连带编出企业归属和分子代号
+- ❌ "该药已获 FDA 批准" / "这是首个口服 GLP-1"（素材没说的结论）
+- ✅ "Ⅲ 期 HER2- 胃癌试验报告 OS 改善，中国原研，属明确临床获益信号；
+      机制与监管状态需在成稿前核实"
+
+**如果机制、企业归属、批准状态这些你并不确定，就不要在 reasoning 里替它下结论，
+写进 `verify_todo`。** 素材（content）为空时尤其如此——那时你手里只有一个标题。
+
 # 输出格式（严格 JSON，不要任何解释文字）
 
 返回一个 JSON 数组，每个元素：
@@ -476,6 +492,7 @@ def run(date: str | None = None) -> list[dict]:
             s["sources"] = [src.source] + [
                 t.split(":", 1)[1] for t in src.topics if t.startswith("also:")]
             s["content"] = src.content
+            s["entity_tags"] = list(src.entity_tags)
             s["summary"] = src.summary
             s["lang"] = src.lang
             # ⚠️ published 必须回填。实测踩坑：漏了这个字段后，

@@ -31,6 +31,7 @@ except ImportError:  # selectolax 1.0 起 parser 模块被弃用
 
 from common import (RAW_DIR, RawItem, load_yaml, make_id, now_iso,
                     today_cst, write_json)
+from factguard import split_entity_tags
 from noise import is_clinical
 
 try:
@@ -441,7 +442,12 @@ async def run(date: str | None = None) -> list[RawItem]:
             if pub:
                 it.published = pub
             if body and len(body) > 300:
-                it.content = body
+                # ⚠️ 新闻站常把自动实体标注塞在正文最前面。留着它，成稿模型会
+                #    把标签里的靶点/公司当成事实依据。这里剥离，标签单独存
+                #    （见 factguard.split_entity_tags 的说明与事故记录）。
+                body2, etags = split_entity_tags(body)
+                it.entity_tags = etags
+                it.content = body2
                 it.access = "full"
             elif not it.summary:
                 it.access = "headline"

@@ -13,6 +13,9 @@ PyYAML>=6.0.1            # 配置文件
 dataclasses-json>=0.6.7  # 数据类序列化
 rapidfuzz>=3.9.4         # 模糊去重
 
+# --- 年报 PDF 解析（公司背景补全，见 companyinfo.py）---
+pypdf>=4.0.0             # 抽巨潮年报 PDF 的「营业收入 / 归母净利润」
+
 # --- LLM 调用（MiniMax / DeepSeek / OpenAI 兼容）---
 openai>=1.40.0
 

@@ -51,7 +51,8 @@ class RawItem:
     published: str                    # ISO8601
     access: AccessLevel
     mode: str                          # rss | html | pdf
-    content: str = ""                  # full 才有正文
+    content: str = ""                  # full 才有正文（已剥离新闻站实体标签行）
+    entity_tags: list[str] = field(default_factory=list)  # 被剥离的实体标签（≠事实）
     summary: str = ""                  # rss/headline 的摘要
     weight: float = 1.0
     topics: list[str] = field(default_factory=list)
