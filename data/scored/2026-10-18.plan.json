@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-18",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:bnt113",
+      "lead_id": "dd92cea6476654e7",
+      "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "dd92cea6476654e7",
+        "abf57879ea88c61e"
+      ],
+      "members": [
+        {
+          "title": "BioNTech失利背后：同样靶向E6/E7，HPV治疗性疫苗为何临床表现不同？",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384560",
+          "score": 8.0,
+          "reasoning": "BNT113 联合帕博利珠单抗治疗 HPV16+ HNSCC 的 II/III 期研究 AHEAD-MERIT 明确未达到 PFS 共同主要终点，是重要的注册试验失败事件。"
+        },
+        {
+          "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+          "url": "https://www.targetedonc.com/view/bnt113-pembrolizumab-misses-pfs-hpv16-hnscc",
+          "score": 8.0,
+          "reasoning": "与条目 dd92cea6476654e7 同药，为 BNT113 II/III 期明确未达到 PFS 主要终点，两条合并为同一事件。"
+        }
+      ],
+      "reasoning": "BNT113 联合帕博利珠单抗治疗 HPV16+ HNSCC 的 II/III 期研究 AHEAD-MERIT 明确未达到 PFS 共同主要终点，是重要的注册试验失败事件。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:garetosmab",
+      "lead_id": "b80101b8624a2d20",
+      "title": "[Articles] Efficacy and safety of garetosmab, an activin A-blocking antibody, in fibrodysplasia ossificans progressiva (OPTIMA): a randomised, double-blind, placebo-controlled, phase 3 trial",
+      "score": 9.8,
+      "channel": "global",
+      "member_ids": [
+        "b80101b8624a2d20"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Efficacy and safety of garetosmab, an activin A-blocking antibody, in fibrodysplasia ossificans progressiva (OPTIMA): a randomised, double-blind, placebo-controlled, phase 3 trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01599-0/fulltext?rss=yes",
+          "score": 9.8,
+          "reasoning": "Garetosmab OPTIMA III期随机双盲安慰剂对照试验在Lancet正式发表，主要终点（新发异位骨病变数）达到且统计学显著，证据强度最高。FOP（进行性骨化性纤维发育不良）为超罕见无药可治疾病，首创靶点。"
+        }
+      ],
+      "reasoning": "Garetosmab OPTIMA III期随机双盲安慰剂对照试验在Lancet正式发表，主要终点（新发异位骨病变数）达到且统计学显著，证据强度最高。FOP（进行性骨化性纤维发育不良）为超罕见无药可治疾病，首创靶点。",
+      "verify_todo": [],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:axatilimab",
+      "lead_id": "37c656abf0dc2bd5",
+      "title": "Syndax股价盘后大跌17%！axatilimab治疗IPF的II期MAXPIRe未达主要终点，FVC年下降率失败",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "37c656abf0dc2bd5"
+      ],
+      "members": [
+        {
+          "title": "Syndax股价盘后大跌17%！axatilimab治疗IPF的II期MAXPIRe未达主要终点，FVC年下降率失败",
+          "url": "https://www.pharnexcloud.com/zixun/sx_384117",
+          "score": 7.5,
+          "reasoning": "Axatilimab 治疗 IPF 的 II 期 MAXPIRe 明确未达到主要终点（FVC 年下降率），公司决定终止 IPF 适应症开发，股价大跌 17%，是重要失败事件。"
+        }
+      ],
+      "reasoning": "Axatilimab 治疗 IPF 的 II 期 MAXPIRe 明确未达到主要终点（FVC 年下降率），公司决定终止 IPF 适应症开发，股价大跌 17%，是重要失败事件。",
+      "verify_todo": [
+        "核实注册库中 FVC 变化具体数值及 p 值"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    }
+  ]
+}
