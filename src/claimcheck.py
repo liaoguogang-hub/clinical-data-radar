@@ -269,6 +269,48 @@ def check_article(client, eff: dict, article_text: str,
     return (not errs), errs, stat
 
 
+# 无出处断言占比超过这个比例，判"整篇靠世界知识写"
+NO_EVIDENCE_BLOCK_RATIO = 0.5
+
+
+def should_block(stat: dict, errs: list[str]) -> tuple[bool, str]:
+    """
+    决定这条稿子该不该【硬拦】。
+
+    ⚠️ 为什么不是"有错就拦"（2026-10-19 实测事故，代价是一整天产出归零）：
+       跨语种素材（英文公告 + 中文成稿）下，核查模型常把 evidence 写成中文，
+       与英文素材匹配不上 → **真断言**被判"无出处"。本模块的误报率在
+       这种情况下明显偏高（见 skill「已知盲区」）。
+
+       按"有错就拦"接线后，临床雷达当天选出 **3 篇**、
+       `compose` 重试 12 次全被拦，**一篇都没生成**；
+       而下游 `radar_wait` 只看到"run 成功但无产出"，把它当成
+       "当天没选题"报成 0 篇 —— 整条链路静默产出零。
+
+    只对**强信号**硬拦，弱信号放行交给 `audit.py` 事后复核：
+
+      · 编造出处（引文根本不在素材里）→ **硬拦**：核查模型自己在编，最不可容忍
+      · 未返回统计 / 未拆出断言      → **硬拦**：核验没生效，不能当通过
+      · 无出处占比 > NO_EVIDENCE_BLOCK_RATIO → **硬拦**：整篇大概率靠世界知识
+      · 少量无出处                    → **放行 + 记录**，交由 audit 复核
+    """
+    total = int((stat or {}).get("total", 0) or 0)
+    fake = int((stat or {}).get("fake_evidence", 0) or 0)
+    noev = int((stat or {}).get("no_evidence", 0) or 0)
+
+    if not stat:
+        return True, "断言核验未返回统计（核验未生效）"
+    if fake > 0:
+        return True, f"{fake} 条断言的出处是编造的（引文不在素材里）"
+    if total == 0:
+        return True, "未能拆出任何断言（核验未生效）"
+    if noev / total > NO_EVIDENCE_BLOCK_RATIO:
+        return True, (f"无出处断言 {noev}/{total}（{noev / total:.0%}）"
+                      f"超过 {NO_EVIDENCE_BLOCK_RATIO:.0%}，"
+                      f"整篇疑似靠世界知识写成")
+    return False, ""
+
+
 if __name__ == "__main__":
     import sys
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")

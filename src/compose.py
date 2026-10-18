@@ -825,12 +825,13 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
               f"{'✅通过' if not errs else '❌' + str(len(errs)) + '个问题'}")
 
         if not errs:
-            # 结构过了，再跑【逐条断言核验】——这一步要调 LLM，所以放在
-            # 结构校验之后：别对着一个连格式都不对的半成品烧核查调用。
+            # 结构过了，再跑【逐条断言核验】——要调 LLM，所以放在结构校验之后：
+            # 别对着格式都不对的半成品烧核查调用。
             #
-            # ⚠️ 为什么必须有这一步：事实闸门（正则抓分子代号）实测对 6 类
-            #    编造只拦住 1 类，企业归属/机制/数值/状态/编造缺失全都放行。
-            #    这里换成"每条断言要能逐字引出素材原文"，并对引文做程序化核验。
+            # ⚠️ 判据用 claimcheck.should_block()，**不是"有错就拦"**。
+            #    2026-10-19 事故：按"有错就拦"接线后，跨语种素材（英文公告 +
+            #    中文成稿）的误报把 3 篇稿子全拦了，重试 12 次产出归零，
+            #    下游还把它报成"当天没选题"。详见 should_block 的说明。
             print("      → 断言核验…")
             try:
                 cok, cerrs, cstat = claimcheck.check_article(
@@ -838,11 +839,12 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
             except Exception as e:
                 # 核查本身异常不能当成"通过"（那会让闸门静默失效）
                 cok, cerrs, cstat = False, [f"断言核验异常 {type(e).__name__}"], {}
+            block, why = claimcheck.should_block(cstat, cerrs)
             print(f"        断言 {cstat.get('ok', 0)}/{cstat.get('total', 0)} 有出处"
                   f"（无出处 {cstat.get('no_evidence', 0)}，"
                   f"编造出处 {cstat.get('fake_evidence', 0)}）"
-                  f"{'  ✅通过' if cok else '  ❌' + str(len(cerrs)) + '条无依据'}")
-            if cok:
+                  + (f"  ❌拦：{why}" if block else "  ✅放行"))
+            if not block:
                 html = render_html(doc)
                 idx = plan_item.get("_idx", 1)
                 atype = plan_item.get("type", "event_report")
@@ -853,7 +855,19 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                 (out_dir / (fname.replace(".html", ".txt"))).write_text(
                     txt, encoding="utf-8")
                 return {"ok": True, "file": fname, "stats": st,
-                        "claims": cstat, "html_len": len(html)}
+                        "claims": cstat,
+                        "claim_warnings": (cerrs if cerrs else []),
+                        "html_len": len(html)}
+            # ── 被拦：先把草稿存下来 ────────────────────────────────
+            # ⚠️ 原来这里直接丢弃，于是"为什么被拦"事后完全无据可查
+            #    （2026-10-19 排查时就卡在这里：只知道 0 篇，不知道被拦成什么样）。
+            dbg = DATA_DIR / "debug"
+            dbg.mkdir(parents=True, exist_ok=True)
+            (dbg / f"rejected_{plan_item.get('lead_id','')[:8]}"
+                   f"_{attempt+1}.txt").write_text(
+                f"# 拦因：{why}\n# 统计：{cstat}\n# 问题：\n"
+                + "\n".join(f"- {e}" for e in cerrs[:40])
+                + f"\n\n{txt}", encoding="utf-8")
             errs = cerrs
 
         # ── 字数不达标 / 断言无依据，重试都救不回来时：放弃，不写 ──
