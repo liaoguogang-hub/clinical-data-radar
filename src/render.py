@@ -137,15 +137,29 @@ def _merge_split_markers(text: str) -> str:
     for i, raw in enumerate(lines):
         s = raw.strip()
         m = re.match(r"^(ENDCARD|TABLE|BOX)\s*$", s, re.I)
-        if m and i + 1 < len(lines):
-            nxt = lines[i + 1].strip()
-            # 下一行必须有竖线，且不是又一个标记行，才值得缝
-            if nxt and "|" in nxt and not re.match(
-                    r"^(ENDCARD|ENDTABLE|TABLE|BOX|FN|KICKER|TITLE|SUB|HOOK)\b",
-                    nxt, re.I):
-                out.append(f"{m.group(1).upper()} {nxt}")
-                lines[i + 1] = ""      # 标记为已消费
-                continue
+        if m:
+            # ⚠️ 必须**跳过空行**再找内容（2026-10-19 补充）：
+            #    原来只看紧邻的下一行，于是
+            #        ENDCARD
+            #        <空行>
+            #        真正的看点 | 内容……
+            #    这种形态找不nxt → 不缝合 → 掉进"裸标记"分支 → 整篇作废。
+            #    实测 10-19 有一篇 2318 字（已过 2100 字数下限）
+            #    就因为这一处被判死。
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                nxt = lines[j].strip()
+                # 下一行必须有竖线，且不是又一个标记行，才值得缝
+                if "|" in nxt and not re.match(
+                        r"^(ENDCARD|ENDTABLE|TABLE|BOX|FN|KICKER|TITLE|SUB|HOOK)\b",
+                        nxt, re.I):
+                    out.append(f"{m.group(1).upper()} {nxt}")
+                    lines[j] = ""            # 内容行已消费
+                    for k in range(i + 1, j):  # 中间的空行也一并清掉
+                        lines[k] = ""
+                    continue
         out.append(raw)
     return "\n".join(out)
 
@@ -253,6 +267,16 @@ def parse_content(text: str) -> dict:
         bare = re.match(r"^(ENDCARD|ENDTABLE|ENDCARD|TABLE|BOX|FN|KICKER|"
                         r"TITLE|SUB|HOOK)\b\s*$", s, re.I)
         if bare:
+            kind = bare.group(1).upper()
+            # ⚠️ 重复的裸标记：该块已经解析过了 → 忽略，不判失败
+            #    （2026-10-19 补充）实测：模型会把 `ENDCARD` 写两遍——
+            #    一张合规的结语卡（`ENDCARD 标题 | 内容`），末尾再甩一个裸
+            #    `ENDCARD`。此时 doc["end"] 已经有内容
+            #    （structure_report 的 has_end=true 就是证据），
+            #    再因为那个多余的裸行把整篇 2318 字的稿子判死没有道理。
+            #    真正"从头到尾没有结语卡"的，doc["end"] 为空，仍然报错。
+            if kind == "ENDCARD" and doc.get("end"):
+                continue
             doc.setdefault("marker_errors", []).append(
                 f"标记行格式不全：{s!r}（应写成 `关键词 标题 | 内容`）")
             continue
