@@ -842,7 +842,8 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
             block, why = claimcheck.should_block(cstat, cerrs)
             print(f"        断言 {cstat.get('ok', 0)}/{cstat.get('total', 0)} 有出处"
                   f"（无出处 {cstat.get('no_evidence', 0)}，"
-                  f"编造出处 {cstat.get('fake_evidence', 0)}）"
+                  f"编造出处 {cstat.get('fake_evidence', 0)}，"
+                  f"跨语种无法判定 {cstat.get('cross_lang', 0)}）"
                   + (f"  ❌拦：{why}" if block else "  ✅放行"))
             if not block:
                 html = render_html(doc)
@@ -859,12 +860,16 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                         "claim_warnings": (cerrs if cerrs else []),
                         "html_len": len(html)}
             # ── 被拦：先把草稿存下来 ────────────────────────────────
-            # ⚠️ 原来这里直接丢弃，于是"为什么被拦"事后完全无据可查
-            #    （2026-10-19 排查时就卡在这里：只知道 0 篇，不知道被拦成什么样）。
-            dbg = DATA_DIR / "debug"
-            dbg.mkdir(parents=True, exist_ok=True)
-            (dbg / f"rejected_{plan_item.get('lead_id','')[:8]}"
-                   f"_{attempt+1}.txt").write_text(
+            # ⚠️ 原来这里直接丢弃，于是"为什么被拦"事后完全无据可查。
+            #
+            # ⚠️⚠️ 第一版存进了 `data/debug/`——那个目录**在 .gitignore 里**
+            #     （第 21 行），云端跑完随 runner 一起销毁，等于没存。
+            #     2026-10-19 就因此又白查了一轮。
+            #     现在改存 `data/rejected/`（未忽略），会随"提交产出"进仓库。
+            rej = ROOT / "data" / "rejected"
+            rej.mkdir(parents=True, exist_ok=True)
+            (rej / f"{today_cst()}_{plan_item.get('lead_id','')[:8]}"
+                   f"_try{attempt+1}.txt").write_text(
                 f"# 拦因：{why}\n# 统计：{cstat}\n# 问题：\n"
                 + "\n".join(f"- {e}" for e in cerrs[:40])
                 + f"\n\n{txt}", encoding="utf-8")
@@ -875,13 +880,35 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
         #    连那样都到不了字数，就**不写**，不要用世界知识凑。
         if attempt >= retries:
             short = body_chars(doc)
-            if short < int(target * 0.9):
-                reason = (f"字数不达标（{short} 字），扩写可核验内容后仍不足，"
-                          f"按规则放弃成稿（不用世界知识凑字数）")
+            # ⚠️ 下限必须和 validate_content 用**同一个** tolerance（0.75），
+            #    不能用 0.9（2026-10-19 回归）：
+            #    validate_content 的下限是 target*0.75，我这里写 target*0.9，
+            #    于是 2250–2700 字的稿子"结构校验通过、却被判成字数不达标"
+            #    直接丢弃。两个阈值不一致 = 合格稿子被静默扔掉。
+            tol = gen_cfg.get("word_tolerance", 0.75)
+            if short < int(target * tol):
+                reason = (f"字数不达标（{short} 字 < 下限 {int(target * tol)}），"
+                          f"扩写可核验内容后仍不足，按规则放弃成稿"
+                          f"（不用世界知识凑字数）")
             elif errs:
                 reason = f"断言核验未通过：{errs[0][:160]}"
             else:
                 reason = "重试用尽"
+            # ⚠️ 放弃时也要留证据（2026-10-19 教训）：
+            #    这条分支原来只返回一个 reason 字符串，正文直接丢弃，
+            #    于是"为什么 3 篇全没成"事后完全查不出来。
+            #    存到 data/rejected/（未 gitignore），随提交进仓库。
+            try:
+                rej = ROOT / "data" / "rejected"
+                rej.mkdir(parents=True, exist_ok=True)
+                (rej / f"{today_cst()}_{plan_item.get('lead_id','')[:8]}"
+                       f"_giveup.txt").write_text(
+                    f"# 放弃原因：{reason}\n# 正文 {short} 字（目标 {target}，"
+                    f"下限 {int(target * tol)}）\n# 问题：\n"
+                    + "\n".join(f"- {e}" for e in (errs or [])[:40])
+                    + f"\n\n{txt}", encoding="utf-8")
+            except Exception:
+                pass
             return {"ok": False, "skipped": True, "reason": reason,
                     "stats": st}
 

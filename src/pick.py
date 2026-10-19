@@ -68,9 +68,11 @@ def _evidence(s: dict) -> int:
 
 def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
                         cluster_max: int = 3,
-                        published_ck: set[str] | None = None) -> list[dict]:
+                        published_ck: set[str] | None = None,
+                        covered_ev: set[tuple[str, str]] | None = None) -> list[dict]:
     """单个栏目内的选题逻辑"""
     published_ck = published_ck or set()
+    covered_ev = covered_ev or set()
 
     # 排除已发表与低置信度
     #
@@ -79,11 +81,22 @@ def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
     # 各报一次，标题措辞差很远（模糊去重拦不住 lead_id 也不同），
     # 结果同一件事发了两篇稿。cluster_key 是"同一件临床事件"的标识，
     # 用它去重才拦得住跨源重复。
+    #
+    # ⚠️ covered_ev 是【跨天】的 (cluster_key, 事件类型)：同一件事连着几天
+    #    被不同源报出来时，只有它能拦住（2026-10-19 BNT113 连续 3 天进选题）。
+    #
+    # ⚠️ 事件类型取自 `article_type`（不是 `type`）——必须和 plan/seen.json
+    #    里记录的同一个口径，否则 ("drug:bnt113","") 永远匹配不上
+    #    ("drug:bnt113","halt")，过滤等于没做。
+    def _atype(s: dict) -> str:
+        return (s.get("article_type") or "readout").strip()
+
     before = len(pool)
     pool = [s for s in pool
             if s["id"][:8] not in published
             and "not_clinical" not in (s.get("flags") or [])
-            and (s.get("cluster_key") or "") not in published_ck]
+            and (s.get("cluster_key") or "") not in published_ck
+            and ((s.get("cluster_key") or ""), _atype(s)) not in covered_ev]
     dropped = before - len(pool)
     if dropped:
         print(f"    （排除已发表/已覆盖 {dropped} 条）")
@@ -171,11 +184,18 @@ def run(date: str | None = None) -> dict:
     if published:
         print(f"[select] 排除已发表 {len(published)} 篇")
     # 今天已覆盖的临床事件（cluster_key），防止跨源重复
-    from dedupe import published_cluster_keys
+    from dedupe import covered_events, published_cluster_keys
     published_ck = published_cluster_keys(date)
     if published_ck:
         print(f"[select] 今日已覆盖事件 {len(published_ck)} 个："
               f"{'、'.join(sorted(published_ck)[:5])}")
+    # ⚠️ 跨天：近 14 天内已写过的 (cluster_key, 事件类型)。
+    #    只按 cluster_key 会误杀"同药的新进展"，所以要带上事件类型
+    #    （2026-10-19：BNT113 halt 连续 3 天进选题，orforglipron 的
+    #      readout→milestone 则应该都写）。
+    covered_ev = covered_events(date, days=14)
+    if covered_ev:
+        print(f"[select] 近 14 天已写过同类事件 {len(covered_ev)} 个")
 
     pool = [s for s in scored
             if s.get("score", 0) >= keep_thr
@@ -203,7 +223,7 @@ def run(date: str | None = None) -> dict:
     for ch in ("china", "global"):
         dmax = channels.get(ch, {}).get("daily_max", cfg.get("daily_max", 3))
         got = _select_for_channel(by_chan[ch], dmax, published, cluster_max,
-                                  published_ck)
+                                  published_ck, covered_ev)
         label = channels.get(ch, {}).get("label", ch)
         print(f"\n  [{label}] 选定 {len(got)} 篇")
         for p in got:
@@ -212,11 +232,15 @@ def run(date: str | None = None) -> dict:
 
     # 兜底：若两个栏目都没选出（阈值过高或数据太差），
     # 放宽到全池前三，避免整天零产出
+    #
+    # ⚠️ 兜底也要过 covered_ev：否则"只剩重复事件"时会把已写过的
+    #    同一件事再发一遍——比零产出更糟。
     if not plan and pool:
         print("\n[select] 两栏目均为空，放宽到全池前三")
         plan = _select_for_channel(
             sorted(pool, key=lambda x: -x.get("score", 0)),
-            cfg.get("daily_max", 3), published, cluster_max, published_ck)
+            cfg.get("daily_max", 3), published, cluster_max, published_ck,
+            covered_ev)
 
     for i, p in enumerate(plan, 1):
         p["_idx"] = i

@@ -221,18 +221,39 @@ def extract_claims(client, eff: dict, article_text: str,
     return out
 
 
+def _cjk_ratio(s: str) -> float:
+    """中文汉字占字母类的比例，用来判断引文/素材是否同一书写系统。"""
+    if not s:
+        return 0.0
+    cjk = sum(1 for ch in s if "\u4e00" <= ch <= "\u9fff")
+    letters = sum(1 for ch in s if ch.isalpha())
+    return cjk / letters if letters else 0.0
+
+
 def verify_claims(claims: list[dict], material: str) -> tuple[list[str], dict]:
     """
     程序化核验。返回 (问题列表, 统计)。
 
-    两类问题：
-      1. 需要出处却没给出处
-      2. **给出了处，但那段引文根本不在素材里** —— 编造出处（最严重，说明
-         连核查模型自己都在编）
+    三类结果：
+      1. 需要出处却没给出处            → no_evidence
+      2. 给出了处、引文能在素材里找到   → ok
+      3. **给出了处，但引文不在素材里**  → fake_evidence（编造出处）
+      4. 引文与素材**书写系统不同**      → cross_lang（无法判定，不罚）
+
+    ⚠️ 第 4 类为什么必须单独算（2026-10-19 事故根因之一）：
+       素材多是英文（NEJM / 公司公告 / CT.gov），成稿是中文。核查模型被要求
+       "逐字给引文"时，经常给出**中文译文**——子串与英文素材重合必然 ≈0，
+       于是被判成 fake_evidence = **编造出处**。
+       结果：真文章被当成"核查模型在编造证据"，claim 闸门把 3 篇全拦，
+       当天产出归零。这不是阈值问题，是**判据用错了地方**：
+       跨语种时子串比对没有意义，既不能证明有出处，也不能证明编造。
+       所以这里静默计入 cross_lang，既不加 errs 也不算 ok。
     """
     mat_n = _norm(material)
+    mat_cjk = _cjk_ratio(material)
     errs: list[str] = []
-    stat = {"total": 0, "ok": 0, "no_evidence": 0, "fake_evidence": 0}
+    stat = {"total": 0, "ok": 0, "no_evidence": 0,
+            "fake_evidence": 0, "cross_lang": 0}
 
     for c in claims:
         kind = c.get("kind", "general")
@@ -244,6 +265,11 @@ def verify_claims(claims: list[dict], material: str) -> tuple[list[str], dict]:
             stat["no_evidence"] += 1
             errs.append(f"[{kind}] 断言「{c['text'][:60]}」在素材里找不到出处。"
                         f"把它删掉，或改成素材支持的表述。")
+            continue
+        # 跨语种：引文一边倒中文、素材一边倒英文（或反过来）→ 无法用子串判定
+        ev_cjk = _cjk_ratio(ev)
+        if (ev_cjk > 0.5 and mat_cjk < 0.1) or (ev_cjk < 0.1 and mat_cjk > 0.5):
+            stat["cross_lang"] += 1
             continue
         ev_n = _norm(ev)
         # 判据：引文里至少要有一段 ≥MIN_EVIDENCE_LEN 字的**连续**真原文
@@ -269,45 +295,46 @@ def check_article(client, eff: dict, article_text: str,
     return (not errs), errs, stat
 
 
-# 无出处断言占比超过这个比例，判"整篇靠世界知识写"
-NO_EVIDENCE_BLOCK_RATIO = 0.5
+# 无出处断言**不**作为拦截依据（2026-10-19 事后修正，见 should_block）
+NO_EVIDENCE_BLOCK_RATIO = None
 
 
 def should_block(stat: dict, errs: list[str]) -> tuple[bool, str]:
     """
     决定这条稿子该不该【硬拦】。
 
-    ⚠️ 为什么不是"有错就拦"（2026-10-19 实测事故，代价是一整天产出归零）：
-       跨语种素材（英文公告 + 中文成稿）下，核查模型常把 evidence 写成中文，
-       与英文素材匹配不上 → **真断言**被判"无出处"。本模块的误报率在
-       这种情况下明显偏高（见 skill「已知盲区」）。
+    ⚠️ 演进过程——前两版都不对，第三版才对：
 
-       按"有错就拦"接线后，临床雷达当天选出 **3 篇**、
-       `compose` 重试 12 次全被拦，**一篇都没生成**；
-       而下游 `radar_wait` 只看到"run 成功但无产出"，把它当成
-       "当天没选题"报成 0 篇 —— 整条链路静默产出零。
+      v1「有错就拦」：只要一条断言无出处就拦。
+        2026-10-19 实测：跨语种素材（英文公告 + 中文成稿）下，核查模型
+        常把 evidence 写成中文、与英文素材匹配不上，**真断言**被判无出处。
+        结果 3 篇 × 4 次重试全被拦，当天产出归零。
 
-    只对**强信号**硬拦，弱信号放行交给 `audit.py` 事后复核：
+      v2「无出处占比 > 50% 才拦」：仍然拦——跨语种下无出处占比本来就
+        轻易过半。改完重跑，仍然 0 篇。
 
-      · 编造出处（引文根本不在素材里）→ **硬拦**：核查模型自己在编，最不可容忍
-      · 未返回统计 / 未拆出断言      → **硬拦**：核验没生效，不能当通过
-      · 无出处占比 > NO_EVIDENCE_BLOCK_RATIO → **硬拦**：整篇大概率靠世界知识
-      · 少量无出处                    → **放行 + 记录**，交由 audit 复核
+      v3（现在）**无出处一律不拦**，只有"编造出处"才硬拦。
+
+    为什么 v3 才对：
+      · `fake_evidence` = 核查模型给的引文**根本不在素材里**——模型自己在
+        编造证据，无歧义，必须拦。
+      · `no_evidence` = 模型没找到出处。跨语种下**大量是误报**；拿它当
+        发布阻塞项，等于让"检查器的语言能力"决定今天能不能发稿。
+      · 真相交给 `audit.py` 事后逐条报告 + 人工复核，而不是在这里硬堵。
+
+    仍然硬拦的三种（都属"核验没生效"或"证据造假"，与语言无关）：
+      · 未返回统计 / 未拆出断言（核验没生效）
+      · fake_evidence > 0（编造出处）
     """
     total = int((stat or {}).get("total", 0) or 0)
     fake = int((stat or {}).get("fake_evidence", 0) or 0)
-    noev = int((stat or {}).get("no_evidence", 0) or 0)
 
     if not stat:
         return True, "断言核验未返回统计（核验未生效）"
-    if fake > 0:
-        return True, f"{fake} 条断言的出处是编造的（引文不在素材里）"
     if total == 0:
         return True, "未能拆出任何断言（核验未生效）"
-    if noev / total > NO_EVIDENCE_BLOCK_RATIO:
-        return True, (f"无出处断言 {noev}/{total}（{noev / total:.0%}）"
-                      f"超过 {NO_EVIDENCE_BLOCK_RATIO:.0%}，"
-                      f"整篇疑似靠世界知识写成")
+    if fake > 0:
+        return True, f"{fake} 条断言的出处是编造的（引文不在素材里）"
     return False, ""
 
 

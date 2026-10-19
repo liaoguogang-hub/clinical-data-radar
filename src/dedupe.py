@@ -203,8 +203,17 @@ def record_published(topics: list[dict], today: str | None = None,
         title = t.get("title") or ""
         if not tid or tid in known:
             continue
+        # ⚠️ 必须连【事件类型】一起记（2026-10-19 补）。
+        #    跨天去重要回答的是"这是不是同一件新闻"，
+        #    而 cluster_key（drug:xxx）只说明"同一个药"——
+        #    同一个药会接连出不同事件，不能一律当重复：
+        #      orforglipron: 10-17 readout → 10-19 milestone  ← 两条都要写
+        #      BNT113:       10-18 halt    → 10-19 halt       ← 同一条，要排除
+        #    判据是 (cluster_key, type) 一致，不是 cluster_key 一致。
         entries.append({"id": tid, "title": title, "date": today,
-                        "cluster_key": t.get("cluster_key") or ""})
+                        "cluster_key": t.get("cluster_key") or "",
+                        "type": t.get("type") or "",
+                        "verdict": t.get("endpoint_verdict") or ""})
         known.add(tid)
         added += 1
 
@@ -221,14 +230,51 @@ def published_cluster_keys(today: str) -> set[str]:
     实测踩坑：众生药业 RAY1225 的 III 期结果，摩熵医药和药时代
     各报一次，标题措辞差很远（模糊去重拦不住），于是发了两篇。
 
-    只限今天——跨天不限制，因为同一个药后续会有新的读出
-    （II 期今天、III 期下个月），那是不同的新闻。
+    只限今天——跨天用 `covered_events()`（按事件类型判，见下）。
+    为什么跨天不能只按 cluster_key：同一个药会接连出不同事件
+    （II 期今天、III 期下个月），那些都是不同的新闻。
     """
     data = read_json(SEEN_FILE, {})
     out = set()
     for e in _load_entries(data):
         if e.get("date") == today and e.get("cluster_key"):
             out.add(str(e["cluster_key"]))
+    return out
+
+
+def covered_events(today: str, days: int = 14) -> set[tuple[str, str]]:
+    """
+    近 N 天内已发表过的 (cluster_key, 事件类型) 组合——**跨天**去重。
+
+    ⚠️ 为什么需要它（2026-10-19 实测事故）：
+       BNT113 的"PFS 终点未达"连续 3 天进入选题：
+         10-17 cluster_key=drug:BNT113, lead=dd92cea6（进选题未成稿）
+         10-18 cluster_key=drug:bnt113, lead=dd92cea6（写成稿）
+         10-19 cluster_key=drug:bnt113, lead=abf57879（又进选题）
+       10-19 换了 lead_id，所以 `published`（按 id[:8]）拦不住；
+       `filter_history` 的标题模糊匹配也拦不住——因为 seen.json 里
+       存的是**改写后的中文标题**，而新条目是**英文原标题**，跨语种
+       的 token_set_ratio 接近 0。而 cluster_key 明明存了却没用于跨天。
+
+    关键是带上【事件类型】：只按 cluster_key 会把"同药的新进展"误杀
+      · ("drug:orforglipron", "readout")   vs ("drug:orforglipron", "milestone")
+        → 不同事件，都该写
+      · ("drug:bnt113", "halt")            vs ("drug:bnt113", "halt")
+        → 同一事件重复报道，排除
+    """
+    from datetime import date as _date, timedelta as _td
+    try:
+        cut = (_date.fromisoformat(today) - _td(days=days)).isoformat()
+    except Exception:
+        return set()
+    out: set[tuple[str, str]] = set()
+    for e in _load_entries(read_json(SEEN_FILE, {})):
+        d = str(e.get("date") or "")
+        ck = str(e.get("cluster_key") or "")
+        if not ck or not d:
+            continue
+        if cut <= d < today:                      # 只算"之前 N 天内"
+            out.add((ck, str(e.get("type") or "")))
     return out
 
 
