@@ -4,88 +4,84 @@
   "plan": [
     {
       "type": "milestone",
-      "cluster_key": "drug:hbv_functional_cure",
-      "lead_id": "8fe4d986755a684a",
-      "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
-      "score": 7.0,
+      "cluster_key": "target:universal-cell-therapy-parkinson",
+      "lead_id": "bc98a9065f9b6c09",
+      "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
+      "score": 6.5,
       "channel": "china",
       "member_ids": [
-        "8fe4d986755a684a"
+        "bc98a9065f9b6c09"
       ],
       "members": [
         {
-          "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
-          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_384678",
-          "score": 7.0,
-          "reasoning": "若确为全球首个乙肝功能性治愈药物提交上市申请，属行业级里程碑（慢性乙肝功能性治愈近四十年未突破）；但具体药名、III期数据和终点结果均未在文中展示，依据：新闻措辞，非完整试验数据。"
+          "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
+          "url": "https://www.drugtimes.cn/2026/10/10/shizeshengwutongyongxibaozhiliaopajinsenbingliangxiangmdsguo/",
+          "score": 6.5,
+          "reasoning": "士泽生物通用细胞治疗帕金森 1 期突破进展（MDS 国际大会报告）叠加 2 期全部入组完成，两个里程碑节点同时出现；未满足需求高（中国患者群体大），但细胞治疗机制新颖性评估需核实。依据为会议报告疗效数字，非注册库统计结论。"
         }
       ],
-      "reasoning": "若确为全球首个乙肝功能性治愈药物提交上市申请，属行业级里程碑（慢性乙肝功能性治愈近四十年未突破）；但具体药名、III期数据和终点结果均未在文中展示，依据：新闻措辞，非完整试验数据。",
+      "reasoning": "士泽生物通用细胞治疗帕金森 1 期突破进展（MDS 国际大会报告）叠加 2 期全部入组完成，两个里程碑节点同时出现；未满足需求高（中国患者群体大），但细胞治疗机制新颖性评估需核实。依据为会议报告疗效数字，非注册库统计结论。",
       "verify_todo": [
-        "核实该药具体名称、III期主要终点数据、'功能性治愈'的定义及确为全球首个的证据"
+        "1 期具体临床数据（安全性/有效性数字）；2 期试验注册信息及主要终点设计"
       ],
       "flags": [
-        "milestone",
         "positive_data"
       ],
-      "endpoint_verdict": "unclear",
+      "endpoint_verdict": "positive_data",
       "_idx": 1
     },
     {
-      "type": "readout",
-      "cluster_key": "drug:anito-cel",
-      "lead_id": "15b408b2a16a0b7c",
-      "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
-      "score": 7.3,
-      "channel": "global",
+      "type": "milestone",
+      "cluster_key": "drug:telitacicept",
+      "lead_id": "b6ec6b332bb13bb9",
+      "title": "智翔金泰泰利奇拜单抗注射液慢性鼻窦炎伴鼻息肉适应症上市申请获受理",
+      "score": 6.0,
+      "channel": "china",
       "member_ids": [
-        "15b408b2a16a0b7c"
+        "b6ec6b332bb13bb9"
       ],
       "members": [
         {
-          "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
-          "url": "http://news.bioon.com/article/e4c095418330.html",
-          "score": 7.3,
-          "reasoning": "NEJM正式发表的1期临床试验数据，38例R/R多发性骨髓瘤100%应答率、近80%完全缓解、3年生存65%，疗效数字亮眼，但属替代终点（ORR/CR）而非OS，依据：同行评审顶刊统计结论，非试验预设主要终点宣称。"
+          "title": "智翔金泰泰利奇拜单抗注射液慢性鼻窦炎伴鼻息肉适应症上市申请获受理",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_384891",
+          "score": 6.0,
+          "reasoning": "智翔金泰泰利奇拜单抗（泰爱）慢性鼻窦炎伴鼻息肉适应症上市申请获受理，属监管审批节点；IL-17/BAFF 双靶点赛道竞争少、该适应症未满足需求较高；上市申请受理是明确的临床进展里程碑。"
         }
       ],
-      "reasoning": "NEJM正式发表的1期临床试验数据，38例R/R多发性骨髓瘤100%应答率、近80%完全缓解、3年生存65%，疗效数字亮眼，但属替代终点（ORR/CR）而非OS，依据：同行评审顶刊统计结论，非试验预设主要终点宣称。",
+      "reasoning": "智翔金泰泰利奇拜单抗（泰爱）慢性鼻窦炎伴鼻息肉适应症上市申请获受理，属监管审批节点；IL-17/BAFF 双靶点赛道竞争少、该适应症未满足需求较高；上市申请受理是明确的临床进展里程碑。",
       "verify_todo": [
-        "核实试验预设主要终点是否为此ORR终点、吉利德/Kite申报进展"
+        "该适应症在注册试验中的主要终点及结果；与其他 CRSwNP 生物制品疗效对比数据"
       ],
-      "flags": [
-        "positive_data",
-        "surrogate"
-      ],
-      "endpoint_verdict": "positive_data",
+      "flags": [],
+      "endpoint_verdict": "none",
       "_idx": 2
     },
     {
       "type": "readout",
-      "cluster_key": "drug:remaglutide",
-      "lead_id": "ef84688166819007",
-      "title": "疗效没有临床意义，还值得继续开发吗？",
-      "score": 7.3,
+      "cluster_key": "drug:disc-medicine-sun-allergy",
+      "lead_id": "3a8b899a5108e6c8",
+      "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+      "score": 7.5,
       "channel": "global",
       "member_ids": [
-        "ef84688166819007"
+        "3a8b899a5108e6c8"
       ],
       "members": [
         {
-          "title": "疗效没有临床意义，还值得继续开发吗？",
-          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384895",
-          "score": 7.3,
-          "reasoning": "默沙东 BRUNELLO 试验新闻稿明确表述「达到了主要终点目标」且 Remigrolig 以非劣效于雷珠单抗达到视力获益，是 20 多年来首个以全新作用机制在 DME 关键试验中达到非劣效的生物制剂；依据为统计结论（非劣效假设成立）而非裸疗效数字，first-in-class 价值显著。"
+          "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+          "url": "https://endpoints.news/disc-medicine-reports-sun-allergy-drug-hits-home-run-in-phase-3/",
+          "score": 7.5,
+          "reasoning": "Disc Medicine一款罕见病（使日光暴露致痛）药物III期研究在全部终点上成功，endpoint.news以'Phase 3 home run'标题确认III期达到终点，但条目仅有RSS摘要（206字符），具体终点指标、p值、样本量均未披露，可信度受限。"
         }
       ],
-      "reasoning": "默沙东 BRUNELLO 试验新闻稿明确表述「达到了主要终点目标」且 Remigrolig 以非劣效于雷珠单抗达到视力获益，是 20 多年来首个以全新作用机制在 DME 关键试验中达到非劣效的生物制剂；依据为统计结论（非劣效假设成立）而非裸疗效数字，first-in-class 价值显著。",
+      "reasoning": "Disc Medicine一款罕见病（使日光暴露致痛）药物III期研究在全部终点上成功，endpoint.news以'Phase 3 home run'标题确认III期达到终点，但条目仅有RSS摘要（206字符），具体终点指标、p值、样本量均未披露，可信度受限。",
       "verify_todo": [
-        "确认非劣效界值与预设 α 消耗策略",
-        "核实 BRUNELLO 试验样本量及完整统计量"
+        "药物名称及靶点",
+        "具体主要终点指标及统计量",
+        "NCT编号及注册状态"
       ],
       "flags": [
-        "met",
-        "positive_data"
+        "met"
       ],
       "endpoint_verdict": "met",
       "_idx": 3
@@ -95,7 +91,7 @@
       "cluster_key": "drug:icotrokinra",
       "lead_id": "5cdbaa40d056e991",
       "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-      "score": 7.0,
+      "score": 6.5,
       "channel": "global",
       "member_ids": [
         "5cdbaa40d056e991"
@@ -104,19 +100,15 @@
         {
           "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604435?af=R&rss=currentIssue",
-          "score": 7.0,
-          "reasoning": "Icotrokinra（口服 JAK 抑制剂）治疗溃疡性结肠炎 II 期试验正式发表于 NEJM，顶刊发表本身意味着预设主要终点（临床缓解）已达到且有正式统计检验，属高质量可信的临床数据读出。"
+          "score": 6.5,
+          "reasoning": "II期试验结果在NEJM正式发表（最高可信度来源），有完整统计检验数据；JAK1抑制剂在溃疡性结肠炎中达到临床缓解主要终点；竞争激烈（乌司奴单抗等），首创性一般。"
         }
       ],
-      "reasoning": "Icotrokinra（口服 JAK 抑制剂）治疗溃疡性结肠炎 II 期试验正式发表于 NEJM，顶刊发表本身意味着预设主要终点（临床缓解）已达到且有正式统计检验，属高质量可信的临床数据读出。",
+      "reasoning": "II期试验结果在NEJM正式发表（最高可信度来源），有完整统计检验数据；JAK1抑制剂在溃疡性结肠炎中达到临床缓解主要终点；竞争激烈（乌司奴单抗等），首创性一般。",
       "verify_todo": [
-        "核实 II 期试验随机对照设计及具体主要终点指标",
-        "确认给药剂量组主要终点结果及数值"
+        "确认具体终点指标（临床缓解 vs 内镜改善）及具体HR/CI"
       ],
-      "flags": [
-        "met",
-        "positive_data"
-      ],
+      "flags": [],
       "endpoint_verdict": "met",
       "_idx": 4
     }

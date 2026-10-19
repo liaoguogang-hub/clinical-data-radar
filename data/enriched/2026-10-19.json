@@ -1,8 +1,117 @@
 {
+  "3a8b899a5108e6c8": {
+    "id": "3a8b899a5108e6c8",
+    "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "5cdbaa40d056e991": {
+    "id": "5cdbaa40d056e991",
+    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "bc98a9065f9b6c09": {
+    "id": "bc98a9065f9b6c09",
+    "title": "士泽生物通用细胞治疗帕金森病亮相MDS国际大会丨临床I期突破进展+盲法II期全部入组",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "士泽生物"
+        ],
+        "sponsor_en": [
+          "士泽生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（士泽生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
   "ef84688166819007": {
     "id": "ef84688166819007",
     "title": "疗效没有临床意义，还值得继续开发吗？",
-    "score": 7.3,
+    "score": 6.2,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -42,81 +151,11 @@
       "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（非劣效的生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
     }
   },
-  "5cdbaa40d056e991": {
-    "id": "5cdbaa40d056e991",
-    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "8fe4d986755a684a": {
-    "id": "8fe4d986755a684a",
-    "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
-    "score": 7.0,
+  "b6ec6b332bb13bb9": {
+    "id": "b6ec6b332bb13bb9",
+    "title": "智翔金泰泰利奇拜单抗注射液慢性鼻窦炎伴鼻息肉适应症上市申请获受理",
+    "score": 6.0,
     "channel": "china",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "597c1448cde1aa9d": {
-    "id": "597c1448cde1aa9d",
-    "title": "<![CDATA[SurVaxM Cancer Vaccine Shows Clinically Meaningful OS Signal in Newly Diagnosed Glioblastoma]]>",
-    "score": 6.5,
-    "channel": "global",
     "verdict": {
       "textual": {
         "verdict": "unknown",
@@ -150,7 +189,7 @@
   "15b408b2a16a0b7c": {
     "id": "15b408b2a16a0b7c",
     "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
-    "score": 7.3,
+    "score": 7.7,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -389,18 +428,19 @@
       "note": "注册库只命中干预锚、未在试验文本中出现主药名「anito-cel」，按弱证据采用，写入前需人工复核"
     }
   },
-  "2dff252be43963e3": {
-    "id": "2dff252be43963e3",
-    "title": "原发性免疫缺陷病，临床II期成功",
-    "score": 6.1,
+  "bfd4c862f3ec85a8": {
+    "id": "bfd4c862f3ec85a8",
+    "title": "VQW-765 III期临床折戟！万达生物制药宣布暂停研发，社交焦虑障碍按需治疗主要终点未达",
+    "score": 8.0,
     "channel": "global",
     "verdict": {
       "textual": {
-        "verdict": "met",
+        "verdict": "missed_and_halted",
         "basis": "textual",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "evidence": [
-          "达到表述:II期成功"
+          "失败表述:主要终点未达",
+          "终止表述:暂停"
         ]
       },
       "statistical": {
@@ -410,58 +450,47 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "met",
+      "verdict": "missed_and_halted",
       "basis": "textual",
-      "confidence": 0.75,
+      "confidence": 0.85,
       "evidence": [
-        "达到表述:II期成功"
+        "失败表述:主要终点未达",
+        "终止表述:暂停"
       ],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:II期成功",
+    "verdict_block": "终点判定：未达到终点且已终止\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.85\n证据：失败表述:主要终点未达；终止表述:暂停",
     "registry": {
       "best": {
-        "nct": "NCT02435173",
-        "title": "Study of Efficacy of CDZ173 in Patients With APDS/PASLI",
-        "official_title": "An Open-label, Non-randomized, Within-patient Dose-finding Study Followed by a Randomized, Subject, Investigator and Sponsor Blinded Placebo Controlled Study to Assess the Efficacy and Safety of CDZ173 (Leniolisib) in Patients With APDS/PASLI (Activated Phosphoinositide 3-kinase Delta Syndrome/ p110δ-activating Mutation Causing Senescent T Cells, Lymphadenopathy and Immunodeficiency)",
+        "nct": "NCT07221578",
+        "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+        "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
         "acronym": "",
-        "status": "COMPLETED",
+        "status": "ACTIVE_NOT_RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE2, PHASE3",
-        "sponsor": "Novartis Pharmaceuticals",
+        "phase": "PHASE3",
+        "sponsor": "Vanda Pharmaceuticals",
         "conditions": [
-          "Common Variable Immunodeficiency (CVID), APDS / PASLI"
+          "Social Anxiety Disorder (SAD)"
         ],
         "interventions": [
-          "CDZ173",
+          "VQW-765",
           "Placebo"
         ],
         "primary_outcomes": [
-          "Part I: Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
-          "Part I: CDZ173 Dose Concentration",
-          "Part I: Percentage of Inhibition of Unstimulated and Stimulated pAkt Levels in B Cells",
-          "Part II: Change From Baseline in the log10 Transformed Sum of Product of Diameters (SPD) in the Index Lesions",
-          "Part II: Change From Baseline in Percentage of naïve B Cells Out of Total B Cells"
+          "Subjective Units of Distress Scale (SUDS)"
         ],
-        "enrollment": 37,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2015-08-24",
-        "primary_completion": "2021-08-16",
-        "completion": "2021-08-16",
-        "last_update": "2022-08-10",
-        "results_first_post": "2022-03-11",
-        "has_results": true,
+        "enrollment": 500,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-09-22",
+        "primary_completion": "2026-12",
+        "completion": "2027-04",
+        "last_update": "2026-08-17",
+        "results_first_post": "",
+        "has_results": false,
         "countries": [
-          "United States",
-          "Belarus",
-          "Czechia",
-          "Germany",
-          "Ireland",
-          "Italy",
-          "Netherlands",
-          "Russia",
-          "United Kingdom"
+          "United States"
         ],
         "results": {
           "primary": [],
@@ -473,94 +502,34 @@
       },
       "trials": [
         {
-          "nct": "NCT02435173",
-          "title": "Study of Efficacy of CDZ173 in Patients With APDS/PASLI",
-          "official_title": "An Open-label, Non-randomized, Within-patient Dose-finding Study Followed by a Randomized, Subject, Investigator and Sponsor Blinded Placebo Controlled Study to Assess the Efficacy and Safety of CDZ173 (Leniolisib) in Patients With APDS/PASLI (Activated Phosphoinositide 3-kinase Delta Syndrome/ p110δ-activating Mutation Causing Senescent T Cells, Lymphadenopathy and Immunodeficiency)",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE2, PHASE3",
-          "sponsor": "Novartis Pharmaceuticals",
-          "conditions": [
-            "Common Variable Immunodeficiency (CVID), APDS / PASLI"
-          ],
-          "interventions": [
-            "CDZ173",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Part I: Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
-            "Part I: CDZ173 Dose Concentration",
-            "Part I: Percentage of Inhibition of Unstimulated and Stimulated pAkt Levels in B Cells",
-            "Part II: Change From Baseline in the log10 Transformed Sum of Product of Diameters (SPD) in the Index Lesions",
-            "Part II: Change From Baseline in Percentage of naïve B Cells Out of Total B Cells"
-          ],
-          "enrollment": 37,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2015-08-24",
-          "primary_completion": "2021-08-16",
-          "completion": "2021-08-16",
-          "last_update": "2022-08-10",
-          "results_first_post": "2022-03-11",
-          "has_results": true,
-          "countries": [
-            "United States",
-            "Belarus",
-            "Czechia",
-            "Germany",
-            "Ireland",
-            "Italy",
-            "Netherlands",
-            "Russia",
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT05693129",
-          "title": "Pediatric Patients Aged 1 to 6 Years With APDS",
-          "official_title": "An Open-label, Single Arm Study of the Safety, Pharmacokinetics, Pharmacodynamics, and Efficacy of Leniolisib in Pediatric Patients (Aged 1 to 6 Years) With APDS (Activated Phosphoinositide 3-Kinase Delta Syndrome) Followed by an Open-label Long-term Extension",
+          "nct": "NCT07221578",
+          "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+          "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
           "acronym": "",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
           "phase": "PHASE3",
-          "sponsor": "Pharming Technologies B.V.",
+          "sponsor": "Vanda Pharmaceuticals",
           "conditions": [
-            "APDS"
+            "Social Anxiety Disorder (SAD)"
           ],
           "interventions": [
-            "Leniolisib"
+            "VQW-765",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "Part I & II: Number of Participants with Treatment-emergent adverse events (TEAEs), Serious Adverse Events (SAEs) , and Adverse Events (AEs)",
-            "Part I & II: Change from baseline in clinical laboratory test results",
-            "Part I & II: Change from baseline in vital signs",
-            "Part I & II: Change from baseline in physical examination findings",
-            "Part I & II: Change from baseline in electrocardiograms (ECGs)",
-            "Part I & II: Change from baseline in growth and physical development",
-            "Part I & II: Reduction in lymphadenopathy as measured by MRI or low-dose CT",
-            "Part I: A Percentage of Inhibition of Unstimulated and Stimulated pAkt Levels in B Cells"
+            "Subjective Units of Distress Scale (SUDS)"
           ],
-          "enrollment": 16,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2023-08-30",
-          "primary_completion": "2028-07-09",
-          "completion": "2028-10-28",
-          "last_update": "2026-06-15",
+          "enrollment": 500,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-09-22",
+          "primary_completion": "2026-12",
+          "completion": "2027-04",
+          "last_update": "2026-08-17",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "United States",
-            "Japan",
-            "Portugal",
-            "Spain",
-            "United Kingdom"
+            "United States"
           ],
           "results": {
             "primary": [],
@@ -571,44 +540,34 @@
           }
         },
         {
-          "nct": "NCT06249997",
-          "title": "An Open-Label Study to Assess the Safety & Efficacy of Leniolisib in Japanese Patients With APDS",
-          "official_title": "An Open-Label, Non-Randomized Study to Assess the Safety and Efficacy of Leniolisib in Japanese Patients With Activated Phosphoinositide 3-Kinase Delta Syndrome (APDS) Followed By An Open-Label Long-Term Extension",
+          "nct": "NCT04800237",
+          "title": "Evaluating the Effects of VQW-765 vs. Placebo in Performance Anxiety",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate Efficacy and Safety of VQW-765 in Patients With Performance Anxiety",
           "acronym": "",
-          "status": "UNKNOWN",
+          "status": "COMPLETED",
           "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Pharming Technologies B.V.",
+          "phase": "PHASE2",
+          "sponsor": "Vanda Pharmaceuticals",
           "conditions": [
-            "APDS Gene Mutation"
+            "Performance Anxiety"
           ],
           "interventions": [
-            "Leniolisib"
+            "VQW-765",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "Part I: Incidence of treatment-emergent adverse events ((AEs), serious adverse events (SAEs), and AEs",
-            "Part II: Long-term Incidence of treatment-emergent adverse events ((AEs), serious adverse events (SAEs), and AEs",
-            "Part I: Change from baseline in clinical laboratory test results",
-            "Part II: Long-term change from baseline in clinical laboratory test results",
-            "Part I: Change from baseline in vital signs",
-            "Part II: Long-term change from baseline in vital signs",
-            "Part I: Change from baseline in physical examination findings",
-            "Part II: Long-term change from baseline in physical examination findings",
-            "Part I: Change from baseline in electrocardiograms (ECGs)",
-            "Part II: Long-term change from baseline in electrocardiograms (ECGs)",
-            "Part I: To assess the efficacy of leniolisib on lymphoproliferation (SPD of index lymph node lesions) and immunophenotype normalization (percentage of naïve B cells out of total B cells)",
-            "Part I: Change from baseline in the percentage of naïve B cells out of total B cells at the end of treatment"
+            "Subjective Units of Distress Scale (SUDS)"
           ],
-          "enrollment": 3,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2023-08-03",
-          "primary_completion": "2025-01-31",
-          "completion": "2025-03-31",
-          "last_update": "2024-02-08",
+          "enrollment": 230,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-02-23",
+          "primary_completion": "2022-08-02",
+          "completion": "2022-08-02",
+          "last_update": "2024-03-20",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "Japan"
+            "United States"
           ],
           "results": {
             "primary": [],
@@ -622,10 +581,21 @@
       "terms": {
         "nct": [],
         "drug": [
-          "Leniolisib"
+          "VQW-765",
+          "AQW-051"
         ],
-        "sponsor": [],
-        "sponsor_en": []
+        "sponsor": [
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
       },
       "note": ""
     }
@@ -633,7 +603,7 @@
   "abf57879ea88c61e": {
     "id": "abf57879ea88c61e",
     "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
-    "score": 6.6,
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {
