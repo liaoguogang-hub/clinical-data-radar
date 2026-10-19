@@ -1,0 +1,512 @@
+{
+  "5cdbaa40d056e991": {
+    "id": "5cdbaa40d056e991",
+    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "37c814acc795e4a4": {
+    "id": "37c814acc795e4a4",
+    "title": "“功能性治愈”乙肝新药成功上市；默沙东、Moderna癌症疫苗3期结果积极…… | Bilingual",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "27ffc508c7b50da9": {
+    "id": "27ffc508c7b50da9",
+    "title": "诺华：CFB抑制剂终止狼疮肾炎二期临床",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：终止表述:终止",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0aff7392d46e692f": {
+    "id": "0aff7392d46e692f",
+    "title": "CHMP endorses Eli Lilly’s GLP-1 pill and three other new drugs",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06010004",
+        "title": "A Long-term Safety Study of Orforglipron (LY3502970) in Participants With Type 2 Diabetes",
+        "official_title": "A Phase 3, Long-term Safety Study of LY3502970 in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone or in Combination With Oral Antihyperglycemic Medications (ACHIEVE-J)",
+        "acronym": "ACHIEVE-J",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Eli Lilly and Company",
+        "conditions": [
+          "Type 2 Diabetes"
+        ],
+        "interventions": [
+          "Orforglipron"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Treatment Emergent Adverse Events (TEAEs)"
+        ],
+        "enrollment": 401,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-09-28",
+        "primary_completion": "2025-06-05",
+        "completion": "2025-06-05",
+        "last_update": "2026-06-30",
+        "results_first_post": "2026-06-30",
+        "has_results": true,
+        "countries": [
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06010004",
+          "title": "A Long-term Safety Study of Orforglipron (LY3502970) in Participants With Type 2 Diabetes",
+          "official_title": "A Phase 3, Long-term Safety Study of LY3502970 in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone or in Combination With Oral Antihyperglycemic Medications (ACHIEVE-J)",
+          "acronym": "ACHIEVE-J",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Type 2 Diabetes"
+          ],
+          "interventions": [
+            "Orforglipron"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Treatment Emergent Adverse Events (TEAEs)"
+          ],
+          "enrollment": 401,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-09-28",
+          "primary_completion": "2025-06-05",
+          "completion": "2025-06-05",
+          "last_update": "2026-06-30",
+          "results_first_post": "2026-06-30",
+          "has_results": true,
+          "countries": [
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06948422",
+          "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Hypertension and Obesity or Overweight: (ATTAIN-Hypertension Screening)",
+          "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants With Hypertension and Obesity or Overweight: Randomized, Double-Blind, Placebo-Controlled Trials (ATTAIN-HYPERTENSION)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Hypertension"
+          ],
+          "interventions": [
+            "Orforglipron",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of Participants Allocated to Each ISA"
+          ],
+          "enrollment": 974,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-04-30",
+          "primary_completion": "2027-09",
+          "completion": "2027-09",
+          "last_update": "2026-05-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "China",
+            "Czechia",
+            "Germany",
+            "Greece",
+            "India",
+            "Japan",
+            "Poland",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06948435",
+          "title": "A Master Protocol Study of Orforglipron (LY3502970) in Participants With Hypertension and Obesity or Overweight (ATTAIN-Hypertension) GZL1",
+          "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants With Hypertension and Obesity or Overweight: Randomized, Double-Blind, Placebo-Controlled Trials (ATTAIN-HYPERTENSION)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Hypertension",
+            "Overweight or Obesity"
+          ],
+          "interventions": [
+            "Orforglipron",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in office Systolic Blood Pressure (SBP)"
+          ],
+          "enrollment": 487,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-04-30",
+          "primary_completion": "2027-09",
+          "completion": "2027-09",
+          "last_update": "2026-05-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "China",
+            "Czechia",
+            "Germany",
+            "Greece",
+            "India",
+            "Japan",
+            "Poland",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "orforglipron"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "abf57879ea88c61e": {
+    "id": "abf57879ea88c61e",
+    "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
