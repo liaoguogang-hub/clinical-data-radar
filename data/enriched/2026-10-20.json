@@ -1,0 +1,507 @@
+{
+  "3a8b899a5108e6c8": {
+    "id": "3a8b899a5108e6c8",
+    "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "5cdbaa40d056e991": {
+    "id": "5cdbaa40d056e991",
+    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "70169e0138c80e4e": {
+    "id": "70169e0138c80e4e",
+    "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "84f40b6f9752038d": {
+    "id": "84f40b6f9752038d",
+    "title": "诺华：CFB抑制剂终止狼疮肾炎二期临床",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：终止表述:终止",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "bfd4c862f3ec85a8": {
+    "id": "bfd4c862f3ec85a8",
+    "title": "VQW-765 III期临床折戟！万达生物制药宣布暂停研发，社交焦虑障碍按需治疗主要终点未达",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed_and_halted",
+        "basis": "textual",
+        "confidence": 0.85,
+        "evidence": [
+          "失败表述:主要终点未达",
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed_and_halted",
+      "basis": "textual",
+      "confidence": 0.85,
+      "evidence": [
+        "失败表述:主要终点未达",
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到终点且已终止\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.85\n证据：失败表述:主要终点未达；终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT07221578",
+        "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+        "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Vanda Pharmaceuticals",
+        "conditions": [
+          "Social Anxiety Disorder (SAD)"
+        ],
+        "interventions": [
+          "VQW-765",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Subjective Units of Distress Scale (SUDS)"
+        ],
+        "enrollment": 500,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-09-22",
+        "primary_completion": "2026-12",
+        "completion": "2027-04",
+        "last_update": "2026-08-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07221578",
+          "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+          "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Vanda Pharmaceuticals",
+          "conditions": [
+            "Social Anxiety Disorder (SAD)"
+          ],
+          "interventions": [
+            "VQW-765",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Subjective Units of Distress Scale (SUDS)"
+          ],
+          "enrollment": 500,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-09-22",
+          "primary_completion": "2026-12",
+          "completion": "2027-04",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04800237",
+          "title": "Evaluating the Effects of VQW-765 vs. Placebo in Performance Anxiety",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate Efficacy and Safety of VQW-765 in Patients With Performance Anxiety",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanda Pharmaceuticals",
+          "conditions": [
+            "Performance Anxiety"
+          ],
+          "interventions": [
+            "VQW-765",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Subjective Units of Distress Scale (SUDS)"
+          ],
+          "enrollment": 230,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-02-23",
+          "primary_completion": "2022-08-02",
+          "completion": "2022-08-02",
+          "last_update": "2024-03-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "VQW-765",
+          "AQW-051"
+        ],
+        "sponsor": [
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "abf57879ea88c61e": {
+    "id": "abf57879ea88c61e",
+    "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04534205",
+        "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+        "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+        "acronym": "AHEAD-MERIT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "BioNTech SE",
+        "conditions": [
+          "Unresectable Head and Neck Squamous Cell Carcinoma",
+          "Metastatic Head and Neck Cancer",
+          "Recurrent Head and Neck Cancer"
+        ],
+        "interventions": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+          "Part B - Overall survival (OS)",
+          "Part B - Progression-free survival (PFS)"
+        ],
+        "enrollment": 358,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-01-07",
+        "primary_completion": "2028-08",
+        "completion": "2028-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "France",
+          "Germany",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04534205",
+          "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "official_title": "An Open-label Phase II/III Randomized Trial of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Monotherapy as a First Line Therapy in Patients With Unresectable Recurrent, or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) Which is Positive for Human Papilloma Virus 16 (HPV16+) and Expresses PD-L1",
+          "acronym": "AHEAD-MERIT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "BioNTech SE",
+          "conditions": [
+            "Unresectable Head and Neck Squamous Cell Carcinoma",
+            "Metastatic Head and Neck Cancer",
+            "Recurrent Head and Neck Cancer"
+          ],
+          "interventions": [
+            "BNT113",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab",
+            "Part B - Overall survival (OS)",
+            "Part B - Progression-free survival (PFS)"
+          ],
+          "enrollment": 358,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-07",
+          "primary_completion": "2028-08",
+          "completion": "2028-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03418480",
+          "title": "HARE-40: HPV Anti-CD40 RNA vaccinE",
+          "official_title": "Therapeutic HPV Vaccine (BNT113) Trial in HPV16 Driven Carcinoma",
+          "acronym": "HARE-40",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "University of Southampton",
+          "conditions": [
+            "Human Papilloma Virus Related Carcinoma",
+            "Head and Neck Neoplasm",
+            "Cervical Neoplasm",
+            "Penile Neoplasms Malignant",
+            "Unknown Primary Tumors"
+          ],
+          "interventions": [
+            "BNT113"
+          ],
+          "primary_outcomes": [
+            "Dose Limiting Toxicity (DLT) according to CTCAE version 4.03 (Arm 1A and Arm 1B)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-04-11",
+          "primary_completion": "2023-11-01",
+          "completion": "2024-01-24",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BNT113",
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

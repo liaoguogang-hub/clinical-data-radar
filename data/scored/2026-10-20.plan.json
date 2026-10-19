@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-20",
+  "count": 3,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:disc-medicine-sun-allergy",
+      "lead_id": "3a8b899a5108e6c8",
+      "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "3a8b899a5108e6c8"
+      ],
+      "members": [
+        {
+          "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+          "url": "https://endpoints.news/disc-medicine-reports-sun-allergy-drug-hits-home-run-in-phase-3/",
+          "score": 7.5,
+          "reasoning": "Disc Medicine治疗罕见光敏性皮肤病药物Phase III所有终点均成功，属明确统计结论，罕见病赛道未满足需求高。"
+        }
+      ],
+      "reasoning": "Disc Medicine治疗罕见光敏性皮肤病药物Phase III所有终点均成功，属明确统计结论，罕见病赛道未满足需求高。",
+      "verify_todo": [
+        "核实具体药物名称（NCT编号）、主要终点及p值/CI"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:icotrokinra",
+      "lead_id": "5cdbaa40d056e991",
+      "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "5cdbaa40d056e991"
+      ],
+      "members": [
+        {
+          "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604435?af=R&rss=currentIssue",
+          "score": 7.5,
+          "reasoning": "NEJM正式发表II期试验结果，数据来源可信度最高（2.0）；icotinra为JAK1抑制剂，溃疡性结肠炎未满足需求高；但标题无明确终点表述，无法确认是否达到预设终点，故给7.5分。"
+        }
+      ],
+      "reasoning": "NEJM正式发表II期试验结果，数据来源可信度最高（2.0）；icotinra为JAK1抑制剂，溃疡性结肠炎未满足需求高；但标题无明确终点表述，无法确认是否达到预设终点，故给7.5分。",
+      "verify_todo": [
+        "需调阅NEJM全文确认主要终点是否达到、统计检验p值/CI具体数值"
+      ],
+      "flags": [],
+      "endpoint_verdict": "unclear",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:eyepoint-phase3",
+      "lead_id": "70169e0138c80e4e",
+      "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+      "score": 6.5,
+      "channel": "global",
+      "member_ids": [
+        "70169e0138c80e4e"
+      ],
+      "members": [
+        {
+          "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+          "url": "https://endpoints.news/eyepoints-phase-3-failure-lillys-china-drug-delivery-deal/",
+          "score": 6.5,
+          "reasoning": "EyePoint药物Phase III失败，公司裁员53%，属明确临床失败事件，Phase III失败为行业级事件，应给高分。"
+        }
+      ],
+      "reasoning": "EyePoint药物Phase III失败，公司裁员53%，属明确临床失败事件，Phase III失败为行业级事件，应给高分。",
+      "verify_todo": [
+        "核实失败药物名称、适应症及未达主要终点具体情况"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    }
+  ]
+}
