@@ -1,78 +1,8 @@
 {
-  "5cdbaa40d056e991": {
-    "id": "5cdbaa40d056e991",
-    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "37c814acc795e4a4": {
-    "id": "37c814acc795e4a4",
-    "title": "“功能性治愈”乙肝新药成功上市；默沙东、Moderna癌症疫苗3期结果积极…… | Bilingual",
-    "score": 6.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
   "27ffc508c7b50da9": {
     "id": "27ffc508c7b50da9",
     "title": "诺华：CFB抑制剂终止狼疮肾炎二期临床",
-    "score": 6.0,
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -108,10 +38,252 @@
       "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
+  "15b408b2a16a0b7c": {
+    "id": "15b408b2a16a0b7c",
+    "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:全部应答"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:全部应答"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:全部应答",
+    "registry": {
+      "best": {
+        "nct": "NCT06413498",
+        "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+        "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+        "acronym": "iMMagine-3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Kite, A Gilead Company",
+        "conditions": [
+          "Multiple Myeloma"
+        ],
+        "interventions": [
+          "Anitocabtagene Autoleucel",
+          "Cyclophosphamide",
+          "Fludarabine",
+          "Pomalidomide",
+          "Bortezomib",
+          "Dexamethasone",
+          "Daratumumab",
+          "Carfilzomib"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)",
+          "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+        ],
+        "enrollment": 452,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-08-23",
+        "primary_completion": "2028-07",
+        "completion": "2031-07",
+        "last_update": "2026-07-29",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "Czechia",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Poland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06413498",
+          "title": "A Study Comparing Anitocabtagene Autoleucel to Standard of Care Therapy in Participants With Relapsed/ Refractory Multiple Myeloma",
+          "official_title": "A Phase 3, Randomized, Open-Label Study to Compare the Efficacy and Safety of Anitocabtagene Autoleucel Versus Standard of Care Therapy in Participants With Relapsed/Refractory Multiple Myeloma",
+          "acronym": "iMMagine-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Anitocabtagene Autoleucel",
+            "Cyclophosphamide",
+            "Fludarabine",
+            "Pomalidomide",
+            "Bortezomib",
+            "Dexamethasone",
+            "Daratumumab",
+            "Carfilzomib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Minimal Residual Disease (MRD) Complete Response (CR) Rate at 9 Months"
+          ],
+          "enrollment": 452,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-08-23",
+          "primary_completion": "2028-07",
+          "completion": "2031-07",
+          "last_update": "2026-07-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05396885",
+          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+          "official_title": "A Phase II Study of CART-ddBCMA for the Treatment of Patients With Relapsed or Refractory Multiple Myeloma",
+          "acronym": "iMMagine-1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 136,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-15",
+          "primary_completion": "2026-12",
+          "completion": "2026-12",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04155749",
+          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+          "official_title": "Master Protocol for the Phase 1 Study of Cell Therapies for the Treatment of Patients With Relapsed Refractory Multiple Myeloma, Including Long-term Safety Follow-up",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Kite, A Gilead Company",
+          "conditions": [
+            "Relapsed and Refractory Multiple Myeloma"
+          ],
+          "interventions": [
+            "anitocabtagene-autoleucel"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
+            "Establish the RP2D of the investigational agent"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-23",
+          "primary_completion": "2024-10-03",
+          "completion": "2027-05",
+          "last_update": "2026-02-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "anito-cel",
+          "anitocabtagene",
+          "autoleucel",
+          "Anito-cel"
+        ],
+        "sponsor": [
+          "权均属于生物",
+          "户都在用生物"
+        ],
+        "sponsor_en": [
+          "权均属于生物",
+          "户都在用生物"
+        ]
+      },
+      "note": "注册库只命中干预锚、未在试验文本中出现主药名「anito-cel」，按弱证据采用，写入前需人工复核"
+    }
+  },
   "0aff7392d46e692f": {
     "id": "0aff7392d46e692f",
     "title": "CHMP endorses Eli Lilly’s GLP-1 pill and three other new drugs",
-    "score": 7.5,
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -320,10 +492,567 @@
       "note": ""
     }
   },
+  "f2b3e631d9d60ff9": {
+    "id": "f2b3e631d9d60ff9",
+    "title": "First At-Home Thyroid Eye Disease Shot Approved",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：Sponsor decided to halt development of satralizumab in generalized myasthenia gr"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：注册库状态=TERMINATED，原因：Sponsor decided to halt development of satralizumab in generalized myasthenia gr",
+    "registry": {
+      "best": {
+        "nct": "NCT04963270",
+        "title": "A Study To Evaluate Efficacy, Safety, Pharmacokinetics, And Pharmacodynamics Of Satralizumab In Patients With Generalized Myasthenia Gravis",
+        "official_title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study To Evaluate Efficacy, Safety, Pharmacokinetics, And Pharmacodynamics Of Satralizumab In Patients With Generalized Myasthenia Gravis",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "Sponsor decided to halt development of satralizumab in generalized myasthenia gravis and discontinued further dosing with the study drug (while the OLE period was ongoing) upon reviewing the primary results (DB period).",
+        "phase": "PHASE3",
+        "sponsor": "Hoffmann-La Roche",
+        "conditions": [
+          "Generalized Myasthenia Gravis"
+        ],
+        "interventions": [
+          "Satralizumab",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "DB Period: Mean Change From Baseline in Total Myasthenia Gravis Activities of Daily Living (MG-ADL) Score in the AChR+ Population"
+        ],
+        "enrollment": 188,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-10-19",
+        "primary_completion": "2024-01-29",
+        "completion": "2024-09-02",
+        "last_update": "2025-02-28",
+        "results_first_post": "2025-02-28",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "China",
+          "Denmark",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Poland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04963270",
+          "title": "A Study To Evaluate Efficacy, Safety, Pharmacokinetics, And Pharmacodynamics Of Satralizumab In Patients With Generalized Myasthenia Gravis",
+          "official_title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study To Evaluate Efficacy, Safety, Pharmacokinetics, And Pharmacodynamics Of Satralizumab In Patients With Generalized Myasthenia Gravis",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Sponsor decided to halt development of satralizumab in generalized myasthenia gravis and discontinued further dosing with the study drug (while the OLE period was ongoing) upon reviewing the primary results (DB period).",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Generalized Myasthenia Gravis"
+          ],
+          "interventions": [
+            "Satralizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "DB Period: Mean Change From Baseline in Total Myasthenia Gravis Activities of Daily Living (MG-ADL) Score in the AChR+ Population"
+          ],
+          "enrollment": 188,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-10-19",
+          "primary_completion": "2024-01-29",
+          "completion": "2024-09-02",
+          "last_update": "2025-02-28",
+          "results_first_post": "2025-02-28",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05987423",
+          "title": "Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+          "official_title": "A Phase III, Randomized, Double-Masked, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Moderate-to-Severe Thyroid Eye Disease",
+          "acronym": "SatraGO-1",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Thyroid Eye Disease",
+            "TED"
+          ],
+          "interventions": [
+            "Satralizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants in the Active TED Population Who Achieved ≥ 2 Millimeters (mm) Reduction in Proptosis From Baseline at Week 24 in the Study Eye"
+          ],
+          "enrollment": 131,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-10-26",
+          "primary_completion": "2025-07-08",
+          "completion": "2026-06-25",
+          "last_update": "2026-07-31",
+          "results_first_post": "2026-07-31",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Germany",
+            "Hong Kong",
+            "Hungary",
+            "Italy",
+            "Japan",
+            "Singapore"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05269667",
+          "title": "A Study In Neuromyelitis Optica Spectrum Disorder (NMOSD) With Satralizumab As An Intervention",
+          "official_title": "SAkuraBonsai: Clinical, Imaging And Biomarker Open-Label Study In Neuromyelitis Optica Spectrum Disorder (NMOSD) With Satralizumab As An Intervention",
+          "acronym": "SAkuraBonsai",
+          "status": "TERMINATED",
+          "why_stopped": "Study has proved infeasible to recruit in sufficient numbers. There are insufficient eligible patients presenting to sites.",
+          "phase": "PHASE4",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Neuromyelitis Optica Spectrum Disorder",
+            "NMOSD"
+          ],
+          "interventions": [
+            "Satralizumab 120 mg"
+          ],
+          "primary_outcomes": [
+            "Percentage of Relapse-Free Participants",
+            "Annualized Relapse Rate (ARR)",
+            "Time to First Relapse (TFR)",
+            "Percentage of Participants Hospitalized Due to Relapse",
+            "Percentage of Participants Using Corticosteroids Due to Relapse",
+            "Percentage of Participants in Need of Rescue Therapy Due to Relapse",
+            "Percentage of Participants in Need of Plasma Exchange Due to Relapse",
+            "Percentage of Participants With Residual Disability Due to Relapse",
+            "Change From Baseline in Expanded Disability Status Scale (EDSS) Score",
+            "Time to Onset of Confirmed Disability Progression (CDP) Sustained for at Least 12 Weeks",
+            "Change From Baseline in the Symbol Digital Modalities Test (SDMT)",
+            "Change in High Contrast (100%) and Low Contrast (2.5%) Visual Acuity Using High-and Low-contrast Letter Acuity (LCLA) Charts",
+            "Change in Visual Functioning Questionnaire -25 (VFQ-25)",
+            "Time to Onset of Confirmed Disability Progression (CDP) Sustained for at Least 24 Weeks"
+          ],
+          "enrollment": 4,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-08-02",
+          "primary_completion": "2023-10-26",
+          "completion": "2023-10-26",
+          "last_update": "2025-01-22",
+          "results_first_post": "2025-01-22",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "South Korea",
+            "Turkey (Türkiye)"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "satralizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "ad670d6d99a83c83": {
+    "id": "ad670d6d99a83c83",
+    "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "ef84688166819007": {
+    "id": "ef84688166819007",
+    "title": "疗效没有临床意义，还值得继续开发吗？",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到了主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到了主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到了主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "非劣效的生物"
+        ],
+        "sponsor_en": [
+          "非劣效的生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（非劣效的生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "5cdbaa40d056e991": {
+    "id": "5cdbaa40d056e991",
+    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "2f325040c73b7313": {
+    "id": "2f325040c73b7313",
+    "title": "<![CDATA[FDA Approval Insights: First-Line Maintenance Tucatinib/Trastuzumab/Pertuzumab in Advanced HER2+ Breast Cancer]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：The study was closed early due to safety concerns and an unfavorable benefit-ris"
+      ],
+      "conflict": false,
+      "halt_reason": "safety"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：safety\n证据：注册库状态=TERMINATED，原因：The study was closed early due to safety concerns and an unfavorable benefit-ris",
+    "registry": {
+      "best": {
+        "nct": "NCT05583110",
+        "title": "Efficacy and Safety of the Combination of Trastuzumab Plus TUCAtinib Plus viNorelbine in Patients With HER2-positive Non-resectable Locally Advanced or Metastatic Breast Cancer",
+        "official_title": "Single Arm Phase II Study of the Efficacy and Safety of the Combination of Trastuzumab Plus TUCAtinib Plus viNorelbine in Patients With HER2-positive Non-resectable Locally Advanced or Metastatic Breast Cancer \"TrasTUCAN Study\"",
+        "acronym": "TrasTUCAN",
+        "status": "TERMINATED",
+        "why_stopped": "The study was closed early due to safety concerns and an unfavorable benefit-risk balance. Unexpected high neutropenia rates required a costly sub-study, which was not feasible, forcing the sponsor to terminate the trial prematurely.",
+        "phase": "PHASE2",
+        "sponsor": "Spanish Breast Cancer Research Group",
+        "conditions": [
+          "HER2-positive Metastatic Breast Cancer",
+          "Locally Advanced HER2 Positive Breast Carcinoma"
+        ],
+        "interventions": [
+          "Tucatinib",
+          "Trastuzumab",
+          "Vinorelbine"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR)"
+        ],
+        "enrollment": 13,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-03-08",
+        "primary_completion": "2025-05-30",
+        "completion": "2025-05-30",
+        "last_update": "2025-12-10",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05583110",
+          "title": "Efficacy and Safety of the Combination of Trastuzumab Plus TUCAtinib Plus viNorelbine in Patients With HER2-positive Non-resectable Locally Advanced or Metastatic Breast Cancer",
+          "official_title": "Single Arm Phase II Study of the Efficacy and Safety of the Combination of Trastuzumab Plus TUCAtinib Plus viNorelbine in Patients With HER2-positive Non-resectable Locally Advanced or Metastatic Breast Cancer \"TrasTUCAN Study\"",
+          "acronym": "TrasTUCAN",
+          "status": "TERMINATED",
+          "why_stopped": "The study was closed early due to safety concerns and an unfavorable benefit-risk balance. Unexpected high neutropenia rates required a costly sub-study, which was not feasible, forcing the sponsor to terminate the trial prematurely.",
+          "phase": "PHASE2",
+          "sponsor": "Spanish Breast Cancer Research Group",
+          "conditions": [
+            "HER2-positive Metastatic Breast Cancer",
+            "Locally Advanced HER2 Positive Breast Carcinoma"
+          ],
+          "interventions": [
+            "Tucatinib",
+            "Trastuzumab",
+            "Vinorelbine"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 13,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-03-08",
+          "primary_completion": "2025-05-30",
+          "completion": "2025-05-30",
+          "last_update": "2025-12-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03846583",
+          "title": "Tucatinib + Abemaciclib + Herceptin for HER2+ MBC",
+          "official_title": "Phase Ib Trial of Tucatinib in Combination With Abemaciclib and Trastuzumab for Patients With HER2-Positive Metastatic Breast Cancer",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Study halted prematurely, prior to enrollment of first participant.",
+          "phase": "PHASE1",
+          "sponsor": "Dana-Farber Cancer Institute",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "Tucatinib",
+            "Abemaciclib",
+            "Trastuzumab",
+            "Aromatase Inhibitor"
+          ],
+          "primary_outcomes": [
+            "The Maximum Tolerated Dose"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-06-28",
+          "primary_completion": "2020-09-22",
+          "completion": "2020-09-22",
+          "last_update": "2020-10-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05190445",
+          "title": "Cinrebafusp Alfa in Combination With Ramucirumab and Paclitaxel in HER2-High Gastric or GEJ Adenocarcinoma and in Combination With Tucatinib in HER2-Low Gastric or GEJ Andenocarinoma",
+          "official_title": "A Phase 2, Multi-Center, Open-Label Study of Cinrebafusp Alfa (PRS-343) in Combination With Ramucirumab and Paclitaxel in Patients With HER2-Positive Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma and in Combination With Tucatinib in Patients With HER2 Low Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Pieris Pharmaceuticals, Inc.",
+          "conditions": [
+            "HER2-positive Gastric Cancer"
+          ],
+          "interventions": [
+            "Cinrebafusp alfa (PRS-343) in combination with ramucirumab and paclitaxel",
+            "Cinrebafusp alfa (PRS-343) in combination with tucatinib"
+          ],
+          "primary_outcomes": [
+            "Overall response rate (ORR) as defined by RECIST v1.1"
+          ],
+          "enrollment": 80,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-11-01",
+          "primary_completion": "2023-02-01",
+          "completion": "2023-02-01",
+          "last_update": "2022-09-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Tucatinib",
+          "Trastuzumab",
+          "Pertuzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
   "abf57879ea88c61e": {
     "id": "abf57879ea88c61e",
     "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
-    "score": 7.5,
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {

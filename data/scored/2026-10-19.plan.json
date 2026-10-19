@@ -3,27 +3,25 @@
   "count": 3,
   "plan": [
     {
-      "type": "milestone",
-      "cluster_key": "drug:orforglipron",
-      "lead_id": "0aff7392d46e692f",
-      "title": "CHMP endorses Eli Lilly’s GLP-1 pill and three other new drugs",
+      "type": "readout",
+      "cluster_key": "drug:anito-cel",
+      "lead_id": "15b408b2a16a0b7c",
+      "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
       "score": 7.5,
       "channel": "global",
       "member_ids": [
-        "0aff7392d46e692f"
+        "15b408b2a16a0b7c"
       ],
       "members": [
         {
-          "title": "CHMP endorses Eli Lilly’s GLP-1 pill and three other new drugs",
-          "url": "https://endpoints.news/chmp-endorses-eli-lillys-glp-1-pill-and-three-other-new-drugs/",
+          "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
+          "url": "http://news.bioon.com/article/e4c095418330.html",
           "score": 7.5,
-          "reasoning": "CHMP对orforglipron（口服小分子GLP-1受体激动剂）给予积极意见，是潜在首个口服小分子GLP-1，监管进展级别高；依据为监管审批节点，非终点达标，但属明确临床进展里程碑"
+          "reasoning": "NEJM发表1期临床数据，anito-cel（BCMA CAR-T）治疗复发/难治多发性骨髓瘤38例全部应答（ORR 100%），近80%达完全缓解，3年生存率65%；依据为同行评审疗效数字（NEJM背书可信），无已知迟发神经毒性为差异化亮点，但样本量小（n=38）、1期试验需后续验证。"
         }
       ],
-      "reasoning": "CHMP对orforglipron（口服小分子GLP-1受体激动剂）给予积极意见，是潜在首个口服小分子GLP-1，监管进展级别高；依据为监管审批节点，非终点达标，但属明确临床进展里程碑",
-      "verify_todo": [
-        "CHMP适应症范围及具体获益描述"
-      ],
+      "reasoning": "NEJM发表1期临床数据，anito-cel（BCMA CAR-T）治疗复发/难治多发性骨髓瘤38例全部应答（ORR 100%），近80%达完全缓解，3年生存率65%；依据为同行评审疗效数字（NEJM背书可信），无已知迟发神经毒性为差异化亮点，但样本量小（n=38）、1期试验需后续验证。",
+      "verify_todo": [],
       "flags": [
         "positive_data"
       ],
@@ -31,57 +29,54 @@
       "_idx": 1
     },
     {
-      "type": "halt",
-      "cluster_key": "drug:bnt113",
-      "lead_id": "abf57879ea88c61e",
-      "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
-      "score": 7.5,
+      "type": "readout",
+      "cluster_key": "drug:tucatinib-trastuzumab-pertuzumab",
+      "lead_id": "2f325040c73b7313",
+      "title": "<![CDATA[FDA Approval Insights: First-Line Maintenance Tucatinib/Trastuzumab/Pertuzumab in Advanced HER2+ Breast Cancer]]>",
+      "score": 6.8,
       "channel": "global",
       "member_ids": [
-        "abf57879ea88c61e"
+        "2f325040c73b7313"
       ],
       "members": [
         {
-          "title": "<![CDATA[BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ HNSCC]]>",
-          "url": "https://www.targetedonc.com/view/bnt113-pembrolizumab-misses-pfs-hpv16-hnscc",
-          "score": 7.5,
-          "reasoning": "BNT113联合pembrolizumab在HPV16+头颈部鳞癌中未达到PFS主要终点，属明确试验失败；HPV16+ HNSCC未满足需求高，且为全球首个HPV16治疗性疫苗联合PD-1的注册试验失败，具有行业信号意义。"
+          "title": "<![CDATA[FDA Approval Insights: First-Line Maintenance Tucatinib/Trastuzumab/Pertuzumab in Advanced HER2+ Breast Cancer]]>",
+          "url": "https://www.onclive.com/view/fda-approval-insights-first-line-maintenance-tucatinib-trastuzumab-pertuzumab-in-advanced-her2-breast-cancer",
+          "score": 6.8,
+          "reasoning": "FDA批准HER2+乳腺癌一线维持治疗（tucatinib+曲妥珠+帕妥珠），属注册试验结果驱动的监管批准；FDA approval insights深度分析"
         }
       ],
-      "reasoning": "BNT113联合pembrolizumab在HPV16+头颈部鳞癌中未达到PFS主要终点，属明确试验失败；HPV16+ HNSCC未满足需求高，且为全球首个HPV16治疗性疫苗联合PD-1的注册试验失败，具有行业信号意义。",
+      "reasoning": "FDA批准HER2+乳腺癌一线维持治疗（tucatinib+曲妥珠+帕妥珠），属注册试验结果驱动的监管批准；FDA approval insights深度分析",
       "verify_todo": [
-        "确认试验具体分期、样本量及失败原因（疗效 vs 安全性）"
+        "核实该联合方案III期主要终点（OS/PFS改善情况）"
       ],
-      "flags": [
-        "failed"
-      ],
-      "endpoint_verdict": "missed",
+      "flags": [],
+      "endpoint_verdict": "met",
       "_idx": 2
     },
     {
       "type": "readout",
-      "cluster_key": "drug:icotrokinra",
-      "lead_id": "5cdbaa40d056e991",
-      "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-      "score": 7.0,
+      "cluster_key": "drug:satralizumab-ted",
+      "lead_id": "f2b3e631d9d60ff9",
+      "title": "First At-Home Thyroid Eye Disease Shot Approved",
+      "score": 6.8,
       "channel": "global",
       "member_ids": [
-        "5cdbaa40d056e991"
+        "f2b3e631d9d60ff9"
       ],
       "members": [
         {
-          "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604435?af=R&rss=currentIssue",
-          "score": 7.0,
-          "reasoning": "Icotrokinra（JAK1抑制剂）治疗溃疡性结肠炎的II期试验在NEJM正式发表，属顶刊发表，Phase II达到主要终点；依据为NEJM出版行为本身确认阳性结果，但JAK1赛道竞争激烈（托法替布、乌帕替尼已上市），首创性有限。"
+          "title": "First At-Home Thyroid Eye Disease Shot Approved",
+          "url": "https://www.medpagetoday.com/endocrinology/thyroid/123453",
+          "score": 6.8,
+          "reasoning": "FDA批准satralizumab（Enspryng）甲状腺眼病适应症，首个家庭皮下给药方案；属于临床开发终点达到后的监管批准"
         }
       ],
-      "reasoning": "Icotrokinra（JAK1抑制剂）治疗溃疡性结肠炎的II期试验在NEJM正式发表，属顶刊发表，Phase II达到主要终点；依据为NEJM出版行为本身确认阳性结果，但JAK1赛道竞争激烈（托法替布、乌帕替尼已上市），首创性有限。",
-      "verify_todo": [],
-      "flags": [
-        "met",
-        "positive_data"
+      "reasoning": "FDA批准satralizumab（Enspryng）甲状腺眼病适应症，首个家庭皮下给药方案；属于临床开发终点达到后的监管批准",
+      "verify_todo": [
+        "核实satralizumab甲状腺眼病III期试验主要终点结果"
       ],
+      "flags": [],
       "endpoint_verdict": "met",
       "_idx": 3
     }
