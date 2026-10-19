@@ -1,13 +1,42 @@
 {
   "date": "2026-10-19",
-  "count": 3,
+  "count": 4,
   "plan": [
+    {
+      "type": "milestone",
+      "cluster_key": "drug:hbv_functional_cure",
+      "lead_id": "8fe4d986755a684a",
+      "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
+      "score": 7.0,
+      "channel": "china",
+      "member_ids": [
+        "8fe4d986755a684a"
+      ],
+      "members": [
+        {
+          "title": "40万治愈乙肝！首个乙肝功能性治愈药物已提交上市申请",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_384678",
+          "score": 7.0,
+          "reasoning": "若确为全球首个乙肝功能性治愈药物提交上市申请，属行业级里程碑（慢性乙肝功能性治愈近四十年未突破）；但具体药名、III期数据和终点结果均未在文中展示，依据：新闻措辞，非完整试验数据。"
+        }
+      ],
+      "reasoning": "若确为全球首个乙肝功能性治愈药物提交上市申请，属行业级里程碑（慢性乙肝功能性治愈近四十年未突破）；但具体药名、III期数据和终点结果均未在文中展示，依据：新闻措辞，非完整试验数据。",
+      "verify_todo": [
+        "核实该药具体名称、III期主要终点数据、'功能性治愈'的定义及确为全球首个的证据"
+      ],
+      "flags": [
+        "milestone",
+        "positive_data"
+      ],
+      "endpoint_verdict": "unclear",
+      "_idx": 1
+    },
     {
       "type": "readout",
       "cluster_key": "drug:anito-cel",
       "lead_id": "15b408b2a16a0b7c",
       "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
-      "score": 7.5,
+      "score": 7.3,
       "channel": "global",
       "member_ids": [
         "15b408b2a16a0b7c"
@@ -16,69 +45,80 @@
         {
           "title": "NEJM：CAR-T新星 anito-cel 治疗复发/难治多发性骨髓瘤——38 例全部应答，近 80% 完全缓解，3 年生存 65%，无迟发神经毒性",
           "url": "http://news.bioon.com/article/e4c095418330.html",
-          "score": 7.5,
-          "reasoning": "NEJM发表1期临床数据，anito-cel（BCMA CAR-T）治疗复发/难治多发性骨髓瘤38例全部应答（ORR 100%），近80%达完全缓解，3年生存率65%；依据为同行评审疗效数字（NEJM背书可信），无已知迟发神经毒性为差异化亮点，但样本量小（n=38）、1期试验需后续验证。"
+          "score": 7.3,
+          "reasoning": "NEJM正式发表的1期临床试验数据，38例R/R多发性骨髓瘤100%应答率、近80%完全缓解、3年生存65%，疗效数字亮眼，但属替代终点（ORR/CR）而非OS，依据：同行评审顶刊统计结论，非试验预设主要终点宣称。"
         }
       ],
-      "reasoning": "NEJM发表1期临床数据，anito-cel（BCMA CAR-T）治疗复发/难治多发性骨髓瘤38例全部应答（ORR 100%），近80%达完全缓解，3年生存率65%；依据为同行评审疗效数字（NEJM背书可信），无已知迟发神经毒性为差异化亮点，但样本量小（n=38）、1期试验需后续验证。",
-      "verify_todo": [],
+      "reasoning": "NEJM正式发表的1期临床试验数据，38例R/R多发性骨髓瘤100%应答率、近80%完全缓解、3年生存65%，疗效数字亮眼，但属替代终点（ORR/CR）而非OS，依据：同行评审顶刊统计结论，非试验预设主要终点宣称。",
+      "verify_todo": [
+        "核实试验预设主要终点是否为此ORR终点、吉利德/Kite申报进展"
+      ],
       "flags": [
-        "positive_data"
+        "positive_data",
+        "surrogate"
       ],
       "endpoint_verdict": "positive_data",
-      "_idx": 1
-    },
-    {
-      "type": "readout",
-      "cluster_key": "drug:tucatinib-trastuzumab-pertuzumab",
-      "lead_id": "2f325040c73b7313",
-      "title": "<![CDATA[FDA Approval Insights: First-Line Maintenance Tucatinib/Trastuzumab/Pertuzumab in Advanced HER2+ Breast Cancer]]>",
-      "score": 6.8,
-      "channel": "global",
-      "member_ids": [
-        "2f325040c73b7313"
-      ],
-      "members": [
-        {
-          "title": "<![CDATA[FDA Approval Insights: First-Line Maintenance Tucatinib/Trastuzumab/Pertuzumab in Advanced HER2+ Breast Cancer]]>",
-          "url": "https://www.onclive.com/view/fda-approval-insights-first-line-maintenance-tucatinib-trastuzumab-pertuzumab-in-advanced-her2-breast-cancer",
-          "score": 6.8,
-          "reasoning": "FDA批准HER2+乳腺癌一线维持治疗（tucatinib+曲妥珠+帕妥珠），属注册试验结果驱动的监管批准；FDA approval insights深度分析"
-        }
-      ],
-      "reasoning": "FDA批准HER2+乳腺癌一线维持治疗（tucatinib+曲妥珠+帕妥珠），属注册试验结果驱动的监管批准；FDA approval insights深度分析",
-      "verify_todo": [
-        "核实该联合方案III期主要终点（OS/PFS改善情况）"
-      ],
-      "flags": [],
-      "endpoint_verdict": "met",
       "_idx": 2
     },
     {
       "type": "readout",
-      "cluster_key": "drug:satralizumab-ted",
-      "lead_id": "f2b3e631d9d60ff9",
-      "title": "First At-Home Thyroid Eye Disease Shot Approved",
-      "score": 6.8,
+      "cluster_key": "drug:remaglutide",
+      "lead_id": "ef84688166819007",
+      "title": "疗效没有临床意义，还值得继续开发吗？",
+      "score": 7.3,
       "channel": "global",
       "member_ids": [
-        "f2b3e631d9d60ff9"
+        "ef84688166819007"
       ],
       "members": [
         {
-          "title": "First At-Home Thyroid Eye Disease Shot Approved",
-          "url": "https://www.medpagetoday.com/endocrinology/thyroid/123453",
-          "score": 6.8,
-          "reasoning": "FDA批准satralizumab（Enspryng）甲状腺眼病适应症，首个家庭皮下给药方案；属于临床开发终点达到后的监管批准"
+          "title": "疗效没有临床意义，还值得继续开发吗？",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_384895",
+          "score": 7.3,
+          "reasoning": "默沙东 BRUNELLO 试验新闻稿明确表述「达到了主要终点目标」且 Remigrolig 以非劣效于雷珠单抗达到视力获益，是 20 多年来首个以全新作用机制在 DME 关键试验中达到非劣效的生物制剂；依据为统计结论（非劣效假设成立）而非裸疗效数字，first-in-class 价值显著。"
         }
       ],
-      "reasoning": "FDA批准satralizumab（Enspryng）甲状腺眼病适应症，首个家庭皮下给药方案；属于临床开发终点达到后的监管批准",
+      "reasoning": "默沙东 BRUNELLO 试验新闻稿明确表述「达到了主要终点目标」且 Remigrolig 以非劣效于雷珠单抗达到视力获益，是 20 多年来首个以全新作用机制在 DME 关键试验中达到非劣效的生物制剂；依据为统计结论（非劣效假设成立）而非裸疗效数字，first-in-class 价值显著。",
       "verify_todo": [
-        "核实satralizumab甲状腺眼病III期试验主要终点结果"
+        "确认非劣效界值与预设 α 消耗策略",
+        "核实 BRUNELLO 试验样本量及完整统计量"
       ],
-      "flags": [],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
       "endpoint_verdict": "met",
       "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:icotrokinra",
+      "lead_id": "5cdbaa40d056e991",
+      "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "5cdbaa40d056e991"
+      ],
+      "members": [
+        {
+          "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604435?af=R&rss=currentIssue",
+          "score": 7.0,
+          "reasoning": "Icotrokinra（口服 JAK 抑制剂）治疗溃疡性结肠炎 II 期试验正式发表于 NEJM，顶刊发表本身意味着预设主要终点（临床缓解）已达到且有正式统计检验，属高质量可信的临床数据读出。"
+        }
+      ],
+      "reasoning": "Icotrokinra（口服 JAK 抑制剂）治疗溃疡性结肠炎 II 期试验正式发表于 NEJM，顶刊发表本身意味着预设主要终点（临床缓解）已达到且有正式统计检验，属高质量可信的临床数据读出。",
+      "verify_todo": [
+        "核实 II 期试验随机对照设计及具体主要终点指标",
+        "确认给药剂量组主要终点结果及数值"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
     }
   ]
 }
