@@ -82,12 +82,16 @@ def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
     # 结果同一件事发了两篇稿。cluster_key 是"同一件临床事件"的标识，
     # 用它去重才拦得住跨源重复。
     #
-    # ⚠️ covered_ev 是【跨天】的 (cluster_key, 事件类型)：同一件事连着几天
+    # ⚠️ covered_ev 是【跨天】的近 7 天已写过的 cluster_key：同一件事连着几天
     #    被不同源报出来时，只有它能拦住（2026-10-19 BNT113 连续 3 天进选题）。
     #
-    # ⚠️ 事件类型取自 `article_type`（不是 `type`）——必须和 plan/seen.json
-    #    里记录的同一个口径，否则 ("drug:bnt113","") 永远匹配不上
-    #    ("drug:bnt113","halt")，过滤等于没做。
+    # ⚠️ 但 `milestone` 例外：监管审批/获批是**新的进展**，不是重复报道。
+    #    实测两条对照：
+    #      BNT113  10-18 写过 halt   → 10-19 又是 halt   → 该排除
+    #      orforglipron 10-17 readout → 10-19 milestone   → 该保留
+    #    用 type 做完全匹配不行（type 会因"是否合并成综述"变化：
+    #    10-18 那条 BNT113 记的是 landscape），所以只按 cluster_key，
+    #    再单独豁免 milestone。
     def _atype(s: dict) -> str:
         return (s.get("article_type") or "readout").strip()
 
@@ -96,7 +100,8 @@ def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
             if s["id"][:8] not in published
             and "not_clinical" not in (s.get("flags") or [])
             and (s.get("cluster_key") or "") not in published_ck
-            and ((s.get("cluster_key") or ""), _atype(s)) not in covered_ev]
+            and not ((s.get("cluster_key") or "") in covered_ev
+                     and _atype(s) != "milestone")]
     dropped = before - len(pool)
     if dropped:
         print(f"    （排除已发表/已覆盖 {dropped} 条）")
@@ -189,13 +194,10 @@ def run(date: str | None = None) -> dict:
     if published_ck:
         print(f"[select] 今日已覆盖事件 {len(published_ck)} 个："
               f"{'、'.join(sorted(published_ck)[:5])}")
-    # ⚠️ 跨天：近 14 天内已写过的 (cluster_key, 事件类型)。
-    #    只按 cluster_key 会误杀"同药的新进展"，所以要带上事件类型
-    #    （2026-10-19：BNT113 halt 连续 3 天进选题，orforglipron 的
-    #      readout→milestone 则应该都写）。
-    covered_ev = covered_events(date, days=14)
+    # ⚠️ 跨天：近 7 天内已写过的 cluster_key（milestone 在筛选中例外）。
+    covered_ev = covered_events(date, days=7)
     if covered_ev:
-        print(f"[select] 近 14 天已写过同类事件 {len(covered_ev)} 个")
+        print(f"[select] 近 7 天已写过的事件 {len(covered_ev)} 个（milestone 除外）")
 
     pool = [s for s in scored
             if s.get("score", 0) >= keep_thr

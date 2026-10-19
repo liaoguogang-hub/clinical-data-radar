@@ -242,39 +242,38 @@ def published_cluster_keys(today: str) -> set[str]:
     return out
 
 
-def covered_events(today: str, days: int = 14) -> set[tuple[str, str]]:
+def covered_events(today: str, days: int = 7) -> set[str]:
     """
-    近 N 天内已发表过的 (cluster_key, 事件类型) 组合——**跨天**去重。
+    近 N 天内已写过的 cluster_key 集合——**跨天**去重。
 
-    ⚠️ 为什么需要它（2026-10-19 实测事故）：
+    ⚠️ 为什么需要它（2026-10-19 实测）：
        BNT113 的"PFS 终点未达"连续 3 天进入选题：
          10-17 cluster_key=drug:BNT113, lead=dd92cea6（进选题未成稿）
          10-18 cluster_key=drug:bnt113, lead=dd92cea6（写成稿）
          10-19 cluster_key=drug:bnt113, lead=abf57879（又进选题）
-       10-19 换了 lead_id，所以 `published`（按 id[:8]）拦不住；
-       `filter_history` 的标题模糊匹配也拦不住——因为 seen.json 里
-       存的是**改写后的中文标题**，而新条目是**英文原标题**，跨语种
-       的 token_set_ratio 接近 0。而 cluster_key 明明存了却没用于跨天。
+       10-19 换了 lead_id，所以按 id 的排除拦不住；`filter_history` 的标题
+       模糊匹配也拦不住——seen.json 存的是**改写后的中文标题**，新条目是
+       **英文原标题**，跨语种相似度接近 0。而 cluster_key 明明存了却只用于同日。
 
-    关键是带上【事件类型】：只按 cluster_key 会把"同药的新进展"误杀
-      · ("drug:orforglipron", "readout")   vs ("drug:orforglipron", "milestone")
-        → 不同事件，都该写
-      · ("drug:bnt113", "halt")            vs ("drug:bnt113", "halt")
-        → 同一事件重复报道，排除
+    ⚠️ 为什么不再用 (cluster_key, type) 组合（2026-10-19 二次修正）：
+       type 会被"是否合并成综述"影响，不是稳定的事件标识。实测：
+         10-18 drug:bnt113 type=landscape（当天把 HPV 相关条目合并成综述）
+         10-19 drug:bnt113 type=halt     （当天单独报）
+       组合不同 → 同一条新闻拦不住。
+       现在改为只按 cluster_key，**由调用方对 milestone 例外**
+       （监管审批/获批是新的进展，不是重复报道；见 pick.py）。
     """
     from datetime import date as _date, timedelta as _td
     try:
         cut = (_date.fromisoformat(today) - _td(days=days)).isoformat()
     except Exception:
         return set()
-    out: set[tuple[str, str]] = set()
+    out: set[str] = set()
     for e in _load_entries(read_json(SEEN_FILE, {})):
         d = str(e.get("date") or "")
         ck = str(e.get("cluster_key") or "")
-        if not ck or not d:
-            continue
-        if cut <= d < today:                      # 只算"之前 N 天内"
-            out.add((ck, str(e.get("type") or "")))
+        if ck and d and cut <= d < today:
+            out.add(ck)
     return out
 
 
