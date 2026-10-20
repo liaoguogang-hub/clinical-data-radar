@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-21",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:vilamakitug",
+      "lead_id": "f8fffe7905465067",
+      "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "f8fffe7905465067",
+        "f120b520c91a87d2",
+        "df44faeaf8ac80c2"
+      ],
+      "members": [
+        {
+          "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_385702",
+          "score": 7.0,
+          "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。"
+        },
+        {
+          "title": "<![CDATA[Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer]]>",
+          "url": "https://www.targetedonc.com/view/vilamakitug-meets-primary-efficacy-criterion-refractory-mcrc",
+          "score": 6.5,
+          "reasoning": "Vilamakitug在难治性转移性结直肠癌Phase 1/2试验中达到预设OS阈值，属明确统计结论；IL-1α靶点在CRC中属相对新颖机制；但研究者发起、单臂设计降权。"
+        },
+        {
+          "title": "<![CDATA[Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial]]>",
+          "url": "https://www.onclive.com/view/vilamakitug-meets-os-threshold-in-phase-1-2-refractory-mcrc-trial",
+          "score": 6.5,
+          "reasoning": "Vilamakitug在Phase 1/2难治性mCRC试验中达到OS阈值，属明确统计结论；与另一条来源共同佐证，可信度提升；主要终点达到但单臂设计降权。"
+        }
+      ],
+      "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:disc-medicine-sun",
+      "lead_id": "3a8b899a5108e6c8",
+      "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "3a8b899a5108e6c8"
+      ],
+      "members": [
+        {
+          "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+          "url": "https://endpoints.news/disc-medicine-reports-sun-allergy-drug-hits-home-run-in-phase-3/",
+          "score": 7.5,
+          "reasoning": "Disc Medicine治疗日晒疼痛罕见病药物在III期所有终点均成功，属明确统计结论；为公司关键转折事件（在FDA意外拒绝后）；但具体疾病名称和药物名称在RSS摘要中不明确，降权。"
+        }
+      ],
+      "reasoning": "Disc Medicine治疗日晒疼痛罕见病药物在III期所有终点均成功，属明确统计结论；为公司关键转折事件（在FDA意外拒绝后）；但具体疾病名称和药物名称在RSS摘要中不明确，降权。",
+      "verify_todo": [
+        "核实具体药物名称、适应症及'所有终点'具体定义"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:d2c7-atc",
+      "lead_id": "ad670d6d99a83c83",
+      "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "ad670d6d99a83c83"
+      ],
+      "members": [
+        {
+          "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+          "url": "https://www.nature.com/articles/s41591-026-04715-w",
+          "score": 7.5,
+          "reasoning": "Nature Medicine正式发表EGFR/EGFRvIII抗体-毒素偶联物D2C7-ATC治疗复发恶性胶质瘤I期试验，显示安全性与疗效信号及肿瘤内/系统性免疫激活；顶刊发表可信度高，胶质瘤为极高未满足需求，同机制（抗体-毒素偶联EGFR）属潜在首创，但I期样本量有限且为单臂，无正式终点统计检验。"
+        }
+      ],
+      "reasoning": "Nature Medicine正式发表EGFR/EGFRvIII抗体-毒素偶联物D2C7-ATC治疗复发恶性胶质瘤I期试验，显示安全性与疗效信号及肿瘤内/系统性免疫激活；顶刊发表可信度高，胶质瘤为极高未满足需求，同机制（抗体-毒素偶联EGFR）属潜在首创，但I期样本量有限且为单臂，无正式终点统计检验。",
+      "verify_todo": [
+        "具体入组例数与剂量爬坡结果",
+        "主要终点设定与具体数值"
+      ],
+      "flags": [
+        "positive_data",
+        "single_arm"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 3
+    }
+  ]
+}
