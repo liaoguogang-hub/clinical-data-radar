@@ -456,6 +456,38 @@ def _check_title_numbers(doc: dict, body: str) -> list[str]:
     return errs
 
 
+def word_bounds(gen: dict) -> tuple[int, int]:
+    """
+    正文字数的目标区间 (lo, hi)。**唯一口径。**
+
+    ⚠️ 为什么要抽出来（2026-10-21）：
+      以前"校验"和"放弃成稿"两处各算各的下限（一个用 config 里的
+      word_tolerance=0.70 → 2100，另一个用默认值 0.75 → 2250），
+      两处不一致 = 合格稿子被静默扔掉，而且日志里看不出为什么。
+      现在两处都走这里，配置改了只有一个地方生效。
+    """
+    target = gen.get("target_words", 3000)
+    tol = gen.get("word_tolerance", 0.75)
+    wmax = gen.get("max_words", 3900)
+    return int(target * tol), int(wmax)
+
+
+def word_floor(gen: dict) -> int:
+    """
+    实际生效的**下限** = 目标下限 - 近下限宽限。
+
+    ⚠️ 近下限宽限（word_floor_slack，默认 0）：
+      实测 2026-10-21 有一篇正文 2099 字（下限 2100，差 1 个字）
+      的稿子被字数判死——8 个小节、5 条脚注、结语卡齐全、事实全部可溯源，
+      却因为 1 个字被扔掉；重试后模型掉到 1588 字，整篇彻底失败。
+      硬门槛管的是"明显过短"，不该管"差几个字"。
+
+      口径唯一：validate_content 和 giveup 分支必须都用这个函数。
+    """
+    lo, _ = word_bounds(gen)
+    return max(0, lo - int(gen.get("word_floor_slack", 0) or 0))
+
+
 def validate_content(doc: dict, text: str, style_cfg: dict,
                      src_title: str = "", material: str = "",
                      src_published: str = "") -> list[str]:
@@ -470,9 +502,6 @@ def validate_content(doc: dict, text: str, style_cfg: dict,
     """
     errs: list[str] = []
     gen = style_cfg.get("generation", {})
-    target = gen.get("target_words", 3000)
-    tol = gen.get("word_tolerance", 0.75)
-    wmax = gen.get("max_words", 3900)
 
     # 1. 必需元素
     if not doc.get("title"):
@@ -490,17 +519,31 @@ def validate_content(doc: dict, text: str, style_cfg: dict,
     # 当时校验只查 TITLE/HOOK/小节数/脚注，正好漏了这条。
     if not doc.get("end"):
         errs.append(
-            "缺少 ENDCARD 结语卡。格式必须是 `ENDCARD 标题 | 内容`，"
-            "不能只写一个 ENDCARD。")
+            "缺少 ENDCARD 结语卡。它必须是【全文最后一块】，写在所有 `## ` "
+            "小节之后、FN 脚注之前，格式是 `ENDCARD 标题 | 内容`"
+            "（竖线两边都要有内容，例如："
+            "`ENDCARD 真正的看点 | 这不是一次普通的读出，而是赛道的分水岭。`）。"
+            "不能只写一个孤零零的 ENDCARD，也不要把它甩在正文中段。")
     # 解析层记下的"标记格式不全"一并上报
     for me in (doc.get("marker_errors") or []):
         errs.append(me)
 
     # 2. 字数
+    #
+    # 三档（2026-10-21）：
+    #   < floor   → 判死（明显过短）
+    #   floor~lo  → 【近下限】放行（只差几个字，重写的代价远大于那几字）
+    #   > hi      → 判死（超上限）
     n = body_chars(doc)
-    lo, hi = int(target * tol), int(wmax)
-    if not (lo <= n <= hi):
-        errs.append(f"正文字数 {n} 超出范围（目标 {lo}-{hi}）")
+    lo, hi = word_bounds(gen)
+    floor = word_floor(gen)
+    if n < floor:
+        errs.append(f"正文字数 {n} 低于下限 {floor}（目标 {lo}-{hi}）")
+    elif n < lo:
+        print(f"      · 正文字数 {n}：接近下限 {lo}（宽限 {lo - floor} 字），"
+              f"按近下限放行")
+    elif n > hi:
+        errs.append(f"正文字数 {n} 超出上限（目标 {lo}-{hi}）")
 
     # 2.5 空壳表格检测（仅在【整张表全空】时才判失败）
     #
@@ -880,14 +923,17 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
         #    连那样都到不了字数，就**不写**，不要用世界知识凑。
         if attempt >= retries:
             short = body_chars(doc)
-            # ⚠️ 下限必须和 validate_content 用**同一个** tolerance（0.75），
-            #    不能用 0.9（2026-10-19 回归）：
-            #    validate_content 的下限是 target*0.75，我这里写 target*0.9，
-            #    于是 2250–2700 字的稿子"结构校验通过、却被判成字数不达标"
-            #    直接丢弃。两个阈值不一致 = 合格稿子被静默扔掉。
-            tol = gen_cfg.get("word_tolerance", 0.75)
-            if short < int(target * tol):
-                reason = (f"字数不达标（{short} 字 < 下限 {int(target * tol)}），"
+            # ⚠️ 下限必须和 validate_content 用**同一个**口径：
+            #    统一走 word_floor()（2026-10-21）。历史上这里出过两次事故：
+            #    ① 这里写 target*0.9、validate_content 用 target*0.75，
+            #       2250–2700 字的稿子"结构校验通过、却被判成字数不达标"
+            #       直接丢弃（2026-10-19）。
+            #    ② 两处各读各的 word_tolerance 默认值（0.75 vs config 0.70），
+            #       下限对不上，日志里看不出为什么被扔（2026-10-21）。
+            #    两个阈值不一致 = 合格稿子被静默扔掉。
+            floor = word_floor(gen_cfg)
+            if short < floor:
+                reason = (f"字数不达标（{short} 字 < 下限 {floor}），"
                           f"扩写可核验内容后仍不足，按规则放弃成稿"
                           f"（不用世界知识凑字数）")
             elif errs:

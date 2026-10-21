@@ -129,15 +129,51 @@ def _merge_split_markers(text: str) -> str:
 
     只对 ENDCARD / TABLE / BOX / FN 这些"标签 | 内容"型标记做，
     TITLE/HOOK/KICKER 那几个后面接的是多行正文，不能这么缝。
+
+    # 2026-10-21 扩展：裸 ENDCARD + 下一行【没有竖线】
+
+    实测 2026-10-21 有一篇稿子把 `ENDCARD` 甩在【正文中段】两次
+    （都在一个 BOX 之后），每次后面跟着一段正文，整篇从头到尾没有结语卡，
+    于是同时吃了三条错：两条"标记行格式不全" + 一条"缺少 ENDCARD 结语卡"。
+
+    这次扩展按**位置**分两种处理，绝不吞正文：
+
+    · 位置在【全文末尾】（后面只剩 FN 脚注/空行）→
+      下一行那段就是结语本身，把它提升成正规结语卡
+      （标题沿用最后一个小节标题，没有就用"结语"）。
+      这是真正的可恢复场景：内容本来就在，只是标记写歪了。
+
+    · 位置在【正文中段】→ 它不是结语卡（模型把它当成小节收尾用了）。
+      只丢这个标记词，**不吞后面的正文**（吞了等于删正文），
+      真正的病根"全文没有合规结语卡"交给 validate_content 报错，
+      并在提示里说清楚"结语卡必须放在全文最后"。
     """
     out: list[str] = []
     lines = text.split("\n")
+
+    # ---- 先定位"全文最后一行有实质内容的行"（FN 脚注不算内容）----
+    # 用来判断裸 ENDCARD 是在末尾还是在正文中段。
+    last_content = -1
+    for i, raw in enumerate(lines):
+        s = raw.strip()
+        if not s or re.match(r"^FN\b", s, re.I):
+            continue
+        last_content = i
+
+    # ---- 最后一个小节的标题（给补出来的结语卡当标题用）----
+    end_title = ""
+    for raw in lines:
+        m = re.match(r"^##\s+(?:\d+\s+)?(.+?)\s*$", raw.strip())
+        if m and m.group(1).strip():
+            end_title = m.group(1).strip()
+
     # 只处理这三个「标记 标题 | 内容」型的；TITLE/HOOK/KICKER 后面接的是
     # 多行正文，不能这么缝（缝了反而把正文吞掉）。
     for i, raw in enumerate(lines):
         s = raw.strip()
         m = re.match(r"^(ENDCARD|TABLE|BOX)\s*$", s, re.I)
         if m:
+            kind = m.group(1).upper()
             # ⚠️ 必须**跳过空行**再找内容（2026-10-19 补充）：
             #    原来只看紧邻的下一行，于是
             #        ENDCARD
@@ -151,14 +187,27 @@ def _merge_split_markers(text: str) -> str:
                 j += 1
             if j < len(lines):
                 nxt = lines[j].strip()
+                is_marker = re.match(
+                    r"^(ENDCARD|ENDTABLE|TABLE|BOX|FN|KICKER|TITLE|SUB|HOOK)\b",
+                    nxt, re.I)
                 # 下一行必须有竖线，且不是又一个标记行，才值得缝
-                if "|" in nxt and not re.match(
-                        r"^(ENDCARD|ENDTABLE|TABLE|BOX|FN|KICKER|TITLE|SUB|HOOK)\b",
-                        nxt, re.I):
-                    out.append(f"{m.group(1).upper()} {nxt}")
+                if "|" in nxt and not is_marker:
+                    out.append(f"{kind} {nxt}")
                     lines[j] = ""            # 内容行已消费
                     for k in range(i + 1, j):  # 中间的空行也一并清掉
                         lines[k] = ""
+                    continue
+                # ---- 2026-10-21：裸 ENDCARD + 下一行没有竖线 ----
+                if kind == "ENDCARD" and not is_marker:
+                    if j == last_content:
+                        # 在全文末尾 → 这一段就是结语，提升成正规结语卡
+                        title = end_title or "结语"
+                        out.append(f"ENDCARD {title} | {nxt}")
+                        lines[j] = ""
+                        for k in range(i + 1, j):
+                            lines[k] = ""
+                        continue
+                    # 在正文中段 → 只丢标记词，**不吞正文**
                     continue
         out.append(raw)
     return "\n".join(out)
@@ -268,14 +317,20 @@ def parse_content(text: str) -> dict:
                         r"TITLE|SUB|HOOK)\b\s*$", s, re.I)
         if bare:
             kind = bare.group(1).upper()
-            # ⚠️ 重复的裸标记：该块已经解析过了 → 忽略，不判失败
-            #    （2026-10-19 补充）实测：模型会把 `ENDCARD` 写两遍——
-            #    一张合规的结语卡（`ENDCARD 标题 | 内容`），末尾再甩一个裸
-            #    `ENDCARD`。此时 doc["end"] 已经有内容
-            #    （structure_report 的 has_end=true 就是证据），
-            #    再因为那个多余的裸行把整篇 2318 字的稿子判死没有道理。
-            #    真正"从头到尾没有结语卡"的，doc["end"] 为空，仍然报错。
-            if kind == "ENDCARD" and doc.get("end"):
+            # ⚠️ 裸 ENDCARD 不再记 marker_errors（2026-10-21）。
+            #    理由：裸 ENDCARD 本身没有信息量，只有两种情况：
+            #      ① 重复的裸标记——doc["end"] 已有内容，本来就该忽略
+            #         （2026-10-19 实测：模型写完合规结语卡，末尾再甩一个
+            #          裸 ENDCARD，为此把一篇 2318 字的合格稿判死）；
+            #      ② 模型把结语卡甩在正文中段（2026-10-21 实测甩了两次）。
+            #    两种情况真正的病根都是同一个：**全文没有合规的结语卡**，
+            #    而 validate_content 的"缺少 ENDCARD 结语卡"已经能说清楚，
+            #    这次还补上了"必须放在全文最后、FN 之前"。
+            #    再叠一条"标记行格式不全：'ENDCARD'"只会把重写提示搞得更啰嗦，
+            #    模型却看不出到底该改什么（2026-10-21：4 次重试没改对）。
+            #    注意：裸 ENDCARD 绝不能流进正文（那是 <p>ENDCARD</p>，
+            #    读者会看到两个大写 ENDCARD），这里直接丢弃标记词即可。
+            if kind == "ENDCARD":
                 continue
             doc.setdefault("marker_errors", []).append(
                 f"标记行格式不全：{s!r}（应写成 `关键词 标题 | 内容`）")
