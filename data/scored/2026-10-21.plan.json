@@ -1,63 +1,57 @@
 {
   "date": "2026-10-21",
-  "count": 3,
+  "count": 6,
   "plan": [
     {
       "type": "landscape",
-      "cluster_key": "drug:vilamakitug",
-      "lead_id": "f8fffe7905465067",
-      "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
-      "score": 7.0,
-      "channel": "global",
+      "cluster_key": "target:il6r",
+      "lead_id": "b5e7611ffb77b0e5",
+      "title": "首个且唯一！罗氏甲状腺眼病适应证获批上市",
+      "score": 6.5,
+      "channel": "china",
       "member_ids": [
-        "f8fffe7905465067",
-        "f120b520c91a87d2",
-        "df44faeaf8ac80c2"
+        "b5e7611ffb77b0e5",
+        "105235b26fe327a9"
       ],
       "members": [
         {
-          "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
-          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_385702",
-          "score": 7.0,
-          "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。"
+          "title": "首个且唯一！罗氏甲状腺眼病适应证获批上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385215",
+          "score": 6.5,
+          "reasoning": "甲状腺眼病适应症获批上市是具有临床影响和首创性潜力的监管进展，值得核查关键证据链；但“首个且唯一”及药物归属尚需原始监管材料确认，发布日期未知。"
         },
         {
-          "title": "<![CDATA[Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer]]>",
-          "url": "https://www.targetedonc.com/view/vilamakitug-meets-primary-efficacy-criterion-refractory-mcrc",
-          "score": 6.5,
-          "reasoning": "Vilamakitug在难治性转移性结直肠癌Phase 1/2试验中达到预设OS阈值，属明确统计结论；IL-1α靶点在CRC中属相对新颖机制；但研究者发起、单臂设计降权。"
-        },
-        {
-          "title": "<![CDATA[Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial]]>",
-          "url": "https://www.onclive.com/view/vilamakitug-meets-os-threshold-in-phase-1-2-refractory-mcrc-trial",
-          "score": 6.5,
-          "reasoning": "Vilamakitug在Phase 1/2难治性mCRC试验中达到OS阈值，属明确统计结论；与另一条来源共同佐证，可信度提升；主要终点达到但单臂设计降权。"
+          "title": "罗氏创新药物获批新适应症，用于成人甲状腺眼病治疗",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385212",
+          "score": 6.4,
+          "reasoning": "成人甲状腺眼病新适应症获批是监管层面的临床进展，具有较高临床价值；但标题未列明药物名称、关键试验统计结果及监管文件，发布日期未知。"
         }
       ],
-      "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。",
+      "reasoning": "甲状腺眼病适应症获批上市是具有临床影响和首创性潜力的监管进展，值得核查关键证据链；但“首个且唯一”及药物归属尚需原始监管材料确认，发布日期未知。",
       "_idx": 1
     },
     {
       "type": "readout",
-      "cluster_key": "drug:disc-medicine-sun",
-      "lead_id": "3a8b899a5108e6c8",
-      "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
-      "score": 7.5,
-      "channel": "global",
+      "cluster_key": "drug:sacituzumab-tirumotecan",
+      "lead_id": "665e4314566fb8b8",
+      "title": "[Correspondence] Optimising standard of care in non-small-cell lung cancer trials",
+      "score": 6.2,
+      "channel": "china",
       "member_ids": [
-        "3a8b899a5108e6c8"
+        "665e4314566fb8b8"
       ],
       "members": [
         {
-          "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
-          "url": "https://endpoints.news/disc-medicine-reports-sun-allergy-drug-hits-home-run-in-phase-3/",
-          "score": 7.5,
-          "reasoning": "Disc Medicine治疗日晒疼痛罕见病药物在III期所有终点均成功，属明确统计结论；为公司关键转折事件（在FDA意外拒绝后）；但具体疾病名称和药物名称在RSS摘要中不明确，降权。"
+          "title": "[Correspondence] Optimising standard of care in non-small-cell lung cancer trials",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01672-7/fulltext?rss=yes",
+          "score": 6.2,
+          "reasoning": "条目提供了III期OptiTROP-Lung05中PFS显著改善的HR及95%置信区间，依据是明确的统计学结果而非单纯疗效数字。虽然信息来自Lancet通信而非完整原始论文，仍具有较强临床报道价值。"
         }
       ],
-      "reasoning": "Disc Medicine治疗日晒疼痛罕见病药物在III期所有终点均成功，属明确统计结论；为公司关键转折事件（在FDA意外拒绝后）；但具体疾病名称和药物名称在RSS摘要中不明确，降权。",
+      "reasoning": "条目提供了III期OptiTROP-Lung05中PFS显著改善的HR及95%置信区间，依据是明确的统计学结果而非单纯疗效数字。虽然信息来自Lancet通信而非完整原始论文，仍具有较强临床报道价值。",
       "verify_todo": [
-        "核实具体药物名称、适应症及'所有终点'具体定义"
+        "核实OptiTROP-Lung05完整论文或会议报告中的主要终点定义",
+        "核实样本量、OS成熟度、多重检验控制及安全性结果"
       ],
       "flags": [
         "met"
@@ -67,33 +61,124 @@
     },
     {
       "type": "readout",
-      "cluster_key": "drug:d2c7-atc",
-      "lead_id": "ad670d6d99a83c83",
-      "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
-      "score": 7.5,
-      "channel": "global",
+      "cluster_key": "drug:upadacitinib",
+      "lead_id": "8aacfb6d05477a5a",
+      "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+      "score": 6.0,
+      "channel": "china",
       "member_ids": [
-        "ad670d6d99a83c83"
+        "8aacfb6d05477a5a"
       ],
       "members": [
         {
-          "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
-          "url": "https://www.nature.com/articles/s41591-026-04715-w",
-          "score": 7.5,
-          "reasoning": "Nature Medicine正式发表EGFR/EGFRvIII抗体-毒素偶联物D2C7-ATC治疗复发恶性胶质瘤I期试验，显示安全性与疗效信号及肿瘤内/系统性免疫激活；顶刊发表可信度高，胶质瘤为极高未满足需求，同机制（抗体-毒素偶联EGFR）属潜在首创，但I期样本量有限且为单臂，无正式终点统计检验。"
+          "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385219",
+          "score": 6.0,
+          "reasoning": "乌帕替尼斑秃新适应症获批构成可识别的监管临床进展，现有斑秃治疗仍有改善空间；但条目未提供关键试验统计结果，且发布日期未知。"
         }
       ],
-      "reasoning": "Nature Medicine正式发表EGFR/EGFRvIII抗体-毒素偶联物D2C7-ATC治疗复发恶性胶质瘤I期试验，显示安全性与疗效信号及肿瘤内/系统性免疫激活；顶刊发表可信度高，胶质瘤为极高未满足需求，同机制（抗体-毒素偶联EGFR）属潜在首创，但I期样本量有限且为单臂，无正式终点统计检验。",
+      "reasoning": "乌帕替尼斑秃新适应症获批构成可识别的监管临床进展，现有斑秃治疗仍有改善空间；但条目未提供关键试验统计结果，且发布日期未知。",
       "verify_todo": [
-        "具体入组例数与剂量爬坡结果",
-        "主要终点设定与具体数值"
+        "核实NMPA批准日期、适应症措辞和目标患者群体",
+        "核实支持斑秃适应症的关键试验及主要终点",
+        "核实不良事件、停药率和上市状态"
       ],
       "flags": [
-        "positive_data",
-        "single_arm"
+        "met"
       ],
-      "endpoint_verdict": "positive_data",
+      "endpoint_verdict": "met",
       "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:bepirovirsen",
+      "lead_id": "254f72bd6c1fbf67",
+      "title": "GSK gets FDA approval for hepatitis B drug that offers functional cure",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "254f72bd6c1fbf67"
+      ],
+      "members": [
+        {
+          "title": "GSK gets FDA approval for hepatitis B drug that offers functional cure",
+          "url": "https://endpoints.news/gsk-gets-fda-approval-for-hepatitis-b-drug-that-offers-functional-cure/",
+          "score": 7.5,
+          "reasoning": "FDA批准构成明确的监管获益风险结论，且乙肝功能治愈具有较高临床价值，因此值得作为注册性结果深入核查；素材未给出支撑批准的主要终点、统计量和完整标签，因海外审批归入全球栏目。"
+        }
+      ],
+      "reasoning": "FDA批准构成明确的监管获益风险结论，且乙肝功能治愈具有较高临床价值，因此值得作为注册性结果深入核查；素材未给出支撑批准的主要终点、统计量和完整标签，因海外审批归入全球栏目。",
+      "verify_todo": [
+        "核实批准日期、商品名、完整适应症和给药人群",
+        "核实功能治愈的定义、关键试验主要终点及p值",
+        "核实HBsAg清除、HBeAg清除和HBV DNA抑制等数据口径"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:tezspire",
+      "lead_id": "d0d5f1b674bd3898",
+      "title": "安进与阿斯利康公布Tezspire治疗嗜酸性粒细胞性食管炎（EoE）III期试验详细数据【AI生成】",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "d0d5f1b674bd3898"
+      ],
+      "members": [
+        {
+          "title": "安进与阿斯利康公布Tezspire治疗嗜酸性粒细胞性食管炎（EoE）III期试验详细数据【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_385781",
+          "score": 7.3,
+          "reasoning": "III期数据提供组织学缓解率相对安慰剂的明确组间统计学优势，并包括症状和内镜结果，属于值得深读的完整读出；依据仍是二手文字报道而非带p值的原始统计表，且主要疗效指标属于替代性终点，因海外开发归入全球栏目。"
+        }
+      ],
+      "reasoning": "III期数据提供组织学缓解率相对安慰剂的明确组间统计学优势，并包括症状和内镜结果，属于值得深读的完整读出；依据仍是二手文字报道而非带p值的原始统计表，且主要疗效指标属于替代性终点，因海外开发归入全球栏目。",
+      "verify_todo": [
+        "核实Crossing试验的注册号、样本量、主要和次要终点",
+        "核实组织学缓解率比较的p值、置信区间及缺失数据处理",
+        "核实会议报告级别、完整安全性数据及监管提交计划"
+      ],
+      "flags": [
+        "met",
+        "surrogate"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "halt",
+      "cluster_key": null,
+      "lead_id": "70169e0138c80e4e",
+      "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "70169e0138c80e4e"
+      ],
+      "members": [
+        {
+          "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+          "url": "https://endpoints.news/eyepoints-phase-3-failure-lillys-china-drug-delivery-deal/",
+          "score": 7.2,
+          "reasoning": "III期失败属于应重点跟踪的赛道级事件，即使标题混入裁员和交易信息，临床失败本身仍具较高报道价值；当前仅依据媒体文字判定失败，缺少具体药物、主要终点和p值，因海外项目归入全球栏目。"
+        }
+      ],
+      "reasoning": "III期失败属于应重点跟踪的赛道级事件，即使标题混入裁员和交易信息，临床失败本身仍具较高报道价值；当前仅依据媒体文字判定失败，缺少具体药物、主要终点和p值，因海外项目归入全球栏目。",
+      "verify_todo": [
+        "核实失败药物名称、试验注册号、适应症及主要终点",
+        "获取各组疗效结果、统计检验和预设分析计划",
+        "区分项目终止、方案调整与仅某一终点未满足，并核实公司后续开发安排"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
     }
   ]
 }

@@ -1,27 +1,32 @@
 {
-  "3a8b899a5108e6c8": {
-    "id": "3a8b899a5108e6c8",
-    "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
-    "score": 7.5,
+  "d0d5f1b674bd3898": {
+    "id": "d0d5f1b674bd3898",
+    "title": "安进与阿斯利康公布Tezspire治疗嗜酸性粒细胞性食管炎（EoE）III期试验详细数据【AI生成】",
+    "score": 7.3,
     "channel": "global",
     "verdict": {
       "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:缓解率"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
       },
       "statistical": null,
       "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:缓解率"
+      ],
       "conflict": false,
       "halt_reason": "",
       "note": "注册库未找到对应试验，结论仅来自新闻措辞"
     },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:缓解率",
     "registry": {
       "best": {},
       "trials": [],
@@ -34,115 +39,10 @@
       "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
-  "ad670d6d99a83c83": {
-    "id": "ad670d6d99a83c83",
-    "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "5cdbaa40d056e991": {
-    "id": "5cdbaa40d056e991",
-    "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "f120b520c91a87d2": {
-    "id": "f120b520c91a87d2",
-    "title": "<![CDATA[Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer]]>",
-    "score": 6.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "df44faeaf8ac80c2": {
-    "id": "df44faeaf8ac80c2",
-    "title": "<![CDATA[Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial]]>",
-    "score": 6.5,
+  "70169e0138c80e4e": {
+    "id": "70169e0138c80e4e",
+    "title": "EyePoint's Phase 3 failure; Lilly's China drug delivery deal",
+    "score": 7.2,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -177,7 +77,7 @@
   "36e55adc454d8310": {
     "id": "36e55adc454d8310",
     "title": "III期研究成功，拟于2027年上半年递交补充上市申请",
-    "score": 6.0,
+    "score": 7.1,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -213,10 +113,61 @@
       "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
-  "b5815a7aff4c6252": {
-    "id": "b5815a7aff4c6252",
-    "title": "Nat Commun：精准狙杀致病B细胞！CAAR T细胞疗法在重症肌无力小鼠中成功，神经自身免疫病迈向临床",
-    "score": 6.0,
+  "2a83cd0d8cd375d5": {
+    "id": "2a83cd0d8cd375d5",
+    "title": "艾伯维乌帕替尼获批重度斑秃治疗！国内适应症增至9项，全球年销83亿美元的JAK1抑制剂再扩容",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [
+          "NCT06012240"
+        ],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "赶据摩熵医药",
+          "迪哲医药",
+          "恒瑞医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "赶据摩熵医药",
+          "Dizal",
+          "Hengrui"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "f120b520c91a87d2": {
+    "id": "f120b520c91a87d2",
+    "title": "<![CDATA[Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer]]>",
+    "score": 6.6,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -242,32 +193,23 @@
       "terms": {
         "nct": [],
         "drug": [],
-        "sponsor": [
-          "权均属于生物",
-          "户都在用生物"
-        ],
-        "sponsor_en": [
-          "权均属于生物",
-          "户都在用生物"
-        ]
+        "sponsor": [],
+        "sponsor_en": []
       },
-      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（权均属于生物、户都在用生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
     }
   },
-  "f08d6946d127fb32": {
-    "id": "f08d6946d127fb32",
-    "title": "医药科技简讯 | 胰腺癌二线缓解率50%，口服G12D新药初显突破",
-    "score": 6.5,
+  "4668d2ffe17902ac": {
+    "id": "4668d2ffe17902ac",
+    "title": "Roivant's autoimmune drug succeeds in two pivotal trials, setting up 2027 filing",
+    "score": 7.2,
     "channel": "global",
     "verdict": {
       "textual": {
-        "verdict": "positive_data",
-        "basis": "textual",
-        "confidence": 0.5,
-        "evidence": [
-          "疗效数据表述:缓解率"
-        ],
-        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
       },
       "statistical": {
         "verdict": "unknown",
@@ -276,66 +218,55 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "positive_data",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "疗效数据表述:缓解率"
-      ],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:缓解率",
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
     "registry": {
       "best": {
-        "nct": "NCT07020221",
-        "title": "A Phase 1/2 Study of VS-7375 in Patients With KRAS G12D-Mutated Solid Tumors",
-        "official_title": "A Phase 1/2, Open-label Study of VS-7375, a KRAS G12D (ON/OFF) Inhibitor, as Monotherapy and in Combination, in Patients With Advanced KRAS G12D-Mutated Solid Tumors",
-        "acronym": "",
-        "status": "RECRUITING",
+        "nct": "NCT05437263",
+        "title": "A Study to Investigate the Efficacy and Safety of Brepocitinib in Adults With Dermatomyositis",
+        "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Oral Brepocitinib in Adults With Dermatomyositis",
+        "acronym": "VALOR",
+        "status": "COMPLETED",
         "why_stopped": "",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "Verastem, Inc.",
+        "phase": "PHASE3",
+        "sponsor": "Priovant Therapeutics, Inc.",
         "conditions": [
-          "Pancreatic Ductal Adenocarcinoma",
-          "Non Small Cell Lung Cancer",
-          "Colorectal Cancer",
-          "Solid Tumor, Adult",
-          "G12D Mutated KRAS"
+          "Dermatomyositis"
         ],
         "interventions": [
-          "VS-7375",
-          "Cetuximab",
-          "Carboplatin + Pemetrexed + Pembrolizumab",
-          "Gemcitabine + Nab-paclitaxel",
-          "Pembrolizumab",
-          "Defactinib",
-          "Midazolam",
-          "Repaglinide"
+          "Brepocitinib",
+          "Placebo"
         ],
         "primary_outcomes": [
-          "Part A: To characterize the safety, tolerability, and AE profile of escalating doses of VS-7375",
-          "Part A: To identify the MTD or MFD",
-          "Part B: To evaluate the preliminary anticancer activity of the optimal VS-7375 regimen",
-          "Part C: To characterize the safety, tolerability, and AE profile of VS-7375 in combination regimens.",
-          "Part C: To identify a recommended dose for subsequent studies of combination dosed VS-7375.",
-          "Part D: To determine the preliminary anticancer activity of the optimal regimen of VS-7375 as identified in Part C",
-          "Part E: To determine the impact of VS-7375 on the PK of midazolam or repaglinide",
-          "Part E: To determine the impact of VS-7375 on the PK of midazolam or repaglinide",
-          "Part E: To characterize the safety, tolerability, and AE profile of VS-7375 administered in combination with CYP3A4 and CYP2C8 substrates",
-          "Part F: Serial biopsy"
+          "Total Improvement Score (TIS) at Week 52"
         ],
-        "enrollment": 616,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2025-06-24",
-        "primary_completion": "2028-12",
-        "completion": "2028-12",
-        "last_update": "2026-10-15",
+        "enrollment": 241,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-10-31",
+        "primary_completion": "2025-07-17",
+        "completion": "2026-09-09",
+        "last_update": "2026-09-15",
         "results_first_post": "",
         "has_results": false,
         "countries": [
           "United States",
-          "Australia"
+          "Argentina",
+          "Belgium",
+          "Bulgaria",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "Germany",
+          "Hungary",
+          "Israel",
+          "Italy",
+          "Mexico"
         ],
         "results": {
           "primary": [],
@@ -347,54 +278,45 @@
       },
       "trials": [
         {
-          "nct": "NCT07020221",
-          "title": "A Phase 1/2 Study of VS-7375 in Patients With KRAS G12D-Mutated Solid Tumors",
-          "official_title": "A Phase 1/2, Open-label Study of VS-7375, a KRAS G12D (ON/OFF) Inhibitor, as Monotherapy and in Combination, in Patients With Advanced KRAS G12D-Mutated Solid Tumors",
-          "acronym": "",
-          "status": "RECRUITING",
+          "nct": "NCT05437263",
+          "title": "A Study to Investigate the Efficacy and Safety of Brepocitinib in Adults With Dermatomyositis",
+          "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Oral Brepocitinib in Adults With Dermatomyositis",
+          "acronym": "VALOR",
+          "status": "COMPLETED",
           "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Verastem, Inc.",
+          "phase": "PHASE3",
+          "sponsor": "Priovant Therapeutics, Inc.",
           "conditions": [
-            "Pancreatic Ductal Adenocarcinoma",
-            "Non Small Cell Lung Cancer",
-            "Colorectal Cancer",
-            "Solid Tumor, Adult",
-            "G12D Mutated KRAS"
+            "Dermatomyositis"
           ],
           "interventions": [
-            "VS-7375",
-            "Cetuximab",
-            "Carboplatin + Pemetrexed + Pembrolizumab",
-            "Gemcitabine + Nab-paclitaxel",
-            "Pembrolizumab",
-            "Defactinib",
-            "Midazolam",
-            "Repaglinide"
+            "Brepocitinib",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "Part A: To characterize the safety, tolerability, and AE profile of escalating doses of VS-7375",
-            "Part A: To identify the MTD or MFD",
-            "Part B: To evaluate the preliminary anticancer activity of the optimal VS-7375 regimen",
-            "Part C: To characterize the safety, tolerability, and AE profile of VS-7375 in combination regimens.",
-            "Part C: To identify a recommended dose for subsequent studies of combination dosed VS-7375.",
-            "Part D: To determine the preliminary anticancer activity of the optimal regimen of VS-7375 as identified in Part C",
-            "Part E: To determine the impact of VS-7375 on the PK of midazolam or repaglinide",
-            "Part E: To determine the impact of VS-7375 on the PK of midazolam or repaglinide",
-            "Part E: To characterize the safety, tolerability, and AE profile of VS-7375 administered in combination with CYP3A4 and CYP2C8 substrates",
-            "Part F: Serial biopsy"
+            "Total Improvement Score (TIS) at Week 52"
           ],
-          "enrollment": 616,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-06-24",
-          "primary_completion": "2028-12",
-          "completion": "2028-12",
-          "last_update": "2026-10-15",
+          "enrollment": 241,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-10-31",
+          "primary_completion": "2025-07-17",
+          "completion": "2026-09-09",
+          "last_update": "2026-09-15",
           "results_first_post": "",
           "has_results": false,
           "countries": [
             "United States",
-            "Australia"
+            "Argentina",
+            "Belgium",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "Germany",
+            "Hungary",
+            "Israel",
+            "Italy",
+            "Mexico"
           ],
           "results": {
             "primary": [],
@@ -405,82 +327,88 @@
           }
         },
         {
-          "nct": "NCT07644559",
-          "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
-          "official_title": "A Phase 2, Open-label Study of VS-7375, an Oral KRAS G12D (ON/OFF) Inhibitor, as Monotherapy and With Cetuximab, in Patients With Metastatic KRAS G12D-Mutated Pancreatic Cancer (TARGET-D 201)",
-          "acronym": "",
-          "status": "RECRUITING",
+          "nct": "NCT06431373",
+          "title": "A Study of Brepocitinib in Adults With Active, Non-Infectious, Non-Anterior Uveitis",
+          "official_title": "A Phase 3 Randomized, Double-Masked, Placebo-Controlled Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Active, Non-Infectious Intermediate-, Posterior-, and Panuveitis",
+          "acronym": "CLARITY",
+          "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Verastem, Inc.",
+          "phase": "PHASE3",
+          "sponsor": "Priovant Therapeutics, Inc.",
           "conditions": [
-            "Pancreatic Ductal Adenocarcinoma (PDAC)",
-            "G12D Mutated KRAS"
+            "Uveitis, Posterior",
+            "Uveitis, Intermediate",
+            "Uveitis"
           ],
           "interventions": [
-            "VS-7375",
-            "cetuximab (or panitumumab if α-gal IgE+ or cetuximab reaction)"
+            "Brepocitinib PO QD",
+            "Placebo PO QD"
           ],
           "primary_outcomes": [
-            "Confirmed ORR by blinded independent central review (BICR) per RESIST v1.1",
-            "To characterize the safety and tolerability of VS-7375 monotherapy or in combination with cetuximab, administered on a daily oral schedule in participants with KRAS G12D-mutated PDAC."
+            "Time to treatment failure on or after Period 1 Week 6 up to Period 1 Week 48"
           ],
-          "enrollment": 185,
+          "enrollment": 371,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-09-11",
+          "primary_completion": "2026-09-11",
+          "completion": "2028-02-01",
+          "last_update": "2026-01-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Czechia",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Israel",
+            "Italy",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07532603",
+          "title": "A Phase 2/3 Study of Brepocitinib in Adults With Lichen Planopilaris",
+          "official_title": "A Phase 2/3 Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Lichen Planopilaris",
+          "acronym": "ALPINE",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Priovant Therapeutics, Inc.",
+          "conditions": [
+            "Lichen Planopilaris"
+          ],
+          "interventions": [
+            "Oral Brepocitinib",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Proportion of participants achieving IGA score 0/1 and ≥ 2-step reduction from baseline at Week 24"
+          ],
+          "enrollment": 342,
           "enrollment_type": "ESTIMATED",
-          "start_date": "2026-06-16",
-          "primary_completion": "2027-06",
-          "completion": "2028-12",
-          "last_update": "2026-10-19",
+          "start_date": "2026-03-19",
+          "primary_completion": "2028-12-31",
+          "completion": "2029-07-31",
+          "last_update": "2026-07-08",
           "results_first_post": "",
           "has_results": false,
           "countries": [
             "United States",
             "Australia",
             "Canada",
-            "Puerto Rico"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07659795",
-          "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Colorectal Cancer",
-          "official_title": "A Phase 2, Open-label Study of VS-7375, an Oral KRAS G12D (ON/OFF) Inhibitor, With and Without an Anti-EGFR Antibody, and With an Anti-EGFR Antibody and Chemotherapy, in Patients With Metastatic KRAS G12D-Mutated Colorectal Adenocarcinoma (TARGET-D 203)",
-          "acronym": "TARGET-D 203",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Verastem, Inc.",
-          "conditions": [
-            "Colorectal Cancer"
-          ],
-          "interventions": [
-            "VS-7375",
-            "cetuximab",
-            "panitumumab",
-            "Cetuximab + mFOLFOX6"
-          ],
-          "primary_outcomes": [
-            "Confirmed ORR by blinded independent central review (BICR) per RESIST v1.1 - 2L CRC only",
-            "To characterize the safety and tolerability of VS-7375 monotherapy or in combination with cetuximab or panitumumab, administered on a daily oral schedule in participants with KRAS G12D-mutated 2L+ CRC",
-            "To characterize the safety and tolerability of VS-7375 in combination with cetuximab + mFOLFOX, administered on a daily oral schedule in participants with KRAS G12D-mutated 1L CRC"
-          ],
-          "enrollment": 150,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2026-07-28",
-          "primary_completion": "2027-06",
-          "completion": "2028-12",
-          "last_update": "2026-10-15",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Australia"
+            "United Kingdom"
           ],
           "results": {
             "primary": [],
@@ -494,32 +422,95 @@
       "terms": {
         "nct": [],
         "drug": [
-          "VS-7375"
+          "brepocitinib"
         ],
-        "sponsor": [
-          "医药科技"
-        ],
-        "sponsor_en": [
-          "医药科技"
-        ]
+        "sponsor": [],
+        "sponsor_en": []
       },
       "note": ""
     }
   },
-  "f8fffe7905465067": {
-    "id": "f8fffe7905465067",
-    "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
-    "score": 7.0,
+  "b5e7611ffb77b0e5": {
+    "id": "b5e7611ffb77b0e5",
+    "title": "首个且唯一！罗氏甲状腺眼病适应证获批上市",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "105235b26fe327a9": {
+    "id": "105235b26fe327a9",
+    "title": "罗氏创新药物获批新适应症，用于成人甲状腺眼病治疗",
+    "score": 6.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "254f72bd6c1fbf67": {
+    "id": "254f72bd6c1fbf67",
+    "title": "GSK gets FDA approval for hepatitis B drug that offers functional cure",
+    "score": 7.5,
     "channel": "global",
     "verdict": {
       "textual": {
-        "verdict": "positive_data",
-        "basis": "textual",
-        "confidence": 0.5,
-        "evidence": [
-          "疗效数据表述:获益"
-        ],
-        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
       },
       "statistical": {
         "verdict": "unknown",
@@ -528,48 +519,822 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "positive_data",
-      "basis": "textual",
-      "confidence": 0.5,
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
       "evidence": [
-        "疗效数据表述:获益"
+        "注册库状态=TERMINATED，原因：The study was terminated as a strategic decision"
+      ],
+      "conflict": false,
+      "halt_reason": "business"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：business\n证据：注册库状态=TERMINATED，原因：The study was terminated as a strategic decision",
+    "registry": {
+      "best": {
+        "nct": "NCT05330455",
+        "title": "Study of GSK3965193 in Healthy Participants and Participants Living With Chronic Hepatitis B Infection",
+        "official_title": "Four-part, Randomized, Double-blind (Parts 1, 2A, 3 and 4), Multi-center, Placebo-controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSK3965193 Monotherapy in Healthy Participants and in Participants Living With Chronic Hepatitis B Infection; and GSK3965193 in Combination With Bepirovirsen in Participants Living With Chronic Hepatitis B Infection",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "The study was terminated as a strategic decision",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Hepatitis B"
+        ],
+        "interventions": [
+          "GSK3965193",
+          "Placebo to match GSK3965193",
+          "Bepirovirsen"
+        ],
+        "primary_outcomes": [
+          "Part 1: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious Treatment Emergent Adverse Events (STEAEs), and Treatment Withdrawals Due to TEAEs",
+          "Part 2A: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 2B: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 3: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 4: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 1: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+          "Part 2A: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 2B: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 3: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+          "Part 3: Number of Participants With Clinically Significant Urinalysis Parameters",
+          "Part 4: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 1: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 2A: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 2B: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 3: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 4: Number of Participants With Clinically Significant Vital Signs Findings",
+          "Part 1: Number of Participants With Clinically Significant Electrocardiogram [ECG] Findings",
+          "Part 2A: Number of Participants With Clinically Significant ECG Findings",
+          "Part 3: Number of Participants With Clinically Significant ECG Findings",
+          "Part 4: Number of Participants With Clinically Significant ECG Findings",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 7",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 14",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 42",
+          "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 15",
+          "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 29",
+          "Part 4: Number of Participants With Changes in Sensory Nerve Conduction",
+          "Part 1: Area Under the Concentration-time Curve (AUC) From Time Zero (Pre-dose) Extrapolated to Infinite Time (AUC[0-inf]) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: AUC Over the Dosing Interval Tau (AUC[0-tau]) of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Maximum Observed Concentration (Cmax) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: Cmax of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Time to Maximum Observed Plasma Drug Concentration (Tmax) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: Tmax of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Apparent Terminal Half-life (T1/2) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: T1/2 of GSK3965193 Following Repeat Dose Administration",
+          "Part 3: Maximum Reduction of Serum HBsAg Levels From Baseline",
+          "Part 4: Number of Participants Achieving Complete Response"
+        ],
+        "enrollment": 74,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-04-14",
+        "primary_completion": "2025-05-19",
+        "completion": "2026-04-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "2026-06-16",
+        "has_results": true,
+        "countries": [
+          "Canada",
+          "France",
+          "Italy",
+          "South Korea",
+          "Thailand",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05330455",
+          "title": "Study of GSK3965193 in Healthy Participants and Participants Living With Chronic Hepatitis B Infection",
+          "official_title": "Four-part, Randomized, Double-blind (Parts 1, 2A, 3 and 4), Multi-center, Placebo-controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSK3965193 Monotherapy in Healthy Participants and in Participants Living With Chronic Hepatitis B Infection; and GSK3965193 in Combination With Bepirovirsen in Participants Living With Chronic Hepatitis B Infection",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The study was terminated as a strategic decision",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "GSK3965193",
+            "Placebo to match GSK3965193",
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious Treatment Emergent Adverse Events (STEAEs), and Treatment Withdrawals Due to TEAEs",
+            "Part 2A: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 2B: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 3: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 4: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 1: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+            "Part 2A: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 2B: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 3: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+            "Part 3: Number of Participants With Clinically Significant Urinalysis Parameters",
+            "Part 4: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 1: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 2A: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 2B: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 3: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 4: Number of Participants With Clinically Significant Vital Signs Findings",
+            "Part 1: Number of Participants With Clinically Significant Electrocardiogram [ECG] Findings",
+            "Part 2A: Number of Participants With Clinically Significant ECG Findings",
+            "Part 3: Number of Participants With Clinically Significant ECG Findings",
+            "Part 4: Number of Participants With Clinically Significant ECG Findings",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 7",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 14",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 42",
+            "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 15",
+            "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 29",
+            "Part 4: Number of Participants With Changes in Sensory Nerve Conduction",
+            "Part 1: Area Under the Concentration-time Curve (AUC) From Time Zero (Pre-dose) Extrapolated to Infinite Time (AUC[0-inf]) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: AUC Over the Dosing Interval Tau (AUC[0-tau]) of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Maximum Observed Concentration (Cmax) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: Cmax of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Time to Maximum Observed Plasma Drug Concentration (Tmax) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: Tmax of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Apparent Terminal Half-life (T1/2) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: T1/2 of GSK3965193 Following Repeat Dose Administration",
+            "Part 3: Maximum Reduction of Serum HBsAg Levels From Baseline",
+            "Part 4: Number of Participants Achieving Complete Response"
+          ],
+          "enrollment": 74,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-04-14",
+          "primary_completion": "2025-05-19",
+          "completion": "2026-04-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "2026-06-16",
+          "has_results": true,
+          "countries": [
+            "Canada",
+            "France",
+            "Italy",
+            "South Korea",
+            "Thailand",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06422767",
+          "title": "Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "official_title": "A Phase 1, Randomized, Double-Blinded, Placebo-Controlled, Parallel Group Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Placebo-corrected Change From Baseline (CFB) in QT Interval Corrected by Fridericia's Formula (QTcF) Following Administration of Bepirovirsen Supratherapeutic Single Dose"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-07-18",
+          "primary_completion": "2025-04-28",
+          "completion": "2025-04-28",
+          "last_update": "2026-07-10",
+          "results_first_post": "2026-07-10",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05630807",
+          "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+          "official_title": "Phase 3 Multicenter, Randomized, Double-Blind, Study to Assess the Efficacy and Safety of Treatment With Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B Virus (B-Well 1)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Chronic Hepatitis B",
+            "Hepatitis B, Chronic"
+          ],
+          "interventions": [
+            "Bepirovirsen",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of participants achieving functional cure (FC) with baseline HBsAg ≤3000 IU/mL"
+          ],
+          "enrollment": 981,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-12-07",
+          "primary_completion": "2025-11-11",
+          "completion": "2026-04-15",
+          "last_update": "2026-07-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Hungary",
+            "India"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "bepirovirsen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8898784728042927": {
+    "id": "8898784728042927",
+    "title": "<![CDATA[FDA Approval of Dostarlimab Brings Potential Organ-Sparing Approach in dMMR Locally Advanced Rectal Cancer ]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04655976",
+        "title": "Efficacy Comparison of Cobolimab + Dostarlimab + Docetaxel to Dostarlimab + Docetaxel to Docetaxel Alone in Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed on Prior Anti-PD-(L)1 Therapy and Chemotherapy",
+        "official_title": "A Randomized, Open Label Phase 2/3 Study Comparing Cobolimab + Dostarlimab + Docetaxel To Dostarlimab + Docetaxel To Docetaxel Alone In Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed On Prior Anti-PD-(L)1 Therapy And Chemotherapy (COSTAR Lung)",
+        "acronym": "COSTAR Lung",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Lung Cancer, Non-Small Cell"
+        ],
+        "interventions": [
+          "Cobolimab",
+          "Dostarlimab",
+          "Docetaxel"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS) (Arm A Versus Arm C)",
+          "Overall Survival (OS) (Arm B Versus Arm C)"
+        ],
+        "enrollment": 758,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-12-08",
+        "primary_completion": "2025-06-05",
+        "completion": "2027-03-30",
+        "last_update": "2026-07-01",
+        "results_first_post": "2026-07-01",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Finland",
+          "France",
+          "Germany",
+          "Greece",
+          "Italy",
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04655976",
+          "title": "Efficacy Comparison of Cobolimab + Dostarlimab + Docetaxel to Dostarlimab + Docetaxel to Docetaxel Alone in Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed on Prior Anti-PD-(L)1 Therapy and Chemotherapy",
+          "official_title": "A Randomized, Open Label Phase 2/3 Study Comparing Cobolimab + Dostarlimab + Docetaxel To Dostarlimab + Docetaxel To Docetaxel Alone In Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed On Prior Anti-PD-(L)1 Therapy And Chemotherapy (COSTAR Lung)",
+          "acronym": "COSTAR Lung",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Lung Cancer, Non-Small Cell"
+          ],
+          "interventions": [
+            "Cobolimab",
+            "Dostarlimab",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS) (Arm A Versus Arm C)",
+            "Overall Survival (OS) (Arm B Versus Arm C)"
+          ],
+          "enrollment": 758,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-12-08",
+          "primary_completion": "2025-06-05",
+          "completion": "2027-03-30",
+          "last_update": "2026-07-01",
+          "results_first_post": "2026-07-01",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04581824",
+          "title": "Efficacy Comparison of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Participants With Metastatic Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+          "official_title": "A Randomized, Phase 2, Double-blind Study to Evaluate the Efficacy of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Trial terminated by GSK for strategic reasons, after all participants completed treatment. This decision was not based on a safety concern",
+          "phase": "PHASE2",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Lung Cancer, Non-Small Cell"
+          ],
+          "interventions": [
+            "Dostarlimab",
+            "Pembrolizumab",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 243,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-11-19",
+          "primary_completion": "2022-08-04",
+          "completion": "2024-09-10",
+          "last_update": "2025-08-08",
+          "results_first_post": "2023-09-18",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Brazil",
+            "Chile",
+            "France",
+            "Germany",
+            "Italy",
+            "Poland",
+            "Romania",
+            "South Korea",
+            "Spain",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06472076",
+          "title": "A Study of Belrestotug Plus Dostarlimab Compared With Placebo Plus Pembrolizumab in Previously Untreated Participants With Programmed Death Ligand 1 (PD-L1) High Non-small-cell Lung Cancer (NSCLC)",
+          "official_title": "A Randomized, Multicenter, Double-blind, Phase 3 Study to Investigate the Safety and Efficacy of Belrestotug in Combination With Dostarlimab Compared With Placebo in Combination With Pembrolizumab in Participants With Previously Untreated, Unresectable, Locally Advanced or Metastatic PD-L1 Selected Non-small Cell Lung Cancer (GALAXIES Lung-301)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Lung Cancer, Non-Small Cell"
+          ],
+          "interventions": [
+            "Dostarlimab",
+            "Belrestotug",
+            "Pembrolizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of Participants with Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+            "Number of Participants with TEAEs or SAEs leading to dose withdrawals or treatment discontinuation"
+          ],
+          "enrollment": 88,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-06-10",
+          "primary_completion": "2026-06-30",
+          "completion": "2027-08-30",
+          "last_update": "2026-07-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "Finland",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "India"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Dostarlimab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "f4d7955f2b99e0ca": {
+    "id": "f4d7955f2b99e0ca",
+    "title": "Rapport says drug it licensed from J&J clears Phase 2 bipolar mania study",
+    "score": 6.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT07563881",
+        "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures FOCUS-1",
+        "official_title": "A Phase 3, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
+        "acronym": "FOCUS 1",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Rapport Therapeutics Inc.",
+        "conditions": [
+          "Focal Seizure",
+          "Epilepsy",
+          "Focal Epilepsy"
+        ],
+        "interventions": [
+          "RAP-219",
+          "RAP-219",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Median Percent Change in Seizure Frequency"
+        ],
+        "enrollment": 333,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-06-05",
+        "primary_completion": "2029-07",
+        "completion": "2029-09",
+        "last_update": "2026-10-21",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "South Korea"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07563881",
+          "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures FOCUS-1",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
+          "acronym": "FOCUS 1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Rapport Therapeutics Inc.",
+          "conditions": [
+            "Focal Seizure",
+            "Epilepsy",
+            "Focal Epilepsy"
+          ],
+          "interventions": [
+            "RAP-219",
+            "RAP-219",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Median Percent Change in Seizure Frequency"
+          ],
+          "enrollment": 333,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-06-05",
+          "primary_completion": "2029-07",
+          "completion": "2029-09",
+          "last_update": "2026-10-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07594119",
+          "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
+          "acronym": "FOCUS 2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Rapport Therapeutics Inc.",
+          "conditions": [
+            "Focal Seizure",
+            "Epilepsy",
+            "Focal Epilepsy"
+          ],
+          "interventions": [
+            "RAP-219",
+            "RAP-219",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Median Percent Change in Seizure Frequency"
+          ],
+          "enrollment": 312,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-09",
+          "primary_completion": "2029-07",
+          "completion": "2029-09",
+          "last_update": "2026-10-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06377930",
+          "title": "Study Evaluating the Safety and Efficacy of RAP-219 in Adult Participants With Refractory Focal Epilepsy",
+          "official_title": "A Phase 2A, Multicenter, Open-label Study Evaluating the Safety and Efficacy of RAP-219 in Adult Participants With Refractory Focal Epilepsy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Rapport Therapeutics Inc.",
+          "conditions": [
+            "Focal Onset Seizures"
+          ],
+          "interventions": [
+            "RAP-219"
+          ],
+          "primary_outcomes": [
+            "Change in long episode frequency during the treatment period compared to pre-treatment baseline: Responder proportion, Percent Change Percent change"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-10-10",
+          "primary_completion": "2025-09-26",
+          "completion": "2025-09-26",
+          "last_update": "2026-02-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Rapport"
+        ],
+        "sponsor_en": [
+          "Rapport"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "8aacfb6d05477a5a": {
+    "id": "8aacfb6d05477a5a",
+    "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "bfd4c862f3ec85a8": {
+    "id": "bfd4c862f3ec85a8",
+    "title": "VQW-765 III期临床折戟！万达生物制药宣布暂停研发，社交焦虑障碍按需治疗主要终点未达",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed_and_halted",
+        "basis": "textual",
+        "confidence": 0.85,
+        "evidence": [
+          "失败表述:主要终点未达",
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed_and_halted",
+      "basis": "textual",
+      "confidence": 0.85,
+      "evidence": [
+        "失败表述:主要终点未达",
+        "终止表述:暂停"
       ],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "verdict_block": "终点判定：未达到终点且已终止\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.85\n证据：失败表述:主要终点未达；终止表述:暂停",
     "registry": {
       "best": {
-        "nct": "NCT04825288",
-        "title": "XB2001 in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
-        "official_title": "A Phase I/II Randomized, Double-blind, Placebo-controlled Trial (1-BETTER) Examining XB2001 (Anti-IL-1⍺ True Human Antibody) in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
-        "acronym": "1-BETTER",
-        "status": "COMPLETED",
+        "nct": "NCT07221578",
+        "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+        "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "XBiotech, Inc.",
+        "phase": "PHASE3",
+        "sponsor": "Vanda Pharmaceuticals",
         "conditions": [
-          "Pancreatic Cancer"
+          "Social Anxiety Disorder (SAD)"
         ],
         "interventions": [
-          "Phase I: XB2001 250 mg",
-          "Phase I: XB2001 500 mg",
-          "Phase I: XB2001 1000 mg",
-          "Phase II: XB2001 1000 mg",
-          "Phase II: Placebo"
+          "VQW-765",
+          "Placebo"
         ],
         "primary_outcomes": [
-          "To Establish the Maximum Tolerated Dose (MTD) of XB2001 as Measured by Dose-Limiting Toxicity (DLT), in Combination With ONIVYDE + LV + 5-FU Chemotherapy Regimen in Patients With Advanced Pancreatic Cancer.",
-          "Safety and Tolerability of XB2001 in Combination With ONIVYDE + LV + 5-FU"
+          "Subjective Units of Distress Scale (SUDS)"
         ],
-        "enrollment": 76,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-05-27",
-        "primary_completion": "2023-10-26",
-        "completion": "2025-06-10",
-        "last_update": "2026-08-04",
-        "results_first_post": "2026-08-04",
-        "has_results": true,
+        "enrollment": 500,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-09-22",
+        "primary_completion": "2026-12",
+        "completion": "2027-04",
+        "last_update": "2026-08-17",
+        "results_first_post": "",
+        "has_results": false,
         "countries": [
           "United States"
         ],
@@ -583,35 +1348,34 @@
       },
       "trials": [
         {
-          "nct": "NCT05201352",
-          "title": "Evaluation of Efficacy of Trifluridine/Tipiracil Plus an Anti-IL-1α True Human Antibody Versus Trifluridine/Tipiracil Plus Placebo in Metastatic Colorectal Cancer Patients After Failure of Oxaliplatin, Irinotecan, Fluoropyrimidine",
-          "official_title": "Multicentric Randomized Phase I/II Study to Evaluate Efficacy of Trifluridine/Tipiracil Plus XB2001 (Anti-IL-1α True Human Antibody) Versus Trifluridine/Tipiracil Plus Placebo in Metastatic Colorectal Cancer Patients After Failure of Oxaliplatin, Irinotecan, Fluoropyrimidine",
-          "acronym": "TASKIN",
+          "nct": "NCT07221578",
+          "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+          "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Acute Anxiety in Patients With Social Anxiety Disorder",
+          "acronym": "",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Centre Georges Francois Leclerc",
+          "phase": "PHASE3",
+          "sponsor": "Vanda Pharmaceuticals",
           "conditions": [
-            "Metastatic Colorectal Cancer"
+            "Social Anxiety Disorder (SAD)"
           ],
           "interventions": [
-            "trifluridine/tipiracil + XB2001",
-            "trifluridine/tipiracil + placebo"
+            "VQW-765",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "Maximum Tolerated Dose (MTD) of XB2001",
-            "Overall survival"
+            "Subjective Units of Distress Scale (SUDS)"
           ],
-          "enrollment": 160,
+          "enrollment": 500,
           "enrollment_type": "ESTIMATED",
-          "start_date": "2022-10-13",
-          "primary_completion": "2026-10-13",
-          "completion": "2026-10-13",
-          "last_update": "2025-05-30",
+          "start_date": "2025-09-22",
+          "primary_completion": "2026-12",
+          "completion": "2027-04",
+          "last_update": "2026-08-17",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "France"
+            "United States"
           ],
           "results": {
             "primary": [],
@@ -622,36 +1386,32 @@
           }
         },
         {
-          "nct": "NCT04825288",
-          "title": "XB2001 in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
-          "official_title": "A Phase I/II Randomized, Double-blind, Placebo-controlled Trial (1-BETTER) Examining XB2001 (Anti-IL-1⍺ True Human Antibody) in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
-          "acronym": "1-BETTER",
+          "nct": "NCT04800237",
+          "title": "Evaluating the Effects of VQW-765 vs. Placebo in Performance Anxiety",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate Efficacy and Safety of VQW-765 in Patients With Performance Anxiety",
+          "acronym": "",
           "status": "COMPLETED",
           "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "XBiotech, Inc.",
+          "phase": "PHASE2",
+          "sponsor": "Vanda Pharmaceuticals",
           "conditions": [
-            "Pancreatic Cancer"
+            "Performance Anxiety"
           ],
           "interventions": [
-            "Phase I: XB2001 250 mg",
-            "Phase I: XB2001 500 mg",
-            "Phase I: XB2001 1000 mg",
-            "Phase II: XB2001 1000 mg",
-            "Phase II: Placebo"
+            "VQW-765",
+            "Placebo"
           ],
           "primary_outcomes": [
-            "To Establish the Maximum Tolerated Dose (MTD) of XB2001 as Measured by Dose-Limiting Toxicity (DLT), in Combination With ONIVYDE + LV + 5-FU Chemotherapy Regimen in Patients With Advanced Pancreatic Cancer.",
-            "Safety and Tolerability of XB2001 in Combination With ONIVYDE + LV + 5-FU"
+            "Subjective Units of Distress Scale (SUDS)"
           ],
-          "enrollment": 76,
+          "enrollment": 230,
           "enrollment_type": "ACTUAL",
-          "start_date": "2021-05-27",
-          "primary_completion": "2023-10-26",
-          "completion": "2025-06-10",
-          "last_update": "2026-08-04",
-          "results_first_post": "2026-08-04",
-          "has_results": true,
+          "start_date": "2021-02-23",
+          "primary_completion": "2022-08-02",
+          "completion": "2022-08-02",
+          "last_update": "2024-03-20",
+          "results_first_post": "",
+          "has_results": false,
           "countries": [
             "United States"
           ],
@@ -667,35 +1427,36 @@
       "terms": {
         "nct": [],
         "drug": [
-          "XB2001",
-          "TAS-102"
+          "VQW-765",
+          "AQW-051"
         ],
         "sponsor": [
-          "表达存在生物",
-          "XBiotech"
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
         ],
         "sponsor_en": [
-          "表达存在生物",
-          "XBiotech"
+          "万达生物制药",
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
         ]
       },
       "note": ""
     }
   },
-  "88062eea9379d261": {
-    "id": "88062eea9379d261",
-    "title": "Jemperli (dostarlimab) 获美国FDA批准用于成人MSI-H/dMMR局部晚期直肠癌【AI生成】",
-    "score": 6.0,
-    "channel": "global",
+  "665e4314566fb8b8": {
+    "id": "665e4314566fb8b8",
+    "title": "[Correspondence] Optimising standard of care in non-small-cell lung cancer trials",
+    "score": 6.2,
+    "channel": "china",
     "verdict": {
       "textual": {
-        "verdict": "positive_data",
-        "basis": "textual",
-        "confidence": 0.5,
-        "evidence": [
-          "疗效数据表述:完全缓解"
-        ],
-        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
       },
       "statistical": {
         "verdict": "unknown",
@@ -704,61 +1465,60 @@
         "evidence": []
       },
       "numbers": [],
-      "verdict": "positive_data",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "疗效数据表述:完全缓解"
-      ],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
       "conflict": false,
       "halt_reason": ""
     },
-    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:完全缓解",
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
     "registry": {
       "best": {
-        "nct": "NCT03739710",
-        "title": "Platform Trial of Novel Regimens Versus Standard of Care (SoC) in Participants With Non-small Cell Lung Cancer (NSCLC)",
-        "official_title": "A Phase II, Randomized, Open-label Platform Trial Utilizing a Master Protocol to Study Novel Regimens Versus Standard of Care Treatment in NSCLC Participants",
-        "acronym": "",
-        "status": "COMPLETED",
+        "nct": "NCT06356311",
+        "title": "A Study to Evaluate Sacituzumab Tirumotecan (MK-2870) in Advanced/Metastatic Gastroesophageal Adenocarcinoma (MK-2870-015)",
+        "official_title": "A Phase 3, Multicenter, Open-label, Randomized Study to Compare the Efficacy and Safety of MK-2870 Versus Treatment of Physician's Choice in 3L+ Advanced/Metastatic Gastroesophageal Adenocarcinoma (Gastric Adenocarcinoma, Gastroesophageal Junction Adenocarcinoma, and Esophageal Adenocarcinoma)",
+        "acronym": "TroFuse-015",
+        "status": "ACTIVE_NOT_RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE2",
-        "sponsor": "GlaxoSmithKline",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
         "conditions": [
-          "Neoplasms"
+          "Gastroesophageal Cancer"
         ],
         "interventions": [
+          "Sacituzumab tirumotecan",
+          "Trifluridine-Tipiracil",
+          "Irinotecan",
+          "Paclitaxel",
           "Docetaxel",
-          "Feladilimab",
-          "Ipilimumab",
-          "GSK4428859A",
-          "Dostarlimab",
-          "GSK6097608"
+          "Rescue medications",
+          "Supportive care measures"
         ],
         "primary_outcomes": [
-          "Number of Participants Randomized Across Sub-studies"
+          "Overall Survival (OS)"
         ],
-        "enrollment": 175,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2019-01-24",
-        "primary_completion": "2024-05-02",
-        "completion": "2024-05-02",
-        "last_update": "2025-06-15",
-        "results_first_post": "2025-06-15",
-        "has_results": true,
+        "enrollment": 450,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-05-03",
+        "primary_completion": "2027-01-04",
+        "completion": "2027-05-06",
+        "last_update": "2026-02-27",
+        "results_first_post": "",
+        "has_results": false,
         "countries": [
           "United States",
+          "Belgium",
+          "Brazil",
           "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Denmark",
           "France",
           "Germany",
-          "Italy",
-          "Netherlands",
-          "Poland",
-          "Romania",
-          "Russia",
-          "South Korea",
-          "Spain",
-          "Sweden"
+          "Hong Kong",
+          "Israel"
         ],
         "results": {
           "primary": [],
@@ -770,95 +1530,50 @@
       },
       "trials": [
         {
-          "nct": "NCT03739710",
-          "title": "Platform Trial of Novel Regimens Versus Standard of Care (SoC) in Participants With Non-small Cell Lung Cancer (NSCLC)",
-          "official_title": "A Phase II, Randomized, Open-label Platform Trial Utilizing a Master Protocol to Study Novel Regimens Versus Standard of Care Treatment in NSCLC Participants",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "GlaxoSmithKline",
-          "conditions": [
-            "Neoplasms"
-          ],
-          "interventions": [
-            "Docetaxel",
-            "Feladilimab",
-            "Ipilimumab",
-            "GSK4428859A",
-            "Dostarlimab",
-            "GSK6097608"
-          ],
-          "primary_outcomes": [
-            "Number of Participants Randomized Across Sub-studies"
-          ],
-          "enrollment": 175,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2019-01-24",
-          "primary_completion": "2024-05-02",
-          "completion": "2024-05-02",
-          "last_update": "2025-06-15",
-          "results_first_post": "2025-06-15",
-          "has_results": true,
-          "countries": [
-            "United States",
-            "Canada",
-            "France",
-            "Germany",
-            "Italy",
-            "Netherlands",
-            "Poland",
-            "Romania",
-            "Russia",
-            "South Korea",
-            "Spain",
-            "Sweden"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT04584255",
-          "title": "Niraparib + Dostarlimab In BRCA Mutated Breast Cancer",
-          "official_title": "A Phase II Study of Niraparib With Dostarlimab Therapy as Neoadjuvant Treatment for Patients With BRCA-mutated Breast Cancer",
-          "acronym": "",
+          "nct": "NCT06356311",
+          "title": "A Study to Evaluate Sacituzumab Tirumotecan (MK-2870) in Advanced/Metastatic Gastroesophageal Adenocarcinoma (MK-2870-015)",
+          "official_title": "A Phase 3, Multicenter, Open-label, Randomized Study to Compare the Efficacy and Safety of MK-2870 Versus Treatment of Physician's Choice in 3L+ Advanced/Metastatic Gastroesophageal Adenocarcinoma (Gastric Adenocarcinoma, Gastroesophageal Junction Adenocarcinoma, and Esophageal Adenocarcinoma)",
+          "acronym": "TroFuse-015",
           "status": "ACTIVE_NOT_RECRUITING",
           "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Dana-Farber Cancer Institute",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
           "conditions": [
-            "Stage I Breast Cancer",
-            "Stage II Breast Cancer",
-            "Stage III Breast Cancer",
-            "Breast Cancer",
-            "HER2-negative Breast Cancer",
-            "Germline BRCA1 Gene Mutation",
-            "Germline BRCA2 Gene Mutation",
-            "Deleterious PALB2 Gene Mutation"
+            "Gastroesophageal Cancer"
           ],
           "interventions": [
-            "Niraparib",
-            "Dostarlimab"
+            "Sacituzumab tirumotecan",
+            "Trifluridine-Tipiracil",
+            "Irinotecan",
+            "Paclitaxel",
+            "Docetaxel",
+            "Rescue medications",
+            "Supportive care measures"
           ],
           "primary_outcomes": [
-            "Change in Tumor-infiltrating Lymphocytes (TILs)",
-            "Pathologic Complete Response (pCR) Rate in TNBC"
+            "Overall Survival (OS)"
           ],
-          "enrollment": 66,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-01-21",
-          "primary_completion": "2025-07-01",
-          "completion": "2029-07-17",
-          "last_update": "2026-09-24",
-          "results_first_post": "2026-09-24",
-          "has_results": true,
+          "enrollment": 450,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-05-03",
+          "primary_completion": "2027-01-04",
+          "completion": "2027-05-06",
+          "last_update": "2026-02-27",
+          "results_first_post": "",
+          "has_results": false,
           "countries": [
-            "United States"
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Denmark",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Israel"
           ],
           "results": {
             "primary": [],
@@ -869,46 +1584,76 @@
           }
         },
         {
-          "nct": "NCT05980416",
-          "title": "Study of EO-3021 in Adult Patients With Solid Tumors Likely to Express CLDN18.2",
-          "official_title": "A Phase 1 Dose Escalation and Expansion Study of EO-3021, an Anti-claudin 18.2 (CLDN18.2) Antibody Drug Conjugate, in Patients With Solid Tumors Likely to Express CLDN18.2",
-          "acronym": "",
-          "status": "TERMINATED",
-          "why_stopped": "Business Decision",
-          "phase": "PHASE1",
-          "sponsor": "Elevation Oncology",
+          "nct": "NCT05008510",
+          "title": "P2 Clinical Efficacy & Safety Study of V-111 Monotherapy & Sacituzumab Govitecan-hziy/V-111 Combo Therapy for mTNBC .",
+          "official_title": "Phase 2 Clinical Efficacy and Safety Study of Sabizabulin (VERU-111) Monotherapy and Sacituzumab Govitecan-hziy/Sabizabulin Combination Therapy for the Treatment of Metastatic Triple Negative Breast Cancer",
+          "acronym": "VERU-111",
+          "status": "WITHDRAWN",
+          "why_stopped": "Decided to halt and will potentially reopen in the future.",
+          "phase": "PHASE2",
+          "sponsor": "Veru Inc.",
           "conditions": [
-            "Stomach Neoplasm",
-            "Gastrointestinal Neoplasms",
-            "Digestive System Neoplasm",
-            "Neoplasms by Site",
-            "Neoplasms"
+            "Metastatic Triple Negative Breast Cancer"
           ],
           "interventions": [
-            "EO-3021",
-            "Ramucirumab (CYRAMZA®)",
-            "Dostarlimab"
+            "Sabizabulin",
+            "Sacituzumab Govitecan-hziy",
+            "Sabizabulin/Sacituzumab govitecan-hziy Combo"
           ],
           "primary_outcomes": [
-            "Number of Patients With Treatment Emergent Adverse Events When Treated With EO-3021 as Monotherapy and in Combination With Ramucirumab or Dostarlimab.",
-            "The Incidence Rate of Dose Limiting Toxicities (DLT) During the First 21-day Cycle of Treatment With EO-3021 as Monotherapy and in Combination With Ramucirumab or Dostarlimab.",
-            "Number of Patients With Serious Adverse Events When Treated With EO-3021 as Monotherapy and in Combination With Ramucirumab or Dostarlimab.",
-            "Number of Patients With Clinically Significant Changes to Vital Signs When Treated With EO-3021 as Monotherapy and in Combination With Ramucirumab or Dostarlimab",
-            "Number of Patients With Clinically Significant Changes in Laboratory Tests When Treated With EO-3021 as Monotherapy and in Combination With Ramucirumab or Dostarlimab.",
-            "The Estimate of Overall Response Rate (ORR) for the Efficacy Population."
+            "To compare the efficacy of sabizabulin monotherapy to Sacituzumab govitecan-hziy monotherapy",
+            "To compare the efficacy of Sacituzumab govitecan-hziy/sabizabulin combination therapy to Sacituzumab govitecan-hziy monotherapy"
           ],
-          "enrollment": 88,
+          "enrollment": 0,
           "enrollment_type": "ACTUAL",
-          "start_date": "2023-08-10",
-          "primary_completion": "2025-05-07",
-          "completion": "2025-06-02",
-          "last_update": "2025-11-14",
-          "results_first_post": "2025-11-14",
-          "has_results": true,
+          "start_date": "2021-12-30",
+          "primary_completion": "2022-07-30",
+          "completion": "2023-06-30",
+          "last_update": "2022-02-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07662863",
+          "title": "Sacituzumab Tirumotecan vs MMAE-ADCs in Advanced Urothelial Carcinoma (FUSCC-SPARE-UC-01)",
+          "official_title": "A Randomized, Open-label, Phase II Study Evaluating the Neurotoxicity and Efficacy of Sacituzumab Tirumotecan (Sac-TMT) Versus MMAE-based ADCs in Patients With Advanced Urothelial Carcinoma: The SPARE-UC-01 Trial",
+          "acronym": "SPARE-UC-01",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Fudan University",
+          "conditions": [
+            "Bladder Cancer",
+            "Metastatic Urothelial Carcinoma",
+            "Urothelial Carcinoma",
+            "Peripheral Neuropathy"
+          ],
+          "interventions": [
+            "Sacituzumab Tirumotecan",
+            "MMAE-based ADC",
+            "Sacituzumab Tirumotecan (Observational Cohort)"
+          ],
+          "primary_outcomes": [
+            "Peripheral Neuropathy Progression Rate (PNPR)"
+          ],
+          "enrollment": 75,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-15",
+          "primary_completion": "2028-12-01",
+          "completion": "2029-12-01",
+          "last_update": "2026-06-23",
+          "results_first_post": "",
+          "has_results": false,
           "countries": [
-            "United States",
-            "Japan",
-            "South Korea"
+            "China"
           ],
           "results": {
             "primary": [],
@@ -922,7 +1667,211 @@
       "terms": {
         "nct": [],
         "drug": [
-          "dostarlimab"
+          "sacituzumab",
+          "pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT06356311），写入前需确认是否同一适应症"
+    }
+  },
+  "1ee02e0e860d289d": {
+    "id": "1ee02e0e860d289d",
+    "title": "<![CDATA[Pembrolizumab Plus Enfortumab Vedotin Earns EC Approval in Resectable MIBC]]>",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02702401",
+        "title": "Study of Pembrolizumab (MK-3475) vs. Best Supportive Care in Participants With Previously Systemically Treated Advanced Hepatocellular Carcinoma (MK-3475-240/KEYNOTE-240)",
+        "official_title": "A Phase III Study of Pembrolizumab (MK-3475) vs. Best Supportive Care as Second-Line Therapy in Subjects With Previously Systemically Treated Advanced Hepatocellular Carcinoma (KEYNOTE-240)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Hepatocellular Carcinoma"
+        ],
+        "interventions": [
+          "Pembrolizumab",
+          "Placebo",
+          "Best Supportive Care"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)",
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 413,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-05-26",
+        "primary_completion": "2019-01-02",
+        "completion": "2021-09-22",
+        "last_update": "2022-09-29",
+        "results_first_post": "2020-02-17",
+        "has_results": true,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02702401",
+          "title": "Study of Pembrolizumab (MK-3475) vs. Best Supportive Care in Participants With Previously Systemically Treated Advanced Hepatocellular Carcinoma (MK-3475-240/KEYNOTE-240)",
+          "official_title": "A Phase III Study of Pembrolizumab (MK-3475) vs. Best Supportive Care as Second-Line Therapy in Subjects With Previously Systemically Treated Advanced Hepatocellular Carcinoma (KEYNOTE-240)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Hepatocellular Carcinoma"
+          ],
+          "interventions": [
+            "Pembrolizumab",
+            "Placebo",
+            "Best Supportive Care"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 413,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-05-26",
+          "primary_completion": "2019-01-02",
+          "completion": "2021-09-22",
+          "last_update": "2022-09-29",
+          "results_first_post": "2020-02-17",
+          "has_results": true,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03382899",
+          "title": "Study of Pegilodecakin (LY3500518) With Pembrolizumab Compared to Pembrolizumab Alone First-line Tx in Participants With Metastatic Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized Phase 2 Trial of AM0010 in Combination With Pembrolizumab vs. Pembrolizumab Alone as First-Line (1L) Therapy in Patients With Stage IV / Metastatic Wild Type (WT) Non-Small Cell Lung Cancer and Tumors With High Expression of PD-L1 (> 50%)",
+          "acronym": "Cypress 1",
+          "status": "TERMINATED",
+          "why_stopped": "The CYPRESS-1 trial was closed early after the planned primary analysis because the risk benefit ratio is unfavorable.",
+          "phase": "PHASE2",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Non Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Pegilodecakin",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants Who Achieved an Objective Response Rate (ORR)"
+          ],
+          "enrollment": 101,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-03-19",
+          "primary_completion": "2019-12-06",
+          "completion": "2020-03-05",
+          "last_update": "2021-01-20",
+          "results_first_post": "2021-01-20",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04220866",
+          "title": "Study of Intratumoral (IT) Ulevostinag (MK-1454) in Combination With Intravenous (IV) Pembrolizumab (MK-3475) Compared to IV Pembrolizumab Alone as the First Line Treatment of Metastatic or Unresectable, Recurrent Head and Neck Squamous Cell Carcinoma (HNSCC) (MK-1454-002)",
+          "official_title": "A Phase 2 Study in First Line Metastatic or Unresectable, Recurrent Head and Neck Squamous Cell Carcinoma to Evaluate Intratumoral MK-1454 in Combination With IV Pembrolizumab vs IV Pembrolizumab Monotherapy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Head and Neck Squamous Cell Carcinoma (HNSCC)"
+          ],
+          "interventions": [
+            "Ulevostinag",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-03-04",
+          "primary_completion": "2022-09-30",
+          "completion": "2022-09-30",
+          "last_update": "2025-10-29",
+          "results_first_post": "2023-10-27",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Brazil",
+            "France",
+            "Israel",
+            "Norway",
+            "South Korea",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pembrolizumab",
+          "Enfortumab"
         ],
         "sponsor": [],
         "sponsor_en": []
