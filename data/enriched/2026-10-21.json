@@ -1878,5 +1878,216 @@
       },
       "note": ""
     }
+  },
+  "f8fffe7905465067": {
+    "id": "f8fffe7905465067",
+    "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {
+        "nct": "NCT04825288",
+        "title": "XB2001 in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
+        "official_title": "A Phase I/II Randomized, Double-blind, Placebo-controlled Trial (1-BETTER) Examining XB2001 (Anti-IL-1⍺ True Human Antibody) in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
+        "acronym": "1-BETTER",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "XBiotech, Inc.",
+        "conditions": [
+          "Pancreatic Cancer"
+        ],
+        "interventions": [
+          "Phase I: XB2001 250 mg",
+          "Phase I: XB2001 500 mg",
+          "Phase I: XB2001 1000 mg",
+          "Phase II: XB2001 1000 mg",
+          "Phase II: Placebo"
+        ],
+        "primary_outcomes": [
+          "To Establish the Maximum Tolerated Dose (MTD) of XB2001 as Measured by Dose-Limiting Toxicity (DLT), in Combination With ONIVYDE + LV + 5-FU Chemotherapy Regimen in Patients With Advanced Pancreatic Cancer.",
+          "Safety and Tolerability of XB2001 in Combination With ONIVYDE + LV + 5-FU"
+        ],
+        "enrollment": 76,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-05-27",
+        "primary_completion": "2023-10-26",
+        "completion": "2025-06-10",
+        "last_update": "2026-08-04",
+        "results_first_post": "2026-08-04",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05201352",
+          "title": "Evaluation of Efficacy of Trifluridine/Tipiracil Plus an Anti-IL-1α True Human Antibody Versus Trifluridine/Tipiracil Plus Placebo in Metastatic Colorectal Cancer Patients After Failure of Oxaliplatin, Irinotecan, Fluoropyrimidine",
+          "official_title": "Multicentric Randomized Phase I/II Study to Evaluate Efficacy of Trifluridine/Tipiracil Plus XB2001 (Anti-IL-1α True Human Antibody) Versus Trifluridine/Tipiracil Plus Placebo in Metastatic Colorectal Cancer Patients After Failure of Oxaliplatin, Irinotecan, Fluoropyrimidine",
+          "acronym": "TASKIN",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Centre Georges Francois Leclerc",
+          "conditions": [
+            "Metastatic Colorectal Cancer"
+          ],
+          "interventions": [
+            "trifluridine/tipiracil + XB2001",
+            "trifluridine/tipiracil + placebo"
+          ],
+          "primary_outcomes": [
+            "Maximum Tolerated Dose (MTD) of XB2001",
+            "Overall survival"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-10-13",
+          "primary_completion": "2026-10-13",
+          "completion": "2026-10-13",
+          "last_update": "2025-05-30",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04825288",
+          "title": "XB2001 in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
+          "official_title": "A Phase I/II Randomized, Double-blind, Placebo-controlled Trial (1-BETTER) Examining XB2001 (Anti-IL-1⍺ True Human Antibody) in Combination With ONIVYDE + 5-FU/LV (+Folinic Acid) in Advanced Pancreatic Cancer",
+          "acronym": "1-BETTER",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "XBiotech, Inc.",
+          "conditions": [
+            "Pancreatic Cancer"
+          ],
+          "interventions": [
+            "Phase I: XB2001 250 mg",
+            "Phase I: XB2001 500 mg",
+            "Phase I: XB2001 1000 mg",
+            "Phase II: XB2001 1000 mg",
+            "Phase II: Placebo"
+          ],
+          "primary_outcomes": [
+            "To Establish the Maximum Tolerated Dose (MTD) of XB2001 as Measured by Dose-Limiting Toxicity (DLT), in Combination With ONIVYDE + LV + 5-FU Chemotherapy Regimen in Patients With Advanced Pancreatic Cancer.",
+            "Safety and Tolerability of XB2001 in Combination With ONIVYDE + LV + 5-FU"
+          ],
+          "enrollment": 76,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-05-27",
+          "primary_completion": "2023-10-26",
+          "completion": "2025-06-10",
+          "last_update": "2026-08-04",
+          "results_first_post": "2026-08-04",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "XB2001",
+          "TAS-102"
+        ],
+        "sponsor": [
+          "表达存在生物",
+          "XBiotech"
+        ],
+        "sponsor_en": [
+          "表达存在生物",
+          "XBiotech"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "df44faeaf8ac80c2": {
+    "id": "df44faeaf8ac80c2",
+    "title": "<![CDATA[Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
   }
 }

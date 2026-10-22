@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "count": 6,
+  "count": 7,
   "plan": [
     {
       "type": "landscape",
@@ -179,6 +179,41 @@
       ],
       "endpoint_verdict": "missed",
       "_idx": 6
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:vilamakitug",
+      "lead_id": "f8fffe7905465067",
+      "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "f8fffe7905465067",
+        "f120b520c91a87d2",
+        "df44faeaf8ac80c2"
+      ],
+      "members": [
+        {
+          "title": "XBiotech公布TASKIN试验II期最终疗效数据：Vilamakitug联合标准疗法在难治性转移性结直肠癌中显示生存获益【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_385702",
+          "score": 7.0,
+          "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。"
+        },
+        {
+          "title": "<![CDATA[Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer]]>",
+          "url": "https://www.targetedonc.com/view/vilamakitug-meets-primary-efficacy-criterion-refractory-mcrc",
+          "score": 6.5,
+          "reasoning": "Vilamakitug在难治性转移性结直肠癌Phase 1/2试验中达到预设OS阈值，属明确统计结论；IL-1α靶点在CRC中属相对新颖机制；但研究者发起、单臂设计降权。"
+        },
+        {
+          "title": "<![CDATA[Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial]]>",
+          "url": "https://www.onclive.com/view/vilamakitug-meets-os-threshold-in-phase-1-2-refractory-mcrc-trial",
+          "score": 6.5,
+          "reasoning": "Vilamakitug在Phase 1/2难治性mCRC试验中达到OS阈值，属明确统计结论；与另一条来源共同佐证，可信度提升；主要终点达到但单臂设计降权。"
+        }
+      ],
+      "reasoning": "XBiotech TASKIN Phase 2试验中Vilamakitug联合标准治疗在难治性mCRC达到预设主要疗效成功标准（61.3% vs 55.7% 12个月OS），属明确统计结论；右侧结肠癌亚组显著获益；研究者发起试验、单臂设计降权，但数据质量较高。",
+      "note": "补推：2026-10-21 原选题，因字数下限差 1 字被误杀（2099 < 2100），修复合入后按原稿恢复"
     }
   ]
 }

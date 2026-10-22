@@ -1,0 +1,108 @@
+KICKER: 临床数据
+TITLE: Vilamakitug 在难治性 mCRC 达到预设 OS 阈值：TASKIN II 期最终数据公布
+SUB: 12 个月 OS 61.3% 对 55.7%，右侧结肠癌亚组获益显著
+HOOK: 2026年10月19日，XBiotech Inc. 宣布其抗 IL-1α 单克隆抗体 Vilamakitug（研发代号 XB2001）在 TASKIN 多中心临床试验 II 期中获得积极最终疗效结果：联合标准治疗药物 Trifluridine/Tipiracil（TAS-102）±贝伐珠单抗治疗难治性转移性结直肠癌（mCRC），实验组 12 个月总生存率为 61.3%，超过预设的主要疗效成功标准（42 例及以上存活），优于对照组的 55.7%。同一天公告还给出一个更细的信号：探索性亚组分析表明，右侧结肠癌患者显示出显著的生存获益，且与肿瘤基础 IL-1α 高表达存在生物学关联。
+
+## 01 试验是什么
+
+TASKIN 是一项由法国国家癌症研究所（INCa）资助、Georges-François Leclerc 中心协调的 investigator-sponsored 多中心临床试验 II 期，评估的是 Vilamakitug 联合标准治疗药物 TAS-102 ± 贝伐珠单抗在难治性 mCRC 患者中的效果。公告摘录把这次结果写成"获得积极最终疗效结果"。
+
+看联合方案的结构：TAS-102 是骨架药，贝伐珠单抗在方案里带 ± 号，Vilamakitug 叠加在最上面。所以 61.3% 这个数对应的是"在标准治疗上加抗体"的结果。
+
+试验把"成功"提前写进了设计：公告里的原话是"超过预设的主要疗效成功标准（42 例及以上存活）"。这是个患者数的门槛，而且是预设的，在结果出来之前就写进了设计里。一手核查对这条数据的判定是"疗效数据积极（未明确是否达到终点）"，依据层级为新闻/公告措辞，置信度 0.50；同一份核查里挂的待核查项是"核实试验具体主要终点定义及多中心样本量"。这一层级和这半句待核查，决定了后面所有解读的边界。
+
+雷达给这条的评分是 7.0/10，理由里写着"研究者发起试验、单臂设计降权，但数据质量较高"，标记为 met、positive_data。
+
+## 02 疗效：公告里的三个数字
+
+TABLE: TASKIN II 期主要疗效数据 | 口径与来源
+---|---
+实验组 12 个月总生存率 | **61.3%**（Vilamakitug + 标准治疗）
+对照组 12 个月总生存率 | **55.7%**（标准治疗）
+预设成功标准 | 42 例及以上患者 12 个月存活
+终点表述 | 超过预设的主要疗效成功标准
+证据层级 | 公司公告 / 新闻转述（据公告称达到主要疗效成功标准）
+ENDTABLE
+
+公告摘录里的原句是："实验组12个月总生存率为61.3%，超过预设的主要疗效成功标准（42例及以上存活），优于对照组的55.7%。"
+
+按公告措辞，这项试验超过了预设的主要疗效成功标准。两个数都标注为 12 个月总生存率，公告用"优于"来描述实验组与对照组之间的差距。一手核查对这一条给出的完整判读是这样的：
+
+> **终点判定**：疗效数据积极（未明确是否达到终点）
+> **依据层级**：新闻/公告措辞（需注意出处）
+> **置信度**：0.50
+> **证据**：疗效数据表述:获益
+
+把这几行读懂比记住 61.3% 更重要：这条结论的支撑是一份公司公告，不是统计报告。
+
+## 03 安全性：永久停药率 1.3%
+
+公告在安全性上给的是一个具体数字：Vilamakitug 显示出良好的安全性及与化疗的高依从性，**永久停药率仅为 1.3%**。对一款要跟化疗长期联用的抗体来说，这是公告里最实在的一个数。
+
+这份公告里，疗效给的是 61.3%，安全性给的是 1.3%，两个数出自同一份新闻稿，口径都是公告口径。
+
+## 04 亚组信号：右侧结肠癌
+
+公告的探索性亚组分析表明，右侧结肠癌患者显示出显著的生存获益，且该获益与肿瘤基础 IL-1α 高表达存在生物学关联。这一条把药和人群对上了：抗体打的是 IL-1α，公告里这条获益又和肿瘤基础的 IL-1α 高表达绑在一起。
+
+两个英文来源从各自的角度佐证了同一件事：OncLive 的标题写的是 "Meets OS Threshold in Phase 1/2 Refractory mCRC Trial"，Targeted Oncology 的标题写的是 "Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer"。公告摘录里给的是具体数字。
+
+雷达的评分理由里另有两句值得记：OncLive 那条写着"与另一条来源共同佐证，可信度提升"，以及"主要终点达到但单臂设计降权"。雷达给这两家做的注册库检索也落了空——"未能从标题抽出可检索的药名/公司名/NCT号"，标题以外没有可对上的注册记录。
+
+## 05 三个来源怎么说的
+
+TABLE: 报道来源 | 发布日期 | 口径
+---|---|---
+XBiotech 公告（经 pharnexcloud 转载） | 2026-10-19 | II 期最终疗效数据，12 个月 OS 61.3% 超过预设标准
+OncLive | 2026-10-19 | 标题口径为 "Meets OS Threshold in Phase 1/2 Refractory mCRC Trial"
+Targeted Oncology | 2026-10-20 | 标题口径为 "Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer"
+一手核查（公告源） | — | 终点判定"疗效数据积极（未明确是否达到终点）"，依据层级"新闻/公告措辞"，置信度 0.50
+一手核查（另两家） | — | 终点判定"未找到公开结论"，依据层级"无"，置信度 0.20
+ENDTABLE
+
+这三家的材料厚度并不一样。XBiotech 公告是唯一有正文摘录的一份，pharnexcloud 的转载页把公告整段贴了出来，版权声明里写明"本摘要由本站工作人员根据原文内容整理撰写，内容仅供参考"，同一段声明还写着"本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容""读者应自行判断和鉴别转载文章的真实性、合法性和有效性"。OncLive 和 Targeted Oncology 只有标题，雷达对这两条给出的一手核查完全一样：终点判定"未找到公开结论"，依据层级"无"，置信度 0.20，注册库一栏写的是"未能从标题抽出可检索的药名/公司名/NCT号"。
+
+分期口径在两家里对不上：公告写的是 II 期，OncLive 的标题写的是 Phase 1/2。同一件事、两种写法，这个差异先记下来。
+
+雷达给公告这条挂的待核查项是"核实试验具体主要终点定义及多中心样本量"，给 OncLive 那条挂的是"核实具体OS数值及预设阈值"。这两项是接下来最该盯的。
+
+## 06 放进 XBiotech 的管线里看
+
+TABLE: XBiotech 注册试验结构（ClinicalTrials.gov，申办方 XBiotech） | 内容
+---|---
+注册试验总数 | 8 项
+期别分布 | PHASE2 6 项、PHASE1 4 项
+适应症分布 | 类风湿性关节炎 3 项、药代动力学 2 项、轴向脊柱关节炎 1 项、强直性脊柱炎 1 项、r-axSpA 1 项、Nr-axSpA 1 项
+已上市产品 | openFDA 未检索到（sponsor_name=XBIOTECH）美国批准记录
+年报 | 未取到（SEC XBRL 与巨潮资讯均未读到可引用数据）
+ENDTABLE
+
+这 8 项注册的适应症分布是：类风湿性关节炎 3 项、药代动力学 2 项、轴向脊柱关节炎 1 项、强直性脊柱炎 1 项、r-axSpA 1 项、Nr-axSpA 1 项。期别分布是 PHASE2 6 项、PHASE1 4 项；已上市产品一栏写的是 openFDA 未检索到（sponsor_name=XBIOTECH）美国批准记录；年报一栏写的是未取到，SEC XBRL 与巨潮资讯都没有读到可引用的数据。这 8 项是 XBiotech 申办的注册试验；TASKIN 则出现在 INCa 资助、Georges-François Leclerc 中心协调的 investigator-sponsored 试验里。
+
+另一个可查的注册项目是胰腺癌的 1-BETTER（NCT04825288，PHASE1、PHASE2，COMPLETED）。注册库里的正式名称是"一项评价 XB2001（抗 IL-1α True Human 抗体）联合 ONIVYDE + 5-FU/LV（加亚叶酸钙）治疗晚期胰腺癌的 I/II 期随机、双盲、安慰剂对照试验"，适应症栏写的是 Pancreatic Cancer，入组 76 例（ACTUAL），申办方是 XBiotech, Inc.，干预臂一共 5 条：Phase I 的 XB2001 250 mg / 500 mg / 1000 mg，Phase II 的 XB2001 1000 mg 与安慰剂。主要终点是"以剂量限制性毒性（DLT）衡量的 XB2001 最大耐受剂量（MTD）"以及"XB2001 联合 ONIVYDE + LV + 5-FU 的安全性与耐受性"，2021-05-27 启动，2023-10-26 主要完成。同一枚抗体，在胰腺癌做的是剂量与耐受性，在 mCRC 报的是 12 个月总生存率。
+
+注册库里还挂着同药的另一项试验 NCT05201352（PHASE1/PHASE2，n=160），公开库中显示的方案名为 "Evaluation of Efficacy of Trifluridine/Tipiracil Plus an Ant…"，是这块管线的横向对照项。它和 1-BETTER 一起，构成了 XB2001 在注册库里可查的两条记录。
+
+## 07 这条数据该怎么读
+
+1. **证据层级**：数据来自公司公告与新闻转述，一手核查置信度 0.50，按公告措辞称超过了主要疗效成功标准。
+2. **试验性质**：investigator-sponsored 试验，由 INCa 资助、Georges-François Leclerc 中心协调；雷达的评分理由把"研究者发起"和"单臂设计"一起列为降权因素。
+3. **数字的边界**：61.3% 与 55.7% 是两个 12 个月总生存率，一手核查给出的判定是"疗效数据积极（未明确是否达到终点）"，依据层级为新闻/公告措辞，置信度 0.50。
+4. **亚组结果**：公告的探索性亚组分析表明，右侧结肠癌患者显示出显著的生存获益，且与肿瘤基础 IL-1α 高表达存在生物学关联。
+5. **公司层面**：openFDA 未检索到（sponsor_name=XBIOTECH）美国批准记录；XBiotech 的 8 项注册试验分布如上。
+6. **安全性口径**：公告给的是"永久停药率仅为 1.3%"，与"良好的安全性及与化疗的高依从性"并列出现，同属公告措辞。
+7. **口径差异**：公告口径为 II 期，OncLive 标题口径为 Phase 1/2。
+
+## 08 判断
+
+这是一条正面、但依据层级有限的信号——公告措辞，置信度 0.50。抗 IL-1α 这枚抗体在难治性 mCRC 的后线场景里，拿出了一个超过预设标准的生存数字，安全性上还给出了 1.3% 的永久停药率；XBiotech 这枚抗体也出现在了 INCa 资助、Georges-François Leclerc 中心协调的这套试验里。
+
+雷达挂的待核查项里，公告这条是"核实试验具体主要终点定义及多中心样本量"，OncLive 那条是"核实具体OS数值及预设阈值"；这两项是判断 61.3% 统计口径的入口。
+
+ENDCARD 真正的看点 | 61.3% 对 55.7%，这是公告口径的数字，置信度 0.50，判断标签是 met、positive_data。成色要看雷达挂的待核查项——公告那条是"核实试验具体主要终点定义及多中心样本量"，OncLive 那条是"核实具体OS数值及预设阈值"。
+
+FN 1. 公司公告：XBiotech Inc.，TASKIN II 期最终疗效数据（2026-10-19，经 pharnexcloud 转载，https://www.pharnexcloud.com/zixun/shiye/yfzczc_385702）
+FN 2. 媒体转述：OncLive，"Vilamakitug Meets OS Threshold in Phase 1/2 Refractory mCRC Trial"（2026-10-19，仅标题可引用，https://www.onclive.com/view/vilamakitug-meets-os-threshold-in-phase-1-2-refractory-mcrc-trial）
+FN 3. 媒体转述：Targeted Oncology，"Vilamakitug Meets Phase 2 Efficacy Criterion in Refractory Metastatic Colorectal Cancer"（2026-10-20，仅标题可引用，https://www.targetedonc.com/view/vilamakitug-meets-primary-efficacy-criterion-refractory-mcrc)
+FN 4. 注册库：ClinicalTrials.gov，NCT04825288（1-BETTER，胰腺癌 Phase I/II，n=76，已完成）、NCT05201352（n=160）；XBiotech 8 项注册试验结构（申办方 XBiotech，检索日期 2026年10月）
+FN 5. 注册库：openFDA（sponsor_name=XBIOTECH，未检索到美国批准记录）
