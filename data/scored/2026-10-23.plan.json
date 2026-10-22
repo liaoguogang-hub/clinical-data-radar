@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-23",
+  "count": 3,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:brepocitinib",
+      "lead_id": "4668d2ffe17902ac",
+      "title": "Roivant's autoimmune drug succeeds in two pivotal trials, setting up 2027 filing",
+      "score": 7.9,
+      "channel": "global",
+      "member_ids": [
+        "4668d2ffe17902ac"
+      ],
+      "members": [
+        {
+          "title": "Roivant's autoimmune drug succeeds in two pivotal trials, setting up 2027 filing",
+          "url": "https://endpoints.news/roivants-autoimmune-drug-succeeds-in-two-pivotal-trials-setting-up-2027-filing/",
+          "score": 7.9,
+          "reasoning": "两项关键性试验被报道成功并计划申报，构成高价值注册性结果；依据为标题中的试验成功表述，素材未提供主要终点、效应量或统计检验。归入global，因为开发与申报计划面向国际市场。"
+        }
+      ],
+      "reasoning": "两项关键性试验被报道成功并计划申报，构成高价值注册性结果；依据为标题中的试验成功表述，素材未提供主要终点、效应量或统计检验。归入global，因为开发与申报计划面向国际市场。",
+      "verify_todo": [
+        "核实两项关键性试验的适应症、主要终点、样本量和p值",
+        "核实与既有适应症或既有批准之间是否存在人群差异",
+        "核实2027年申报计划及监管沟通状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:lutikizumab",
+      "lead_id": "0ed1365ff91e3c30",
+      "title": "AbbVie notches Phase 3 win in painful skin condition, FDA filing likely next year",
+      "score": 7.1,
+      "channel": "global",
+      "member_ids": [
+        "0ed1365ff91e3c30"
+      ],
+      "members": [
+        {
+          "title": "AbbVie notches Phase 3 win in painful skin condition, FDA filing likely next year",
+          "url": "https://endpoints.news/abbvie-notches-phase-3-win-in-painful-skin-condition-fda-filing-likely-next-year/",
+          "score": 7.1,
+          "reasoning": "Ⅲ期研究被报道取得成功且指向后续监管申报，属于高价值临床结果节点；现有摘要明确使用“Phase 3 success”，但未给出主要终点、p值或置信区间，故依据是文本结论而非完整统计结果。归入global，因为开发与申报主体为跨国药企AbbVie。"
+        }
+      ],
+      "reasoning": "Ⅲ期研究被报道取得成功且指向后续监管申报，属于高价值临床结果节点；现有摘要明确使用“Phase 3 success”，但未给出主要终点、p值或置信区间，故依据是文本结论而非完整统计结果。归入global，因为开发与申报主体为跨国药企AbbVie。",
+      "verify_todo": [
+        "核实Ⅲ期试验名称、主要终点、样本量及预设统计检验",
+        "核实应答指标定义、效应量、p值及安全性结果",
+        "核实申报时间表是公司计划还是监管承诺"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ianalumab",
+      "lead_id": "18d404439f9606a1",
+      "title": "Ianalumab's Road to Approval for Sjogren's Looks Bumpier",
+      "score": 6.7,
+      "channel": "global",
+      "member_ids": [
+        "18d404439f9606a1"
+      ],
+      "members": [
+        {
+          "title": "Ianalumab's Road to Approval for Sjogren's Looks Bumpier",
+          "url": "https://www.medpagetoday.com/rheumatology/generalrheumatology/123512",
+          "score": 6.7,
+          "reasoning": "两项随机试验的正式发表及其对监管支持力度的影响构成重要临床数据节点；报道措辞表明疗效证据与审批要求之间存在不确定性，因此按部分支持而非明确达到或未达到处理。归入global，因研究及药物开发为国际项目。"
+        }
+      ],
+      "reasoning": "两项随机试验的正式发表及其对监管支持力度的影响构成重要临床数据节点；报道措辞表明疗效证据与审批要求之间存在不确定性，因此按部分支持而非明确达到或未达到处理。归入global，因研究及药物开发为国际项目。",
+      "verify_todo": [
+        "核实两项随机试验各自的主要终点、效应量及置信区间",
+        "核实未支持审批的具体终点及监管机构意见",
+        "确认是否属于试验未达到预设阈值还是统计结果支持力度有限"
+      ],
+      "flags": [
+        "partial"
+      ],
+      "endpoint_verdict": "partial",
+      "_idx": 3
+    }
+  ]
+}
