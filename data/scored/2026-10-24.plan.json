@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-24",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:bl-b01d1",
+      "lead_id": "1d99fa5e41c207ef",
+      "title": "ESMO LBA丨伦康依隆妥单抗III期研究登顶《柳叶刀》，重塑HR+HER2-乳腺癌后线治疗格局",
+      "score": 9.1,
+      "channel": "china",
+      "member_ids": [
+        "1d99fa5e41c207ef"
+      ],
+      "members": [
+        {
+          "title": "ESMO LBA丨伦康依隆妥单抗III期研究登顶《柳叶刀》，重塑HR+HER2-乳腺癌后线治疗格局",
+          "url": "https://bydrug.pharmcube.com/news/detail/bf09348c2427e8876363f3c9c895aa6f",
+          "score": 9.1,
+          "reasoning": "素材明确报告中国原研双抗ADC项目PANKU-Breast01的Ⅲ期PFS主要终点阳性，并同步给出Lancet全文及ESMO LBA披露，数据层级和临床影响均较高。PFS达到依据为明确文字结论，但成稿前仍需补齐效应量、置信区间和样本量。"
+        }
+      ],
+      "reasoning": "素材明确报告中国原研双抗ADC项目PANKU-Breast01的Ⅲ期PFS主要终点阳性，并同步给出Lancet全文及ESMO LBA披露，数据层级和临床影响均较高。PFS达到依据为明确文字结论，但成稿前仍需补齐效应量、置信区间和样本量。",
+      "verify_todo": [
+        "核实试验注册号、对照方案、样本量和随机分层",
+        "核实PFS的HR、置信区间、p值及敏感性分析",
+        "核实全文及ESMO报告中的成熟随访期、成熟事件数和安全性结果",
+        "核实“全球首个”表述对应的具体机制和适应症范围"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:telitacicept",
+      "lead_id": "c775937347901910",
+      "title": "Vor Bio公布TELIGAN III期试验两年结果：Telitacicept在IgA肾病中持久保护肾功能【AI生成】",
+      "score": 8.9,
+      "channel": "china",
+      "member_ids": [
+        "c775937347901910"
+      ],
+      "members": [
+        {
+          "title": "Vor Bio公布TELIGAN III期试验两年结果：Telitacicept在IgA肾病中持久保护肾功能【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_385950",
+          "score": 8.9,
+          "reasoning": "TELIGAN是IgA肾病Ⅲ期试验，素材给出104周eGFR斜率、风险下降及p<0.001，并经ASN Kidney Week口头报告，形成较完整的统计与会议证据链。长期肾功能保护及双靶点机制使其具有较高临床和研发价值。"
+        }
+      ],
+      "reasoning": "TELIGAN是IgA肾病Ⅲ期试验，素材给出104周eGFR斜率、风险下降及p<0.001，并经ASN Kidney Week口头报告，形成较完整的统计与会议证据链。长期肾功能保护及双靶点机制使其具有较高临床和研发价值。",
+      "verify_todo": [
+        "核实试验注册号、样本量、随机分组和主要终点层级",
+        "核实eGFR斜率差值的置信区间及敏感性分析",
+        "核实确认性肾脏复合终点定义、事件数和多重性控制",
+        "核实104周结果是否属于正式统计分析或中期分析",
+        "核实安全性结果及不同给药间隔队列的可比性"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:batoclimab",
+      "lead_id": "803722386c1e9a8c",
+      "title": "石药集团/和铂医药巴托利单抗获批上市！进口1类新药破局全身型重症肌无力，FcRn抑制剂再添一员",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "803722386c1e9a8c"
+      ],
+      "members": [
+        {
+          "title": "石药集团/和铂医药巴托利单抗获批上市！进口1类新药破局全身型重症肌无力，FcRn抑制剂再添一员",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_385921",
+          "score": 7.5,
+          "reasoning": "NMPA批准进口1类新药是Ⅲ期开发走向监管落地的关键节点，完整素材还提供申报历程和FcRn竞争背景，适合评估上市后的临床定位。当前依据主要是监管和媒体文字结论，仍需补充支持批准的统计结果。"
+        }
+      ],
+      "reasoning": "NMPA批准进口1类新药是Ⅲ期开发走向监管落地的关键节点，完整素材还提供申报历程和FcRn竞争背景，适合评估上市后的临床定位。当前依据主要是监管和媒体文字结论，仍需补充支持批准的统计结果。",
+      "verify_todo": [
+        "核实NMPA批准日期、完整适应症和说明书",
+        "核实支持批准的gMGⅢ期试验编号、样本量、主要终点及统计结果",
+        "核实两次撤审与重新申报期间是否补充关键临床数据",
+        "核实与已获批FcRn产品的头对头或交叉试验证据"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:amplify-7p-vaccine",
+      "lead_id": "531b080ed567581f",
+      "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+      "score": 8.4,
+      "channel": "global",
+      "member_ids": [
+        "531b080ed567581f"
+      ],
+      "members": [
+        {
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "score": 8.4,
+          "reasoning": "随机Ⅱ期AMPLIFY-7P由Nature Medicine正式发表并经ESMO报告，明确给出DFS主要终点未达到，具有较高临床开发复盘价值。预设亚组出现DFS获益信号，但不能改变总体主要终点失败的结论，因此按失败事件计分并对亚组解读降权。"
+        }
+      ],
+      "reasoning": "随机Ⅱ期AMPLIFY-7P由Nature Medicine正式发表并经ESMO报告，明确给出DFS主要终点未达到，具有较高临床开发复盘价值。预设亚组出现DFS获益信号，但不能改变总体主要终点失败的结论，因此按失败事件计分并对亚组解读降权。",
+      "verify_todo": [
+        "核实试验注册号、样本量、随机比例和主要终点统计结果",
+        "核实总体DFS的HR、置信区间、p值及事件成熟度",
+        "核实ctDNA阴性和无既往放疗亚组的定义、交互作用及多重性控制",
+        "核实疫苗组成、给药方案和安全性结果"
+      ],
+      "flags": [
+        "failed",
+        "subgroup"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:miv-cel",
+      "lead_id": "3ce424f915f63b3d",
+      "title": "一针CAR T细胞疗法让僵人综合征患者重获行走能力：2期试验一年数据显示显著改善，有望冲击FDA首个获批疗法",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "3ce424f915f63b3d"
+      ],
+      "members": [
+        {
+          "title": "一针CAR T细胞疗法让僵人综合征患者重获行走能力：2期试验一年数据显示显著改善，有望冲击FDA首个获批疗法",
+          "url": "http://news.bioon.com/article/a5a695e925f3.html",
+          "score": 8.2,
+          "reasoning": "注册性CAR-T项目的一年期功能结局及后续监管路径使其具备较高报道价值；当前依据是会议报告中的“显著改善”措辞而非可复核的统计参数，发布日期亦未知。"
+        }
+      ],
+      "reasoning": "注册性CAR-T项目的一年期功能结局及后续监管路径使其具备较高报道价值；当前依据是会议报告中的“显著改善”措辞而非可复核的统计参数，发布日期亦未知。",
+      "verify_todo": [
+        "核实试验注册号、样本量、对照设计和预设主要终点",
+        "核实步行测试等功能终点的p值、置信区间及缺失数据处理",
+        "核实会议报告形式以及miv-cel滚动BLA的实际提交状态",
+        "核实发布日期和原始数据来源"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:deucrictibant",
+      "lead_id": "e9136e8d70314518",
+      "title": "[Articles] Oral deucrictibant for on-demand treatment of hereditary angioedema attacks: a phase 3, multicentre, randomised, double-blind, placebo-controlled crossover trial",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "e9136e8d70314518"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Oral deucrictibant for on-demand treatment of hereditary angioedema attacks: a phase 3, multicentre, randomised, double-blind, placebo-controlled crossover trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01296-1/fulltext?rss=yes",
+          "score": 7.5,
+          "reasoning": "随机、双盲、安慰剂对照的III期结果在Lancet正式发表，并明确报告症状缓解时间优于安慰剂，具有较强的临床与首创性价值；该条目已超过14天，时效性扣分，且摘要未提供具体p值。"
+        }
+      ],
+      "reasoning": "随机、双盲、安慰剂对照的III期结果在Lancet正式发表，并明确报告症状缓解时间优于安慰剂，具有较强的临床与首创性价值；该条目已超过14天，时效性扣分，且摘要未提供具体p值。",
+      "verify_todo": [
+        "核实主要终点定义、分析集和具体统计效应量",
+        "核实不良事件及停药数据",
+        "核实口服同类药物“潜在首个”的监管与竞品状态"
+      ],
+      "flags": [
+        "met",
+        "stale"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
