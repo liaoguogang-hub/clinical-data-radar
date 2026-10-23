@@ -27,6 +27,8 @@ fetch:
     bioon_neuroscience: 6
     pharnexcloud: 30
     pharmcube: 8
+    # ESMO 会期每天约 4-7 条逐研究报道，配额留够
+    esmo_news: 10
   timeout: 25
   # 陈旧过滤阈值（天）。发布日期未知的条目不受限。
   max_age_days: 21
@@ -64,6 +66,35 @@ sources:
     weight: 1.4
     tier: journal
     note: 实测 8-9 条
+
+  # ============================================================
+  # 英文 · 会议官方（2026-10-23 新增）
+  #
+  # ESMO News 是【唯一】逐研究发布大会读出的官方源。加它的原因：
+  #   2026-10-23 实测，临床池 86 条里【没有一条】ESMO 当天的逐研究报道
+  #   （BRAF 三联 / T-DXd 早期乳腺 pCR / ZZ-FIRST / GIMEMA ALL2820 全部缺），
+  #   而 ESMO 2026 正在 10/23–27 召开，整周都是这类内容。
+  #
+  # 两个必须知道的技术事实（都是实测，不是推测）：
+  #   1. RSS 的 summary 大面积为空（14/20），但 og:description 有 deck，
+  #      正文在页面的 __NUXT_DATA__（Nuxt3/devalue 扁平数组）里，约 3.6–4.3K 字符，
+  #      含研究名、摘要号、NCT 号——纯 httpx 就能取，不需要浏览器。
+  #   2. 标题是临床叙述体（"…benefit from a dostariimab watch-and-wait strategy"），
+  #      缺关键词，按原来的标题过滤会误杀 12/14。所以 noise.py 里按
+  #      RSS 栏目（Scientific News / Drug Approval）放行。
+  # ============================================================
+  - id: esmo_news
+    name: ESMO News（欧洲肿瘤内科学会官方新闻）
+    lang: en
+    url: https://www.esmo.org/rss/feed/esmo-news
+    mode: rss
+    access: full
+    weight: 1.4
+    tier: conference_official
+    fetch_body: true          # RSS 源但必须抓正文（摘要为空）
+    note: 实测 20 条；会期每天 4-7 条逐研究；摘要多为空，必须抓正文。
+      正文解析在 fetch.py 的 extract_esmo_body()（读 __NUXT_DATA__），
+      与其它站点一样按 source_id 前缀 "esmo" 分派，不需要额外配置键。
 
   # ============================================================
   # 英文 · 临床专业媒体

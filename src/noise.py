@@ -101,10 +101,42 @@ NOISE = re.compile(
 )
 
 
-def is_clinical(title: str, source: str = "") -> tuple[bool, str]:
+# ============ 会议官方源（按 RSS 栏目判定，不靠标题关键词）============
+#
+# 为什么要单独一档：ESMO/ASCO 这类大会的官方新闻标题是"临床叙述体"，
+# 描述结果方向而非罗列终点术语，按关键词表判会大量误杀。
+# 但它们的栏目（category）本身就把"逐研究读出"和"访谈/社论"分开了，
+# 用栏目判比猜标题可靠得多。
+CONFERENCE_OFFICIAL = {"esmo_news"}
+
+# 要：逐研究读出、监管批准
+CONFERENCE_KEEP_SECTIONS = {"scientific news", "drug approval"}
+
+# 不要：访谈、社论、患者指南、学会事务
+CONFERENCE_DROP_SECTIONS = {
+    "interview", "editorial", "opinion", "feature",
+    "esmo patient guides", "fellowship",
+}
+
+# Scientific News 栏目里还混着"学会自己的公告"，实测会漏进来 3 条：
+#   "ESMO Patient Guides 2026 Event: From publication to implementation"
+#   "ESMO updates ESCAT framework for precision oncology: ..."
+#   "ESMO launches new principles for humanising scientific reporting ..."
+# 这些不是试验读出。用"ESMO 作主语做机构动作"来识别，而不是靠关键词表猜。
+CONFERENCE_INSTITUTIONAL = re.compile(
+    r"\bESMO\s+(?:launches|launched|updates|updated|publishes|published|announces|"
+    r"announced|opens|opened|welcomes|calls|releases|released|awards|appoints|"
+    r"congratulates|hosts)\b"
+    r"|\bPatient\s+Guides?\b|\bFellowship\b|\bAward\b|\bwebinar\b|\bnewsletter\b",
+    re.I)
+
+
+def is_clinical(title: str, source: str = "", topics=None) -> tuple[bool, str]:
     """
     判断是否属于"临床研究数据与进展"。
     返回 (是否保留, 原因)
+
+    topics：RSS 栏目/分类（如 ESMO News 的 Scientific News / Drug Approval）。
     """
     t = (title or "").strip()
     if len(t) < 12:
@@ -112,6 +144,25 @@ def is_clinical(title: str, source: str = "") -> tuple[bool, str]:
 
     if NOISE.search(t):
         return False, "通用噪声"
+
+    # ============ 会议官方源的栏目白名单 ============
+    # ESMO News 的标题是临床叙述体，常缺关键词：
+    #   "Selected patients with gastro-oesophageal adenocarcinoma benefit from
+    #    a dostarlimab 'watch-and-wait' strategy"   ← 一个 CLINICAL_STRONG 词都没有
+    #   "Are the benefits of peri-operative immunotherapy in resectable bladder
+    #    cancer being called into question?"        ← 同上
+    # 实测：只按标题过滤会误杀 12/14，而这些都是大会逐研究读出（最该要的内容）。
+    # 所以改为：会议官方源 + 栏目命中 → 直接放行。
+    # 同时排除 Interview / Editorial（那些确实不是临床数据）。
+    topics_l = [str(x).strip().lower() for x in (topics or [])]
+    if source in CONFERENCE_OFFICIAL:
+        if any(x in CONFERENCE_DROP_SECTIONS for x in topics_l):
+            return False, "会议源 · 访谈/社论"
+        if CONFERENCE_INSTITUTIONAL.search(t):
+            return False, "会议源 · 学会公告"
+        if any(x in CONFERENCE_KEEP_SECTIONS for x in topics_l):
+            return True, "会议官方 · 逐研究读出"
+        # 栏目没识别出来，退回常规判定
 
     has_clinical = bool(CLINICAL_STRONG.search(t))
     has_other = bool(OTHER_DOMAIN.search(t))
@@ -143,7 +194,8 @@ def filter_items(items: list) -> tuple[list, list]:
         return x.get(k) if isinstance(x, dict) else getattr(x, k, "")
 
     for it in items:
-        ok, reason = is_clinical(get(it, "title"), get(it, "source"))
+        ok, reason = is_clinical(get(it, "title"), get(it, "source"),
+                                 get(it, "topics"))
         if ok:
             kept.append(it)
         else:

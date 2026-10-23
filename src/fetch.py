@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import asyncio
+import html as html_lib
 import json
 import os
 import re
@@ -74,6 +75,78 @@ ARTICLE_CONTENT = {
     "pharmcube": ["div.article-content", "div.content", "article"],
     "default": ["article", "div.content", "main"],
 }
+
+# ESMO 是 Nuxt3 SPA（serverRendered:false），正文【不在 HTML 里】，
+# 而在 <script id="__NUXT_DATA__"> 的 devalue 扁平数组里。
+# 实测：article 对象含 introduction / content 两个 rich_text，value 字段是正文 HTML，
+#       合起来 3.6–4.3K 字符，带研究名、摘要号、NCT 号。纯 httpx 可取，无需浏览器。
+RE_NUXT = re.compile(
+    r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', re.S)
+
+
+def _devalue(arr, i, depth=0, seen=None):
+    """解 Nuxt/devalue 的整数引用。返回 Python 值。"""
+    if seen is None:
+        seen = set()
+    if depth > 14:
+        return None
+    if isinstance(i, (str, float, bool)) or i is None:
+        return i
+    if not isinstance(i, int):
+        return i
+    if i < 0 or i >= len(arr) or i in seen:
+        return None
+    seen = seen | {i}
+    v = arr[i]
+    if isinstance(v, (str, float, bool)) or v is None:
+        return v
+    if isinstance(v, int):
+        return _devalue(arr, v, depth + 1, seen)
+    if isinstance(v, list):
+        # Nuxt 的包装类型：[["ShallowReactive", n]] / ["Reactive", n] / ["Set", n]
+        if v and isinstance(v[0], str) and v[0] in (
+                "ShallowReactive", "Reactive", "Ref", "ShallowRef", "Set", "Map"):
+            return _devalue(arr, v[1], depth + 1, seen) if len(v) > 1 else None
+        return [_devalue(arr, x, depth + 1, seen) for x in v]
+    if isinstance(v, dict):
+        return {k: _devalue(arr, x, depth + 1, seen) for k, x in v.items()}
+    return None
+
+
+def extract_esmo_body(html_text: str) -> tuple[str, str]:
+    """从 ESMO 页面取正文。返回 (正文, 发布日期)。取不到返回 ("","")。"""
+    m = RE_NUXT.search(html_text or "")
+    if not m:
+        return "", ""
+    try:
+        arr = json.loads(m.group(1))
+    except Exception:
+        return "", ""
+    for idx, v in enumerate(arr):
+        # 文章对象同时带 introduction 和 content
+        if not (isinstance(v, dict) and "introduction" in v and "content" in v):
+            continue
+        obj = _devalue(arr, idx)
+        if not isinstance(obj, dict):
+            continue
+        parts = []
+        for key in ("introduction", "content"):
+            node = obj.get(key)
+            val = node.get("value") if isinstance(node, dict) else None
+            if isinstance(val, str) and val.strip():
+                parts.append(val)
+        if not parts:
+            continue
+        raw = "\n".join(parts)
+        raw = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw)
+        raw = re.sub(r"<br\s*/?>|</p>|</li>|</h[1-6]>", "\n", raw, flags=re.I)
+        txt = html_lib.unescape(re.sub(r"<[^>]+>", " ", raw))
+        txt = "\n".join(re.sub(r"[ \t]+", " ", ln).strip() for ln in txt.split("\n"))
+        txt = re.sub(r"\n{2,}", "\n", txt).strip()
+        pub = obj.get("publish_date")
+        pub = (pub.get("value") if isinstance(pub, dict) else "") or ""
+        return _strip_nav(txt), pub
+    return "", ""
 
 # ⚠️ JSON-LD 的 type 属性不一定紧跟 <script>，早先写死
 # `<script[^>]+type="application/ld+json"` 会漏掉属性顺序不同的页面，
@@ -265,6 +338,11 @@ async def fetch_article(client: httpx.AsyncClient, url: str,
     pub = extract_pub_date(r.text, url)
 
     site = source_id.split("_")[0]
+    # ESMO：正文在 __NUXT_DATA__ 里，常规模板选择器一个也命中不了（实测 0/16）
+    if site == "esmo":
+        body, npub = extract_esmo_body(r.text)
+        return body, (npub or pub)
+
     selectors = ARTICLE_CONTENT.get(site, ARTICLE_CONTENT["default"])
     html = re.sub(r"(?is)<(script|style|nav|footer|header)[^>]*>.*?</\1>",
                   " ", r.text)
@@ -315,11 +393,16 @@ async def fetch_rss(client: httpx.AsyncClient, src: dict) -> list[RawItem]:
                     break
                 except Exception:
                     pass
+        # RSS 分类/栏目。ESMO 用它在噪声过滤里区分
+        # Scientific News / Drug Approval（要）与 Interview / Editorial（不要）。
+        tags = [t.get("term", "").strip() for t in (getattr(e, "tags", None) or [])
+                if getattr(t, "term", "")]
         out.append(RawItem(
             id=make_id(link, title), source=src["id"], lang=src.get("lang", "en"),
             title=title, url=link, published=pub,
             access=src.get("access", "rss"), mode="rss",
             summary=summary, weight=src.get("weight", 1.0),
+            topics=tags or list(src.get("topics") or []),
             fetch_time=now_iso()))
     return out
 
@@ -411,7 +494,7 @@ async def run(date: str | None = None) -> list[RawItem]:
         # --- 2. 噪声过滤（临床）---
         kept, dropped = [], {}
         for it in items:
-            ok, why = is_clinical(it.title, it.source)
+            ok, why = is_clinical(it.title, it.source, it.topics)
             if ok:
                 kept.append(it)
             else:
@@ -423,7 +506,11 @@ async def run(date: str | None = None) -> list[RawItem]:
 
         # --- 3. 正文 + 日期（一次请求两用）---
         quota = (cfg.get("fetch", {}) or {}).get("article_quota", {}) or {}
-        need = [i for i in items if i.mode == "html" and i.access == "full"]
+        # fetch_body: true 的源即使走 RSS 也要抓正文
+        # （ESMO 的 RSS summary 大面积为空，不抓正文就只有标题）
+        body_srcs = {s["id"] for s in sources if s.get("fetch_body")}
+        need = [i for i in items
+                if i.access == "full" and (i.mode == "html" or i.source in body_srcs)]
         # 每个源限量，避免单源刷满
         by_src: dict[str, int] = {}
         picked = []
