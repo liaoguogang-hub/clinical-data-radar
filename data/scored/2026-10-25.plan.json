@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-25",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "target:androgen-receptor-pathway",
+      "lead_id": "25632ed48e53f672",
+      "title": "Can systemic treatment intensification reduce recurrence risk in high-risk localised prostate cancer?",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "25632ed48e53f672",
+        "f16a96f23fbf6420"
+      ],
+      "members": [
+        {
+          "title": "Can systemic treatment intensification reduce recurrence risk in high-risk localised prostate cancer?",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/can-systemic-treatment-intensification-reduce-recurrence-risk-in-high-risk-localised-prostate-cancer",
+          "score": 7.3,
+          "reasoning": "全球栏目，素材未显示中国原研或申办方。两项Ⅲ期研究均报告在标准治疗基础上加入ARPI降低转移风险，具备改变强化治疗策略的报道价值；依据是会议材料对MFS获益的明确结论，但仍需补齐统计量。"
+        },
+        {
+          "title": "Intensifying treatment in hormone-sensitive prostate cancer: long follow-up data confirm overall survival benefits",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/intensifying-treatment-in-hormone-sensitive-prostate-cancer-long-follow-up-data-confirm-overall-survival-benefits",
+          "score": 7.0,
+          "reasoning": "全球栏目，素材未显示中国原研或申办方。CAPItello-281与PEACE-1的长期OS更新共同强化了激素敏感性前列腺癌的联合治疗路径，适合进行跨试验比较，但各研究人群和终点并不完全同质。"
+        }
+      ],
+      "reasoning": "全球栏目，素材未显示中国原研或申办方。两项Ⅲ期研究均报告在标准治疗基础上加入ARPI降低转移风险，具备改变强化治疗策略的报道价值；依据是会议材料对MFS获益的明确结论，但仍需补齐统计量。",
+      "_idx": 1
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:tarlatamab",
+      "lead_id": "7a1080992a9eca0d",
+      "title": "Novel first-line treatment significantly improves outcomes in small cell lung cancer",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "7a1080992a9eca0d",
+        "12a181a551ff4139"
+      ],
+      "members": [
+        {
+          "title": "Novel first-line treatment significantly improves outcomes in small cell lung cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/novel-first-line-treatment-significantly-improves-outcomes-in-small-cell-lung-cancer",
+          "score": 7.3,
+          "reasoning": "全球栏目，素材未显示中国原研或申办方。Ⅲ期试验明确报告主要终点OS取得统计学显著改善，且生存增益幅度具有潜在实践影响，属于高质量读出而非仅凭疗效数字判断。"
+        },
+        {
+          "title": "#ESMO26: Amgen's Imdelltra regimen more than halves risk of death in Phase 3 lung cancer trial",
+          "url": "https://endpoints.news/esmo26-amgens-imdelltra-regimen-more-than-halves-risk-of-death-in-phase-3-lung-cancer-trial/",
+          "score": 6.8,
+          "reasoning": "全球栏目，素材未显示中国原研或申办方。行业媒体确认Ⅲ期研究达到OS获益方向，临床重要性较高，但来源属于会议报道转述，可信度低于完整会议材料和原始统计结果。"
+        }
+      ],
+      "reasoning": "全球栏目，素材未显示中国原研或申办方。Ⅲ期试验明确报告主要终点OS取得统计学显著改善，且生存增益幅度具有潜在实践影响，属于高质量读出而非仅凭疗效数字判断。",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:bepirovirsen",
+      "lead_id": "20f0444b67d0f3cb",
+      "title": "GSK全球首款乙肝功能性治愈ASO药物获批，贝普若韦生获美国FDA批准上市",
+      "score": 9.0,
+      "channel": "global",
+      "member_ids": [
+        "20f0444b67d0f3cb"
+      ],
+      "members": [
+        {
+          "title": "GSK全球首款乙肝功能性治愈ASO药物获批，贝普若韦生获美国FDA批准上市",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_385853",
+          "score": 9.0,
+          "reasoning": "监管批准由两项全球III期研究支撑，内容明确报告两项研究达到主要终点，并提供功能性治愈率及P值，属于明确的统计结论。该项目在慢性乙肝功能性治愈和小核酸药物领域具有较强首创性，仍需核实完整安全性与监管标签。"
+        }
+      ],
+      "reasoning": "监管批准由两项全球III期研究支撑，内容明确报告两项研究达到主要终点，并提供功能性治愈率及P值，属于明确的统计结论。该项目在慢性乙肝功能性治愈和小核酸药物领域具有较强首创性，仍需核实完整安全性与监管标签。",
+      "verify_todo": [
+        "核实FDA批准日期、完整适应症措辞及联合用药要求",
+        "核实两项III期研究各自的完整结果、随访时间及不良事件数据",
+        "核实中国申请和商业化安排"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    }
+  ]
+}
