@@ -46,6 +46,19 @@ def _iter_posts() -> list[dict]:
         hook = re.search(r'(?is)<div class="hook">(.*?)</div>', body)
         cn = len(re.findall(r"[\u4e00-\u9fff]",
                             re.sub(r"(?is)<(style|script)[^>]*>.*?</\1>", " ", body)))
+        # 「先产出、后核查」：compose 未通过全部质检但已落盘的稿子，
+        # 旁边会有一个 .review.txt。飞书必须显式标出来，
+        # 否则这种稿子和干净稿长得一模一样，人工会误当合格稿处理。
+        rv = p.with_suffix(".review.txt")
+        problems = []
+        if rv.exists():
+            try:
+                for ln in rv.read_text(encoding="utf-8").splitlines():
+                    ln = ln.strip()
+                    if ln.startswith("- "):
+                        problems.append(ln[2:])
+            except Exception:
+                problems = ["（review 文件读取失败）"]
         out.append({
             "path": p,
             "rel": str(p.relative_to(POSTS_DIR)).replace("\\", "/"),
@@ -56,6 +69,8 @@ def _iter_posts() -> list[dict]:
             "hook": _strip_tags(hook.group(1)) if hook else "",
             "chars": cn,
             "site_rel": str(p.relative_to(POSTS_DIR.parent)).replace("\\", "/"),
+            "needs_review": rv.exists(),
+            "problems": problems,
         })
     return out
 
@@ -93,7 +108,7 @@ def build_index(posts: list[dict], date: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>医药 BD 雷达 · {date}</title>
+<title>临床数据雷达 · {date}</title>
 <style>
 {CSS}
 .index{{max-width:900px;margin:0 auto;padding:56px 24px 90px}}
@@ -120,8 +135,8 @@ def build_index(posts: list[dict], date: str) -> str:
 </head>
 <body>
 <div class="index">
-  <h1>医药 BD 雷达</h1>
-  <p class="tagline">每日自动抓取全球医药 BD 热点 · 评分 · 成稿 · {date}</p>
+  <h1>临床数据雷达</h1>
+  <p class="tagline">每日自动抓取全球临床数据读出 · 评分 · 成稿 · {date}</p>
   {''.join(rows) if rows else '<p class="empty">今日无稿件。</p>'}
   <div class="ar">
     <h3>历史归档</h3>
@@ -180,15 +195,24 @@ def _feishu_sign(timestamp: str, secret: str) -> str:
 
 def build_card(posts: list[dict], date: str, base_url: str = "") -> dict:
     """飞书交互卡片"""
+    review = [p for p in posts if p.get("needs_review")]
     lines = []
+    if review:
+        lines.append(f"**⚠️ 今日 {len(review)} 篇未通过全部质检，"
+                     f"需人工核查后再推草稿箱**")
+        lines.append("")
     for p in posts:
         t = _html.escape(p["title"][:60])
+        flag = "⚠️ " if p.get("needs_review") else ""
         if base_url:
-            lines.append(f"**[{t}]({base_url}/{p['rel']})**")
+            lines.append(f"{flag}**[{t}]({base_url}/{p['rel']})**")
         else:
-            lines.append(f"**{t}**")
+            lines.append(f"{flag}**{t}**")
         if p["sub"]:
             lines.append(p["sub"][:90])
+        if p.get("needs_review") and p.get("problems"):
+            for pr in p["problems"][:5]:
+                lines.append(f"　· {_html.escape(pr[:110])}")
         lines.append("")
     body = "\n".join(lines) or "今日无稿件。"
 
@@ -198,15 +222,18 @@ def build_card(posts: list[dict], date: str, base_url: str = "") -> dict:
             "config": {"wide_screen_mode": True},
             "header": {
                 "title": {"tag": "plain_text",
-                          "content": f"医药 BD 雷达 · {date}"},
-                "template": "red",
+                          "content": (f"临床数据雷达 · {date}"
+                                      + (f" · {len(review)} 篇待核查" if review else ""))},
+                "template": "orange" if review else "red",
             },
             "elements": [
                 {"tag": "div", "text": {"tag": "lark_md", "content": body}},
                 {"tag": "hr"},
                 {"tag": "note", "elements": [
                     {"tag": "plain_text",
-                     "content": f"共 {len(posts)} 篇 · 自动生成"},
+                     "content": (f"共 {len(posts)} 篇 · 自动生成"
+                                 + (f" · 其中 {len(review)} 篇需人工核查"
+                                    if review else ""))},
                 ]},
             ],
         },
@@ -225,7 +252,7 @@ def notify_feishu(posts: list[dict], date: str,
 
     安全模式说明：
       关键词模式   —— 消息里含你设的关键词即可。
-                     本卡片标题含"医药 BD 雷达"，可把关键词设为 医药 / BD / 雷达
+                     本卡片标题含"临床数据雷达"，可把关键词设为 临床 / 雷达
       签名模式     —— 需要 FEISHU_SECRET，见 _feishu_sign
       IP 白名单    —— GitHub Actions 出口 IP 不固定，无法使用
     """

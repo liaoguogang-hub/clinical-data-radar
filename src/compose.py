@@ -822,6 +822,40 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
     feedback = ""
     last_doc = None
 
+    # ── 「先跑出来，再人工核查」（2026-10-24 与 BD 雷达同步加）────────
+    # 事故原型（BD 雷达 10-24）：某轮已经写出 3168 字/6小节/4脚注，
+    # 只差 1 个问题（标题金额与正文不符），但重试循环把 last_doc 一路覆盖，
+    # 最后落盘的是 184 字残稿 —— 一篇能发的稿子白丢。
+    #
+    # ⚠️ 但不能违反 2026-10-17 定的规则：**字数不够就不写，不许用世界知识凑**。
+    #    所以这里只在【字数已经达标】的前提下放宽——即"稿子写够了，
+    #    只是有若干条可修的问题"，这种稿子落盘并标记待核查是值得的；
+    #    "字数不够"仍然按原规则直接放弃。
+    best = None          # {"nerr","errs","doc","txt","st","claim_block"}
+
+    def _write_out(doc_, txt_, st_, review_notes: list[str] | None,
+                   claim_block: bool = False):
+        html = render_html(doc_)
+        idx = plan_item.get("_idx", 1)
+        atype = plan_item.get("type", "event_report")
+        fname = f"{idx:02d}-{atype}-{plan_item.get('lead_id','')[:8]}.html"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / fname).write_text(html, encoding="utf-8")
+        (out_dir / (fname.replace(".html", ".txt"))).write_text(
+            txt_, encoding="utf-8")
+        if review_notes:
+            if claim_block:
+                head = ("⚠️ 事实断言存疑：断言核验判定「有断言在素材里找不到出处」。\n"
+                        "这篇【不能直接发布】，必须逐条核对下面的断言，"
+                        "删掉或改写成素材支持的表述。\n\n")
+            else:
+                head = ("此稿自动生成时未通过全部质检，已按「先产出、后核查」策略落盘。\n"
+                        "下面是要人工确认的问题：\n\n")
+            (out_dir / (fname.replace(".html", ".review.txt"))).write_text(
+                head + "\n".join(f"- {e}" for e in review_notes) + "\n",
+                encoding="utf-8")
+        return fname
+
     for attempt in range(retries + 1):
         msg = user
         if feedback:
@@ -867,6 +901,14 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
               f"框{st['boxes']} 注{st['footnotes']} "
               f"{'✅通过' if not errs else '❌' + str(len(errs)) + '个问题'}")
 
+        # 记录问题最少的那一版（同问题数取更长的，避免留下短残稿）
+        if errs and (best is None
+                     or len(errs) < best["nerr"]
+                     or (len(errs) == best["nerr"]
+                         and st["body_chars"] > best["st"].get("body_chars", 0))):
+            best = {"nerr": len(errs), "errs": list(errs), "doc": doc,
+                    "txt": txt, "st": st, "claim_block": False}
+
         if not errs:
             # 结构过了，再跑【逐条断言核验】——要调 LLM，所以放在结构校验之后：
             # 别对着格式都不对的半成品烧核查调用。
@@ -889,19 +931,11 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                   f"跨语种无法判定 {cstat.get('cross_lang', 0)}）"
                   + (f"  ❌拦：{why}" if block else "  ✅放行"))
             if not block:
-                html = render_html(doc)
-                idx = plan_item.get("_idx", 1)
-                atype = plan_item.get("type", "event_report")
-                fname = f"{idx:02d}-{atype}-{plan_item.get('lead_id','')[:8]}.html"
-                out_dir.mkdir(parents=True, exist_ok=True)
-                (out_dir / fname).write_text(html, encoding="utf-8")
-                # 同时存一份标记原文，便于人工比对
-                (out_dir / (fname.replace(".html", ".txt"))).write_text(
-                    txt, encoding="utf-8")
+                fname = _write_out(doc, txt, st, None)
                 return {"ok": True, "file": fname, "stats": st,
                         "claims": cstat,
                         "claim_warnings": (cerrs if cerrs else []),
-                        "html_len": len(html)}
+                        "html_len": len(render_html(doc))}
             # ── 被拦：先把草稿存下来 ────────────────────────────────
             # ⚠️ 原来这里直接丢弃，于是"为什么被拦"事后完全无据可查。
             #
@@ -917,6 +951,10 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                 + "\n".join(f"- {e}" for e in cerrs[:40])
                 + f"\n\n{txt}", encoding="utf-8")
             errs = cerrs
+            # 断言被拦的稿子也是候选最优，但要用更重的措辞（事实存疑）
+            if best is None or len(errs) < best["nerr"]:
+                best = {"nerr": len(errs), "errs": list(errs), "doc": doc,
+                        "txt": txt, "st": st, "claim_block": True}
 
         # ── 字数不达标 / 断言无依据，重试都救不回来时：放弃，不写 ──
         #    用户 2026-10-17 定的规则：扩写只允许写【可核验的公司背景】；
@@ -940,6 +978,36 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                 reason = f"断言核验未通过：{errs[0][:160]}"
             else:
                 reason = "重试用尽"
+
+            # ── 字数已达标、只是有几条可修问题 → 按「先产出、后核查」落盘 ──
+            # 这是 2026-10-24 与 BD 雷达同步加的松动：**不动那条"字数不够不写"
+            # 的规则**（上面 short < floor 的分支照旧放弃），只救"写够了但
+            # 没全通过"的稿子。这类稿子以前被整篇丢弃，太可惜。
+            #
+            # ⚠️ 但「素材太薄」这一类绝对不放行：那种稿子是靠世界知识凑出来的，
+            #    整篇都不可信，不是"改几个数字"能救的。必须仍然跳过。
+            material_thin = any("素材太薄" in e for e in (best["errs"] if best else []))
+            if material_thin and best:
+                print("    ✗ 最优版本的问题是「素材太薄」——整篇不可信，"
+                      "不落盘（按原规则跳过）")
+            elif (best and body_chars(best["doc"]) >= floor):
+                _cb = bool(best.get("claim_block"))
+                fname = _write_out(best["doc"], best["txt"], best["st"],
+                                   best["errs"], claim_block=_cb)
+                print(f"    ⚠ 未通过全部质检，已按最优版本落盘（{fname}，"
+                      f"{best['st'].get('body_chars')}字），"
+                      f"剩余 {best['nerr']} 个问题待人工核查：")
+                for e in best["errs"][:5]:
+                    print(f"       · {e[:110]}")
+                return {"ok": True, "needs_review": True, "claim_block": _cb,
+                        "file": fname, "stats": best["st"],
+                        "problems": best["errs"],
+                        "claim_warnings": best["errs"],
+                        "html_len": len(render_html(best["doc"])),
+                        "note": ("事实断言存疑，禁止直接发布，必须逐条核对"
+                                 if _cb else
+                                 "未通过全部质检，已按最优版本落盘，需人工核查")}
+
             # ⚠️ 放弃时也要留证据（2026-10-19 教训）：
             #    这条分支原来只返回一个 reason 字符串，正文直接丢弃，
             #    于是"为什么 3 篇全没成"事后完全查不出来。
@@ -950,7 +1018,7 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                 (rej / f"{today_cst()}_{plan_item.get('lead_id','')[:8]}"
                        f"_giveup.txt").write_text(
                     f"# 放弃原因：{reason}\n# 正文 {short} 字（目标 {target}，"
-                    f"下限 {int(target * tol)}）\n# 问题：\n"
+                    f"下限 {floor}）\n# 问题：\n"
                     + "\n".join(f"- {e}" for e in (errs or [])[:40])
                     + f"\n\n{txt}", encoding="utf-8")
             except Exception:
