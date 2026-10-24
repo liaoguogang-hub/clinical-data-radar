@@ -684,6 +684,47 @@ def validate_content(doc: dict, text: str, style_cfg: dict,
         if re.search(p, body):
             errs.append(f"AI味句式: {p}")
 
+    # 3.5 去 AI 味硬闸门（2026-10-24 用户反馈后加）
+    #
+    # 背景：用户指出「你写的还是有很强的 AI 味，例如『不是…而是』」。
+    # 根因是上面那条 banned_patterns 正则**排除了逗号**——
+    #   '不是[^，。]{0,15}而是' 只匹配「不是A而是B」，
+    #   而真实稿子绝大多数是「不是 X，而是 Y」带逗号的形态 → 一条都命中不了。
+    # 后果：已发布稿里大半带着这类句式，而质检从来没报过警。
+    #
+    # 所以这里改用跨标点匹配的正则，并且：
+    #   · 句式命中 = 硬失败（命中 1 处也要改）
+    #   · 段落/句长 = 软提示（不判失败）
+    #
+    # ⚠️ 为什么段落/句长只提示不拦：生成侧的重试循环会把 3000 字好稿
+    #    换成 500 字残稿（2026-10-24 Gilead 事故）。
+    #    句式是「改 1 个句子」，成本低、风险小；结构是「重排全文」，成本高。
+    try:
+        import deai as _deai
+        _dres = _deai.scan_text(body)
+        if _dres["pattern_hits"]:
+            _names = sorted({h["name"] for h in _dres["pattern_hits"]})
+            errs.append(
+                f"AI味句式 {len(_dres['pattern_hits'])} 处"
+                f"（{', '.join(_names)}）——"
+                f"必须改掉，不是换词而是拆句重写")
+        if _dres["word_hits"]:
+            _wnames = sorted({h["name"] for h in _dres["word_hits"]})
+            _wtot = len(_dres["word_hits"])
+            if _wtot > _deai.THRESHOLDS["word_tolerate"]:
+                errs.append(f"AI味词 {_wtot} 处: {', '.join(_wnames)}")
+        # P0/P1 密度/结构违规 = 硬失败
+        # P0 = 虚假归因等可信度问题；P1 = 公式化递进、句式依赖等结构问题。
+        # P2（破折号/缓冲词/物理动词密度）只提示不拦——打磨项偶尔密一点很正常。
+        for _h in _dres.get("density_hits", []):
+            if _h.get("severity") in ("P0", "P1"):
+                errs.append(f"[{_h.get('severity')}] {_h['name']}：{_h['text']}")
+        # 软提示：只打印，不进 errs（进 errs 就变成硬失败了）
+        for _sr in _dres.get("soft_reasons", []):
+            print(f"      [提示] {_sr}")
+    except Exception as _e:      # 闸门本身坏了不能连累成稿
+        print(f"      [提示] 去AI味扫描器异常 {type(_e).__name__}: {_e}")
+
     # 4. 标题金额 vs 正文金额（实测抓到的真错误）    #
     # 案例：CI 生成的稿件标题写「GSK豪掷50亿美元首付」，
     # 正文却写「GSK向恒瑞支付了5亿美元首付」——差 10 倍。
@@ -776,7 +817,44 @@ STYLE_HINT = """
 
 # 文风有问题
 
-上一版出现了 AI 味表达，必须替换：
+## ⚠️ 首要问题：AI 味句式（这是结构问题，不是换词能解决的）
+
+下面列出了具体的句子和位置。**必须逐句改写，不能只换一个词。**
+
+核心手法：**把「解释」改成「陈述」**。
+「不是…而是」「这意味着」「也就是说」都是在解释一个读者已经看懂的东西。
+读者没看懂就别解释，直接给下一个事实。
+
+```
+❌ 真正可以横向看的不是 16.4 与 13.2，而是 0.29 与 0.62 这两个风险比；
+   而风险比能不能横着看，又取决于两组人群的可比性。
+✅ 能横着看的只有风险比：0.29 对 0.62。
+   风险比能不能横着看，取决于两组人群的可比性。
+```
+
+**拆句规则**：
+1. 删掉「不是 A，而是 B」里的 A，直接写 B
+2. 删掉「这意味着/也就是说/换句话说」后面的整句，前半句通常已经够
+3. 超过 45 字的句子用句号断开成两句
+4. 一段只说一件事，控制在 90 字内
+
+⚠️ **拆句不许动事实。** 数字、终点结论、来源层级一个都不能改。
+
+## 结构类问题（同样是硬失败）
+
+- **公式化递进**：「首先…其次…最后…」是报幕式递进。
+  让三点之间的递进关系自己呈现，不要用连接词假装有层次。
+- **虚假归因**：「业界普遍认为」「很多人都在讨论」「我个人认为」——
+  换成具名引用，或者删掉归因直接陈述。
+- **模板化开头/结尾**：「在……快速发展的今天」「让我们拭目以待」「未来已来」——删掉。
+- **自我降格**：「不是成熟方案，更像是……」「只是一点初步思考」——直接删。
+- **翻译腔**（物理动作形容抽象思维）：
+  拆解→分析、打通→完成、沉淀→积累、接住→承接、闭环→循环。
+  换成中文里本来就有的说法。
+- **抽象名词主语 + 形容词结论**：「提供了一套生产级的……」
+  → 说清楚到底提供了什么。
+
+## 次要问题：AI 味词
 
 - "值得注意的是" → 直接给结论
 - "综上所述"/"总而言之" → 直接给结论
@@ -785,7 +863,7 @@ STYLE_HINT = """
 - "底层逻辑" → "基本逻辑""实际原因"
 - "本文将"/"让我们" → 直接开始讲
 
-篇幅保持不变，只替换词。
+**篇幅保持不变，只改写句子结构。**
 """
 
 STRUCT_HINT = """
@@ -895,6 +973,15 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
                 material=material,
                 src_published=src_published)
         st = structure_report(doc)
+
+        # 去 AI 味的具体命中位置（喂给模型，它才知道改哪句）
+        deai_hits: list[str] = []
+        try:
+            import deai as _deai
+            _dres = _deai.scan_text(content_text(doc))
+            deai_hits = _deai.feedback_lines(_dres)
+        except Exception:
+            pass
 
         print(f"    尝试{attempt+1}: 正文{st['body_chars']}字 "
               f"小节{st['sections']} 表{st['tables']} "
@@ -1028,6 +1115,10 @@ async def generate_one(client, eff: dict, plan_item: dict, material: str,
 
         fact_errs = [e for e in errs if "找不到" in e or "捏造" in e]
         feedback = "\n".join(f"- {e}" for e in errs)
+        if deai_hits:
+            # 具体到句子的改写指令——只说"有 AI 味"模型不知道改哪
+            feedback += ("\n\n# ⚠️ AI 味句式（逐句改写，位置已标出）\n"
+                         + "\n".join(deai_hits))
         if fact_errs:
             feedback += (
                 "\n\n# ⚠️ 事实错误（必须删掉，不能换个说法保留）\n"
