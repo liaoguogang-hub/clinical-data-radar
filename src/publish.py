@@ -21,7 +21,7 @@ from pathlib import Path
 
 import httpx
 
-from common import (ROOT, DATA_DIR, SCORED_DIR, load_yaml, read_json,
+from common import (ROOT, DATA_DIR, RAW_DIR, SCORED_DIR, load_yaml, read_json,
                     write_json, today_cst)
 from render import CSS, body_chars
 
@@ -193,6 +193,14 @@ def _feishu_sign(timestamp: str, secret: str) -> str:
     return base64.b64encode(digest).decode("utf-8")
 
 
+def _run_stats(date: str) -> dict:
+    """当天采集/评分计数，用于 0 篇时说明"跑过了，只是没有合格读出"。"""
+    raw = read_json(RAW_DIR / f"{date}.json", []) or []
+    scored = read_json(SCORED_DIR / f"{date}.json", []) or []
+    top = max((float(s.get("score") or 0) for s in scored), default=0)
+    return {"raw": len(raw), "scored": len(scored), "top": top}
+
+
 def build_card(posts: list[dict], date: str, base_url: str = "") -> dict:
     """飞书交互卡片"""
     review = [p for p in posts if p.get("needs_review")]
@@ -214,7 +222,16 @@ def build_card(posts: list[dict], date: str, base_url: str = "") -> dict:
             for pr in p["problems"][:5]:
                 lines.append(f"　· {_html.escape(pr[:110])}")
         lines.append("")
-    body = "\n".join(lines) or "今日无稿件。"
+    body = "\n".join(lines)
+    if not body:
+        # 0 篇统计（2026-10-25 用户要求：0 产出也要发飞书，与故障区分）
+        st = _run_stats(date)
+        # raw 在云端 run 不回传仓库（本地常缺）——读不到时只报评分数
+        stats = f"评分 {st['scored']} 条 · 最高 {st['top']:.1f} 分"
+        if st["raw"]:
+            stats = f"采集 {st['raw']} 条 · {stats}"
+        body = (f"**✓ 雷达正常运行，今日 0 篇** —— 跑了采集和评分，"
+                f"但没有读出过入选门槛。不是故障。\n\n{stats}")
 
     return {
         "msg_type": "interactive",
@@ -223,8 +240,11 @@ def build_card(posts: list[dict], date: str, base_url: str = "") -> dict:
             "header": {
                 "title": {"tag": "plain_text",
                           "content": (f"临床数据雷达 · {date}"
-                                      + (f" · {len(review)} 篇待核查" if review else ""))},
-                "template": "orange" if review else "red",
+                                      + (f" · {len(review)} 篇待核查" if review else
+                                         (" · 0 篇" if not posts else "")))},
+                # 0 篇=grey（跑过、没得写）；待核查=orange；正常产出=red
+                "template": ("grey" if not posts
+                             else "orange" if review else "red"),
             },
             "elements": [
                 {"tag": "div", "text": {"tag": "lark_md", "content": body}},
@@ -260,9 +280,10 @@ def notify_feishu(posts: list[dict], date: str,
     if not url:
         print("[notify] 未配置 FEISHU_WEBHOOK，跳过")
         return False
+    # 0 篇也推送（2026-10-25 用户要求）：区分"正常 0 篇"和"故障没跑"。
+    # 统计卡片由 build_card 的空列表分支生成。
     if not posts:
-        print("[notify] 无稿件，不推送")
-        return False
+        print("[notify] 今日 0 篇 —— 推送 0 产出统计卡片")
 
     payload = build_card(posts, date, base_url)
 
