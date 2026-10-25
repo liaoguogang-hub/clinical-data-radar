@@ -66,6 +66,59 @@ def _evidence(s: dict) -> int:
     return n
 
 
+# 受限保底要排除的 flags（2026-10-25 用户要求"评分不达标也推 1-2 篇最高分"）。
+#
+# ⚠️ `insufficient_material` / `thin_material` **不在排除名单里**：
+#    它们只说明"素材不够厚"，不等于"没有素材"。content 非空就能写；
+#    真正的空素材由下面的 `_has_body` 判据拦掉（空素材会让模型编）。
+_FALLBACK_EXCLUDE_FLAGS = {
+    "not_clinical",        # 不是临床读出
+    "news_roundup",        # 每日摘要栏目
+    "headline_only",       # 只有标题没正文 → 写不出稿
+    "pure_financing",
+    "stale",
+    "stale_news",
+    "no_content",
+    "unknown_date",
+}
+
+
+def _fallback_candidates(scored: list[dict], keep_thr: float,
+                          min_conf: float, published: set[str],
+                          covered_ev: set[str] | None = None,
+                          published_ck: set[str] | None = None
+                          ) -> list[dict]:
+    """评分不达标时的受限保底候选（2026-10-25 用户要求）。
+
+    只从"写得出来、没写过、不是栏目摘要"的候选里挑，按分数降序。
+    刻意**不降 min_confidence**：置信度低说明素材本身可疑。
+    """
+    covered_ev = covered_ev or set()
+    published_ck = published_ck or set()
+    out: list[dict] = []
+    for s in scored:
+        flags = set(s.get("flags") or [])
+        if flags & _FALLBACK_EXCLUDE_FLAGS:
+            continue
+        if float(s.get("score") or 0) <= 0:
+            continue
+        if float(s.get("confidence") or 0) < min_conf:
+            continue
+        # 必须有实质素材：有正文，或有注册库记录（能给准确分期/样本量/NCT号）
+        if not _has_body(s) and not s.get("registry_nct"):
+            continue
+        # 去重：lead_id（跨天）/ cluster_key（今天 + 近 7 天）
+        if s["id"][:8] in published:
+            continue
+        ck = s.get("cluster_key") or ""
+        if ck and (ck in published_ck or ck in covered_ev):
+            continue
+        out.append(s)
+    out.sort(key=lambda x: (float(x.get("score") or 0), _evidence(x)),
+              reverse=True)
+    return out
+
+
 def _select_for_channel(pool: list[dict], dmax: int, published: set[str],
                         cluster_max: int = 3,
                         published_ck: set[str] | None = None,
@@ -233,21 +286,73 @@ def run(date: str | None = None) -> dict:
         plan.extend(got)
 
     # 兜底：若两个栏目都没选出（阈值过高或数据太差），
-    # 放宽到全池前三，避免整天零产出
+    # 走**受限保底**（2026-10-25 用户要求：评分不达标也要推 1-2 篇最高分，
+    # 并提示"评分不达标"）。
     #
-    # ⚠️ 兜底也要过 covered_ev：否则"只剩重复事件"时会把已写过的
-    #    同一件事再发一遍——比零产出更糟。
-    if not plan and pool:
-        print("\n[select] 两栏目均为空，放宽到全池前三")
-        plan = _select_for_channel(
-            sorted(pool, key=lambda x: -x.get("score", 0)),
-            cfg.get("daily_max", 3), published, cluster_max, published_ck,
-            covered_ev)
+    # ⚠️ 旧版是"放宽到全池前三"，会把摘要栏目/空素材/已写过的挑进来。
+    #    现在改成受控保底：
+    #    · 排除非临床/摘要栏目/过期/只有标题等写不出的条目
+    #    · 要求有实质素材（正文 >500 字或带 NCT 号）——空素材会让模型编
+    #    · 三重去重（lead_id / cluster_key / 近 7 天 covered_ev）
+    #    · 上限 2 篇，标记 below_threshold 让下游提示
+    if not plan:
+        fb = _fallback_candidates(scored, keep_thr, min_conf,
+                                  published, covered_ev, published_ck)
+        for s in fb[:2]:
+            plan.append({
+                "type": s.get("article_type") or "readout",
+                "cluster_key": s.get("cluster_key") or None,
+                "lead_id": s["id"],
+                "title": s.get("title", ""),
+                "score": s.get("score", 0),
+                "channel": s.get("channel", ""),
+                "member_ids": [s["id"]],
+                "members": [{"title": s.get("title"), "url": s.get("url"),
+                             "score": s.get("score"),
+                             "reasoning": s.get("reasoning")}],
+                "reasoning": s.get("reasoning", ""),
+                "verify_todo": s.get("verify_todo", []),
+                "flags": s.get("flags", []),
+                "endpoint_verdict": s.get("endpoint_verdict", ""),
+                # ↓ 评分不达标标记：下游（飞书/草稿箱）据此提示
+                "below_threshold": True,
+                "keep_threshold": keep_thr,
+            })
+        if plan:
+            print(f"\n[select] ⚠️ 无达标选题 → 受限保底 {len(plan)} 篇"
+                  f"（最高 {plan[0]['score']} 分 < 门槛 {keep_thr}）")
+            for p in plan:
+                print(f"    · {p['score']}分  {p['title'][:50]}")
+                print(f"      flags: {', '.join(p.get('flags') or []) or '无'}")
+        else:
+            # 保底池空 = 采集侧空素材（2026-10-25 实测：67 条 content 全空）
+            empty = sum(1 for s in scored
+                        if not (s.get("content") or "").strip())
+            print("\n[select] 无达标选题，且无可保底候选（写不出/重复/摘要栏目）")
+            print(f"         ⚠️ 空素材 {empty}/{len(scored)} 条"
+                  f"（{100.0*empty/len(scored) if scored else 0:.0f}%）"
+                  f" —— 若占比很高，是【采集侧正文抓取】失效，"
+                  f"不是当天没有读出。查 fetch.py 的选择器/源状态。")
 
     for i, p in enumerate(plan, 1):
         p["_idx"] = i
 
     out = {"date": date, "count": len(plan), "plan": plan}
+    if not plan:
+        empty = sum(1 for s in scored if not (s.get("content") or "").strip())
+        top = max((float(s.get("score") or 0) for s in scored), default=0)
+        out["diagnosis"] = {
+            "keep_threshold": keep_thr,
+            "candidates": len(scored),
+            "empty_material": empty,
+            "empty_material_pct": (100.0 * empty / len(scored)
+                                   if scored else 0),
+            "top_score": top,
+            "reason": ("no_fallback_candidate" if empty else "below_threshold"),
+        }
+    elif plan and all(p.get("below_threshold") for p in plan):
+        out["below_threshold"] = True
+        out["keep_threshold"] = keep_thr
     write_json(SCORED_DIR / f"{date}.plan.json", out)
     print(f"\n[select] 合计选定 {len(plan)} 篇")
     return out
