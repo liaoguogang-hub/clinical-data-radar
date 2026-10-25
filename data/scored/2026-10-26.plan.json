@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-26",
+  "count": 5,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:ivonescimab",
+      "lead_id": "0b2978a8cf80754b",
+      "title": "Ivonescimab plus chemotherapy improves survival in biliary tract cancer",
+      "score": 9.4,
+      "channel": "china",
+      "member_ids": [
+        "0b2978a8cf80754b"
+      ],
+      "members": [
+        {
+          "title": "Ivonescimab plus chemotherapy improves survival in biliary tract cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/ivonescimab-plus-chemotherapy-improves-survival-in-biliary-tract-cancer",
+          "score": 9.4,
+          "reasoning": "预设中期分析的OS主要终点具有明确的HR、95%CI和p值，属于达到统计结论的Ⅲ期阳性读出；682例规模及胆管癌有限治疗需求进一步提升行业影响力，栏目归属依据为中国原研药物。"
+        }
+      ],
+      "reasoning": "预设中期分析的OS主要终点具有明确的HR、95%CI和p值，属于达到统计结论的Ⅲ期阳性读出；682例规模及胆管癌有限治疗需求进一步提升行业影响力，栏目归属依据为中国原研药物。",
+      "verify_todo": [],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:sac-tmt",
+      "lead_id": "b8c8967114bc6ca5",
+      "title": "ESMO及《新英格兰医学杂志》同步发布OptiTROP-Lung06研究结果！芦康沙妥珠单抗(sac-TMT)联合帕博利珠单抗显著延长PFS！",
+      "score": 8.2,
+      "channel": "china",
+      "member_ids": [
+        "b8c8967114bc6ca5"
+      ],
+      "members": [
+        {
+          "title": "ESMO及《新英格兰医学杂志》同步发布OptiTROP-Lung06研究结果！芦康沙妥珠单抗(sac-TMT)联合帕博利珠单抗显著延长PFS！",
+          "url": "http://news.bioon.com/article/440d904030de.html",
+          "score": 8.2,
+          "reasoning": "Ⅲ期研究给出明确统计结论：PFS达到预设显著性阈值（HR 0.49，95% CI 0.36-0.65，P<0.0001），且同时有NEJM正式发表和ESMO口头报告，数据成熟度很高。"
+        }
+      ],
+      "reasoning": "Ⅲ期研究给出明确统计结论：PFS达到预设显著性阈值（HR 0.49，95% CI 0.36-0.65，P<0.0001），且同时有NEJM正式发表和ESMO口头报告，数据成熟度很高。",
+      "verify_todo": [
+        "核实OptiTROP-Lung06完整论文、主要终点层级和期中分析预设",
+        "核实各组样本量、后续OS成熟度及安全性数据",
+        "核实报道所述适应症范围与获批状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:sonesitatug-vedotin",
+      "lead_id": "57ae49e8e574cd73",
+      "title": "An anti-claudin 18.2 antibody-drug conjugate prolongs overall survival in gastroesophageal cancer",
+      "score": 8.8,
+      "channel": "global",
+      "member_ids": [
+        "57ae49e8e574cd73",
+        "ace39686b2d0478a"
+      ],
+      "members": [
+        {
+          "title": "An anti-claudin 18.2 antibody-drug conjugate prolongs overall survival in gastroesophageal cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/an-anti-claudin-18-2-antibody-drug-conjugate-prolongs-overall-survival-in-gastroesophageal-cancer",
+          "score": 8.8,
+          "reasoning": "ESMO官方全文给出532例Ⅲ期研究及OS阳性结论，属于明确终点结果而非单纯疗效数字；CLDN18.2 ADC在经治胃食管癌中的Ⅲ期数据具有较高临床和首创性报道价值。"
+        },
+        {
+          "title": "<![CDATA[CLARITY-Gastric01 Shows OS Benefit With Sonesitatug Vedotin in Pretreated CLDN18.2+ Gastroesophageal Carcinoma]]>",
+          "url": "https://www.onclive.com/view/clarity-gastric01-shows-os-benefit-with-sonesitatug-vedotin-in-pretreated-cldn18-2-gastroesophageal-carcinoma",
+          "score": 8.3,
+          "reasoning": "标题对CLDN18.2阳性胃食管癌的OS获益作出明确终点结论，且涉及Ⅲ期数据，具有改变治疗路径的报道价值；目前依据仍是会议和媒体文本措辞，统计量待补核。"
+        }
+      ],
+      "reasoning": "ESMO官方全文给出532例Ⅲ期研究及OS阳性结论，属于明确终点结果而非单纯疗效数字；CLDN18.2 ADC在经治胃食管癌中的Ⅲ期数据具有较高临床和首创性报道价值。",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:divarasib",
+      "lead_id": "e0810229c907da53",
+      "title": "Divarasib outperforms approved KRAS G12C inhibitors in NSCLC",
+      "score": 8.8,
+      "channel": "global",
+      "member_ids": [
+        "e0810229c907da53",
+        "95c466f24a5290af"
+      ],
+      "members": [
+        {
+          "title": "Divarasib outperforms approved KRAS G12C inhibitors in NSCLC",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/divarasib-outperforms-approved-kras-g12c-inhibitors-in-nsclc",
+          "score": 8.8,
+          "reasoning": "全球Ⅲ期研究在PFS和OS方面报告显著生存获益，且与已获批同类药进行了比较，属于明确的终点级临床信号；ESMO总统研讨会口头报告也提升了数据成熟度。"
+        },
+        {
+          "title": "<![CDATA[Divarasib Improves Survival and Paves Way for New SOC in Pretreated KRAS G12C–Mutated NSCLC]]>",
+          "url": "https://www.onclive.com/view/divarasib-improves-pfs-and-os-vs-sotorasib-or-adagrasib-in-pretreated-kras-g12c-mutated-nsclc",
+          "score": 8.2,
+          "reasoning": "条目明确报告PFS和OS改善，而非仅披露应答数字，因此可按终点结论处理；Ⅲ期及与既有同类药物比较使其具备较高报道价值，但缺少正文统计量。"
+        }
+      ],
+      "reasoning": "全球Ⅲ期研究在PFS和OS方面报告显著生存获益，且与已获批同类药进行了比较，属于明确的终点级临床信号；ESMO总统研讨会口头报告也提升了数据成熟度。",
+      "_idx": 4
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:enfortumab-vedotin",
+      "lead_id": "a8f8177581a173c0",
+      "title": "Neoadjuvant enfortumab vedotin added to peri-operative durvalumab significantly improved event-free and overall survival",
+      "score": 8.7,
+      "channel": "global",
+      "member_ids": [
+        "a8f8177581a173c0",
+        "0421a63bce3bd0ab"
+      ],
+      "members": [
+        {
+          "title": "Neoadjuvant enfortumab vedotin added to peri-operative durvalumab significantly improved event-free and overall survival",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/neoadjuvant-enfortumab-vedotin-added-to-peri-operative-durvalumab-significantly-improved-event-free-and-overall-survival",
+          "score": 8.7,
+          "reasoning": "围手术期方案同时报告EFS和OS改善，属于可能改变围手术期治疗路径的Ⅲ期级终点结果；正文素材缺失，统计结论与安全性仍需核实。"
+        },
+        {
+          "title": "<![CDATA[Durvalumab Plus Enfortumab Vedotin Improves Survival in Cisplatin-Ineligible MIBC]]>",
+          "url": "https://www.onclive.com/view/durvalumab-plus-enfortumab-vedotin-improves-survival-in-cisplatin-ineligible-mibc",
+          "score": 7.8,
+          "reasoning": "标题明确报告无法使用顺铂的肌层浸润性膀胱癌患者获得生存改善，属于终点级结论；Ⅲ期联合方案的潜在标准治疗影响使其值得报道，但正文和统计量缺失。"
+        }
+      ],
+      "reasoning": "围手术期方案同时报告EFS和OS改善，属于可能改变围手术期治疗路径的Ⅲ期级终点结果；正文素材缺失，统计结论与安全性仍需核实。",
+      "_idx": 5
+    }
+  ]
+}

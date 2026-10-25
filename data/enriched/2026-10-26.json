@@ -1,0 +1,3112 @@
+{
+  "107dd0a4669ca6f2": {
+    "id": "107dd0a4669ca6f2",
+    "title": "Sacituzumab tirumotecan plus pembrolizumab significantly prolongs progression-free survival in advanced non-small cell lung cancer",
+    "score": 8.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:objective response"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:objective response"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:objective response",
+    "registry": {
+      "best": {
+        "nct": "NCT07501169",
+        "title": "Sacituzumab Tirumotecan in Combination With Anlotinib in Previously Treated Patients With Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+        "official_title": "Sacituzumab Tirumotecan in Combination With Anlotinib in Previously Treated Patients With Extensive-Stage Small Cell Lung Cancer (ES-SCLC): A Prospective, Single-Arm, Phase II Study (STAR-01)",
+        "acronym": "STAR-01",
+        "status": "NOT_YET_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Sichuan University",
+        "conditions": [
+          "Extensive-stage Small Cell Lung Cancer (ES-SCLC)"
+        ],
+        "interventions": [
+          "Sacituzumab Tirumotecan and Anlotinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR)"
+        ],
+        "enrollment": 33,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-04-01",
+        "primary_completion": "2027-08-31",
+        "completion": "2028-12-31",
+        "last_update": "2026-04-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07501169",
+          "title": "Sacituzumab Tirumotecan in Combination With Anlotinib in Previously Treated Patients With Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+          "official_title": "Sacituzumab Tirumotecan in Combination With Anlotinib in Previously Treated Patients With Extensive-Stage Small Cell Lung Cancer (ES-SCLC): A Prospective, Single-Arm, Phase II Study (STAR-01)",
+          "acronym": "STAR-01",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Sichuan University",
+          "conditions": [
+            "Extensive-stage Small Cell Lung Cancer (ES-SCLC)"
+          ],
+          "interventions": [
+            "Sacituzumab Tirumotecan and Anlotinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 33,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-04-01",
+          "primary_completion": "2027-08-31",
+          "completion": "2028-12-31",
+          "last_update": "2026-04-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06401824",
+          "title": "Sacituzumab Govitecan and Bevacizumab for NSCLC Brain Metastases",
+          "official_title": "A Single Arm Phase II Study Evaluating Intracranial Efficacy of Sacituzumab Govitecan (SG) With Bevacizumab in Patients With Active, Asymptomatic Brain Metastases From Non-small Cell Lung Cancer (NSCLC)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Maastricht University Medical Center",
+          "conditions": [
+            "NSCLC Stage IV",
+            "Brain Metastases, Adult"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-Hziy 180 MG plus bevacizumab"
+          ],
+          "primary_outcomes": [
+            "brain metastases overall response rate (ORR)"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-04-24",
+          "primary_completion": "2026-11-01",
+          "completion": "2027-04-01",
+          "last_update": "2025-05-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05535218",
+          "title": "Pembrolizumab-Sacituzumab Govitecan Combination to Treat High-risk, Localized Bladder Cancer",
+          "official_title": "SURE-02_An Open Label, Single-arm, Phase 2 Study of Perioperative Pembrolizumab Plus Sacituzumab Govitecan, and Bladder-saving Approach, for Patients With Muscle-invasive Bladder Cancer Who Cannot Receive or Refuse Cisplatin-based Chemotherapy",
+          "acronym": "SURE-02",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Claudia Guerrieri",
+          "conditions": [
+            "Muscle-invasive Urothelial Carcinoma of the Bladder"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan is a humanized mAb with a hydrolysable linker through which SN-38 is conjugated to the humanized mAb hRS7 IgG1κ to enhance the delivery of SN-38 to Trop-2- expressing tumors, whi"
+          ],
+          "primary_outcomes": [
+            "Clinical CR-rate"
+          ],
+          "enrollment": 48,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-09-20",
+          "primary_completion": "2027-02",
+          "completion": "2027-02",
+          "last_update": "2025-04-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Sacituzumab",
+          "pembrolizumab",
+          "sacituzumab",
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "0b2978a8cf80754b": {
+    "id": "0b2978a8cf80754b",
+    "title": "Ivonescimab plus chemotherapy improves survival in biliary tract cancer",
+    "score": 9.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:met its"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:met its"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:met its",
+    "registry": {
+      "best": {
+        "nct": "NCT06109272",
+        "title": "A Study to Assess the Dose, Adverse Events, and Change in Disease Activity of Livmoniplimab as an Intravenous (IV) Solution in Combination With Budigalimab as an IV Solution in Adult Participants With Hepatocellular Carcinoma (HCC)",
+        "official_title": "A Phase 2/3, Randomized Study to Evaluate the Dose Optimization, Safety, and Efficacy of Livmoniplimab in Combination With Budigalimab in Subjects With Locally Advanced or Metastatic Hepatocellular Carcinoma (HCC) Who Have Not Previously Received Systemic Treatment",
+        "acronym": "LIVIGNO-2",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "AbbVie",
+        "conditions": [
+          "Hepatocellular Carcinoma"
+        ],
+        "interventions": [
+          "Livmoniplimab",
+          "Budigalimab",
+          "Durvalumab",
+          "Atezolizumab",
+          "Bevacizumab",
+          "Tremelimumab"
+        ],
+        "primary_outcomes": [
+          "Stage 1: Best Overall Response (BOR) per Investigator",
+          "Stage 2: Overall Survival (OS)"
+        ],
+        "enrollment": 89,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-01-11",
+        "primary_completion": "2027-01",
+        "completion": "2027-01",
+        "last_update": "2026-09-22",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "France",
+          "Italy",
+          "Puerto Rico",
+          "Spain",
+          "Taiwan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06109272",
+          "title": "A Study to Assess the Dose, Adverse Events, and Change in Disease Activity of Livmoniplimab as an Intravenous (IV) Solution in Combination With Budigalimab as an IV Solution in Adult Participants With Hepatocellular Carcinoma (HCC)",
+          "official_title": "A Phase 2/3, Randomized Study to Evaluate the Dose Optimization, Safety, and Efficacy of Livmoniplimab in Combination With Budigalimab in Subjects With Locally Advanced or Metastatic Hepatocellular Carcinoma (HCC) Who Have Not Previously Received Systemic Treatment",
+          "acronym": "LIVIGNO-2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Hepatocellular Carcinoma"
+          ],
+          "interventions": [
+            "Livmoniplimab",
+            "Budigalimab",
+            "Durvalumab",
+            "Atezolizumab",
+            "Bevacizumab",
+            "Tremelimumab"
+          ],
+          "primary_outcomes": [
+            "Stage 1: Best Overall Response (BOR) per Investigator",
+            "Stage 2: Overall Survival (OS)"
+          ],
+          "enrollment": 89,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-01-11",
+          "primary_completion": "2027-01",
+          "completion": "2027-01",
+          "last_update": "2026-09-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "France",
+            "Italy",
+            "Puerto Rico",
+            "Spain",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03871036",
+          "title": "Improve Checkpoint-blockade Response in Advanced Urothelial Cancer",
+          "official_title": "ICRA (Improve Checkpoint-blockade Response in Advanced Urothelial Cancer), an Adaptive Clinical Study to Determine Efficacy of Combining Weekly Paclitaxel With Tremelimumab +/- Durvalumab (MEDI4736)",
+          "acronym": "ICRA",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "The Netherlands Cancer Institute",
+          "conditions": [
+            "Urothelial Carcinoma"
+          ],
+          "interventions": [
+            "Tremelimumab",
+            "Durvalumab",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Overall response rate (ORR), defined as the proportion of participants whose confirmed best overall response is either a PR or CR after treatment with paclitaxel and a high dose of tremelimumab based upon the RECIST v1.1 guidelines.",
+            "Overall response rate (ORR), defined as the proportion of participants whose confirmed best overall response is either a PR or CR after treatment with paclitaxel, tremelimumab and durvalumab based upon the RECIST v1.1 guidelines."
+          ],
+          "enrollment": 53,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-05-01",
+          "primary_completion": "2023-09-07",
+          "completion": "2025-01-15",
+          "last_update": "2025-03-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04262375",
+          "title": "A Phase 2 Study of Durvalumab (MEDI4736) and Oleclumab (MEDI9447) in Multi-Cancer Populations With Correlation to Clinical, Molecular and Immunologic Parameters With DNA MethylaTION",
+          "official_title": "A Phase 2 Study of Durvalumab (MEDI4736) and Oleclumab (MEDI9447) in Multi-Cancer Populations With Correlation to Clinical, Molecular and Immunologic Parameters With DNA MethylaTION (DOMINATION)",
+          "acronym": "DOMINATION",
+          "status": "WITHDRAWN",
+          "why_stopped": "Overall clinical activity (ORR) for oleclumab + durvalumab is minimal across tumor types and does not support further evaluation of this doublet.",
+          "phase": "PHASE2",
+          "sponsor": "University Health Network, Toronto",
+          "conditions": [
+            "Non Small Cell Lung Cancer",
+            "Renal Cell Carcinoma"
+          ],
+          "interventions": [
+            "Durvalumab",
+            "Oleclumab"
+          ],
+          "primary_outcomes": [
+            "Association between cfMeDIP and Response (defined as either complete response, partial response, or stable disease ≥ 4 cycles, as per RECIST 1.1. Association between cfMeDIP and Toxicity (defined as ≥ Grade 2 immune- adverse event (AE) as per CTCAE 5.0).",
+            "Objective response rate (ORR) according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+            "Disease control rate (DCR) according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+            "Duration of response (DoR)"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01",
+          "primary_completion": "2024-01",
+          "completion": "2024-01",
+          "last_update": "2020-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT07397388"
+        ],
+        "drug": [
+          "durvalumab",
+          "TPS4253"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e0810229c907da53": {
+    "id": "e0810229c907da53",
+    "title": "Divarasib outperforms approved KRAS G12C inhibitors in NSCLC",
+    "score": 8.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:discontinuation"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:discontinuation"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:discontinuation",
+    "registry": {
+      "best": {
+        "nct": "NCT04302025",
+        "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+        "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+        "acronym": "NAUTIKA1",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Genentech, Inc.",
+        "conditions": [
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Alectinib",
+          "Entrectinib",
+          "Vemurafenib",
+          "Cobimetinib",
+          "Pralsetinib",
+          "Atezolizumab",
+          "SBRT",
+          "Resection",
+          "Chemotherapy",
+          "Divarasib"
+        ],
+        "primary_outcomes": [
+          "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+          "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+          "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+          "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+        ],
+        "enrollment": 99,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2020-11-06",
+        "primary_completion": "2026-11-30",
+        "completion": "2030-05-30",
+        "last_update": "2026-10-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04302025",
+          "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+          "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+          "acronym": "NAUTIKA1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Alectinib",
+            "Entrectinib",
+            "Vemurafenib",
+            "Cobimetinib",
+            "Pralsetinib",
+            "Atezolizumab",
+            "SBRT",
+            "Resection",
+            "Chemotherapy",
+            "Divarasib"
+          ],
+          "primary_outcomes": [
+            "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+            "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+            "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+            "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+          ],
+          "enrollment": 99,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2020-11-06",
+          "primary_completion": "2026-11-30",
+          "completion": "2030-05-30",
+          "last_update": "2026-10-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06497556",
+          "title": "A Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Participants With Previously Treated KRAS G12C-positive Advanced or Metastatic Non-Small Cell Lung Cancer",
+          "official_title": "A Phase III, Randomized, Open-Label, Multicenter Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Patients With Previously Treated KRAS G12C-Positive Advanced or Metastatic Non-Small Cell Lung Cancer",
+          "acronym": "Krascendo 1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "KRAS G12C Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Sotorasib",
+            "Adagrasib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)"
+          ],
+          "enrollment": 338,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-09-23",
+          "primary_completion": "2026-05-19",
+          "completion": "2029-11-30",
+          "last_update": "2026-09-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06793215",
+          "title": "A Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Participants With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Phase III, Randomized, Open-Label Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Patients With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "Krascendo 2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "KRAS G12C Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Pembrolizumab",
+            "Pemetrexed",
+            "Carboplatin",
+            "Cisplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-10-24",
+          "primary_completion": "2028-11-30",
+          "completion": "2030-10-31",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06793215"
+        ],
+        "drug": [
+          "Divarasib",
+          "divarasib",
+          "sotorasib",
+          "adagrasib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6f6541cf0686242d": {
+    "id": "6f6541cf0686242d",
+    "title": "First positive phase III trial data for an individualised mRNA-based neoantigen therapy",
+    "score": 8.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "ace39686b2d0478a": {
+    "id": "ace39686b2d0478a",
+    "title": "<![CDATA[CLARITY-Gastric01 Shows OS Benefit With Sonesitatug Vedotin in Pretreated CLDN18.2+ Gastroesophageal Carcinoma]]>",
+    "score": 8.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:Benefit"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:Benefit"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:Benefit",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "57ae49e8e574cd73": {
+    "id": "57ae49e8e574cd73",
+    "title": "An anti-claudin 18.2 antibody-drug conjugate prolongs overall survival in gastroesophageal cancer",
+    "score": 8.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:did not meet"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:did not meet"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:did not meet",
+    "registry": {
+      "best": {
+        "nct": "NCT07431281",
+        "title": "Sonesitatug Vedotin in Combination With Capecitabine With or Without Rilvegostomig in Participants With Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma Expressing Claudin18.2",
+        "official_title": "A Phase III, Multicentre, Randomised Controlled Study of Sonesitatug Vedotin in Combination With Capecitabine With or Without Rilvegostomig in First-Line Claudin18.2-Positive, HER2-Negative, Advanced/Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (CLARITY-Gastric 02)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AstraZeneca",
+        "conditions": [
+          "Gastric Cancer",
+          "Gastroesophageal Junction Adenocarcinoma",
+          "Esophageal Cancer"
+        ],
+        "interventions": [
+          "Sonesitatug vedotin",
+          "Rilvegostomig",
+          "Nivolumab",
+          "Capecitabine",
+          "5-Fluorouracil",
+          "Oxaliplatin",
+          "Zolbetuximab",
+          "Leucovorin"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS) (Cohort 1 and Cohort 2)",
+          "Overall Survival (OS) (Cohort 1)"
+        ],
+        "enrollment": 2130,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-02-03",
+        "primary_completion": "2029-08-16",
+        "completion": "2031-10-27",
+        "last_update": "2026-10-16",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "China",
+          "France",
+          "Germany",
+          "Hungary",
+          "India",
+          "Italy"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07431281",
+          "title": "Sonesitatug Vedotin in Combination With Capecitabine With or Without Rilvegostomig in Participants With Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma Expressing Claudin18.2",
+          "official_title": "A Phase III, Multicentre, Randomised Controlled Study of Sonesitatug Vedotin in Combination With Capecitabine With or Without Rilvegostomig in First-Line Claudin18.2-Positive, HER2-Negative, Advanced/Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (CLARITY-Gastric 02)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AstraZeneca",
+          "conditions": [
+            "Gastric Cancer",
+            "Gastroesophageal Junction Adenocarcinoma",
+            "Esophageal Cancer"
+          ],
+          "interventions": [
+            "Sonesitatug vedotin",
+            "Rilvegostomig",
+            "Nivolumab",
+            "Capecitabine",
+            "5-Fluorouracil",
+            "Oxaliplatin",
+            "Zolbetuximab",
+            "Leucovorin"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) (Cohort 1 and Cohort 2)",
+            "Overall Survival (OS) (Cohort 1)"
+          ],
+          "enrollment": 2130,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-02-03",
+          "primary_completion": "2029-08-16",
+          "completion": "2031-10-27",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "France",
+            "Germany",
+            "Hungary",
+            "India",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06901531",
+          "title": "A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer",
+          "official_title": "A Phase 3, Double-blind, Randomized Study of Zolbetuximab in Combination With Pembrolizumab and Chemotherapy (CAPOX or mFOLFOX6) in First-line Treatment of Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction Adenocarcinoma in Participants Whose Tumors Are HER2-negative, Claudin (CLDN) 18.2-positive and Programmed Death-ligand 1 (PD-L1)-Positive",
+          "acronym": "LUCERNA",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Astellas Pharma Global Development, Inc.",
+          "conditions": [
+            "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+            "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+            "Metastatic Gastric Adenocarcinoma or Cancer",
+            "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+          ],
+          "interventions": [
+            "zolbetuximab",
+            "Pembrolizumab",
+            "Capecitabine",
+            "Oxaliplatin",
+            "Folinic acid (leucovorin or local equivalent)",
+            "5-fluorouracil (5-FU)",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 500,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05-22",
+          "primary_completion": "2028-09-30",
+          "completion": "2028-09-30",
+          "last_update": "2026-10-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Lithuania"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07290985",
+          "title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in Gastroesophageal Adenocarcinomas",
+          "official_title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial In Gastroesophageal Adenocarcinomas (AACR-ADOPT-GEA)",
+          "acronym": "AACR-ADOPT-GEA",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "American Association for Cancer Research",
+          "conditions": [
+            "Gastroesophageal Adenocarcinoma"
+          ],
+          "interventions": [
+            "Tislelizumab",
+            "Leucovorin",
+            "Oxaliplatin",
+            "Fluorouracil",
+            "Zanidatamab",
+            "Zolbetuximab"
+          ],
+          "primary_outcomes": [
+            "Pathological Complete Response (pathCR) Rate (Stage I).",
+            "Organ Preservation Rate (Stage II)"
+          ],
+          "enrollment": 242,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-20",
+          "primary_completion": "2028-06-01",
+          "completion": "2028-12-01",
+          "last_update": "2026-10-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT07431281",
+          "NCT07673887"
+        ],
+        "drug": [
+          "zolbetuximab",
+          "HOPE-001",
+          "ASP2138"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "a8f8177581a173c0": {
+    "id": "a8f8177581a173c0",
+    "title": "Neoadjuvant enfortumab vedotin added to peri-operative durvalumab significantly improved event-free and overall survival",
+    "score": 8.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05845814",
+        "title": "A Study of Efficacy and Safety of Pembrolizumab Plus Enfortumab Vedotin (EV) +/- Investigational Agents in First-Line Metastatic Urothelial Carcinoma (mUC) (MK-3475-04B/KEYMAKER-U04)",
+        "official_title": "A Phase 1/2 Randomized, Umbrella Study to Evaluate the Safety and Efficacy of Pembrolizumab Plus Enfortumab Vedotin (EV) in Combination With Investigational Agents Versus Pembrolizumab Plus EV, as First-Line Treatment for Participants With Advanced Urothelial Carcinoma (KEYMAKER-U04): Substudy 04B",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Metastatic Urothelial Carcinoma",
+          "Urothelial Neoplasms"
+        ],
+        "interventions": [
+          "Coformulated favezelimab/pembrolizumab",
+          "Coformulated vibostolimab/pembrolizumab",
+          "EV",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Part 1: Objective Response Rate (ORR)",
+          "Part 1: Percentage of Participants experiencing an Adverse Event (AE)",
+          "Part 1: Percentage of Participants who Discontinue study interventions due to an AE",
+          "Part 1: Percentage of Participants with Dose-limiting toxicities (DLT)",
+          "Part 2: Progression Free Survival (PFS)"
+        ],
+        "enrollment": 390,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-06-23",
+        "primary_completion": "2027-05-31",
+        "completion": "2027-05-31",
+        "last_update": "2025-09-10",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Canada",
+          "Chile",
+          "France",
+          "Israel",
+          "Italy",
+          "Netherlands",
+          "South Korea",
+          "Spain",
+          "Taiwan",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05845814",
+          "title": "A Study of Efficacy and Safety of Pembrolizumab Plus Enfortumab Vedotin (EV) +/- Investigational Agents in First-Line Metastatic Urothelial Carcinoma (mUC) (MK-3475-04B/KEYMAKER-U04)",
+          "official_title": "A Phase 1/2 Randomized, Umbrella Study to Evaluate the Safety and Efficacy of Pembrolizumab Plus Enfortumab Vedotin (EV) in Combination With Investigational Agents Versus Pembrolizumab Plus EV, as First-Line Treatment for Participants With Advanced Urothelial Carcinoma (KEYMAKER-U04): Substudy 04B",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Metastatic Urothelial Carcinoma",
+            "Urothelial Neoplasms"
+          ],
+          "interventions": [
+            "Coformulated favezelimab/pembrolizumab",
+            "Coformulated vibostolimab/pembrolizumab",
+            "EV",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Part 1: Objective Response Rate (ORR)",
+            "Part 1: Percentage of Participants experiencing an Adverse Event (AE)",
+            "Part 1: Percentage of Participants who Discontinue study interventions due to an AE",
+            "Part 1: Percentage of Participants with Dose-limiting toxicities (DLT)",
+            "Part 2: Progression Free Survival (PFS)"
+          ],
+          "enrollment": 390,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-06-23",
+          "primary_completion": "2027-05-31",
+          "completion": "2027-05-31",
+          "last_update": "2025-09-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Canada",
+            "Chile",
+            "France",
+            "Israel",
+            "Italy",
+            "Netherlands",
+            "South Korea",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04724018",
+          "title": "Sacituzumab Govitecan Plus EV in Metastatic UC",
+          "official_title": "Combinations of Sacituzumab Govitecan Plus Enfortumab Vedotin and Pembrolizumab for Metastatic Urothelial Carcinoma: the Double Antibody Drug Conjugate (DAD) and Double Antibody Drug Conjugate With Immunotherapy (DAD-IO) Phase I/II Trial",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Dana-Farber Cancer Institute",
+          "conditions": [
+            "Urothelial Cancer",
+            "Metastatic Urothelial Carcinoma",
+            "Metastatic Urothelial Carcinoma of the Renal Pelvis and Ureter",
+            "Bladder Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan (SG)",
+            "Enfortumab vedotin-ejfv (EV)",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Maximum Tolerated Dose (MTD) of Sacituzumab Govitecan (SG) and Enfortumab vedotin-ejfv (EV) in Combination",
+            "Dose-limiting toxicity (DLT) of Sacituzumab Govitecan (SG) and Enfortumab Vedotin in combination",
+            "Efficacy of Sacituzumab Govitecan (SG) and Enfortumab Vedotin in combination",
+            "Efficacy of Sacituzumab Govitecan (SG) and Enfortumab Vedotin and Pembrolizumab in combination"
+          ],
+          "enrollment": 106,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-05-20",
+          "primary_completion": "2027-02-01",
+          "completion": "2028-05-01",
+          "last_update": "2025-11-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07863765",
+          "title": "Enfortumab Vedotin for the Treatment of Unresectable or Metastatic Radioiodine Refractory Differentiated Thyroid Cancer, Anaplastic Thyroid Cancer, Medullary Thyroid Cancer, or NUT Carcinoma",
+          "official_title": "Phase II Multi-Center Open-Label Trial of Enfortumab Vedotin Treatment for Patients With Aggressive Radioiodine Refractory Differentiated Thyroid Cancer, Aggressive Poorly Differentiated Thyroid Cancer, Anaplastic Thyroid Cancer, Medullary Thyroid Cancer and NUT Carcinoma",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Northwestern University",
+          "conditions": [
+            "Metastatic Differentiated Thyroid Gland Carcinoma",
+            "Metastatic NUT Carcinoma",
+            "Metastatic Thyroid Gland Anaplastic Carcinoma",
+            "Metastatic Thyroid Gland Medullary Carcinoma",
+            "Refractory Differentiated Thyroid Gland Carcinoma",
+            "Stage III Differentiated Thyroid Gland Carcinoma AJCC v8",
+            "Stage III Thyroid Gland Medullary Carcinoma AJCC v8",
+            "Stage IV Differentiated Thyroid Gland Carcinoma AJCC v8",
+            "Stage IV Thyroid Gland Medullary Carcinoma AJCC v8",
+            "Unresectable Differentiated Thyroid Gland Carcinoma",
+            "Unresectable NUT Carcinoma",
+            "Unresectable Thyroid Gland Anaplastic Carcinoma",
+            "Unresectable Thyroid Gland Medullary Carcinoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Enfortumab Vedotin",
+            "Magnetic Resonance Imaging",
+            "Survey Administration",
+            "X-Ray Imaging"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)"
+          ],
+          "enrollment": 56,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2027-05-05",
+          "primary_completion": "2030-05-05",
+          "completion": "2031-05-05",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "enfortumab",
+          "durvalumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "95c466f24a5290af": {
+    "id": "95c466f24a5290af",
+    "title": "<![CDATA[Divarasib Improves Survival and Paves Way for New SOC in Pretreated KRAS G12C–Mutated NSCLC]]>",
+    "score": 8.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04302025",
+        "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+        "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+        "acronym": "NAUTIKA1",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Genentech, Inc.",
+        "conditions": [
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Alectinib",
+          "Entrectinib",
+          "Vemurafenib",
+          "Cobimetinib",
+          "Pralsetinib",
+          "Atezolizumab",
+          "SBRT",
+          "Resection",
+          "Chemotherapy",
+          "Divarasib"
+        ],
+        "primary_outcomes": [
+          "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+          "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+          "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+          "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+        ],
+        "enrollment": 99,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2020-11-06",
+        "primary_completion": "2026-11-30",
+        "completion": "2030-05-30",
+        "last_update": "2026-10-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04302025",
+          "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+          "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+          "acronym": "NAUTIKA1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Alectinib",
+            "Entrectinib",
+            "Vemurafenib",
+            "Cobimetinib",
+            "Pralsetinib",
+            "Atezolizumab",
+            "SBRT",
+            "Resection",
+            "Chemotherapy",
+            "Divarasib"
+          ],
+          "primary_outcomes": [
+            "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+            "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+            "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+            "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+          ],
+          "enrollment": 99,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2020-11-06",
+          "primary_completion": "2026-11-30",
+          "completion": "2030-05-30",
+          "last_update": "2026-10-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06497556",
+          "title": "A Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Participants With Previously Treated KRAS G12C-positive Advanced or Metastatic Non-Small Cell Lung Cancer",
+          "official_title": "A Phase III, Randomized, Open-Label, Multicenter Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Patients With Previously Treated KRAS G12C-Positive Advanced or Metastatic Non-Small Cell Lung Cancer",
+          "acronym": "Krascendo 1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "KRAS G12C Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Sotorasib",
+            "Adagrasib"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)"
+          ],
+          "enrollment": 338,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-09-23",
+          "primary_completion": "2026-05-19",
+          "completion": "2029-11-30",
+          "last_update": "2026-09-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06793215",
+          "title": "A Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Participants With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Phase III, Randomized, Open-Label Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Patients With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "Krascendo 2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "KRAS G12C Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Pembrolizumab",
+            "Pemetrexed",
+            "Carboplatin",
+            "Cisplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-10-24",
+          "primary_completion": "2028-11-30",
+          "completion": "2030-10-31",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Divarasib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "ecff2eba83a827f5": {
+    "id": "ecff2eba83a827f5",
+    "title": "Omega-3 EPA Linked to Longer Survival After Surgery for Colorectal Cancer Liver Metastases",
+    "score": 8.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:successful"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:successful"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:successful",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "12a181a551ff4139": {
+    "id": "12a181a551ff4139",
+    "title": "#ESMO26: Amgen's Imdelltra regimen more than halves risk of death in Phase 3 lung cancer trial",
+    "score": 8.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "1277b6d18bcc8aad": {
+    "id": "1277b6d18bcc8aad",
+    "title": "Savolitinib plus osimertinib prolongs both progression-free and overall survival in mutated NSCLC",
+    "score": 8.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:benefit"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:benefit"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:benefit",
+    "registry": {
+      "best": {
+        "nct": "NCT03778229",
+        "title": "Osimertinib Plus Savolitinib in EGFRm+/MET+ NSCLC Following Prior Osimertinib",
+        "official_title": "A Phase II Study Assessing the Efficacy of Osimertinib in Combination With Savolitinib in Patients With EGFRm+ and MET+, Locally Advanced or Metastatic Non Small Cell Lung Cancer Who Have Progressed Following Treatment With Osimertinib.",
+        "acronym": "SAVANNAH",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "AstraZeneca",
+        "conditions": [
+          "Carcinoma"
+        ],
+        "interventions": [
+          "osimertinib",
+          "savolitinib",
+          "placebo"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) by Investigator Assessment; Target Population Analysis Set",
+          "Objective Response Rate (ORR) by Investigator Assessment; 300 mg QD Safety Analysis Set"
+        ],
+        "enrollment": 367,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-01-09",
+        "primary_completion": "2024-08-23",
+        "completion": "2026-12-31",
+        "last_update": "2026-04-23",
+        "results_first_post": "2026-02-10",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Denmark",
+          "France",
+          "India",
+          "Italy",
+          "Japan",
+          "South Korea",
+          "Spain",
+          "Taiwan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03778229",
+          "title": "Osimertinib Plus Savolitinib in EGFRm+/MET+ NSCLC Following Prior Osimertinib",
+          "official_title": "A Phase II Study Assessing the Efficacy of Osimertinib in Combination With Savolitinib in Patients With EGFRm+ and MET+, Locally Advanced or Metastatic Non Small Cell Lung Cancer Who Have Progressed Following Treatment With Osimertinib.",
+          "acronym": "SAVANNAH",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "AstraZeneca",
+          "conditions": [
+            "Carcinoma"
+          ],
+          "interventions": [
+            "osimertinib",
+            "savolitinib",
+            "placebo"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) by Investigator Assessment; Target Population Analysis Set",
+            "Objective Response Rate (ORR) by Investigator Assessment; 300 mg QD Safety Analysis Set"
+          ],
+          "enrollment": 367,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-01-09",
+          "primary_completion": "2024-08-23",
+          "completion": "2026-12-31",
+          "last_update": "2026-04-23",
+          "results_first_post": "2026-02-10",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Denmark",
+            "France",
+            "India",
+            "Italy",
+            "Japan",
+            "South Korea",
+            "Spain",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04606771",
+          "title": "A Study Comparing Savolitinib Plus Osimertinib vs Savolitinib Plus Placebo in Patients With EGFRm+ and MET Amplified Advanced NSCLC",
+          "official_title": "A Multi-centre Phase II, Double-Blind, Randomised Study of Savolitinib in Combination With Osimertinib vs Savolitinib in Combination With Placebo in Patients With EGFRm+ and MET Amplified Locally Advanced or Metastatic Non-Small Cell Lung Cancer Who Have Progressed Following Treatment With Osimertinib",
+          "acronym": "CoC",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "AstraZeneca",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Osimertinib + Savolitinib",
+            "Savolitinib + Placebo"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-09-28",
+          "primary_completion": "2022-12-21",
+          "completion": "2027-03-15",
+          "last_update": "2026-07-30",
+          "results_first_post": "2024-09-24",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "India",
+            "Taiwan",
+            "Thailand",
+            "Vietnam"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05015608",
+          "title": "Study on Savolitinib Combined With Osimertinib in Treatment of Advanced NSCLC With MET Amplification",
+          "official_title": "Clinical Study to Evaluate the Efficacy, Safety and Tolerability of Savolitinib + Osimertinib Versus Pemetrexed + Platinum in Treatment of Patients With NSCLC With MET Amplification",
+          "acronym": "SACHI",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hutchison Medipharma Limited",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Savolitinib + Osimertinib",
+            "Pemetrexed + Cisplatin /Carboplatin"
+          ],
+          "primary_outcomes": [
+            "PFS"
+          ],
+          "enrollment": 216,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-11-22",
+          "primary_completion": "2025-08-22",
+          "completion": "2025-08-22",
+          "last_update": "2026-05-27",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Savolitinib",
+          "osimertinib",
+          "savolitinib",
+          "Osimertinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "cf9884cb72898032": {
+    "id": "cf9884cb72898032",
+    "title": "Another Unprecedented OS Win in Extensive-Stage SCLC With Tarlatamab Maintenance",
+    "score": 8.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:Win"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:Win"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:Win",
+    "registry": {
+      "best": {
+        "nct": "NCT06745323",
+        "title": "A Phase 2, Open-label, Randomized, Multicenter Study of Tarlatamab Dosing Regimens in Subjects With SCLC",
+        "official_title": "A Phase 2, Open-label, Randomized, Multicenter Study of Tarlatamab Dosing Regimens in Subjects With Small Cell Lung Cancer (SCLC) (DeLLphi-309)",
+        "acronym": "DeLLphi-309",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Amgen",
+        "conditions": [
+          "Small Cell Lung Cancer (SCLC)"
+        ],
+        "interventions": [
+          "Tarlatamab"
+        ],
+        "primary_outcomes": [
+          "Proportion of participants with confirmed objective response to Tarlatamab",
+          "Proportion of participants with complete response to Tarlatamab",
+          "Proportion of participants with partial response to Tarlatamab"
+        ],
+        "enrollment": 252,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2025-02-26",
+        "primary_completion": "2029-08-10",
+        "completion": "2029-08-10",
+        "last_update": "2026-10-06",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "China",
+          "France",
+          "Germany",
+          "Greece",
+          "Italy",
+          "Japan",
+          "South Korea"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06745323",
+          "title": "A Phase 2, Open-label, Randomized, Multicenter Study of Tarlatamab Dosing Regimens in Subjects With SCLC",
+          "official_title": "A Phase 2, Open-label, Randomized, Multicenter Study of Tarlatamab Dosing Regimens in Subjects With Small Cell Lung Cancer (SCLC) (DeLLphi-309)",
+          "acronym": "DeLLphi-309",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Amgen",
+          "conditions": [
+            "Small Cell Lung Cancer (SCLC)"
+          ],
+          "interventions": [
+            "Tarlatamab"
+          ],
+          "primary_outcomes": [
+            "Proportion of participants with confirmed objective response to Tarlatamab",
+            "Proportion of participants with complete response to Tarlatamab",
+            "Proportion of participants with partial response to Tarlatamab"
+          ],
+          "enrollment": 252,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-02-26",
+          "primary_completion": "2029-08-10",
+          "completion": "2029-08-10",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "China",
+            "France",
+            "Germany",
+            "Greece",
+            "Italy",
+            "Japan",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07016230",
+          "title": "Study Investigating Tarlatamab (AMG 757) in Patients With Metastatic/Locally Advanced Small-Cell Lung Cancer (SCLC) and Other Poorly Differentiated Neuroendocrine Carcinomas (NECs), With Biomarker Analysis to Characterize Response/Resistance (UNLOCK TARLATAMAB)",
+          "official_title": "Phase 2, Multicenter, Open Label, Platform Study Investigating Tarlatamab (AMG 757) in Patients With Metastatic/Locally Advanced Small-Cell Lung Cancer (SCLC) and Other Poorly Differentiated Neuroendocrine Carcinomas (NECs), With Biomarker Analysis to Characterize Response/Resistance",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Gustave Roussy, Cancer Campus, Grand Paris",
+          "conditions": [
+            "Metastatic/Locally Advanced Small-Cell Lung Cancer",
+            "Metastatic/Locally Advanced Poorly Differentiated NEC"
+          ],
+          "interventions": [
+            "Tarlatamab"
+          ],
+          "primary_outcomes": [
+            "To estimate the objective response rate (ORR)"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-07-02",
+          "primary_completion": "2027-05-18",
+          "completion": "2030-01-15",
+          "last_update": "2026-09-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07111507",
+          "title": "A Study of Tarlatamab for People With Prostate Cancer",
+          "official_title": "TIDAL: Phase 2 Study of Tarlatamab in Patients With Delta-like Protein 3 (DLL3) Positive Metastatic Prostate Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Memorial Sloan Kettering Cancer Center",
+          "conditions": [
+            "Metastatic Prostate Cancer"
+          ],
+          "interventions": [
+            "Tarlatamab"
+          ],
+          "primary_outcomes": [
+            "progression free survival (rPFS)"
+          ],
+          "enrollment": 32,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-07-31",
+          "primary_completion": "2027-08-31",
+          "completion": "2027-08-31",
+          "last_update": "2026-08-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Tarlatamab",
+          "tarlatamab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "5ebbf9c1afc2a6b8": {
+    "id": "5ebbf9c1afc2a6b8",
+    "title": "<![CDATA[ESMO 2026 Presidential Symposium II Showcases OS-Improving LBAs in Lung and GI Cancers]]>",
+    "score": 7.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "faf4739b8f800e7c": {
+    "id": "faf4739b8f800e7c",
+    "title": "ROBOT-2随机III期试验证实机器人食管癌切除术淋巴结清扫更彻底且安全性相当【AI生成】",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:生存率"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:生存率"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:生存率",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "33b16208b09ad5fd": {
+    "id": "33b16208b09ad5fd",
+    "title": "<![CDATA[Late-Breaking Phase 3 Data Headline ESMO 2026 Presidential Symposium I]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b8c8967114bc6ca5": {
+    "id": "b8c8967114bc6ca5",
+    "title": "ESMO及《新英格兰医学杂志》同步发布OptiTROP-Lung06研究结果！芦康沙妥珠单抗(sac-TMT)联合帕博利珠单抗显著延长PFS！",
+    "score": 8.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:显著延长"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:显著延长"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:显著延长",
+    "registry": {
+      "best": {
+        "nct": "NCT06711900",
+        "title": "A Study of SKB264 in Combination With Pembrolizumab Versus Chemotherapy in Combination With Pembrolizumab as First-Line Treatment for PD-L1 Negative Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Randomized, Open-Label, Multicenter Phase 3 Clinical Study of SKB264 in Combination With Pembrolizumab Versus Chemotherapy in Combination With Pembrolizumab as First-Line Treatment for PD-L1 Negative Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "SKB264",
+          "Pembrolizumab",
+          "pemetrexed",
+          "carboplatin or cisplatin"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS) assessed by Blinded Independent Central Review (BICR)"
+        ],
+        "enrollment": 432,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-10-30",
+        "primary_completion": "2026-12",
+        "completion": "2028-12",
+        "last_update": "2026-07-08",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06711900",
+          "title": "A Study of SKB264 in Combination With Pembrolizumab Versus Chemotherapy in Combination With Pembrolizumab as First-Line Treatment for PD-L1 Negative Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized, Open-Label, Multicenter Phase 3 Clinical Study of SKB264 in Combination With Pembrolizumab Versus Chemotherapy in Combination With Pembrolizumab as First-Line Treatment for PD-L1 Negative Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "SKB264",
+            "Pembrolizumab",
+            "pemetrexed",
+            "carboplatin or cisplatin"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 432,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-30",
+          "primary_completion": "2026-12",
+          "completion": "2028-12",
+          "last_update": "2026-07-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06670196",
+          "title": "A Study of SKB264 in Combination With Osimertinib Versus Osimertinib in Patients With Epidermal Growth Factor Receptor (EGFR) Mutations, Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized, Open-Label, Multicenter, Phase III Clinical Study of SKB264 in Combination With Osimertinib Versus Osimertinib Alone as First-Line Treatment for Patients With Epidermal Growth Factor Receptor (EGFR) Mutations, Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "SKB264",
+            "Osimertinib"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 420,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-11-27",
+          "primary_completion": "2027-05",
+          "completion": "2027-07",
+          "last_update": "2026-07-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06305754",
+          "title": "Sacituzumab Tirumotecan (MK-2870) Versus Pemetrexed and Carboplatin Combination Therapy in Participants With Epidermal Growth Factor (EGFR)-Mutated, Advanced Nonsquamous Non-small Cell Lung Cancer (NSCLC) Who Have Progressed on Prior EGFR Tyrosine Kinase Inhibitors (MK-2870-009)",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of MK-2870 vs. Platinum Doublets in Participants With EGFR-mutated, Advanced Nonsquamous Non-small Cell Lung Cancer (NSCLC) Who Have Progressed on Prior EGFR Tyrosine Kinase Inhibitors",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Non-small Cell Lung Cancer (NSCLC)"
+          ],
+          "interventions": [
+            "Sacituzumab tirumotecan",
+            "Pemetrexed",
+            "Carboplatin",
+            "H1 Receptor Antagonist",
+            "H2 Receptor Antagonist",
+            "Acetaminophen (or equivalent)",
+            "Dexamethasone (or equivalent)",
+            "Steroid Mouthwash (dexamethasone or equivalent)"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 550,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-06-11",
+          "primary_completion": "2028-08-17",
+          "completion": "2030-06-14",
+          "last_update": "2026-09-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Canada",
+            "China",
+            "Colombia",
+            "France",
+            "India",
+            "Italy",
+            "Japan",
+            "Malaysia",
+            "Mexico",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06711900"
+        ],
+        "drug": [
+          "SKB264",
+          "MK-2870",
+          "KL610023"
+        ],
+        "sponsor": [
+          "科伦博泰生物",
+          "医药股份",
+          "洛替康衍生物",
+          "权均属于生物"
+        ],
+        "sponsor_en": [
+          "科伦博泰生物",
+          "医药股份",
+          "洛替康衍生物",
+          "权均属于生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "0421a63bce3bd0ab": {
+    "id": "0421a63bce3bd0ab",
+    "title": "<![CDATA[Durvalumab Plus Enfortumab Vedotin Improves Survival in Cisplatin-Ineligible MIBC]]>",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06109272",
+        "title": "A Study to Assess the Dose, Adverse Events, and Change in Disease Activity of Livmoniplimab as an Intravenous (IV) Solution in Combination With Budigalimab as an IV Solution in Adult Participants With Hepatocellular Carcinoma (HCC)",
+        "official_title": "A Phase 2/3, Randomized Study to Evaluate the Dose Optimization, Safety, and Efficacy of Livmoniplimab in Combination With Budigalimab in Subjects With Locally Advanced or Metastatic Hepatocellular Carcinoma (HCC) Who Have Not Previously Received Systemic Treatment",
+        "acronym": "LIVIGNO-2",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "AbbVie",
+        "conditions": [
+          "Hepatocellular Carcinoma"
+        ],
+        "interventions": [
+          "Livmoniplimab",
+          "Budigalimab",
+          "Durvalumab",
+          "Atezolizumab",
+          "Bevacizumab",
+          "Tremelimumab"
+        ],
+        "primary_outcomes": [
+          "Stage 1: Best Overall Response (BOR) per Investigator",
+          "Stage 2: Overall Survival (OS)"
+        ],
+        "enrollment": 89,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-01-11",
+        "primary_completion": "2027-01",
+        "completion": "2027-01",
+        "last_update": "2026-09-22",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "France",
+          "Italy",
+          "Puerto Rico",
+          "Spain",
+          "Taiwan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06109272",
+          "title": "A Study to Assess the Dose, Adverse Events, and Change in Disease Activity of Livmoniplimab as an Intravenous (IV) Solution in Combination With Budigalimab as an IV Solution in Adult Participants With Hepatocellular Carcinoma (HCC)",
+          "official_title": "A Phase 2/3, Randomized Study to Evaluate the Dose Optimization, Safety, and Efficacy of Livmoniplimab in Combination With Budigalimab in Subjects With Locally Advanced or Metastatic Hepatocellular Carcinoma (HCC) Who Have Not Previously Received Systemic Treatment",
+          "acronym": "LIVIGNO-2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "AbbVie",
+          "conditions": [
+            "Hepatocellular Carcinoma"
+          ],
+          "interventions": [
+            "Livmoniplimab",
+            "Budigalimab",
+            "Durvalumab",
+            "Atezolizumab",
+            "Bevacizumab",
+            "Tremelimumab"
+          ],
+          "primary_outcomes": [
+            "Stage 1: Best Overall Response (BOR) per Investigator",
+            "Stage 2: Overall Survival (OS)"
+          ],
+          "enrollment": 89,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-01-11",
+          "primary_completion": "2027-01",
+          "completion": "2027-01",
+          "last_update": "2026-09-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "France",
+            "Italy",
+            "Puerto Rico",
+            "Spain",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03871036",
+          "title": "Improve Checkpoint-blockade Response in Advanced Urothelial Cancer",
+          "official_title": "ICRA (Improve Checkpoint-blockade Response in Advanced Urothelial Cancer), an Adaptive Clinical Study to Determine Efficacy of Combining Weekly Paclitaxel With Tremelimumab +/- Durvalumab (MEDI4736)",
+          "acronym": "ICRA",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "The Netherlands Cancer Institute",
+          "conditions": [
+            "Urothelial Carcinoma"
+          ],
+          "interventions": [
+            "Tremelimumab",
+            "Durvalumab",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Overall response rate (ORR), defined as the proportion of participants whose confirmed best overall response is either a PR or CR after treatment with paclitaxel and a high dose of tremelimumab based upon the RECIST v1.1 guidelines.",
+            "Overall response rate (ORR), defined as the proportion of participants whose confirmed best overall response is either a PR or CR after treatment with paclitaxel, tremelimumab and durvalumab based upon the RECIST v1.1 guidelines."
+          ],
+          "enrollment": 53,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-05-01",
+          "primary_completion": "2023-09-07",
+          "completion": "2025-01-15",
+          "last_update": "2025-03-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04262375",
+          "title": "A Phase 2 Study of Durvalumab (MEDI4736) and Oleclumab (MEDI9447) in Multi-Cancer Populations With Correlation to Clinical, Molecular and Immunologic Parameters With DNA MethylaTION",
+          "official_title": "A Phase 2 Study of Durvalumab (MEDI4736) and Oleclumab (MEDI9447) in Multi-Cancer Populations With Correlation to Clinical, Molecular and Immunologic Parameters With DNA MethylaTION (DOMINATION)",
+          "acronym": "DOMINATION",
+          "status": "WITHDRAWN",
+          "why_stopped": "Overall clinical activity (ORR) for oleclumab + durvalumab is minimal across tumor types and does not support further evaluation of this doublet.",
+          "phase": "PHASE2",
+          "sponsor": "University Health Network, Toronto",
+          "conditions": [
+            "Non Small Cell Lung Cancer",
+            "Renal Cell Carcinoma"
+          ],
+          "interventions": [
+            "Durvalumab",
+            "Oleclumab"
+          ],
+          "primary_outcomes": [
+            "Association between cfMeDIP and Response (defined as either complete response, partial response, or stable disease ≥ 4 cycles, as per RECIST 1.1. Association between cfMeDIP and Toxicity (defined as ≥ Grade 2 immune- adverse event (AE) as per CTCAE 5.0).",
+            "Objective response rate (ORR) according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+            "Disease control rate (DCR) according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+            "Duration of response (DoR)"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01",
+          "primary_completion": "2024-01",
+          "completion": "2024-01",
+          "last_update": "2020-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Durvalumab",
+          "Enfortumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "1f42369aa0cbd751": {
+    "id": "1f42369aa0cbd751",
+    "title": "Adding chemotherapy to pembrolizumab leads to progression-free survival benefit in NSCLC",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {
+        "nct": "NCT02648477",
+        "title": "Pembrolizumab and Doxorubicin Hydrochloride or Anti-Estrogen Therapy in Treating Patients With Triple-Negative or Hormone Receptor-Positive Metastatic Breast Cancer",
+        "official_title": "MK-3475 (Pembrolizumab) in Combination With an Anthracycline or Anti-estrogen Therapy in Patients With Triple Negative and Hormone Receptor Positive (HR+ HER2-) Metastatic Breast Cancer",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "City of Hope Medical Center",
+        "conditions": [
+          "Estrogen Receptor Negative",
+          "Estrogen Receptor Positive",
+          "HER2/Neu Negative",
+          "Progesterone Receptor Negative",
+          "Progesterone Receptor Positive",
+          "Stage IV Breast Cancer",
+          "Triple-Negative Breast Carcinoma"
+        ],
+        "interventions": [
+          "Anastrozole",
+          "Doxorubicin Hydrochloride",
+          "Exemestane",
+          "Laboratory Biomarker Analysis",
+          "Letrozole",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Overall Response"
+        ],
+        "enrollment": 30,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-03-28",
+        "primary_completion": "2022-04-01",
+        "completion": "2023-12-30",
+        "last_update": "2024-03-19",
+        "results_first_post": "2023-04-19",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04515979",
+          "title": "Vactosertib in Combination with Pembrolizumab for PD-L1 Positive Non-small Cell Lung Cancer (NSCLC) Subjects",
+          "official_title": "A Phase 2, Open-label, Multicenter Study to Assess the Efficacy and Safety of Vactosertib in Combination with Pembrolizumab As a First-line Treatment for Subjects with PD-L1 Positive Advanced Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "This is because Medpacto decided to modify its development strategy as the business and development environment changed.",
+          "phase": "PHASE2",
+          "sponsor": "MedPacto, Inc.",
+          "conditions": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "interventions": [
+            "Vactosertib 300 mg BID and pembrolizumab 200 mg IV"
+          ],
+          "primary_outcomes": [
+            "ORR per RECIST 1.1"
+          ],
+          "enrollment": 11,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-12-17",
+          "primary_completion": "2024-08-05",
+          "completion": "2024-08-05",
+          "last_update": "2024-12-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03991819",
+          "title": "Study of Binimetinib in Combination With Pembrolizumab in Advanced Non-Small Cell Lung Cancer",
+          "official_title": "Phase I/Ib Study of Binimetinib, a MEK Inhibitor, in Combination With Pembrolizumab in Patients With Advanced Non-Small Cell Lung Cancer (NSCLC)",
+          "acronym": "BiniPembro",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "University Health Network, Toronto",
+          "conditions": [
+            "Non-small Cell Carcinoma"
+          ],
+          "interventions": [
+            "Binimetinib",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR)"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2019-09-20",
+          "primary_completion": "2026-08",
+          "completion": "2026-12",
+          "last_update": "2026-06-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02648477",
+          "title": "Pembrolizumab and Doxorubicin Hydrochloride or Anti-Estrogen Therapy in Treating Patients With Triple-Negative or Hormone Receptor-Positive Metastatic Breast Cancer",
+          "official_title": "MK-3475 (Pembrolizumab) in Combination With an Anthracycline or Anti-estrogen Therapy in Patients With Triple Negative and Hormone Receptor Positive (HR+ HER2-) Metastatic Breast Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Estrogen Receptor Negative",
+            "Estrogen Receptor Positive",
+            "HER2/Neu Negative",
+            "Progesterone Receptor Negative",
+            "Progesterone Receptor Positive",
+            "Stage IV Breast Cancer",
+            "Triple-Negative Breast Carcinoma"
+          ],
+          "interventions": [
+            "Anastrozole",
+            "Doxorubicin Hydrochloride",
+            "Exemestane",
+            "Laboratory Biomarker Analysis",
+            "Letrozole",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Overall Response"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-03-28",
+          "primary_completion": "2022-04-01",
+          "completion": "2023-12-30",
+          "last_update": "2024-03-19",
+          "results_first_post": "2023-04-19",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pembrolizumab",
+          "sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8182e05a1ae6dbff": {
+    "id": "8182e05a1ae6dbff",
+    "title": "Advanced renal cancer: data support the use of belzutifan in later lines, but not first line",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:discontinuations"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:discontinuations"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:discontinuations",
+    "registry": {
+      "best": {
+        "nct": "NCT02648477",
+        "title": "Pembrolizumab and Doxorubicin Hydrochloride or Anti-Estrogen Therapy in Treating Patients With Triple-Negative or Hormone Receptor-Positive Metastatic Breast Cancer",
+        "official_title": "MK-3475 (Pembrolizumab) in Combination With an Anthracycline or Anti-estrogen Therapy in Patients With Triple Negative and Hormone Receptor Positive (HR+ HER2-) Metastatic Breast Cancer",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "City of Hope Medical Center",
+        "conditions": [
+          "Estrogen Receptor Negative",
+          "Estrogen Receptor Positive",
+          "HER2/Neu Negative",
+          "Progesterone Receptor Negative",
+          "Progesterone Receptor Positive",
+          "Stage IV Breast Cancer",
+          "Triple-Negative Breast Carcinoma"
+        ],
+        "interventions": [
+          "Anastrozole",
+          "Doxorubicin Hydrochloride",
+          "Exemestane",
+          "Laboratory Biomarker Analysis",
+          "Letrozole",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Overall Response"
+        ],
+        "enrollment": 30,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-03-28",
+        "primary_completion": "2022-04-01",
+        "completion": "2023-12-30",
+        "last_update": "2024-03-19",
+        "results_first_post": "2023-04-19",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04691375",
+          "title": "A Study of PY314 in Subjects With Advanced Solid Tumors",
+          "official_title": "A Phase 1a/1b Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of PY314 as a Single Agent and In Combination With Pembrolizumab in Subjects With Advanced Solid Tumors",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Sponsor business decision.",
+          "phase": "PHASE1",
+          "sponsor": "Ikena Oncology",
+          "conditions": [
+            "Advanced Solid Tumor",
+            "Gynecologic Cancer",
+            "Breast Cancer",
+            "Colorectal Cancer",
+            "Lung Adenocarcinoma",
+            "Renal Cell Carcinoma",
+            "Triple Negative Breast Cancer",
+            "Hormone Receptor/Growth Factor Receptor-Negative Breast Cancer",
+            "Ovarian Cancer"
+          ],
+          "interventions": [
+            "PY314",
+            "Combination Therapy: PY314 + Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Incidence of Adverse Events (AE)",
+            "(Part A only) Dose Limiting Toxicity of PY314"
+          ],
+          "enrollment": 86,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-10-29",
+          "primary_completion": "2023-08-31",
+          "completion": "2023-09-22",
+          "last_update": "2024-03-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02648477",
+          "title": "Pembrolizumab and Doxorubicin Hydrochloride or Anti-Estrogen Therapy in Treating Patients With Triple-Negative or Hormone Receptor-Positive Metastatic Breast Cancer",
+          "official_title": "MK-3475 (Pembrolizumab) in Combination With an Anthracycline or Anti-estrogen Therapy in Patients With Triple Negative and Hormone Receptor Positive (HR+ HER2-) Metastatic Breast Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Estrogen Receptor Negative",
+            "Estrogen Receptor Positive",
+            "HER2/Neu Negative",
+            "Progesterone Receptor Negative",
+            "Progesterone Receptor Positive",
+            "Stage IV Breast Cancer",
+            "Triple-Negative Breast Carcinoma"
+          ],
+          "interventions": [
+            "Anastrozole",
+            "Doxorubicin Hydrochloride",
+            "Exemestane",
+            "Laboratory Biomarker Analysis",
+            "Letrozole",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Overall Response"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-03-28",
+          "primary_completion": "2022-04-01",
+          "completion": "2023-12-30",
+          "last_update": "2024-03-19",
+          "results_first_post": "2023-04-19",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03844750",
+          "title": "Preoperative Immunotherapy (Pembrolizumab) for Patients With Colorectal Cancer and Resectable Hepatic Metastases",
+          "official_title": "A Phase II Study of Preoperative Immunotherapy in Patients With Colorectal Cancer and Resectable Hepatic Metastases",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Sponsor decision",
+          "phase": "PHASE2",
+          "sponsor": "Chloe Atreya, MD, PhD",
+          "conditions": [
+            "Metastatic Malignant Neoplasm in the Liver",
+            "Stage IV Colorectal Cancer AJCC v8",
+            "Stage IVA Colorectal Cancer AJCC v8",
+            "Stage IVB Colorectal Cancer AJCC v8",
+            "Stage IVC Colorectal Cancer AJCC v8"
+          ],
+          "interventions": [
+            "Hepatectomy",
+            "Pembrolizumab",
+            "Vactosertib"
+          ],
+          "primary_outcomes": [
+            "Proportion of Patients With a >= 2-fold Increase in the Tumor-infiltrating Cells Per Unit Area (5 High Power Fields) in Post- Versus Pre Pembrolizumab Treatment Tumor Specimens."
+          ],
+          "enrollment": 6,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-07-22",
+          "primary_completion": "2025-09-30",
+          "completion": "2025-09-30",
+          "last_update": "2025-12-31",
+          "results_first_post": "2025-12-31",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT07011719"
+        ],
+        "drug": [
+          "pembrolizumab",
+          "lenvatinib",
+          "quavonlimab",
+          "cabozantinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6ca4c7e1669f38fa": {
+    "id": "6ca4c7e1669f38fa",
+    "title": "Genmab宣布Rinatabart Sesutecan (Rina-S®)在铂耐药卵巢癌患者中显示无进展生存期和总生存期的统计学显著改善【AI生成】",
+    "score": 7.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:显著改善"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:显著改善"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:显著改善",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Genmab"
+        ],
+        "sponsor": [
+          "临床阶段生物",
+          "江苏恒瑞医药",
+          "普方生物制药",
+          "成都倍特药业"
+        ],
+        "sponsor_en": [
+          "临床阶段生物",
+          "Hengrui",
+          "普方生物制药",
+          "成都倍特药业"
+        ]
+      },
+      "note": "注册库检索到 8 个试验，但没有一个能对上主药名「Genmab」（其余抽到的药名多为对照药，不作依据），判定为不匹配，不采用"
+    }
+  }
+}
