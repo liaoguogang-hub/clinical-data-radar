@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-27",
+  "count": 6,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "target:her3-adc",
+      "lead_id": "ed8508e254703891",
+      "title": "Improved survival outcomes with antibody–drug conjugates in EGFR-mutant non-small cell lung cancer after progression",
+      "score": 8.8,
+      "channel": "china",
+      "member_ids": [
+        "ed8508e254703891"
+      ],
+      "members": [
+        {
+          "title": "Improved survival outcomes with antibody–drug conjugates in EGFR-mutant non-small cell lung cancer after progression",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/improved-survival-outcomes-with-antibody-drug-conjugates-in-egfr-mutant-non-small-cell-lung-cancer-after-progression",
+          "score": 8.8,
+          "reasoning": "两项在中国开展的III期研究分别报告EGFR突变NSCLC后线ADC方案的生存改善，具有同适应症横向比较价值。依据是ESMO原文对两项研究阳性结论的明确表述，而非仅凭ORR等替代指标。"
+        }
+      ],
+      "reasoning": "两项在中国开展的III期研究分别报告EGFR突变NSCLC后线ADC方案的生存改善，具有同适应症横向比较价值。依据是ESMO原文对两项研究阳性结论的明确表述，而非仅凭ORR等替代指标。",
+      "verify_todo": [
+        "分别核实PANKU-Lung01和HERON-Lung01的样本量及主要终点",
+        "核实OS、PFS的HR、置信区间和交叉治疗影响",
+        "核实两药机制、毒性谱及后续监管申报状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:tqb2102",
+      "lead_id": "ca7fa020e29786c9",
+      "title": "正大天晴TQB2102刷新HER2低表达乳腺癌PFS纪录，双表位HER2 ADC实现疗效安全性双优突破",
+      "score": 9.1,
+      "channel": "china",
+      "member_ids": [
+        "ca7fa020e29786c9"
+      ],
+      "members": [
+        {
+          "title": "正大天晴TQB2102刷新HER2低表达乳腺癌PFS纪录，双表位HER2 ADC实现疗效安全性双优突破",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386079",
+          "score": 9.1,
+          "reasoning": "中国原研TQB2102的随机III期研究给出mPFS、HR及约71%的进展或死亡风险下降，并已进入国内上市申报，具有明确的成稿价值。依据是来源给出的文字化主要终点结论及HR，而非注册库p值，正式会议摘要仍需核对。"
+        }
+      ],
+      "reasoning": "中国原研TQB2102的随机III期研究给出mPFS、HR及约71%的进展或死亡风险下降，并已进入国内上市申报，具有明确的成稿价值。依据是来源给出的文字化主要终点结论及HR，而非注册库p值，正式会议摘要仍需核对。",
+      "verify_todo": [
+        "核实ESMO摘要中的PFS HR、置信区间和正式统计检验",
+        "核实543例样本量、分析集及开放标签设计影响",
+        "核实ILD等安全性、OS成熟度及NMPA审评状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:sacituzumab-tirumotecan",
+      "lead_id": "1fa1ab3488abdbc8",
+      "title": "芦康沙妥珠单抗在美国申报上市，首个全球III期研究数据今日公开",
+      "score": 6.3,
+      "channel": "china",
+      "member_ids": [
+        "1fa1ab3488abdbc8"
+      ],
+      "members": [
+        {
+          "title": "芦康沙妥珠单抗在美国申报上市，首个全球III期研究数据今日公开",
+          "url": "https://bydrug.pharmcube.com/news/detail/6a0238a24c33d1bd21379317992259e0",
+          "score": 6.3,
+          "reasoning": "条目同时涉及美国上市申报和 III 期数据公开，属于监管与临床读出叠加的重要节点，新闻价值较高。但标题未给出适应症、主要终点结论、效应量或统计检验，无法判断 III 期数据是否真正达到主要终点。"
+        }
+      ],
+      "reasoning": "条目同时涉及美国上市申报和 III 期数据公开，属于监管与临床读出叠加的重要节点，新闻价值较高。但标题未给出适应症、主要终点结论、效应量或统计检验，无法判断 III 期数据是否真正达到主要终点。",
+      "verify_todo": [
+        "核实申报药品、适应症及监管机构",
+        "核实 III 期试验名称、对照方案、样本量和主要终点",
+        "核实主要终点是否达到及完整统计数据"
+      ],
+      "flags": [],
+      "endpoint_verdict": "unclear",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:risvutatug-rezetecan",
+      "lead_id": "090476c59757d450",
+      "title": "Osteosarcoma: first progress in decades with an antibody–drug conjugate",
+      "score": 8.9,
+      "channel": "global",
+      "member_ids": [
+        "090476c59757d450",
+        "61a0681cb5f43957"
+      ],
+      "members": [
+        {
+          "title": "Osteosarcoma: first progress in decades with an antibody–drug conjugate",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/osteosarcoma-first-progress-in-decades-with-an-antibody-drug-conjugate",
+          "score": 8.9,
+          "reasoning": "ESMO主席论坛原文明确称ARTEMIS-011的PFS主要终点达到，并提供中位PFS和风险下降数据，属于III期关键阳性读出。依据是会议原始报道中的明确主要终点结论，但数值仍需与正式摘要核对。"
+        },
+        {
+          "title": "<![CDATA[Ris-Rez Improves PFS in Relapsed/Refractory Osteosarcoma]]>",
+          "url": "https://www.onclive.com/view/ris-rez-improves-pfs-vs-gemcitabine-docetaxel-relapsed-refractory-osteosarcoma",
+          "score": 8.7,
+          "reasoning": "复发或难治性骨肉瘤随机试验报告较标准化疗改善PFS，且有ESMO原始报道可交叉验证，属于罕见瘤领域的III期事件。依据是标题明确给出的PFS结论，具体HR和样本量需在正式报告中确认。"
+        }
+      ],
+      "reasoning": "ESMO主席论坛原文明确称ARTEMIS-011的PFS主要终点达到，并提供中位PFS和风险下降数据，属于III期关键阳性读出。依据是会议原始报道中的明确主要终点结论，但数值仍需与正式摘要核对。",
+      "_idx": 4
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:rinatabart-sesutecan",
+      "lead_id": "8ff24ce31534d24a",
+      "title": "<![CDATA[Rinatabart Sesutecan Improves Survival in Platinum-Resistant Ovarian Cancer]]>",
+      "score": 8.4,
+      "channel": "global",
+      "member_ids": [
+        "8ff24ce31534d24a",
+        "6ca4c7e1669f38fa"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Rinatabart Sesutecan Improves Survival in Platinum-Resistant Ovarian Cancer]]>",
+          "url": "https://www.onclive.com/view/rinatabart-sesutecan-improves-survival-in-platinum-resistant-ovarian-cancer",
+          "score": 8.4,
+          "reasoning": "标题报告铂耐药卵巢癌中的生存改善，指向对高未满足需求适应症的潜在关键进展。当前依据是文字化生存终点结论，尚非注册库层面的统计结论，需补充随机设计、样本量和效应量。"
+        },
+        {
+          "title": "Genmab宣布Rinatabart Sesutecan (Rina-S®)在铂耐药卵巢癌患者中显示无进展生存期和总生存期的统计学显著改善【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_386021",
+          "score": 7.3,
+          "reasoning": "全球 III 期顶线数据报告主要终点 PFS 达到，并提供关键次要终点 OS 的统计学显著改善及 HR，属于高价值注册性结果。虽然目前主要来源是公司公告，但条目包含明确效应量和统计分析，可信度高于单纯疗效数字。"
+        }
+      ],
+      "reasoning": "标题报告铂耐药卵巢癌中的生存改善，指向对高未满足需求适应症的潜在关键进展。当前依据是文字化生存终点结论，尚非注册库层面的统计结论，需补充随机设计、样本量和效应量。",
+      "_idx": 5
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:savolitinib",
+      "lead_id": "d6114112cf55b5e2",
+      "title": "<![CDATA[Savolitinib Combo Extends PFS in Frontline EGFR-Mutated NSCLC and MET Overexpression]]>",
+      "score": 8.4,
+      "channel": "global",
+      "member_ids": [
+        "d6114112cf55b5e2",
+        "1277b6d18bcc8aad"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Savolitinib Combo Extends PFS in Frontline EGFR-Mutated NSCLC and MET Overexpression]]>",
+          "url": "https://www.onclive.com/view/savolitinib-combo-extends-pfs-in-frontline-egfr-mutated-nsclc-and-met-overexpression",
+          "score": 8.4,
+          "reasoning": "MET过表达筛选人群中的联合治疗PFS延长可能形成新的生物标志物治疗路径，适合作为III期读出跟踪。依据是标题对PFS终点的明确表述，具体人群定义、统计结论和监管状态尚需核实。"
+        },
+        {
+          "title": "Savolitinib plus osimertinib prolongs both progression-free and overall survival in mutated NSCLC",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/savolitinib-plus-osimertinib-prolongs-both-progression-free-and-overall-survival-in-mutated-nsclc",
+          "score": 6.8,
+          "reasoning": "该条目明确报告 PFS 和 OS 均获得延长，涉及双药联合在突变型 NSCLC 中的长期临床获益，具备改变治疗路径的潜力。当前依据是 ESMO 对生存终点的明确结论，但尚未提供样本量、HR、p值及分层结果。"
+        }
+      ],
+      "reasoning": "MET过表达筛选人群中的联合治疗PFS延长可能形成新的生物标志物治疗路径，适合作为III期读出跟踪。依据是标题对PFS终点的明确表述，具体人群定义、统计结论和监管状态尚需核实。",
+      "_idx": 6
+    }
+  ]
+}
