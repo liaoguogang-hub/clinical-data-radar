@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-28",
+  "count": 3,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:mitapivat",
+      "lead_id": "9a81646e1ff41141",
+      "title": "[Articles] Efficacy and safety of mitapivat in patients with sickle cell disease (RISE UP): a phase 3, double-blind, global, randomised, placebo-controlled trial",
+      "score": 8.8,
+      "channel": "global",
+      "member_ids": [
+        "9a81646e1ff41141"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Efficacy and safety of mitapivat in patients with sickle cell disease (RISE UP): a phase 3, double-blind, global, randomised, placebo-controlled trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01480-7/fulltext?rss=yes",
+          "score": 8.8,
+          "reasoning": "全球随机双盲安慰剂对照Ⅲ期RISE UP发表于Lancet，具备最高等级数据成熟度；新型口服代谢机制对镰状细胞病存在明确未满足需求，但素材摘要未直接给出p值和效应量，需在成稿前核实主要终点统计结论。"
+        }
+      ],
+      "reasoning": "全球随机双盲安慰剂对照Ⅲ期RISE UP发表于Lancet，具备最高等级数据成熟度；新型口服代谢机制对镰状细胞病存在明确未满足需求，但素材摘要未直接给出p值和效应量，需在成稿前核实主要终点统计结论。",
+      "verify_todo": [
+        "核实主要终点的确切定义、各组比例、风险差及p值",
+        "核实样本量、随机化分层和缺失数据处理",
+        "核实血液学缓解与疼痛或功能结局之间的关系",
+        "核实长期安全性及停药原因"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:divarasib",
+      "lead_id": "b246e613b7afce96",
+      "title": "罗氏divarasib头对头Ⅲ期临床研究数据出炉，KRAS G12C突变NSCLC患者死亡风险直降44%",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "b246e613b7afce96"
+      ],
+      "members": [
+        {
+          "title": "罗氏divarasib头对头Ⅲ期临床研究数据出炉，KRAS G12C突变NSCLC患者死亡风险直降44%",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386086",
+          "score": 8.0,
+          "reasoning": "随机Ⅲ期研究同时报告OS和PFS改善，并给出HR及统计学显著性描述，属于KRAS G12C赛道的高价值读出；依据是明确统计结论，但完整置信区间、p值及报告形式仍需核实。"
+        }
+      ],
+      "reasoning": "随机Ⅲ期研究同时报告OS和PFS改善，并给出HR及统计学显著性描述，属于KRAS G12C赛道的高价值读出；依据是明确统计结论，但完整置信区间、p值及报告形式仍需核实。",
+      "verify_todo": [
+        "核实数据是否为ESMO口头报告及其完整统计结果",
+        "核实OS与PFS的HR、置信区间和p值",
+        "核实样本量、随机比例和对照方案",
+        "核实多终点统计层级和开放标签设计限制"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:emactuzumab",
+      "lead_id": "4dac00627bbf5f54",
+      "title": "Emactuzumab reduces tumour size in patients with tenosynovial giant cell tumours",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "4dac00627bbf5f54"
+      ],
+      "members": [
+        {
+          "title": "Emactuzumab reduces tumour size in patients with tenosynovial giant cell tumours",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/emactuzumab-reduces-tumour-size-in-patients-with-tenosynovial-giant-cell-tumours",
+          "score": 7.8,
+          "reasoning": "随机Ⅲ期TANGENT试验报告ORR较安慰剂显著改善并给出p值，且患者可选择的系统治疗有限，属于高价值临床读出；该判断依据明确的统计学结论。"
+        }
+      ],
+      "reasoning": "随机Ⅲ期TANGENT试验报告ORR较安慰剂显著改善并给出p值，且患者可选择的系统治疗有限，属于高价值临床读出；该判断依据明确的统计学结论。",
+      "verify_todo": [
+        "核实ORR是否为预设主要终点及完整分析集",
+        "核实p值、置信区间、应答持续时间和疾病控制数据",
+        "核实随机规模、分层因素及随访时间",
+        "核实功能改善和长期安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    }
+  ]
+}
