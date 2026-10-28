@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-29",
+  "count": 5,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:asundexian",
+      "lead_id": "3364d3974106f958",
+      "title": "拜耳1类新药阿舒克森片国内获批上市！非心源性缺血性卒中二级预防迎来FXIa抑制剂全新解决方案",
+      "score": 8.4,
+      "channel": "china",
+      "member_ids": [
+        "3364d3974106f958",
+        "fdc2b13da27d4e4a"
+      ],
+      "members": [
+        {
+          "title": "拜耳1类新药阿舒克森片国内获批上市！非心源性缺血性卒中二级预防迎来FXIa抑制剂全新解决方案",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_386142",
+          "score": 8.4,
+          "reasoning": "中国获批上市构成全球Ⅲ期OCEANIC-STROKE的结果性节点，报道提供HR、95%置信区间和P值，明确支持主要终点达到；项目归入中国栏目，依据为NMPA申报及获批背景。"
+        },
+        {
+          "title": "全球首创，中国率先批准！拜耳FXIa抑制剂舒华博（阿舒克森片）获批，开启卒中管理新纪元",
+          "url": "https://www.drugtimes.cn/2026/10/27/quanqiushouchuangzhongguoshuaixianpizhunbaierfxiayizhijishuh/",
+          "score": 8.1,
+          "reasoning": "NMPA批准是全球大型Ⅲ期卒中研究转化出的中国监管结果性节点，且报道强调首创性，值得与完整获批资料交叉核实；项目归入中国栏目，依据为中国申报和批准。"
+        }
+      ],
+      "reasoning": "中国获批上市构成全球Ⅲ期OCEANIC-STROKE的结果性节点，报道提供HR、95%置信区间和P值，明确支持主要终点达到；项目归入中国栏目，依据为NMPA申报及获批背景。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:sacituzumab-tirumotecan",
+      "lead_id": "f31850d6c1d2c8bd",
+      "title": "科伦博泰/默沙东TROP2 ADC登ESMO，Ⅲ期研究实锤芦康沙妥珠单抗为子宫内膜癌带来生存新突破",
+      "score": 8.4,
+      "channel": "china",
+      "member_ids": [
+        "f31850d6c1d2c8bd"
+      ],
+      "members": [
+        {
+          "title": "科伦博泰/默沙东TROP2 ADC登ESMO，Ⅲ期研究实锤芦康沙妥珠单抗为子宫内膜癌带来生存新突破",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386084",
+          "score": 8.4,
+          "reasoning": "全球Ⅲ期研究在ESMO口头报告PFS和OS两项主要终点显著改善，并提供HR和P值，属于有统计检验的确证性结果；项目归入中国栏目，依据为中国原研ADC及中企主导开发。"
+        }
+      ],
+      "reasoning": "全球Ⅲ期研究在ESMO口头报告PFS和OS两项主要终点显著改善，并提供HR和P值，属于有统计检验的确证性结果；项目归入中国栏目，依据为中国原研ADC及中企主导开发。",
+      "verify_todo": [
+        "核实TroFuse-005完整统计报告及数据截止日期",
+        "核实PFS和OS主要终点层级及多重性控制",
+        "核实安全性、停药率和后续监管计划"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:elranatamab",
+      "lead_id": "ae01d01425c77cea",
+      "title": "<![CDATA[Elranatamab Improves PFS in Relapsed/Refractory Multiple Myeloma]]>",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "ae01d01425c77cea",
+        "bf4effb200c882bf"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Elranatamab Improves PFS in Relapsed/Refractory Multiple Myeloma]]>",
+          "url": "https://www.targetedonc.com/view/elranatamab-improves-pfs-in-relapsed-refractory-multiple-myeloma",
+          "score": 7.2,
+          "reasoning": "标题明确报告复发难治性多发性骨髓瘤中的PFS改善，属于文字来源的疗效统计结论；该疾病存在显著未满足需求，值得报道，但需补充研究分期、效应量和成熟总生存数据。"
+        },
+        {
+          "title": "<![CDATA[Elranatamab Meets Phase 3 PFS End Point in R/R Myeloma After Anti-CD38 Therapy and Lenalidomide]]>",
+          "url": "https://www.onclive.com/view/elranatamab-meets-phase-3-pfs-end-point-in-r-r-myeloma-after-anti-cd38-therapy-and-lenalidomide",
+          "score": 7.2,
+          "reasoning": "标题明确报告Ⅲ期研究达到PFS主要终点，属于文字来源的统计结论；复发难治性骨髓瘤的未满足需求和后期开发阶段使其具有较高报道价值，但需核实效应量及成熟OS。"
+        }
+      ],
+      "reasoning": "标题明确报告复发难治性多发性骨髓瘤中的PFS改善，属于文字来源的疗效统计结论；该疾病存在显著未满足需求，值得报道，但需补充研究分期、效应量和成熟总生存数据。",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:tocilizumab",
+      "lead_id": "b5e7611ffb77b0e5",
+      "title": "首个且唯一！罗氏甲状腺眼病适应证获批上市",
+      "score": 6.2,
+      "channel": "global",
+      "member_ids": [
+        "b5e7611ffb77b0e5",
+        "105235b26fe327a9"
+      ],
+      "members": [
+        {
+          "title": "首个且唯一！罗氏甲状腺眼病适应证获批上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385215",
+          "score": 6.2,
+          "reasoning": "标题提供明确监管审批结论，并声称该适应症具有首个及唯一的差异化定位，具备较高报道价值；不过底层疗效统计和完整监管依据尚未在标题中呈现，发布日期未知。"
+        },
+        {
+          "title": "罗氏创新药物获批新适应症，用于成人甲状腺眼病治疗",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385212",
+          "score": 6.0,
+          "reasoning": "成人甲状腺眼病的新适应症获批构成明确监管结果，适合从临床获益和可及性角度报道；但标题没有呈现底层试验的统计结论或具体疗效数字，且发布日期未知。"
+        }
+      ],
+      "reasoning": "标题提供明确监管审批结论，并声称该适应症具有首个及唯一的差异化定位，具备较高报道价值；不过底层疗效统计和完整监管依据尚未在标题中呈现，发布日期未知。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:camizestrant",
+      "lead_id": "20b3f5bcd85c53c2",
+      "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "20b3f5bcd85c53c2"
+      ],
+      "members": [
+        {
+          "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/fda-grants-accelerated-approval-to-camizestrant-with-a-cdk4-6-inhibitor-for-esr1-mutated-hr-positive-her2-negative-locally-advanced-or-metastatic-breast-cancer",
+          "score": 7.4,
+          "reasoning": "FDA加速批准是基于SERENA-6疗效证据的监管结果节点，标题明确指向特定生物标志物人群；项目属全球市场，但条目未呈现完整统计量，因此仍需核实主要终点、效应量和审评依据。"
+        }
+      ],
+      "reasoning": "FDA加速批准是基于SERENA-6疗效证据的监管结果节点，标题明确指向特定生物标志物人群；项目属全球市场，但条目未呈现完整统计量，因此仍需核实主要终点、效应量和审评依据。",
+      "verify_todo": [
+        "核实SERENA-6的主要终点、PFS效应量、置信区间和P值",
+        "核实加速批准的适用人群及后续确证性试验要求",
+        "核实批准日期和监管标签措辞"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    }
+  ]
+}
