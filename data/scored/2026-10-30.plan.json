@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-30",
+  "count": 6,
+  "plan": [
+    {
+      "type": "milestone",
+      "cluster_key": "drug:asundexian",
+      "lead_id": "fdc2b13da27d4e4a",
+      "title": "全球首创，中国率先批准！拜耳FXIa抑制剂舒华博（阿舒克森片）获批，开启卒中管理新纪元",
+      "score": 8.1,
+      "channel": "china",
+      "member_ids": [
+        "fdc2b13da27d4e4a"
+      ],
+      "members": [
+        {
+          "title": "全球首创，中国率先批准！拜耳FXIa抑制剂舒华博（阿舒克森片）获批，开启卒中管理新纪元",
+          "url": "https://www.drugtimes.cn/2026/10/27/quanqiushouchuangzhongguoshuaixianpizhunbaierfxiayizhijishuh/",
+          "score": 8.1,
+          "reasoning": "NMPA批准构成明确监管结论，若其全球首创和抗卒中适应症均获官方确认，则具有较高临床与首创性价值；本条未提供支持批准的终点统计结果。"
+        }
+      ],
+      "reasoning": "NMPA批准构成明确监管结论，若其全球首创和抗卒中适应症均获官方确认，则具有较高临床与首创性价值；本条未提供支持批准的终点统计结果。",
+      "verify_todo": [
+        "以NMPA官方信息核实批准日期、完整适应症及全球首创表述",
+        "核实支持批准的Ⅲ期试验、主要终点、效应量、样本量及出血安全性"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:sone-ve",
+      "lead_id": "3f613425e865ff85",
+      "title": "CLARITY-Gastric01全球III期临床试验结果公布，晚期胃癌患者有望迎来治疗新选择",
+      "score": 6.2,
+      "channel": "china",
+      "member_ids": [
+        "3f613425e865ff85"
+      ],
+      "members": [
+        {
+          "title": "CLARITY-Gastric01全球III期临床试验结果公布，晚期胃癌患者有望迎来治疗新选择",
+          "url": "https://bydrug.pharmcube.com/news/detail/356c9af0a92895b8ec55d81222d28ce5",
+          "score": 6.2,
+          "reasoning": "全球III期、晚期胃癌未满足需求较高，且素材将Sone-Ve描述为CLDN18.2赛道首创，值得重点核查。现有文本仅称“试验结果公布”，没有明确统计结论、效应量或P值，因此目前只能视为疗效结果待判定，而非已证实达到主要终点；中国归类依据为该药源于中国团队及其合资开发安排。"
+        }
+      ],
+      "reasoning": "全球III期、晚期胃癌未满足需求较高，且素材将Sone-Ve描述为CLDN18.2赛道首创，值得重点核查。现有文本仅称“试验结果公布”，没有明确统计结论、效应量或P值，因此目前只能视为疗效结果待判定，而非已证实达到主要终点；中国归类依据为该药源于中国团队及其合资开发安排。",
+      "verify_todo": [
+        "核实CLARITY-Gastric01主要终点是否达到，以及各组样本量、HR、置信区间和P值",
+        "核实报道所称全球首个CLDN18.2同类ADC是否经独立来源确认",
+        "核实完整结果是否已在会议或期刊公开"
+      ],
+      "flags": [],
+      "endpoint_verdict": "unclear",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:upadacitinib",
+      "lead_id": "8aacfb6d05477a5a",
+      "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+      "score": 6.1,
+      "channel": "china",
+      "member_ids": [
+        "8aacfb6d05477a5a"
+      ],
+      "members": [
+        {
+          "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_385219",
+          "score": 6.1,
+          "reasoning": "斑秃新适应症获批属于明确监管进展，可作为支持该适应症临床获益的后续节点；标题未披露关键试验统计量及批准地区。发布日期未知。"
+        }
+      ],
+      "reasoning": "斑秃新适应症获批属于明确监管进展，可作为支持该适应症临床获益的后续节点；标题未披露关键试验统计量及批准地区。发布日期未知。",
+      "verify_todo": [
+        "核实监管机构、批准日期及斑秃适应症的具体人群",
+        "核实支持批准的关键Ⅲ期研究、主要终点和统计结果",
+        "核实相关不良事件和停药率"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:imetelstat",
+      "lead_id": "2bdf54f8869e557a",
+      "title": "<![CDATA[Geron Halts Phase 3 Imetelstat Trial in Relapsed/Refractory Myelofibrosis ]]>",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "2bdf54f8869e557a",
+        "218c8508489ac519"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Geron Halts Phase 3 Imetelstat Trial in Relapsed/Refractory Myelofibrosis ]]>",
+          "url": "https://www.targetedonc.com/view/geron-halts-phase-3-imetelstat-trial-in-relapsed-refractory-myelofibrosis",
+          "score": 7.4,
+          "reasoning": "III期IMpactMF试验终止属于高影响临床事件，复发或难治性骨髓纤维化治疗选择有限，值得进行失败复盘。标题仅能确认终止状态，尚不足以判断是疗效未达标、安全性问题还是其他原因。"
+        },
+        {
+          "title": "<![CDATA[Phase 3 IMpactMF Trial Evaluating Imetelstat in R/R Myelofibrosis Is Discontinued]]>",
+          "url": "https://www.onclive.com/view/phase-3-impactmf-trial-evaluating-imetelstat-in-r-r-myelofibrosis-is-discontinued",
+          "score": 7.4,
+          "reasoning": "III期IMpactMF试验终止对复发或难治性骨髓纤维化项目具有行业级影响，应纳入终止复盘。标题可确认试验停止，但未说明是疗效不足、安全性问题还是商业或运营原因，因此不能进一步判定失败性质。"
+        }
+      ],
+      "reasoning": "III期IMpactMF试验终止属于高影响临床事件，复发或难治性骨髓纤维化治疗选择有限，值得进行失败复盘。标题仅能确认终止状态，尚不足以判断是疗效未达标、安全性问题还是其他原因。",
+      "_idx": 4
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:camizestrant",
+      "lead_id": "20b3f5bcd85c53c2",
+      "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "20b3f5bcd85c53c2"
+      ],
+      "members": [
+        {
+          "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/fda-grants-accelerated-approval-to-camizestrant-with-a-cdk4-6-inhibitor-for-esr1-mutated-hr-positive-her2-negative-locally-advanced-or-metastatic-breast-cancer",
+          "score": 7.3,
+          "reasoning": "FDA授予Camizestrant联合CDK4/6抑制剂加速批准，是基于SERENA-6的重要监管结果，具有明确临床开发价值。该评分依据监管获批所代表的监管结论，不据此推断OS获益；加速批准所依据的具体终点和成熟度仍需核实。"
+        }
+      ],
+      "reasoning": "FDA授予Camizestrant联合CDK4/6抑制剂加速批准，是基于SERENA-6的重要监管结果，具有明确临床开发价值。该评分依据监管获批所代表的监管结论，不据此推断OS获益；加速批准所依据的具体终点和成熟度仍需核实。",
+      "verify_todo": [
+        "核实FDA批准日期、完整标签、联合药物及适用治疗线次",
+        "核实SERENA-6的主要终点、HR、置信区间、P值和OS数据",
+        "核实加速批准所依据的是替代终点还是完整临床获益",
+        "核实后续确证性试验要求"
+      ],
+      "flags": [],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:apazunersen",
+      "lead_id": "e1c6bcb0cc4ff6a4",
+      "title": "[Correspondence] Communication: the missing pillar of clinical trial governance",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "e1c6bcb0cc4ff6a4"
+      ],
+      "members": [
+        {
+          "title": "[Correspondence] Communication: the missing pillar of clinical trial governance",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02030-1/fulltext?rss=yes",
+          "score": 7.3,
+          "reasoning": "Lancet通信明确提及Ⅲ期ASPIRE试验结果为阴性，属于值得重视的失败读出，罕见神经发育疾病领域尤其缺乏有效治疗；但通信本身不是完整数据论文，具体终点统计量仍需核实。"
+        }
+      ],
+      "reasoning": "Lancet通信明确提及Ⅲ期ASPIRE试验结果为阴性，属于值得重视的失败读出，罕见神经发育疾病领域尤其缺乏有效治疗；但通信本身不是完整数据论文，具体终点统计量仍需核实。",
+      "verify_todo": [
+        "核实ASPIRE的主要和关键次要终点、效应量、置信区间及p值",
+        "核实安全性、停药和亚组结果",
+        "确认试验于2026年9月宣布的负面结果及后续开发状态"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
+    }
+  ]
+}

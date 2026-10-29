@@ -1,0 +1,2020 @@
+{
+  "fdc2b13da27d4e4a": {
+    "id": "fdc2b13da27d4e4a",
+    "title": "全球首创，中国率先批准！拜耳FXIa抑制剂舒华博（阿舒克森片）获批，开启卒中管理新纪元",
+    "score": 8.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "dc7d0ff6adeafa2b": {
+    "id": "dc7d0ff6adeafa2b",
+    "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+    "score": 8.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得积极结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:取得积极结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
+    "registry": {
+      "best": {
+        "nct": "NCT05382442",
+        "title": "A Study of AK112 With or Without AK117 in Metastatic Colorectal Cancer",
+        "official_title": "A Phase II Study of AK112 With or Without AK117 for Patients With Metastatic Colorectal Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Metastatic Colorectal Cancer"
+        ],
+        "interventions": [
+          "AK112",
+          "AK117",
+          "Oxaliplatin",
+          "Capecitabine",
+          "Irinotecan",
+          "Leucovorin",
+          "5-fluorouracil"
+        ],
+        "primary_outcomes": [
+          "Objective response rates (ORR)",
+          "Number of participants with adverse events (AEs)"
+        ],
+        "enrollment": 254,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-06-27",
+        "primary_completion": "2026-05-15",
+        "completion": "2028-08-12",
+        "last_update": "2025-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05382442",
+          "title": "A Study of AK112 With or Without AK117 in Metastatic Colorectal Cancer",
+          "official_title": "A Phase II Study of AK112 With or Without AK117 for Patients With Metastatic Colorectal Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Metastatic Colorectal Cancer"
+          ],
+          "interventions": [
+            "AK112",
+            "AK117",
+            "Oxaliplatin",
+            "Capecitabine",
+            "Irinotecan",
+            "Leucovorin",
+            "5-fluorouracil"
+          ],
+          "primary_outcomes": [
+            "Objective response rates (ORR)",
+            "Number of participants with adverse events (AEs)"
+          ],
+          "enrollment": 254,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-27",
+          "primary_completion": "2026-05-15",
+          "completion": "2028-08-12",
+          "last_update": "2025-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06537011",
+          "title": "AK112 Plus AP Regimen for Operable Locally Advanced Head and Neck Squamous Cell Carcinoma",
+          "official_title": "An Exploratory Phase II Study of Neoadjuvant Treatment With AK112 Plus AP Regimen for Operable Locally Advanced Head and Neck Squamous Cell Carcinoma",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+          "conditions": [
+            "Neoadjuvant Therapy of Operable Locally Advanced Head and Neck Squamous Cell Carcinoma"
+          ],
+          "interventions": [
+            "AK112"
+          ],
+          "primary_outcomes": [
+            "EFS"
+          ],
+          "enrollment": 36,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-01",
+          "primary_completion": "2027-07-15",
+          "completion": "2028-07-30",
+          "last_update": "2024-08-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07630077",
+          "title": "Trastuzumab Rezetecan(SHR-A1811) Combined With Ivonescimab (AK112) in Locally Advanced or Metastatic Non-small Cell Lung Cancer Harboring HER2 Gene Abnormalities",
+          "official_title": "Evaluation of the Efficacy and Safety of Trastuzumab Rezetecan(SHR-A1811) Combined With Ivonescimab (AK112) in Locally Advanced or Metastatic Non-small Cell Lung Cancer With HER2 Gene Abnormalities in a Phase II Clinical Trial",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Sun Yat-sen University",
+          "conditions": [
+            "Non Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Trastuzumab Rezetecan",
+            "ivonescimab"
+          ],
+          "primary_outcomes": [
+            "Progression free survival"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-01",
+          "primary_completion": "2027-07-01",
+          "completion": "2028-07-01",
+          "last_update": "2026-06-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AK112",
+          "CD276"
+        ],
+        "sponsor": [
+          "康方生物",
+          "抗是康方生物",
+          "摩熵医药",
+          "百利天恒药业"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso",
+          "摩熵医药",
+          "百利天恒药业"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "2bdf54f8869e557a": {
+    "id": "2bdf54f8869e557a",
+    "title": "<![CDATA[Geron Halts Phase 3 Imetelstat Trial in Relapsed/Refractory Myelofibrosis ]]>",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:Halts"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:Halts"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:Halts",
+    "registry": {
+      "best": {
+        "nct": "NCT01731951",
+        "title": "Imetelstat Sodium in Treating Participants With Primary or Secondary Myelofibrosis",
+        "official_title": "A Pilot Open-Label Study of the Efficacy and Safety of Imetelstat (GRN163L) in Myelofibrosis and Other Myeloid Malignancies",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Geron Corporation",
+        "conditions": [
+          "Primary Myelofibrosis",
+          "Secondary Myelofibrosis",
+          "Myeloid Malignancies"
+        ],
+        "interventions": [
+          "Imetelstat"
+        ],
+        "primary_outcomes": [
+          "MF Participants: Percentage of Participants With Overall Response (OR) - (Clinical Improvement[CI] or Partial Remission[PR] or Complete Remission[CR]) Per International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) Criteria",
+          "Blastic MF/AML Participants: Percentage of Participants With Overall Response",
+          "MDS Participants: Percentage of Participants With Overall Response (Hematologic Improvement [HI] or PR or CR) Per IWG Criteria"
+        ],
+        "enrollment": 80,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2012-10-29",
+        "primary_completion": "2018-05-24",
+        "completion": "2018-05-24",
+        "last_update": "2021-09-21",
+        "results_first_post": "2021-09-21",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01731951",
+          "title": "Imetelstat Sodium in Treating Participants With Primary or Secondary Myelofibrosis",
+          "official_title": "A Pilot Open-Label Study of the Efficacy and Safety of Imetelstat (GRN163L) in Myelofibrosis and Other Myeloid Malignancies",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Primary Myelofibrosis",
+            "Secondary Myelofibrosis",
+            "Myeloid Malignancies"
+          ],
+          "interventions": [
+            "Imetelstat"
+          ],
+          "primary_outcomes": [
+            "MF Participants: Percentage of Participants With Overall Response (OR) - (Clinical Improvement[CI] or Partial Remission[PR] or Complete Remission[CR]) Per International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) Criteria",
+            "Blastic MF/AML Participants: Percentage of Participants With Overall Response",
+            "MDS Participants: Percentage of Participants With Overall Response (Hematologic Improvement [HI] or PR or CR) Per IWG Criteria"
+          ],
+          "enrollment": 80,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2012-10-29",
+          "primary_completion": "2018-05-24",
+          "completion": "2018-05-24",
+          "last_update": "2021-09-21",
+          "results_first_post": "2021-09-21",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02598661",
+          "title": "Study to Evaluate Imetelstat (GRN163L) in Participants With International Prognostic Scoring System (IPSS) Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS)",
+          "official_title": "A Study to Evaluate Imetelstat (GRN163L) in Transfusion-Dependent Subjects With IPSS Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS) That is Relapsed/Refractory to Erythropoiesis-Stimulating Agent (ESA) Treatment",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Myelodysplastic Syndromes"
+          ],
+          "interventions": [
+            "Imetelstat Sodium",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Phase 2: Percentage of Participants Without Any Red Blood Cell (RBC) Transfusion During Any Consecutive 8-Weeks Period (All Participants)",
+            "Phase 2: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period in Target Population",
+            "Phase 3: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period"
+          ],
+          "enrollment": 289,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-01-12",
+          "primary_completion": "2023-10-13",
+          "completion": "2026-10-13",
+          "last_update": "2026-07-17",
+          "results_first_post": "2025-02-14",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Israel",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Russia",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05583552",
+          "title": "Study to Evaluate Imetelstat in Patients With High-Risk MDS or AML Failing HMA-based Therapy",
+          "official_title": "A Phase II Study Evaluating the Efficacy and Safety of Imetelstat in Patients With HR Myelodysplastic Syndromes or AML Failing HMA-based Therapy",
+          "acronym": "IMpress",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "GCP-Service International West GmbH",
+          "conditions": [
+            "Myelodysplastic Syndromes",
+            "Acute Myeloid Leukemia"
+          ],
+          "interventions": [
+            "Imetelstat sodium"
+          ],
+          "primary_outcomes": [
+            "Overall Hematological Response Rate of Participants After Treatment With Imetelstat"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-06-05",
+          "primary_completion": "2025-03-27",
+          "completion": "2025-09-30",
+          "last_update": "2026-10-02",
+          "results_first_post": "2026-05-12",
+          "has_results": true,
+          "countries": [
+            "Australia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Imetelstat"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "20b3f5bcd85c53c2": {
+    "id": "20b3f5bcd85c53c2",
+    "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:benefit"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:benefit"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:benefit",
+    "registry": {
+      "best": {
+        "nct": "NCT04862663",
+        "title": "Capivasertib + CDK4/6i + Fulvestrant for Advanced/Metastatic HR+/HER2- Breast Cancer (CAPItello-292)",
+        "official_title": "A Phase Ib/III, Open-label, Randomised Study of Capivasertib Plus CDK4/6 Inhibitors and Fulvestrant Versus CDK4/6 Inhibitors and Fulvestrant in Hormone Receptor-Positive and Human Epidermal Growth Factor Receptor 2-Negative Locally Advanced, Unresectable or Metastatic Breast Cancer (CAPItello-292)",
+        "acronym": "CAPItello-292",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AstraZeneca",
+        "conditions": [
+          "Locally Advanced (Inoperable) or Metastatic Breast Cancer"
+        ],
+        "interventions": [
+          "Capivasertib",
+          "Fulvestrant",
+          "Palbociclib",
+          "Ribociclib",
+          "Abemaciclib"
+        ],
+        "primary_outcomes": [
+          "Phase Ib: 1. The number of participants with dose-limiting toxicity, as defined in the protocol.",
+          "Phase Ib: 2. The number of participants with treatment-related adverse events.",
+          "Phase Ib: 3. The number of participants with treatment-related serious adverse events.",
+          "Phase III: 1. Progression Free Survival (PFS)."
+        ],
+        "enrollment": 893,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-05-10",
+        "primary_completion": "2027-11-01",
+        "completion": "2029-08-14",
+        "last_update": "2026-08-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "China",
+          "Denmark",
+          "France",
+          "Germany",
+          "India",
+          "Italy"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04862663",
+          "title": "Capivasertib + CDK4/6i + Fulvestrant for Advanced/Metastatic HR+/HER2- Breast Cancer (CAPItello-292)",
+          "official_title": "A Phase Ib/III, Open-label, Randomised Study of Capivasertib Plus CDK4/6 Inhibitors and Fulvestrant Versus CDK4/6 Inhibitors and Fulvestrant in Hormone Receptor-Positive and Human Epidermal Growth Factor Receptor 2-Negative Locally Advanced, Unresectable or Metastatic Breast Cancer (CAPItello-292)",
+          "acronym": "CAPItello-292",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AstraZeneca",
+          "conditions": [
+            "Locally Advanced (Inoperable) or Metastatic Breast Cancer"
+          ],
+          "interventions": [
+            "Capivasertib",
+            "Fulvestrant",
+            "Palbociclib",
+            "Ribociclib",
+            "Abemaciclib"
+          ],
+          "primary_outcomes": [
+            "Phase Ib: 1. The number of participants with dose-limiting toxicity, as defined in the protocol.",
+            "Phase Ib: 2. The number of participants with treatment-related adverse events.",
+            "Phase Ib: 3. The number of participants with treatment-related serious adverse events.",
+            "Phase III: 1. Progression Free Survival (PFS)."
+          ],
+          "enrollment": 893,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-05-10",
+          "primary_completion": "2027-11-01",
+          "completion": "2029-08-14",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "India",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04964934",
+          "title": "Phase III Study to Assess AZD9833+ CDK4/6 Inhibitor in HR+/HER2-MBC With Detectable ESR1m Before Progression (SERENA-6)",
+          "official_title": "A Phase III, Double-blind, Randomised Study to Assess Switching to AZD9833 (a Next Generation, Oral SERD) + CDK4/6 Inhibitor vs Continuing Aromatase Inhibitor (Letrozole or Anastrozole)+ CDK4/6 Inhibitor in HR+/HER2-MBC Patients With Detectable ESR1Mutation Without Disease Progression During 1L Treatment With Aromatase Inhibitor+ CDK4/6 Inhibitor- A ctDNA Guided Early Switch Study",
+          "acronym": "SERENA-6",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AstraZeneca",
+          "conditions": [
+            "ER-Positive HER2-Negative Breast Cancer"
+          ],
+          "interventions": [
+            "AZD9833",
+            "AZD9833 Placebo",
+            "Anastrozole",
+            "Anastrozole placebo",
+            "Letrozole",
+            "Letrozole placebo",
+            "Palbociclib",
+            "Abemaciclib",
+            "Luteinizing hormone-releasing hormone (LHRH) agonist",
+            "Ribociclib"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS) assessed by the Investigator as defined by response evaluation criteria in solid tumors (RECIST version 1.1)"
+          ],
+          "enrollment": 315,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-06-30",
+          "primary_completion": "2025-06-30",
+          "completion": "2028-09-01",
+          "last_update": "2026-09-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Bulgaria",
+            "Canada",
+            "France",
+            "Germany",
+            "Hungary",
+            "Israel",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06341621",
+          "title": "Chemotherapy Omission in ER+/HER2- Breast Cancer With 1-3 Positive Lymph Nodes Receiving Extended Adjuvant Abemaciclib",
+          "official_title": "A Prospective, Randomized, Open-label, Multicenter Phase III Study to Explore Chemotherapy Omission in ER+/HER2-endocrine-sensitive Breast Cancer With 1-3 Positive Lymph Nodes Receiving Extended Adjuvant Abemaciclib",
+          "acronym": "Rainbow",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Fudan University",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "3-year abemaciclib without chemo",
+            "treatment of physician's choice"
+          ],
+          "primary_outcomes": [
+            "Invasive disease free survival"
+          ],
+          "enrollment": 1900,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-04-02",
+          "primary_completion": "2027-02-25",
+          "completion": "2029-01-01",
+          "last_update": "2024-04-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT04964934"
+        ],
+        "drug": [
+          "abemaciclib",
+          "palbociclib",
+          "ribociclib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "0d936a963319ef34": {
+    "id": "0d936a963319ef34",
+    "title": "5-year outcomes of chemotherapy de-escalation in HER2-positive early breast cancer and exploratory circulating tumor DNA analyses from the randomized phase 2 PHERGain trial",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "218c8508489ac519": {
+    "id": "218c8508489ac519",
+    "title": "<![CDATA[Phase 3 IMpactMF Trial Evaluating Imetelstat in R/R Myelofibrosis Is Discontinued]]>",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:Discontinued"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:Discontinued"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:Discontinued",
+    "registry": {
+      "best": {
+        "nct": "NCT01731951",
+        "title": "Imetelstat Sodium in Treating Participants With Primary or Secondary Myelofibrosis",
+        "official_title": "A Pilot Open-Label Study of the Efficacy and Safety of Imetelstat (GRN163L) in Myelofibrosis and Other Myeloid Malignancies",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Geron Corporation",
+        "conditions": [
+          "Primary Myelofibrosis",
+          "Secondary Myelofibrosis",
+          "Myeloid Malignancies"
+        ],
+        "interventions": [
+          "Imetelstat"
+        ],
+        "primary_outcomes": [
+          "MF Participants: Percentage of Participants With Overall Response (OR) - (Clinical Improvement[CI] or Partial Remission[PR] or Complete Remission[CR]) Per International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) Criteria",
+          "Blastic MF/AML Participants: Percentage of Participants With Overall Response",
+          "MDS Participants: Percentage of Participants With Overall Response (Hematologic Improvement [HI] or PR or CR) Per IWG Criteria"
+        ],
+        "enrollment": 80,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2012-10-29",
+        "primary_completion": "2018-05-24",
+        "completion": "2018-05-24",
+        "last_update": "2021-09-21",
+        "results_first_post": "2021-09-21",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01731951",
+          "title": "Imetelstat Sodium in Treating Participants With Primary or Secondary Myelofibrosis",
+          "official_title": "A Pilot Open-Label Study of the Efficacy and Safety of Imetelstat (GRN163L) in Myelofibrosis and Other Myeloid Malignancies",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Primary Myelofibrosis",
+            "Secondary Myelofibrosis",
+            "Myeloid Malignancies"
+          ],
+          "interventions": [
+            "Imetelstat"
+          ],
+          "primary_outcomes": [
+            "MF Participants: Percentage of Participants With Overall Response (OR) - (Clinical Improvement[CI] or Partial Remission[PR] or Complete Remission[CR]) Per International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) Criteria",
+            "Blastic MF/AML Participants: Percentage of Participants With Overall Response",
+            "MDS Participants: Percentage of Participants With Overall Response (Hematologic Improvement [HI] or PR or CR) Per IWG Criteria"
+          ],
+          "enrollment": 80,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2012-10-29",
+          "primary_completion": "2018-05-24",
+          "completion": "2018-05-24",
+          "last_update": "2021-09-21",
+          "results_first_post": "2021-09-21",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02598661",
+          "title": "Study to Evaluate Imetelstat (GRN163L) in Participants With International Prognostic Scoring System (IPSS) Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS)",
+          "official_title": "A Study to Evaluate Imetelstat (GRN163L) in Transfusion-Dependent Subjects With IPSS Low or Intermediate-1 Risk Myelodysplastic Syndrome (MDS) That is Relapsed/Refractory to Erythropoiesis-Stimulating Agent (ESA) Treatment",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Myelodysplastic Syndromes"
+          ],
+          "interventions": [
+            "Imetelstat Sodium",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Phase 2: Percentage of Participants Without Any Red Blood Cell (RBC) Transfusion During Any Consecutive 8-Weeks Period (All Participants)",
+            "Phase 2: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period in Target Population",
+            "Phase 3: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period"
+          ],
+          "enrollment": 289,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-01-12",
+          "primary_completion": "2023-10-13",
+          "completion": "2026-10-13",
+          "last_update": "2026-07-17",
+          "results_first_post": "2025-02-14",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Israel",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Russia",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05583552",
+          "title": "Study to Evaluate Imetelstat in Patients With High-Risk MDS or AML Failing HMA-based Therapy",
+          "official_title": "A Phase II Study Evaluating the Efficacy and Safety of Imetelstat in Patients With HR Myelodysplastic Syndromes or AML Failing HMA-based Therapy",
+          "acronym": "IMpress",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "GCP-Service International West GmbH",
+          "conditions": [
+            "Myelodysplastic Syndromes",
+            "Acute Myeloid Leukemia"
+          ],
+          "interventions": [
+            "Imetelstat sodium"
+          ],
+          "primary_outcomes": [
+            "Overall Hematological Response Rate of Participants After Treatment With Imetelstat"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-06-05",
+          "primary_completion": "2025-03-27",
+          "completion": "2025-09-30",
+          "last_update": "2026-10-02",
+          "results_first_post": "2026-05-12",
+          "has_results": true,
+          "countries": [
+            "Australia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Imetelstat"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "3100042f92631599": {
+    "id": "3100042f92631599",
+    "title": "<![CDATA[T-DXd Gains EU Approval in Residual HER2+ Early Breast Cancer]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "442650386eb63cc2": {
+    "id": "442650386eb63cc2",
+    "title": "<![CDATA[Combining 2 VEGF-Blocking Targeted Therapies Significantly Boosted Survival in Kidney Cancer Study]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "465fc156799e51c6": {
+    "id": "465fc156799e51c6",
+    "title": "Chemo-Free First-Line Treatment Yields Huge PFS Gain in dMMR Endometrial Cancer",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "105235b26fe327a9": {
+    "id": "105235b26fe327a9",
+    "title": "罗氏创新药物获批新适应症，用于成人甲状腺眼病治疗",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "9a81646e1ff41141": {
+    "id": "9a81646e1ff41141",
+    "title": "[Articles] Efficacy and safety of mitapivat in patients with sickle cell disease (RISE UP): a phase 3, double-blind, global, randomised, placebo-controlled trial",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "3f613425e865ff85": {
+    "id": "3f613425e865ff85",
+    "title": "CLARITY-Gastric01全球III期临床试验结果公布，晚期胃癌患者有望迎来治疗新选择",
+    "score": 6.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:阳性结果"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:阳性结果"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:阳性结果",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "亚与乐普生物"
+        ],
+        "sponsor_en": [
+          "亚与乐普生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（亚与乐普生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "6abb92b6478c7fe4": {
+    "id": "6abb92b6478c7fe4",
+    "title": "罗氏IL-6R抗体获FDA批准扩展适应症；RAS抑制剂获欧盟上市推荐……｜产业新闻",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "14706cc4727b5af0": {
+    "id": "14706cc4727b5af0",
+    "title": "Beeline Medicines将在ACR 2026会议上展示Afimetoran治疗系统性红斑狼疮的II期试验结果【AI生成】",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到了主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到了主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到了主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "临床阶段生物",
+          "复宏汉霖生物",
+          "技术股份",
+          "南京传奇生物"
+        ],
+        "sponsor_en": [
+          "临床阶段生物",
+          "复宏汉霖生物",
+          "技术股份",
+          "Legend Biotech"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "8aacfb6d05477a5a": {
+    "id": "8aacfb6d05477a5a",
+    "title": "扩版图、拓纵深：乌帕替尼斑秃新适应症获批力助艾伯维改写IMSD治疗格局",
+    "score": 6.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e1c6bcb0cc4ff6a4": {
+    "id": "e1c6bcb0cc4ff6a4",
+    "title": "[Correspondence] Communication: the missing pillar of clinical trial governance",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:negative results"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "未达到表述:negative results"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：未达到表述:negative results",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [
+          "NCT06617429",
+          "NCT04259281",
+          "NCT07157254",
+          "NCT06415344"
+        ],
+        "drug": [
+          "apazunersen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "bf4effb200c882bf": {
+    "id": "bf4effb200c882bf",
+    "title": "<![CDATA[Elranatamab Meets Phase 3 PFS End Point in R/R Myeloma After Anti-CD38 Therapy and Lenalidomide]]>",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05932290",
+        "title": "A Study to Learn About the Effectiveness of the Medicine Called Elranatamab in People With Relapsed Refractory Multiple Myeloma",
+        "official_title": "Comparative Effectiveness of Elranatamab (PF-06863135) in Clinical Study C1071003 Versus Standard of Care (SOC) in Real-World (RW) External Control Arms in Patients With Triple-Class Refractory (TCR) Multiple Myeloma (MM)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "",
+        "sponsor": "Pfizer",
+        "conditions": [
+          "Multiple Myeloma"
+        ],
+        "interventions": [
+          "Elranatamab",
+          "Standard of care"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS): Study C1071003 Cohort A Versus RWD COTA Cohort- Using Unweighted Analysis",
+          "PFS: C1071003 Cohort A Versus COTA Cohort- Using Inverse Probability of Treatment Weights (IPTW)",
+          "PFS: Study C1071003 Cohort A Versus Flatiron Cohort - Using Unweighted Analysis",
+          "PFS: Study C1071003 Cohort A Versus Flatiron Cohort - Using IPTW Analysis"
+        ],
+        "enrollment": 514,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-06-01",
+        "primary_completion": "2023-07-12",
+        "completion": "2023-07-12",
+        "last_update": "2024-10-29",
+        "results_first_post": "2024-10-29",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05932290",
+          "title": "A Study to Learn About the Effectiveness of the Medicine Called Elranatamab in People With Relapsed Refractory Multiple Myeloma",
+          "official_title": "Comparative Effectiveness of Elranatamab (PF-06863135) in Clinical Study C1071003 Versus Standard of Care (SOC) in Real-World (RW) External Control Arms in Patients With Triple-Class Refractory (TCR) Multiple Myeloma (MM)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "",
+          "sponsor": "Pfizer",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Elranatamab",
+            "Standard of care"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS): Study C1071003 Cohort A Versus RWD COTA Cohort- Using Unweighted Analysis",
+            "PFS: C1071003 Cohort A Versus COTA Cohort- Using Inverse Probability of Treatment Weights (IPTW)",
+            "PFS: Study C1071003 Cohort A Versus Flatiron Cohort - Using Unweighted Analysis",
+            "PFS: Study C1071003 Cohort A Versus Flatiron Cohort - Using IPTW Analysis"
+          ],
+          "enrollment": 514,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-06-01",
+          "primary_completion": "2023-07-12",
+          "completion": "2023-07-12",
+          "last_update": "2024-10-29",
+          "results_first_post": "2024-10-29",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05623020",
+          "title": "A Study to Learn About the Effects of the Combination of Elranatamab, Daratumumab and Lenalidomide Compared With Daratumumab, Bortezomib, Lenalidomide, and Dexamethasone in Patients With Newly Diagnosed Multiple Myeloma Who Are Not Candidates for Transplant",
+          "official_title": "AN OPEN-LABEL, 2-ARM, MULTICENTER, RANDOMIZED PHASE 3 STUDY TO EVALUATE THE EFFICACY AND SAFETY OF ELRANATAMAB (PF-06863135) + DARATUMUMAB + LENALIDOMIDE VERSUS DARATUMUMAB + BORTEZOMIB + LENALIDOMIDE + DEXAMETHASONE IN TRANSPLANT-INELIGIBLE PARTICIPANTS WITH NEWLY DIAGNOSED MULTIPLE MYELOMA",
+          "acronym": "MagnetisMM-6",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Pfizer",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Elranatamab",
+            "Daratumumab",
+            "Lenalidomide",
+            "Dexamethasone",
+            "Bortezomib"
+          ],
+          "primary_outcomes": [
+            "Part 1 Dose Limiting Toxicity",
+            "Part 2: Progression free survival per IMWG",
+            "Part 2: Minimal Residual Disease negative CR rate"
+          ],
+          "enrollment": 1060,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-11-10",
+          "primary_completion": "2030-10-18",
+          "completion": "2033-10-03",
+          "last_update": "2026-10-27",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "Finland",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06931704",
+          "title": "Comparison of Elranatamab and Lenalidomide Versus Daratumumab and Lenalidomide as Post-transplant Maintenance Therapy in Patients With Newly Diagnosed Myeloma (ElMMA)",
+          "official_title": "A Multi-center, Open-label, Phase 2 Randomized Study of Elranatamab Plus Lenalidomide Versus Daratumumab Plus Lenalidomide as Post Transplantation Maintenance Therapy in Patients With Newly-diagnosed Myeloma. IFM 2024-06",
+          "acronym": "IFM 2024_06",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Nantes University Hospital",
+          "conditions": [
+            "Multiple Myeloma"
+          ],
+          "interventions": [
+            "Elranatamab",
+            "Daratumumab",
+            "Lenalidomide"
+          ],
+          "primary_outcomes": [
+            "Minimal Residual Disease negativity rate"
+          ],
+          "enrollment": 176,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05-01",
+          "primary_completion": "2030-11-30",
+          "completion": "2031-11-30",
+          "last_update": "2025-04-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Elranatamab",
+          "Lenalidomide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "216d44b8122bcb14": {
+    "id": "216d44b8122bcb14",
+    "title": "<![CDATA[Sac-TMT Plus Pembrolizumab Improves PFS in PD-L1–Negative Nonsquamous NSCLC]]>",
+    "score": 6.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：Due to the Food and Drug Administration's recent approval of Nivolumab plus Ipil"
+      ],
+      "conflict": false,
+      "halt_reason": "enrollment"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：enrollment\n证据：注册库状态=TERMINATED，原因：Due to the Food and Drug Administration's recent approval of Nivolumab plus Ipil",
+    "registry": {
+      "best": {
+        "nct": "NCT03644550",
+        "title": "Anti-Mesothelin Immunotoxin LMB-100 Followed by Pembrolizumab in Malignant Mesothelioma",
+        "official_title": "Phase II Study of the Anti-Mesothelin Immunotoxin LMB-100 Followed by Pembrolizumab in Malignant Mesothelioma",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "Due to the Food and Drug Administration's recent approval of Nivolumab plus Ipilimumab as first line treatment for Mesothelioma, the principal investigator decided to end the study early (prior to reaching enrollment goal).",
+        "phase": "PHASE2",
+        "sponsor": "National Cancer Institute (NCI)",
+        "conditions": [
+          "Mesothelioma"
+        ],
+        "interventions": [
+          "LMB-100",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With an Objective Response (Partial Response + Complete Response)"
+        ],
+        "enrollment": 18,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-12-04",
+        "primary_completion": "2020-08-05",
+        "completion": "2020-11-02",
+        "last_update": "2021-12-02",
+        "results_first_post": "2021-12-02",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03644550",
+          "title": "Anti-Mesothelin Immunotoxin LMB-100 Followed by Pembrolizumab in Malignant Mesothelioma",
+          "official_title": "Phase II Study of the Anti-Mesothelin Immunotoxin LMB-100 Followed by Pembrolizumab in Malignant Mesothelioma",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Due to the Food and Drug Administration's recent approval of Nivolumab plus Ipilimumab as first line treatment for Mesothelioma, the principal investigator decided to end the study early (prior to reaching enrollment goal).",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Mesothelioma"
+          ],
+          "interventions": [
+            "LMB-100",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With an Objective Response (Partial Response + Complete Response)"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-12-04",
+          "primary_completion": "2020-08-05",
+          "completion": "2020-11-02",
+          "last_update": "2021-12-02",
+          "results_first_post": "2021-12-02",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02500576",
+          "title": "Pembrolizumab, Standard Chemotherapy, Tumor Infiltrating Lymphocytes, and High- or Low-Dose Aldesleukin in Treating Patients With Metastatic Melanoma",
+          "official_title": "Phase II Study of MK-3475 in Conjunction With Lymphodepletion, TIL, and High or Low Dose IL-2 in Patients With Metastatic Melanoma",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "M.D. Anderson Cancer Center",
+          "conditions": [
+            "Metastatic Melanoma",
+            "Stage IIIB Cutaneous Melanoma AJCC v7",
+            "Stage IIIC Cutaneous Melanoma AJCC v7",
+            "Stage IV Cutaneous Melanoma AJCC v6 and v7"
+          ],
+          "interventions": [
+            "Aldesleukin",
+            "Cyclophosphamide",
+            "Fludarabine Phosphate",
+            "Laboratory Biomarker Analysis",
+            "Pembrolizumab",
+            "Quality-of-Life Assessment",
+            "Therapeutic Tumor Infiltrating Lymphocytes"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate in Each Arm"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-08-07",
+          "primary_completion": "2022-10-12",
+          "completion": "2022-10-12",
+          "last_update": "2025-01-15",
+          "results_first_post": "2025-01-15",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04784247",
+          "title": "Lenvatinib and Pembrolizumab in People With Advanced Soft Tissue Sarcoma",
+          "official_title": "A Pilot Study of Lenvatinib Plus Pembrolizumab in Patients With Advanced Sarcoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Memorial Sloan Kettering Cancer Center",
+          "conditions": [
+            "Advanced Sarcoma"
+          ],
+          "interventions": [
+            "Lenvatinib",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "best overall response rate"
+          ],
+          "enrollment": 52,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-03-18",
+          "primary_completion": "2027-03",
+          "completion": "2027-03",
+          "last_update": "2026-04-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT03644550），写入前需确认是否同一适应症"
+    }
+  },
+  "ca0c2b20cbea94e1": {
+    "id": "ca0c2b20cbea94e1",
+    "title": "<![CDATA[Petosemtamab Plus Pembrolizumab Improves OS in PD-L1+ HNSCC]]>",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06525220",
+        "title": "A Phase 3 Study to Evaluate Petosemtamab Plus Pembrolizumab vs Pembrolizumab in First-line Treatment of Head and Neck Cancer (LiGeR - HN1)",
+        "official_title": "A Phase 3 Randomized, Open-label Study to Evaluate the Efficacy and Safety of Petosemtamab Plus Pembrolizumab vs Pembrolizumab in First-line Treatment of Recurrent or Metastatic PD-L1+ Head and Neck Squamous Cell Carcinoma",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merus B.V.",
+        "conditions": [
+          "Head and Neck Squamous Cell Carcinoma"
+        ],
+        "interventions": [
+          "Petosemtamab",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS)",
+          "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 as assessed by blinded independent central review (BICR)"
+        ],
+        "enrollment": 699,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-09-25",
+        "primary_completion": "2028-01",
+        "completion": "2030-07",
+        "last_update": "2026-09-25",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Croatia",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06525220",
+          "title": "A Phase 3 Study to Evaluate Petosemtamab Plus Pembrolizumab vs Pembrolizumab in First-line Treatment of Head and Neck Cancer (LiGeR - HN1)",
+          "official_title": "A Phase 3 Randomized, Open-label Study to Evaluate the Efficacy and Safety of Petosemtamab Plus Pembrolizumab vs Pembrolizumab in First-line Treatment of Recurrent or Metastatic PD-L1+ Head and Neck Squamous Cell Carcinoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merus B.V.",
+          "conditions": [
+            "Head and Neck Squamous Cell Carcinoma"
+          ],
+          "interventions": [
+            "Petosemtamab",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)",
+            "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 as assessed by blinded independent central review (BICR)"
+          ],
+          "enrollment": 699,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-09-25",
+          "primary_completion": "2028-01",
+          "completion": "2030-07",
+          "last_update": "2026-09-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Croatia",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06496178",
+          "title": "A Phase 3 Study to Evaluate Petosemtamab Compared With Investigator's Choice Monotherapy in Previously Treated Head and Neck Squamous Cell Carcinoma Patients (LiGeR-HN2)",
+          "official_title": "A Phase 3 Open-label, Randomized Controlled Study to Evaluate the Efficacy and Safety of Petosemtamab Compared With Investigator's Choice Monotherapy Treatment in Previously Treated Patients With Incurable, Metastatic/Recurrent Head and Neck Squamous Cell Carcinoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merus B.V.",
+          "conditions": [
+            "Head and Neck Squamous Cell Carcinoma"
+          ],
+          "interventions": [
+            "Petosemtamab",
+            "Investigator's Choice",
+            "Investigator's Choice",
+            "Investigator's Choice"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 621,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-06-25",
+          "primary_completion": "2028-02",
+          "completion": "2029-03",
+          "last_update": "2026-10-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07702032",
+          "title": "Study of Petosemtamab Plus Chemotherapy Versus Cetuximab Plus Chemotherapy in RAS and BRAF Wild-type, Unresectable or Metastatic, Left-sided Colorectal Cancer (LiGeR-CRC1)",
+          "official_title": "A Randomized, Open-label, Phase 3 Trial of Petosemtamab in Combination With mFOLFOX6 or FOLFIRI Versus Cetuximab in Combination With mFOLFOX6 or FOLFIRI as First-line Treatment for Participants With RAS and BRAF Wild-type, Unresectable or Metastatic, Left-sided Colorectal Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Genmab",
+          "conditions": [
+            "Left-sided Colorectal Cancer"
+          ],
+          "interventions": [
+            "Petosemtamab",
+            "Cetuximab",
+            "FOLFIRI",
+            "mFOLFOX6"
+          ],
+          "primary_outcomes": [
+            "Progression-free Survival (PFS) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 as Assessed by Blinded Independent Central Review (BICR)",
+            "Objective Response Rate (ORR) per RECIST v1.1 as Assessed by BICR"
+          ],
+          "enrollment": 960,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-08-11",
+          "primary_completion": "2029-07",
+          "completion": "2031-09",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Puerto Rico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Petosemtamab",
+          "Pembrolizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
