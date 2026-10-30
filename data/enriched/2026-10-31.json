@@ -1,0 +1,1017 @@
+{
+  "427b8ad0b77035fb": {
+    "id": "427b8ad0b77035fb",
+    "title": "[Articles] Prone positioning and high-frequency oscillatory ventilation in early paediatric acute respiratory distress syndrome (PROSpect): an international, two-by-two factorial, response-adaptive, phase 3, randomised controlled trial",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "2fed394cfb0e7ebb": {
+    "id": "2fed394cfb0e7ebb",
+    "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "partial",
+        "basis": "textual",
+        "confidence": 0.6,
+        "evidence": [
+          "部分获益表述:partial"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "partial",
+      "basis": "textual",
+      "confidence": 0.6,
+      "evidence": [
+        "部分获益表述:partial"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：部分达到\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.60\n证据：部分获益表述:partial",
+    "registry": {
+      "best": {
+        "nct": "NCT06731959",
+        "title": "A Study to Investigate Using Inhaled Fexlamose to Treat Adult Participants Who Have Moderate to Severe COPD",
+        "official_title": "A Phase 2a, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of Fexlamose (AER-01) Inhalation Solution in the Treatment of Adults with Moderate to Severe Chronic Obstructive Pulmonary Disease",
+        "acronym": "AER-01-002",
+        "status": "NOT_YET_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Aer Therapeutics",
+        "conditions": [
+          "COPD"
+        ],
+        "interventions": [
+          "Flexlamose",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "FEV1"
+        ],
+        "enrollment": 100,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-12",
+        "primary_completion": "2025-11",
+        "completion": "2026-01",
+        "last_update": "2024-12-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06731959",
+          "title": "A Study to Investigate Using Inhaled Fexlamose to Treat Adult Participants Who Have Moderate to Severe COPD",
+          "official_title": "A Phase 2a, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of Fexlamose (AER-01) Inhalation Solution in the Treatment of Adults with Moderate to Severe Chronic Obstructive Pulmonary Disease",
+          "acronym": "AER-01-002",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Aer Therapeutics",
+          "conditions": [
+            "COPD"
+          ],
+          "interventions": [
+            "Flexlamose",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "FEV1"
+          ],
+          "enrollment": 100,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-12",
+          "primary_completion": "2025-11",
+          "completion": "2026-01",
+          "last_update": "2024-12-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05862623",
+          "title": "Single and Multiple Ascending Dose Study of AER-01",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled, Phase 1 Study of AER-01 (Solution for Inhalation, Delivered Via Nebulizer): As a First-In-Human Single Ascending Dose in Healthy Volunteers (Part A), and a 7-day Multiple Ascending Dose in Healthy Volunteers(Part B)",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Aer Therapeutics",
+          "conditions": [
+            "COPD"
+          ],
+          "interventions": [
+            "AER-01",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of participants with treatment-related adverse events as assessed by CTCAE v5.0"
+          ],
+          "enrollment": 72,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-26",
+          "primary_completion": "2024-08",
+          "completion": "2024-08",
+          "last_update": "2024-06-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Aer"
+        ],
+        "sponsor_en": [
+          "Aer"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "40b9e9cb84a1f28e": {
+    "id": "40b9e9cb84a1f28e",
+    "title": "EMA Recommends Extension of Therapeutic Indications for Abiraterone Acetate",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "84f40b6f9752038d": {
+    "id": "84f40b6f9752038d",
+    "title": "诺华：CFB抑制剂终止狼疮肾炎二期临床",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：终止表述:终止",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "亿帆医药股份",
+          "宜明昂科生物",
+          "生物科技",
+          "荣昌生物制药"
+        ],
+        "sponsor_en": [
+          "亿帆医药股份",
+          "宜明昂科生物",
+          "生物科技",
+          "RemeGen"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "105235b26fe327a9": {
+    "id": "105235b26fe327a9",
+    "title": "罗氏创新药物获批新适应症，用于成人甲状腺眼病治疗",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "dc7d0ff6adeafa2b": {
+    "id": "dc7d0ff6adeafa2b",
+    "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+    "score": 8.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得积极结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:取得积极结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
+    "registry": {
+      "best": {
+        "nct": "NCT05840016",
+        "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Advanced Squamous Non Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "AK112, Carboplatin, Paxlitaxel",
+          "Tislelizumab, Carboplatin, Paxlitaxel"
+        ],
+        "primary_outcomes": [
+          "PFS assessed by IRRC per RECIST v1.1"
+        ],
+        "enrollment": 532,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-08-17",
+        "primary_completion": "2025-02-28",
+        "completion": "2026-12-31",
+        "last_update": "2025-05-02",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840016",
+          "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Squamous Non Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "AK112, Carboplatin, Paxlitaxel",
+            "Tislelizumab, Carboplatin, Paxlitaxel"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC per RECIST v1.1"
+          ],
+          "enrollment": 532,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-08-17",
+          "primary_completion": "2025-02-28",
+          "completion": "2026-12-31",
+          "last_update": "2025-05-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06767527",
+          "title": "AK112 or Placebo Plus Nab-Paclitaxel as First-line Treatment in Inoperable Locally Advanced/ Metastatic Triple-negative Breast Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Plus Nab-paclitaxel Versus Placebo Plus Nab-paclitaxel as First-line Treatment for Locally Advanced Unresectable or Metastatic Triple-negative Breast Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Triple-Negative Breast Cancer (TNBC)"
+          ],
+          "interventions": [
+            "AK112",
+            "Nab-paclitaxel",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC",
+            "OS"
+          ],
+          "enrollment": 416,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-02-07",
+          "primary_completion": "2026-12",
+          "completion": "2028-12",
+          "last_update": "2026-03-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05214482",
+          "title": "A Study of AK112 in Advanced Malignant Tumors",
+          "official_title": "A Phase Ib/II Study of AK112（PD-1 / VEGF Bispecific Antibody） in Combination With AK117（Anti-CD47 Antibody）With or Without Chemotherapy in Advanced Malignant Tumors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Malignant Tumors"
+          ],
+          "interventions": [
+            "AK112",
+            "AK117",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "Number of patients with Adverse Events (AEs)",
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 154,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-01-22",
+          "primary_completion": "2025-11-20",
+          "completion": "2025-12-31",
+          "last_update": "2026-03-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AK112",
+          "CD276"
+        ],
+        "sponsor": [
+          "康方生物",
+          "抗是康方生物",
+          "摩熵医药",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso",
+          "摩熵医药",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "218c8508489ac519": {
+    "id": "218c8508489ac519",
+    "title": "<![CDATA[Phase 3 IMpactMF Trial Evaluating Imetelstat in R/R Myelofibrosis Is Discontinued]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:Discontinued"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:Discontinued"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:Discontinued",
+    "registry": {
+      "best": {
+        "nct": "NCT02426086",
+        "title": "Study to Evaluate Activity of 2 Dose Levels of Imetelstat in Participants With Intermediate-2 or High-Risk Myelofibrosis (MF) Previously Treated With Janus Kinase (JAK) Inhibitor",
+        "official_title": "A Randomized, Single-Blind, Multicenter Phase 2 Study to Evaluate the Activity of 2 Dose Levels of Imetelstat in Subjects With Intermediate-2 or High-Risk Myelofibrosis (MF) Relapsed/Refractory to Janus Kinase (JAK) Inhibitor",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Geron Corporation",
+        "conditions": [
+          "Myelofibrosis"
+        ],
+        "interventions": [
+          "Imetelstat 4.7 mg/kg",
+          "Imetelstat 9.4 mg/kg"
+        ],
+        "primary_outcomes": [
+          "Percentage of Participants With Spleen Response",
+          "Percentage of Participants With Symptom Response"
+        ],
+        "enrollment": 107,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2015-08-28",
+        "primary_completion": "2018-04-26",
+        "completion": "2020-02-07",
+        "last_update": "2021-09-14",
+        "results_first_post": "2021-09-14",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Canada",
+          "France",
+          "Germany",
+          "Israel",
+          "Italy",
+          "South Korea",
+          "Spain",
+          "Taiwan",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02426086",
+          "title": "Study to Evaluate Activity of 2 Dose Levels of Imetelstat in Participants With Intermediate-2 or High-Risk Myelofibrosis (MF) Previously Treated With Janus Kinase (JAK) Inhibitor",
+          "official_title": "A Randomized, Single-Blind, Multicenter Phase 2 Study to Evaluate the Activity of 2 Dose Levels of Imetelstat in Subjects With Intermediate-2 or High-Risk Myelofibrosis (MF) Relapsed/Refractory to Janus Kinase (JAK) Inhibitor",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Myelofibrosis"
+          ],
+          "interventions": [
+            "Imetelstat 4.7 mg/kg",
+            "Imetelstat 9.4 mg/kg"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants With Spleen Response",
+            "Percentage of Participants With Symptom Response"
+          ],
+          "enrollment": 107,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-08-28",
+          "primary_completion": "2018-04-26",
+          "completion": "2020-02-07",
+          "last_update": "2021-09-14",
+          "results_first_post": "2021-09-14",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Canada",
+            "France",
+            "Germany",
+            "Israel",
+            "Italy",
+            "South Korea",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04576156",
+          "title": "A Study Comparing Imetelstat Versus Best Available Therapy for the Treatment of Intermediate-2 or High-risk Myelofibrosis (MF) Who Have Not Responded to Janus Kinase (JAK)-Inhibitor Treatment",
+          "official_title": "A Randomized Open-Label, Phase 3 Study to Evaluate Imetelstat (GRN163L) Versus Best Available Therapy (BAT) in Patients With Intermediate-2 or High-risk Myelofibrosis (MF) Relapsed / Refractory (R/R) to Janus Kinase (JAK) Inhibitor",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Myelofibrosis"
+          ],
+          "interventions": [
+            "Imetelstat",
+            "Best Available Therapy (BAT)"
+          ],
+          "primary_outcomes": [
+            "Overall survival (OS)"
+          ],
+          "enrollment": 327,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-04-12",
+          "primary_completion": "2028-06-30",
+          "completion": "2028-06-30",
+          "last_update": "2026-07-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Colombia",
+            "Denmark",
+            "France",
+            "Georgia",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05371964",
+          "title": "A Study to Evaluate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of Imetelstat in Combination With Ruxolitinib in Participants With Myelofibrosis",
+          "official_title": "An Open Label, Phase 1/1b Study to Evaluate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of Imetelstat in Combination With Ruxolitinib in Patients With Myelofibrosis",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Geron Corporation",
+          "conditions": [
+            "Myelofibrosis"
+          ],
+          "interventions": [
+            "Imetelstat sodium",
+            "Ruxolitinib"
+          ],
+          "primary_outcomes": [
+            "Part 1: Incidence, Type, and Severity of Adverse Events, Including Dose-limiting Toxicity (DLT) During the DLT Observation Period and/or Study Treatment",
+            "Part 2: Number of Participants With Treatment-emergent Adverse Event (AE)",
+            "Part 2: Symptom Response Rate at Week 24"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-05-04",
+          "primary_completion": "2027-02",
+          "completion": "2028-08",
+          "last_update": "2026-08-26",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Imetelstat"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "2dda04ef016ce767": {
+    "id": "2dda04ef016ce767",
+    "title": "Sacituzumab tirumotecan shows significant clinical benefit in advanced/recurrent endometrial cancer",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {
+        "nct": "NCT05840211",
+        "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+        "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+        "acronym": "ASCENT-07",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Gilead Sciences",
+        "conditions": [
+          "Locally Advanced or Unresectable Metastatic Breast Cancer",
+          "Stage IV Breast Cancer"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan-hziy",
+          "Paclitaxel",
+          "Nab-paclitaxel",
+          "Capecitabine"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+        ],
+        "enrollment": 654,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-05-08",
+        "primary_completion": "2028-04",
+        "completion": "2028-04",
+        "last_update": "2025-10-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Czechia",
+          "France",
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840211",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+          "acronym": "ASCENT-07",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Locally Advanced or Unresectable Metastatic Breast Cancer",
+            "Stage IV Breast Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "Nab-paclitaxel",
+            "Capecitabine"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+          ],
+          "enrollment": 654,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-08",
+          "primary_completion": "2028-04",
+          "completion": "2028-04",
+          "last_update": "2025-10-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06486441",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer After Platinum-Based Chemotherapy and Immunotherapy (ASCENT-GYN-01/GOG-3104/ENGOT-en26)",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer Who Have Received Prior Platinum-based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+          "acronym": "ASCENT-GYN-01",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Endometrial Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan-hziy",
+            "Doxorubicin",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) As Assessed by Blinded Independent Central Review (BICR)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 640,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-28",
+          "primary_completion": "2029-06",
+          "completion": "2029-06",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Israel",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05382299",
+          "title": "Study of Sacituzumab Govitecan-hziy Versus Treatment of Physician's Choice in Patients With Previously Untreated Locally Advanced Inoperable or Metastatic Triple-Negative Breast Cancer",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Previously Untreated, Locally Advanced, Inoperable or Metastatic Triple-Negative Breast Cancer Whose Tumors Do Not Express PD-L1 or in Patients Previously Treated With Anti-PD-(L)1 Agents in the Early Setting Whose Tumors Do Express PD-L1",
+          "acronym": "ASCENT-03",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Triple Negative Breast Cancer",
+            "PD-L1 Negative"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "nab-Paclitaxel",
+            "Gemcitabine",
+            "Carboplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1"
+          ],
+          "enrollment": 623,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-20",
+          "primary_completion": "2028-07",
+          "completion": "2028-07",
+          "last_update": "2026-04-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06952504",
+          "NCT07684599",
+          "NCT06989112"
+        ],
+        "drug": [
+          "Sacituzumab",
+          "GOG-3095",
+          "pembrolizumab",
+          "sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

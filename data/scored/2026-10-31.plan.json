@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "count": 3,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "427b8ad0b77035fb",
+      "title": "[Articles] Prone positioning and high-frequency oscillatory ventilation in early paediatric acute respiratory distress syndrome (PROSpect): an international, two-by-two factorial, response-adaptive, phase 3, randomised controlled trial",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "427b8ad0b77035fb"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Prone positioning and high-frequency oscillatory ventilation in early paediatric acute respiratory distress syndrome (PROSpect): an international, two-by-two factorial, response-adaptive, phase 3, randomised controlled trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01949-5/fulltext?rss=yes",
+          "score": 7.8,
+          "reasoning": "Lancet正式发表的随机Ⅲ期PROSpect试验给出未支持俯卧位通气或高频振荡通气改善无通气机天数的研究结论，属于明确的主要终点未获支持信号。依据是期刊摘要中的文字结论，但具体p值、样本量及预设界值仍需核实。"
+        }
+      ],
+      "reasoning": "Lancet正式发表的随机Ⅲ期PROSpect试验给出未支持俯卧位通气或高频振荡通气改善无通气机天数的研究结论，属于明确的主要终点未获支持信号。依据是期刊摘要中的文字结论，但具体p值、样本量及预设界值仍需核实。",
+      "verify_todo": [
+        "核实主要终点定义、样本量及组间差异的统计结果",
+        "核实各干预单独和联合分析的具体效应量与置信区间",
+        "核实试验提前终止或自适应设计规则是否影响分析"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": null,
+      "lead_id": "2fed394cfb0e7ebb",
+      "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+      "score": 6.6,
+      "channel": "global",
+      "member_ids": [
+        "2fed394cfb0e7ebb"
+      ],
+      "members": [
+        {
+          "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+          "url": "https://endpoints.news/gilead-car-t-on-partial-clinical-hold-agios-pdufa-date-pushed-back/",
+          "score": 6.6,
+          "reasoning": "部分临床暂停由多例ICANS触发，属于需要重点关注的安全性监管进展，而非普通负面商业新闻。现有依据为媒体对公司表态的转述，具体CAR-T产品、暂停范围、事件数量及监管决定尚待核实；同文中的其他事项不应混入该临床结论。"
+        }
+      ],
+      "reasoning": "部分临床暂停由多例ICANS触发，属于需要重点关注的安全性监管进展，而非普通负面商业新闻。现有依据为媒体对公司表态的转述，具体CAR-T产品、暂停范围、事件数量及监管决定尚待核实；同文中的其他事项不应混入该临床结论。",
+      "verify_todo": [
+        "核实涉及的CAR-T产品名称及适应症",
+        "核实暂停是部分还是完全临床暂停、涉及哪些试验和患者群体",
+        "核实ICANS事件数量、严重程度、处置及恢复条件",
+        "从FDA或公司原始公告核实暂停原因和生效时间"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:abiraterone",
+      "lead_id": "40b9e9cb84a1f28e",
+      "title": "EMA Recommends Extension of Therapeutic Indications for Abiraterone Acetate",
+      "score": 6.2,
+      "channel": "global",
+      "member_ids": [
+        "40b9e9cb84a1f28e"
+      ],
+      "members": [
+        {
+          "title": "EMA Recommends Extension of Therapeutic Indications for Abiraterone Acetate",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/ema-recommends-extension-of-therapeutic-indications-for-abiraterone-acetate",
+          "score": 6.2,
+          "reasoning": "EMA建议扩大abiraterone在转移性和非转移性激素敏感性前列腺癌中的治疗适应症，是具有临床影响的下游监管进展。当前依据是监管建议及文章文字结论，尚未呈现支持扩展适应症的具体试验统计量。"
+        }
+      ],
+      "reasoning": "EMA建议扩大abiraterone在转移性和非转移性激素敏感性前列腺癌中的治疗适应症，是具有临床影响的下游监管进展。当前依据是监管建议及文章文字结论，尚未呈现支持扩展适应症的具体试验统计量。",
+      "verify_todo": [
+        "核实EMA建议涉及的每项适应症、治疗线次和联合方案",
+        "核实支持扩展适应症的关键试验、终点和统计结果",
+        "核实正式批准日期及标签差异"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    }
+  ]
+}
