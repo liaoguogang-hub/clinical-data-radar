@@ -1,0 +1,1395 @@
+{
+  "39cd5a8fb4ed234d": {
+    "id": "39cd5a8fb4ed234d",
+    "title": "Atacicept in IgA Nephropathy — Phase 3 Trial Final Efficacy Analysis",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "cf72458f12375ab5": {
+    "id": "cf72458f12375ab5",
+    "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "dc7d0ff6adeafa2b": {
+    "id": "dc7d0ff6adeafa2b",
+    "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+    "score": 8.6,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得积极结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:取得积极结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
+    "registry": {
+      "best": {
+        "nct": "NCT05840016",
+        "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Advanced Squamous Non Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "AK112, Carboplatin, Paxlitaxel",
+          "Tislelizumab, Carboplatin, Paxlitaxel"
+        ],
+        "primary_outcomes": [
+          "PFS assessed by IRRC per RECIST v1.1"
+        ],
+        "enrollment": 532,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-08-17",
+        "primary_completion": "2025-02-28",
+        "completion": "2026-12-31",
+        "last_update": "2025-05-02",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840016",
+          "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Squamous Non Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "AK112, Carboplatin, Paxlitaxel",
+            "Tislelizumab, Carboplatin, Paxlitaxel"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC per RECIST v1.1"
+          ],
+          "enrollment": 532,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-08-17",
+          "primary_completion": "2025-02-28",
+          "completion": "2026-12-31",
+          "last_update": "2025-05-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06767527",
+          "title": "AK112 or Placebo Plus Nab-Paclitaxel as First-line Treatment in Inoperable Locally Advanced/ Metastatic Triple-negative Breast Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Plus Nab-paclitaxel Versus Placebo Plus Nab-paclitaxel as First-line Treatment for Locally Advanced Unresectable or Metastatic Triple-negative Breast Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Triple-Negative Breast Cancer (TNBC)"
+          ],
+          "interventions": [
+            "AK112",
+            "Nab-paclitaxel",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC",
+            "OS"
+          ],
+          "enrollment": 416,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-02-07",
+          "primary_completion": "2026-12",
+          "completion": "2028-12",
+          "last_update": "2026-03-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05214482",
+          "title": "A Study of AK112 in Advanced Malignant Tumors",
+          "official_title": "A Phase Ib/II Study of AK112（PD-1 / VEGF Bispecific Antibody） in Combination With AK117（Anti-CD47 Antibody）With or Without Chemotherapy in Advanced Malignant Tumors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Malignant Tumors"
+          ],
+          "interventions": [
+            "AK112",
+            "AK117",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "Number of patients with Adverse Events (AEs)",
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 154,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-01-22",
+          "primary_completion": "2025-11-20",
+          "completion": "2025-12-31",
+          "last_update": "2026-03-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AK112",
+          "CD276"
+        ],
+        "sponsor": [
+          "康方生物",
+          "抗是康方生物",
+          "摩熵医药",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso",
+          "摩熵医药",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "173cc23d37e4dbb6": {
+    "id": "173cc23d37e4dbb6",
+    "title": "Sibeprenlimab in IgA Nephropathy — Final Phase 3 Trial Analysis",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05248646",
+        "title": "Trial of Sibeprenlimab in the Treatment of A Nephropathy (IgAN)",
+        "official_title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Trial to Evaluate the Efficacy and Safety of Sibeprenlimab Administered Subcutaneously in Subjects With Immunoglobulin A Nephropathy.",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+        "conditions": [
+          "Immunoglobulin A Nephropathy"
+        ],
+        "interventions": [
+          "Sibeprenlimab 400 mg",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Urinary protein to creatinine ratio (uPCR) in a 24-hour collection"
+        ],
+        "enrollment": 530,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-03-15",
+        "primary_completion": "2026-05-13",
+        "completion": "2027-01-19",
+        "last_update": "2026-07-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "China",
+          "Croatia",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05248646",
+          "title": "Trial of Sibeprenlimab in the Treatment of A Nephropathy (IgAN)",
+          "official_title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Trial to Evaluate the Efficacy and Safety of Sibeprenlimab Administered Subcutaneously in Subjects With Immunoglobulin A Nephropathy.",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+          "conditions": [
+            "Immunoglobulin A Nephropathy"
+          ],
+          "interventions": [
+            "Sibeprenlimab 400 mg",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Urinary protein to creatinine ratio (uPCR) in a 24-hour collection"
+          ],
+          "enrollment": 530,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-03-15",
+          "primary_completion": "2026-05-13",
+          "completion": "2027-01-19",
+          "last_update": "2026-07-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Croatia",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05248659",
+          "title": "Trial of Sibeprenlimab in the Treatment of Immunoglobulin A Nephropathy (IgAN)",
+          "official_title": "A Phase 2/3, Multicenter, Open-label Trial to Evaluate the Long-term Safety, Tolerability, and Efficacy of Sibeprenlimab Administered Subcutaneously in Subjects With Immunoglobulin A Nephropathy.",
+          "acronym": "",
+          "status": "ENROLLING_BY_INVITATION",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+          "conditions": [
+            "Immunoglobulin A Nephropathy"
+          ],
+          "interventions": [
+            "Sibeprenlimab 400 mg s.c. Q4weeks"
+          ],
+          "primary_outcomes": [
+            "Adverse Events"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-04-05",
+          "primary_completion": "2028-12-28",
+          "completion": "2029-12-31",
+          "last_update": "2026-05-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Croatia",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07890909",
+          "title": "A Phase 3b Study of Participant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Prefilled Syringe",
+          "official_title": "A Phase 3b, Open-label, Single-arm, Patient Experience Study of Povetacicept Injection (Via Autoinjector) as Compared to Sibeprenlimab Injection (Via Prefilled Syringe) in Adults With Immunoglobulin A Nephropathy",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Vertex Pharmaceuticals Incorporated",
+          "conditions": [
+            "Immunoglobulin A Nephropathy"
+          ],
+          "interventions": [
+            "Povetacicept",
+            "Sibeprenlimab"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in the Self-Injection Administration Questionnaire (SIAQ) Scores at Week 12 After Transitioning to Povetacicept Injection"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2027-12-12",
+          "completion": "2028-03-02",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Sibeprenlimab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8837a904d87a9b75": {
+    "id": "8837a904d87a9b75",
+    "title": "[Articles] Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT03036098",
+        "title": "Study of Nivolumab in Combination With Ipilimumab or Standard of Care Chemotherapy Compared to the Standard of Care Chemotherapy Alone in Treatment of Participants With Untreated Inoperable or Metastatic Urothelial Cancer",
+        "official_title": "A Phase 3, Open-label, Randomized Study of Nivolumab Combined With Ipilimumab, or With Standard of Care Chemotherapy, Versus Standard of Care Chemotherapy in Participants With Previously Untreated Unresectable or Metastatic Urothelial Cancer",
+        "acronym": "CheckMate901",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Bristol-Myers Squibb",
+        "conditions": [
+          "Urothelial Cancer"
+        ],
+        "interventions": [
+          "Nivolumab",
+          "Ipilimumab",
+          "Gemcitabine",
+          "Cisplatin",
+          "Carboplatin"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS) in Cisplatin-ineligible Randomized Participants for Primary Study",
+          "Overall Survival (OS) in Programmed Death-Ligand 1 (PD-L1) Positive (≥ 1%) Randomized Participants by Immunohistochemistry (IHC) for Primary Study",
+          "Progression-Free Survival (PFS) by Blinded Independent Central Review (BICR) [Using Response Evaluation Criteria in Solid Tumors (RECIST) 1.1] in Cisplatin-eligible Participants for Sub-study",
+          "Overall Survival (OS) in Cisplatin-eligible Participants for Sub-study"
+        ],
+        "enrollment": 1314,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2017-03-24",
+        "primary_completion": "2024-08-30",
+        "completion": "2026-05-15",
+        "last_update": "2026-03-06",
+        "results_first_post": "2025-09-18",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Czechia",
+          "Denmark",
+          "Finland",
+          "France",
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03036098",
+          "title": "Study of Nivolumab in Combination With Ipilimumab or Standard of Care Chemotherapy Compared to the Standard of Care Chemotherapy Alone in Treatment of Participants With Untreated Inoperable or Metastatic Urothelial Cancer",
+          "official_title": "A Phase 3, Open-label, Randomized Study of Nivolumab Combined With Ipilimumab, or With Standard of Care Chemotherapy, Versus Standard of Care Chemotherapy in Participants With Previously Untreated Unresectable or Metastatic Urothelial Cancer",
+          "acronym": "CheckMate901",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Bristol-Myers Squibb",
+          "conditions": [
+            "Urothelial Cancer"
+          ],
+          "interventions": [
+            "Nivolumab",
+            "Ipilimumab",
+            "Gemcitabine",
+            "Cisplatin",
+            "Carboplatin"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS) in Cisplatin-ineligible Randomized Participants for Primary Study",
+            "Overall Survival (OS) in Programmed Death-Ligand 1 (PD-L1) Positive (≥ 1%) Randomized Participants by Immunohistochemistry (IHC) for Primary Study",
+            "Progression-Free Survival (PFS) by Blinded Independent Central Review (BICR) [Using Response Evaluation Criteria in Solid Tumors (RECIST) 1.1] in Cisplatin-eligible Participants for Sub-study",
+            "Overall Survival (OS) in Cisplatin-eligible Participants for Sub-study"
+          ],
+          "enrollment": 1314,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-03-24",
+          "primary_completion": "2024-08-30",
+          "completion": "2026-05-15",
+          "last_update": "2026-03-06",
+          "results_first_post": "2025-09-18",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02428192",
+          "title": "Nivolumab Alone or in Combination With Ipilimumab in Treating Patients With Advanced Uterine Leiomyosarcoma",
+          "official_title": "A Phase 2 Study of Nivolumab and Ipilimumab in Advanced Leiomyosarcoma of the Uterus",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Metastatic Leiomyosarcoma",
+            "Unresectable Leiomyosarcoma",
+            "Uterine Corpus Leiomyosarcoma"
+          ],
+          "interventions": [
+            "Ipilimumab",
+            "Laboratory Biomarker Analysis",
+            "Nivolumab"
+          ],
+          "primary_outcomes": [
+            "Objective Response Per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 Among Patients With Advanced Leiomyosarcoma of the Uterus (ULMS) Treated With Nivolumab (Cohort A)",
+            "Objective Response Per RECIST 1.1 Among Patients With Advanced ULMS Treated With Nivolumab and Ipilimumab (Cohort B)"
+          ],
+          "enrollment": 20,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-05-19",
+          "primary_completion": "2018-09-20",
+          "completion": "2021-01-28",
+          "last_update": "2025-02-25",
+          "results_first_post": "2020-05-12",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02027935",
+          "title": "CD8+ Antigen-Specific T Cells, Cyclophosphamide, Aldesleukin, and Ipilimumab in Treating Patients With Metastatic Melanoma",
+          "official_title": "Phase II Study of Cellular Adoptive Immunotherapy Using Autologous CD8+ Antigen-Specific T Cells and Anti-CTLA4 for Patients With Metastatic Melanoma",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "M.D. Anderson Cancer Center",
+          "conditions": [
+            "Metastatic Melanoma",
+            "Stage IV Cutaneous Melanoma AJCC v6 and v7"
+          ],
+          "interventions": [
+            "Aldesleukin",
+            "Autologous CD8+ Melanoma Specific T Cells",
+            "Cyclophosphamide",
+            "Ipilimumab",
+            "Laboratory Biomarker Analysis"
+          ],
+          "primary_outcomes": [
+            "CTL With Anti-CTLA4"
+          ],
+          "enrollment": 16,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-01-22",
+          "primary_completion": "2024-04-12",
+          "completion": "2024-04-12",
+          "last_update": "2024-10-08",
+          "results_first_post": "2024-10-08",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "ipilimumab",
+          "nivolumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "2dda04ef016ce767": {
+    "id": "2dda04ef016ce767",
+    "title": "Sacituzumab tirumotecan shows significant clinical benefit in advanced/recurrent endometrial cancer",
+    "score": 8.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {
+        "nct": "NCT05840211",
+        "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+        "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+        "acronym": "ASCENT-07",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Gilead Sciences",
+        "conditions": [
+          "Locally Advanced or Unresectable Metastatic Breast Cancer",
+          "Stage IV Breast Cancer"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan-hziy",
+          "Paclitaxel",
+          "Nab-paclitaxel",
+          "Capecitabine"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+        ],
+        "enrollment": 654,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-05-08",
+        "primary_completion": "2028-04",
+        "completion": "2028-04",
+        "last_update": "2025-10-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Czechia",
+          "France",
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840211",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+          "acronym": "ASCENT-07",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Locally Advanced or Unresectable Metastatic Breast Cancer",
+            "Stage IV Breast Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "Nab-paclitaxel",
+            "Capecitabine"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+          ],
+          "enrollment": 654,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-08",
+          "primary_completion": "2028-04",
+          "completion": "2028-04",
+          "last_update": "2025-10-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06486441",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer After Platinum-Based Chemotherapy and Immunotherapy (ASCENT-GYN-01/GOG-3104/ENGOT-en26)",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer Who Have Received Prior Platinum-based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+          "acronym": "ASCENT-GYN-01",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Endometrial Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan-hziy",
+            "Doxorubicin",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) As Assessed by Blinded Independent Central Review (BICR)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 640,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-28",
+          "primary_completion": "2029-06",
+          "completion": "2029-06",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Israel",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05382299",
+          "title": "Study of Sacituzumab Govitecan-hziy Versus Treatment of Physician's Choice in Patients With Previously Untreated Locally Advanced Inoperable or Metastatic Triple-Negative Breast Cancer",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Previously Untreated, Locally Advanced, Inoperable or Metastatic Triple-Negative Breast Cancer Whose Tumors Do Not Express PD-L1 or in Patients Previously Treated With Anti-PD-(L)1 Agents in the Early Setting Whose Tumors Do Express PD-L1",
+          "acronym": "ASCENT-03",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Triple Negative Breast Cancer",
+            "PD-L1 Negative"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "nab-Paclitaxel",
+            "Gemcitabine",
+            "Carboplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1"
+          ],
+          "enrollment": 623,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-20",
+          "primary_completion": "2028-07",
+          "completion": "2028-07",
+          "last_update": "2026-04-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06952504",
+          "NCT07684599",
+          "NCT06989112"
+        ],
+        "drug": [
+          "Sacituzumab",
+          "GOG-3095",
+          "pembrolizumab",
+          "sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "2fed394cfb0e7ebb": {
+    "id": "2fed394cfb0e7ebb",
+    "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "partial",
+        "basis": "textual",
+        "confidence": 0.6,
+        "evidence": [
+          "部分获益表述:partial"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "partial",
+      "basis": "textual",
+      "confidence": 0.6,
+      "evidence": [
+        "部分获益表述:partial"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：部分达到\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.60\n证据：部分获益表述:partial",
+    "registry": {
+      "best": {
+        "nct": "NCT06731959",
+        "title": "A Study to Investigate Using Inhaled Fexlamose to Treat Adult Participants Who Have Moderate to Severe COPD",
+        "official_title": "A Phase 2a, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of Fexlamose (AER-01) Inhalation Solution in the Treatment of Adults with Moderate to Severe Chronic Obstructive Pulmonary Disease",
+        "acronym": "AER-01-002",
+        "status": "NOT_YET_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Aer Therapeutics",
+        "conditions": [
+          "COPD"
+        ],
+        "interventions": [
+          "Flexlamose",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "FEV1"
+        ],
+        "enrollment": 100,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-12",
+        "primary_completion": "2025-11",
+        "completion": "2026-01",
+        "last_update": "2024-12-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06731959",
+          "title": "A Study to Investigate Using Inhaled Fexlamose to Treat Adult Participants Who Have Moderate to Severe COPD",
+          "official_title": "A Phase 2a, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of Fexlamose (AER-01) Inhalation Solution in the Treatment of Adults with Moderate to Severe Chronic Obstructive Pulmonary Disease",
+          "acronym": "AER-01-002",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Aer Therapeutics",
+          "conditions": [
+            "COPD"
+          ],
+          "interventions": [
+            "Flexlamose",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "FEV1"
+          ],
+          "enrollment": 100,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-12",
+          "primary_completion": "2025-11",
+          "completion": "2026-01",
+          "last_update": "2024-12-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05862623",
+          "title": "Single and Multiple Ascending Dose Study of AER-01",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled, Phase 1 Study of AER-01 (Solution for Inhalation, Delivered Via Nebulizer): As a First-In-Human Single Ascending Dose in Healthy Volunteers (Part A), and a 7-day Multiple Ascending Dose in Healthy Volunteers(Part B)",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Aer Therapeutics",
+          "conditions": [
+            "COPD"
+          ],
+          "interventions": [
+            "AER-01",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of participants with treatment-related adverse events as assessed by CTCAE v5.0"
+          ],
+          "enrollment": 72,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-26",
+          "primary_completion": "2024-08",
+          "completion": "2024-08",
+          "last_update": "2024-06-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Aer"
+        ],
+        "sponsor_en": [
+          "Aer"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "db93585dde8d3247": {
+    "id": "db93585dde8d3247",
+    "title": "Ravulizumab in IgA Nephropathy — Interim Analysis of a Phase 3 Trial",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：The IDMC recommended the study be discontinued due to lack of efficacy with ravu"
+      ],
+      "conflict": false,
+      "halt_reason": "efficacy"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：efficacy\n证据：注册库状态=TERMINATED，原因：The IDMC recommended the study be discontinued due to lack of efficacy with ravu",
+    "registry": {
+      "best": {
+        "nct": "NCT04248465",
+        "title": "An Efficacy and Safety Study of Ravulizumab in ALS Participants",
+        "official_title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled, Parallel Group, Multicenter Study With an Open-Label Extension to Evaluate the Efficacy and Safety of Ravulizumab in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "The IDMC recommended the study be discontinued due to lack of efficacy with ravulizumab.",
+        "phase": "PHASE3",
+        "sponsor": "Alexion Pharmaceuticals, Inc.",
+        "conditions": [
+          "Amyotrophic Lateral Sclerosis",
+          "ALS"
+        ],
+        "interventions": [
+          "Placebo",
+          "Ravulizumab"
+        ],
+        "primary_outcomes": [
+          "Change From Baseline In Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) Total Score"
+        ],
+        "enrollment": 382,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-03-30",
+        "primary_completion": "2021-10-17",
+        "completion": "2021-10-17",
+        "last_update": "2023-01-10",
+        "results_first_post": "2023-01-10",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Canada",
+          "Denmark",
+          "France",
+          "Germany",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Japan",
+          "Netherlands"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04248465",
+          "title": "An Efficacy and Safety Study of Ravulizumab in ALS Participants",
+          "official_title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled, Parallel Group, Multicenter Study With an Open-Label Extension to Evaluate the Efficacy and Safety of Ravulizumab in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The IDMC recommended the study be discontinued due to lack of efficacy with ravulizumab.",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Amyotrophic Lateral Sclerosis",
+            "ALS"
+          ],
+          "interventions": [
+            "Placebo",
+            "Ravulizumab"
+          ],
+          "primary_outcomes": [
+            "Change From Baseline In Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) Total Score"
+          ],
+          "enrollment": 382,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-03-30",
+          "primary_completion": "2021-10-17",
+          "completion": "2021-10-17",
+          "last_update": "2023-01-10",
+          "results_first_post": "2023-01-10",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "Denmark",
+            "France",
+            "Germany",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03748823",
+          "title": "Ravulizumab Subcutaneous (SC) Versus Ravulizumab Intravenous (IV) in Adults With Paroxysmal Nocturnal Hemoglobinuria (PNH) Currently Treated With Eculizumab",
+          "official_title": "A Phase 3, Randomized, Parallel-Group, Multicenter, Open-Label, Pharmacokinetic, Noninferiority Study of Ravulizumab Administered Subcutaneously Versus Intravenously in Adult Patients With Paroxysmal Nocturnal Hemoglobinuria Currently Treated With Eculizumab",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Paroxysmal Nocturnal Hemoglobinuria"
+          ],
+          "interventions": [
+            "Ravulizumab OBDS",
+            "Ravulizumab"
+          ],
+          "primary_outcomes": [
+            "Ctrough Serum Concentration of Ravulizumab"
+          ],
+          "enrollment": 139,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-02-19",
+          "primary_completion": "2021-02-02",
+          "completion": "2023-08-31",
+          "last_update": "2024-09-19",
+          "results_first_post": "2022-10-20",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Finland",
+            "France",
+            "Italy",
+            "Netherlands",
+            "Russia",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05116774",
+          "title": "BCX9930 for the Treatment of Paroxysmal Nocturnal Hemoglobinuria (PNH) in Participants With Inadequate Response to C5 Inhibitor Therapy",
+          "official_title": "A Randomized, Open-Label, Multicenter, Parallel-Group Study to Evaluate the Efficacy, Safety, and Tolerability of Oral BCX9930 Monotherapy for the Treatment of Paroxysmal Nocturnal Hemoglobinuria in Subjects With Inadequate Response to C5 Inhibitor Therapy",
+          "acronym": "REDEEM-1",
+          "status": "TERMINATED",
+          "why_stopped": "Sponsor decision",
+          "phase": "PHASE2",
+          "sponsor": "BioCryst Pharmaceuticals",
+          "conditions": [
+            "Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+          ],
+          "interventions": [
+            "Eculizumab",
+            "Ravulizumab",
+            "BCX9930"
+          ],
+          "primary_outcomes": [
+            "Part 1: Change From Baseline in Hemoglobin at Week 24"
+          ],
+          "enrollment": 12,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-12-06",
+          "primary_completion": "2023-09-14",
+          "completion": "2023-09-14",
+          "last_update": "2025-03-07",
+          "results_first_post": "2025-03-07",
+          "has_results": true,
+          "countries": [
+            "France",
+            "Hungary",
+            "Italy",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Ravulizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

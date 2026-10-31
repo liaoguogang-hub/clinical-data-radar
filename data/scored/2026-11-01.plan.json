@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-01",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "indication:iga-nephropathy",
+      "lead_id": "173cc23d37e4dbb6",
+      "title": "Sibeprenlimab in IgA Nephropathy — Final Phase 3 Trial Analysis",
+      "score": 6.7,
+      "channel": "global",
+      "member_ids": [
+        "173cc23d37e4dbb6",
+        "39cd5a8fb4ed234d",
+        "cf72458f12375ab5"
+      ],
+      "members": [
+        {
+          "title": "Sibeprenlimab in IgA Nephropathy — Final Phase 3 Trial Analysis",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609127?af=R&rss=currentIssue",
+          "score": 6.7,
+          "reasoning": "sibeprenlimab（抗 APRIL）III 期最终分析发表于 NEJM，属终局性读出、可信度最高档；但素材仅有标题，无终点结论与统计量，按替代终点（蛋白尿）与竞争格局折价。"
+        },
+        {
+          "title": "Atacicept in IgA Nephropathy — Phase 3 Trial Final Efficacy Analysis",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2610103?af=R&rss=currentIssue",
+          "score": 6.7,
+          "reasoning": "atacicept（BAFF/APRIL）III 期最终疗效分析见刊 NEJM，来源等级最高；素材仅标题、无终点统计结论，IgA 肾病以蛋白尿替代终点为主，需保守判定。四篇 NEJM 同适应症同期发表，适合做横向综述而非单篇快报。"
+        },
+        {
+          "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2608682?af=R&rss=currentIssue",
+          "score": 6.6,
+          "reasoning": "povetacicept（APRIL/BAFF 双拮抗）III 期期中分析见刊 NEJM，数据成熟度得分最高；但摘要未披露终点是否达到及统计量，且 IgA 肾病以蛋白尿为主要替代终点，需按替代终点折价。"
+        }
+      ],
+      "reasoning": "sibeprenlimab（抗 APRIL）III 期最终分析发表于 NEJM，属终局性读出、可信度最高档；但素材仅有标题，无终点结论与统计量，按替代终点（蛋白尿）与竞争格局折价。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:nivolumab",
+      "lead_id": "8837a904d87a9b75",
+      "title": "[Articles] Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial",
+      "score": 6.6,
+      "channel": "global",
+      "member_ids": [
+        "8837a904d87a9b75"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01602-8/fulltext?rss=yes",
+          "score": 6.6,
+          "reasoning": "Lancet 正式发表的 NICHE-2 单臂 II 期：dMMR 结肠癌新辅助纳武利尤+伊匹木单抗后 3 年 DFS 与 5 年 OS 均达 100%，是极强的疗效数字，但为单臂、无随机对照，属疗效数据而非对照性终点结论，故按单臂与替代/长期随访并存折价。"
+        }
+      ],
+      "reasoning": "Lancet 正式发表的 NICHE-2 单臂 II 期：dMMR 结肠癌新辅助纳武利尤+伊匹木单抗后 3 年 DFS 与 5 年 OS 均达 100%，是极强的疗效数字，但为单臂、无随机对照，属疗效数据而非对照性终点结论，故按单臂与替代/长期随访并存折价。",
+      "verify_todo": [
+        "核实样本量与生存率的置信区间",
+        "确认是否有对照臂或历史对照",
+        "确认新辅助免疫是否已进入指南/注册路径"
+      ],
+      "flags": [
+        "single_arm",
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:gilead-car-t",
+      "lead_id": "2fed394cfb0e7ebb",
+      "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+      "score": 6.4,
+      "channel": "global",
+      "member_ids": [
+        "2fed394cfb0e7ebb"
+      ],
+      "members": [
+        {
+          "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+          "url": "https://endpoints.news/gilead-car-t-on-partial-clinical-hold-agios-pdufa-date-pushed-back/",
+          "score": 6.4,
+          "reasoning": "吉利德 CAR-T 因多例 ICANS 被部分临床暂停，属安全性驱动的试验中止，是本雷达应重点捕捉的负面信号；同时含 Agios PDUFA 延期。依据为媒体转述的安全性事件，尚无监管或公司文件佐证。"
+        }
+      ],
+      "reasoning": "吉利德 CAR-T 因多例 ICANS 被部分临床暂停，属安全性驱动的试验中止，是本雷达应重点捕捉的负面信号；同时含 Agios PDUFA 延期。依据为媒体转述的安全性事件，尚无监管或公司文件佐证。",
+      "verify_todo": [
+        "核实被暂停的具体 CAR-T 产品、试验编号与暂停范围（部分暂停涉及哪些研究）",
+        "核实 ICANS 病例数与严重程度分级",
+        "核实 Agios 的 PDUFA 延期原因与新的目标日期"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 3
+    }
+  ]
+}
