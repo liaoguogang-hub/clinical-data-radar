@@ -187,16 +187,24 @@ exclude_keywords:
 # ⚠️ 国内 key 只能走 api.minimaxi.com；国际站 api.minimax.io 会 401。
 
 llm:
-  provider: minimax_domestic
-  model: MiniMax-M2.7
-  base_url: https://api.minimaxi.com/v1
+  provider: deepseek_flash    # 2026-11-01 MiniMax 额度耗尽，切 DeepSeek Flash
+  model: deepseek-flash
+  base_url: https://api.deepseek.com/v1
   temperature: 0.3
   max_tokens: 16000
-  json_mode: false     # MiniMax 不支持 response_format，靠 prompt + 鲁棒解析
+  json_mode: true      # DeepSeek 支持 response_format；失败自动降级
   batch_size: 30
   max_retries: 2
 
 providers:
+  # 2026-11-01 新增：MiniMax 的 M Plan 额度耗尽（429 已达到 Token Plan 用量上限），
+  # 切到 DeepSeek Flash。key 走 DEEPSEEK_API_KEY（GitHub secret 同名）。
+  deepseek_flash:
+    base_url: https://api.deepseek.com/v1
+    model: deepseek-flash
+    max_tokens: 16000
+    json_mode: true          # DeepSeek 支持 response_format；不支持时会自动降级
+    env_key: DEEPSEEK_API_KEY
   deepseek:
     base_url: https://api.deepseek.com/v1
     model: deepseek-chat
@@ -228,9 +236,9 @@ providers:
 #   推理模型 M2.7 全面优于 Flash：46s/3291字符 对 113s/0字符（空响应）。
 #   此前 M2.7 显得差，是因为它同时扛 HTML+CSS 的格式负担。
 gen_llm:
-  provider: minimax_domestic
-  model: MiniMax-M2.7
-  base_url: https://api.minimaxi.com/v1
+  provider: deepseek_flash
+  model: deepseek-flash
+  base_url: https://api.deepseek.com/v1
   max_tokens: 32000
   temperature: 0.7
   json_mode: false
