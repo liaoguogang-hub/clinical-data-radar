@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-02",
+  "count": 1,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:dostarlimab",
+      "lead_id": "4a22543504176e89",
+      "title": "The future of dMMR/MSI-H locally advanced rectal cancer could be free from chemotherapy",
+      "score": 6.4,
+      "channel": "global",
+      "member_ids": [
+        "4a22543504176e89"
+      ],
+      "members": [
+        {
+          "title": "The future of dMMR/MSI-H locally advanced rectal cancer could be free from chemotherapy",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/the-future-of-dmmr-msi-h-locally-advanced-rectal-cancer-could-be-free-from-chemotherapy",
+          "score": 6.4,
+          "reasoning": "注册性单臂试验的期中分析报告了较高且持续 12 个月的临床完全缓解率，并属于 ESMO 口头报告，具备深度报道价值；但目前依据主要是缓解率数字，尚需核实主要终点是否正式判定达到。"
+        }
+      ],
+      "reasoning": "注册性单臂试验的期中分析报告了较高且持续 12 个月的临床完全缓解率，并属于 ESMO 口头报告，具备深度报道价值；但目前依据主要是缓解率数字，尚需核实主要终点是否正式判定达到。",
+      "verify_todo": [
+        "核实主要终点定义、预设统计阈值及期中分析规则",
+        "核实 144 例之外的总入组人数和完整安全性数据"
+      ],
+      "flags": [
+        "positive_data",
+        "single_arm"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    }
+  ]
+}

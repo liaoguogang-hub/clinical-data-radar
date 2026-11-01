@@ -1,0 +1,730 @@
+{
+  "4a22543504176e89": {
+    "id": "4a22543504176e89",
+    "title": "The future of dMMR/MSI-H locally advanced rectal cancer could be free from chemotherapy",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:discontinued"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:discontinued"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:discontinued",
+    "registry": {
+      "best": {
+        "nct": "NCT04655976",
+        "title": "Efficacy Comparison of Cobolimab + Dostarlimab + Docetaxel to Dostarlimab + Docetaxel to Docetaxel Alone in Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed on Prior Anti-PD-(L)1 Therapy and Chemotherapy",
+        "official_title": "A Randomized, Open Label Phase 2/3 Study Comparing Cobolimab + Dostarlimab + Docetaxel To Dostarlimab + Docetaxel To Docetaxel Alone In Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed On Prior Anti-PD-(L)1 Therapy And Chemotherapy (COSTAR Lung)",
+        "acronym": "COSTAR Lung",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Lung Cancer, Non-Small Cell"
+        ],
+        "interventions": [
+          "Cobolimab",
+          "Dostarlimab",
+          "Docetaxel"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS) (Arm A Versus Arm C)",
+          "Overall Survival (OS) (Arm B Versus Arm C)"
+        ],
+        "enrollment": 758,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-12-08",
+        "primary_completion": "2025-06-05",
+        "completion": "2027-03-30",
+        "last_update": "2026-07-01",
+        "results_first_post": "2026-07-01",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Finland",
+          "France",
+          "Germany",
+          "Greece",
+          "Italy",
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04655976",
+          "title": "Efficacy Comparison of Cobolimab + Dostarlimab + Docetaxel to Dostarlimab + Docetaxel to Docetaxel Alone in Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed on Prior Anti-PD-(L)1 Therapy and Chemotherapy",
+          "official_title": "A Randomized, Open Label Phase 2/3 Study Comparing Cobolimab + Dostarlimab + Docetaxel To Dostarlimab + Docetaxel To Docetaxel Alone In Participants With Advanced Non-small Cell Lung Cancer Who Have Progressed On Prior Anti-PD-(L)1 Therapy And Chemotherapy (COSTAR Lung)",
+          "acronym": "COSTAR Lung",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Lung Cancer, Non-Small Cell"
+          ],
+          "interventions": [
+            "Cobolimab",
+            "Dostarlimab",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS) (Arm A Versus Arm C)",
+            "Overall Survival (OS) (Arm B Versus Arm C)"
+          ],
+          "enrollment": 758,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-12-08",
+          "primary_completion": "2025-06-05",
+          "completion": "2027-03-30",
+          "last_update": "2026-07-01",
+          "results_first_post": "2026-07-01",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06926673",
+          "title": "Platform Trial of Novel Regimens Versus Standard of Care (SoC) in Participants With Non-small Cell Lung Cancer (NSCLC) - Sub-study 3",
+          "official_title": "A Phase II, Randomized, Open-label Platform Trial Utilizing a Master Protocol to Study Novel Regimens Versus Standard of Care Treatment in NSCLC Participants",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Neoplasms"
+          ],
+          "interventions": [
+            "Dostarlimab",
+            "Belrestotug.",
+            "Nelistotug"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants With Any Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs) (Arm 4)",
+            "Part 1: Number of Participants With Any TEAEs and SAEs (Arm 5)",
+            "Part 1: Number of Participants With Dose Limiting Toxicity (DLT) (Arm 4 and Arm 5)",
+            "Part 1: Number of Participants Requiring Dose Modifications (Arm 4)",
+            "Part 1: Number of Participants Requiring Dose Modifications (Arm 5)",
+            "Part 1: Number of Participants With Eastern Cooperative Oncology Group (ECOG) Performance Status (Arm 4)",
+            "Part 1: Number of Participants With Eastern Cooperative Oncology Group (ECOG) Performance Status (Arm 5)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Increase From Baseline in Vital Signs (Arm 4)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Increase From Baseline in Vital Signs (Arm 5)",
+            "Part 1: Number of Participants Who Received Concomitant Medications (Arm 4)",
+            "Part 1: Number of Participants Who Received Concomitant Medications (Arm 5)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline Electrocardiogram (ECG) Findings (Arm 4)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline ECG Findings (Arm 5)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline in QTcF Interval (Arm 4)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline in QTcF Interval (Arm 5)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline in Left Ventricular Ejection Fraction (LVEF) (Arm 4)",
+            "Part 1: Number of Participants With Worst-case Post Baseline Relative to Baseline in Left Ventricular Ejection Fraction (LVEF) (Arm 5)",
+            "Part 1: Number of Participants With Worst Case Hematology Results by Maximum Grade Increase Post-Baseline Relative to Baseline (Arm 4)",
+            "Part 1: Number of Participants With Worst Case Hematology Results by Maximum Grade Increase Post-Baseline Relative to Baseline (Arm 5)",
+            "Part 1: Number of Participants With Worst Case Clinical Chemistry Results by Maximum Grade Increase Post-Baseline Relative to Baseline (Arm 4)",
+            "Part 1: Number of Participants With Worst Case Clinical Chemistry Results by Maximum Grade Increase Post-Baseline Relative to Baseline (Arm 5)",
+            "Part 1: Number of Participants With Worst Case Change Post-baseline in Clinical Chemistry Parameters (Arm 4)",
+            "Part 1: Number of Participants With Worst Case Change Post-baseline in Clinical Chemistry Parameters (Arm 5)",
+            "Part 1: Number of Participants With Worst-Case Urinalysis Results Post-Baseline Relative to Baseline (Arm 4)",
+            "Part 1: Number of Participants With Worst-Case Urinalysis Results Post-Baseline Relative to Baseline (Arm 5)",
+            "Part 2: Overall Survival (OS)"
+          ],
+          "enrollment": 62,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-12-23",
+          "primary_completion": "2024-05-02",
+          "completion": "2024-05-02",
+          "last_update": "2025-07-03",
+          "results_first_post": "2025-07-03",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada",
+            "France",
+            "Germany",
+            "Italy",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04313504",
+          "title": "Study Evaluating the Efficacy of Niraparib and Dostarlimab (TSR-042) in Recurrent/Metastatic HNSCC",
+          "official_title": "An Open-label, Phase II Study Evaluating the Efficacy of Niraparib and Dostarlimab (TSR-042) in Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma Patients",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Trisha Wise-Draper",
+          "conditions": [
+            "Head and Neck Cancer"
+          ],
+          "interventions": [
+            "Niraparib",
+            "Dostarlimab"
+          ],
+          "primary_outcomes": [
+            "Overall Response"
+          ],
+          "enrollment": 10,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-11-04",
+          "primary_completion": "2025-06-01",
+          "completion": "2026-03-04",
+          "last_update": "2026-05-07",
+          "results_first_post": "2026-05-06",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "dostarlimab",
+          "nivolumab",
+          "ipilimumab",
+          "tislelizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "dc7d0ff6adeafa2b": {
+    "id": "dc7d0ff6adeafa2b",
+    "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+    "score": 8.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得积极结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:取得积极结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
+    "registry": {
+      "best": {
+        "nct": "NCT05840016",
+        "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Advanced Squamous Non Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "AK112, Carboplatin, Paxlitaxel",
+          "Tislelizumab, Carboplatin, Paxlitaxel"
+        ],
+        "primary_outcomes": [
+          "PFS assessed by IRRC per RECIST v1.1"
+        ],
+        "enrollment": 532,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-08-17",
+        "primary_completion": "2025-02-28",
+        "completion": "2026-12-31",
+        "last_update": "2025-05-02",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840016",
+          "title": "AK112 in Combination With Chemotherapy in Advanced Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Combined With Chemotherapy Versus PD-1 Inhibitor Combined With Chemotherapy as First-line Treatment for Locally Advanced or Metastatic Squamous Non-small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Squamous Non Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "AK112, Carboplatin, Paxlitaxel",
+            "Tislelizumab, Carboplatin, Paxlitaxel"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC per RECIST v1.1"
+          ],
+          "enrollment": 532,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-08-17",
+          "primary_completion": "2025-02-28",
+          "completion": "2026-12-31",
+          "last_update": "2025-05-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06767527",
+          "title": "AK112 or Placebo Plus Nab-Paclitaxel as First-line Treatment in Inoperable Locally Advanced/ Metastatic Triple-negative Breast Cancer",
+          "official_title": "A Randomized, Controlled, Multi-center Phase III Clinical Study of AK112 Plus Nab-paclitaxel Versus Placebo Plus Nab-paclitaxel as First-line Treatment for Locally Advanced Unresectable or Metastatic Triple-negative Breast Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Triple-Negative Breast Cancer (TNBC)"
+          ],
+          "interventions": [
+            "AK112",
+            "Nab-paclitaxel",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "PFS assessed by IRRC",
+            "OS"
+          ],
+          "enrollment": 416,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-02-07",
+          "primary_completion": "2026-12",
+          "completion": "2028-12",
+          "last_update": "2026-03-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05214482",
+          "title": "A Study of AK112 in Advanced Malignant Tumors",
+          "official_title": "A Phase Ib/II Study of AK112（PD-1 / VEGF Bispecific Antibody） in Combination With AK117（Anti-CD47 Antibody）With or Without Chemotherapy in Advanced Malignant Tumors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Advanced Malignant Tumors"
+          ],
+          "interventions": [
+            "AK112",
+            "AK117",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "Number of patients with Adverse Events (AEs)",
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 154,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-01-22",
+          "primary_completion": "2025-11-20",
+          "completion": "2025-12-31",
+          "last_update": "2026-03-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AK112"
+        ],
+        "sponsor": [
+          "康方生物",
+          "抗是康方生物",
+          "摩熵医药",
+          "荣昌生物制药"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso",
+          "摩熵医药",
+          "RemeGen"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "2dda04ef016ce767": {
+    "id": "2dda04ef016ce767",
+    "title": "Sacituzumab tirumotecan shows significant clinical benefit in advanced/recurrent endometrial cancer",
+    "score": 8.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {
+        "nct": "NCT05840211",
+        "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+        "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+        "acronym": "ASCENT-07",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Gilead Sciences",
+        "conditions": [
+          "Locally Advanced or Unresectable Metastatic Breast Cancer",
+          "Stage IV Breast Cancer"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan-hziy",
+          "Paclitaxel",
+          "Nab-paclitaxel",
+          "Capecitabine"
+        ],
+        "primary_outcomes": [
+          "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+        ],
+        "enrollment": 654,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-05-08",
+        "primary_completion": "2028-04",
+        "completion": "2028-04",
+        "last_update": "2025-10-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Czechia",
+          "France",
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05840211",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-positive/Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Metastatic Breast Cancer Who Have Received Endocrine Therapy",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Hormone Receptor-Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) (HER2 IHC0 or HER2-low [IHC 1+, IHC 2+/ISH-]) Inoperable, Locally Advanced, or Metastatic Breast Cancer and Have Received Endocrine Therapy",
+          "acronym": "ASCENT-07",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Locally Advanced or Unresectable Metastatic Breast Cancer",
+            "Stage IV Breast Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "Nab-paclitaxel",
+            "Capecitabine"
+          ],
+          "primary_outcomes": [
+            "Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+          ],
+          "enrollment": 654,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-08",
+          "primary_completion": "2028-04",
+          "completion": "2028-04",
+          "last_update": "2025-10-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06486441",
+          "title": "Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer After Platinum-Based Chemotherapy and Immunotherapy (ASCENT-GYN-01/GOG-3104/ENGOT-en26)",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Participants With Endometrial Cancer Who Have Received Prior Platinum-based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+          "acronym": "ASCENT-GYN-01",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Endometrial Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan-hziy",
+            "Doxorubicin",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) As Assessed by Blinded Independent Central Review (BICR)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 640,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-28",
+          "primary_completion": "2029-06",
+          "completion": "2029-06",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Israel",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05382299",
+          "title": "Study of Sacituzumab Govitecan-hziy Versus Treatment of Physician's Choice in Patients With Previously Untreated Locally Advanced Inoperable or Metastatic Triple-Negative Breast Cancer",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of Sacituzumab Govitecan Versus Treatment of Physician's Choice in Patients With Previously Untreated, Locally Advanced, Inoperable or Metastatic Triple-Negative Breast Cancer Whose Tumors Do Not Express PD-L1 or in Patients Previously Treated With Anti-PD-(L)1 Agents in the Early Setting Whose Tumors Do Express PD-L1",
+          "acronym": "ASCENT-03",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Triple Negative Breast Cancer",
+            "PD-L1 Negative"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy",
+            "Paclitaxel",
+            "nab-Paclitaxel",
+            "Gemcitabine",
+            "Carboplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) per Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1"
+          ],
+          "enrollment": 623,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-20",
+          "primary_completion": "2028-07",
+          "completion": "2028-07",
+          "last_update": "2026-04-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06952504",
+          "NCT07684599",
+          "NCT06989112"
+        ],
+        "drug": [
+          "Sacituzumab",
+          "GOG-3095",
+          "pembrolizumab",
+          "sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
