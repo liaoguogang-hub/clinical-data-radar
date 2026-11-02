@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-03",
+  "count": 4,
+  "plan": [
+    {
+      "type": "milestone",
+      "cluster_key": "drug:ivonescimab",
+      "lead_id": "dc7d0ff6adeafa2b",
+      "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+      "score": 8.5,
+      "channel": "china",
+      "member_ids": [
+        "dc7d0ff6adeafa2b"
+      ],
+      "members": [
+        {
+          "title": "康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_386078",
+          "score": 8.5,
+          "reasoning": "报道给出Ⅲ期预设期中分析达到OS主要终点且具有统计学显著性的明确统计结论，并涉及胆道癌这一预后较差、选择有限的适应症，优先审评进一步放大临床价值。OS具体数值在素材中尚未披露。"
+        }
+      ],
+      "reasoning": "报道给出Ⅲ期预设期中分析达到OS主要终点且具有统计学显著性的明确统计结论，并涉及胆道癌这一预后较差、选择有限的适应症，优先审评进一步放大临床价值。OS具体数值在素材中尚未披露。",
+      "verify_todo": [
+        "核实HARMONi-GI1的注册号、样本量和预设alpha控制方案",
+        "核实OS、PFS和ORR的具体结果及置信区间",
+        "核实优先审评的正式受理状态"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:povorcitinib",
+      "lead_id": "f745150705dc4b18",
+      "title": "Povorcitinib for nonsegmental vitiligo: two randomized, controlled, phase 3 STOP-V trials",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "f745150705dc4b18"
+      ],
+      "members": [
+        {
+          "title": "Povorcitinib for nonsegmental vitiligo: two randomized, controlled, phase 3 STOP-V trials",
+          "url": "https://www.nature.com/articles/s41591-026-04739-2",
+          "score": 7.8,
+          "reasoning": "两项随机对照Ⅲ期研究在Nature Medicine正式发表，并明确报告F-VASI75优于安慰剂，依据是预设临床终点的比较结论而非单纯疗效数字；JAK1领域竞争较激烈，但白癜风仍存在未满足需求。"
+        }
+      ],
+      "reasoning": "两项随机对照Ⅲ期研究在Nature Medicine正式发表，并明确报告F-VASI75优于安慰剂，依据是预设临床终点的比较结论而非单纯疗效数字；JAK1领域竞争较激烈，但白癜风仍存在未满足需求。",
+      "verify_todo": [
+        "核实两项试验各自样本量、主要终点定义和p值或效应量",
+        "核实F-VASI75评估时间点及长期维持结果",
+        "核实安全性结果和停药情况",
+        "核实是否已有其他JAK抑制剂用于白癜风"
+      ],
+      "flags": [],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:petosemtamab",
+      "lead_id": "ca0c2b20cbea94e1",
+      "title": "<![CDATA[Petosemtamab Plus Pembrolizumab Improves OS in PD-L1+ HNSCC]]>",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "ca0c2b20cbea94e1"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Petosemtamab Plus Pembrolizumab Improves OS in PD-L1+ HNSCC]]>",
+          "url": "https://www.targetedonc.com/view/petosemtamab-pembrolizumab-improves-os-pd-l1-hnscc",
+          "score": 7.2,
+          "reasoning": "标题报告PD-L1阳性头颈鳞癌中OS改善，属于可能改变治疗路径的Ⅲ期级积极信号。素材未明确说明主要终点是否按统计方案达到，也未给出p值或置信区间，因此按积极疗效数据而非确证终点计分。"
+        }
+      ],
+      "reasoning": "标题报告PD-L1阳性头颈鳞癌中OS改善，属于可能改变治疗路径的Ⅲ期级积极信号。素材未明确说明主要终点是否按统计方案达到，也未给出p值或置信区间，因此按积极疗效数据而非确证终点计分。",
+      "verify_todo": [
+        "核实主要终点及统计检验结果",
+        "核实试验分期、对照方案和样本量",
+        "核实OS数值及随访状态"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:botensilimab",
+      "lead_id": "235166c80310dbac",
+      "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "235166c80310dbac"
+      ],
+      "members": [
+        {
+          "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial",
+          "url": "https://www.nature.com/articles/s41591-026-04710-1",
+          "score": 6.8,
+          "reasoning": "Nature Medicine正式发表UNICORNⅡ期研究，并明确报告达到病理主要缓解率这一主要终点，属于有统计结论的临床获益信号；但研究为单臂Ⅱ期且主要终点采用病理缓解而非长期生存，需相应降权。"
+        }
+      ],
+      "reasoning": "Nature Medicine正式发表UNICORNⅡ期研究，并明确报告达到病理主要缓解率这一主要终点，属于有统计结论的临床获益信号；但研究为单臂Ⅱ期且主要终点采用病理缓解而非长期生存，需相应降权。",
+      "verify_todo": [
+        "核实样本量、队列构成及主要终点的统计结果",
+        "核实病理主要缓解率定义和各队列响应人数",
+        "核实是否为单臂设计以及后续生存随访状态",
+        "核实drug:botensilimab之外balstilimab组合的完整方案"
+      ],
+      "flags": [
+        "single_arm",
+        "surrogate"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
