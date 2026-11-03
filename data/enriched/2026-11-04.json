@@ -1,0 +1,1833 @@
+{
+  "c5b91fd615e4012a": {
+    "id": "c5b91fd615e4012a",
+    "title": "Novel Therapy Lands Speedy Approval for Wart-Like Airway Disease",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "doruxapapogene",
+          "lalikinogene"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "4fda36552a3e1b8c": {
+    "id": "4fda36552a3e1b8c",
+    "title": "PASI 90破70%：益方生物口服TYK2抑制剂III期达标",
+    "score": 7.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "益方生物",
+          "比肩部分生物",
+          "中国生物制药",
+          "中山康方生物"
+        ],
+        "sponsor_en": [
+          "InventisBio",
+          "比肩部分生物",
+          "Sino Biopharm",
+          "Akeso"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "36a496b8d2e79b73": {
+    "id": "36a496b8d2e79b73",
+    "title": "益方生物TYK2抑制剂Nomelcitinib银屑病III期成功，多自身免疫适应症同步推进",
+    "score": 7.6,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:III期成功"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:III期成功"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:III期成功",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nomelcitinib",
+          "WD-890"
+        ],
+        "sponsor": [
+          "益方生物",
+          "是益方生物",
+          "摩熵医药",
+          "文达医药"
+        ],
+        "sponsor_en": [
+          "InventisBio",
+          "InventisBio",
+          "摩熵医药",
+          "文达医药"
+        ]
+      },
+      "note": "注册库检索到 8 个试验，但没有一个能对上主药名「Nomelcitinib」（其余抽到的药名多为对照药，不作依据），判定为不匹配，不采用"
+    }
+  },
+  "2dda04ef016ce767": {
+    "id": "2dda04ef016ce767",
+    "title": "Sacituzumab tirumotecan shows significant clinical benefit in advanced/recurrent endometrial cancer",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:benefit"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "疗效数据表述:benefit",
+        "注册库状态=TERMINATED，原因：This protocol was terminated prematurely because the prior principal investigato"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：疗效数据表述:benefit；注册库状态=TERMINATED，原因：This protocol was terminated prematurely because the prior principal investigato",
+    "registry": {
+      "best": {
+        "nct": "NCT06865677",
+        "title": "Sacituzumab Govitecan for Relapsed Ovarian, Endometrial, and Cervical Carcinomas",
+        "official_title": "Phase II Pilot Study of Sacituzumab Govitecan for Relapsed Ovarian, Endometrial, and Cervical Carcinomas",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "This protocol was terminated prematurely because the prior principal investigator departed the Institute without treating any participants.",
+        "phase": "PHASE2",
+        "sponsor": "National Cancer Institute (NCI)",
+        "conditions": [
+          "Recurrent Platinum Resistant Epithelial Ovarian Carcinoma",
+          "Recurrent Epithelial Endometrial Carcinoma",
+          "Recurrent Epithelial Cervical Carcinoma"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan",
+          "EKG",
+          "Brain MRI",
+          "CT scans",
+          "Tumor biopsy",
+          "Loperamide",
+          "Octreotide",
+          "Diphenoxylate/Atropine",
+          "Antiemetics"
+        ],
+        "primary_outcomes": [
+          "Overall Response Rate (Partial Response or Complete Response) of Sacituzumab Govitecan in Participants With Recurrent Gynecological Malignancies, Calculated for Each Individual Tumor Histology by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+        ],
+        "enrollment": 2,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2025-06-09",
+        "primary_completion": "2025-07-01",
+        "completion": "2025-07-01",
+        "last_update": "2026-01-21",
+        "results_first_post": "2026-01-21",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06865677",
+          "title": "Sacituzumab Govitecan for Relapsed Ovarian, Endometrial, and Cervical Carcinomas",
+          "official_title": "Phase II Pilot Study of Sacituzumab Govitecan for Relapsed Ovarian, Endometrial, and Cervical Carcinomas",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "This protocol was terminated prematurely because the prior principal investigator departed the Institute without treating any participants.",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Recurrent Platinum Resistant Epithelial Ovarian Carcinoma",
+            "Recurrent Epithelial Endometrial Carcinoma",
+            "Recurrent Epithelial Cervical Carcinoma"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan",
+            "EKG",
+            "Brain MRI",
+            "CT scans",
+            "Tumor biopsy",
+            "Loperamide",
+            "Octreotide",
+            "Diphenoxylate/Atropine",
+            "Antiemetics"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (Partial Response or Complete Response) of Sacituzumab Govitecan in Participants With Recurrent Gynecological Malignancies, Calculated for Each Individual Tumor Histology by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+          ],
+          "enrollment": 2,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-06-09",
+          "primary_completion": "2025-07-01",
+          "completion": "2025-07-01",
+          "last_update": "2026-01-21",
+          "results_first_post": "2026-01-21",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03725761",
+          "title": "Sacituzumab Govitecan in Patients With Metastatic Castration-Resistant Prostate Cancer Progressing on Second Generation AR-Directed Therapy",
+          "official_title": "A Multi-arm, Phase 2 Study to Evaluate the Safety and Efficacy of Sacituzumab Govitecan in Patients With Metastatic Castration-Resistant Prostate Cancer Who Have Progressed on Second Generation AR-Directed Therapy",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Wisconsin, Madison",
+          "conditions": [
+            "Prostate Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan"
+          ],
+          "primary_outcomes": [
+            "PSA Response Rate",
+            "6-Month Progression Free Survival Rate"
+          ],
+          "enrollment": 31,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-10-24",
+          "primary_completion": "2024-04-18",
+          "completion": "2027-09",
+          "last_update": "2026-06-04",
+          "results_first_post": "2025-04-24",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05097599",
+          "title": "StrataPATH™ (Precision Indications for Approved Therapies)",
+          "official_title": "StrataPATH™ (Precision Indications for Approved Therapies): A Study Evaluating the Clinical Activity and Safety of Approved Drugs Within Biomarker-Guided Patients With Solid Tumors",
+          "acronym": "StrataPATH",
+          "status": "TERMINATED",
+          "why_stopped": "Business decision and enrollment difficulties",
+          "phase": "PHASE2",
+          "sponsor": "Strata Oncology",
+          "conditions": [
+            "Cancer",
+            "Advanced Solid Tumor"
+          ],
+          "interventions": [
+            "lorlatinib",
+            "encorafenib + binimetinib",
+            "talazoparib",
+            "sacituzumab govitecan",
+            "axitinib",
+            "Fam-Trastuzumab Deruxtecan-Nxki",
+            "enfortumab vedotin"
+          ],
+          "primary_outcomes": [
+            "Overall response rate (ORR) defined as the percentage of participants with a best overall response of CR or PR based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1, as assessed by the investigator"
+          ],
+          "enrollment": 11,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-04-29",
+          "primary_completion": "2024-06-12",
+          "completion": "2024-06-12",
+          "last_update": "2025-01-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "cf72458f12375ab5": {
+    "id": "cf72458f12375ab5",
+    "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "235166c80310dbac": {
+    "id": "235166c80310dbac",
+    "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:response rate"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "疗效数据表述:response rate",
+        "注册库状态=TERMINATED，原因：Pharmaceutical Sponsor discontinued trial financial support"
+      ],
+      "conflict": false,
+      "halt_reason": "funding"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：funding\n证据：疗效数据表述:response rate；注册库状态=TERMINATED，原因：Pharmaceutical Sponsor discontinued trial financial support",
+    "registry": {
+      "best": {
+        "nct": "NCT07152821",
+        "title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma",
+        "official_title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma: The BATTMAN Trial",
+        "acronym": "BATTMAN",
+        "status": "TERMINATED",
+        "why_stopped": "Pharmaceutical Sponsor discontinued trial financial support",
+        "phase": "PHASE3",
+        "sponsor": "Canadian Cancer Trials Group",
+        "conditions": [
+          "Colorectal Cancer"
+        ],
+        "interventions": [
+          "Best Supportive Care",
+          "Balstilimab",
+          "Botensilimab"
+        ],
+        "primary_outcomes": [
+          "Overall Survival"
+        ],
+        "enrollment": 21,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2026-03-31",
+        "primary_completion": "2026-07-13",
+        "completion": "2026-07-13",
+        "last_update": "2026-07-16",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Canada"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07152821",
+          "title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma",
+          "official_title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma: The BATTMAN Trial",
+          "acronym": "BATTMAN",
+          "status": "TERMINATED",
+          "why_stopped": "Pharmaceutical Sponsor discontinued trial financial support",
+          "phase": "PHASE3",
+          "sponsor": "Canadian Cancer Trials Group",
+          "conditions": [
+            "Colorectal Cancer"
+          ],
+          "interventions": [
+            "Best Supportive Care",
+            "Balstilimab",
+            "Botensilimab"
+          ],
+          "primary_outcomes": [
+            "Overall Survival"
+          ],
+          "enrollment": 21,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2026-03-31",
+          "primary_completion": "2026-07-13",
+          "completion": "2026-07-13",
+          "last_update": "2026-07-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06251973",
+          "title": "A Study of agenT-797 in Combination With Botensilimab, Balstilimab, Ramucirumab, and Paclitaxel for People With Esophageal, Gastric, or Gastro-esophageal Junction Cancer",
+          "official_title": "A Phase II Study of agenT-797 (Invariant Natural Killer T Cells), Botensilimab, a Novel Fc-enhanced CTLA-4 Inhibitor, Plus Balstilimab (Anti-PD-1) With Ramucirumab and Paclitaxel for Patients With Previously Treated, Advanced Esophageal, Gastric, or Gastro-esophageal Junction Adenocarcinoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Memorial Sloan Kettering Cancer Center",
+          "conditions": [
+            "Metastatic Esophageal Carcinoma",
+            "Advanced Unresectable Gastric Adenocarcinoma",
+            "Metastatic Gastric Cancer",
+            "Metastatic Gastroesophageal Junction Adenocarcinoma",
+            "Metastatic Esophageal Cancer",
+            "Metastatic Esophageal Adenocarcinoma",
+            "Metastatic Gastric Adenocarcinoma",
+            "Metastatic Gastric Carcinoma",
+            "Unresectable Esophageal Cancer",
+            "Unresectable Esophageal Adenocarcinoma",
+            "Unresectable Gastric Carcinoma",
+            "Unresectable Gastric Adenocarcinoma",
+            "Unresectable Gastroesophageal Junction Adenocarcinoma"
+          ],
+          "interventions": [
+            "AgenT-797",
+            "Botensilimab",
+            "Balstilimab",
+            "Ramucirumab",
+            "Paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate"
+          ],
+          "enrollment": 20,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-02-01",
+          "primary_completion": "2027-08-01",
+          "completion": "2027-08-01",
+          "last_update": "2026-05-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06575725",
+          "title": "Botensilimab, Balstilimab and Regorafenib or Botensilimab and Balstilimab for the Treatment of Advanced or Metastatic Microsatellite Stable Colorectal Cancer",
+          "official_title": "A Phase 2 Study of Botensilimab, Balstilimab and Regorafenib in Patients With Microsatellite Stable Colorectal Cancer",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Abandoned 9/23/24",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Advanced Colon Adenocarcinoma",
+            "Advanced Colorectal Adenocarcinoma",
+            "Advanced Rectal Adenocarcinoma",
+            "Metastatic Colon Adenocarcinoma",
+            "Metastatic Colorectal Adenocarcinoma",
+            "Metastatic Rectal Adenocarcinoma",
+            "Stage III Colon Cancer AJCC v8",
+            "Stage III Colorectal Cancer AJCC v8",
+            "Stage III Rectal Cancer AJCC v8",
+            "Stage IV Colon Cancer AJCC v8",
+            "Stage IV Colorectal Cancer AJCC v8",
+            "Stage IV Rectal Cancer AJCC v8"
+          ],
+          "interventions": [
+            "Balstilimab",
+            "Biopsy",
+            "Biospecimen Collection",
+            "Botensilimab",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Regorafenib"
+          ],
+          "primary_outcomes": [
+            "Incidence of dose limiting toxicities (Safety lead in)",
+            "Treatment related adverse event rates (Safety lead in)",
+            "Response rate (Phase II) RECIST",
+            "Response rate (Phase II) Immune-Modified RECIST"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-11-01",
+          "primary_completion": "2027-01-28",
+          "completion": "2027-01-28",
+          "last_update": "2024-11-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "botensilimab",
+          "balstilimab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "381b24daec754dad": {
+    "id": "381b24daec754dad",
+    "title": "Bright Minds暴跌，因小鼠毒性FDA暂停BMB-101癫痫临床",
+    "score": 6.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT06401538",
+        "title": "BMB-101 in Absence Epilepsy and DEE",
+        "official_title": "An Open-Label Phase 2 Study to Evaluate the Efficacy, Safety and Tolerability of BMB-101 in Adults With Either Classic Absence Epilepsy (With or Without Eyelid Myoclonia (EEM; Jeavons Syndrome), OR Developmental Epileptic Encephalopathy (DEE).",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Bright Minds Biosciences Pty Ltd",
+        "conditions": [
+          "Absence Epilepsy",
+          "Jeavons Syndrome",
+          "Dravet Syndrome",
+          "Lennox Gastaut Syndrome"
+        ],
+        "interventions": [
+          "BMB-101"
+        ],
+        "primary_outcomes": [
+          "Change from baseline in seizure frequency in DEE subjects",
+          "Change from baseline in the number of generalized spike-wave discharges (GSWD) on the 24 hr EEG in Absence subjects."
+        ],
+        "enrollment": 20,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-12-05",
+        "primary_completion": "2025-09-15",
+        "completion": "2025-11-30",
+        "last_update": "2025-08-12",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Australia"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06401538",
+          "title": "BMB-101 in Absence Epilepsy and DEE",
+          "official_title": "An Open-Label Phase 2 Study to Evaluate the Efficacy, Safety and Tolerability of BMB-101 in Adults With Either Classic Absence Epilepsy (With or Without Eyelid Myoclonia (EEM; Jeavons Syndrome), OR Developmental Epileptic Encephalopathy (DEE).",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Bright Minds Biosciences Pty Ltd",
+          "conditions": [
+            "Absence Epilepsy",
+            "Jeavons Syndrome",
+            "Dravet Syndrome",
+            "Lennox Gastaut Syndrome"
+          ],
+          "interventions": [
+            "BMB-101"
+          ],
+          "primary_outcomes": [
+            "Change from baseline in seizure frequency in DEE subjects",
+            "Change from baseline in the number of generalized spike-wave discharges (GSWD) on the 24 hr EEG in Absence subjects."
+          ],
+          "enrollment": 20,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-12-05",
+          "primary_completion": "2025-09-15",
+          "completion": "2025-11-30",
+          "last_update": "2025-08-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07266324",
+          "title": "A 2-Part Study to Assess Efficacy, Safety and Tolerability of BMB-101 for the Treatment of Patients With Prader-Willi Syndrome.",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study to Assess Efficacy, Safety and Tolerability of BMB-101 Oral Solution for the Treatment of Patients With Prader-Willi Syndrome (PWS)",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Bright Minds Biosciences Pty Ltd",
+          "conditions": [
+            "Prader-Willi Syndrome"
+          ],
+          "interventions": [
+            "BMB-101",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in Hyperphagia Questionnaire for Clinical Trials scores over time in Prader-Willi Syndrome participants."
+          ],
+          "enrollment": 16,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-01",
+          "primary_completion": "2026-11",
+          "completion": "2027-03",
+          "last_update": "2025-12-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05397041",
+          "title": "A 3-Part Study to Evaluate the Safety, Tolerability, PK, and Food Effect of BMB-101 in Healthy Volunteers",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled, Phase I Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single and Multiple Ascending Oral Doses of BMB-101 in Fed and Fasted Adult Healthy Human Volunteers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Bright Minds Biosciences Pty Ltd",
+          "conditions": [
+            "Healthy"
+          ],
+          "interventions": [
+            "BMB-101",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Number of Treatment-emergent Adverse Events",
+            "Change in Columbia-Suicide Severity Rating Scale (C-SSRS) Response"
+          ],
+          "enrollment": 81,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-06-06",
+          "primary_completion": "2023-05-04",
+          "completion": "2023-05-04",
+          "last_update": "2023-07-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "BMB-101"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "39cd5a8fb4ed234d": {
+    "id": "39cd5a8fb4ed234d",
+    "title": "Atacicept in IgA Nephropathy — Phase 3 Trial Final Efficacy Analysis",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b6f9c6f0d8eedeaf": {
+    "id": "b6f9c6f0d8eedeaf",
+    "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02064582",
+        "title": "Enzalutamide and Hormone Therapy Before, During, and After Radiation for High Risk Localized Prostate Cancer",
+        "official_title": "Phase 2 Study of Enzalutamide and GnRH Agonist Before, During and After Radiation Therapy in Treatment of Patients With High-risk Localized Prostate Cancer",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "University of Texas Southwestern Medical Center",
+        "conditions": [
+          "Prostate Cancer"
+        ],
+        "interventions": [
+          "Enzalutamide",
+          "Leuprolide acetate",
+          "radiation"
+        ],
+        "primary_outcomes": [
+          "Safety, as Measured by the Number of Patients With at Least One Adverse Event as Assess by NCI Common Terminology Criteria for Adverse Events (CTCAE) vs. 40 When Combining Enzalutamide With a GnRH and External Beam Radiation"
+        ],
+        "enrollment": 7,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2014-05",
+        "primary_completion": "2018-06-09",
+        "completion": "2018-06-09",
+        "last_update": "2020-10-12",
+        "results_first_post": "2020-10-12",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02064582",
+          "title": "Enzalutamide and Hormone Therapy Before, During, and After Radiation for High Risk Localized Prostate Cancer",
+          "official_title": "Phase 2 Study of Enzalutamide and GnRH Agonist Before, During and After Radiation Therapy in Treatment of Patients With High-risk Localized Prostate Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Texas Southwestern Medical Center",
+          "conditions": [
+            "Prostate Cancer"
+          ],
+          "interventions": [
+            "Enzalutamide",
+            "Leuprolide acetate",
+            "radiation"
+          ],
+          "primary_outcomes": [
+            "Safety, as Measured by the Number of Patients With at Least One Adverse Event as Assess by NCI Common Terminology Criteria for Adverse Events (CTCAE) vs. 40 When Combining Enzalutamide With a GnRH and External Beam Radiation"
+          ],
+          "enrollment": 7,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2014-05",
+          "primary_completion": "2018-06-09",
+          "completion": "2018-06-09",
+          "last_update": "2020-10-12",
+          "results_first_post": "2020-10-12",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03850795",
+          "title": "HC-1119 Versus Enzalutamide in Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+          "official_title": "PROCADE: A Multinational Phase 3, Randomized, Double-Blind, Non-inferiority, Efficacy and Safety Study of Oral HC-1119 Versus Enzalutamide in Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Terminated by Sponsor for various factors including prolonged duration and enrollment challenges",
+          "phase": "PHASE3",
+          "sponsor": "Hinova Pharmaceuticals USA, Inc.",
+          "conditions": [
+            "Prostate Cancer Metastatic",
+            "Castration-resistant Prostate Cancer"
+          ],
+          "interventions": [
+            "HC-1119",
+            "Enzalutamide"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 104,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-03-15",
+          "primary_completion": "2024-06-28",
+          "completion": "2024-06-28",
+          "last_update": "2024-08-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Canada",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Russia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05726292",
+          "title": "A Study of Enzalutamide Plus the Glucocorticoid Receptor Antagonist Relacorilant Versus Placebo for Patients With High-risk Localized Prostate Cancer",
+          "official_title": "A Randomized Phase II Trial of Neoadjuvant Enzalutamide Plus the Glucocorticoid Receptor Antagonist Relacorilant Versus Placebo for Patients With High-risk Localized Prostate Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Chicago",
+          "conditions": [
+            "Prostate Cancer",
+            "Prostate Adenocarcinoma"
+          ],
+          "interventions": [
+            "Relacorilant",
+            "Enzalutamide",
+            "Placebo (Sugar Pill)",
+            "Androgen Deprivation Therapy",
+            "Radical Prostatectomy"
+          ],
+          "primary_outcomes": [
+            "Response Rate of Subjects Receiving Relacorilant with Enzalutamide and Hormone Therapy"
+          ],
+          "enrollment": 90,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-01-06",
+          "primary_completion": "2027-10-01",
+          "completion": "2028-04-01",
+          "last_update": "2026-08-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Enzalutamide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "80de99bddd4a3db7": {
+    "id": "80de99bddd4a3db7",
+    "title": "<![CDATA[Camizestrant Approval Paves the Way for ctDNA-Guided Switching in Emergent ESR1-Mutated HR+/HER2– Advanced Breast Cancer]]>",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e28426cd8159d86a": {
+    "id": "e28426cd8159d86a",
+    "title": "<![CDATA[Lonardi on Overall Survival With Nivolumab/Ipilimumab in MSI-H/dMMR mCRC]]>",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04907539",
+        "title": "A Study to Assess Efficacy of RXC004 +/- Nivolumab in Ring Finger Protein 43 (RNF43) or R-spondin (RSPO) Aberrated, Metastatic, Microsatellite Stable, Colorectal Cancer After Progression on Standard of Care (SOC)",
+        "official_title": "A Multi-arm, Phase II, Open-Label, Multicentre Study to Assess the Preliminary Efficacy of RXC004 in Monotherapy and in Combination With Nivolumab, in Patients With Ring Finger Protein 43 (RNF43) or R-spondin (RSPO) Aberrated, Metastatic, Microsatellite Stable, Colorectal Cancer Who Have Progressed Following Therapy With Current Standard of Care (PORCUPINE)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Redx Pharma Ltd",
+        "conditions": [
+          "Colorectal Cancer"
+        ],
+        "interventions": [
+          "RXC004",
+          "Nivolumab",
+          "Denosumab"
+        ],
+        "primary_outcomes": [
+          "RXC004 Monotherapy (Arm A): Disease Control Rate (DCR) Using Each Patient's Best Overall Response (BOR) According to Response Evaluation Criteria in Solid Tumours, Version 1.1 (RECIST 1.1)",
+          "RXC004+Nivolumab Combination Therapy (Arm B): Objective Response Rate (ORR) Using Each Patient's BOR According to RECIST 1.1"
+        ],
+        "enrollment": 25,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-11-08",
+        "primary_completion": "2024-04-02",
+        "completion": "2024-04-02",
+        "last_update": "2025-04-16",
+        "results_first_post": "2025-04-16",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "South Korea",
+          "Spain",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04907539",
+          "title": "A Study to Assess Efficacy of RXC004 +/- Nivolumab in Ring Finger Protein 43 (RNF43) or R-spondin (RSPO) Aberrated, Metastatic, Microsatellite Stable, Colorectal Cancer After Progression on Standard of Care (SOC)",
+          "official_title": "A Multi-arm, Phase II, Open-Label, Multicentre Study to Assess the Preliminary Efficacy of RXC004 in Monotherapy and in Combination With Nivolumab, in Patients With Ring Finger Protein 43 (RNF43) or R-spondin (RSPO) Aberrated, Metastatic, Microsatellite Stable, Colorectal Cancer Who Have Progressed Following Therapy With Current Standard of Care (PORCUPINE)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Redx Pharma Ltd",
+          "conditions": [
+            "Colorectal Cancer"
+          ],
+          "interventions": [
+            "RXC004",
+            "Nivolumab",
+            "Denosumab"
+          ],
+          "primary_outcomes": [
+            "RXC004 Monotherapy (Arm A): Disease Control Rate (DCR) Using Each Patient's Best Overall Response (BOR) According to Response Evaluation Criteria in Solid Tumours, Version 1.1 (RECIST 1.1)",
+            "RXC004+Nivolumab Combination Therapy (Arm B): Objective Response Rate (ORR) Using Each Patient's BOR According to RECIST 1.1"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-11-08",
+          "primary_completion": "2024-04-02",
+          "completion": "2024-04-02",
+          "last_update": "2025-04-16",
+          "results_first_post": "2025-04-16",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "South Korea",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04564157",
+          "title": "New Adjuvant Trial of Chemotherapy vs Chemo-immunotherapy",
+          "official_title": "A Phase III Clinical Trial of Adjuvant Chemotherapy vs Chemoimmunotherapy for Stage IB-IIIA Completely Resected Non-small Cell Lung Cancer (NSCLC) Patients.",
+          "acronym": "NADIM-ADJUVANT",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Fundación GECP",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "Adjuvant Chemotherapy"
+          ],
+          "interventions": [
+            "Carboplatin",
+            "Paclitaxel",
+            "Nivolumab"
+          ],
+          "primary_outcomes": [
+            "The disease-free survival"
+          ],
+          "enrollment": 210,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-01-13",
+          "primary_completion": "2030-04-01",
+          "completion": "2031-04-01",
+          "last_update": "2026-05-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04393220",
+          "title": "Combination of PD-1 and VEGFR-2 Blockade for Advanced Hepatocellular Carcinoma",
+          "official_title": "Combination of PD-1 and VEGFR-2 Blockade for Advanced Hepatocellular Carcinoma",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Fuda Cancer Hospital, Guangzhou",
+          "conditions": [
+            "Progress Free Survival (PFS) and Overall Survival (OS)"
+          ],
+          "interventions": [
+            "Bevacizumab Injection",
+            "Nivolumab"
+          ],
+          "primary_outcomes": [
+            "PFS",
+            "OS"
+          ],
+          "enrollment": 60,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-05-11",
+          "primary_completion": "2021-07-30",
+          "completion": "2021-08-31",
+          "last_update": "2021-09-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nivolumab",
+          "Ipilimumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6506fbc408e3f4fe": {
+    "id": "6506fbc408e3f4fe",
+    "title": "益方生物TYK2抑制剂III期达标，口服银屑病赛道再升级",
+    "score": 6.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "益方生物"
+        ],
+        "sponsor_en": [
+          "InventisBio"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "db93585dde8d3247": {
+    "id": "db93585dde8d3247",
+    "title": "Ravulizumab in IgA Nephropathy — Interim Analysis of a Phase 3 Trial",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：The IDMC recommended the study be discontinued due to lack of efficacy with ravu"
+      ],
+      "conflict": false,
+      "halt_reason": "efficacy"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：efficacy\n证据：注册库状态=TERMINATED，原因：The IDMC recommended the study be discontinued due to lack of efficacy with ravu",
+    "registry": {
+      "best": {
+        "nct": "NCT04248465",
+        "title": "An Efficacy and Safety Study of Ravulizumab in ALS Participants",
+        "official_title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled, Parallel Group, Multicenter Study With an Open-Label Extension to Evaluate the Efficacy and Safety of Ravulizumab in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "The IDMC recommended the study be discontinued due to lack of efficacy with ravulizumab.",
+        "phase": "PHASE3",
+        "sponsor": "Alexion Pharmaceuticals, Inc.",
+        "conditions": [
+          "Amyotrophic Lateral Sclerosis",
+          "ALS"
+        ],
+        "interventions": [
+          "Placebo",
+          "Ravulizumab"
+        ],
+        "primary_outcomes": [
+          "Change From Baseline In Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) Total Score"
+        ],
+        "enrollment": 382,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-03-30",
+        "primary_completion": "2021-10-17",
+        "completion": "2021-10-17",
+        "last_update": "2023-01-10",
+        "results_first_post": "2023-01-10",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Canada",
+          "Denmark",
+          "France",
+          "Germany",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Japan",
+          "Netherlands"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04248465",
+          "title": "An Efficacy and Safety Study of Ravulizumab in ALS Participants",
+          "official_title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled, Parallel Group, Multicenter Study With an Open-Label Extension to Evaluate the Efficacy and Safety of Ravulizumab in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The IDMC recommended the study be discontinued due to lack of efficacy with ravulizumab.",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Amyotrophic Lateral Sclerosis",
+            "ALS"
+          ],
+          "interventions": [
+            "Placebo",
+            "Ravulizumab"
+          ],
+          "primary_outcomes": [
+            "Change From Baseline In Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) Total Score"
+          ],
+          "enrollment": 382,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-03-30",
+          "primary_completion": "2021-10-17",
+          "completion": "2021-10-17",
+          "last_update": "2023-01-10",
+          "results_first_post": "2023-01-10",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "Denmark",
+            "France",
+            "Germany",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Netherlands"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04369469",
+          "title": "Efficacy and Safety Study of IV Ravulizumab in Patients With COVID-19 Severe Pneumonia",
+          "official_title": "A Phase 3 Open-label, Randomized, Controlled Study to Evaluate the Efficacy and Safety of Intravenously Administered Ravulizumab Compared With Best Supportive Care in Patients With COVID-19 Severe Pneumonia, Acute Lung Injury, or Acute Respiratory Distress Syndrome",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Met futility bar at interim analysis",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "COVID-19 Severe Pneumonia",
+            "Acute Lung Injury",
+            "Acute Respiratory Distress Syndrome",
+            "Pneumonia, Viral"
+          ],
+          "interventions": [
+            "Ravulizumab",
+            "BSC"
+          ],
+          "primary_outcomes": [
+            "Survival (Based On All-Cause Mortality) in Participants in the ITT Population At Day 29"
+          ],
+          "enrollment": 202,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-05-10",
+          "primary_completion": "2021-02-08",
+          "completion": "2021-04-08",
+          "last_update": "2022-05-24",
+          "results_first_post": "2022-05-24",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "France",
+            "Japan",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02949128",
+          "title": "Study of ALXN1210 in Complement Inhibitor Treatment-Naïve Adult and Adolescent Participants With Atypical Hemolytic Uremic Syndrome (aHUS)",
+          "official_title": "Single Arm Study of ALXN1210 in Complement Inhibitor Treatment-naïve Adult and Adolescent Patients With Atypical Hemolytic Uremic Syndrome (aHUS)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Atypical Hemolytic Uremic Syndrome (aHUS)"
+          ],
+          "interventions": [
+            "Ravulizumab"
+          ],
+          "primary_outcomes": [
+            "Percentage Of Participants With Complete Thrombotic Microangiopathy (TMA) Response at Week 26"
+          ],
+          "enrollment": 58,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-01-11",
+          "primary_completion": "2023-01-24",
+          "completion": "2023-01-24",
+          "last_update": "2024-02-20",
+          "results_first_post": "2020-02-10",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Russia",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Ravulizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "634ea2a013b30292": {
+    "id": "634ea2a013b30292",
+    "title": "<![CDATA[Krascendo 1 Survival Data Position Divarasib to Reset Second-Line Standards and Fuel First-Line Combinations in KRAS G12C–Mutated NSCLC]]>",
+    "score": 6.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04302025",
+        "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+        "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+        "acronym": "NAUTIKA1",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Genentech, Inc.",
+        "conditions": [
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Alectinib",
+          "Entrectinib",
+          "Vemurafenib",
+          "Cobimetinib",
+          "Pralsetinib",
+          "Atezolizumab",
+          "SBRT",
+          "Resection",
+          "Chemotherapy",
+          "Divarasib"
+        ],
+        "primary_outcomes": [
+          "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+          "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+          "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+          "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+        ],
+        "enrollment": 99,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2020-11-06",
+        "primary_completion": "2026-11-30",
+        "completion": "2030-05-30",
+        "last_update": "2026-10-13",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04302025",
+          "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+          "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+          "acronym": "NAUTIKA1",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Alectinib",
+            "Entrectinib",
+            "Vemurafenib",
+            "Cobimetinib",
+            "Pralsetinib",
+            "Atezolizumab",
+            "SBRT",
+            "Resection",
+            "Chemotherapy",
+            "Divarasib"
+          ],
+          "primary_outcomes": [
+            "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+            "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+            "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+            "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+          ],
+          "enrollment": 99,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2020-11-06",
+          "primary_completion": "2026-11-30",
+          "completion": "2030-05-30",
+          "last_update": "2026-10-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04589845",
+          "title": "Tumor-agnostic Precision Immuno-oncology and Somatic Targeting Rational for You (TAPISTRY) Platform Study",
+          "official_title": "Tumor-agnostic Precision Immuno-oncology and Somatic Targeting Rational for You (TAPISTRY) Phase II Platform Trial",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Solid Tumors"
+          ],
+          "interventions": [
+            "Entrectinib",
+            "Entrectinib",
+            "Alectinib",
+            "Atezolizumab",
+            "Ipatasertib",
+            "Trastuzumab emtansine",
+            "Inavolisib",
+            "Belvarafenib",
+            "Pralsetinib",
+            "Divarasib",
+            "Camonsertib"
+          ],
+          "primary_outcomes": [
+            "All Cohorts: Independent Review Committee (IRC)-assessed Objective Response Rate (ORR) Based on Confirmed Objective Response (OR) per Response Evaluation Criteria in Solid Tumors, Version 1.1 (RECIST v1.1)"
+          ],
+          "enrollment": 920,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-01-18",
+          "primary_completion": "2032-09-25",
+          "completion": "2032-09-25",
+          "last_update": "2026-09-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Israel",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06734208",
+          "title": "A Study to Evaluate the Pharmacokinetics of Divarasib in Healthy Participants and Participants With Impaired Hepatic Function",
+          "official_title": "A Phase 1, Open-Label, Single-Dose, Parallel-Cohort Study to Evaluate the Pharmacokinetics of Divarasib in Subjects With Impaired Hepatic Function",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Hepatic Impairment"
+          ],
+          "interventions": [
+            "Divarasib"
+          ],
+          "primary_outcomes": [
+            "Plasma Concentration of Divarasib",
+            "Maximum Observed Concentration (Cmax) of Divarasib",
+            "Area Under the Concentration-time Curve from Hour 0 to the last measurable concentration (AUC0-t) of Divarasib",
+            "Area Under the Concentration-time Curve Extrapolated to Infinity (AUC0-inf) of Divarasib"
+          ],
+          "enrollment": 31,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-01-31",
+          "primary_completion": "2025-11-27",
+          "completion": "2025-11-27",
+          "last_update": "2025-12-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Divarasib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

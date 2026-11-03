@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-04",
+  "count": 6,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:nomelcitinib",
+      "lead_id": "36a496b8d2e79b73",
+      "title": "益方生物TYK2抑制剂Nomelcitinib银屑病III期成功，多自身免疫适应症同步推进",
+      "score": 7.6,
+      "channel": "china",
+      "member_ids": [
+        "36a496b8d2e79b73",
+        "4fda36552a3e1b8c"
+      ],
+      "members": [
+        {
+          "title": "益方生物TYK2抑制剂Nomelcitinib银屑病III期成功，多自身免疫适应症同步推进",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386306",
+          "score": 7.6,
+          "reasoning": "随机、安慰剂对照Ⅲ期明确报告达到主要终点和关键次要终点，且疗效指标显著优于对照，这是高权重的明确统计结论。数据来自公司顶线披露，可信度低于论文或注册库完整统计结果，但仍具备较强报道价值。"
+        },
+        {
+          "title": "PASI 90破70%：益方生物口服TYK2抑制剂III期达标",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_386698",
+          "score": 7.4,
+          "reasoning": "该条明确报告注册性Ⅲ期达到PASI 90主要终点，并给出391例、16周和两组超过70%的数据，属于明确统计结论。来源仍以公司公告及媒体摘要为主，完整安全性及效应量需回溯原始披露。"
+        }
+      ],
+      "reasoning": "随机、安慰剂对照Ⅲ期明确报告达到主要终点和关键次要终点，且疗效指标显著优于对照，这是高权重的明确统计结论。数据来自公司顶线披露，可信度低于论文或注册库完整统计结果，但仍具备较强报道价值。",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:bm b-101",
+      "lead_id": "381b24daec754dad",
+      "title": "Bright Minds暴跌，因小鼠毒性FDA暂停BMB-101癫痫临床",
+      "score": 6.7,
+      "channel": "china",
+      "member_ids": [
+        "381b24daec754dad"
+      ],
+      "members": [
+        {
+          "title": "Bright Minds暴跌，因小鼠毒性FDA暂停BMB-101癫痫临床",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_386512",
+          "score": 6.7,
+          "reasoning": "素材明确称FDA因小鼠毒性暂停BMB-101癫痫临床，属于安全性导致的临床暂停，而非未达到疗效终点，因此应保持较高事件权重；但目前仅有媒体标题，监管文件、临床阶段、暴露人数及毒性证据均需核实。"
+        }
+      ],
+      "reasoning": "素材明确称FDA因小鼠毒性暂停BMB-101癫痫临床，属于安全性导致的临床暂停，而非未达到疗效终点，因此应保持较高事件权重；但目前仅有媒体标题，监管文件、临床阶段、暴露人数及毒性证据均需核实。",
+      "verify_todo": [
+        "核实FDA暂停的正式文件、日期和适用范围",
+        "核实BMB-101的试验阶段、注册号、已给药人数和暂停措施",
+        "核实小鼠毒性结果的原始报告及其与临床风险的关系",
+        "核实是否已有恢复临床或进一步安全评估的时间点"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "target:tyk2",
+      "lead_id": "6506fbc408e3f4fe",
+      "title": "益方生物TYK2抑制剂III期达标，口服银屑病赛道再升级",
+      "score": 6.4,
+      "channel": "china",
+      "member_ids": [
+        "6506fbc408e3f4fe"
+      ],
+      "members": [
+        {
+          "title": "益方生物TYK2抑制剂III期达标，口服银屑病赛道再升级",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_386704",
+          "score": 6.4,
+          "reasoning": "标题明确表述III期达标，属于主要终点结论而非单纯疗效数字，因此终点维度获得较高权重；但未见药物名称、具体终点、统计量及原始来源，可信度仍受文本来源限制，且发布日期未知。"
+        }
+      ],
+      "reasoning": "标题明确表述III期达标，属于主要终点结论而非单纯疗效数字，因此终点维度获得较高权重；但未见药物名称、具体终点、统计量及原始来源，可信度仍受文本来源限制，且发布日期未知。",
+      "verify_todo": [
+        "核实候选药名称、试验注册号和III期设计",
+        "核实主要终点、具体时间点、效应量及p值",
+        "核实数据来源是否为公司公告或正式会议报告",
+        "核实发布日期及是否属于中国申办项目"
+      ],
+      "flags": [],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:voceryq",
+      "lead_id": "c5b91fd615e4012a",
+      "title": "Novel Therapy Lands Speedy Approval for Wart-Like Airway Disease",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "c5b91fd615e4012a"
+      ],
+      "members": [
+        {
+          "title": "Novel Therapy Lands Speedy Approval for Wart-Like Airway Disease",
+          "url": "https://www.medpagetoday.com/infectiousdisease/generalinfectiousdisease/123695",
+          "score": 7.4,
+          "reasoning": "FDA授予加速批准是罕见呼吸乳头状瘤病领域的重要监管结果，意味着支持性临床数据达到获批所需的监管判定。该条为媒体转述，仍需核对加速批准所依据的终点、效应量和后续确证性试验要求。"
+        }
+      ],
+      "reasoning": "FDA授予加速批准是罕见呼吸乳头状瘤病领域的重要监管结果，意味着支持性临床数据达到获批所需的监管判定。该条为媒体转述，仍需核对加速批准所依据的终点、效应量和后续确证性试验要求。",
+      "verify_todo": [
+        "核实FDA批准日期、完整适应症和处方人群",
+        "核实加速批准依据的临床终点、效应量及统计结果",
+        "核实是否要求上市后确证性试验及其设计",
+        "核实FDA官方批准文件"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:botensilimab",
+      "lead_id": "235166c80310dbac",
+      "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "235166c80310dbac"
+      ],
+      "members": [
+        {
+          "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial",
+          "url": "https://www.nature.com/articles/s41591-026-04710-1",
+          "score": 7.3,
+          "reasoning": "Nature Medicine正式发表并明确报告Ⅱ期UNICORN试验达到病理主要缓解率这一主要终点，数据成熟度高；病理缓解属于替代终点，仍需确认长期生存获益和样本量。"
+        }
+      ],
+      "reasoning": "Nature Medicine正式发表并明确报告Ⅱ期UNICORN试验达到病理主要缓解率这一主要终点，数据成熟度高；病理缓解属于替代终点，仍需确认长期生存获益和样本量。",
+      "verify_todo": [
+        "核实主要终点统计结果、置信区间和预设检验方法",
+        "核实各队列样本量、随访时长及安全性",
+        "核实是否启动注册性研究及其对照设计"
+      ],
+      "flags": [
+        "met",
+        "surrogate"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:enzalutamide",
+      "lead_id": "b6f9c6f0d8eedeaf",
+      "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "b6f9c6f0d8eedeaf"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+          "url": "https://www.targetedonc.com/view/enzalutamide-fails-to-improve-survival-in-high-risk-prostate-cancer",
+          "score": 6.8,
+          "reasoning": "标题明确给出生存获益未改善的失败性统计结论，若确认属于注册性试验，将对相关高危前列腺癌治疗路径形成重要影响；需补核试验阶段、样本量及预设统计假设。"
+        }
+      ],
+      "reasoning": "标题明确给出生存获益未改善的失败性统计结论，若确认属于注册性试验，将对相关高危前列腺癌治疗路径形成重要影响；需补核试验阶段、样本量及预设统计假设。",
+      "verify_todo": [
+        "核实试验名称、阶段、样本量及主要终点定义",
+        "核实完整统计结果和安全性数据",
+        "核实失败结论的原始来源"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
+    }
+  ]
+}
