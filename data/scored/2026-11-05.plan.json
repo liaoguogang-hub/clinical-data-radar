@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-05",
+  "count": 6,
+  "plan": [
+    {
+      "type": "halt",
+      "cluster_key": "target:pd1-radiotherapy",
+      "lead_id": "c646bf2ea5dd5fb3",
+      "title": "理想很丰满，结论很无奈！PD-1联合放疗用于早期肺癌治疗未能改善患者生存期且副作用更大，三期临床试验被迫提前终止！",
+      "score": 7.0,
+      "channel": "china",
+      "member_ids": [
+        "c646bf2ea5dd5fb3"
+      ],
+      "members": [
+        {
+          "title": "理想很丰满，结论很无奈！PD-1联合放疗用于早期肺癌治疗未能改善患者生存期且副作用更大，三期临床试验被迫提前终止！",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_388562",
+          "score": 7.0,
+          "reasoning": "标题明确报告 III 期试验生存期未改善、毒性增加并提前终止，属于值得重点报道的失败事件；依据为标题中的明确结论而非单纯疗效数字，项目按中国报道归入 china，发布日期未知。"
+        }
+      ],
+      "reasoning": "标题明确报告 III 期试验生存期未改善、毒性增加并提前终止，属于值得重点报道的失败事件；依据为标题中的明确结论而非单纯疗效数字，项目按中国报道归入 china，发布日期未知。",
+      "verify_todo": [
+        "核实试验名称、注册编号、样本量和预设主要终点",
+        "核实提前终止原因及实际停止日期",
+        "核实生存终点统计结果、效应量和安全性数据",
+        "核实是否存在适应性修改或中期分析揭盲程序偏差"
+      ],
+      "flags": [
+        "failed",
+        "halted"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:zepcitinib",
+      "lead_id": "56eb6e2354252055",
+      "title": "先声药业拿下凌科药业泽普昔替尼皮肤科独家商业化权益，国产JAK1抑制剂特应性皮炎NDA获受理",
+      "score": 6.8,
+      "channel": "china",
+      "member_ids": [
+        "56eb6e2354252055"
+      ],
+      "members": [
+        {
+          "title": "先声药业拿下凌科药业泽普昔替尼皮肤科独家商业化权益，国产JAK1抑制剂特应性皮炎NDA获受理",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386307",
+          "score": 6.8,
+          "reasoning": "特应性皮炎Ⅲ期研究已有356例样本，报道以措辞明确称多个预设疗效终点显著优于安慰剂，并已进入上市申请审评阶段，具有明确的监管和临床进展价值。依据是“显著优于”的文字结论而非仅凭疗效数字，但正式统计量仍需核对原始资料。"
+        }
+      ],
+      "reasoning": "特应性皮炎Ⅲ期研究已有356例样本，报道以措辞明确称多个预设疗效终点显著优于安慰剂，并已进入上市申请审评阶段，具有明确的监管和临床进展价值。依据是“显著优于”的文字结论而非仅凭疗效数字，但正式统计量仍需核对原始资料。",
+      "verify_todo": [
+        "核实Ⅲ期试验名称、注册号、主要终点定义及各剂量组样本量",
+        "核实EASI-75、vIGA-AD 0/1和瘙痒终点的p值或置信区间",
+        "核实NDA受理日期、受理品种及当前审评状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:kx-826",
+      "lead_id": "73461dbc3792db51",
+      "title": "开拓药业KX-826完成一年期安全性随访，国产外用AR拮抗剂即将冲刺雄激素性脱发NDA",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "73461dbc3792db51"
+      ],
+      "members": [
+        {
+          "title": "开拓药业KX-826完成一年期安全性随访，国产外用AR拮抗剂即将冲刺雄激素性脱发NDA",
+          "url": "https://www.pharnexcloud.com/zixun/sx_386309",
+          "score": 6.5,
+          "reasoning": "现有素材包含关键Ⅲ期疗效数据及P<0.0001的统计学证据，支持其主要疗效终点达到，并显示一年期随访完成和NDA计划等近期监管节点。非盲毛数量属于替代性疗效指标，长期安全性的具体事件率和监管受理状态仍需核实。"
+        }
+      ],
+      "reasoning": "现有素材包含关键Ⅲ期疗效数据及P<0.0001的统计学证据，支持其主要疗效终点达到，并显示一年期随访完成和NDA计划等近期监管节点。非盲毛数量属于替代性疗效指标，长期安全性的具体事件率和监管受理状态仍需核实。",
+      "verify_todo": [
+        "核实Ⅲ期预设主要终点、完整统计结果和样本量",
+        "核实一年期安全性试验的暴露人数、不良事件和停药率",
+        "核实NDA是否已正式提交及受理日期",
+        "核实海外Ⅲ期项目与国内申报之间的关联"
+      ],
+      "flags": [
+        "met",
+        "surrogate"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:enzalutamide",
+      "lead_id": "b6f9c6f0d8eedeaf",
+      "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "b6f9c6f0d8eedeaf"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+          "url": "https://www.targetedonc.com/view/enzalutamide-fails-to-improve-survival-in-high-risk-prostate-cancer",
+          "score": 7.2,
+          "reasoning": "标题明确报告高危前列腺癌生存未改善，属于明确的主要终点失败信号，即使没有原始数值也具有较高的行业报道价值。依据是标题的失败措辞，而非从生存数字推断；仍需确认具体试验、OS效应量及预设统计界值。"
+        }
+      ],
+      "reasoning": "标题明确报告高危前列腺癌生存未改善，属于明确的主要终点失败信号，即使没有原始数值也具有较高的行业报道价值。依据是标题的失败措辞，而非从生存数字推断；仍需确认具体试验、OS效应量及预设统计界值。",
+      "verify_todo": [
+        "核实试验名称、期别、随机分组、样本量及治疗背景",
+        "核实主要OS终点、HR、置信区间和预设统计界值",
+        "确认标题中的失败适用于主要终点还是特定亚组"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:darolutamide",
+      "lead_id": "23787b372b1a53de",
+      "title": "Darolutamide Improves Metastasis-Free Survival in Very High-Risk Prostate Cancer",
+      "score": 7.1,
+      "channel": "global",
+      "member_ids": [
+        "23787b372b1a53de"
+      ],
+      "members": [
+        {
+          "title": "Darolutamide Improves Metastasis-Free Survival in Very High-Risk Prostate Cancer",
+          "url": "https://www.medpagetoday.com/meetingcoverage/esmovideopearlsprostateca/123711",
+          "score": 7.1,
+          "reasoning": "Ⅲ期会议报告明确称联合方案显著改善极高危前列腺癌的无转移生存，依据是“显著改善”的文字性统计结论而非单纯疗效数字。仍需核验预设统计阈值、效应量、置信区间及安全性。"
+        }
+      ],
+      "reasoning": "Ⅲ期会议报告明确称联合方案显著改善极高危前列腺癌的无转移生存，依据是“显著改善”的文字性统计结论而非单纯疗效数字。仍需核验预设统计阈值、效应量、置信区间及安全性。",
+      "verify_todo": [
+        "核实无转移生存的具体效应量、置信区间和预设显著性阈值",
+        "核实样本量、随机化方案和完整安全性结果",
+        "确认报告是否为ESMO全会口头报告及其具体研究编号"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "e036d0f35139b620",
+      "title": "TCT 2026｜LIPSIA-STRATEGY随机试验：造影衍生vFFR指导冠脉血运重建达到非劣效标准，测量时间更短",
+      "score": 6.9,
+      "channel": "global",
+      "member_ids": [
+        "e036d0f35139b620"
+      ],
+      "members": [
+        {
+          "title": "TCT 2026｜LIPSIA-STRATEGY随机试验：造影衍生vFFR指导冠脉血运重建达到非劣效标准，测量时间更短",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_388558",
+          "score": 6.9,
+          "reasoning": "多中心随机开放标签试验明确报告达到预设非劣效标准，依据是统计性终点结论而非单纯疗效数字。非劣效设计本身需要核验非劣界值、事件数、置信区间及开放标签带来的偏倚。"
+        }
+      ],
+      "reasoning": "多中心随机开放标签试验明确报告达到预设非劣效标准，依据是统计性终点结论而非单纯疗效数字。非劣效设计本身需要核验非劣界值、事件数、置信区间及开放标签带来的偏倚。",
+      "verify_todo": [
+        "核实样本量、事件数和预设非劣界值",
+        "核实主要复合终点的风险比、差值及置信区间",
+        "核实试验阶段、注册号及会议报告形式"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}

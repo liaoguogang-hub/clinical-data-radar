@@ -1,0 +1,1000 @@
+{
+  "c646bf2ea5dd5fb3": {
+    "id": "c646bf2ea5dd5fb3",
+    "title": "理想很丰满，结论很无奈！PD-1联合放疗用于早期肺癌治疗未能改善患者生存期且副作用更大，三期临床试验被迫提前终止！",
+    "score": 7.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：终止表述:终止",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e036d0f35139b620": {
+    "id": "e036d0f35139b620",
+    "title": "TCT 2026｜LIPSIA-STRATEGY随机试验：造影衍生vFFR指导冠脉血运重建达到非劣效标准，测量时间更短",
+    "score": 6.9,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "60abbb38d8977e29": {
+    "id": "60abbb38d8977e29",
+    "title": "2026年ESMO大会公布DeLLphi-305 3期临床研究期中分析结果 安泰适®联合治疗用于广泛期小细胞肺癌可使患者死亡风险降低58%",
+    "score": 6.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "56eb6e2354252055": {
+    "id": "56eb6e2354252055",
+    "title": "先声药业拿下凌科药业泽普昔替尼皮肤科独家商业化权益，国产JAK1抑制剂特应性皮炎NDA获受理",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:显著优于"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:显著优于"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:显著优于",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "SIM-0280",
+          "SIM0709",
+          "LNK01004"
+        ],
+        "sponsor": [
+          "先声药业",
+          "拿下凌科药业",
+          "布与凌科药业",
+          "尼由凌科药业"
+        ],
+        "sponsor_en": [
+          "Simcere",
+          "拿下凌科药业",
+          "布与凌科药业",
+          "尼由凌科药业"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "73461dbc3792db51": {
+    "id": "73461dbc3792db51",
+    "title": "开拓药业KX-826完成一年期安全性随访，国产外用AR拮抗剂即将冲刺雄激素性脱发NDA",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:取得积极结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:取得积极结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:取得积极结果",
+    "registry": {
+      "best": {
+        "nct": "NCT06622824",
+        "title": "To Evaluate Efficacy and Safety of TopicalKX-826 Solution in Chinese Male Patients With Androgenetic Alopecia",
+        "official_title": "Efficacy and Safety of Topical KX-826 Solution in Chinese Male Patients With Androgenetic Alopecia: A Multicenter, Randomized, Double-blind, Vehicle Controlled Adaptive Design Phase 2/3 Study",
+        "acronym": "",
+        "status": "NOT_YET_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Suzhou Kintor Pharmaceutical Inc,",
+        "conditions": [
+          "Androgenetic Alopecia (AGA)"
+        ],
+        "interventions": [
+          "KX-826 0.5% BID",
+          "KX-826 1.0% BID",
+          "Vehicle (Placebo) applied BID"
+        ],
+        "primary_outcomes": [
+          "Target Area Non-vellus Hair count (TAHC) change from baseline at week 24 in comparison to vehicle."
+        ],
+        "enrollment": 756,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-10-15",
+        "primary_completion": "2027-10-20",
+        "completion": "2028-06-30",
+        "last_update": "2024-10-21",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06622824",
+          "title": "To Evaluate Efficacy and Safety of TopicalKX-826 Solution in Chinese Male Patients With Androgenetic Alopecia",
+          "official_title": "Efficacy and Safety of Topical KX-826 Solution in Chinese Male Patients With Androgenetic Alopecia: A Multicenter, Randomized, Double-blind, Vehicle Controlled Adaptive Design Phase 2/3 Study",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Suzhou Kintor Pharmaceutical Inc,",
+          "conditions": [
+            "Androgenetic Alopecia (AGA)"
+          ],
+          "interventions": [
+            "KX-826 0.5% BID",
+            "KX-826 1.0% BID",
+            "Vehicle (Placebo) applied BID"
+          ],
+          "primary_outcomes": [
+            "Target Area Non-vellus Hair count (TAHC) change from baseline at week 24 in comparison to vehicle."
+          ],
+          "enrollment": 756,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-15",
+          "primary_completion": "2027-10-20",
+          "completion": "2028-06-30",
+          "last_update": "2024-10-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06126965",
+          "title": "Phase III Study of KX-826 With Adult Male Patients With AGA",
+          "official_title": "A Phase III, Multi-center, Randomized, Double-blind, Placebo-controlled Clinical Study to Evaluate the Efficacy and Safety of KX-826 for Topical Use in Chinese Adult Male Patients With Androgenetic Alopecia (AGA)",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Suzhou Kintor Pharmaceutical Inc,",
+          "conditions": [
+            "Androgenetic Alopecia"
+          ],
+          "interventions": [
+            "KX-826-（5%） BID",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "change in non-vellus hair count in the target area (TAHC, mean change from baseline at Week 24 in comparison to placebo)."
+          ],
+          "enrollment": 740,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-12-29",
+          "primary_completion": "2024-05-31",
+          "completion": "2024-05-31",
+          "last_update": "2024-04-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06409650",
+          "title": "To Evaluate Safety and Efficacy of KX-826 in Chinese Female Subjects With Androgenetic Alopecia",
+          "official_title": "A Phase II, Multi-center, Randomized, Double-blind, Placebo-controlled Clinical Study to Evaluate the Safety and Efficacy of KX-826 Tincture for Topical Use in Chinese Adult Female Patients With Androgenetic Alopecia (AGA)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Suzhou Koshine Biomedica, Inc.",
+          "conditions": [
+            "Alopecia"
+          ],
+          "interventions": [
+            "KX-826 dosed at 2.5mg",
+            "KX-826 dosed at 2.5mg",
+            "KX-826 dosed at 5 mg",
+            "KX-826 dosed at 5 mg",
+            "Matching placebo to KX-826",
+            "Matching placebo to KX-826"
+          ],
+          "primary_outcomes": [
+            "Assessment of change in Target Area Hair Counts"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-11-09",
+          "primary_completion": "2022-11-10",
+          "completion": "2023-12-07",
+          "last_update": "2024-05-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "KX-826",
+          "LT-010",
+          "PP405",
+          "KT-939"
+        ],
+        "sponsor": [
+          "开拓药业",
+          "报捷开拓药业",
+          "摩熵医药",
+          "凌泰氪生物"
+        ],
+        "sponsor_en": [
+          "开拓药业",
+          "报捷开拓药业",
+          "摩熵医药",
+          "凌泰氪生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "23787b372b1a53de": {
+    "id": "23787b372b1a53de",
+    "title": "Darolutamide Improves Metastasis-Free Survival in Very High-Risk Prostate Cancer",
+    "score": 7.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04558866",
+        "title": "Extreme Bipolar Androgen Therapy With Darolutamide and Testosterone Cypionate in Patients With Metastatic Castration-Resistant Prostate Cancer (ExBAT Trial)",
+        "official_title": "Extreme Bipolar Androgen Therapy With Darolutamide and Testosterone Cypionate in Patients With Metastatic Castration-Resistant Prostate Cancer (ExBAT Trial)",
+        "acronym": "ExBAT",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Latin American Cooperative Oncology Group",
+        "conditions": [
+          "Prostate Cancer"
+        ],
+        "interventions": [
+          "Testosterone Cypionate",
+          "Darolutamide"
+        ],
+        "primary_outcomes": [
+          "Rate of Radiographic Progression-Free Survival (rPFS)"
+        ],
+        "enrollment": 51,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-06-09",
+        "primary_completion": "2023-03-28",
+        "completion": "2024-04-02",
+        "last_update": "2026-08-28",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Brazil"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04558866",
+          "title": "Extreme Bipolar Androgen Therapy With Darolutamide and Testosterone Cypionate in Patients With Metastatic Castration-Resistant Prostate Cancer (ExBAT Trial)",
+          "official_title": "Extreme Bipolar Androgen Therapy With Darolutamide and Testosterone Cypionate in Patients With Metastatic Castration-Resistant Prostate Cancer (ExBAT Trial)",
+          "acronym": "ExBAT",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Latin American Cooperative Oncology Group",
+          "conditions": [
+            "Prostate Cancer"
+          ],
+          "interventions": [
+            "Testosterone Cypionate",
+            "Darolutamide"
+          ],
+          "primary_outcomes": [
+            "Rate of Radiographic Progression-Free Survival (rPFS)"
+          ],
+          "enrollment": 51,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-06-09",
+          "primary_completion": "2023-03-28",
+          "completion": "2024-04-02",
+          "last_update": "2026-08-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Brazil"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04925648",
+          "title": "Psma Intensity Can be Altered by Androgen and Phospho-SrC Obstruction",
+          "official_title": "PICAASO / CA180-722: Psma Intensity Can be Altered by Androgen and Phospho-SrC Obstruction",
+          "acronym": "PICASSO",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "St Vincent's Hospital, Sydney",
+          "conditions": [
+            "Metastatic Prostate Cancer"
+          ],
+          "interventions": [
+            "Dasatinib",
+            "Darolutamide"
+          ],
+          "primary_outcomes": [
+            "To quantify the increase in tumour (standard uptake value) SUV measurements comparing baseline to 2-week PSMA PET scans in men being treated with dasatinib alone or in combination with darolutamide"
+          ],
+          "enrollment": 4,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-10-18",
+          "primary_completion": "2025-09-01",
+          "completion": "2025-12-01",
+          "last_update": "2026-04-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Australia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05413421",
+          "title": "Study of ORIC-944 in Patients With Metastatic Prostate Cancer",
+          "official_title": "An Open-Label, Phase 1/1b Study of ORIC-944 as a Single Agent or in Combination With an Androgen Receptor Pathway Inhibitor in Patients With Metastatic Prostate Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "ORIC Pharmaceuticals",
+          "conditions": [
+            "Metastatic Prostate Cancer"
+          ],
+          "interventions": [
+            "ORIC-944",
+            "Abiraterone acetate (Zytiga®) 250 mg or 500 mg tablets",
+            "Apalutamide (Erleada™) 60 mg or 240 mg tablets",
+            "Darolutamide (Nubeqa®) 300 mg tablets",
+            "Enzalutamide (Xtandi®) 40 mg capsules or 40 mg and 80 mg tablets"
+          ],
+          "primary_outcomes": [
+            "Recommended Phase 2 Dose (RP2D)",
+            "Maximum plasma concentration (Cmax)",
+            "Time to maximum observed concentration (Tmax)",
+            "Area under the curve (AUC)",
+            "Apparent plasma terminal elimination half-life (t1/2)"
+          ],
+          "enrollment": 275,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-01",
+          "primary_completion": "2027-06",
+          "completion": "2028-04",
+          "last_update": "2026-07-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Darolutamide",
+          "darolutamide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "b6f9c6f0d8eedeaf": {
+    "id": "b6f9c6f0d8eedeaf",
+    "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT01949337",
+        "title": "Enzalutamide With or Without Abiraterone and Prednisone in Treating Patients With Castration-Resistant Metastatic Prostate Cancer",
+        "official_title": "Phase III Trial of Enzalutamide (NSC# 766085) Versus Enzalutamide, Abiraterone and Prednisone for Castration Resistant Metastatic Prostate Cancer",
+        "acronym": "",
+        "status": "UNKNOWN",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Alliance for Clinical Trials in Oncology",
+        "conditions": [
+          "Adenocarcinoma of the Prostate",
+          "Hormone-resistant Prostate Cancer",
+          "Recurrent Prostate Cancer",
+          "Stage IV Prostate Cancer"
+        ],
+        "interventions": [
+          "enzalutamide",
+          "abiraterone",
+          "prednisone"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 1311,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2014-01-22",
+        "primary_completion": "2018-11-02",
+        "completion": "2024-08-31",
+        "last_update": "2023-09-28",
+        "results_first_post": "2020-06-01",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Canada",
+          "Puerto Rico"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01949337",
+          "title": "Enzalutamide With or Without Abiraterone and Prednisone in Treating Patients With Castration-Resistant Metastatic Prostate Cancer",
+          "official_title": "Phase III Trial of Enzalutamide (NSC# 766085) Versus Enzalutamide, Abiraterone and Prednisone for Castration Resistant Metastatic Prostate Cancer",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Alliance for Clinical Trials in Oncology",
+          "conditions": [
+            "Adenocarcinoma of the Prostate",
+            "Hormone-resistant Prostate Cancer",
+            "Recurrent Prostate Cancer",
+            "Stage IV Prostate Cancer"
+          ],
+          "interventions": [
+            "enzalutamide",
+            "abiraterone",
+            "prednisone"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 1311,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2014-01-22",
+          "primary_completion": "2018-11-02",
+          "completion": "2024-08-31",
+          "last_update": "2023-09-28",
+          "results_first_post": "2020-06-01",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada",
+            "Puerto Rico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03338790",
+          "title": "An Investigational Immunotherapy Study of Nivolumab in Combination With Rucaparib, Docetaxel, or Enzalutamide in Metastatic Castration-resistant Prostate Cancer",
+          "official_title": "A Phase 2 Study of Nivolumab in Combination With Either Rucaparib, Docetaxel, or Enzalutamide in Men With Castration-resistant Metastatic Prostate Cancer",
+          "acronym": "CheckMate 9KD",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Bristol-Myers Squibb",
+          "conditions": [
+            "Prostate Cancer"
+          ],
+          "interventions": [
+            "nivolumab",
+            "docetaxel",
+            "enzalutamide",
+            "rucaparib",
+            "prednisone"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate Per Prostate Cancer Clinical Trials Working Group 3 (ORR-PCWG3)",
+            "Prostate-Specific Antigen Response Rate (RR-PSA)"
+          ],
+          "enrollment": 292,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-12-19",
+          "primary_completion": "2021-01-13",
+          "completion": "2025-01-10",
+          "last_update": "2026-01-27",
+          "results_first_post": "2022-02-09",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "France",
+            "Germany",
+            "Mexico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02407054",
+          "title": "A Study of Enzalutamide and LY3023414 in Men With Prostate Cancer",
+          "official_title": "A Double-Blinded, Placebo-Controlled, Randomized Phase II Study of Enzalutamide With or Without the PI3 Kinase/mTOR Inhibitor LY3023414 in Men With Metastatic Castration Resistant Prostate Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Prostate Cancer Metastatic"
+          ],
+          "interventions": [
+            "LY3023414",
+            "Enzalutamide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Part B: Progression Free Survival (PFS)"
+          ],
+          "enrollment": 142,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-04-29",
+          "primary_completion": "2018-09-26",
+          "completion": "2020-04-16",
+          "last_update": "2021-05-11",
+          "results_first_post": "2021-05-11",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Enzalutamide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e28426cd8159d86a": {
+    "id": "e28426cd8159d86a",
+    "title": "<![CDATA[Lonardi on Overall Survival With Nivolumab/Ipilimumab in MSI-H/dMMR mCRC]]>",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02799901",
+        "title": "Nivolumab Plus Radiotherapy in Advanced Melanoma",
+        "official_title": "Nivolumab in Combination With High Dose Radiotherapy at Varied Tumor Sites in Advanced Melanoma and no Prior Antitumoral Treatment",
+        "acronym": "NIRVANA",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Centre Hospitalier Universitaire de Nice",
+        "conditions": [
+          "Melanoma"
+        ],
+        "interventions": [
+          "Nivolumab",
+          "hypofractionned radiotherapy"
+        ],
+        "primary_outcomes": [
+          "overall survival"
+        ],
+        "enrollment": 72,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2017-03-03",
+        "primary_completion": "2021-07-28",
+        "completion": "2021-07-28",
+        "last_update": "2023-11-15",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "France"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02799901",
+          "title": "Nivolumab Plus Radiotherapy in Advanced Melanoma",
+          "official_title": "Nivolumab in Combination With High Dose Radiotherapy at Varied Tumor Sites in Advanced Melanoma and no Prior Antitumoral Treatment",
+          "acronym": "NIRVANA",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Centre Hospitalier Universitaire de Nice",
+          "conditions": [
+            "Melanoma"
+          ],
+          "interventions": [
+            "Nivolumab",
+            "hypofractionned radiotherapy"
+          ],
+          "primary_outcomes": [
+            "overall survival"
+          ],
+          "enrollment": 72,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-03-03",
+          "primary_completion": "2021-07-28",
+          "completion": "2021-07-28",
+          "last_update": "2023-11-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04749602",
+          "title": "Intrapleural Instillation of the Nivolumab in Cancer Patients With Pleural Effusion.",
+          "official_title": "A Phase II Trial of Intrapleural Instillation of the Nivolumab in Cancer Patients With Pleural Effusion.",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kidney Cancer Research Bureau",
+          "conditions": [
+            "Renal Cell Cancer Metastatic",
+            "Non-small Cell Lung Cancer Metastatic",
+            "Pleural Effusion, Malignant"
+          ],
+          "interventions": [
+            "Nivolumab"
+          ],
+          "primary_outcomes": [
+            "3-month recurrence-free survival"
+          ],
+          "enrollment": 26,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-08-10",
+          "primary_completion": "2023-03-01",
+          "completion": "2023-03-01",
+          "last_update": "2023-03-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Russia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04866654",
+          "title": "Radiation Free Chemotherapy for Early Hodgkin Lymphoma",
+          "official_title": "Radiation-Free Therapy for the Initial Treatment of Good Prognosis Early Non-bulky HL, Defined by a Low Metabolic Tumor Volume and a Negative Interim PET After 2 Chemotherapy Cycles- RAFTING",
+          "acronym": "RAFTING",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Medical University of Gdansk",
+          "conditions": [
+            "Hodgkin Lymphoma"
+          ],
+          "interventions": [
+            "Nivolumab 10 MG/ML"
+          ],
+          "primary_outcomes": [
+            "Efficacy exploration in terms of 3-Y PFS of chemotherapy alone"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-03-04",
+          "primary_completion": "2022-09-30",
+          "completion": "2026-07-02",
+          "last_update": "2021-08-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Italy",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nivolumab",
+          "Ipilimumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
