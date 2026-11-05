@@ -1,0 +1,312 @@
+{
+  "b851fc25842fadca": {
+    "id": "b851fc25842fadca",
+    "title": "全球首个TROP2 ADC三期临床数据亮眼！科伦博泰/默沙东TROP2 ADC&K药联用头对头战胜一线免疫+化疗疗法，百万非小细胞肺癌患者迎来新希望",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:数据亮眼"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:数据亮眼"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:数据亮眼",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "25f5ea5d2a0ea1da": {
+    "id": "25f5ea5d2a0ea1da",
+    "title": "全球首个子宫内膜癌三期双阳性！TROP2 ADC芦康沙妥珠单抗临床数据披露：中位OS 19.0个月，打破后线“一年生存天花板”",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "57b038a73a924bea": {
+    "id": "57b038a73a924bea",
+    "title": "ORR 75%！拜耳重磅新药一线疗法在中国获批上市",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:ORR"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:ORR"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:ORR",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b6f9c6f0d8eedeaf": {
+    "id": "b6f9c6f0d8eedeaf",
+    "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：Suspended by funder"
+      ],
+      "conflict": false,
+      "halt_reason": "funding"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：funding\n证据：注册库状态=TERMINATED，原因：Suspended by funder",
+    "registry": {
+      "best": {
+        "nct": "NCT02500901",
+        "title": "Enzalutamide and Niraparib in the Treatment of Metastatic Castrate-Resistant Prostate Cancer (CRPC)",
+        "official_title": "Combined Targeting of the Androgen Receptor in Metastatic Castrate-Resistant Prostate Cancer With Enzalutamide and the Poly (ADP- Ribose) Polymerase (PARP) Inhibitor Niraparib: Hoosier Cancer Research Network GU14-202",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "Suspended by funder",
+        "phase": "PHASE1",
+        "sponsor": "Paul Mathew, MD",
+        "conditions": [
+          "Metastatic Prostate Cancer"
+        ],
+        "interventions": [
+          "Enzalutamide",
+          "Niraparib"
+        ],
+        "primary_outcomes": [
+          "Maximum Tolerated Dose (MTD) for Subjects Receiving Enzalutamide With Niraparib Without Experiencing Dose-limiting Toxicity(s) (DLT)"
+        ],
+        "enrollment": 2,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-03",
+        "primary_completion": "2016-05-10",
+        "completion": "2016-05-10",
+        "last_update": "2019-10-21",
+        "results_first_post": "2019-10-21",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02500901",
+          "title": "Enzalutamide and Niraparib in the Treatment of Metastatic Castrate-Resistant Prostate Cancer (CRPC)",
+          "official_title": "Combined Targeting of the Androgen Receptor in Metastatic Castrate-Resistant Prostate Cancer With Enzalutamide and the Poly (ADP- Ribose) Polymerase (PARP) Inhibitor Niraparib: Hoosier Cancer Research Network GU14-202",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Suspended by funder",
+          "phase": "PHASE1",
+          "sponsor": "Paul Mathew, MD",
+          "conditions": [
+            "Metastatic Prostate Cancer"
+          ],
+          "interventions": [
+            "Enzalutamide",
+            "Niraparib"
+          ],
+          "primary_outcomes": [
+            "Maximum Tolerated Dose (MTD) for Subjects Receiving Enzalutamide With Niraparib Without Experiencing Dose-limiting Toxicity(s) (DLT)"
+          ],
+          "enrollment": 2,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-03",
+          "primary_completion": "2016-05-10",
+          "completion": "2016-05-10",
+          "last_update": "2019-10-21",
+          "results_first_post": "2019-10-21",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04409288",
+          "title": "Patient Preference of Apalutamide Versus Enzalutamide in Patients With Recurrent or Metastatic Hormone-Sensitive Prostate Cancer",
+          "official_title": "Patient Preference of Apalutamide Versus Enzalutamide in Patients With Recurrent or Metastatic Hormone-Sensitive Prostate Cancer: An Open-label, Randomized, Cross-Over Trial.",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Endpoint reached",
+          "phase": "PHASE3",
+          "sponsor": "Chinese University of Hong Kong",
+          "conditions": [
+            "Prostate Cancer"
+          ],
+          "interventions": [
+            "Apalutamide",
+            "Enzalutamide"
+          ],
+          "primary_outcomes": [
+            "Patient Preference Questionnaire"
+          ],
+          "enrollment": 74,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-07-20",
+          "primary_completion": "2023-10-16",
+          "completion": "2023-10-16",
+          "last_update": "2026-10-27",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Hong Kong"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04139772",
+          "title": "Docetaxel or Hormone Therapy as Second Line Treatment in Patients With Asymptomatic or Oligosymptomatic Metastatic Castration-resistent Prostate Cancer (mCRPC) Progressing After Abiraterone or Enzalutamide.",
+          "official_title": "A Randomized Multicenter Phase III Trial Comparing Docetaxel or Hormone Therapy as Second Line Treatment in Patients With Asymptomatic or Oligosymptomatic Metastatic Castration-resistent Prostate Cancer (mCRPC) Progressing After Abiraterone or Enzalutamide.",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "National Cancer Institute, Naples",
+          "conditions": [
+            "Metastatic Castration-resistent Prostate Cancer"
+          ],
+          "interventions": [
+            "Docetaxel",
+            "Abiraterone Acetate or Enzalutamide"
+          ],
+          "primary_outcomes": [
+            "Overall survival (OS)"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-09-01",
+          "primary_completion": "2023-12-01",
+          "completion": "2024-07-01",
+          "last_update": "2023-03-24",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Enzalutamide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

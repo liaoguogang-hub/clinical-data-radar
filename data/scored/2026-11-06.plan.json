@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:sacituzumab-tirumotecan",
+      "lead_id": "b851fc25842fadca",
+      "title": "全球首个TROP2 ADC三期临床数据亮眼！科伦博泰/默沙东TROP2 ADC&K药联用头对头战胜一线免疫+化疗疗法，百万非小细胞肺癌患者迎来新希望",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "b851fc25842fadca",
+        "25f5ea5d2a0ea1da"
+      ],
+      "members": [
+        {
+          "title": "全球首个TROP2 ADC三期临床数据亮眼！科伦博泰/默沙东TROP2 ADC&K药联用头对头战胜一线免疫+化疗疗法，百万非小细胞肺癌患者迎来新希望",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_389035",
+          "score": 6.5,
+          "reasoning": "标题显示III期头对头设计中出现优于一线免疫联合化疗的疗效结论，且涉及中国原研ADC与PD-1联用，具有较高报道价值；目前依据仍是媒体措辞而非已核实的p值或置信区间。"
+        },
+        {
+          "title": "全球首个子宫内膜癌三期双阳性！TROP2 ADC芦康沙妥珠单抗临床数据披露：中位OS 19.0个月，打破后线“一年生存天花板”",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_389036",
+          "score": 6.0,
+          "reasoning": "III期子宫内膜癌数据给出中位OS 19.0个月，疗效规模和“中国原研TROP2 ADC”均具报道价值；当前只依据裸疗效数字，尚无统计结论、样本量或置信区间。"
+        }
+      ],
+      "reasoning": "标题显示III期头对头设计中出现优于一线免疫联合化疗的疗效结论，且涉及中国原研ADC与PD-1联用，具有较高报道价值；目前依据仍是媒体措辞而非已核实的p值或置信区间。",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "57b038a73a924bea",
+      "title": "ORR 75%！拜耳重磅新药一线疗法在中国获批上市",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "57b038a73a924bea"
+      ],
+      "members": [
+        {
+          "title": "ORR 75%！拜耳重磅新药一线疗法在中国获批上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_389016",
+          "score": 6.0,
+          "reasoning": "中国一线适应症获批构成重要监管进展，标题中的ORR 75%也显示积极疗效信号，但ORR属于替代终点，该数字不能替代统计意义上的主要终点结论。当前依据仅为标题措辞，未见p值、置信区间或权威原始数据，发布日期亦未知。"
+        }
+      ],
+      "reasoning": "中国一线适应症获批构成重要监管进展，标题中的ORR 75%也显示积极疗效信号，但ORR属于替代终点，该数字不能替代统计意义上的主要终点结论。当前依据仅为标题措辞，未见p值、置信区间或权威原始数据，发布日期亦未知。",
+      "verify_todo": [
+        "核实获批药物名称、适应症和监管批准信息",
+        "核实ORR 75%的数据来源、样本量、分析集和随访时间",
+        "核实主要终点是否达到及其p值或置信区间",
+        "核实是否为随机对照研究及其对照方案",
+        "核实发布日期"
+      ],
+      "flags": [
+        "surrogate"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:enzalutamide",
+      "lead_id": "b6f9c6f0d8eedeaf",
+      "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+      "score": 6.4,
+      "channel": "global",
+      "member_ids": [
+        "b6f9c6f0d8eedeaf"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Enzalutamide Fails to Improve Survival in High-Risk Prostate Cancer ]]>",
+          "url": "https://www.targetedonc.com/view/enzalutamide-fails-to-improve-survival-in-high-risk-prostate-cancer",
+          "score": 6.4,
+          "reasoning": "标题明确给出恩杂鲁胺未改善高危前列腺癌生存的失败结论，属于III期阴性结果，行业影响较高。该判断来自明确文本措辞而非仅凭生存数字推断，但仍需补充具体试验、效应量及统计检验。"
+        }
+      ],
+      "reasoning": "标题明确给出恩杂鲁胺未改善高危前列腺癌生存的失败结论，属于III期阴性结果，行业影响较高。该判断来自明确文本措辞而非仅凭生存数字推断，但仍需补充具体试验、效应量及统计检验。",
+      "verify_todo": [
+        "核实试验名称、注册号、阶段和适用范围",
+        "获取未达到的主要终点、组间效应量、置信区间和P值",
+        "确认安全性及后续研究停止计划",
+        "追溯原始会议报告或公司公告"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    }
+  ]
+}
