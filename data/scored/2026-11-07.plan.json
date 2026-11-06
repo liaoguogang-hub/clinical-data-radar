@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-07",
+  "count": 5,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:ruzaltatug-rezetecan",
+      "lead_id": "4671d64fe22c3cad",
+      "title": "[Articles] Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China",
+      "score": 7.7,
+      "channel": "china",
+      "member_ids": [
+        "4671d64fe22c3cad"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01899-4/fulltext?rss=yes",
+          "score": 7.7,
+          "reasoning": "Lancet来源的中国随机开放标签III期中期分析明确给出“PFS较化疗显著延长”的统计性措辞，具备明确终点读出和高数据成熟度特征；需注意随机开放标签设计，并因发布超过7天适当降权。"
+        }
+      ],
+      "reasoning": "Lancet来源的中国随机开放标签III期中期分析明确给出“PFS较化疗显著延长”的统计性措辞，具备明确终点读出和高数据成熟度特征；需注意随机开放标签设计，并因发布超过7天适当降权。",
+      "verify_todo": [
+        "核实主要终点是否正式判定达到及对应p值、置信区间和效应量",
+        "核实样本量、分期边界及安全性数据",
+        "核实该研究的中国申办与主要站点信息"
+      ],
+      "flags": [
+        "stale",
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:matillacimab",
+      "lead_id": "9342ef558b19ad40",
+      "title": "辉瑞马塔西单抗拟纳入优先审评！全球首个抗TFPI单抗冲刺6–11岁儿童血友病常规预防",
+      "score": 7.2,
+      "channel": "china",
+      "member_ids": [
+        "9342ef558b19ad40"
+      ],
+      "members": [
+        {
+          "title": "辉瑞马塔西单抗拟纳入优先审评！全球首个抗TFPI单抗冲刺6–11岁儿童血友病常规预防",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_389244",
+          "score": 7.2,
+          "reasoning": "儿童血友病适应症进入CDE优先审评，叠加Ⅲ期数据及全球率先的抗TFPI机制，具有较高临床价值；依据是监管节点和年化出血率疗效数字，并非条目内可复核的主要终点统计结论。历史模型对照及儿童亚组限制数据可信度。"
+        }
+      ],
+      "reasoning": "儿童血友病适应症进入CDE优先审评，叠加Ⅲ期数据及全球率先的抗TFPI机制，具有较高临床价值；依据是监管节点和年化出血率疗效数字，并非条目内可复核的主要终点统计结论。历史模型对照及儿童亚组限制数据可信度。",
+      "verify_todo": [
+        "核实BASIS研究主要终点、预设统计检验和完整结果",
+        "核实儿童各亚组样本量及历史模型对照方法",
+        "核实CDE优先审评状态、适应症措辞和后续审评时间表"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:foralumab",
+      "lead_id": "c55d66b9fa4df41d",
+      "title": "Tiziana Life Sciences将举办投资者电话会议讨论INFORM-MS II期试验积极顶线数据【AI生成】",
+      "score": 7.7,
+      "channel": "global",
+      "member_ids": [
+        "c55d66b9fa4df41d"
+      ],
+      "members": [
+        {
+          "title": "Tiziana Life Sciences将举办投资者电话会议讨论INFORM-MS II期试验积极顶线数据【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_389285",
+          "score": 7.7,
+          "reasoning": "随机双盲安慰剂对照Ⅱa期提供PET神经炎症下降的p值，并报告疲劳指标的统计学差异，属于有明确统计依据的阳性信号；给药仅12周且样本量尚不明确，仍需核查预设主要终点和完整数据。"
+        }
+      ],
+      "reasoning": "随机双盲安慰剂对照Ⅱa期提供PET神经炎症下降的p值，并报告疲劳指标的统计学差异，属于有明确统计依据的阳性信号；给药仅12周且样本量尚不明确，仍需核查预设主要终点和完整数据。",
+      "verify_todo": [
+        "核实INFORM-MS的注册编号、样本量及预设主要终点",
+        "核实PET终点和疲劳终点各自的统计检验及多重性控制",
+        "核实安全性、停药率和各剂量组具体结果",
+        "核实公司顶线公告或会议报告的原始出处"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:elevidys",
+      "lead_id": "08af82d111b800d1",
+      "title": "Sarepta quits enrolling for confirmatory Phase 3 trial of Elevidys",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "08af82d111b800d1"
+      ],
+      "members": [
+        {
+          "title": "Sarepta quits enrolling for confirmatory Phase 3 trial of Elevidys",
+          "url": "https://endpoints.news/sarepta-quits-enrolling-for-confirmatory-phase-3-trial-of-elevidys/",
+          "score": 7.2,
+          "reasoning": "确证性Ⅲ期试验停止继续入组是可能改变监管路径和适应症扩展的重要事件，条目依据的是试验运营状态而非疗效数字。尚需明确停止入组的官方原因、实际入组人数及是否影响既有批准。"
+        }
+      ],
+      "reasoning": "确证性Ⅲ期试验停止继续入组是可能改变监管路径和适应症扩展的重要事件，条目依据的是试验运营状态而非疗效数字。尚需明确停止入组的官方原因、实际入组人数及是否影响既有批准。",
+      "verify_todo": [
+        "核实停止入组的官方原因和试验注册状态",
+        "核实实际入组人数、已接受治疗人数及主要终点完成时间",
+        "核实该决定是否影响Elevidys现有适应症或监管要求"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:rybrevant",
+      "lead_id": "e87a3da8e8adcb2d",
+      "title": "J&J’s Rybrevant nets FDA approval in head and neck cancer",
+      "score": 6.4,
+      "channel": "global",
+      "member_ids": [
+        "e87a3da8e8adcb2d"
+      ],
+      "members": [
+        {
+          "title": "J&J’s Rybrevant nets FDA approval in head and neck cancer",
+          "url": "https://endpoints.news/jjs-rybrevant-nets-fda-approval-in-head-and-neck-cancer/",
+          "score": 6.4,
+          "reasoning": "监管机构批准属于高价值临床结果，条目依据的是监管层面的获批结论，而非可直接复核的统计终点数据。仍需核实支持申请的试验名称、主要终点、样本量及加速批准所依赖的数据。"
+        }
+      ],
+      "reasoning": "监管机构批准属于高价值临床结果，条目依据的是监管层面的获批结论，而非可直接复核的统计终点数据。仍需核实支持申请的试验名称、主要终点、样本量及加速批准所依赖的数据。",
+      "verify_todo": [
+        "核实FDA批准依据的临床试验、主要终点及统计结果",
+        "核实加速批准对应的适应症范围和后续确证性试验要求",
+        "核实Rybrevant在头颈癌中的具体靶点与既有监管状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    }
+  ]
+}
