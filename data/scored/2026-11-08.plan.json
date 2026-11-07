@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-08",
+  "count": 4,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:sac-tmt",
+      "lead_id": "25f5ea5d2a0ea1da",
+      "title": "全球首个子宫内膜癌三期双阳性！TROP2 ADC芦康沙妥珠单抗临床数据披露：中位OS 19.0个月，打破后线“一年生存天花板”",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "25f5ea5d2a0ea1da",
+        "2dda04ef016ce767"
+      ],
+      "members": [
+        {
+          "title": "全球首个子宫内膜癌三期双阳性！TROP2 ADC芦康沙妥珠单抗临床数据披露：中位OS 19.0个月，打破后线“一年生存天花板”",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_389036",
+          "score": 7.5,
+          "reasoning": "标题明确称“III 期双阳性”并给出中位 OS 19.0 个月，这是中国原研 TROP2 ADC 在子宫内膜癌上的注册级读出信号，值得追踪；但“双阳性”来自媒体或企业口径，未见 p 值与置信区间，定稿前必须回溯原始披露。"
+        },
+        {
+          "title": "Sacituzumab tirumotecan shows significant clinical benefit in advanced/recurrent endometrial cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/sacituzumab-tirumotecan-shows-significant-clinical-benefit-in-advanced-recurrent-endometrial-cancer",
+          "score": 6.0,
+          "reasoning": "芦康沙妥珠单抗（TROP2 ADC，中国原研）在晚期或复发性子宫内膜癌中报告“显著临床获益”，属疗效数字而非可核验的统计结论；此外，该条目来自 ESMO 新闻转述，并已发布 12 天，故投稿时需注意别把媒体措辞当作出结论。"
+        }
+      ],
+      "reasoning": "标题明确称“III 期双阳性”并给出中位 OS 19.0 个月，这是中国原研 TROP2 ADC 在子宫内膜癌上的注册级读出信号，值得追踪；但“双阳性”来自媒体或企业口径，未见 p 值与置信区间，定稿前必须回溯原始披露。",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:elevidys",
+      "lead_id": "08af82d111b800d1",
+      "title": "Sarepta quits enrolling for confirmatory Phase 3 trial of Elevidys",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "08af82d111b800d1"
+      ],
+      "members": [
+        {
+          "title": "Sarepta quits enrolling for confirmatory Phase 3 trial of Elevidys",
+          "url": "https://endpoints.news/sarepta-quits-enrolling-for-confirmatory-phase-3-trial-of-elevidys/",
+          "score": 7.5,
+          "reasoning": "Sarepta 停止为 Elevidys 的确证性 III 期试验继续入组，属注册性研究的重大中断事件，可能直接影响附条件批准状态与整个 DMD 基因治疗赛道，按规则失败/终止不降权；素材仅一句，未说明是安全性、无效还是策略原因。"
+        }
+      ],
+      "reasoning": "Sarepta 停止为 Elevidys 的确证性 III 期试验继续入组，属注册性研究的重大中断事件，可能直接影响附条件批准状态与整个 DMD 基因治疗赛道，按规则失败/终止不降权；素材仅一句，未说明是安全性、无效还是策略原因。",
+      "verify_todo": [
+        "核实停止入组的具体原因（安全性信号/无效/商业决策）与公司原始公告",
+        "核实该确证性试验与加速批准状态的关系及 FDA 是否介入",
+        "核实已入组患者的随访安排"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:capivasertib",
+      "lead_id": "f464800485229106",
+      "title": "<![CDATA[Updated CAPItello-281 Data Support OS Advantage With Capivasertib in PTEN-Deficient mHSPC]]>",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "f464800485229106"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Updated CAPItello-281 Data Support OS Advantage With Capivasertib in PTEN-Deficient mHSPC]]>",
+          "url": "https://www.onclive.com/view/updated-capitello-281-data-support-os-advantage-with-capivasertib-in-pten-deficient-mhspc",
+          "score": 7.0,
+          "reasoning": "CAPItello-281 更新数据被表述为支持 PTEN 缺陷 mHSPC 的 OS 获益，属 III 期注册研究的终点层面结果，若能确认为统计学显著则具行业级意义；但正文为空，只能依据标题措辞，须谨慎。"
+        }
+      ],
+      "reasoning": "CAPItello-281 更新数据被表述为支持 PTEN 缺陷 mHSPC 的 OS 获益，属 III 期注册研究的终点层面结果，若能确认为统计学显著则具行业级意义；但正文为空，只能依据标题措辞，须谨慎。",
+      "verify_todo": [
+        "核实 OS 的 HR、置信区间与 p 值，以及是否为预设主要终点或更新分析",
+        "核实数据来源（会议口头报告/顶刊）与随访时间",
+        "核实 PTEN 缺陷的检测方法与入组人群定义"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:avexitide",
+      "lead_id": "7ffdc74b014c9e0b",
+      "title": "Amylyx Pharmaceuticals发布2026年第三季度财报：Avexitide III期LUCIDITY试验取得积极结果【AI生成】",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "7ffdc74b014c9e0b"
+      ],
+      "members": [
+        {
+          "title": "Amylyx Pharmaceuticals发布2026年第三季度财报：Avexitide III期LUCIDITY试验取得积极结果【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yytrz_389331",
+          "score": 7.0,
+          "reasoning": "标题指向III期LUCIDITY试验的“积极结果”，是本期唯一真正的注册级读出信号，值得追踪；但依据仅为财报口径的措辞（且为AI生成转述），未给出主要终点名称、效应量与p值/CI，因此按“疗效积极、终点结论未确证”而非“达到终点”计分。"
+        }
+      ],
+      "reasoning": "标题指向III期LUCIDITY试验的“积极结果”，是本期唯一真正的注册级读出信号，值得追踪；但依据仅为财报口径的措辞（且为AI生成转述），未给出主要终点名称、效应量与p值/CI，因此按“疗效积极、终点结论未确证”而非“达到终点”计分。",
+      "verify_todo": [
+        "核实Avexitide的作用机制与LUCIDITY试验适应症（是否为减重术后低血糖）",
+        "确认主要终点定义（如低血糖事件率/血糖阈值）及是否达到预设统计学显著、效应量与置信区间",
+        "核对样本量、对照设置与是否单臂，以及公司是否公布顶线公告全文或注册库结果",
+        "确认是否已有监管递交计划或突破性疗法认定"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 4
+    }
+  ]
+}

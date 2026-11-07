@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>19.0 个月的中位 OS，和一个查不到的 p 值</title>
+<style>
+:root{--bg:#fff;--soft:#f7f7f5;--ink:#1a1a1a;--ink2:#4a4a4a;--faint:#8a8a8a;--rule:#e6e6e3;--bronze:#9c6b3c;--deep:#6b4a2a;--red:#a93226;--green:#4a7c4e;--amber:#f5ecd9;--rose:#f7e8e6;--mint:#e8f0e6;--serif:"Noto Serif SC",Georgia,"Songti SC",serif;--mono:"JetBrains Mono",Menlo,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--serif);font-size:16px;line-height:1.9;color:var(--ink);background:var(--bg)}
+.wrap{max-width:780px;margin:0 auto;padding:60px 24px 90px}
+p{margin-bottom:18px;text-align:justify}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
+h1{font-size:clamp(25px,3.6vw,34px);font-weight:700;color:var(--red);line-height:1.35;margin-bottom:14px}
+.sub{font-size:15px;color:var(--ink2);margin-bottom:34px;font-style:italic}
+h2{font-size:21px;font-weight:600;color:var(--deep);margin:44px 0 16px;padding-top:12px;border-top:1px solid var(--rule)}
+h2 .n{color:var(--red);font-family:var(--mono);font-size:15px;margin-right:9px}
+h3{font-size:17px;font-weight:600;margin:26px 0 10px}
+.hook{background:var(--red);color:#fff;padding:26px 30px;margin:22px 0 32px;font-size:18px;line-height:1.75}
+.hook strong{color:#ffd166}
+.box{background:var(--soft);border:1px solid var(--rule);padding:15px 19px;margin:20px 0;font-size:14px;color:var(--ink2)}
+.box b{color:var(--deep)}
+.box p{margin-bottom:8px;text-align:left}
+.w{background:var(--amber);border-left:3px solid #b88a3e}
+.g{background:var(--mint);border-left:3px solid var(--green)}
+.r{background:var(--rose);border-left:3px solid var(--red)}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}
+th{background:var(--deep);color:#fff;text-align:left;padding:9px 11px;font-weight:600;font-size:12.5px}
+td{padding:9px 11px;border-bottom:1px solid var(--rule);vertical-align:top}
+tbody tr:nth-child(even){background:var(--soft)}
+.m{font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:12.5px}
+.hl{color:var(--red);font-weight:700}
+.foot{font-size:12px;color:var(--faint);margin-top:7px}
+strong{font-weight:700}
+ul{margin:12px 0 18px 24px}
+li{margin-bottom:8px}
+.fn{font-size:12px;color:var(--faint);margin-top:38px;line-height:1.8;text-align:left}
+.end{background:var(--deep);color:#fff;padding:24px 28px;margin:40px 0 22px}
+.end h4{font-size:18px;font-weight:600;margin-bottom:8px}
+@media(max-width:720px){.wrap{padding:30px 16px 60px}}
+</style>
+</head>
+<body>
+<article class="wrap">
+<div class="kicker">临床数据</div>
+<h1>19.0 个月的中位 OS，和一个查不到的 p 值</h1>
+<p class="sub">ESMO 新闻称「显著临床获益」，中文标题称「全球首个三期双阳性」。两条表述之间，缺统计检验、缺样本量、缺注册号。</p>
+<div class="hook">2026年10月26日，ESMO 官网新闻栏挂出一条消息：sacituzumab tirumotecan 在晚期或复发性子宫内膜癌中显示「显著临床获益」。同一时间段，中文渠道流传的版本信息量大得多——「全球首个子宫内膜癌三期双阳性」「中位 OS 19.0 个月」「打破后线一年生存天花板」。把两条并排放，会出现一个不好看的事实：一边是形容词，一边是点估计，而支撑「三期双阳性」这个说法的 p 值、置信区间、风险比、样本量、试验注册号，在两条来源里一个都没有。</div>
+<h2><span class="n">01</span>两条来源各自说了什么</h2>
+<p>先把手上的材料摊开。素材2 是 ESMO 官网的新闻条目，发布日期 2026-10-26，标题只到「显著临床获益」这一层。没有分期，没有样本量，没有终点名称，没有数值。</p>
+<p>素材1 是 pharnexcloud 的一条资讯，发布日期未找到公开数据。它给出的信息更硬：三期、双阳性、中位 OS 19.0 个月。这三个说法目前都只存在于标题层面，没有正文可以回溯。</p>
+<p>两条来源在指同一项研究。素材核查项里也留了这个问号——是否同一项试验，尚未核实。眼下没有试验编号能把两者钉在一起。</p>
+<p>一项注册级的肿瘤三期读出，公开披露通常至少包含四样东西：试验注册号、入组例数、主要终点的定义（哪个终点、哪个人群、哪种评估方式）、统计检验结果。这四样在两条来源里都没有出现。ESMO 新闻属于会议方的转述，写作目的是告知方向，不是提供统计细节。pharnexcloud 的标题给出了一个数值，但数值单独存在时，读者无从判断它的精度。</p>
+<p>「双阳性」这三个字也需要拆开。它指两个终点同时读出阳性。这两个终点是 PFS 与 OS，是 OS 与 ORR，还是 PFS 在两个人群里各读一次，来源没有交代。不同的组合，对应的统计设计完全不同。</p>
+<h2><span class="n">02</span>已知与未知的分布</h2>
+<table><thead><tr><th>信息项</th><th>素材1（pharnexcloud）</th><th>素材2（ESMO news）</th></tr></thead><tbody><tr><td>分期</td><td>称「三期」</td><td>未提及</td></tr><tr><td>终点结论</td><td>称「双阳性」</td><td>称「显著临床获益」</td></tr><tr><td>疗效数值</td><td>中位 OS 19.0 个月</td><td>未给出数值</td></tr><tr><td>统计检验（p／CI／HR）</td><td>未提供</td><td>未提供</td></tr><tr><td>样本量</td><td>未提供</td><td>未提供</td></tr><tr><td>试验注册号</td><td>未提供</td><td>未提供</td></tr><tr><td>发布日期</td><td>未找到公开数据</td><td>2026-10-26</td></tr></tbody></table>
+<p>这张表读完，能确认的只有一件事：方向是正向的。两家来源都用了积极措辞，没有出现「未达到」「趋势」这类保留说法。</p>
+<p>能确认的第二件事是时间。ESMO 那条发布于 2026-10-26，距今已过 12 天。会议新闻一般在摘要公开前后发布，全文和完整数据通常要等摘要编号落地或期刊投稿。</p>
+<p>剩下的格子全是空的。样本量空着，意味着无法判断这个 OS 中位数建立在多少事件上。统计检验空着，意味着「双阳性」无法升级为「达到主要终点」。注册号空着，意味着读者没办法自己去注册库里核对设计。</p>
+<p>按依据层级的口径，这条目前落在「新闻／公告措辞」这一档。这一档允许写「据 ESMO 新闻称显示显著临床获益」，不允许写成已经确证。中文标题里的「三期双阳性」来自媒体或企业口径，同样不能直接当统计结论引用。</p>
+<h2><span class="n">03</span>「双阳性」在统计上要付的代价</h2>
+<p>PFS 和 OS 同时设为主要终点，α 必须分配。常见的两种做法：平行拆分，比如 PFS 0.02、OS 0.03；或者序贯检验，先读 PFS，PFS 阳性之后才把 α 传给 OS。</p>
+<p>两种设计下，「双阳性」的分量不一样。序贯设计里，OS 的检验是在 PFS 成功之后进行的，门槛仍按 0.05 走，结论是确证性的。平行拆分里，OS 的独立门槛严于 0.05，同样的获益幅度可能过不了线。</p>
+<p>还有第三个变量：OS 是不是被期中分析消耗过。后线子宫内膜癌的生存事件累积不快，多数研究会先做一次 PFS 的期中分析，此时 OS 数据尚不成熟。这个时点报出的 OS 中位数，建立在事件数不足的截点上，后续随访延长后中位数通常会往下走。</p>
+<p>所以「中位 OS 19.0 个月」这个数字，要连着问三件事：事件数多少、数据截点在哪、这是不是一次期中分析。三个问题在现有来源里都答不了。</p>
+<p>后线子宫内膜癌的对照组选择也会影响这个数字怎么读。化疗、内分泌、或研究者选择方案，历史对照的 OS 区间差异不小。没有对照组的中位值，横着比会失真。</p>
+<h2><span class="n">04</span>注册库里命中的是另一个分子</h2>
+<table><thead><tr><th>字段</th><th>NCT03901339 记录</th><th>与本次披露的关系</th></tr></thead><tbody><tr><td>药物</td><td>Sacituzumab govitecan-hziy</td><td>与芦康沙妥珠单抗非同一分子</td></tr><tr><td>申办方</td><td>Gilead Sciences</td><td>未找到与本次研究的关联</td></tr><tr><td>适应症</td><td>HR+/HER2- 转移性乳腺癌</td><td>非子宫内膜癌</td></tr><tr><td>分期／样本量</td><td>III 期／543 例（实际入组）</td><td>不可作为本次参照</td></tr><tr><td>主要终点</td><td>PFS（BICR 评估）</td><td>不可作为本次参照</td></tr></tbody></table>
+<p>素材核查给出一条注册库命中：NCT03901339，III 期，实际入组 543 例，HR+/HER2- 转移性乳腺癌，主要终点是 BICR 评估的 PFS，申办方 Gilead Sciences，2019-05-08 启动，2023-10-20 主要完成。</p>
+<p>这条记录挂的药是 sacituzumab govitecan，不是芦康沙妥珠单抗。两个名字共享 sacituzumab 这个抗体部分，payload 都属于拓扑异构酶 I 抑制剂类，但抗体靶位、连接子、药物抗体比不同，是两个独立分子。把 NCT03901339 的 543 例、PFS 终点、乳腺癌人群拿来支撑子宫内膜癌的三期读出，是错配。</p>
+<p>素材另给两条横向对比试验：NCT05552001（III 期，n=96）、NCT05633654（III 期，n=1514）。这两条同样登记在 sacituzumab govitecan 名下，同样不能作为本次读出的参照。</p>
+<p>按目前的检索条件，注册库未检索到与本次子宫内膜癌研究对应的试验记录。这是检索条件的限制，不等于该试验不存在——中国申办方的妇科瘤种研究，有可能登记在 NMPA 药物临床试验登记与信息公示平台，而不是 ClinicalTrials.gov。核对路径应该往那边走。</p>
+<h2><span class="n">05</span>未来 12 到 18 个月的可核查节点</h2>
+<p>第一个节点是 ESMO 摘要。会议新闻通常对应一份已接收的摘要，摘要编号、场次、报告人一旦公布，样本量、终点定义、HR 与 p 值会同步出现在摘要正文里。这是把「双阳性」升级或降级的第一个机会。</p>
+<p>第二个节点是注册库。分两条线查：ClinicalTrials.gov 用 sacituzumab tirumotecan 加 endometrial 检索；NMPA 平台用申办方名加适应症检索。查到之后，对照组设置、样本量、α 分配、期中分析计划都能读到。</p>
+<p>第三个节点是全文。三期研究的主结果进 NEJM、Lancet Oncology、JCO 这一类期刊，通常伴随更长的随访和更新的 OS。会议摘要上的中位 OS 与全文里的数字不一致，是常态。</p>
+<p>第四个节点是监管。如果这项研究确实按注册路径设计，国内会有受理与审评进度可查。附条件批准与完全批准对数据成熟度的要求不同，这个区别决定了 19.0 个月这个数字在说明书里会以什么形式出现。</p>
+<h2><span class="n">06</span>现在能下的判断</h2>
+<p>这条消息的方向性价值成立。中国原研 TROP2 ADC 在妇科瘤种上读出三期方向性信号，如果后续材料确认终点成立，位置优势是明摆的——这个适应症的后线治疗长期缺乏新机制药物。</p>
+<p>但「全球首个」和「双阳性」这两个说法，目前都还站在新闻措辞的地基上。前者需要一项已完成的、同适应症、同分期的三期研究来对比；后者需要一个 p 值。</p>
+<p>对读者来说，判断标准可以很短：看到「双阳性」，先找 p 值。找不到 p 值，就把它当成「方向积极、口径待补」。这个标准对国产 ADC 和进口 ADC 一样适用。</p>
+<p>19.0 个月这个数字本身不弱。后线子宫内膜癌的生存预期历来不高，「一年天花板」的说法不算夸张。一个 19 个月的中位 OS 若能配上可比的对照组和一条显著的生存曲线，分量足够改写这一线的治疗格局。</p>
+<p>现在缺的正是那条曲线。</p>
+<div class="end"><h4>先记口径，再记数字</h4><p>一项三期读出从新闻走到指南，中间隔着摘要、全文、注册库更新和监管审评四道关。19.0 个月是这条路上的第一个路标，不是终点线。在 p 值出现之前，最稳妥的写法是：ESMO 新闻称显著临床获益，中位 OS 19.0 个月见诸媒体标题，统计检验未找到公开数据。</p></div>
+<p class="fn"><strong>来源与核查口径：</strong><br>
+1. 来源：pharnexcloud｜发布日期未找到公开数据｜https://www.pharnexcloud.com/zixun/shiye/lcyj_389036<br>
+2. 来源：ESMO News｜2026-10-26｜https://www.esmo.org/insights-by-esmo/all-news/sacituzumab-tirumotecan-shows-significant-clinical-benefit-in-advanced-recurrent-endometrial-cancer<br>
+3. 注册库：NCT03901339｜ClinicalTrials.gov｜III 期，543 例，HR+/HER2- 转移性乳腺癌，申办方 Gilead Sciences（该记录药物为 sacituzumab govitecan，非本次披露药物）<br>
+4. 注册库横向记录：NCT05552001（III 期，n=96）、NCT05633654（III 期，n=1514）｜ClinicalTrials.gov</p>
+</article>
+</body>
+</html>
