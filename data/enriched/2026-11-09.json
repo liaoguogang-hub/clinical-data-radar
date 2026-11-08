@@ -1,0 +1,740 @@
+{
+  "e87a3da8e8adcb2d": {
+    "id": "e87a3da8e8adcb2d",
+    "title": "J&J’s Rybrevant nets FDA approval in head and neck cancer",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b7521f69ff6133cf": {
+    "id": "b7521f69ff6133cf",
+    "title": "‌以岭药业中药1.1类新药小儿连花感冒颗粒获批上市，瞄准4-12岁儿童风热感冒赛道‌，管线持续扩容中",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "以岭药业",
+          "粒是以岭药业",
+          "段据摩熵医药",
+          "摩熵医药"
+        ],
+        "sponsor_en": [
+          "以岭药业",
+          "粒是以岭药业",
+          "段据摩熵医药",
+          "摩熵医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（以岭药业、粒是以岭药业、段据摩熵医药、摩熵医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "7a814cc132f142ba": {
+    "id": "7a814cc132f142ba",
+    "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06809595",
+        "title": "A Phase 3 Trial of MM120 for Generalized Anxiety Disorder (Panorama)",
+        "official_title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, 12-Week Study (Part A) With a 40 Week Open-label Extension (Part B) Evaluating the Efficacy and Safety of Oral MM120 Compared to Placebo in the Treatment of Adults With Generalized Anxiety Disorder - Panorama",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Definium Therapeutics US, Inc.",
+        "conditions": [
+          "Generalized Anxiety Disorder"
+        ],
+        "interventions": [
+          "Placebo",
+          "DT120"
+        ],
+        "primary_outcomes": [
+          "Change from Baseline in Hamilton Anxiety Rating Scale (HAM-A) total score at Week 12"
+        ],
+        "enrollment": 245,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2025-01-29",
+        "primary_completion": "2026-08-13",
+        "completion": "2027-05",
+        "last_update": "2026-09-04",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Czechia",
+          "France",
+          "Germany",
+          "Poland",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06809595",
+          "title": "A Phase 3 Trial of MM120 for Generalized Anxiety Disorder (Panorama)",
+          "official_title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, 12-Week Study (Part A) With a 40 Week Open-label Extension (Part B) Evaluating the Efficacy and Safety of Oral MM120 Compared to Placebo in the Treatment of Adults With Generalized Anxiety Disorder - Panorama",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Definium Therapeutics US, Inc.",
+          "conditions": [
+            "Generalized Anxiety Disorder"
+          ],
+          "interventions": [
+            "Placebo",
+            "DT120"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in Hamilton Anxiety Rating Scale (HAM-A) total score at Week 12"
+          ],
+          "enrollment": 245,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-01-29",
+          "primary_completion": "2026-08-13",
+          "completion": "2027-05",
+          "last_update": "2026-09-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Czechia",
+            "France",
+            "Germany",
+            "Poland",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06741228",
+          "title": "A Phase 3 Trial of DT120 for Generalized Anxiety Disorder (Voyage)",
+          "official_title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, 12-Week Study (Part A) With a 40-Week Open-label Extension (Part B) Evaluating the Efficacy and Safety of Oral DT120 Compared to Placebo in the Treatment of Adults With Generalized Anxiety Disorder - Voyage",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Definium Therapeutics US, Inc.",
+          "conditions": [
+            "Generalized Anxiety Disorder"
+          ],
+          "interventions": [
+            "Placebo",
+            "DT120"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in Hamilton Anxiety Rating Scale (HAM-A) total score at Week 12"
+          ],
+          "enrollment": 214,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-12-11",
+          "primary_completion": "2026-07-15",
+          "completion": "2027-04",
+          "last_update": "2026-09-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06941844",
+          "title": "A Phase 3 Trial of DT120 for Major Depressive Disorder (Emerge)",
+          "official_title": "A Phase 3 Multicenter, Randomized, Double-blind, Placebo-controlled, 12-Week Study (Part A) With a 40-Week Open-label Extension (Part B) Evaluating the Efficacy and Safety of Oral DT120 Compared to Placebo in the Treatment of Adults With Major Depressive Disorder - Emerge",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Definium Therapeutics US, Inc.",
+          "conditions": [
+            "Major Depressive Disorder"
+          ],
+          "interventions": [
+            "Placebo",
+            "DT120"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in the Montgomery-Åsberg Depression Rating Scale (MADRS) total score at Week 6"
+          ],
+          "enrollment": 149,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-04-14",
+          "primary_completion": "2026-05-20",
+          "completion": "2027-02",
+          "last_update": "2026-08-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "DT120"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "d45027672fa543a2": {
+    "id": "d45027672fa543a2",
+    "title": "Immunocore公布brenetafusp联合KIMMTRAK®治疗转移性葡萄膜黑色素瘤的I/2期试验积极数据【AI生成】",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:生存率"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:生存率"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:生存率",
+    "registry": {
+      "best": {
+        "nct": "NCT06112314",
+        "title": "IMC-F106C Regimen Versus Nivolumab Regimens in Previously Untreated Advanced Melanoma (PRISM-MEL-301)",
+        "official_title": "A Phase 3 Randomized, Controlled Study of IMC-F106C Plus Nivolumab Versus Nivolumab Regimens in HLA-A*02:01-Positive Participants With Previously Untreated Advanced Melanoma (PRISM-MEL-301",
+        "acronym": "PRISM-MEL-301",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Immunocore Ltd",
+        "conditions": [
+          "Advanced Melanoma"
+        ],
+        "interventions": [
+          "Brenetafusp",
+          "Nivolumab",
+          "Nivolumab + Relatlimab"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)"
+        ],
+        "enrollment": 680,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-06-05",
+        "primary_completion": "2027-10-16",
+        "completion": "2027-10-16",
+        "last_update": "2026-02-25",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Bulgaria",
+          "Canada",
+          "Czechia",
+          "Denmark",
+          "Finland",
+          "France"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06112314",
+          "title": "IMC-F106C Regimen Versus Nivolumab Regimens in Previously Untreated Advanced Melanoma (PRISM-MEL-301)",
+          "official_title": "A Phase 3 Randomized, Controlled Study of IMC-F106C Plus Nivolumab Versus Nivolumab Regimens in HLA-A*02:01-Positive Participants With Previously Untreated Advanced Melanoma (PRISM-MEL-301",
+          "acronym": "PRISM-MEL-301",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Immunocore Ltd",
+          "conditions": [
+            "Advanced Melanoma"
+          ],
+          "interventions": [
+            "Brenetafusp",
+            "Nivolumab",
+            "Nivolumab + Relatlimab"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)"
+          ],
+          "enrollment": 680,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-06-05",
+          "primary_completion": "2027-10-16",
+          "completion": "2027-10-16",
+          "last_update": "2026-02-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Czechia",
+            "Denmark",
+            "Finland",
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05549297",
+          "title": "Tebentafusp Regimen Versus Investigator's Choice in Previously Treated Advanced Melanoma (TEBE-AM)",
+          "official_title": "Phase 2/3 Randomized Study of Tebentafusp as Monotherapy and in Combination With Pembrolizumab Versus Investigator's Choice in HLA-A*02:01-positive Participants With Previously Treated Advanced Melanoma (TEBE-AM)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Immunocore Ltd",
+          "conditions": [
+            "Advanced Melanoma"
+          ],
+          "interventions": [
+            "Tebentafusp",
+            "Tebentafusp with Pembrolizumab",
+            "Investigators Choice"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 540,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-12-19",
+          "primary_completion": "2028-03",
+          "completion": "2028-07",
+          "last_update": "2026-02-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "France",
+            "Germany",
+            "Italy",
+            "Poland",
+            "Spain",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05315258",
+          "title": "Tebentafusp in Molecular Relapsed Disease (MRD) Melanoma",
+          "official_title": "A Phase II Non-Randomized, Open-label, Multi-centre Study of the Safety and Efficacy of Tebentafusp in Melanoma With Molecular Relapsed Disease",
+          "acronym": "TebeMRD",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Oxford",
+          "conditions": [
+            "Melanoma (Skin)",
+            "Melanoma, Uveal"
+          ],
+          "interventions": [
+            "Tebentafusp"
+          ],
+          "primary_outcomes": [
+            "Estimate the rate of molecular response (MR) to tebentafusp in each of 2 cohorts A. Cutaneous melanoma with MRD B. Uveal melanoma with MRD"
+          ],
+          "enrollment": 850,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-07-25",
+          "primary_completion": "2026-12-30",
+          "completion": "2027-06-30",
+          "last_update": "2025-07-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "brenetafusp",
+          "tebentafusp"
+        ],
+        "sponsor": [
+          "商业阶段生物"
+        ],
+        "sponsor_en": [
+          "商业阶段生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "1b280103fb6b213e": {
+    "id": "1b280103fb6b213e",
+    "title": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT03693430",
+        "title": "Two-year Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+        "official_title": "Two-year Effect and Safety of Semaglutide 2.4 mg Once-weekly in Subjects With Overweight or Obesity",
+        "acronym": "STEP 5",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novo Nordisk A/S",
+        "conditions": [
+          "Overweight",
+          "Obesity"
+        ],
+        "interventions": [
+          "Semaglutide",
+          "Placebo (Semaglutide)"
+        ],
+        "primary_outcomes": [
+          "Percentage Change From Baseline (Week 0) to Week 104 in Body Weight",
+          "Number of Participants Who Achieved (Yes/no): Body Weight Reduction More Than or Equal to 5%"
+        ],
+        "enrollment": 304,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-10-05",
+        "primary_completion": "2021-01-29",
+        "completion": "2021-03-23",
+        "last_update": "2023-07-06",
+        "results_first_post": "2022-03-23",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Canada",
+          "Hungary",
+          "Italy",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03693430",
+          "title": "Two-year Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+          "official_title": "Two-year Effect and Safety of Semaglutide 2.4 mg Once-weekly in Subjects With Overweight or Obesity",
+          "acronym": "STEP 5",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novo Nordisk A/S",
+          "conditions": [
+            "Overweight",
+            "Obesity"
+          ],
+          "interventions": [
+            "Semaglutide",
+            "Placebo (Semaglutide)"
+          ],
+          "primary_outcomes": [
+            "Percentage Change From Baseline (Week 0) to Week 104 in Body Weight",
+            "Number of Participants Who Achieved (Yes/no): Body Weight Reduction More Than or Equal to 5%"
+          ],
+          "enrollment": 304,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-10-05",
+          "primary_completion": "2021-01-29",
+          "completion": "2021-03-23",
+          "last_update": "2023-07-06",
+          "results_first_post": "2022-03-23",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada",
+            "Hungary",
+            "Italy",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07057310",
+          "title": "Aging Well: Targeting Obesity With GLP-1 Agonists to Enhance Physical and Vascular Health in Postmenopausal Women",
+          "official_title": "Aging Well: Targeting Obesity With GLP-1 Agonists to Enhance Physical and Vascular Health in Postmenopausal Women",
+          "acronym": "",
+          "status": "ENROLLING_BY_INVITATION",
+          "why_stopped": "",
+          "phase": "PHASE4",
+          "sponsor": "Mayo Clinic",
+          "conditions": [
+            "Obesity",
+            "Menopause"
+          ],
+          "interventions": [
+            "semaglutide or tirzepatide",
+            "Lifestyle modification intervention"
+          ],
+          "primary_outcomes": [
+            "Physical Function Measure: Short Physical Performance Battery (SPPB) score.",
+            "Physical Function Measure: Modified Clinical Test of Sensory Interaction in Balance (mCTSIB) performed on the Rehabilitation Artificial Physical Intelligence Database (RAPID) foot pressure mat",
+            "Physical Function Measure: Standing Chest Throw Test with a 2-kg Weighted Ball using Motion Sensor Technology (MST)",
+            "Physical Function Measure: Chair-to-Stand Tests using Motion Sensor Technology (MST)",
+            "Physical Function Measure: Six-Minute Walk Test (6MWT)",
+            "Physical Function Measure: Hand Grip Strength using a Hydraulic Hand Dynamometer",
+            "Physical Function Measure: Short Form-12 (SF-12) Health Survey",
+            "Physical Function Measure: Patient-Reported Outcomes Measurement Information System (PROMIS) - Fatigue and Physical Function Domains",
+            "Aging Biomarkers: Cellular Senescence Markers in Plasma",
+            "Difference between biological and chronological age",
+            "Vascular Function Assessment: Reactive Hyperemia Index (RHI) using EndoPAT"
+          ],
+          "enrollment": 30,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05-01",
+          "primary_completion": "2026-12-31",
+          "completion": "2027-03-31",
+          "last_update": "2026-07-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05442450",
+          "title": "Efficacy of Oral Semaglutide in Overweight or Obesity",
+          "official_title": "Efficacy of Oral Semaglutide in Overweight or Obesity : Randomized Controlled Trial (OSO Study - Oral Semaglutide for Obesity)",
+          "acronym": "OSO",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE4",
+          "sponsor": "Asian Institute of Gastroenterology, India",
+          "conditions": [
+            "Obesity",
+            "Weight Loss"
+          ],
+          "interventions": [
+            "oral semaglutide"
+          ],
+          "primary_outcomes": [
+            "The proportion of patients achieving a reduction in body weight of 5% or more from baseline"
+          ],
+          "enrollment": 116,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-07-10",
+          "primary_completion": "2023-06-30",
+          "completion": "2023-06-30",
+          "last_update": "2022-07-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "India"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "semaglutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

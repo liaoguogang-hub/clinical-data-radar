@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-09",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:xiaer-lianhua-ganmao-keli",
+      "lead_id": "b7521f69ff6133cf",
+      "title": "‌以岭药业中药1.1类新药小儿连花感冒颗粒获批上市，瞄准4-12岁儿童风热感冒赛道‌，管线持续扩容中",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "b7521f69ff6133cf"
+      ],
+      "members": [
+        {
+          "title": "‌以岭药业中药1.1类新药小儿连花感冒颗粒获批上市，瞄准4-12岁儿童风热感冒赛道‌，管线持续扩容中",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_389246",
+          "score": 6.0,
+          "reasoning": "NMPA批准上市构成明确监管结果，且属于中国原研儿科中药1.1类新药，具有产品线和监管进展价值；但摘要未呈现支持性临床试验的终点、统计量或样本量。"
+        }
+      ],
+      "reasoning": "NMPA批准上市构成明确监管结果，且属于中国原研儿科中药1.1类新药，具有产品线和监管进展价值；但摘要未呈现支持性临床试验的终点、统计量或样本量。",
+      "verify_todo": [
+        "核实NMPA批准文号、说明书和批准适应证",
+        "核实支持批准的临床试验期别、样本量、主要终点及统计结果",
+        "核实该品种是否为国内首个获批的同类儿科制剂",
+        "核实上市后安全性和疗效监测要求"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:dt120",
+      "lead_id": "7a814cc132f142ba",
+      "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "7a814cc132f142ba"
+      ],
+      "members": [
+        {
+          "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+          "url": "https://www.medpagetoday.com/meetingcoverage/neicongress/123772",
+          "score": 7.4,
+          "reasoning": "报道明确称两项Ⅲ期试验达到主要终点，属于高权重临床统计结论，尤其在精神疾病新型疗法领域具有行业关注度；但当前来源主要是会议报道，仍需原始数据或注册结果补强。"
+        }
+      ],
+      "reasoning": "报道明确称两项Ⅲ期试验达到主要终点，属于高权重临床统计结论，尤其在精神疾病新型疗法领域具有行业关注度；但当前来源主要是会议报道，仍需原始数据或注册结果补强。",
+      "verify_todo": [
+        "核实两项试验各自的样本量、主要终点和预设统计方法",
+        "核实各试验的p值、效应量、置信区间及安全性结果",
+        "核实DT120与已获批迷幻药治疗在人群和终点上的差异"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:brenetafusp",
+      "lead_id": "d45027672fa543a2",
+      "title": "Immunocore公布brenetafusp联合KIMMTRAK®治疗转移性葡萄膜黑色素瘤的I/2期试验积极数据【AI生成】",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "d45027672fa543a2"
+      ],
+      "members": [
+        {
+          "title": "Immunocore公布brenetafusp联合KIMMTRAK®治疗转移性葡萄膜黑色素瘤的I/2期试验积极数据【AI生成】",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_389366",
+          "score": 6.8,
+          "reasoning": "Ⅰ/Ⅱ期研究在葡萄膜黑色素瘤中报告了联合方案的应答、缓解持续时间和生存数字，且组合方式具有一定新意；但依据是会议展示的疗效数字而非统计终点结论，并且样本量很小、无对照。"
+        }
+      ],
+      "reasoning": "Ⅰ/Ⅱ期研究在葡萄膜黑色素瘤中报告了联合方案的应答、缓解持续时间和生存数字，且组合方式具有一定新意；但依据是会议展示的疗效数字而非统计终点结论，并且样本量很小、无对照。",
+      "verify_todo": [
+        "核实完整队列人数及一线亚组人数",
+        "核实ORR、缓解持续时间、疾病控制率和OS的置信区间及统计检验",
+        "核实单药与联合队列划分以及既往治疗情况",
+        "核实SITC展示的原始报告和试验注册信息"
+      ],
+      "flags": [
+        "positive_data",
+        "single_arm",
+        "small_n"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:semaglutide",
+      "lead_id": "1b280103fb6b213e",
+      "title": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+      "score": 6.7,
+      "channel": "global",
+      "member_ids": [
+        "1b280103fb6b213e"
+      ],
+      "members": [
+        {
+          "title": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+          "url": "https://www.nature.com/articles/s41591-026-04762-3",
+          "score": 6.7,
+          "reasoning": "随机安慰剂对照试验在Nature Medicine正式发表，摘要明确使用统计学显著表述血流动力学指标改善，来源层级和可信度较高；但该读出主要是血流动力学替代指标，临床结局意义仍需验证。"
+        }
+      ],
+      "reasoning": "随机安慰剂对照试验在Nature Medicine正式发表，摘要明确使用统计学显著表述血流动力学指标改善，来源层级和可信度较高；但该读出主要是血流动力学替代指标，临床结局意义仍需验证。",
+      "verify_todo": [
+        "核实预设主要终点、样本量及效应量与置信区间",
+        "核实是否存在硬结局探索终点",
+        "核实试验期别及适用人群"
+      ],
+      "flags": [
+        "met",
+        "surrogate"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
