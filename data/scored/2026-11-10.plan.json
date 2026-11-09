@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-10",
+  "count": 5,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:marstacimab",
+      "lead_id": "3e4e5ef3030b4383",
+      "title": "辉瑞马塔西单抗新适应症获批上市！靶向TFPI每周一次皮下注射，覆盖12岁以上伴抑制物A型B型血友病",
+      "score": 7.0,
+      "channel": "china",
+      "member_ids": [
+        "3e4e5ef3030b4383"
+      ],
+      "members": [
+        {
+          "title": "辉瑞马塔西单抗新适应症获批上市！靶向TFPI每周一次皮下注射，覆盖12岁以上伴抑制物A型B型血友病",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_389437",
+          "score": 7.0,
+          "reasoning": "NMPA新增适应症批准构成明确临床开发结果，且素材提供了注册性儿童研究中的出血率数据。当前依据主要是监管批准及历史模型对照下的裸数值，并非带有置信区间的统计结论。"
+        }
+      ],
+      "reasoning": "NMPA新增适应症批准构成明确临床开发结果，且素材提供了注册性儿童研究中的出血率数据。当前依据主要是监管批准及历史模型对照下的裸数值，并非带有置信区间的统计结论。",
+      "verify_todo": [
+        "核实NMPA官方批准日期和完整适应症措辞",
+        "核实BASIS KIDS各队列样本量、主要终点及统计结果",
+        "核实历史模型对照的适用性和缺失数据处理方式"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:emicizumab",
+      "lead_id": "e7141753b1355cc8",
+      "title": "血友病创新疗法友瑞宁®在华获批新适应症 为伴抑制物的A型或B型血友病患者带来预防治疗新选择",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "e7141753b1355cc8"
+      ],
+      "members": [
+        {
+          "title": "血友病创新疗法友瑞宁®在华获批新适应症 为伴抑制物的A型或B型血友病患者带来预防治疗新选择",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_389646",
+          "score": 6.5,
+          "reasoning": "中国监管批准新增血友病适应症，属于有临床价值且值得核查的监管进展；依据仅为批准措辞，未提供主要终点统计结论或关键试验数据，且发布日期未知。"
+        }
+      ],
+      "reasoning": "中国监管批准新增血友病适应症，属于有临床价值且值得核查的监管进展；依据仅为批准措辞，未提供主要终点统计结论或关键试验数据，且发布日期未知。",
+      "verify_todo": [
+        "核实国家药监局批准文件、批准日期及完整适应症措辞",
+        "核实新增适应症所依据的试验编号、阶段、样本量及主要终点统计结果",
+        "核实与既有适应症相比的增量获益和安全性"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:dt120",
+      "lead_id": "7a814cc132f142ba",
+      "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "7a814cc132f142ba"
+      ],
+      "members": [
+        {
+          "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+          "url": "https://www.medpagetoday.com/meetingcoverage/neicongress/123772",
+          "score": 8.0,
+          "reasoning": "两项Ⅲ期试验明确达到主要终点，且覆盖焦虑和抑郁两个适应症，是高优先级临床读出。当前依据是会议报道明确表述的统计结论，但具体效应量、p值和多终点控制仍需核实。"
+        }
+      ],
+      "reasoning": "两项Ⅲ期试验明确达到主要终点，且覆盖焦虑和抑郁两个适应症，是高优先级临床读出。当前依据是会议报道明确表述的统计结论，但具体效应量、p值和多终点控制仍需核实。",
+      "verify_todo": [
+        "核实两项Ⅲ期试验名称、注册编号和样本量",
+        "核实主要终点定义、基线严重程度及统计假设",
+        "核实各试验效应量、置信区间、p值和显著性判定",
+        "核实不良事件、脱落率及是否达到预设安全阈值"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:rybrevant",
+      "lead_id": "e87a3da8e8adcb2d",
+      "title": "J&J’s Rybrevant nets FDA approval in head and neck cancer",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "e87a3da8e8adcb2d"
+      ],
+      "members": [
+        {
+          "title": "J&J’s Rybrevant nets FDA approval in head and neck cancer",
+          "url": "https://endpoints.news/jjs-rybrevant-nets-fda-approval-in-head-and-neck-cancer/",
+          "score": 7.2,
+          "reasoning": "FDA对复发头颈癌授予加速批准，构成高优先级监管与临床进展节点。素材依据是监管决定，但未提供支持批准的试验终点、效应量及后续确证性试验要求。"
+        }
+      ],
+      "reasoning": "FDA对复发头颈癌授予加速批准，构成高优先级监管与临床进展节点。素材依据是监管决定，但未提供支持批准的试验终点、效应量及后续确证性试验要求。",
+      "verify_todo": [
+        "核实FDA批准日期、完整适应症措辞和加速批准条件",
+        "核实支持批准的试验名称、期别、样本量及主要终点",
+        "核实客观缓解率、应答持续时间、置信区间和生物标志物要求",
+        "核实确证性试验及完全批准转换标准"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:hibsago",
+      "lead_id": "6f1c5182f131cb43",
+      "title": "首款乙肝ASO药物Hibsago获FDA批准",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "6f1c5182f131cb43"
+      ],
+      "members": [
+        {
+          "title": "首款乙肝ASO药物Hibsago获FDA批准",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_389651",
+          "score": 7.0,
+          "reasoning": "乙肝仍存在显著未满足治疗需求，标题所述ASO获批及“首款”定位使其具有较高临床与首创性报道价值；依据是监管批准措辞而非标题中披露的统计结果，发布日期未知。"
+        }
+      ],
+      "reasoning": "乙肝仍存在显著未满足治疗需求，标题所述ASO获批及“首款”定位使其具有较高临床与首创性报道价值；依据是监管批准措辞而非标题中披露的统计结果，发布日期未知。",
+      "verify_todo": [
+        "核实FDA批准文件、批准日期、活性成分及最终标签适应症",
+        "核实批准依据的试验阶段、主要终点、p值或置信区间及安全性数据",
+        "核实其是否为全球首个获批乙肝ASO，并确认与既有乙肝疗法的比较依据"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    }
+  ]
+}
