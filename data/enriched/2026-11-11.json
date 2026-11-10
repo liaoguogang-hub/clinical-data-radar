@@ -1,0 +1,1894 @@
+{
+  "fc3f0b803a2e6206": {
+    "id": "fc3f0b803a2e6206",
+    "title": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+    "score": 7.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "9ae7ac4b10e5ce86": {
+    "id": "9ae7ac4b10e5ce86",
+    "title": "诺和长效生长激素在华全面获批后于进博会首展首秀！",
+    "score": 7.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "继续携手医疗",
+          "一家全球医疗",
+          "权均属于生物",
+          "户都在用生物"
+        ],
+        "sponsor_en": [
+          "继续携手医疗",
+          "一家全球医疗",
+          "权均属于生物",
+          "户都在用生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（继续携手医疗、一家全球医疗、权均属于生物、户都在用生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "3e4e5ef3030b4383": {
+    "id": "3e4e5ef3030b4383",
+    "title": "辉瑞马塔西单抗新适应症获批上市！靶向TFPI每周一次皮下注射，覆盖12岁以上伴抑制物A型B型血友病",
+    "score": 8.3,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [
+          "NCT05611801"
+        ],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "ae983f23fdb58df": {
+    "id": "ae983f23fdb58df",
+    "title": "",
+    "score": 6.9,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.0,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.00",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e01fd6205a4b6507": {
+    "id": "e01fd6205a4b6507",
+    "title": "Zura Bio大跌75%：IL-17/BAFF双抗化脓性汗腺炎二期临床失败",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "ZB-106"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "b00ca42af8c291a4": {
+    "id": "b00ca42af8c291a4",
+    "title": "Another Option for Rare Benign Soft-Tissue Tumor Wins FDA Approval",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:Wins"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:Wins"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:Wins",
+    "registry": {
+      "best": {
+        "nct": "NCT05804045",
+        "title": "Study of Pimicotinib (ABSK021) for Tenosynovial Giant Cell Tumor (MANEUVER)",
+        "official_title": "A Phase 3, Randomized, Double-blind, Placebo-Controlled, Multicenter Study of ABSK021 to Assess the Efficacy and Safety in Patients With Tenosynovial Giant Cell Tumor",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Abbisko Therapeutics Co, Ltd",
+        "conditions": [
+          "Tenosynovial Giant Cell Tumor",
+          "Pigmented Villonodular Synovitis",
+          "Giant Cell Tumor of Tendon Sheath"
+        ],
+        "interventions": [
+          "Pimicotinib(ABSK021)",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR)"
+        ],
+        "enrollment": 94,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-04-27",
+        "primary_completion": "2024-09-23",
+        "completion": "2028-06",
+        "last_update": "2026-05-04",
+        "results_first_post": "2026-05-04",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Canada",
+          "China",
+          "Italy",
+          "Netherlands",
+          "Poland",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05804045",
+          "title": "Study of Pimicotinib (ABSK021) for Tenosynovial Giant Cell Tumor (MANEUVER)",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo-Controlled, Multicenter Study of ABSK021 to Assess the Efficacy and Safety in Patients With Tenosynovial Giant Cell Tumor",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Abbisko Therapeutics Co, Ltd",
+          "conditions": [
+            "Tenosynovial Giant Cell Tumor",
+            "Pigmented Villonodular Synovitis",
+            "Giant Cell Tumor of Tendon Sheath"
+          ],
+          "interventions": [
+            "Pimicotinib(ABSK021)",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 94,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-04-27",
+          "primary_completion": "2024-09-23",
+          "completion": "2028-06",
+          "last_update": "2026-05-04",
+          "results_first_post": "2026-05-04",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada",
+            "China",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07707882",
+          "title": "Neoadjuvant Pimicotinib Combined With Surgery Versus Upfront Surgery for Diffuse Tenosynovial Giant Cell Tumor",
+          "official_title": "Neoadjuvant Pimicotinib Combined With Surgery Versus Upfront Surgery for Diffuse Tenosynovial Giant Cell Tumor: A Randomized, Open-label Trial",
+          "acronym": "NEXPERT",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+          "conditions": [
+            "Tenosynovial Giant Cell Tumor, Diffuse"
+          ],
+          "interventions": [
+            "Pimicotinib",
+            "Tumor resection surgery"
+          ],
+          "primary_outcomes": [
+            "Event-free survival"
+          ],
+          "enrollment": 84,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2027-10-01",
+          "primary_completion": "2029-09-30",
+          "completion": "2030-09-30",
+          "last_update": "2026-07-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06186804",
+          "title": "A Phase II Study Evaluating the Efficacy and Safety of ABSK021 (Pimicotinib)) in the Treatment of cGvHD Chronic Graft Versus Host Disease (cGvHD)",
+          "official_title": "A Multicenter, Single-arm, Open-label, Phase II Clinical Study. This Study Consisting of Part A and Part B to Evaluate the Efficacy and Safety of ABSK021 (Pimicotinib) in Patients With Chronic Graft Versus Host Disease",
+          "acronym": "",
+          "status": "ENROLLING_BY_INVITATION",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Abbisko Therapeutics Co, Ltd",
+          "conditions": [
+            "cGvHD"
+          ],
+          "interventions": [
+            "ABSK021"
+          ],
+          "primary_outcomes": [
+            "Dose limited toxicity (DLT) at each dose can assess the incidence of DLT in patients during the observation period of DLT (Part A only)",
+            "Overall response rate after 6 cycles of treatment"
+          ],
+          "enrollment": 64,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-05-30",
+          "primary_completion": "2026-10-30",
+          "completion": "2026-12-30",
+          "last_update": "2024-08-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pimicotinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "18a6f7d546aa9431": {
+    "id": "18a6f7d546aa9431",
+    "title": "<b>Next-generation KRAS G12C inhibitor improves survival in lung cancer</b>",
+    "score": 8.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06793215",
+        "title": "A Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Participants With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+        "official_title": "A Phase III, Randomized, Open-Label Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Patients With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+        "acronym": "Krascendo 2",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Hoffmann-La Roche",
+        "conditions": [
+          "Non-Small Cell Lung Cancer",
+          "KRAS G12C Lung Cancer"
+        ],
+        "interventions": [
+          "Divarasib",
+          "Pembrolizumab",
+          "Pemetrexed",
+          "Carboplatin",
+          "Cisplatin"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS)",
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 600,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-10-24",
+        "primary_completion": "2028-11-30",
+        "completion": "2030-10-31",
+        "last_update": "2026-11-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "China",
+          "Denmark",
+          "France",
+          "Germany",
+          "Greece",
+          "Hong Kong"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06793215",
+          "title": "A Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Participants With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "official_title": "A Phase III, Randomized, Open-Label Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Patients With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+          "acronym": "Krascendo 2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "KRAS G12C Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Pembrolizumab",
+            "Pemetrexed",
+            "Carboplatin",
+            "Cisplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-10-24",
+          "primary_completion": "2028-11-30",
+          "completion": "2030-10-31",
+          "last_update": "2026-11-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04302025",
+          "title": "A Study of Multiple Therapies in Biomarker-selected Participants With Resectable Stages IB-III Non-small Cell Lung Cancer (NSCLC)",
+          "official_title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+          "acronym": "NAUTIKA1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Alectinib",
+            "Entrectinib",
+            "Vemurafenib",
+            "Cobimetinib",
+            "Pralsetinib",
+            "Atezolizumab",
+            "SBRT",
+            "Resection",
+            "Chemotherapy",
+            "Divarasib"
+          ],
+          "primary_outcomes": [
+            "Tyrosine Kinase Inhibitor (TKI) Cohort: Proportion of Participants With Major Pathologic Response (MPR)",
+            "Checkpoint Inhibitor (CPI) Cohort: Pathological Complete Response (pCR)",
+            "KRAS G12C Cohort: Percentage of Participants With 3-5 Grade Adverse Events (AEs)",
+            "KRAS G12C Cohort: Percentage of Participants Without Delays of Surgery due to Treatment-related AEs as Reported by the Investigator"
+          ],
+          "enrollment": 99,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2020-11-06",
+          "primary_completion": "2026-11-30",
+          "completion": "2030-05-30",
+          "last_update": "2026-11-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05789082",
+          "title": "A Study Evaluating the Safety, Activity, and Pharmacokinetics of Divarasib as a Single Agent or in Combination With Other Anti-Cancer Therapies in Participants With Previously Untreated Advanced or Metastatic Non-Small Cell Lung Cancer With a KRAS G12C Mutation",
+          "official_title": "A Phase Ib/II, Open-Label, Multicenter Study Evaluating the Safety, Activity, and Pharmacokinetics of Divarasib as a Single Agent or in Combination With Other Anti-Cancer Therapies in Patients With Previously Untreated Advanced Or Metastatic Non-Small Cell Lung Cancer With a KRAS G12C Mutation",
+          "acronym": "KRAScendo 170",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Divarasib",
+            "Pembrolizumab",
+            "Carboplatin",
+            "Cisplatin",
+            "Pemetrexed"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants with Adverse Events (AEs)"
+          ],
+          "enrollment": 320,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-06-20",
+          "primary_completion": "2032-01-29",
+          "completion": "2032-01-29",
+          "last_update": "2026-11-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "divarasib",
+          "sotorasib",
+          "adagrasib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "d2d5540422808ae5": {
+    "id": "d2d5540422808ae5",
+    "title": "降了78%的Lp(a)，为何换不来心血管获益？",
+    "score": 6.9,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {
+        "nct": "NCT05305664",
+        "title": "A Multicenter Trial Assessing the Impact of Lipoprotein(a) Lowering With Pelacarsen (TQJ230) on the Rate of Weekly Lipoprotein Apheresis Sessions in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease in Germany",
+        "official_title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Trial Assessing the Reduction of the Rate of Lipoprotein Apheresis After Treatment With Pelacarsen (TQJ230) Compared to Placebo in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease Undergoing Weekly Lipoprotein Apheresis in Germany",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals",
+        "conditions": [
+          "Hyperlipoproteinemia(a)"
+        ],
+        "interventions": [
+          "Pelacarsen (TQJ230) 80 mg s.c.",
+          "Corresponding Placebo"
+        ],
+        "primary_outcomes": [
+          "Rate of Lipoprotein Apheresis Sessions Performed Over 52 Weeks Normalized to the Weekly Lipoprotein Apheresis Schedule"
+        ],
+        "enrollment": 51,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-08-19",
+        "primary_completion": "2025-01-28",
+        "completion": "2025-01-28",
+        "last_update": "2026-07-17",
+        "results_first_post": "2026-07-17",
+        "has_results": true,
+        "countries": [
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05305664",
+          "title": "A Multicenter Trial Assessing the Impact of Lipoprotein(a) Lowering With Pelacarsen (TQJ230) on the Rate of Weekly Lipoprotein Apheresis Sessions in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease in Germany",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Trial Assessing the Reduction of the Rate of Lipoprotein Apheresis After Treatment With Pelacarsen (TQJ230) Compared to Placebo in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease Undergoing Weekly Lipoprotein Apheresis in Germany",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Hyperlipoproteinemia(a)"
+          ],
+          "interventions": [
+            "Pelacarsen (TQJ230) 80 mg s.c.",
+            "Corresponding Placebo"
+          ],
+          "primary_outcomes": [
+            "Rate of Lipoprotein Apheresis Sessions Performed Over 52 Weeks Normalized to the Weekly Lipoprotein Apheresis Schedule"
+          ],
+          "enrollment": 51,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-08-19",
+          "primary_completion": "2025-01-28",
+          "completion": "2025-01-28",
+          "last_update": "2026-07-17",
+          "results_first_post": "2026-07-17",
+          "has_results": true,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04023552",
+          "title": "Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With CVD",
+          "official_title": "A Randomized Double-blind, Placebo-controlled, Multicenter Trial Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With Established Cardiovascular Disease",
+          "acronym": "Lp(a)HORIZON",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Cardiovascular Disease and Lipoprotein(a)"
+          ],
+          "interventions": [
+            "TQJ230",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Time to first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in patients with elevated Lp(a) ≥ 70 mg/dL",
+            "Time to the first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in a population of patients with elevated Lp(a) ≥ 90 mg/dL."
+          ],
+          "enrollment": 8323,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-12",
+          "primary_completion": "2026-07-16",
+          "completion": "2026-07-16",
+          "last_update": "2026-08-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05900141",
+          "title": "An Open Label Extension (OLE) Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230)",
+          "official_title": "A Single Arm, Open Label Extension (OLE), Multicenter Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230) in Patients With Cardiovascular Disease Who Have Successfully Completed the Apheresis Parent Study.",
+          "acronym": "OLE",
+          "status": "TERMINATED",
+          "why_stopped": "Study terminated by sponsor following the outcome of the Lp(a)HORIZON study (NCT04023552), which did not meet its primary endpoint",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Hyperlipoproteinemia (a)"
+          ],
+          "interventions": [
+            "Pelacarsen"
+          ],
+          "primary_outcomes": [
+            "Incidence of Adverse events (AEs) or serious adverse events (SAEs), including changes in laboratory evaluations, vital signs qualifying and reported as AEs.",
+            "Duration of drug exposure"
+          ],
+          "enrollment": 41,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-09-29",
+          "primary_completion": "2026-10-15",
+          "completion": "2026-10-15",
+          "last_update": "2026-11-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pelacarsen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "225fe31cb32597e5": {
+    "id": "225fe31cb32597e5",
+    "title": "How to select adjuvant endocrine therapy for postmenopausal women with HR-positive early breast cancer?",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "8c4e9e6ea77ce18c": {
+    "id": "8c4e9e6ea77ce18c",
+    "title": "Novel ADC Boosts Survival in Pretreated Endometrial Cancer",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06074588",
+        "title": "Sacituzumab Tirumotecan (MK-2870) Versus Chemotherapy in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations (MK-2870-004)",
+        "official_title": "A Randomized, Open-label, Phase 3 Study of MK-2870 vs Chemotherapy (Docetaxel or Pemetrexed) in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Non-small Cell Lung Cancer (NSCLC)"
+        ],
+        "interventions": [
+          "Sacituzumab tirumotecan",
+          "Docetaxel",
+          "Pemetrexed"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS) of Participants with NSCLC with Epidermal Growth Factor Receptor (EGFR) Mutations"
+        ],
+        "enrollment": 556,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-11-12",
+        "primary_completion": "2027-05-10",
+        "completion": "2030-03-11",
+        "last_update": "2026-08-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Israel"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06074588",
+          "title": "Sacituzumab Tirumotecan (MK-2870) Versus Chemotherapy in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations (MK-2870-004)",
+          "official_title": "A Randomized, Open-label, Phase 3 Study of MK-2870 vs Chemotherapy (Docetaxel or Pemetrexed) in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Non-small Cell Lung Cancer (NSCLC)"
+          ],
+          "interventions": [
+            "Sacituzumab tirumotecan",
+            "Docetaxel",
+            "Pemetrexed"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS) of Participants with NSCLC with Epidermal Growth Factor Receptor (EGFR) Mutations"
+          ],
+          "enrollment": 556,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-11-12",
+          "primary_completion": "2027-05-10",
+          "completion": "2030-03-11",
+          "last_update": "2026-08-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Israel"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06841354",
+          "title": "A Study of Sacituzumab Tirumotecan (Sac-TMT, MK-2870) as Monotherapy and in Combination With Pembrolizumab (MK-3475) in Participants With Triple-Negative Breast Cancer (MK-2870-011/TroFuse-011)",
+          "official_title": "A Phase 3, Randomized, Open-label Study Comparing Efficacy and Safety of Sacituzumab Tirumotecan (Sac-TMT, MK-2870) as a Monotherapy and in Combination With Pembrolizumab (MK-3475) Versus Treatment of Physician's Choice in Participants With Previously Untreated Locally Recurrent Unresectable or Metastatic Triple-Negative Breast Cancer Expressing PD-L1 at CPS Less Than 10 (TroFuse-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Triple Negative Breast Neoplasms"
+          ],
+          "interventions": [
+            "Sacituzumab tirumotecan",
+            "Pembrolizumab",
+            "Rescue Medication",
+            "Paclitaxel",
+            "Nab-paclitaxel",
+            "Gemcitabine",
+            "Carboplatin"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) (sac-TMT versus treatment of physician's choice (TPC); sac-TMT plus pembrolizumab versus TPC)",
+            "Overall Survival (OS) (sac-TMT versus TPC)"
+          ],
+          "enrollment": 1000,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-03-16",
+          "primary_completion": "2030-05-18",
+          "completion": "2030-05-18",
+          "last_update": "2026-11-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06178588",
+          "title": "Sacituzumab Govitecan for the Treatment for Patients With Locally Advanced, Recurrent, or Metastatic Cholangiocarcinoma",
+          "official_title": "A Phase II Open-Label Study of Sacituzumab Govitecan in Patients With Previously Treated Locally Advanced, Recurrent, or Metastatic Cholangiocarcinoma",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Kansas Medical Center",
+          "conditions": [
+            "Locally Advanced Cholangiocarcinoma",
+            "Metastatic Cholangiocarcinoma",
+            "Recurrent Cholangiocarcinoma",
+            "Stage III Hilar Cholangiocarcinoma AJCC v8",
+            "Stage III Intrahepatic Cholangiocarcinoma AJCC v8",
+            "Stage IV Hilar Cholangiocarcinoma AJCC v8",
+            "Stage IV Intrahepatic Cholangiocarcinoma AJCC v8"
+          ],
+          "interventions": [
+            "Biopsy",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Positron Emission Tomography",
+            "Sacituzumab Govitecan"
+          ],
+          "primary_outcomes": [
+            "Overall response rate"
+          ],
+          "enrollment": 15,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-02-01",
+          "primary_completion": "2026-03-01",
+          "completion": "2026-11-01",
+          "last_update": "2026-02-24",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "sacituzumab"
+        ],
+        "sponsor": [
+          "Medical"
+        ],
+        "sponsor_en": [
+          "Medical"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "c85c09a03994b7f5": {
+    "id": "c85c09a03994b7f5",
+    "title": "柳叶刀最新成果：勃林格殷格翰公司的三期新药 5,530 例肥胖合并心血管病，安全非劣效",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "150ccb37e271ada5": {
+    "id": "150ccb37e271ada5",
+    "title": "Zura暴跌，IL17/BAFF双抗化脓性汗腺炎2期失败",
+    "score": 6.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e5df6891730cbf34": {
+    "id": "e5df6891730cbf34",
+    "title": "AASLD 2026公布Bepirovirsen最新临床数据，实现乙肝功能性治愈后持续应答达21个月， 国内上市在即",
+    "score": 6.6,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06058390",
+        "title": "A Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+        "official_title": "A Phase 1, Randomized, Open-Label, Parallel Group Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Hepatitis B"
+        ],
+        "interventions": [
+          "Bepirovirsen"
+        ],
+        "primary_outcomes": [
+          "Maximum Observed Plasma Concentration (Cmax) Following Administration of Bepirovirsen Using Vial and PFS by HCP",
+          "Area Under the Plasma Concentration-Time Curve From Time Zero Extrapolated to Infinity (AUC [0-Inf]) Following Administration of Bepirovirsen Using Vial and PFS by HCP"
+        ],
+        "enrollment": 160,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-10-04",
+        "primary_completion": "2024-05-03",
+        "completion": "2024-05-03",
+        "last_update": "2025-07-18",
+        "results_first_post": "2025-07-18",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06058390",
+          "title": "A Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+          "official_title": "A Phase 1, Randomized, Open-Label, Parallel Group Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Maximum Observed Plasma Concentration (Cmax) Following Administration of Bepirovirsen Using Vial and PFS by HCP",
+            "Area Under the Plasma Concentration-Time Curve From Time Zero Extrapolated to Infinity (AUC [0-Inf]) Following Administration of Bepirovirsen Using Vial and PFS by HCP"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-10-04",
+          "primary_completion": "2024-05-03",
+          "completion": "2024-05-03",
+          "last_update": "2025-07-18",
+          "results_first_post": "2025-07-18",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07905157",
+          "title": "A Study to Compare Blood Levels of Bepirovirsen and Safety Using Different Methods of Injecting in Healthy Adult Participants",
+          "official_title": "A Phase 1, Randomized, Open-Label, Parallel-Group, Single-Dose Study to Compare the Pharmacokinetics and Safety of Bepirovirsen When Delivered From a Vial or a 1ml Autoinjector in Healthy Adult Participants",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Area Under the Concentration-time Curve from Time Zero (pre-dose) up to Day 8 [AUC(0- 8 d)] of Bepirovirsen in Plasma",
+            "Maximum Observed Concentration (Cmax) of Bepirovirsen in plasma"
+          ],
+          "enrollment": 98,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-03",
+          "primary_completion": "2027-03-30",
+          "completion": "2027-03-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06422767",
+          "title": "Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "official_title": "A Phase 1, Randomized, Double-Blinded, Placebo-Controlled, Parallel Group Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Placebo-corrected Change From Baseline (CFB) in QT Interval Corrected by Fridericia's Formula (QTcF) Following Administration of Bepirovirsen Supratherapeutic Single Dose"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-07-18",
+          "primary_completion": "2025-04-28",
+          "completion": "2025-04-28",
+          "last_update": "2026-07-10",
+          "results_first_post": "2026-07-10",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Bepirovirsen",
+          "GSK836"
+        ],
+        "sponsor": [
+          "中国生物制药",
+          "摩熵医药",
+          "据摩熵医药",
+          "入驻摩熵医药"
+        ],
+        "sponsor_en": [
+          "Sino Biopharm",
+          "摩熵医药",
+          "据摩熵医药",
+          "入驻摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "8e56c99fe17f231f": {
+    "id": "8e56c99fe17f231f",
+    "title": "Zura reports Phase 2 flop in painful skin disorder, stock nosedives",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=WITHDRAWN，原因：Drug unavailable"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：注册库状态=WITHDRAWN，原因：Drug unavailable",
+    "registry": {
+      "best": {
+        "nct": "NCT04563195",
+        "title": "BAFF/IL-17 Bispecific Antibody Treatment in Subjects With Primary Sjogren's Syndrome",
+        "official_title": "BAFF/IL-17 Bispecific Antibody Treatment in Subjects With Primary Sjogren's Syndrome",
+        "acronym": "BAFF/IL-17",
+        "status": "WITHDRAWN",
+        "why_stopped": "Drug unavailable",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Matthew C. Baker",
+        "conditions": [
+          "Primary Sjogren's Syndrome"
+        ],
+        "interventions": [
+          "tibulizumab (LY3090106)"
+        ],
+        "primary_outcomes": [
+          "whole unstimulated sialometry",
+          "whole unstimulated sialometry",
+          "salivary gland ultrasound",
+          "salivary gland ultrasound"
+        ],
+        "enrollment": 0,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-02-01",
+        "primary_completion": "2023-12",
+        "completion": "2025-01",
+        "last_update": "2022-01-27",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04563195",
+          "title": "BAFF/IL-17 Bispecific Antibody Treatment in Subjects With Primary Sjogren's Syndrome",
+          "official_title": "BAFF/IL-17 Bispecific Antibody Treatment in Subjects With Primary Sjogren's Syndrome",
+          "acronym": "BAFF/IL-17",
+          "status": "WITHDRAWN",
+          "why_stopped": "Drug unavailable",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Matthew C. Baker",
+          "conditions": [
+            "Primary Sjogren's Syndrome"
+          ],
+          "interventions": [
+            "tibulizumab (LY3090106)"
+          ],
+          "primary_outcomes": [
+            "whole unstimulated sialometry",
+            "whole unstimulated sialometry",
+            "salivary gland ultrasound",
+            "salivary gland ultrasound"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-02-01",
+          "primary_completion": "2023-12",
+          "completion": "2025-01",
+          "last_update": "2022-01-27",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06993610",
+          "title": "Tibulizumab Skin Healing and Inflammation Evaluation for Lasting Defense",
+          "official_title": "A Phase 2, Multi-Center Study Consisting of a Randomized, Placebo-Controlled Period, Followed by an Open-Label Extension Period to Assess the Efficacy, Safety, and Tolerability of Tibulizumab in Adults With Hidradenitis Suppurativa",
+          "acronym": "TibuSHIELD",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Zura Bio Inc",
+          "conditions": [
+            "Hidradenitis Suppurativa (HS)"
+          ],
+          "interventions": [
+            "Tibulizumab Dose A",
+            "Tibulizumab Dose B",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "[Period 1] Percent change from baseline in abscess and inflammatory nodule (AN) count at 16 weeks"
+          ],
+          "enrollment": 247,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-05-16",
+          "primary_completion": "2026-09-18",
+          "completion": "2027-04",
+          "last_update": "2026-10-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "Germany",
+            "Hungary",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06843239",
+          "title": "Tibulizumab Systemic Sclerosis Understanding and Response Evaluation (TibuSURE)",
+          "official_title": "A Phase 2, Multi-Center Study Consisting of a Randomized, Double-Blind, Placebo-Controlled Period, Followed by an Open-Label Extension Period, to Assess the Efficacy, Safety, and Tolerability of Tibulizumab in Adults With Systemic Sclerosis",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Zura Bio Inc",
+          "conditions": [
+            "Systemic Sclerosis (SSc)",
+            "Scleroderma"
+          ],
+          "interventions": [
+            "Tibulizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "[Period 1] Change from baseline in modified Rodnan Skin Score (mRSS) at 24 weeks",
+            "[Period 2] Safety and tolerability of tibulizumab"
+          ],
+          "enrollment": 80,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-02-06",
+          "primary_completion": "2027-05",
+          "completion": "2028-01",
+          "last_update": "2026-07-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Chile",
+            "Hungary",
+            "Mexico",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "tibulizumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8598215a8803854a": {
+    "id": "8598215a8803854a",
+    "title": "#AHA26: Boehringer to seek approval of obesity shot, but gaining market share could be tricky",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06077864",
+        "title": "A Study to Test the Effect of Survodutide (BI 456906) on Cardiovascular Safety in People With Overweight or Obesity (SYNCHRONIZE™ - CVOT)",
+        "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, Event-driven, Cardiovascular Safety Study With BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity With Established Cardiovascular Disease (CVD) or Chronic Kidney Disease, and/or at Least Two Weight-related Complications or Risk Factors for CVD",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Boehringer Ingelheim",
+        "conditions": [
+          "Obesity"
+        ],
+        "interventions": [
+          "survodutide",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Time to first occurrence of any of the adjudicated components of the composite endpoint consisting of: CV death, non-fatal stroke, non-fatal MI, ischaemia related coronary revascularisation, or HFE (to demonstrate non-inferiority)"
+        ],
+        "enrollment": 5530,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-11-20",
+        "primary_completion": "2026-06-01",
+        "completion": "2026-06-30",
+        "last_update": "2026-10-29",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Bulgaria",
+          "Canada",
+          "China",
+          "Czechia",
+          "Denmark",
+          "Finland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06077864",
+          "title": "A Study to Test the Effect of Survodutide (BI 456906) on Cardiovascular Safety in People With Overweight or Obesity (SYNCHRONIZE™ - CVOT)",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, Event-driven, Cardiovascular Safety Study With BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity With Established Cardiovascular Disease (CVD) or Chronic Kidney Disease, and/or at Least Two Weight-related Complications or Risk Factors for CVD",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity"
+          ],
+          "interventions": [
+            "survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Time to first occurrence of any of the adjudicated components of the composite endpoint consisting of: CV death, non-fatal stroke, non-fatal MI, ischaemia related coronary revascularisation, or HFE (to demonstrate non-inferiority)"
+          ],
+          "enrollment": 5530,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-20",
+          "primary_completion": "2026-06-01",
+          "completion": "2026-06-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06066528",
+          "title": "A Study to Test Whether Survodutide (BI 456906) Helps People Living With Overweight or Obesity Who Also Have Diabetes to Lose Weight",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, 76-week, Efficacy and Safety Study of BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity and Type 2 Diabetes Mellitus",
+          "acronym": "SYNCHRONIZE™-2",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity",
+            "Diabetes Mellitus, Type 2"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage change in body weight from baseline to Week 76",
+            "Achievement of body weight reduction ≥5% (yes/no) from baseline to Week 76"
+          ],
+          "enrollment": 755,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-27",
+          "primary_completion": "2025-12-12",
+          "completion": "2026-04-01",
+          "last_update": "2026-08-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07850063",
+          "title": "ELEVATE-LIVER: A Study to Test Whether Survodutide Helps Improve Heart Structure and Function in People With Overweight or Obesity and Fatty Liver Disease",
+          "official_title": "A Multi-centre, Randomised, Double-blind, Placebo-controlled, Phase IIIb Trial to Evaluate the Effect of Survodutide on Cardiac Structure and Function of Participants With Overweight or Obesity and Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD); (ELEVATE-LIVER)",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity",
+            "Metabolic Dysfunction-associated Steatotic Liver Disease"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo matching survodutide"
+          ],
+          "primary_outcomes": [
+            "Composite average Z-score (dimensionless) at Week 76 of cardiac structural and functional parameters"
+          ],
+          "enrollment": 600,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-02",
+          "primary_completion": "2029-04-29",
+          "completion": "2029-04-29",
+          "last_update": "2026-10-30",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "China",
+            "Germany",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "survodutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

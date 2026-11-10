@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-11",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:marstacimab",
+      "lead_id": "3e4e5ef3030b4383",
+      "title": "辉瑞马塔西单抗新适应症获批上市！靶向TFPI每周一次皮下注射，覆盖12岁以上伴抑制物A型B型血友病",
+      "score": 8.3,
+      "channel": "china",
+      "member_ids": [
+        "3e4e5ef3030b4383"
+      ],
+      "members": [
+        {
+          "title": "辉瑞马塔西单抗新适应症获批上市！靶向TFPI每周一次皮下注射，覆盖12岁以上伴抑制物A型B型血友病",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_389437",
+          "score": 8.3,
+          "reasoning": "NMPA对儿童血友病伴抑制物适应症的批准属于重要监管临床进展，且素材引用了全球Ⅲ期研究中的年化出血率结果；不过当前依据仍是监管批准和摘要数字，未呈现预设终点统计检验。"
+        }
+      ],
+      "reasoning": "NMPA对儿童血友病伴抑制物适应症的批准属于重要监管临床进展，且素材引用了全球Ⅲ期研究中的年化出血率结果；不过当前依据仍是监管批准和摘要数字，未呈现预设终点统计检验。",
+      "verify_todo": [
+        "核实NMPA批准文号、正式适应症措辞和批准日期",
+        "核实BASIS KIDS各分析集的样本量、历史对照方法和统计检验",
+        "核实公开结果是否属于期中分析以及最终结果是否已有发表"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "target:growth-hormone",
+      "lead_id": "9ae7ac4b10e5ce86",
+      "title": "诺和长效生长激素在华全面获批后于进博会首展首秀！",
+      "score": 7.8,
+      "channel": "china",
+      "member_ids": [
+        "9ae7ac4b10e5ce86"
+      ],
+      "members": [
+        {
+          "title": "诺和长效生长激素在华全面获批后于进博会首展首秀！",
+          "url": "http://news.bioon.com/article/3b85885e4731.html",
+          "score": 7.8,
+          "reasoning": "长效生长激素多个儿童适应症在中国获批，是基于全球Ⅲ期研究形成的监管临床进展，且对国内用药选择具有直接影响；素材未提供主要终点的完整统计量，首创性表述也需独立核实。"
+        }
+      ],
+      "reasoning": "长效生长激素多个儿童适应症在中国获批，是基于全球Ⅲ期研究形成的监管临床进展，且对国内用药选择具有直接影响；素材未提供主要终点的完整统计量，首创性表述也需独立核实。",
+      "verify_todo": [
+        "核实中国各适应症的批准日期、文号和正式适应症措辞",
+        "核实REAL 8研究各适应症的主要终点、效应量和统计检验",
+        "核实“全球首个同时获批三项适应症”表述的监管依据"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ibi306",
+      "lead_id": "ae983f23fdb58df",
+      "title": "",
+      "score": 6.9,
+      "channel": "china",
+      "member_ids": [
+        "ae983f23fdb58df"
+      ],
+      "members": [
+        {
+          "title": null,
+          "url": null,
+          "score": 6.9,
+          "reasoning": "随机、双盲、安慰剂对照Ⅲ期明确报告达到主要及关键次要终点，并给出P<0.0001的统计结论；虽然样本量仅198例且属于竞争激烈的降脂赛道，注册性价值较高。属于china栏目，依据为国产原研和中国人群Ⅲ期数据。"
+        }
+      ],
+      "reasoning": "随机、双盲、安慰剂对照Ⅲ期明确报告达到主要及关键次要终点，并给出P<0.0001的统计结论；虽然样本量仅198例且属于竞争激烈的降脂赛道，注册性价值较高。属于china栏目，依据为国产原研和中国人群Ⅲ期数据。",
+      "verify_todo": [
+        "核对CREDIT-5注册结果中的样本量、主要终点定义和敏感性分析",
+        "核实长期安全性数据及上市申请是否已正式受理"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:survodutide",
+      "lead_id": "8598215a8803854a",
+      "title": "#AHA26: Boehringer to seek approval of obesity shot, but gaining market share could be tricky",
+      "score": 6.3,
+      "channel": "global",
+      "member_ids": [
+        "8598215a8803854a",
+        "c85c09a03994b7f5"
+      ],
+      "members": [
+        {
+          "title": "#AHA26: Boehringer to seek approval of obesity shot, but gaining market share could be tricky",
+          "url": "https://endpoints.news/aha26-boehringer-to-seek-approval-of-obesity-shot-but-gaining-market-share-could-be-tricky/",
+          "score": 6.3,
+          "reasoning": "报道提供了减重适应症注册性开发所依赖的心血管安全性结论，并明确表述未增加心血管事件风险，具有监管与临床双重价值；但素材未给出p值、置信区间或完整主要终点定义，结论可信度仍需原始结果支持。"
+        },
+        {
+          "title": "柳叶刀最新成果：勃林格殷格翰公司的三期新药 5,530 例肥胖合并心血管病，安全非劣效",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_391288",
+          "score": 6.2,
+          "reasoning": "5530例Ⅲ期给出心血管风险比并明确报告非劣效成立、优效未成立，属于部分达到预设统计假设的注册性结果；安全性成功而疗效优效不足仍具监管和研发意义。属于global栏目。"
+        }
+      ],
+      "reasoning": "报道提供了减重适应症注册性开发所依赖的心血管安全性结论，并明确表述未增加心血管事件风险，具有监管与临床双重价值；但素材未给出p值、置信区间或完整主要终点定义，结论可信度仍需原始结果支持。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:divarasib",
+      "lead_id": "18a6f7d546aa9431",
+      "title": "<b>Next-generation KRAS G12C inhibitor improves survival in lung cancer</b>",
+      "score": 8.1,
+      "channel": "global",
+      "member_ids": [
+        "18a6f7d546aa9431"
+      ],
+      "members": [
+        {
+          "title": "<b>Next-generation KRAS G12C inhibitor improves survival in lung cancer</b>",
+          "url": "https://www.nature.com/articles/d41591-026-00057-9",
+          "score": 8.1,
+          "reasoning": "Nature Medicine正式发表的Ⅲ期数据给出明确PFS获益结论，证据成熟度和统计可信度均高，且下一代KRAS G12C抑制剂竞争具有行业意义。属于global栏目。"
+        }
+      ],
+      "reasoning": "Nature Medicine正式发表的Ⅲ期数据给出明确PFS获益结论，证据成熟度和统计可信度均高，且下一代KRAS G12C抑制剂竞争具有行业意义。属于global栏目。",
+      "verify_todo": [
+        "核实比较是头对头随机比较还是跨试验间接比较",
+        "核实PFS事件数、风险比、置信区间、P值和成熟随访时间",
+        "核实OS成熟度、交叉治疗及安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:asundexian",
+      "lead_id": "fc3f0b803a2e6206",
+      "title": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "fc3f0b803a2e6206"
+      ],
+      "members": [
+        {
+          "title": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+          "url": "https://endpoints.news/bayer-wins-fda-approval-for-stroke-prevention-drug-sunharbo/",
+          "score": 7.8,
+          "reasoning": "FDA批准意味着关键性卒中预防项目获得明确监管结论，是注册性临床进展的重要落点；材料未给出风险比和置信区间，因此数据成熟度按监管及媒体文本处理。属于global栏目。"
+        }
+      ],
+      "reasoning": "FDA批准意味着关键性卒中预防项目获得明确监管结论，是注册性临床进展的重要落点；材料未给出风险比和置信区间，因此数据成熟度按监管及媒体文本处理。属于global栏目。",
+      "verify_todo": [
+        "核实批准依据的关键试验名称、阶段、样本量及主要终点统计结果",
+        "核实完整获批标签及出血风险等安全性结论",
+        "确认药物开发方、商品名及监管机构公告原文"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
