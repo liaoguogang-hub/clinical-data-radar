@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-12",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:ibi306",
+      "lead_id": "ae983bf23fdb58df",
+      "title": "信达生物降脂新药托莱西单抗Ⅲ期临床告捷即将上市，覆盖非家族性高胆固醇血症与混合型高脂血症",
+      "score": 8.1,
+      "channel": "china",
+      "member_ids": [
+        "ae983bf23fdb58df"
+      ],
+      "members": [
+        {
+          "title": "信达生物降脂新药托莱西单抗Ⅲ期临床告捷即将上市，覆盖非家族性高胆固醇血症与混合型高脂血症",
+          "url": "https://www.pharnexcloud.com/zixun/sx_390002",
+          "score": 8.1,
+          "reasoning": "随机双盲安慰剂对照Ⅲ期明确报告达到主要及关键次要终点，并给出P＜0.0001，属于统计结论明确的阳性读出。样本量不足200且主要疗效指标为替代终点，因此从满分下调。"
+        }
+      ],
+      "reasoning": "随机双盲安慰剂对照Ⅲ期明确报告达到主要及关键次要终点，并给出P＜0.0001，属于统计结论明确的阳性读出。样本量不足200且主要疗效指标为替代终点，因此从满分下调。",
+      "verify_todo": [
+        "核实CREDIT-5注册结果、完整终点定义及安全性数据",
+        "核实主要终点是否确为第12周LDL-C变化",
+        "核实NMPA上市申请递交状态"
+      ],
+      "flags": [
+        "small_n",
+        "surrogate",
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:bepirovirsen",
+      "lead_id": "e5df6891730cbf34",
+      "title": "AASLD 2026公布Bepirovirsen最新临床数据，实现乙肝功能性治愈后持续应答达21个月， 国内上市在即",
+      "score": 7.5,
+      "channel": "china",
+      "member_ids": [
+        "e5df6891730cbf34"
+      ],
+      "members": [
+        {
+          "title": "AASLD 2026公布Bepirovirsen最新临床数据，实现乙肝功能性治愈后持续应答达21个月， 国内上市在即",
+          "url": "https://www.pharnexcloud.com/zixun/sx_390004",
+          "score": 7.5,
+          "reasoning": "全球随机双盲Ⅲ期研究公布功能性治愈后的持续应答随访，且数据来自AASLD大会，规模和患者未满足需求均较高。现有结论主要是会议摘要中的持续应答比例，未提供p值或置信区间，因此依据的是疗效数字及会议披露，而非完整统计验证。"
+        }
+      ],
+      "reasoning": "全球随机双盲Ⅲ期研究公布功能性治愈后的持续应答随访，且数据来自AASLD大会，规模和患者未满足需求均较高。现有结论主要是会议摘要中的持续应答比例，未提供p值或置信区间，因此依据的是疗效数字及会议披露，而非完整统计验证。",
+      "verify_todo": [
+        "核实B-Well两项研究的注册号、主要终点及统计假设",
+        "核实91%持续应答对应的分母、随访方式及置信区间",
+        "核实AASLD摘要或口头报告原文及中国上市申请状态"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:daraxonrasib",
+      "lead_id": "da045a812c14d1a4",
+      "title": "百济神州daraxonrasib片拟纳入CDE优先审评，全球首款泛RAS(ON)抑制剂冲刺国内胰腺癌适应症",
+      "score": 6.8,
+      "channel": "china",
+      "member_ids": [
+        "da045a812c14d1a4"
+      ],
+      "members": [
+        {
+          "title": "百济神州daraxonrasib片拟纳入CDE优先审评，全球首款泛RAS(ON)抑制剂冲刺国内胰腺癌适应症",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_390001",
+          "score": 6.8,
+          "reasoning": "CDE优先审评及国内胰腺癌适应症申报是重要的中国监管进展，胰腺癌未满足需求和首创性均较高。该条目没有提供新的中国临床数据或本次优先审评决定的原始文件，报道价值主要来自监管里程碑。"
+        }
+      ],
+      "reasoning": "CDE优先审评及国内胰腺癌适应症申报是重要的中国监管进展，胰腺癌未满足需求和首创性均较高。该条目没有提供新的中国临床数据或本次优先审评决定的原始文件，报道价值主要来自监管里程碑。",
+      "verify_todo": [
+        "核实CDE优先审评公示原文和当前审评状态",
+        "核实该药在中国申报的适应症、申请人及支持数据",
+        "核实海外监管状态及报道所称机制、适应症是否准确"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:asundexian",
+      "lead_id": "e73099a650dd0980",
+      "title": "全球首款FXIa抑制剂获批！FDA官宣拜耳新药阿舒克森上市，缺血性卒中风险降低26%",
+      "score": 9.4,
+      "channel": "global",
+      "member_ids": [
+        "e73099a650dd0980",
+        "fc3f0b803a2e6206"
+      ],
+      "members": [
+        {
+          "title": "全球首款FXIa抑制剂获批！FDA官宣拜耳新药阿舒克森上市，缺血性卒中风险降低26%",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_391441",
+          "score": 9.4,
+          "reasoning": "大型全球Ⅲ期提供缺血性卒中风险下降的明确统计结论并支持FDA批准，条目披露样本量、HR、95%CI及p值，同时给出出血风险信息，属于高价值注册性临床与监管结果。"
+        },
+        {
+          "title": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+          "url": "https://endpoints.news/bayer-wins-fda-approval-for-stroke-prevention-drug-sunharbo/",
+          "score": 7.4,
+          "reasoning": "FDA批准使其进入卒中二级预防市场，是基于关键临床试验获益的重要监管结果。素材未提供主要终点的效应量、p值或置信区间，且为媒体对监管决定的转述，因此统计细节仍需补核。"
+        }
+      ],
+      "reasoning": "大型全球Ⅲ期提供缺血性卒中风险下降的明确统计结论并支持FDA批准，条目披露样本量、HR、95%CI及p值，同时给出出血风险信息，属于高价值注册性临床与监管结果。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "device:bioengineered-liver-system",
+      "lead_id": "1469dda7284df29c",
+      "title": "Bioengineered Liver System Passes Safety Test in Phase I Trial",
+      "score": 7.6,
+      "channel": "global",
+      "member_ids": [
+        "1469dda7284df29c"
+      ],
+      "members": [
+        {
+          "title": "Bioengineered Liver System Passes Safety Test in Phase I Trial",
+          "url": "https://www.medpagetoday.com/meetingcoverage/aasld/123821",
+          "score": 7.6,
+          "reasoning": "Ⅰ期研究以安全性终点为核心并报告通过，是新型肝衰竭治疗装置的重要早期临床读出；不过研究规模较小且尚缺长期疗效和关键患者结局。"
+        }
+      ],
+      "reasoning": "Ⅰ期研究以安全性终点为核心并报告通过，是新型肝衰竭治疗装置的重要早期临床读出；不过研究规模较小且尚缺长期疗效和关键患者结局。",
+      "verify_todo": [
+        "核实受试者人数、剂量和主要安全性终点定义",
+        "核实严重不良事件、器械相关事件及随访时间",
+        "确认是否出现肝功能改善或生存获益信号",
+        "获取会议报告编号和完整试验设计"
+      ],
+      "flags": [
+        "met",
+        "small_n"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:orforglipron",
+      "lead_id": "3a218491a4dca77c",
+      "title": "Tides 速递 | 礼来小分子GLP-1「奥氟格列隆」III期研究成功",
+      "score": 7.3,
+      "channel": "global",
+      "member_ids": [
+        "3a218491a4dca77c"
+      ],
+      "members": [
+        {
+          "title": "Tides 速递 | 礼来小分子GLP-1「奥氟格列隆」III期研究成功",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_391705",
+          "score": 7.3,
+          "reasoning": "Ⅲ期成功及计划递交上市申请属于重要开发节点，但条目未给出适应症、主要终点、样本量或效应量，当前只能依据媒体所称的试验成功进行评分。"
+        }
+      ],
+      "reasoning": "Ⅲ期成功及计划递交上市申请属于重要开发节点，但条目未给出适应症、主要终点、样本量或效应量，当前只能依据媒体所称的试验成功进行评分。",
+      "verify_todo": [
+        "核实该Ⅲ期研究所针对的具体适应症和试验名称",
+        "核实主要终点、样本量、效应量及统计显著性",
+        "核实此次成功是主要分析还是期中分析",
+        "核实上市申请时间表与监管机构"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}

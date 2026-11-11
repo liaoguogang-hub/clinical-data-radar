@@ -1,0 +1,2108 @@
+{
+  "e73099a650dd0980": {
+    "id": "e73099a650dd0980",
+    "title": "全球首款FXIa抑制剂获批！FDA官宣拜耳新药阿舒克森上市，缺血性卒中风险降低26%",
+    "score": 9.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:研究成功"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:研究成功"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:研究成功",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（摩熵医药、入驻摩熵医药、代表摩熵医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "1469dda7284df29c": {
+    "id": "1469dda7284df29c",
+    "title": "Bioengineered Liver System Passes Safety Test in Phase I Trial",
+    "score": 7.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "ae983bf23fdb58df": {
+    "id": "ae983bf23fdb58df",
+    "title": "信达生物降脂新药托莱西单抗Ⅲ期临床告捷即将上市，覆盖非家族性高胆固醇血症与混合型高脂血症",
+    "score": 8.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT04709536",
+        "title": "A Study of IBI306 in Participants With Hypercholesterolemia",
+        "official_title": "A Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of IBI306 in Patients With Hypercholesterolemia in China (CREDIT-4)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+        "conditions": [
+          "Hypercholesterolemia"
+        ],
+        "interventions": [
+          "IBI306",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "1. Mean percent change from baseline in low-density lipoprotein cholesterol (LDL-C) at weeks 12"
+        ],
+        "enrollment": 306,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-02-09",
+        "primary_completion": "2021-11-09",
+        "completion": "2022-01-28",
+        "last_update": "2024-10-31",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04709536",
+          "title": "A Study of IBI306 in Participants With Hypercholesterolemia",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of IBI306 in Patients With Hypercholesterolemia in China (CREDIT-4)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "conditions": [
+            "Hypercholesterolemia"
+          ],
+          "interventions": [
+            "IBI306",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "1. Mean percent change from baseline in low-density lipoprotein cholesterol (LDL-C) at weeks 12"
+          ],
+          "enrollment": 306,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-02-09",
+          "primary_completion": "2021-11-09",
+          "completion": "2022-01-28",
+          "last_update": "2024-10-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04179669",
+          "title": "Safety and Efficacy of IBI306 in HeFH Patients",
+          "official_title": "A Study to Evaluate Safety and Efficacy of IBI306 in Patients With Heterozygous Familial Hypercholesterolemia",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "conditions": [
+            "Heterozygous Familial Hypercholesterolemia"
+          ],
+          "interventions": [
+            "IBI306",
+            "placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage of LDL-C decreased from baseline injection."
+          ],
+          "enrollment": 149,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-20",
+          "primary_completion": "2021-06-30",
+          "completion": "2021-06-30",
+          "last_update": "2023-08-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04031742",
+          "title": "A Study to Evaluate Safety and Efficacy of IBI306, a PCSK9 Monoclonal Antibody in Chinese Subjects With Homozygous Familial Hypercholesterolemia",
+          "official_title": "Phase 2b/3 Study to Assess the Efficacy and Safety of IBI306 in Subjects With Homozygous Familial Hypercholesterolemia.",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "conditions": [
+            "Homozygous Familial Hypercholesterolemia"
+          ],
+          "interventions": [
+            "IBI306",
+            "IBI306"
+          ],
+          "primary_outcomes": [
+            "Part 1: Percent Change From Baseline in Low Density Lipoprotein Cholesterol (LDL-C).",
+            "Part 2: Percent Change From Baseline in Low Density Lipoprotein Cholesterol (LDL-C)"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-09-29",
+          "primary_completion": "2021-12-30",
+          "completion": "2021-12-30",
+          "last_update": "2023-08-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "IBI306",
+          "IBI3042",
+          "IBI363",
+          "IBI343"
+        ],
+        "sponsor": [
+          "信达生物",
+          "信达生物制药",
+          "摩熵医药",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Innovent",
+          "Innovent",
+          "摩熵医药",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "fc3f0b803a2e6206": {
+    "id": "fc3f0b803a2e6206",
+    "title": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e5df6891730cbf34": {
+    "id": "e5df6891730cbf34",
+    "title": "AASLD 2026公布Bepirovirsen最新临床数据，实现乙肝功能性治愈后持续应答达21个月， 国内上市在即",
+    "score": 7.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06058390",
+        "title": "A Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+        "official_title": "A Phase 1, Randomized, Open-Label, Parallel Group Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Hepatitis B"
+        ],
+        "interventions": [
+          "Bepirovirsen"
+        ],
+        "primary_outcomes": [
+          "Maximum Observed Plasma Concentration (Cmax) Following Administration of Bepirovirsen Using Vial and PFS by HCP",
+          "Area Under the Plasma Concentration-Time Curve From Time Zero Extrapolated to Infinity (AUC [0-Inf]) Following Administration of Bepirovirsen Using Vial and PFS by HCP"
+        ],
+        "enrollment": 160,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-10-04",
+        "primary_completion": "2024-05-03",
+        "completion": "2024-05-03",
+        "last_update": "2025-07-18",
+        "results_first_post": "2025-07-18",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06058390",
+          "title": "A Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+          "official_title": "A Phase 1, Randomized, Open-Label, Parallel Group Study to Evaluate the Relative Bioavailability of Subcutaneous Bepirovirsen When Delivered From a Vial or Prefilled Syringe Fitted With a Safety Syringe Device in Healthy Adult Participants",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Maximum Observed Plasma Concentration (Cmax) Following Administration of Bepirovirsen Using Vial and PFS by HCP",
+            "Area Under the Plasma Concentration-Time Curve From Time Zero Extrapolated to Infinity (AUC [0-Inf]) Following Administration of Bepirovirsen Using Vial and PFS by HCP"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-10-04",
+          "primary_completion": "2024-05-03",
+          "completion": "2024-05-03",
+          "last_update": "2025-07-18",
+          "results_first_post": "2025-07-18",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07905157",
+          "title": "A Study to Compare Blood Levels of Bepirovirsen and Safety Using Different Methods of Injecting in Healthy Adult Participants",
+          "official_title": "A Phase 1, Randomized, Open-Label, Parallel-Group, Single-Dose Study to Compare the Pharmacokinetics and Safety of Bepirovirsen When Delivered From a Vial or a 1ml Autoinjector in Healthy Adult Participants",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Area Under the Concentration-time Curve from Time Zero (pre-dose) up to Day 8 [AUC(0- 8 d)] of Bepirovirsen in Plasma",
+            "Maximum Observed Concentration (Cmax) of Bepirovirsen in plasma"
+          ],
+          "enrollment": 98,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-03",
+          "primary_completion": "2027-03-30",
+          "completion": "2027-03-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06422767",
+          "title": "Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "official_title": "A Phase 1, Randomized, Double-Blinded, Placebo-Controlled, Parallel Group Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Placebo-corrected Change From Baseline (CFB) in QT Interval Corrected by Fridericia's Formula (QTcF) Following Administration of Bepirovirsen Supratherapeutic Single Dose"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-07-18",
+          "primary_completion": "2025-04-28",
+          "completion": "2025-04-28",
+          "last_update": "2026-07-10",
+          "results_first_post": "2026-07-10",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Bepirovirsen",
+          "GSK836"
+        ],
+        "sponsor": [
+          "中国生物制药",
+          "摩熵医药",
+          "据摩熵医药",
+          "入驻摩熵医药"
+        ],
+        "sponsor_en": [
+          "Sino Biopharm",
+          "摩熵医药",
+          "据摩熵医药",
+          "入驻摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "2fe1bc6d1ad8e72a": {
+    "id": "2fe1bc6d1ad8e72a",
+    "title": "Novel Glucagon/GLP-1 Agonist Meets Cardiovascular Safety Endpoint",
+    "score": 8.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04771273",
+        "title": "A Study to Test Safety and Efficacy of Survodutide (BI456906) in Adults With Non-alcoholic Steatohepatitis (NASH) and Fibrosis (F1-F3)",
+        "official_title": "Multicenter, Double-blind, Parallel-group, Randomized, 48 Weeks, Dose-ranging, Placebo-controlled Phase II Trial to Evaluate Efficacy, Safety and Tolerability of Multiple Subcutaneous (s.c.) Doses of BI 456906 in Patients With Non-alcoholic Steatohepatitis (NASH) and Fibrosis.",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Boehringer Ingelheim",
+        "conditions": [
+          "Non-alcoholic Steatohepatitis (NASH)"
+        ],
+        "interventions": [
+          "Survodutide",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Actual Maintenance Treatment",
+          "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Planned Maintenance Treatment"
+        ],
+        "enrollment": 295,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-04-27",
+        "primary_completion": "2023-11-09",
+        "completion": "2023-12-21",
+        "last_update": "2024-12-03",
+        "results_first_post": "2024-12-03",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "China",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04771273",
+          "title": "A Study to Test Safety and Efficacy of Survodutide (BI456906) in Adults With Non-alcoholic Steatohepatitis (NASH) and Fibrosis (F1-F3)",
+          "official_title": "Multicenter, Double-blind, Parallel-group, Randomized, 48 Weeks, Dose-ranging, Placebo-controlled Phase II Trial to Evaluate Efficacy, Safety and Tolerability of Multiple Subcutaneous (s.c.) Doses of BI 456906 in Patients With Non-alcoholic Steatohepatitis (NASH) and Fibrosis.",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Non-alcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Actual Maintenance Treatment",
+            "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Planned Maintenance Treatment"
+          ],
+          "enrollment": 295,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-04-27",
+          "primary_completion": "2023-11-09",
+          "completion": "2023-12-21",
+          "last_update": "2024-12-03",
+          "results_first_post": "2024-12-03",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06077864",
+          "title": "A Study to Test the Effect of Survodutide (BI 456906) on Cardiovascular Safety in People With Overweight or Obesity (SYNCHRONIZE™ - CVOT)",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, Event-driven, Cardiovascular Safety Study With BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity With Established Cardiovascular Disease (CVD) or Chronic Kidney Disease, and/or at Least Two Weight-related Complications or Risk Factors for CVD",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity"
+          ],
+          "interventions": [
+            "survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Time to first occurrence of any of the adjudicated components of the composite endpoint consisting of: CV death, non-fatal stroke, non-fatal MI, ischaemia related coronary revascularisation, or HFE (to demonstrate non-inferiority)"
+          ],
+          "enrollment": 5530,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-20",
+          "primary_completion": "2026-06-01",
+          "completion": "2026-06-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06066528",
+          "title": "A Study to Test Whether Survodutide (BI 456906) Helps People Living With Overweight or Obesity Who Also Have Diabetes to Lose Weight",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, 76-week, Efficacy and Safety Study of BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity and Type 2 Diabetes Mellitus",
+          "acronym": "SYNCHRONIZE™-2",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity",
+            "Diabetes Mellitus, Type 2"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage change in body weight from baseline to Week 76",
+            "Achievement of body weight reduction ≥5% (yes/no) from baseline to Week 76"
+          ],
+          "enrollment": 755,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-27",
+          "primary_completion": "2025-12-12",
+          "completion": "2026-04-01",
+          "last_update": "2026-08-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Survodutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "36a79c4b98f1cfea": {
+    "id": "36a79c4b98f1cfea",
+    "title": "SYNCHRONIZE-CVOT试验达到主要终点，索弗度肽（survodutide）成为全球首个证实心血管安全性的胰高血糖素/GLP-1双受体激动剂",
+    "score": 9.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT04771273",
+        "title": "A Study to Test Safety and Efficacy of Survodutide (BI456906) in Adults With Non-alcoholic Steatohepatitis (NASH) and Fibrosis (F1-F3)",
+        "official_title": "Multicenter, Double-blind, Parallel-group, Randomized, 48 Weeks, Dose-ranging, Placebo-controlled Phase II Trial to Evaluate Efficacy, Safety and Tolerability of Multiple Subcutaneous (s.c.) Doses of BI 456906 in Patients With Non-alcoholic Steatohepatitis (NASH) and Fibrosis.",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Boehringer Ingelheim",
+        "conditions": [
+          "Non-alcoholic Steatohepatitis (NASH)"
+        ],
+        "interventions": [
+          "Survodutide",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Actual Maintenance Treatment",
+          "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Planned Maintenance Treatment"
+        ],
+        "enrollment": 295,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-04-27",
+        "primary_completion": "2023-11-09",
+        "completion": "2023-12-21",
+        "last_update": "2024-12-03",
+        "results_first_post": "2024-12-03",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "China",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04771273",
+          "title": "A Study to Test Safety and Efficacy of Survodutide (BI456906) in Adults With Non-alcoholic Steatohepatitis (NASH) and Fibrosis (F1-F3)",
+          "official_title": "Multicenter, Double-blind, Parallel-group, Randomized, 48 Weeks, Dose-ranging, Placebo-controlled Phase II Trial to Evaluate Efficacy, Safety and Tolerability of Multiple Subcutaneous (s.c.) Doses of BI 456906 in Patients With Non-alcoholic Steatohepatitis (NASH) and Fibrosis.",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Non-alcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Actual Maintenance Treatment",
+            "Improvement (Yes/ no) From Baseline in Liver Histological Findings Based on Liver Biopsy After 48 Weeks of Treatment in Patients With NASH (NAS ≥ 4, Fibrosis F1-F3) - Planned Maintenance Treatment"
+          ],
+          "enrollment": 295,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-04-27",
+          "primary_completion": "2023-11-09",
+          "completion": "2023-12-21",
+          "last_update": "2024-12-03",
+          "results_first_post": "2024-12-03",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06077864",
+          "title": "A Study to Test the Effect of Survodutide (BI 456906) on Cardiovascular Safety in People With Overweight or Obesity (SYNCHRONIZE™ - CVOT)",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, Event-driven, Cardiovascular Safety Study With BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity With Established Cardiovascular Disease (CVD) or Chronic Kidney Disease, and/or at Least Two Weight-related Complications or Risk Factors for CVD",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity"
+          ],
+          "interventions": [
+            "survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Time to first occurrence of any of the adjudicated components of the composite endpoint consisting of: CV death, non-fatal stroke, non-fatal MI, ischaemia related coronary revascularisation, or HFE (to demonstrate non-inferiority)"
+          ],
+          "enrollment": 5530,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-20",
+          "primary_completion": "2026-06-01",
+          "completion": "2026-06-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06066528",
+          "title": "A Study to Test Whether Survodutide (BI 456906) Helps People Living With Overweight or Obesity Who Also Have Diabetes to Lose Weight",
+          "official_title": "A Phase 3, Randomised, Double-blind, Parallel-group, 76-week, Efficacy and Safety Study of BI 456906 Administered Subcutaneously Compared With Placebo in Participants With Overweight or Obesity and Type 2 Diabetes Mellitus",
+          "acronym": "SYNCHRONIZE™-2",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Boehringer Ingelheim",
+          "conditions": [
+            "Obesity",
+            "Diabetes Mellitus, Type 2"
+          ],
+          "interventions": [
+            "Survodutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage change in body weight from baseline to Week 76",
+            "Achievement of body weight reduction ≥5% (yes/no) from baseline to Week 76"
+          ],
+          "enrollment": 755,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-27",
+          "primary_completion": "2025-12-12",
+          "completion": "2026-04-01",
+          "last_update": "2026-08-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "Finland",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06077864",
+          "NCT07855900",
+          "NCT07850050",
+          "NCT07850063",
+          "NCT07754461",
+          "NCT06632444",
+          "NCT06632457",
+          "NCT06066515",
+          "NCT06066528",
+          "NCT06309992",
+          "NCT06176365",
+          "NCT06214741"
+        ],
+        "drug": [
+          "survodutide",
+          "Survodutide",
+          "CN-102064"
+        ],
+        "sponsor": [
+          "代谢健康生物",
+          "江苏恒瑞医药",
+          "山东博安生物",
+          "技术股份"
+        ],
+        "sponsor_en": [
+          "代谢健康生物",
+          "Hengrui",
+          "山东博安生物",
+          "技术股份"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "94cd008a61e63cbf": {
+    "id": "94cd008a61e63cbf",
+    "title": "FDA 批准拜耳公司 FXIa 抑制剂：12,327 例脑血管病高危患者复发降 26%",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "31307272c515d0f5": {
+    "id": "31307272c515d0f5",
+    "title": "FDA最新安全性警示：GLP-1类药物新增NAION风险黑框提示，司美格鲁肽、替尔泊肽全品类涉入",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "江苏恒瑞医药",
+          "山东博安生物",
+          "技术股份"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "Hengrui",
+          "山东博安生物",
+          "技术股份"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "6388387af19e8ff5": {
+    "id": "6388387af19e8ff5",
+    "title": "1400万元一针，9 例肿瘤报告！诺华「天价药」再曝安全性风险",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "225fe31cb32597e5": {
+    "id": "225fe31cb32597e5",
+    "title": "How to select adjuvant endocrine therapy for postmenopausal women with HR-positive early breast cancer?",
+    "score": 6.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "430ac785c61eacfc": {
+    "id": "430ac785c61eacfc",
+    "title": "Beam says base-edited sickle cell therapy succeeds in Phase 1/2 study",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05456880",
+        "title": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+        "official_title": "A Phase 1/2 Study Evaluating the Safety and Efficacy of a Single Dose of Autologous CD34+ Base Edited Hematopoietic Stem Cells (BEAM-101) in Patients With Sickle Cell Disease and Severe Vaso-Occlusive Crises (Beacon Trial)",
+        "acronym": "BEACON",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Beam Therapeutics Inc.",
+        "conditions": [
+          "Sickle Cell Disease"
+        ],
+        "interventions": [
+          "BEAM-101"
+        ],
+        "primary_outcomes": [
+          "Change in annualized number of severe VOCs (Vascular-occlusive Crisis) relative to baseline",
+          "Proportion of patients with successful neutrophil engraftment",
+          "Time to neutrophil engraftment",
+          "Time to platelet engraftment",
+          "Transplant-related mortality within 100 days after beam-101 treatment",
+          "Safety and tolerability assessments based on frequency, severity and seriousness of adverse events (AE's)"
+        ],
+        "enrollment": 15,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-08-30",
+        "primary_completion": "2028-02",
+        "completion": "2028-02",
+        "last_update": "2025-12-16",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05456880",
+          "title": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+          "official_title": "A Phase 1/2 Study Evaluating the Safety and Efficacy of a Single Dose of Autologous CD34+ Base Edited Hematopoietic Stem Cells (BEAM-101) in Patients With Sickle Cell Disease and Severe Vaso-Occlusive Crises (Beacon Trial)",
+          "acronym": "BEACON",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Beam Therapeutics Inc.",
+          "conditions": [
+            "Sickle Cell Disease"
+          ],
+          "interventions": [
+            "BEAM-101"
+          ],
+          "primary_outcomes": [
+            "Change in annualized number of severe VOCs (Vascular-occlusive Crisis) relative to baseline",
+            "Proportion of patients with successful neutrophil engraftment",
+            "Time to neutrophil engraftment",
+            "Time to platelet engraftment",
+            "Transplant-related mortality within 100 days after beam-101 treatment",
+            "Safety and tolerability assessments based on frequency, severity and seriousness of adverse events (AE's)"
+          ],
+          "enrollment": 15,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-08-30",
+          "primary_completion": "2028-02",
+          "completion": "2028-02",
+          "last_update": "2025-12-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05885464",
+          "title": "A Study Evaluating the Safety and Efficacy of BEAM-201 in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+          "official_title": "A Phase 1/2, Dose-Exploration and Dose-Expansion Study Evaluating the Safety and Efficacy of Multiplex Base-Edited, Allogeneic Anti-CD7 CAR-T Cells (BEAM-201) in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Beam Therapeutics Inc.",
+          "conditions": [
+            "Lymphoblastic Lymphoma",
+            "T-Cell Lymphoblastic Leukemia/Lymphoma",
+            "Lymphoblastic Leukemia"
+          ],
+          "interventions": [
+            "BEAM-201"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of treatment-emergent adverse events (TEAEs) and treatment-related adverse events, including serious adverse events (SAEs) and dose-limiting toxicities (DLTs; in Phase 1 only)",
+            "Overall response rate as defined as proportion of T-ALL patients achieving complete response (CR) or complete response with incomplete hematologic recovery (CRi) or T-LL patients achieving CR or PR at any point after BEAM-201 infusion"
+          ],
+          "enrollment": 5,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-05-25",
+          "primary_completion": "2026-12",
+          "completion": "2026-12",
+          "last_update": "2025-01-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06735755",
+          "title": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa)",
+          "official_title": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa) Homozygous or Compound Heterozygous for the G6PC1 c.247C>T (p.R83C) Variant",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Beam Therapeutics Inc.",
+          "conditions": [
+            "Glycogen Storage Disease Type Ia"
+          ],
+          "interventions": [
+            "BEAM-301: Single dose of BEAM-301 administered by IV"
+          ],
+          "primary_outcomes": [
+            "To evaluate the safety and tolerability of BEAM-301 in patients with GSDIa with a G6PC1 c.247C>T (p.R83C) variant by measuring incidence of treatment-emergent adverse events (TEAEs) including serious adverse events (SAEs) and dose-limiting toxicities (DL"
+          ],
+          "enrollment": 36,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-12-06",
+          "primary_completion": "2027-12-30",
+          "completion": "2027-12-30",
+          "last_update": "2025-12-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Beam"
+        ],
+        "sponsor_en": [
+          "Beam"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "3a218491a4dca77c": {
+    "id": "3a218491a4dca77c",
+    "title": "Tides 速递 | 礼来小分子GLP-1「奥氟格列隆」III期研究成功",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:研究成功"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:研究成功"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:研究成功",
+    "registry": {
+      "best": {
+        "nct": "NCT07795164",
+        "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
+        "official_title": "A Phase 3, Multinational, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in Subjects With Noncirrhotic Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+        "acronym": "PERFORMA",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Altimmune, Inc.",
+        "conditions": [
+          "Metabolic Dysfunction-Associated Steatohepatitis (MASH)"
+        ],
+        "interventions": [
+          "Pemvidutide",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Clinical Outcome Event",
+          "Histological Response: MASH resolution",
+          "Histological Response: Fibrosis improvement"
+        ],
+        "enrollment": 1800,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-07-30",
+        "primary_completion": "2028-12",
+        "completion": "2032-12",
+        "last_update": "2026-09-23",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07795164",
+          "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
+          "official_title": "A Phase 3, Multinational, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in Subjects With Noncirrhotic Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+          "acronym": "PERFORMA",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Metabolic Dysfunction-Associated Steatohepatitis (MASH)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Clinical Outcome Event",
+            "Histological Response: MASH resolution",
+            "Histological Response: Fibrosis improvement"
+          ],
+          "enrollment": 1800,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-30",
+          "primary_completion": "2028-12",
+          "completion": "2032-12",
+          "last_update": "2026-09-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05989711",
+          "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "official_title": "A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Pemvidutide in Non-Cirrhotic Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "acronym": "IMPACT",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Non-Alcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Proportion of subjects achieving NASH resolution (NAFLD activity score [NAS], ballooning = 0; lobular inflammation = 0, 1) with at least a 2-point reduction in NAS without worsening of fibrosis",
+            "Proportion of subjects achieving at least 1 stage improvement in liver fibrosis without worsening of NASH (defined as no change in the NAS, ie, the sum score for ballooning, inflammation, and steatosis)",
+            "Incidence of Treatment Emergent Adverse Events"
+          ],
+          "enrollment": 212,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-07-27",
+          "primary_completion": "2025-11-25",
+          "completion": "2025-11-25",
+          "last_update": "2026-05-18",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Puerto Rico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06987513",
+          "title": "RECLAIM STUDY: Phase 2 Study of the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+          "official_title": "RECLAIM STUDY: A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Alcohol Use Disorder (AUD)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from baseline in the average number of heavy drinking days per week"
+          ],
+          "enrollment": 100,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-05-15",
+          "primary_completion": "2026-07-30",
+          "completion": "2026-07-30",
+          "last_update": "2026-07-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pemvidutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "a8aebdcd62a48350": {
+    "id": "a8aebdcd62a48350",
+    "title": "<![CDATA[Silevertinib CNS Activity Supports Planned Phase 3 in EGFR-Mutant NSCLC]]>",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05256290",
+        "title": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations",
+        "official_title": "A Phase 1/2 Study to Assess BDTX-1535, an Oral EGFR Inhibitor, in Patients With Glioblastoma or Non-Small Cell Lung Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Black Diamond Therapeutics, Inc.",
+        "conditions": [
+          "Non-Small Cell Lung Cancer",
+          "Advanced Non-Small Cell Squamous Lung Cancer",
+          "Metastatic Lung Non-Small Cell Carcinoma",
+          "Metastatic Lung Cancer",
+          "NSCLC",
+          "Advanced Lung Carcinoma",
+          "Epidermal Growth Factor Receptor C797S",
+          "Epidermal Growth Factor Receptor G719X",
+          "EGF-R Positive Non-Small Cell Lung Cancer",
+          "EGFR-TKI Resistant Mutation"
+        ],
+        "interventions": [
+          "silevertinib (BDTX-1535) monotherapy"
+        ],
+        "primary_outcomes": [
+          "Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535)",
+          "Phase 2: To assess antitumor efficacy of silevertinib (BDTX-1535)"
+        ],
+        "enrollment": 200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-03-31",
+        "primary_completion": "2025-11-03",
+        "completion": "2027-12",
+        "last_update": "2026-07-22",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05256290",
+          "title": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations",
+          "official_title": "A Phase 1/2 Study to Assess BDTX-1535, an Oral EGFR Inhibitor, in Patients With Glioblastoma or Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Black Diamond Therapeutics, Inc.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "Advanced Non-Small Cell Squamous Lung Cancer",
+            "Metastatic Lung Non-Small Cell Carcinoma",
+            "Metastatic Lung Cancer",
+            "NSCLC",
+            "Advanced Lung Carcinoma",
+            "Epidermal Growth Factor Receptor C797S",
+            "Epidermal Growth Factor Receptor G719X",
+            "EGF-R Positive Non-Small Cell Lung Cancer",
+            "EGFR-TKI Resistant Mutation"
+          ],
+          "interventions": [
+            "silevertinib (BDTX-1535) monotherapy"
+          ],
+          "primary_outcomes": [
+            "Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535)",
+            "Phase 2: To assess antitumor efficacy of silevertinib (BDTX-1535)"
+          ],
+          "enrollment": 200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-03-31",
+          "primary_completion": "2025-11-03",
+          "completion": "2027-12",
+          "last_update": "2026-07-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07326566",
+          "title": "Study of Silevertinib With Temozolomide for the Treatment of Newly Diagnosed GBM With Unmethylated MGMT and EGFRvIII",
+          "official_title": "A Phase 2 Randomized, Multicenter Study to Evaluate the Efficacy and Safety of Silevertinib, an Oral EGFR Inhibitor, in Combination With Temozolomide in Patients With Newly Diagnosed Glioblastoma With Unmethylated MGMT Promoter and EGFRvIII",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Black Diamond Therapeutics, Inc.",
+          "conditions": [
+            "Glioblastoma (GBM)",
+            "Newly Diagnosed Glioblastoma",
+            "GBM",
+            "Glioblastoma Multiforme (GBM)",
+            "Glioma",
+            "Central Nervous System Diseases",
+            "Brain Cancer"
+          ],
+          "interventions": [
+            "silevertinib in combination with temozolomide",
+            "temozolomide (TMZ)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS) assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 162,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-05-05",
+          "primary_completion": "2028-11",
+          "completion": "2029-03",
+          "last_update": "2026-11-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06072586",
+          "title": "A Phase 0/1 Study of BDTX-1535 in Recurrent High-Grade Glioma (rHGG) and Newly Diagnosed Glioblastoma (nGBM) Participants With EGFR Alterations or Fusions",
+          "official_title": "A Phase 0/1 Study of BDTX-1535 in Recurrent High-Grade Glioma (HGG) and Newly Diagnosed Glioblastoma (nGBM) Participants With EGFR Alterations or Fusions Scheduled for Resection to Evaluate Central Nervous System (CNS) Penetration With PK-triggered Expansion Cohort",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "EARLY_PHASE1",
+          "sponsor": "St. Joseph's Hospital and Medical Center, Phoenix",
+          "conditions": [
+            "High Grade Glioma",
+            "Glioblastoma"
+          ],
+          "interventions": [
+            "BDTX-1535",
+            "BDTX-1535 combined with radiation therapy",
+            "BDTX-1535 combined with temozolomide and radiation therapy"
+          ],
+          "primary_outcomes": [
+            "Unbound BDTX-1535 Concentration in Tumor Tissue",
+            "Total BDTX-1535 Concentration in Tumor Tissue",
+            "Incidence of DLTs Observed",
+            "Number of Participants with Treatment-Emergent Adverse Events (TEAEs) as Assessed by NCI-CTCAE v5",
+            "Number of Participants with Treatment-Related Adverse Events (TRAEs) as Assessed by NCI-CTCAE v5",
+            "Number of Participants with Abnormal Laboratory Values as Assessed per NCI-CTCAE v5"
+          ],
+          "enrollment": 82,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-10-18",
+          "primary_completion": "2027-12",
+          "completion": "2027-12",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Silevertinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "da045a812c14d1a4": {
+    "id": "da045a812c14d1a4",
+    "title": "百济神州daraxonrasib片拟纳入CDE优先审评，全球首款泛RAS(ON)抑制剂冲刺国内胰腺癌适应症",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT07491445",
+        "title": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
+        "official_title": "RASolute 303: A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel Versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients With Metastatic Pancreatic Adenocarcinoma",
+        "acronym": "RASolute 303",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Revolution Medicines, Inc.",
+        "conditions": [
+          "Pancreatic Cancer",
+          "Pancreatic Cancer Metastatic",
+          "PDAC",
+          "PDAC - Pancreatic Ductal Adenocarcinoma",
+          "Pancreatic Ductal Adenocarcinoma (PDAC)",
+          "Pancreatic Adenocarcinoma Metastatic",
+          "Pancreatic Adenocarcinoma",
+          "Pancreatic Adenosquamous Carcinoma"
+        ],
+        "interventions": [
+          "daraxonrasib",
+          "gemcitabine",
+          "nab-paclitaxel"
+        ],
+        "primary_outcomes": [
+          "Progression free survival (PFS)",
+          "Overall survival (OS)"
+        ],
+        "enrollment": 900,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-03-09",
+        "primary_completion": "2028-06",
+        "completion": "2029-03",
+        "last_update": "2026-10-02",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Germany",
+          "Hong Kong",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Singapore"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07491445",
+          "title": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
+          "official_title": "RASolute 303: A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel Versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients With Metastatic Pancreatic Adenocarcinoma",
+          "acronym": "RASolute 303",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "Pancreatic Cancer",
+            "Pancreatic Cancer Metastatic",
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma",
+            "Pancreatic Ductal Adenocarcinoma (PDAC)",
+            "Pancreatic Adenocarcinoma Metastatic",
+            "Pancreatic Adenocarcinoma",
+            "Pancreatic Adenosquamous Carcinoma"
+          ],
+          "interventions": [
+            "daraxonrasib",
+            "gemcitabine",
+            "nab-paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": 900,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-03-09",
+          "primary_completion": "2028-06",
+          "completion": "2029-03",
+          "last_update": "2026-10-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Germany",
+            "Hong Kong",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Singapore"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07805954",
+          "title": "Study of Zoldonrasib (RMC-9805) Plus Daraxonrasib (RMC-6236) Versus Gemcitabine and Nab-Paclitaxel as First-Line Treatment in Metastatic KRAS G12D-Mutated Pancreatic Adenocarcinoma",
+          "official_title": "A Phase 3, Randomized, Open-Label Study of Zoldonrasib (RMC-9805) Plus Daraxonrasib (RMC-6236) Versus Gemcitabine and Nab-Paclitaxel as First-Line Treatment in Patients With Metastatic KRAS G12D-Mutated Pancreatic Adenocarcinoma",
+          "acronym": "RASolute 309",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "Pancreatic Cancer",
+            "Pancreatic Cancer Metastatic",
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma",
+            "Pancreatic Ductal Adenocarcinoma (PDAC)",
+            "Pancreatic Adenocarcinoma Metastatic",
+            "Pancreatic Adenocarcinoma",
+            "Pancreatic Adenosquamous Carcinoma"
+          ],
+          "interventions": [
+            "daraxonrasib",
+            "gemcitabine",
+            "nab-paclitaxel",
+            "zoldonrasib"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": 400,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-08-28",
+          "primary_completion": "2029-03",
+          "completion": "2030-04",
+          "last_update": "2026-11-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06128551",
+          "title": "Study of Elironrasib and Daraxonrasib as Monotherapies and Combination Therapy in Participants With Advanced KRAS G12C Mutant Solid Tumors",
+          "official_title": "Phase 1b/2, Multicenter, Open-label, Dose Escalation and Dose Expansion Study of Elironrasib and Daraxonrasib as Monotherapies and Combination Therapy in Patients With Advanced KRAS G12C-Mutated Solid Tumors",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer (NSCLC)",
+            "Colorectal Cancer",
+            "Pancreatic Ductal Adenocarcinoma"
+          ],
+          "interventions": [
+            "Elironrasib",
+            "Daraxonrasib"
+          ],
+          "primary_outcomes": [
+            "Number of patients with adverse events (AEs) in Phase 1b",
+            "Changes in vital signs in Phase 1b",
+            "Changes in clinical laboratory test values in Phase 1b",
+            "Dose Limiting Toxicities in Phase 1b",
+            "Changes in ECGs in Phase 1b",
+            "Overall Response Rate (ORR) in Phase 2"
+          ],
+          "enrollment": 534,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-11-14",
+          "primary_completion": "2028-12",
+          "completion": "2029-06",
+          "last_update": "2026-09-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "France",
+            "Germany",
+            "Italy",
+            "Netherlands",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "daraxonrasib",
+          "Daraxonrasib",
+          "Sotorasib",
+          "Adagrasib"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "劲方医药科技",
+          "荣昌生物制药",
+          "中国生物制药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "劲方医药科技",
+          "RemeGen",
+          "Sino Biopharm"
+        ]
+      },
+      "note": ""
+    }
+  }
+}
