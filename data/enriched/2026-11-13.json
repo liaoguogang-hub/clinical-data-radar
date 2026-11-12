@@ -1,0 +1,2991 @@
+{
+  "229c49298523631f": {
+    "id": "229c49298523631f",
+    "title": "EMA recommends granting a marketing authorisation for daraxonrasib",
+    "score": 8.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06625320",
+        "title": "Phase 3 Study of Daraxonrasib (RMC-6236) in Patients With Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)",
+        "official_title": "RASolute 302: A Phase 3 Multicenter, Open-label, Randomized Study of Daraxonrasib (RMC-6236) Versus Investigator's Choice of Standard of Care Therapy in Patients With Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)",
+        "acronym": "RASolute 302",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Revolution Medicines, Inc.",
+        "conditions": [
+          "Pancreatic Cancer",
+          "PDAC",
+          "PDAC - Pancreatic Ductal Adenocarcinoma"
+        ],
+        "interventions": [
+          "RMC-6236",
+          "Gemcitabine",
+          "nab-paclitaxel",
+          "Irinotecan",
+          "Liposomal irinotecan",
+          "5-fluorouracil",
+          "leucovorin",
+          "Oxaliplatin"
+        ],
+        "primary_outcomes": [
+          "Progression free survival (PFS) in the RAS G12-mutant population",
+          "Overall survival (OS) in the RAS G12-mutant population"
+        ],
+        "enrollment": 500,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-10-16",
+        "primary_completion": "2026-06",
+        "completion": "2027-12",
+        "last_update": "2026-06-02",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "France",
+          "Germany",
+          "Italy",
+          "Japan",
+          "Puerto Rico",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06625320",
+          "title": "Phase 3 Study of Daraxonrasib (RMC-6236) in Patients With Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)",
+          "official_title": "RASolute 302: A Phase 3 Multicenter, Open-label, Randomized Study of Daraxonrasib (RMC-6236) Versus Investigator's Choice of Standard of Care Therapy in Patients With Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)",
+          "acronym": "RASolute 302",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "Pancreatic Cancer",
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma"
+          ],
+          "interventions": [
+            "RMC-6236",
+            "Gemcitabine",
+            "nab-paclitaxel",
+            "Irinotecan",
+            "Liposomal irinotecan",
+            "5-fluorouracil",
+            "leucovorin",
+            "Oxaliplatin"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS) in the RAS G12-mutant population",
+            "Overall survival (OS) in the RAS G12-mutant population"
+          ],
+          "enrollment": 500,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-10-16",
+          "primary_completion": "2026-06",
+          "completion": "2027-12",
+          "last_update": "2026-06-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Puerto Rico",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07491445",
+          "title": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
+          "official_title": "RASolute 303: A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel Versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients With Metastatic Pancreatic Adenocarcinoma",
+          "acronym": "RASolute 303",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "Pancreatic Cancer",
+            "Pancreatic Cancer Metastatic",
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma",
+            "Pancreatic Ductal Adenocarcinoma (PDAC)",
+            "Pancreatic Adenocarcinoma Metastatic",
+            "Pancreatic Adenocarcinoma",
+            "Pancreatic Adenosquamous Carcinoma"
+          ],
+          "interventions": [
+            "daraxonrasib",
+            "gemcitabine",
+            "nab-paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": 900,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-03-09",
+          "primary_completion": "2028-06",
+          "completion": "2029-03",
+          "last_update": "2026-10-02",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Germany",
+            "Hong Kong",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Singapore"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06881784",
+          "title": "Study of Daraxonrasib (RMC-6236) in Patients With RAS Mutated NSCLC (RASolve 301)",
+          "official_title": "RASolve 301: Phase 3 Multicenter, Open Label, Randomized Study of RMC-6236 Versus Docetaxel in Patients With Previously Treated Locally Advanced or Metastatic RAS[MUT] NSCLC",
+          "acronym": "RASolve 301",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Revolution Medicines, Inc.",
+          "conditions": [
+            "NSCLC (Non-small Cell Lung Cancer)",
+            "Non-Small Cell Lung Cancer",
+            "NSCLC",
+            "NSCLC (Non-small Cell Lung Carcinoma)",
+            "NSCLC (Advanced Non-small Cell Lung Cancer)"
+          ],
+          "interventions": [
+            "daraxonrasib",
+            "docetaxel"
+          ],
+          "primary_outcomes": [
+            "Progression free survival (PFS) per Blinded Independent Central Review (BICR) in the RAS G12X-C population (i.e RAS G12X excluding G12C)",
+            "Overall survival (OS) in the RAS G12X-C population"
+          ],
+          "enrollment": 590,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05-06",
+          "primary_completion": "2027-12-01",
+          "completion": "2030-12-01",
+          "last_update": "2026-11-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Ireland",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "New Zealand",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "daraxonrasib",
+          "Daraxonrasib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6e6bde11fef94d38": {
+    "id": "6e6bde11fef94d38",
+    "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+    "score": 8.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT01935336",
+        "title": "Study of Ponatinib in Patients With Lung Cancer Preselected Using Different Candidate Predictive Biomarkers",
+        "official_title": "A Phase II Study of Ponatinib in Cohorts of Patients With Lung Cancer Preselected Using Different Candidate Predictive Biomarkers",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "University of Colorado, Denver",
+        "conditions": [
+          "Adenocarcinoma of the Lung",
+          "Extensive Stage Small Cell Lung Cancer",
+          "Limited Stage Small Cell Lung Cancer",
+          "Recurrent Non-small Cell Lung Cancer",
+          "Recurrent Small Cell Lung Cancer",
+          "Stage IIIA Non-small Cell Lung Cancer",
+          "Stage IIIB Non-small Cell Lung Cancer",
+          "Stage IV Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Ponatinib"
+        ],
+        "primary_outcomes": [
+          "Biomarker FGFR1 (ISH/SISH) Score (Part A)",
+          "Overlapping Frequency of FGFR1 (ISH/SISH) Biomarkers (Part A)",
+          "Objective Response Rate (ORR) Per RECIST v1.1 (Part B)"
+        ],
+        "enrollment": 171,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2013-09-24",
+        "primary_completion": "2017-01",
+        "completion": "2017-11",
+        "last_update": "2022-02-11",
+        "results_first_post": "2022-02-11",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01935336",
+          "title": "Study of Ponatinib in Patients With Lung Cancer Preselected Using Different Candidate Predictive Biomarkers",
+          "official_title": "A Phase II Study of Ponatinib in Cohorts of Patients With Lung Cancer Preselected Using Different Candidate Predictive Biomarkers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "University of Colorado, Denver",
+          "conditions": [
+            "Adenocarcinoma of the Lung",
+            "Extensive Stage Small Cell Lung Cancer",
+            "Limited Stage Small Cell Lung Cancer",
+            "Recurrent Non-small Cell Lung Cancer",
+            "Recurrent Small Cell Lung Cancer",
+            "Stage IIIA Non-small Cell Lung Cancer",
+            "Stage IIIB Non-small Cell Lung Cancer",
+            "Stage IV Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Ponatinib"
+          ],
+          "primary_outcomes": [
+            "Biomarker FGFR1 (ISH/SISH) Score (Part A)",
+            "Overlapping Frequency of FGFR1 (ISH/SISH) Biomarkers (Part A)",
+            "Objective Response Rate (ORR) Per RECIST v1.1 (Part B)"
+          ],
+          "enrollment": 171,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2013-09-24",
+          "primary_completion": "2017-01",
+          "completion": "2017-11",
+          "last_update": "2022-02-11",
+          "results_first_post": "2022-02-11",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06514534",
+          "title": "Open-label Study of Asciminib for CML-CP or CML-AP Patients With T315I Mutation Who Are Resistant, Intolerant or Ineligible to Ponatinib.",
+          "official_title": "A Phase II, Multi-center, Prospective, Open-label Study of Asciminib in Patients With Chronic Myeloid Leukemia in Chronic Phase (CML-CP) or Accelerated Phase (CML-AP) With T315I Mutation Who Are Resistant, Intolerant or Ineligible to Ponatinib.",
+          "acronym": "ASC4TARGET",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Chronic Myeloid Leukemia (CML)"
+          ],
+          "interventions": [
+            "ABL001/Asciminib"
+          ],
+          "primary_outcomes": [
+            "Rate of BCR::ABL1 (Breakpoint Cluster Region Gene::Abelson proto-oncogene) IS (International Scale) ≤ 1% [MR2 (Molecular Response 2)]"
+          ],
+          "enrollment": 20,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-02-18",
+          "primary_completion": "2029-02-17",
+          "completion": "2029-02-18",
+          "last_update": "2026-04-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04688983",
+          "title": "Study in Adult Ph-positive ALL",
+          "official_title": "An Open Label, 3-arm, Randomised Phase II Study to Compare the Safety and Efficacy of Ponatinib in Combination With Either Chemotherapy or Blinatumomab With Imatinib Plus Chemotherapy as Front-line Therapy for Patients Aged 55 Years and Over With Philadelphia Chromosome Positive (Ph+ or BCR-ABL+) Acute Lymphoblastic Leukemia (ALL)",
+          "acronym": "EWALL-Ph-03",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Cardiff University",
+          "conditions": [
+            "Acute Lymphoblastic Leukemia, Adult"
+          ],
+          "interventions": [
+            "Ponatinib",
+            "Blinatumomab",
+            "Imatinib"
+          ],
+          "primary_outcomes": [
+            "Number of patients with a demonstrable molecular response"
+          ],
+          "enrollment": 180,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-01",
+          "primary_completion": "2024-01",
+          "completion": "2026-01",
+          "last_update": "2020-12-30",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Ponatinib",
+          "Blinatumomab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "dfd27cc8fb59122c": {
+    "id": "dfd27cc8fb59122c",
+    "title": "陆舜教授：NEOTORCH研究最终分析结果公布，为可切除Ⅱ/Ⅲ期NSCLC写下长期生存的“中国答案”",
+    "score": 9.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:阳性结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:阳性结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:阳性结果",
+    "registry": {
+      "best": {
+        "nct": "NCT04158440",
+        "title": "Phase III Study of Toripalimab Versus Placebo Plus Chemotherapy in Resectable NSCLC",
+        "official_title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter, Phase III Clinical Study on Toripalimab Combined With Platinum-Based Doublet Drug Chemotherapy for Resectable, Stage II-III, Non-Small Cell Lung Cancer",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+        "conditions": [
+          "Stage II-III Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "4cycles(Toripalimab IV 240mg + platinum-based doublet chemotherapy)+13 cycles(Toripalimab IV 240mg); Biological: Toripalimab",
+          "4cycles(Placebo + platinum-based doublet chemotherapy)+13 cycles(Placebo )"
+        ],
+        "primary_outcomes": [
+          "MPR rate in stage III population evaluated by BIPR",
+          "EFS in stage III population evaluated by investigators",
+          "MPR rate in stage II-III population evaluated by BIPR",
+          "EFS in stage II-III population evaluated by investigators"
+        ],
+        "enrollment": 501,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-04-07",
+        "primary_completion": "2026-04-18",
+        "completion": "2026-07-03",
+        "last_update": "2026-07-23",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04158440",
+          "title": "Phase III Study of Toripalimab Versus Placebo Plus Chemotherapy in Resectable NSCLC",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter, Phase III Clinical Study on Toripalimab Combined With Platinum-Based Doublet Drug Chemotherapy for Resectable, Stage II-III, Non-Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Stage II-III Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "4cycles(Toripalimab IV 240mg + platinum-based doublet chemotherapy)+13 cycles(Toripalimab IV 240mg); Biological: Toripalimab",
+            "4cycles(Placebo + platinum-based doublet chemotherapy)+13 cycles(Placebo )"
+          ],
+          "primary_outcomes": [
+            "MPR rate in stage III population evaluated by BIPR",
+            "EFS in stage III population evaluated by investigators",
+            "MPR rate in stage II-III population evaluated by BIPR",
+            "EFS in stage II-III population evaluated by investigators"
+          ],
+          "enrollment": 501,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-04-07",
+          "primary_completion": "2026-04-18",
+          "completion": "2026-07-03",
+          "last_update": "2026-07-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04012606",
+          "title": "Toripalimab in Combination With Platinum Plus Etoposidein Patients With Extensive-Stage Small Cell Lung Cancer",
+          "official_title": "A Phase III Randomized, Double-Blind, Placebo-controlled Study of Platinum(Cisplatin or Carboplatin) Plus Etoposide With or Without Toripalimab as First Line Therapy in Patients With ExtensiveStage Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "TORIPALIMAB INJECTION(JS001 ) Carboplatin Cisplatin Etoposide Placebo"
+          ],
+          "primary_outcomes": [
+            "PFS (Progression Free Survival) by investigator",
+            "Overall suvival (OS)"
+          ],
+          "enrollment": 442,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-07-23",
+          "primary_completion": "2023-04-20",
+          "completion": "2023-04-20",
+          "last_update": "2025-01-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04568304",
+          "title": "A Study Evaluating Toripalimab Injection Combined With Standard Chemotherapy as a First-line Treatment for Locally Advanced or Metastatic Urothelial Carcinoma",
+          "official_title": "A Phase III, Randomized, Double-blind, Placebo-controlled, Multi-center Clinical Study to Evaluate the Efficacy and Safety of Toripalimab Injection (JS001) in Combination With Standard Chemotherapy Versus Placebo in Combination With Standard Chemotherapy as the 1st-line Therapy for Treatment-naive Subjects With PD-L1-positive Locally Advanced or Metastatic Urothelial Carcinoma",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "This study was not conducted",
+          "phase": "PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Locally Advanced or Metastatic Urothelial Carcinoma"
+          ],
+          "interventions": [
+            "Toripalimab Injection",
+            "Gemcitabine Hydrochloride for Injection",
+            "Cisplatin for Injection / Carboplatin Injection",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Investigator-assessed progression-free survival (INV-PFS) as per RECIST 1.1 criteria"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-09-06",
+          "primary_completion": "2022-09-06",
+          "completion": "2022-09-06",
+          "last_update": "2026-07-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Toripalimab",
+          "toripalimab",
+          "Nivolumab",
+          "atezolizumab"
+        ],
+        "sponsor": [
+          "责人主持科技",
+          "抗癌协会科技",
+          "海市医学科技",
+          "中华医学科技"
+        ],
+        "sponsor_en": [
+          "责人主持科技",
+          "抗癌协会科技",
+          "海市医学科技",
+          "中华医学科技"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "d4f92c9cf2557b7c": {
+    "id": "d4f92c9cf2557b7c",
+    "title": "Novel Sjogren's Drug Passes First Phase III Test",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0f3b40b945d81d23": {
+    "id": "0f3b40b945d81d23",
+    "title": "国家药监局批准芮弗西拜单抗注射液（皮下注射）上市",
+    "score": 7.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "北京盛迪医药"
+        ],
+        "sponsor_en": [
+          "北京盛迪医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（北京盛迪医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "43e07d3b98e8f532": {
+    "id": "43e07d3b98e8f532",
+    "title": "FDA approves imlunestrant in combination with abemaciclib for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+    "score": 8.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "missed",
+        "basis": "statistical",
+        "confidence": 0.9,
+        "evidence": [
+          "终点「Investigator-assessed Progression Free S」p=0.1158（SUPERIORITY）"
+        ],
+        "detail": {
+          "p_value": 0.1158,
+          "ci": [
+            0.724,
+            1.039
+          ],
+          "test": "SUPERIORITY"
+        }
+      },
+      "numbers": [
+        {
+          "endpoint": "Investigator-assessed Progression Free Survival (PFS) (Between Arm A and Arm B)",
+          "unit": "Months",
+          "param_type": "MEDIAN",
+          "values": [
+            {
+              "group": "Arm A: Imlunestrant",
+              "value": "5.55",
+              "spread": ""
+            },
+            {
+              "group": "Arm B: Investigator's Choice of Endocrine Therapy",
+              "value": "5.52",
+              "spread": ""
+            }
+          ]
+        },
+        {
+          "endpoint": "Investigator-assessed PFS (Between Arm C and Arm A)",
+          "unit": "Months",
+          "param_type": "MEDIAN",
+          "values": [
+            {
+              "group": "Arm C: Imlunestrant + Abemaciclib",
+              "value": "9.36",
+              "spread": ""
+            },
+            {
+              "group": "Arm A: Imlunestrant",
+              "value": "5.49",
+              "spread": ""
+            }
+          ]
+        },
+        {
+          "endpoint": "Investigator-assessed PFS in the Estrogen Receptor 1 (ESR1)-Mutation Detected Population (Between Arm A and Arm B)",
+          "unit": "Months",
+          "param_type": "MEDIAN",
+          "values": [
+            {
+              "group": "Arm A: Imlunestrant",
+              "value": "5.49",
+              "spread": ""
+            },
+            {
+              "group": "Arm B: Investigator's Choice of Endocrine Therapy",
+              "value": "3.84",
+              "spread": ""
+            }
+          ]
+        }
+      ],
+      "verdict": "missed",
+      "basis": "statistical",
+      "confidence": 0.9,
+      "evidence": [
+        "达到表述:statistically significant",
+        "⚠️ 冲突：新闻措辞判 met，注册库统计量判 missed——以注册库为准",
+        "终点「Investigator-assessed Progression Free S」p=0.1158（SUPERIORITY）"
+      ],
+      "conflict": true,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：注册库统计分析（可信）\n置信度：0.90\n证据：达到表述:statistically significant；⚠️ 冲突：新闻措辞判 met，注册库统计量判 missed——以注册库为准；终点「Investigator-assessed Progression Free S」p=0.1158（SUPERIORITY）\n  终点「Investigator-assessed Progression Free S」(MEDIAN Months)：Arm A: Imlunestrant=5.55；Arm B: Investigator's Choice of Endocrine Therapy=5.52\n  终点「Investigator-assessed PFS (Between Arm C」(MEDIAN Months)：Arm C: Imlunestrant + Abemaciclib=9.36；Arm A: Imlunestrant=5.49\n⚠️ 新闻措辞与注册库统计量冲突，文章必须以注册库为准并说明",
+    "registry": {
+      "best": {
+        "nct": "NCT04975308",
+        "title": "A Study of Imlunestrant, Investigator's Choice of Endocrine Therapy, and Imlunestrant Plus Abemaciclib in Participants With ER+, HER2- Advanced Breast Cancer",
+        "official_title": "EMBER-3: A Phase 3, Randomized, Open-Label Study of Imlunestrant, Investigator's Choice of Endocrine Therapy, and Imlunestrant Plus Abemaciclib in Patients With Estrogen Receptor Positive, HER2 Negative Locally Advanced or Metastatic Breast Cancer Previously Treated With Endocrine Therapy",
+        "acronym": "EMBER-3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Eli Lilly and Company",
+        "conditions": [
+          "Breast Neoplasms",
+          "Neoplasm Metastasis"
+        ],
+        "interventions": [
+          "Imlunestrant",
+          "Exemestane",
+          "Fulvestrant",
+          "Abemaciclib"
+        ],
+        "primary_outcomes": [
+          "Investigator-assessed Progression Free Survival (PFS) (Between Arm A and Arm B)",
+          "Investigator-assessed PFS (Between Arm C and Arm A)",
+          "Investigator-assessed PFS in the Estrogen Receptor 1 (ESR1)-Mutation Detected Population (Between Arm A and Arm B)"
+        ],
+        "enrollment": 874,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-10-04",
+        "primary_completion": "2024-06-24",
+        "completion": "2027-08",
+        "last_update": "2026-07-22",
+        "results_first_post": "2025-07-11",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "China",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece",
+          "India"
+        ],
+        "results": {
+          "primary": [
+            {
+              "title": "Investigator-assessed Progression Free Survival (PFS) (Between Arm A and Arm B)",
+              "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+              "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+              "type": "PRIMARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "5.55",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "5.52",
+                  "spread": ""
+                }
+              ],
+              "analyses": [
+                {
+                  "p_value": "0.1158",
+                  "ci_lower": "0.724",
+                  "ci_upper": "1.039",
+                  "ci_pct": "95",
+                  "test_type": "SUPERIORITY",
+                  "method": "Log Rank",
+                  "param_type": "Hazard Ratio (HR)",
+                  "param_value": "0.867",
+                  "group_ids": [
+                    "OG000",
+                    "OG001"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investigator-assessed PFS (Between Arm C and Arm A)",
+              "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+              "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 26 months)",
+              "type": "PRIMARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm C: Imlunestrant + Abemaciclib"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm A: Imlunestrant"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "9.36",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "5.49",
+                  "spread": ""
+                }
+              ],
+              "analyses": [
+                {
+                  "p_value": "<0.0001",
+                  "ci_lower": "0.441",
+                  "ci_upper": "0.733",
+                  "ci_pct": "95",
+                  "test_type": "SUPERIORITY",
+                  "method": "Log Rank",
+                  "param_type": "Hazard Ratio (HR)",
+                  "param_value": "0.569",
+                  "group_ids": [
+                    "OG000",
+                    "OG001"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investigator-assessed PFS in the Estrogen Receptor 1 (ESR1)-Mutation Detected Population (Between Arm A and Arm B)",
+              "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+              "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+              "type": "PRIMARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "5.49",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "3.84",
+                  "spread": ""
+                }
+              ],
+              "analyses": [
+                {
+                  "p_value": "0.0008",
+                  "ci_lower": "0.464",
+                  "ci_upper": "0.821",
+                  "ci_pct": "95",
+                  "test_type": "SUPERIORITY",
+                  "method": "Log Rank",
+                  "param_type": "Hazard Ratio (HR)",
+                  "param_value": "0.617",
+                  "group_ids": [
+                    "OG000",
+                    "OG001"
+                  ]
+                }
+              ]
+            }
+          ],
+          "secondary": [
+            {
+              "title": "Blinded Independent Review Committee (BIRC) Assessed PFS (Between Arm A and Arm B)",
+              "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+              "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+              "type": "SECONDARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "9.23",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "7.36",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            },
+            {
+              "title": "Blinded Independent Review Committee (BIRC) Assessed PFS (Between Arm C and Arm A)",
+              "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+              "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 25 months)",
+              "type": "SECONDARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm C: Imlunestrant + Abemaciclib"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm A: Imlunestrant"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "14.52",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "9.23",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            },
+            {
+              "title": "Percentage of Participants With Investigator-assessed Objective Response Rate (ORR) (Between Arm A and Arm B)",
+              "description": "ORR was the best confirmed overall tumor response of complete response (CR) or partial response (PR) as classified by the investigator according to the Response Evaluation Criteria In Solid Tumors (RECIST v1.1). CR is a disappearance of all target and non-target lesions and normalization of tumor ma",
+              "time_frame": "Randomization until measured progressive disease (up to 28 months)",
+              "type": "SECONDARY",
+              "param_type": "NUMBER",
+              "unit": "Percentage of participants",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "10.3",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "6.4",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            },
+            {
+              "title": "Investigator-assessed Duration of Response (DoR) (Between Arm A and Arm B)",
+              "description": "DoR is defined as the time from the date measurement criteria for CR or PR (whichever is first recorded) are first met until the first date that disease is recurrent or objective progression is observed, per RECIST 1.1 criteria, or the date of death from any cause in the absence of objectively deter",
+              "time_frame": "From Date of CR or PR to Date of Objective Disease Progression or Death Due to Any Cause (Up To 26 Months)",
+              "type": "SECONDARY",
+              "param_type": "MEDIAN",
+              "unit": "Months",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "11.10",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "7.39",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            },
+            {
+              "title": "Percentage of Participants With Investigator-assessed Clinical Benefit Rate (CBR) (Between Arm A and Arm B)",
+              "description": "CBR was the best confirmed overall tumor response of stable disease (SD) for greater than or equal to (≥) 24 weeks, CR or PR as defined by RECIST v1.1. CR is a disappearance of all target and non-target lesions and normalization of tumor marker level. PR is an at least 30% decrease in the sum of the",
+              "time_frame": "Randomization until measured progressive disease (up to 28 months)",
+              "type": "SECONDARY",
+              "param_type": "NUMBER",
+              "unit": "Percentage of participants",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm A: Imlunestrant"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "46.8",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "45.5",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            },
+            {
+              "title": "Percentage of Participants With Investigator-assessed Objective Response Rate (ORR) (Between Arm C and Arm A)",
+              "description": "ORR was the best confirmed overall tumor response of complete response (CR) or partial response (PR) as classified by the investigator according to the Response Evaluation Criteria In Solid Tumors (RECIST v1.1). CR is a disappearance of all target and non-target lesions and normalization of tumor ma",
+              "time_frame": "Randomization until measured progressive disease (up to 26 months)",
+              "type": "SECONDARY",
+              "param_type": "NUMBER",
+              "unit": "Percentage of participants",
+              "reporting_status": "POSTED",
+              "groups": [
+                {
+                  "id": "OG000",
+                  "title": "Arm C: Imlunestrant + Abemaciclib"
+                },
+                {
+                  "id": "OG001",
+                  "title": "Arm A: Imlunestrant"
+                }
+              ],
+              "values": [
+                {
+                  "group_id": "OG000",
+                  "value": "21.1",
+                  "spread": ""
+                },
+                {
+                  "group_id": "OG001",
+                  "value": "9.4",
+                  "spread": ""
+                }
+              ],
+              "analyses": []
+            }
+          ],
+          "n_primary": 3,
+          "n_secondary": 18,
+          "has_analyses": true
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04975308",
+          "title": "A Study of Imlunestrant, Investigator's Choice of Endocrine Therapy, and Imlunestrant Plus Abemaciclib in Participants With ER+, HER2- Advanced Breast Cancer",
+          "official_title": "EMBER-3: A Phase 3, Randomized, Open-Label Study of Imlunestrant, Investigator's Choice of Endocrine Therapy, and Imlunestrant Plus Abemaciclib in Patients With Estrogen Receptor Positive, HER2 Negative Locally Advanced or Metastatic Breast Cancer Previously Treated With Endocrine Therapy",
+          "acronym": "EMBER-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Eli Lilly and Company",
+          "conditions": [
+            "Breast Neoplasms",
+            "Neoplasm Metastasis"
+          ],
+          "interventions": [
+            "Imlunestrant",
+            "Exemestane",
+            "Fulvestrant",
+            "Abemaciclib"
+          ],
+          "primary_outcomes": [
+            "Investigator-assessed Progression Free Survival (PFS) (Between Arm A and Arm B)",
+            "Investigator-assessed PFS (Between Arm C and Arm A)",
+            "Investigator-assessed PFS in the Estrogen Receptor 1 (ESR1)-Mutation Detected Population (Between Arm A and Arm B)"
+          ],
+          "enrollment": 874,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-10-04",
+          "primary_completion": "2024-06-24",
+          "completion": "2027-08",
+          "last_update": "2026-07-22",
+          "results_first_post": "2025-07-11",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "India"
+          ],
+          "results": {
+            "primary": [
+              {
+                "title": "Investigator-assessed Progression Free Survival (PFS) (Between Arm A and Arm B)",
+                "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+                "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+                "type": "PRIMARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "5.55",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "5.52",
+                    "spread": ""
+                  }
+                ],
+                "analyses": [
+                  {
+                    "p_value": "0.1158",
+                    "ci_lower": "0.724",
+                    "ci_upper": "1.039",
+                    "ci_pct": "95",
+                    "test_type": "SUPERIORITY",
+                    "method": "Log Rank",
+                    "param_type": "Hazard Ratio (HR)",
+                    "param_value": "0.867",
+                    "group_ids": [
+                      "OG000",
+                      "OG001"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Investigator-assessed PFS (Between Arm C and Arm A)",
+                "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+                "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 26 months)",
+                "type": "PRIMARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm C: Imlunestrant + Abemaciclib"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm A: Imlunestrant"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "9.36",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "5.49",
+                    "spread": ""
+                  }
+                ],
+                "analyses": [
+                  {
+                    "p_value": "<0.0001",
+                    "ci_lower": "0.441",
+                    "ci_upper": "0.733",
+                    "ci_pct": "95",
+                    "test_type": "SUPERIORITY",
+                    "method": "Log Rank",
+                    "param_type": "Hazard Ratio (HR)",
+                    "param_value": "0.569",
+                    "group_ids": [
+                      "OG000",
+                      "OG001"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Investigator-assessed PFS in the Estrogen Receptor 1 (ESR1)-Mutation Detected Population (Between Arm A and Arm B)",
+                "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+                "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+                "type": "PRIMARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "5.49",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "3.84",
+                    "spread": ""
+                  }
+                ],
+                "analyses": [
+                  {
+                    "p_value": "0.0008",
+                    "ci_lower": "0.464",
+                    "ci_upper": "0.821",
+                    "ci_pct": "95",
+                    "test_type": "SUPERIORITY",
+                    "method": "Log Rank",
+                    "param_type": "Hazard Ratio (HR)",
+                    "param_value": "0.617",
+                    "group_ids": [
+                      "OG000",
+                      "OG001"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "secondary": [
+              {
+                "title": "Blinded Independent Review Committee (BIRC) Assessed PFS (Between Arm A and Arm B)",
+                "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+                "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 28 months)",
+                "type": "SECONDARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "9.23",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "7.36",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              },
+              {
+                "title": "Blinded Independent Review Committee (BIRC) Assessed PFS (Between Arm C and Arm A)",
+                "description": "PFS was defined as the time from randomization to the date of first documented progression of disease or death from any cause in the absence of disease progression using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria, as assessed by investigator. Progressive disease (PD) ",
+                "time_frame": "Randomization to the date of first documented progression of disease or death from any cause (up to 25 months)",
+                "type": "SECONDARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm C: Imlunestrant + Abemaciclib"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm A: Imlunestrant"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "14.52",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "9.23",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              },
+              {
+                "title": "Percentage of Participants With Investigator-assessed Objective Response Rate (ORR) (Between Arm A and Arm B)",
+                "description": "ORR was the best confirmed overall tumor response of complete response (CR) or partial response (PR) as classified by the investigator according to the Response Evaluation Criteria In Solid Tumors (RECIST v1.1). CR is a disappearance of all target and non-target lesions and normalization of tumor ma",
+                "time_frame": "Randomization until measured progressive disease (up to 28 months)",
+                "type": "SECONDARY",
+                "param_type": "NUMBER",
+                "unit": "Percentage of participants",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "10.3",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "6.4",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              },
+              {
+                "title": "Investigator-assessed Duration of Response (DoR) (Between Arm A and Arm B)",
+                "description": "DoR is defined as the time from the date measurement criteria for CR or PR (whichever is first recorded) are first met until the first date that disease is recurrent or objective progression is observed, per RECIST 1.1 criteria, or the date of death from any cause in the absence of objectively deter",
+                "time_frame": "From Date of CR or PR to Date of Objective Disease Progression or Death Due to Any Cause (Up To 26 Months)",
+                "type": "SECONDARY",
+                "param_type": "MEDIAN",
+                "unit": "Months",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "11.10",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "7.39",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              },
+              {
+                "title": "Percentage of Participants With Investigator-assessed Clinical Benefit Rate (CBR) (Between Arm A and Arm B)",
+                "description": "CBR was the best confirmed overall tumor response of stable disease (SD) for greater than or equal to (≥) 24 weeks, CR or PR as defined by RECIST v1.1. CR is a disappearance of all target and non-target lesions and normalization of tumor marker level. PR is an at least 30% decrease in the sum of the",
+                "time_frame": "Randomization until measured progressive disease (up to 28 months)",
+                "type": "SECONDARY",
+                "param_type": "NUMBER",
+                "unit": "Percentage of participants",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm A: Imlunestrant"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm B: Investigator's Choice of Endocrine Therapy"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "46.8",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "45.5",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              },
+              {
+                "title": "Percentage of Participants With Investigator-assessed Objective Response Rate (ORR) (Between Arm C and Arm A)",
+                "description": "ORR was the best confirmed overall tumor response of complete response (CR) or partial response (PR) as classified by the investigator according to the Response Evaluation Criteria In Solid Tumors (RECIST v1.1). CR is a disappearance of all target and non-target lesions and normalization of tumor ma",
+                "time_frame": "Randomization until measured progressive disease (up to 26 months)",
+                "type": "SECONDARY",
+                "param_type": "NUMBER",
+                "unit": "Percentage of participants",
+                "reporting_status": "POSTED",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Arm C: Imlunestrant + Abemaciclib"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Arm A: Imlunestrant"
+                  }
+                ],
+                "values": [
+                  {
+                    "group_id": "OG000",
+                    "value": "21.1",
+                    "spread": ""
+                  },
+                  {
+                    "group_id": "OG001",
+                    "value": "9.4",
+                    "spread": ""
+                  }
+                ],
+                "analyses": []
+              }
+            ],
+            "n_primary": 3,
+            "n_secondary": 18,
+            "has_analyses": true
+          }
+        },
+        {
+          "nct": "NCT05065411",
+          "title": "Efficacy & Safety Evaluation of Enobosarm in Combo With Abemaciclib in Treatment of ER+HER2- Metastatic Breast Cancer",
+          "official_title": "P3 Efficacy Evaluation of Enobosarm in Combo With Abemaciclib Compared to Estrogen Blocking Agent for 2nd Line Treatment of ER+HER2- MBC in Patients Who Have Shown Previous Disease Progression on an Estrogen Blocking Agent Plus Palbociclib",
+          "acronym": "VERU-024",
+          "status": "TERMINATED",
+          "why_stopped": "Business decision",
+          "phase": "PHASE3",
+          "sponsor": "Veru Inc.",
+          "conditions": [
+            "Metastatic Breast Cancer"
+          ],
+          "interventions": [
+            "Enobosarm & Abemaciclib Combo",
+            "non-steroidal AI, or steroidal AI (exemestane with or without everolimus) or Fulvestrant"
+          ],
+          "primary_outcomes": [
+            "Primary endpoint for the study is the median progression free survival (PFS) in the Enobosarm Combination Group compared to the Control Treatment Group in patients with AR% nuclei staining ≥40%. Progression will be defined based on RECIST 1.1 criteria"
+          ],
+          "enrollment": 5,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-04-11",
+          "primary_completion": "2023-10-19",
+          "completion": "2024-01-09",
+          "last_update": "2024-02-26",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05891093",
+          "title": "Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)",
+          "official_title": "A Prospective, Randomized, Open-label Phase III Clinical Study of the Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy Versus Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Fudan University",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "Fluzoparib",
+            "Anastrozole",
+            "Letrozole",
+            "Exemestane",
+            "Tamoxifen",
+            "Toremifene",
+            "Abemaciclib",
+            "LHRH agonist"
+          ],
+          "primary_outcomes": [
+            "invasive disease free survival (iDFS)"
+          ],
+          "enrollment": 766,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-06-01",
+          "primary_completion": "2028-05-31",
+          "completion": "2031-05-31",
+          "last_update": "2024-02-08",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT04975308"
+        ],
+        "drug": [
+          "abemaciclib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "e7781af9ac242729": {
+    "id": "e7781af9ac242729",
+    "title": "国家药监局批准注射用亚胺西福上市",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "州信诺维医药",
+          "科技股份"
+        ],
+        "sponsor_en": [
+          "州信诺维医药",
+          "科技股份"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（州信诺维医药、科技股份）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "e28ac50fab6ca9c9": {
+    "id": "e28ac50fab6ca9c9",
+    "title": "国家药监局批准奥氟格列隆钙片上市",
+    "score": 6.9,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT07795164",
+        "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
+        "official_title": "A Phase 3, Multinational, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in Subjects With Noncirrhotic Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+        "acronym": "PERFORMA",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Altimmune, Inc.",
+        "conditions": [
+          "Metabolic Dysfunction-Associated Steatohepatitis (MASH)"
+        ],
+        "interventions": [
+          "Pemvidutide",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Clinical Outcome Event",
+          "Histological Response: MASH resolution",
+          "Histological Response: Fibrosis improvement"
+        ],
+        "enrollment": 1800,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-07-30",
+        "primary_completion": "2028-12",
+        "completion": "2032-12",
+        "last_update": "2026-09-23",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07795164",
+          "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
+          "official_title": "A Phase 3, Multinational, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in Subjects With Noncirrhotic Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+          "acronym": "PERFORMA",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Metabolic Dysfunction-Associated Steatohepatitis (MASH)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Clinical Outcome Event",
+            "Histological Response: MASH resolution",
+            "Histological Response: Fibrosis improvement"
+          ],
+          "enrollment": 1800,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-30",
+          "primary_completion": "2028-12",
+          "completion": "2032-12",
+          "last_update": "2026-09-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05989711",
+          "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "official_title": "A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Pemvidutide in Non-Cirrhotic Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "acronym": "IMPACT",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Non-Alcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Proportion of subjects achieving NASH resolution (NAFLD activity score [NAS], ballooning = 0; lobular inflammation = 0, 1) with at least a 2-point reduction in NAS without worsening of fibrosis",
+            "Proportion of subjects achieving at least 1 stage improvement in liver fibrosis without worsening of NASH (defined as no change in the NAS, ie, the sum score for ballooning, inflammation, and steatosis)",
+            "Incidence of Treatment Emergent Adverse Events"
+          ],
+          "enrollment": 212,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-07-27",
+          "primary_completion": "2025-11-25",
+          "completion": "2025-11-25",
+          "last_update": "2026-05-18",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Puerto Rico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06987513",
+          "title": "RECLAIM STUDY: Phase 2 Study of the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+          "official_title": "RECLAIM STUDY: A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Altimmune, Inc.",
+          "conditions": [
+            "Alcohol Use Disorder (AUD)"
+          ],
+          "interventions": [
+            "Pemvidutide",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from baseline in the average number of heavy drinking days per week"
+          ],
+          "enrollment": 100,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-05-15",
+          "primary_completion": "2026-07-30",
+          "completion": "2026-07-30",
+          "last_update": "2026-07-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pemvidutide"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "26ec26fe0e31e7ec": {
+    "id": "26ec26fe0e31e7ec",
+    "title": "首个全球III期Trofuse-005告捷，芦康沙妥珠单抗定义晚期经治子宫内膜癌标准治疗",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b81c4e91b69ba150": {
+    "id": "b81c4e91b69ba150",
+    "title": "礼来：口服 GLP-1减肥药在中国获批上市",
+    "score": 6.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "c5545950b27590de": {
+    "id": "c5545950b27590de",
+    "title": "众生药业（002317.SZ）事件点评：ZSP1601 IIb期完整数据读出，国产口服MASH新药彰显FIC&BIC潜力",
+    "score": 7.6,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04140123",
+        "title": "Tolerability, Efficacy, and PK of ZSP1601 in Patients With Non-Alcoholic Steatohepatitis (NASH)",
+        "official_title": "A Multi-center, Randomized, Double-blind, Dose-increasing, Placebo-controlled，Multi-dose, 28-day Continuous Administration Phase Ib/IIa Clinical Trial to Evaluate the Tolerability, Efficacy, and PK of ZSP1601 in Patients With Nonalcoholic Steatohepatitis",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+        "conditions": [
+          "Non-Alcoholic Steatohepatitis (NASH)"
+        ],
+        "interventions": [
+          "ZSP1601",
+          "ZSP1601 Placebo"
+        ],
+        "primary_outcomes": [
+          "Number and severity of treatment-emergent adverse events (TEAEs) and Serious Adverse Events(SAE) following oral doses of ZSP1601 and placebo."
+        ],
+        "enrollment": 37,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-06-23",
+        "primary_completion": "2021-08-03",
+        "completion": "2021-08-03",
+        "last_update": "2021-10-11",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04140123",
+          "title": "Tolerability, Efficacy, and PK of ZSP1601 in Patients With Non-Alcoholic Steatohepatitis (NASH)",
+          "official_title": "A Multi-center, Randomized, Double-blind, Dose-increasing, Placebo-controlled，Multi-dose, 28-day Continuous Administration Phase Ib/IIa Clinical Trial to Evaluate the Tolerability, Efficacy, and PK of ZSP1601 in Patients With Nonalcoholic Steatohepatitis",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "conditions": [
+            "Non-Alcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "ZSP1601",
+            "ZSP1601 Placebo"
+          ],
+          "primary_outcomes": [
+            "Number and severity of treatment-emergent adverse events (TEAEs) and Serious Adverse Events(SAE) following oral doses of ZSP1601 and placebo."
+          ],
+          "enrollment": 37,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-06-23",
+          "primary_completion": "2021-08-03",
+          "completion": "2021-08-03",
+          "last_update": "2021-10-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05692492",
+          "title": "A Randomized, Double-blind, Placebo-controlled Study of ZSP1601 in Adult Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled Phase 2b Study of ZSP1601 in Adult Subjects With Nonalcoholic Steatohepatitis (NASH)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Guangdong Raynovent Biotech Co., Ltd",
+          "conditions": [
+            "Nonalcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "ZSP1601",
+            "ZSP1601",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Percent of patients with improvement of steatohepatitis and no worsening of liver fibrosis or improvement in liver fibrosis greater than or equal to one stage and no worsening of the steatohepatitis"
+          ],
+          "enrollment": 180,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-06-03",
+          "primary_completion": "2026-06-16",
+          "completion": "2026-12-16",
+          "last_update": "2025-03-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03392779",
+          "title": "Study in Chinese Healthy Adults to Evaluate the Safety, Tolerability and Pharmacokinetics on ZSP1601, and the Effect of Food on ZSP1601 Pharmacokinetics",
+          "official_title": "A Phase 1 Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Pharmacokinetics of ZSP1601 and the Effect of Food on ZSP1601 Pharmacokinetics in Chinese Healthy Subjects.",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Guangdong Zhongsheng Pharmaceutical Co., Ltd.",
+          "conditions": [
+            "Nonalcoholic Steatohepatitis (NASH)"
+          ],
+          "interventions": [
+            "ZSP1601 25 mg",
+            "Placebo 25mg",
+            "ZSP1601 50 mg",
+            "Placebo 50 mg",
+            "ZSP1601 100 mg",
+            "Placebo 100 mg",
+            "ZSP1601 175 mg",
+            "Placebo 175 mg",
+            "ZSP1601 275 mg",
+            "Placebo 275 mg",
+            "ZSP1601 350 mg",
+            "Placebo 350mg",
+            "ZSP1601 100 mg",
+            "Placebo 100mg",
+            "ZSP1601 50 mg",
+            "Placebo 50 mg",
+            "ZSP1601 100 mg",
+            "Placebo 100 mg"
+          ],
+          "primary_outcomes": [
+            "Number and severity of treatment-emergent adverse events (TEAEs) and Serious Adverse Events(SAE) following oral doses(single,multiple and food effect)of ZSP1601 and placebo.",
+            "Concomitant Medication",
+            "Clinical Laboratory Abnormalities(Blood routine test, serum biochemical test, conventional coagulation examinations, urine examination ) post dose of ZSP1601 and placebo.",
+            "12-lead ECG Abnormalities following oral dosing of ZSP1601 and placebo.",
+            "Vital signs Abnormalities following oral dosing of ZSP1601 and placebo.",
+            "Physical examination Abnormalities following oral dossing of ZSP1601 and placebo.",
+            "Cardiac color ultrasound(UCG) Abnormalities following multiple oral doses of ZSP1601 and placebo."
+          ],
+          "enrollment": 94,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-01-05",
+          "primary_completion": "2018-12-21",
+          "completion": "2019-03-22",
+          "last_update": "2019-08-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "ZSP1601"
+        ],
+        "sponsor": [
+          "众生药业",
+          "众生睿创生物"
+        ],
+        "sponsor_en": [
+          "众生药业",
+          "众生睿创生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "b7746f195c915645": {
+    "id": "b7746f195c915645",
+    "title": "国内首个！恒瑞医药1类新药获批上市",
+    "score": 8.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06723652",
+        "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of SHR-1918 in Patients With Homozygous Familial Hypercholesterolemia",
+        "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of SHR-1918 in Patients With Homozygous Familial Hypercholesterolemia",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Beijing Suncadia Pharmaceuticals Co., Ltd",
+        "conditions": [
+          "Homozygous Familial Hypercholesterolemia"
+        ],
+        "interventions": [
+          "SHR-1918",
+          "SHR-1918 placebo"
+        ],
+        "primary_outcomes": [
+          "Percent change in calculated LDL-C from baseline to week 12"
+        ],
+        "enrollment": 55,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2025-02-13",
+        "primary_completion": "2025-08-25",
+        "completion": "2025-11-18",
+        "last_update": "2025-12-15",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06723652",
+          "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of SHR-1918 in Patients With Homozygous Familial Hypercholesterolemia",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study Evaluating the Efficacy and Safety of SHR-1918 in Patients With Homozygous Familial Hypercholesterolemia",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Beijing Suncadia Pharmaceuticals Co., Ltd",
+          "conditions": [
+            "Homozygous Familial Hypercholesterolemia"
+          ],
+          "interventions": [
+            "SHR-1918",
+            "SHR-1918 placebo"
+          ],
+          "primary_outcomes": [
+            "Percent change in calculated LDL-C from baseline to week 12"
+          ],
+          "enrollment": 55,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-02-13",
+          "primary_completion": "2025-08-25",
+          "completion": "2025-11-18",
+          "last_update": "2025-12-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07230730",
+          "title": "A Trial to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia",
+          "official_title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Beijing Suncadia Pharmaceuticals Co., Ltd",
+          "conditions": [
+            "Hyperlipidemia"
+          ],
+          "interventions": [
+            "SHR-1918",
+            "SHR-1918 placebo"
+          ],
+          "primary_outcomes": [
+            "The percentage change of serum LDL-C from baseline",
+            "The percentage change in serum TG from baseline"
+          ],
+          "enrollment": 900,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-01-13",
+          "primary_completion": "2027-10",
+          "completion": "2027-10",
+          "last_update": "2026-09-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07404553",
+          "title": "A Study Of SHR-1918 In Participants With Hypercholesterolemia With Inadequate Lipid Control on Statins Plus PCSK9 Inhibitors",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase II/III Study to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hypercholesterolemia With Inadequate Lipid Control on Statins Plus PCSK9 Inhibitors",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Beijing Suncadia Pharmaceuticals Co., Ltd",
+          "conditions": [
+            "Hypercholesterolemia"
+          ],
+          "interventions": [
+            "SHR-1918 Injection",
+            "SHR-1918 Injection Placebo"
+          ],
+          "primary_outcomes": [
+            "Percentage change in low density lipoprotein cholesterol (LDL-C) levels at Week 12 relative to baseline.",
+            "Percentage change in low density lipoprotein cholesterol (LDL-C) levels at Week 24 relative to baseline."
+          ],
+          "enrollment": 126,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-04-30",
+          "primary_completion": "2028-07",
+          "completion": "2028-08",
+          "last_update": "2026-06-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "SHR-1918"
+        ],
+        "sponsor": [
+          "恒瑞医药",
+          "是恒瑞医药",
+          "江苏恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Hengrui",
+          "Hengrui",
+          "Hengrui"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "3741722618d1adff": {
+    "id": "3741722618d1adff",
+    "title": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "056ec291f242fc17": {
+    "id": "056ec291f242fc17",
+    "title": "<![CDATA[First-Line Niraparib Maintenance Yields Longer PFS in HRD-Positive vs HRD-Negative Optimally Debulked Ovarian Cancer]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=WITHDRAWN，原因：Study has been withdrawn; was never submitted to Competent authority nor to ethi"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：注册库状态=WITHDRAWN，原因：Study has been withdrawn; was never submitted to Competent authority nor to ethi",
+    "registry": {
+      "best": {
+        "nct": "NCT05126342",
+        "title": "Study to Estimate Efficacy of Combining Dostarlimab and Niraparib in Relapsed EOC After Treatment With PARPi",
+        "official_title": "A Pilot Study to Estimate Efficacy of Combining Dostarlimab and Niraparib in Patients With Relapsed EOC After Treatment With PARPi",
+        "acronym": "",
+        "status": "WITHDRAWN",
+        "why_stopped": "Study has been withdrawn; was never submitted to Competent authority nor to ethics commitee.",
+        "phase": "PHASE2",
+        "sponsor": "AGO Research GmbH",
+        "conditions": [
+          "Recurrent Ovarian Cancer",
+          "Recurrent Fallopian Tube Cancer",
+          "Primary Peritoneal Cancer"
+        ],
+        "interventions": [
+          "Niraparib",
+          "Dostarlimab"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR)"
+        ],
+        "enrollment": 0,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-11-01",
+        "primary_completion": "2024-11-01",
+        "completion": "2026-11-01",
+        "last_update": "2025-04-06",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05126342",
+          "title": "Study to Estimate Efficacy of Combining Dostarlimab and Niraparib in Relapsed EOC After Treatment With PARPi",
+          "official_title": "A Pilot Study to Estimate Efficacy of Combining Dostarlimab and Niraparib in Patients With Relapsed EOC After Treatment With PARPi",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Study has been withdrawn; was never submitted to Competent authority nor to ethics commitee.",
+          "phase": "PHASE2",
+          "sponsor": "AGO Research GmbH",
+          "conditions": [
+            "Recurrent Ovarian Cancer",
+            "Recurrent Fallopian Tube Cancer",
+            "Primary Peritoneal Cancer"
+          ],
+          "interventions": [
+            "Niraparib",
+            "Dostarlimab"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-01",
+          "primary_completion": "2024-11-01",
+          "completion": "2026-11-01",
+          "last_update": "2025-04-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03752216",
+          "title": "NIraparib and Quality of LifE is a Longitudinal Study Evaluating in Real Life the Tolerability of Niraparib.",
+          "official_title": "Longitudinal Study Evaluating in Real Life the Tolerability of Niraparib in Maintenance After Platine-based Chemotherapy for Patients with Ovarian Cancer Late Relapse : the French GINECO - NiQoLe Study",
+          "acronym": "NiQoLe",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE4",
+          "sponsor": "ARCAGY/ GINECO GROUP",
+          "conditions": [
+            "Ovarian Cancer"
+          ],
+          "interventions": [
+            "Niraparib"
+          ],
+          "primary_outcomes": [
+            "Toxicities inducing dose modifications of Niraparib between the start to the cycle 3 (interruption, discontinuation and dose reduction)."
+          ],
+          "enrollment": 141,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-04-03",
+          "primary_completion": "2021-08-18",
+          "completion": "2022-12-13",
+          "last_update": "2024-12-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04673448",
+          "title": "Niraparib and TSR-042 for the Treatment of BRCA-Mutated Unresectable or Metastatic Breast, Pancreas, Ovary, Fallopian Tube, or Primary Peritoneal Cancer",
+          "official_title": "Phase IB Trial of Niraparib and Dostarlimab (TSR-042) in Patients With BRCA-Mutated Breast, Pancreas or Ovary Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "University of Washington",
+          "conditions": [
+            "Anatomic Stage III Breast Cancer AJCC v8",
+            "Anatomic Stage IV Breast Cancer AJCC v8",
+            "BRCA-Associated Malignant Neoplasm",
+            "BRCA Hereditary Ovarian Carcinoma",
+            "Metastatic BRCA Hereditary Breast Carcinoma",
+            "Metastatic Breast Carcinoma",
+            "Metastatic Fallopian Tube Carcinoma",
+            "Metastatic Malignant Solid Neoplasm",
+            "Metastatic Ovarian Carcinoma",
+            "Metastatic Pancreatic Carcinoma",
+            "Metastatic Primary Peritoneal Carcinoma",
+            "Prognostic Stage III Breast Cancer AJCC v8",
+            "Prognostic Stage IV Breast Cancer AJCC v8",
+            "Stage III Fallopian Tube Cancer AJCC v8",
+            "Stage III Ovarian Cancer AJCC v8",
+            "Stage III Pancreatic Cancer AJCC v8",
+            "Stage III Primary Peritoneal Cancer AJCC v8",
+            "Stage IV Fallopian Tube Cancer AJCC v8",
+            "Stage IV Ovarian Cancer AJCC v8",
+            "Stage IV Pancreatic Cancer AJCC v8",
+            "Stage IV Primary Peritoneal Cancer AJCC v8",
+            "Unresectable Breast Carcinoma",
+            "Unresectable Fallopian Tube Carcinoma",
+            "Unresectable Malignant Solid Neoplasm",
+            "Unresectable Ovarian Carcinoma",
+            "Unresectable Pancreatic Carcinoma",
+            "Unresectable Primary Peritoneal Carcinoma"
+          ],
+          "interventions": [
+            "Dostarlimab",
+            "Niraparib",
+            "Biopsy",
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging"
+          ],
+          "primary_outcomes": [
+            "Best objective response"
+          ],
+          "enrollment": 18,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-10-18",
+          "primary_completion": "2025-12-31",
+          "completion": "2027-09-30",
+          "last_update": "2026-08-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Niraparib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "31307272c515d0f5": {
+    "id": "31307272c515d0f5",
+    "title": "FDA最新安全性警示：GLP-1类药物新增NAION风险黑框提示，司美格鲁肽、替尔泊肽全品类涉入",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "江苏恒瑞医药",
+          "山东博安生物",
+          "技术股份"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "Hengrui",
+          "山东博安生物",
+          "技术股份"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "d2d5540422808ae5": {
+    "id": "d2d5540422808ae5",
+    "title": "降了78%的Lp(a)，为何换不来心血管获益？",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {
+        "nct": "NCT05305664",
+        "title": "A Multicenter Trial Assessing the Impact of Lipoprotein(a) Lowering With Pelacarsen (TQJ230) on the Rate of Weekly Lipoprotein Apheresis Sessions in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease in Germany",
+        "official_title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Trial Assessing the Reduction of the Rate of Lipoprotein Apheresis After Treatment With Pelacarsen (TQJ230) Compared to Placebo in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease Undergoing Weekly Lipoprotein Apheresis in Germany",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals",
+        "conditions": [
+          "Hyperlipoproteinemia(a)"
+        ],
+        "interventions": [
+          "Pelacarsen (TQJ230) 80 mg s.c.",
+          "Corresponding Placebo"
+        ],
+        "primary_outcomes": [
+          "Rate of Lipoprotein Apheresis Sessions Performed Over 52 Weeks Normalized to the Weekly Lipoprotein Apheresis Schedule"
+        ],
+        "enrollment": 51,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-08-19",
+        "primary_completion": "2025-01-28",
+        "completion": "2025-01-28",
+        "last_update": "2026-07-17",
+        "results_first_post": "2026-07-17",
+        "has_results": true,
+        "countries": [
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05305664",
+          "title": "A Multicenter Trial Assessing the Impact of Lipoprotein(a) Lowering With Pelacarsen (TQJ230) on the Rate of Weekly Lipoprotein Apheresis Sessions in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease in Germany",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Trial Assessing the Reduction of the Rate of Lipoprotein Apheresis After Treatment With Pelacarsen (TQJ230) Compared to Placebo in Patients With Hyperlipoproteinemia(a) and Established Cardiovascular Disease Undergoing Weekly Lipoprotein Apheresis in Germany",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Hyperlipoproteinemia(a)"
+          ],
+          "interventions": [
+            "Pelacarsen (TQJ230) 80 mg s.c.",
+            "Corresponding Placebo"
+          ],
+          "primary_outcomes": [
+            "Rate of Lipoprotein Apheresis Sessions Performed Over 52 Weeks Normalized to the Weekly Lipoprotein Apheresis Schedule"
+          ],
+          "enrollment": 51,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-08-19",
+          "primary_completion": "2025-01-28",
+          "completion": "2025-01-28",
+          "last_update": "2026-07-17",
+          "results_first_post": "2026-07-17",
+          "has_results": true,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05900141",
+          "title": "An Open Label Extension (OLE) Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230)",
+          "official_title": "A Single Arm, Open Label Extension (OLE), Multicenter Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230) in Patients With Cardiovascular Disease Who Have Successfully Completed the Apheresis Parent Study.",
+          "acronym": "OLE",
+          "status": "TERMINATED",
+          "why_stopped": "Study terminated by sponsor following the outcome of the Lp(a)HORIZON study (NCT04023552), which did not meet its primary endpoint",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Hyperlipoproteinemia (a)"
+          ],
+          "interventions": [
+            "Pelacarsen"
+          ],
+          "primary_outcomes": [
+            "Incidence of Adverse events (AEs) or serious adverse events (SAEs), including changes in laboratory evaluations, vital signs qualifying and reported as AEs.",
+            "Duration of drug exposure"
+          ],
+          "enrollment": 41,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-09-29",
+          "primary_completion": "2026-10-15",
+          "completion": "2026-10-15",
+          "last_update": "2026-11-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06813911",
+          "title": "Lp(a) Lowering Study of Pelacarsen (TQJ230) With Background Inclisiran in Participants With Elevated Lp(a) and Established ASCVD",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy, Safety, and Tolerability of Pelacarsen (TQJ230) With Background Inclisiran in Participants With Atherosclerotic Cardiovascular Disease (ASCVD), and Elevated LDL-C and Lp(a)",
+          "acronym": "ADD-VANTAGE",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Atherosclerotic Cardiovascular Disease (ASCVD)"
+          ],
+          "interventions": [
+            "Pelacarsen",
+            "Placebo",
+            "Inclisiran"
+          ],
+          "primary_outcomes": [
+            "Change in log transformed lipoprotein A (Lp(a)) concentration"
+          ],
+          "enrollment": 246,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-04-30",
+          "primary_completion": "2028-02-03",
+          "completion": "2028-02-29",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "China",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Italy",
+            "Netherlands",
+            "Puerto Rico",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pelacarsen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

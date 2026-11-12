@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-13",
+  "count": 6,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:shr-1918",
+      "lead_id": "b7746f195c915645",
+      "title": "国内首个！恒瑞医药1类新药获批上市",
+      "score": 8.0,
+      "channel": "china",
+      "member_ids": [
+        "b7746f195c915645",
+        "0f3b40b945d81d23"
+      ],
+      "members": [
+        {
+          "title": "国内首个！恒瑞医药1类新药获批上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_392334",
+          "score": 8.0,
+          "reasoning": "国产ANGPTL3单抗获批且材料称其为首款同机制国内上市产品，是兼具监管进展和首创性的高价值事件，依据是批准结论而非本条新增统计读出。"
+        },
+        {
+          "title": "国家药监局批准芮弗西拜单抗注射液（皮下注射）上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_392329",
+          "score": 7.1,
+          "reasoning": "用于HoFH的ANGPTL3单抗获优先审评批准是重要临床进展，依据是监管批准结论而非本条试验统计读出；HoFH可用治疗选择有限，且材料明确涉及国产项目。"
+        }
+      ],
+      "reasoning": "国产ANGPTL3单抗获批且材料称其为首款同机制国内上市产品，是兼具监管进展和首创性的高价值事件，依据是批准结论而非本条新增统计读出。",
+      "_idx": 1
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:orforglipron",
+      "lead_id": "e28ac50fab6ca9c9",
+      "title": "国家药监局批准奥氟格列隆钙片上市",
+      "score": 6.9,
+      "channel": "china",
+      "member_ids": [
+        "e28ac50fab6ca9c9",
+        "b81c4e91b69ba150"
+      ],
+      "members": [
+        {
+          "title": "国家药监局批准奥氟格列隆钙片上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_392330",
+          "score": 6.9,
+          "reasoning": "口服GLP-1受体药物获NMPA批准属于中国监管里程碑，依据是监管批准结论而非本条新增统计结果；肥胖治疗赛道竞争激烈，选题价值主要来自口服给药及中国准入。"
+        },
+        {
+          "title": "礼来：口服 GLP-1减肥药在中国获批上市",
+          "url": "https://bydrug.pharmcube.com/news/detail/f1da4e84223ff204a0272f69be1e340e",
+          "score": 6.7,
+          "reasoning": "口服GLP-1减重药在中国获批属于重要监管进展，依据是监管批准结论而非本条新增试验的统计读出；鉴于该领域竞争充分，选题价值主要来自中国准入节点，具体药名和关键试验数据仍需核实。"
+        }
+      ],
+      "reasoning": "口服GLP-1受体药物获NMPA批准属于中国监管里程碑，依据是监管批准结论而非本条新增统计结果；肥胖治疗赛道竞争激烈，选题价值主要来自口服给药及中国准入。",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:toripalimab",
+      "lead_id": "dfd27cc8fb59122c",
+      "title": "陆舜教授：NEOTORCH研究最终分析结果公布，为可切除Ⅱ/Ⅲ期NSCLC写下长期生存的“中国答案”",
+      "score": 9.0,
+      "channel": "china",
+      "member_ids": [
+        "dfd27cc8fb59122c"
+      ],
+      "members": [
+        {
+          "title": "陆舜教授：NEOTORCH研究最终分析结果公布，为可切除Ⅱ/Ⅲ期NSCLC写下长期生存的“中国答案”",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_392344",
+          "score": 9.0,
+          "reasoning": "NEOTORCHⅢ期最终分析以EFS达到阳性结果为核心，并同时有ESMO LBA和论文发表，依据是明确的统计结论而非疗效数字；中国牵头、可切除NSCLC围术期治疗及长期随访使其具有较高报道价值。"
+        }
+      ],
+      "reasoning": "NEOTORCHⅢ期最终分析以EFS达到阳性结果为核心，并同时有ESMO LBA和论文发表，依据是明确的统计结论而非疗效数字；中国牵头、可切除NSCLC围术期治疗及长期随访使其具有较高报道价值。",
+      "verify_todo": [
+        "核实EFS的HR、置信区间和预设显著性阈值",
+        "核实成熟OS结果及随访时间",
+        "核实各治疗组样本量、分层因素和安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ponatinib-blinatumomab",
+      "lead_id": "6e6bde11fef94d38",
+      "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+      "score": 8.4,
+      "channel": "global",
+      "member_ids": [
+        "6e6bde11fef94d38"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+          "url": "https://www.targetedonc.com/view/in-phase-3-ponatinib-blinatumomab-improves-efs-in-ph-all",
+          "score": 8.4,
+          "reasoning": "Ⅲ期研究明确报告联合方案改善Ph阳性ALL的EFS，依据是明确的疗效比较结论而非单独疗效数字；对高风险血液肿瘤和潜在移植前减瘤方案具有较高行业报道价值。"
+        }
+      ],
+      "reasoning": "Ⅲ期研究明确报告联合方案改善Ph阳性ALL的EFS，依据是明确的疗效比较结论而非单独疗效数字；对高风险血液肿瘤和潜在移植前减瘤方案具有较高行业报道价值。",
+      "verify_todo": [
+        "核实试验名称、适用年龄或疾病阶段及样本量",
+        "核实EFS的HR、置信区间、p值和成熟度",
+        "核实主要安全性、停药率及后续桥接移植结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:daraxonrasib",
+      "lead_id": "229c49298523631f",
+      "title": "EMA recommends granting a marketing authorisation for daraxonrasib",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "229c49298523631f"
+      ],
+      "members": [
+        {
+          "title": "EMA recommends granting a marketing authorisation for daraxonrasib",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/ema-recommends-granting-a-marketing-authorisation-for-daraxonrasib",
+          "score": 8.2,
+          "reasoning": "EMA积极推荐授予上市许可属于高价值监管进展，依据是CHMP监管结论而非本条新增试验统计读出；适应证涉及经治转移性胰腺癌，未满足需求突出。"
+        }
+      ],
+      "reasoning": "EMA积极推荐授予上市许可属于高价值监管进展，依据是CHMP监管结论而非本条新增试验统计读出；适应证涉及经治转移性胰腺癌，未满足需求突出。",
+      "verify_todo": [
+        "核实支持批准的注册性试验、主要终点、效应量和统计结果",
+        "核实最终欧盟批准状态及时间表",
+        "核实作用机制、同类首创性及主要安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:imlunestrant",
+      "lead_id": "43e07d3b98e8f532",
+      "title": "FDA approves imlunestrant in combination with abemaciclib for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "43e07d3b98e8f532"
+      ],
+      "members": [
+        {
+          "title": "FDA approves imlunestrant in combination with abemaciclib for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/fda-approves-imlunestrant-in-combination-with-abemaciclib-for-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer",
+          "score": 8.0,
+          "reasoning": "FDA批准基于EMBER-3的联合方案，属于明确监管性终点结论而非本条单独疗效数字；针对既往内分泌治疗后进展的ESR1突变乳腺癌具有较强临床和商业报道价值。"
+        }
+      ],
+      "reasoning": "FDA批准基于EMBER-3的联合方案，属于明确监管性终点结论而非本条单独疗效数字；针对既往内分泌治疗后进展的ESR1突变乳腺癌具有较强临床和商业报道价值。",
+      "verify_todo": [
+        "核实EMBER-3的PFS和OS结果、效应量、置信区间及p值",
+        "核实批准所依据的完整人群和用药条件",
+        "核实联合用药安全性及口服给药的同类新颖性"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
