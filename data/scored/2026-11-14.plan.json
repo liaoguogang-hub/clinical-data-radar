@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-14",
+  "count": 6,
+  "plan": [
+    {
+      "type": "milestone",
+      "cluster_key": "drug:亚胺西福",
+      "lead_id": "949ef56060cec215",
+      "title": "NMPA单日3款创新药获批上市！信诺维、礼来、恒瑞同日拿下重磅品种，覆盖抗感染、减重降脂三大赛道",
+      "score": 8.2,
+      "channel": "china",
+      "member_ids": [
+        "949ef56060cec215"
+      ],
+      "members": [
+        {
+          "title": "NMPA单日3款创新药获批上市！信诺维、礼来、恒瑞同日拿下重磅品种，覆盖抗感染、减重降脂三大赛道",
+          "url": "https://www.pharnexcloud.com/zixun/gpjx_392453",
+          "score": 8.2,
+          "reasoning": "NMPA同日批准三款创新药构成高价值监管结果，其中亚胺西福的III期REITAB-2被报告达到非劣效终点；依据是注册结果和媒体对终点结论的明确表述，而非仅凭疗效数字。耐药革兰阴性菌感染需求较强，但其他两款药物应按独立产品拆分报道。"
+        }
+      ],
+      "reasoning": "NMPA同日批准三款创新药构成高价值监管结果，其中亚胺西福的III期REITAB-2被报告达到非劣效终点；依据是注册结果和媒体对终点结论的明确表述，而非仅凭疗效数字。耐药革兰阴性菌感染需求较强，但其他两款药物应按独立产品拆分报道。",
+      "verify_todo": [
+        "核实三款药物各自的完整通用名、批准日期和完整适应证",
+        "核实REITAB-2样本量、非劣界值、主要终点及完整统计结果",
+        "核实奥氟格列隆和芮弗西拜单抗各自支持审批的关键试验结果",
+        "核实亚胺西福“全球首个相关复方制剂”的表述"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:upadacitinib",
+      "lead_id": "fe0157c52dbb2be9",
+      "title": "瑞福®（乌帕替尼缓释片）非节段型白癜风新适应症在华获批，用于治疗成人和12岁及以上青少年患者",
+      "score": 7.4,
+      "channel": "china",
+      "member_ids": [
+        "fe0157c52dbb2be9"
+      ],
+      "members": [
+        {
+          "title": "瑞福®（乌帕替尼缓释片）非节段型白癜风新适应症在华获批，用于治疗成人和12岁及以上青少年患者",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_392854",
+          "score": 7.4,
+          "reasoning": "标题明确称乌帕替尼缓释片非节段型白癜风适应症在华获批，属于监管结果而非试验统计结论；适应症扩展及具体患者范围使其具有临床报道价值，但疗效数字与试验设计仍需补充。发布日期未知。"
+        }
+      ],
+      "reasoning": "标题明确称乌帕替尼缓释片非节段型白癜风适应症在华获批，属于监管结果而非试验统计结论；适应症扩展及具体患者范围使其具有临床报道价值，但疗效数字与试验设计仍需补充。发布日期未知。",
+      "verify_todo": [
+        "核实批准日期及具体适应症措辞",
+        "核实支持注册的三期研究、主要终点、样本量和统计结果",
+        "核实12岁及以上患者的年龄分组依据"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:A166",
+      "lead_id": "8e0b649a4e54b40a",
+      "title": "A166三期PFS优于T-DM1，ADC序贯还要看既往治疗后的证据",
+      "score": 7.2,
+      "channel": "china",
+      "member_ids": [
+        "8e0b649a4e54b40a"
+      ],
+      "members": [
+        {
+          "title": "A166三期PFS优于T-DM1，ADC序贯还要看既往治疗后的证据",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_392871",
+          "score": 7.2,
+          "reasoning": "随机III期最终PFS分析显示A166相较T-DM1为11.1个月对4.4个月、HR 0.39，属于明确临床获益信号；依据是论文/文章所述PFS优劣结论及HR，但素材缺少完整置信区间和预设统计阈值说明。"
+        }
+      ],
+      "reasoning": "随机III期最终PFS分析显示A166相较T-DM1为11.1个月对4.4个月、HR 0.39，属于明确临床获益信号；依据是论文/文章所述PFS优劣结论及HR，但素材缺少完整置信区间和预设统计阈值说明。",
+      "verify_todo": [
+        "核实KL166-III-06的注册号、样本量、分组和主要终点定义",
+        "获取最终PFS的置信区间、p值、成熟度及安全性结果",
+        "核实既往TOP1抑制剂载荷ADC亚组是否为预设分析，并获取独立效应结果",
+        "核实论文的完整出处及同行评审状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:dazodalibep",
+      "lead_id": "d4f92c9cf2557b7c",
+      "title": "Novel Sjogren's Drug Passes First Phase III Test",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "d4f92c9cf2557b7c"
+      ],
+      "members": [
+        {
+          "title": "Novel Sjogren's Drug Passes First Phase III Test",
+          "url": "https://www.medpagetoday.com/meetingcoverage/acr/123854",
+          "score": 7.4,
+          "reasoning": "素材明确以“通过首个Ⅲ期测试”描述统计性结论，且涉及48周Ⅲ期数据，属于高价值的注册性结果读出；但条目未提供p值、置信区间、样本量及具体终点，仍需用原始会议材料复核。"
+        }
+      ],
+      "reasoning": "素材明确以“通过首个Ⅲ期测试”描述统计性结论，且涉及48周Ⅲ期数据，属于高价值的注册性结果读出；但条目未提供p值、置信区间、样本量及具体终点，仍需用原始会议材料复核。",
+      "verify_todo": [
+        "核实首个Ⅲ期试验的注册号、样本量和主要终点",
+        "核实主要终点的效应值、p值及置信区间",
+        "核实是否还有第二项关键Ⅲ期试验尚未读出",
+        "核实完整安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "54c3881882a9a85f",
+      "title": "环肽为何这么火：默沙东公司口服新药获 FDA 批准，3207 例高胆固醇血症入组",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "54c3881882a9a85f"
+      ],
+      "members": [
+        {
+          "title": "环肽为何这么火：默沙东公司口服新药获 FDA 批准，3207 例高胆固醇血症入组",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_392859",
+          "score": 7.2,
+          "reasoning": "标题明确称口服降脂新药获FDA批准，属于监管结果而非试验统计结论，并披露3207例入组，显示较大规模开发基础；但药物名称、主要终点及关键统计结果仍需核实。发布日期未知。"
+        }
+      ],
+      "reasoning": "标题明确称口服降脂新药获FDA批准，属于监管结果而非试验统计结论，并披露3207例入组，显示较大规模开发基础；但药物名称、主要终点及关键统计结果仍需核实。发布日期未知。",
+      "verify_todo": [
+        "核实具体药物、靶点、适应症及批准日期",
+        "核实3207例入组对应研究的阶段、主要终点和统计结果",
+        "核实LDL-C降幅及心血管结局证据是否支持批准"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:pelacarsen",
+      "lead_id": "d2d5540422808ae5",
+      "title": "降了78%的Lp(a)，为何换不来心血管获益？",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "d2d5540422808ae5"
+      ],
+      "members": [
+        {
+          "title": "降了78%的Lp(a)，为何换不来心血管获益？",
+          "url": "https://www.drugtimes.cn/2026/11/09/jiangle78delpaweihehuanbulaixinxueguanhuoyi/",
+          "score": 7.2,
+          "reasoning": "素材明确给出Ⅲ期失败结论：Lp(a)虽有显著下降，但主要心血管事件未减少，属于依据媒体转述的明确终点未达到事件。失败发生在注册性Ⅲ期，赛道影响较大，因此应给予较高权重。"
+        }
+      ],
+      "reasoning": "素材明确给出Ⅲ期失败结论：Lp(a)虽有显著下降，但主要心血管事件未减少，属于依据媒体转述的明确终点未达到事件。失败发生在注册性Ⅲ期，赛道影响较大，因此应给予较高权重。",
+      "verify_todo": [
+        "核实试验名称、样本量及主要终点定义",
+        "核实主要心血管终点效应值、p值和置信区间",
+        "核实Lp(a)降幅与心血管结果不一致的原因分析",
+        "核实公司是否宣布终止开发或调整适应症"
+      ],
+      "flags": [
+        "failed",
+        "missed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
+    }
+  ]
+}

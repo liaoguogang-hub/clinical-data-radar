@@ -1,0 +1,1637 @@
+{
+  "d4f92c9cf2557b7c": {
+    "id": "d4f92c9cf2557b7c",
+    "title": "Novel Sjogren's Drug Passes First Phase III Test",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "fe0157c52dbb2be9": {
+    "id": "fe0157c52dbb2be9",
+    "title": "瑞福®（乌帕替尼缓释片）非节段型白癜风新适应症在华获批，用于治疗成人和12岁及以上青少年患者",
+    "score": 7.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "949ef56060cec215": {
+    "id": "949ef56060cec215",
+    "title": "NMPA单日3款创新药获批上市！信诺维、礼来、恒瑞同日拿下重磅品种，覆盖抗感染、减重降脂三大赛道",
+    "score": 8.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:暂停"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:暂停"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:暂停",
+    "registry": {
+      "best": {
+        "nct": "NCT05204563",
+        "title": "Imipenem/Cilastatin-XNW4107 Versus Imipenem/Cilastatin/Relebactam for Treatment of Participants With Bacterial Pneumonia (XNW4107-302, REITAB-2)",
+        "official_title": "A Multicenter, Randomized, Double-Blind, Comparative, Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous Imipenem/Cilastatin/XNW4107 in Comparison With Imipenem/Cilastatin/Relebactam in Adults With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia (EudraCT no. 2022-000081-18) (EUCTR no. 2022-501952-27-00) (IND no. 146614)",
+        "acronym": "REITAB-2",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Evopoint Biosciences Inc.",
+        "conditions": [
+          "Hospital Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia"
+        ],
+        "interventions": [
+          "Combination of Imipenem/Cilastatin and XNW4107",
+          "Imipenem/Cilastatin/Relebactam"
+        ],
+        "primary_outcomes": [
+          "Day 14 All-cause Mortality Rate"
+        ],
+        "enrollment": 450,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-07-31",
+        "primary_completion": "2024-09-29",
+        "completion": "2024-09-29",
+        "last_update": "2025-11-06",
+        "results_first_post": "2025-11-06",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "France",
+          "Israel",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05204563",
+          "title": "Imipenem/Cilastatin-XNW4107 Versus Imipenem/Cilastatin/Relebactam for Treatment of Participants With Bacterial Pneumonia (XNW4107-302, REITAB-2)",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Comparative, Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous Imipenem/Cilastatin/XNW4107 in Comparison With Imipenem/Cilastatin/Relebactam in Adults With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia (EudraCT no. 2022-000081-18) (EUCTR no. 2022-501952-27-00) (IND no. 146614)",
+          "acronym": "REITAB-2",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Evopoint Biosciences Inc.",
+          "conditions": [
+            "Hospital Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia"
+          ],
+          "interventions": [
+            "Combination of Imipenem/Cilastatin and XNW4107",
+            "Imipenem/Cilastatin/Relebactam"
+          ],
+          "primary_outcomes": [
+            "Day 14 All-cause Mortality Rate"
+          ],
+          "enrollment": 450,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-07-31",
+          "primary_completion": "2024-09-29",
+          "completion": "2024-09-29",
+          "last_update": "2025-11-06",
+          "results_first_post": "2025-11-06",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "France",
+            "Israel",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05204368",
+          "title": "Evaluation of the Efficacy and Safety of Intravenous Imipenem/Cilastatin/XNW4107 in Comparison With Meropenem in Hospitalized Adults With cUTI Including AP (EudraCT no. 2022-000061-40)",
+          "official_title": "A Multicenter, Randomized, Double-Blind, Double-Dummy, Comparative, Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous Imipenem/Cilastatin/XNW4107 in Comparison With Meropenem in Hospitalized Adults With Complicated Urinary Tract Infections, Including Acute Pyelonephritis.(EudraCT no. 2022-000061-40)",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Evopoint Biosciences Inc.",
+          "conditions": [
+            "Complicated Urinary Tract Infection Including Acute Pyelonephritis"
+          ],
+          "interventions": [
+            "Combination of Imipenem/Cilastatin and XNW4107",
+            "Meropenem"
+          ],
+          "primary_outcomes": [
+            "overall success"
+          ],
+          "enrollment": 780,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-03-30",
+          "primary_completion": "2025-06",
+          "completion": "2025-12",
+          "last_update": "2023-02-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04482569",
+          "title": "Study to Evaluate Safety, Tolerability, and Pharmacokinetics of XNW4107 Alone or in Combination With Imipenem/Cilastatin",
+          "official_title": "A Phase 1, Randomized, Double Blind, Placebo Controlled Sequential Group Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single and Multiple Ascending Doses of XNW4107 for Injection, and Multiple Doses of XNW4107 for Injection in Combination With Imipenem/Cilastatin for Injection in Healthy Adult Male Subjects",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Evopoint Biosciences Inc.",
+          "conditions": [
+            "Bacterial Infections"
+          ],
+          "interventions": [
+            "XNW4107"
+          ],
+          "primary_outcomes": [
+            "Safety as assessed by number of participants experiencing adverse events"
+          ],
+          "enrollment": 88,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-07-10",
+          "primary_completion": "2021-02-28",
+          "completion": "2021-09-30",
+          "last_update": "2023-02-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "XNW4107",
+          "XNW28012",
+          "XNW27011",
+          "Orforglipron"
+        ],
+        "sponsor": [
+          "恒瑞医药",
+          "州信诺维医药",
+          "根据摩熵医药",
+          "摩熵医药"
+        ],
+        "sponsor_en": [
+          "Hengrui",
+          "州信诺维医药",
+          "根据摩熵医药",
+          "摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "54c3881882a9a85f": {
+    "id": "54c3881882a9a85f",
+    "title": "环肽为何这么火：默沙东公司口服新药获 FDA 批准，3207 例高胆固醇血症入组",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0ce553fccc6b4caa": {
+    "id": "0ce553fccc6b4caa",
+    "title": "新药速递 | FDA批准Hibsago®（bepirovirsen，贝普若韦生）： 慢性乙肝功能性治愈迎来首款ASO疗法",
+    "score": 8.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：The study was terminated as a strategic decision"
+      ],
+      "conflict": false,
+      "halt_reason": "business"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：business\n证据：注册库状态=TERMINATED，原因：The study was terminated as a strategic decision",
+    "registry": {
+      "best": {
+        "nct": "NCT05330455",
+        "title": "Study of GSK3965193 in Healthy Participants and Participants Living With Chronic Hepatitis B Infection",
+        "official_title": "Four-part, Randomized, Double-blind (Parts 1, 2A, 3 and 4), Multi-center, Placebo-controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSK3965193 Monotherapy in Healthy Participants and in Participants Living With Chronic Hepatitis B Infection; and GSK3965193 in Combination With Bepirovirsen in Participants Living With Chronic Hepatitis B Infection",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "The study was terminated as a strategic decision",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "GlaxoSmithKline",
+        "conditions": [
+          "Hepatitis B"
+        ],
+        "interventions": [
+          "GSK3965193",
+          "Placebo to match GSK3965193",
+          "Bepirovirsen"
+        ],
+        "primary_outcomes": [
+          "Part 1: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious Treatment Emergent Adverse Events (STEAEs), and Treatment Withdrawals Due to TEAEs",
+          "Part 2A: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 2B: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 3: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 4: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+          "Part 1: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+          "Part 2A: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 2B: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 3: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+          "Part 3: Number of Participants With Clinically Significant Urinalysis Parameters",
+          "Part 4: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+          "Part 1: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 2A: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 2B: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 3: Number of Participants With Clinically Significant Vital Sign Findings",
+          "Part 4: Number of Participants With Clinically Significant Vital Signs Findings",
+          "Part 1: Number of Participants With Clinically Significant Electrocardiogram [ECG] Findings",
+          "Part 2A: Number of Participants With Clinically Significant ECG Findings",
+          "Part 3: Number of Participants With Clinically Significant ECG Findings",
+          "Part 4: Number of Participants With Clinically Significant ECG Findings",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 7",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 14",
+          "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 42",
+          "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 15",
+          "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 29",
+          "Part 4: Number of Participants With Changes in Sensory Nerve Conduction",
+          "Part 1: Area Under the Concentration-time Curve (AUC) From Time Zero (Pre-dose) Extrapolated to Infinite Time (AUC[0-inf]) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: AUC Over the Dosing Interval Tau (AUC[0-tau]) of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Maximum Observed Concentration (Cmax) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: Cmax of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Time to Maximum Observed Plasma Drug Concentration (Tmax) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: Tmax of GSK3965193 Following Repeat Dose Administration",
+          "Part 1: Apparent Terminal Half-life (T1/2) of GSK3965193 Following Single Dose Administration",
+          "Part 2A: T1/2 of GSK3965193 Following Repeat Dose Administration",
+          "Part 3: Maximum Reduction of Serum HBsAg Levels From Baseline",
+          "Part 4: Number of Participants Achieving Complete Response"
+        ],
+        "enrollment": 74,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-04-14",
+        "primary_completion": "2025-05-19",
+        "completion": "2026-04-08",
+        "last_update": "2026-10-14",
+        "results_first_post": "2026-06-16",
+        "has_results": true,
+        "countries": [
+          "Canada",
+          "France",
+          "Italy",
+          "South Korea",
+          "Thailand",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07905157",
+          "title": "A Study to Compare Blood Levels of Bepirovirsen and Safety Using Different Methods of Injecting in Healthy Adult Participants",
+          "official_title": "A Phase 1, Randomized, Open-Label, Parallel-Group, Single-Dose Study to Compare the Pharmacokinetics and Safety of Bepirovirsen When Delivered From a Vial or a 1ml Autoinjector in Healthy Adult Participants",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Area Under the Concentration-time Curve from Time Zero (pre-dose) up to Day 8 [AUC(0- 8 d)] of Bepirovirsen in Plasma",
+            "Maximum Observed Concentration (Cmax) of Bepirovirsen in plasma"
+          ],
+          "enrollment": 98,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-03",
+          "primary_completion": "2027-03-30",
+          "completion": "2027-03-30",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05330455",
+          "title": "Study of GSK3965193 in Healthy Participants and Participants Living With Chronic Hepatitis B Infection",
+          "official_title": "Four-part, Randomized, Double-blind (Parts 1, 2A, 3 and 4), Multi-center, Placebo-controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSK3965193 Monotherapy in Healthy Participants and in Participants Living With Chronic Hepatitis B Infection; and GSK3965193 in Combination With Bepirovirsen in Participants Living With Chronic Hepatitis B Infection",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The study was terminated as a strategic decision",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "GSK3965193",
+            "Placebo to match GSK3965193",
+            "Bepirovirsen"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious Treatment Emergent Adverse Events (STEAEs), and Treatment Withdrawals Due to TEAEs",
+            "Part 2A: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 2B: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 3: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 4: Number of Participants With TEAEs, STEAEs, and Treatment Withdrawals Due to TEAEs",
+            "Part 1: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+            "Part 2A: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 2B: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 3: Number of Participants With Clinically Significant Hematology and Clinical Chemistry Parameters",
+            "Part 3: Number of Participants With Clinically Significant Urinalysis Parameters",
+            "Part 4: Number of Participants With Clinically Significant Hematology, Clinical Chemistry, and Urinalysis Parameters",
+            "Part 1: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 2A: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 2B: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 3: Number of Participants With Clinically Significant Vital Sign Findings",
+            "Part 4: Number of Participants With Clinically Significant Vital Signs Findings",
+            "Part 1: Number of Participants With Clinically Significant Electrocardiogram [ECG] Findings",
+            "Part 2A: Number of Participants With Clinically Significant ECG Findings",
+            "Part 3: Number of Participants With Clinically Significant ECG Findings",
+            "Part 4: Number of Participants With Clinically Significant ECG Findings",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 7",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 14",
+            "Part 2A: Number of Participants With Changes in Sensory Nerve Conduction at Day 42",
+            "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 15",
+            "Part 3: Number of Participants With Changes in Sensory Nerve Conduction at Day 29",
+            "Part 4: Number of Participants With Changes in Sensory Nerve Conduction",
+            "Part 1: Area Under the Concentration-time Curve (AUC) From Time Zero (Pre-dose) Extrapolated to Infinite Time (AUC[0-inf]) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: AUC Over the Dosing Interval Tau (AUC[0-tau]) of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Maximum Observed Concentration (Cmax) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: Cmax of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Time to Maximum Observed Plasma Drug Concentration (Tmax) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: Tmax of GSK3965193 Following Repeat Dose Administration",
+            "Part 1: Apparent Terminal Half-life (T1/2) of GSK3965193 Following Single Dose Administration",
+            "Part 2A: T1/2 of GSK3965193 Following Repeat Dose Administration",
+            "Part 3: Maximum Reduction of Serum HBsAg Levels From Baseline",
+            "Part 4: Number of Participants Achieving Complete Response"
+          ],
+          "enrollment": 74,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-04-14",
+          "primary_completion": "2025-05-19",
+          "completion": "2026-04-08",
+          "last_update": "2026-10-14",
+          "results_first_post": "2026-06-16",
+          "has_results": true,
+          "countries": [
+            "Canada",
+            "France",
+            "Italy",
+            "South Korea",
+            "Thailand",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06422767",
+          "title": "Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "official_title": "A Phase 1, Randomized, Double-Blinded, Placebo-Controlled, Parallel Group Study to Evaluate the Effect of Bepirovirsen on Cardiac Conduction as Assessed by 12-lead Electrocardiogram in Healthy Volunteers",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "GlaxoSmithKline",
+          "conditions": [
+            "Hepatitis B"
+          ],
+          "interventions": [
+            "Bepirovirsen",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Placebo-corrected Change From Baseline (CFB) in QT Interval Corrected by Fridericia's Formula (QTcF) Following Administration of Bepirovirsen Supratherapeutic Single Dose"
+          ],
+          "enrollment": 46,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-07-18",
+          "primary_completion": "2025-04-28",
+          "completion": "2025-04-28",
+          "last_update": "2026-07-10",
+          "results_first_post": "2026-07-10",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "bepirovirsen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "d2d5540422808ae5": {
+    "id": "d2d5540422808ae5",
+    "title": "降了78%的Lp(a)，为何换不来心血管获益？",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "missed",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "未达到表述:临床失败"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "missed",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "未达到表述:临床失败"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：未达到表述:临床失败",
+    "registry": {
+      "best": {
+        "nct": "NCT04023552",
+        "title": "Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With CVD",
+        "official_title": "A Randomized Double-blind, Placebo-controlled, Multicenter Trial Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With Established Cardiovascular Disease",
+        "acronym": "Lp(a)HORIZON",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals",
+        "conditions": [
+          "Cardiovascular Disease and Lipoprotein(a)"
+        ],
+        "interventions": [
+          "TQJ230",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Time to first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in patients with elevated Lp(a) ≥ 70 mg/dL",
+          "Time to the first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in a population of patients with elevated Lp(a) ≥ 90 mg/dL."
+        ],
+        "enrollment": 8323,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-12-12",
+        "primary_completion": "2026-07-16",
+        "completion": "2026-07-16",
+        "last_update": "2026-08-28",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Bulgaria",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04023552",
+          "title": "Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With CVD",
+          "official_title": "A Randomized Double-blind, Placebo-controlled, Multicenter Trial Assessing the Impact of Lipoprotein (a) Lowering With Pelacarsen (TQJ230) on Major Cardiovascular Events in Patients With Established Cardiovascular Disease",
+          "acronym": "Lp(a)HORIZON",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Cardiovascular Disease and Lipoprotein(a)"
+          ],
+          "interventions": [
+            "TQJ230",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Time to first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in patients with elevated Lp(a) ≥ 70 mg/dL",
+            "Time to the first occurrence of clinical endpoint committee confirmed expanded major adverse cardiovascular events in a population of patients with elevated Lp(a) ≥ 90 mg/dL."
+          ],
+          "enrollment": 8323,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-12-12",
+          "primary_completion": "2026-07-16",
+          "completion": "2026-07-16",
+          "last_update": "2026-08-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06267560",
+          "title": "Lp(a) Lowering Study of Pelacarsen (TQJ230) in US Black/African American and Hispanic Participants With Elevated Lp(a) and Established ASCVD",
+          "official_title": "A Randomized Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy, Safety and Tolerability of Pelacarsen (TQJ230) in US Black/African American & Hispanic Patient Populations With Elevated Lp(a) and Established Atherosclerotic Cardiovascular Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Elevated Lp(a) and Established Atherosclerotic Cardiovascular Disease"
+          ],
+          "interventions": [
+            "TQJ230",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change in log-transformed Lp(a) concentration from baseline at week 52"
+          ],
+          "enrollment": 422,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-04-24",
+          "primary_completion": "2026-03-25",
+          "completion": "2026-03-25",
+          "last_update": "2026-08-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Puerto Rico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07517263",
+          "title": "An Open Label Extension (OLE) Study (Following Completion of CTQJ230A12301) to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230)",
+          "official_title": "A Single Arm, Multicenter, Open-label Extension (OLE) Trial to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230) in Participants Who Completed the Parent Lp(a)HORIZON Trial",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Cardiovascular Disease and Lipoprotein(a)"
+          ],
+          "interventions": [
+            "Pelacarsen (TQJ230)"
+          ],
+          "primary_outcomes": [
+            "Number of participants with Adverse events"
+          ],
+          "enrollment": 5700,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-05-11",
+          "primary_completion": "2030-01-09",
+          "completion": "2030-01-09",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pelacarsen"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8e0b649a4e54b40a": {
+    "id": "8e0b649a4e54b40a",
+    "title": "A166三期PFS优于T-DM1，ADC序贯还要看既往治疗后的证据",
+    "score": 7.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05346328",
+        "title": "HER2-positive Breast Cancer Project Initiated by Investigators",
+        "official_title": "An Open-clinical Trial Phase Ⅱ, Injection of A166 for HER2-positive Patients With Refractory Unresectable Locally Advanced or Metastatic Breast Cancer；KL166-IIS-001",
+        "acronym": "",
+        "status": "UNKNOWN",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Fudan University",
+        "conditions": [
+          "Breast Cancer"
+        ],
+        "interventions": [
+          "Injection of A166"
+        ],
+        "primary_outcomes": [
+          "Objective response rate（ORR）"
+        ],
+        "enrollment": 48,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-06-01",
+        "primary_completion": "2023-12-31",
+        "completion": "2024-12-31",
+        "last_update": "2022-04-26",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05346328",
+          "title": "HER2-positive Breast Cancer Project Initiated by Investigators",
+          "official_title": "An Open-clinical Trial Phase Ⅱ, Injection of A166 for HER2-positive Patients With Refractory Unresectable Locally Advanced or Metastatic Breast Cancer；KL166-IIS-001",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Fudan University",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "Injection of A166"
+          ],
+          "primary_outcomes": [
+            "Objective response rate（ORR）"
+          ],
+          "enrollment": 48,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-01",
+          "primary_completion": "2023-12-31",
+          "completion": "2024-12-31",
+          "last_update": "2022-04-26",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05311397",
+          "title": "A Study of A166 in Patients With Advanced Solid Malignant Tumors",
+          "official_title": "A Phase I Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of A166 in Patients With Unresectable, Locally Advanced or Metastatic HER2-expressing Solid Tumors (KL166-I-01-CTP)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "A166"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 129,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-08-01",
+          "primary_completion": "2026-04-09",
+          "completion": "2026-04-09",
+          "last_update": "2026-10-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "KL166"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "9cad602da41b03f8": {
+    "id": "9cad602da41b03f8",
+    "title": "从临床结局到成对模块：丹红注射液 1505 例 IV 期试验解读",
+    "score": 6.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "31307272c515d0f5": {
+    "id": "31307272c515d0f5",
+    "title": "FDA最新安全性警示：GLP-1类药物新增NAION风险黑框提示，司美格鲁肽、替尔泊肽全品类涉入",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（摩熵医药、入驻摩熵医药、代表摩熵医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "4e7f1cdc40695edc": {
+    "id": "4e7f1cdc40695edc",
+    "title": "礼来口服减重GLP-1类新药在中国获批上市丨产业新闻",
+    "score": 6.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "8497868e80f468d7": {
+    "id": "8497868e80f468d7",
+    "title": "恒瑞医药1类新药获批上市，针对这类罕见血脂异常丨产业新闻",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "恒瑞医药"
+        ],
+        "sponsor_en": [
+          "Hengrui"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "a90e61eb76826440": {
+    "id": "a90e61eb76826440",
+    "title": "全球首款儿童失眠治疗药物要来了？达利雷生获FDA突破性疗法认定",
+    "score": 6.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "先声药业"
+        ],
+        "sponsor_en": [
+          "Simcere"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "4f7008f84ec3b02f": {
+    "id": "4f7008f84ec3b02f",
+    "title": "<![CDATA[CHMP Recommends Approval of Belzutifan Plus Lenvatinib for Advanced ccRCC After PD-(L)1 Inhibition]]>",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02973997",
+        "title": "Lenvatinib and Pembrolizumab in Differentiated Thyroid Cancers (DTC)",
+        "official_title": "Combination Targeted Therapy With Pembrolizumab and Lenvatinib in Progressive, Radioiodine-Refractory Differentiated Thyroid Cancers: A Phase II Study",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Academic and Community Cancer Research United",
+        "conditions": [
+          "Columnar Cell Variant Thyroid Gland Papillary Carcinoma",
+          "Follicular Variant Thyroid Gland Papillary Carcinoma",
+          "Metastatic Thyroid Gland Follicular Carcinoma",
+          "Metastatic Thyroid Gland Papillary Carcinoma",
+          "Poorly Differentiated Thyroid Gland Carcinoma",
+          "Recurrent Differentiated Thyroid Gland Carcinoma",
+          "Recurrent Thyroid Gland Follicular Carcinoma",
+          "Recurrent Thyroid Gland Papillary Carcinoma",
+          "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage III Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage III Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Tall Cell Variant Thyroid Gland Papillary Carcinoma",
+          "Thyroid Gland Hurthle Cell Carcinoma",
+          "Unresectable Differentiated Thyroid Gland Carcinoma",
+          "Unresectable Thyroid Gland Carcinoma"
+        ],
+        "interventions": [
+          "Laboratory Biomarker Analysis",
+          "Lenvatinib",
+          "Lenvatinib Mesylate",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Complete Response Rate (Cohort 1)",
+          "Confirmed Response Rate (Cohort 2)"
+        ],
+        "enrollment": 57,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-02-07",
+        "primary_completion": "2022-08-15",
+        "completion": "2023-10-08",
+        "last_update": "2025-08-29",
+        "results_first_post": "2023-10-24",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02973997",
+          "title": "Lenvatinib and Pembrolizumab in Differentiated Thyroid Cancers (DTC)",
+          "official_title": "Combination Targeted Therapy With Pembrolizumab and Lenvatinib in Progressive, Radioiodine-Refractory Differentiated Thyroid Cancers: A Phase II Study",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Academic and Community Cancer Research United",
+          "conditions": [
+            "Columnar Cell Variant Thyroid Gland Papillary Carcinoma",
+            "Follicular Variant Thyroid Gland Papillary Carcinoma",
+            "Metastatic Thyroid Gland Follicular Carcinoma",
+            "Metastatic Thyroid Gland Papillary Carcinoma",
+            "Poorly Differentiated Thyroid Gland Carcinoma",
+            "Recurrent Differentiated Thyroid Gland Carcinoma",
+            "Recurrent Thyroid Gland Follicular Carcinoma",
+            "Recurrent Thyroid Gland Papillary Carcinoma",
+            "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage III Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage III Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Tall Cell Variant Thyroid Gland Papillary Carcinoma",
+            "Thyroid Gland Hurthle Cell Carcinoma",
+            "Unresectable Differentiated Thyroid Gland Carcinoma",
+            "Unresectable Thyroid Gland Carcinoma"
+          ],
+          "interventions": [
+            "Laboratory Biomarker Analysis",
+            "Lenvatinib",
+            "Lenvatinib Mesylate",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Complete Response Rate (Cohort 1)",
+            "Confirmed Response Rate (Cohort 2)"
+          ],
+          "enrollment": 57,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-02-07",
+          "primary_completion": "2022-08-15",
+          "completion": "2023-10-08",
+          "last_update": "2025-08-29",
+          "results_first_post": "2023-10-24",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02915783",
+          "title": "A Trial to Evaluate Efficacy and Safety of Lenvatinib in Combination With Everolimus in Subjects With Unresectable Advanced or Metastatic Non Clear Cell Renal Cell Carcinoma (nccRCC) Who Have Not Received Any Chemotherapy for Advanced Disease",
+          "official_title": "A Single-arm, Multicenter, Phase 2 Trial to Evaluate Efficacy and Safety of Lenvatinib in Combination With Everolimus in Subjects With Unresectable Advanced or Metastatic Non Clear Cell Renal Cell Carcinoma (nccRCC) Who Have Not Received Any Chemotherapy for Advanced Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Eisai Inc.",
+          "conditions": [
+            "Non Clear Cell Renal Cell Carcinoma (nccRCC)"
+          ],
+          "interventions": [
+            "lenvatinib",
+            "everolimus"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 41,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-02-20",
+          "primary_completion": "2021-11-02",
+          "completion": "2021-11-02",
+          "last_update": "2023-01-17",
+          "results_first_post": "2020-07-13",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07685535",
+          "title": "HAIC + DEB-TACE + Toripalimab + Lenvatinib for Unresectable Intrahepatic Cholangiocarcinoma",
+          "official_title": "Hepatic Arterial Infusion Chemotherapy (HAIC) Sequential Small-Sized Drug-Eluting Beads Transarterial Chemoembolization (DEB-TACE) Combined With Toripalimab and Lenvatinib for Unresectable Intrahepatic Cholangiocarcinoma: A Phase II Clinical Study",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Shanghai Zhongshan Hospital",
+          "conditions": [
+            "Liver Cancer"
+          ],
+          "interventions": [
+            "DEB-TACE",
+            "Toripalimab",
+            "Lenvatinib",
+            "Gemcitabine",
+            "Oxaliplatin"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)",
+            "Progression-Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 29,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-06-30",
+          "primary_completion": "2028-06-30",
+          "completion": "2028-12-31",
+          "last_update": "2026-07-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Lenvatinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6e6bde11fef94d38": {
+    "id": "6e6bde11fef94d38",
+    "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+    "score": 6.9,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT01667133",
+        "title": "A Study of Ponatinib in Japanese Participants With Chronic Myeloid Leukemia (CML) and Ph+ Acute Lymphoblastic Leukemia (ALL)",
+        "official_title": "A Phase 1/2 Multi-center, Open-label Study of Ponatinib in Japanese Patients With Chronic Myeloid Leukemia (CML) Who Have Failed Dasatinib or Nilotinib or Ph+ Acute Lymphoblastic Leukemia (ALL) Who Have Failed Prior Tyrosine Kinase Inhibitors (TKIs)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Ariad Pharmaceuticals",
+        "conditions": [
+          "Chronic Myeloid Leukemia (CML)",
+          "Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia (Ph+ ALL)"
+        ],
+        "interventions": [
+          "ponatinib - Phase 1",
+          "ponatinib - Phase 2"
+        ],
+        "primary_outcomes": [
+          "Phase 1: Number of Participants With Dose-limiting Toxicities (DLTs) as a Measure of Safety Profile to Determine Recommended Dose of Ponatinib",
+          "Phase 2, CP-CML Participants: Percentage of Participants With Major Cytogenetic Response (MCyR)",
+          "Phase 2, BP-CML and Ph+ALL: Percentage of Participants With Major Hematologic Response (MaHR)"
+        ],
+        "enrollment": 35,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2012-08-31",
+        "primary_completion": "2018-08-02",
+        "completion": "2018-08-02",
+        "last_update": "2022-06-13",
+        "results_first_post": "2022-06-13",
+        "has_results": true,
+        "countries": [
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01667133",
+          "title": "A Study of Ponatinib in Japanese Participants With Chronic Myeloid Leukemia (CML) and Ph+ Acute Lymphoblastic Leukemia (ALL)",
+          "official_title": "A Phase 1/2 Multi-center, Open-label Study of Ponatinib in Japanese Patients With Chronic Myeloid Leukemia (CML) Who Have Failed Dasatinib or Nilotinib or Ph+ Acute Lymphoblastic Leukemia (ALL) Who Have Failed Prior Tyrosine Kinase Inhibitors (TKIs)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Ariad Pharmaceuticals",
+          "conditions": [
+            "Chronic Myeloid Leukemia (CML)",
+            "Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia (Ph+ ALL)"
+          ],
+          "interventions": [
+            "ponatinib - Phase 1",
+            "ponatinib - Phase 2"
+          ],
+          "primary_outcomes": [
+            "Phase 1: Number of Participants With Dose-limiting Toxicities (DLTs) as a Measure of Safety Profile to Determine Recommended Dose of Ponatinib",
+            "Phase 2, CP-CML Participants: Percentage of Participants With Major Cytogenetic Response (MCyR)",
+            "Phase 2, BP-CML and Ph+ALL: Percentage of Participants With Major Hematologic Response (MaHR)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2012-08-31",
+          "primary_completion": "2018-08-02",
+          "completion": "2018-08-02",
+          "last_update": "2022-06-13",
+          "results_first_post": "2022-06-13",
+          "has_results": true,
+          "countries": [
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03576547",
+          "title": "Venetoclax, Ponatinib, and Dexamethasone in Participants With Philadelphia Chromosome or BCR-ABL Positive Relapsed or Refractory Acute Lymphoblastic Leukemia or Chronic Myelogenous Leukemia",
+          "official_title": "A Phase I/II Study of the Combination of Venetoclax, Ponatinib and Corticosteroids in Patients With Relapsed or Refractory Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia and Lymphoid Blast Phase Chronic Myelogenous Leukemia",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The study was terminated early due to slow accrual and low level of interest both by the sponsor and by the department",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "M.D. Anderson Cancer Center",
+          "conditions": [
+            "Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "Philadelphia Chromosome Positive",
+            "Recurrent Acute Lymphoblastic Leukemia",
+            "Recurrent Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "Refractory Acute Lymphoblastic Leukemia",
+            "Refractory Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "t(9;22)"
+          ],
+          "interventions": [
+            "Dexamethasone",
+            "Ponatinib Hydrochloride",
+            "Rituximab",
+            "Venetoclax"
+          ],
+          "primary_outcomes": [
+            "Maximum Tolerated Dose (MTD) of Venetoclax When Given in Combination With Ponatinib and Dexamethasone (Phase I)",
+            "Number of Participants With a Response Complete Response (CR) + CR With Incomplete Count Recovery (CRi)",
+            "Event Free Survival (EFS)"
+          ],
+          "enrollment": 9,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-06-26",
+          "primary_completion": "2024-06-19",
+          "completion": "2024-06-19",
+          "last_update": "2025-05-08",
+          "results_first_post": "2025-05-08",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04845035",
+          "title": "Pediatric-Inspired Chemotherapy Plus Tyrosine Kinase Inhibitor in Adult Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
+          "official_title": "A Phase II Study Using a BFM Regimen Plus Tyrosine Kinase Inhibitor in Adult Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "The PI plans to revise the study design in a new protocol",
+          "phase": "PHASE2",
+          "sponsor": "University of Michigan Rogel Cancer Center",
+          "conditions": [
+            "Acute Lymphoblastic Leukemia"
+          ],
+          "interventions": [
+            "Dasatinib",
+            "Ponatinib",
+            "Berlin-Frankfurt-Münster Chemotherapy",
+            "Methotrexate and Cytarabine"
+          ],
+          "primary_outcomes": [
+            "Rate of complete molecular remission (CMR) at the end of one cycle of Dasatinib + BFM"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-01",
+          "primary_completion": "2026-01",
+          "completion": "2029-01",
+          "last_update": "2024-02-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Ponatinib",
+          "Blinatumomab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
