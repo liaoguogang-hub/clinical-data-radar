@@ -1,0 +1,1810 @@
+{
+  "37a9e3140a136c5a": {
+    "id": "37a9e3140a136c5a",
+    "title": "AstraZeneca pulls EU filing for antibody as CHMP backs Gazyvaro in lupus",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:withdrawn"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "终止表述:withdrawn"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：终止表述:withdrawn",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "c945f740362ffb42": {
+    "id": "c945f740362ffb42",
+    "title": "Injectable Nanobody Wins FDA Approval for Myasthenia Gravis",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:Wins"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:Wins"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:Wins",
+    "registry": {
+      "best": {
+        "nct": "NCT06607627",
+        "title": "PK, PD, Safety, and Efficacy Study of Gefurulimab in Pediatric Patients With AChR+ Generalized Myasthenia Gravis",
+        "official_title": "An Open-Label, Single-arm Study to Evaluate the Pharmacokinetics (PK), Pharmacodynamics (PD), Safety, and Efficacy of Gefurulimab in Pediatric Patients (6 to < 18 Years of Age) With Generalized Myasthenia Gravis (gMG) Who Express Acetylcholine Receptor Antibodies (AChR+)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Alexion Pharmaceuticals, Inc.",
+        "conditions": [
+          "Generalized Myasthenia Gravis",
+          "gMG"
+        ],
+        "interventions": [
+          "Gefurulimab"
+        ],
+        "primary_outcomes": [
+          "Maximum Observed Serum Concentration (Cmax) of Gefurulimab",
+          "Serum Free Complement Component 5 (C5) Concentration"
+        ],
+        "enrollment": 12,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-11-13",
+        "primary_completion": "2026-12-15",
+        "completion": "2029-01-23",
+        "last_update": "2026-04-01",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Brazil",
+          "Japan",
+          "Poland",
+          "Taiwan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06607627",
+          "title": "PK, PD, Safety, and Efficacy Study of Gefurulimab in Pediatric Patients With AChR+ Generalized Myasthenia Gravis",
+          "official_title": "An Open-Label, Single-arm Study to Evaluate the Pharmacokinetics (PK), Pharmacodynamics (PD), Safety, and Efficacy of Gefurulimab in Pediatric Patients (6 to < 18 Years of Age) With Generalized Myasthenia Gravis (gMG) Who Express Acetylcholine Receptor Antibodies (AChR+)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Generalized Myasthenia Gravis",
+            "gMG"
+          ],
+          "interventions": [
+            "Gefurulimab"
+          ],
+          "primary_outcomes": [
+            "Maximum Observed Serum Concentration (Cmax) of Gefurulimab",
+            "Serum Free Complement Component 5 (C5) Concentration"
+          ],
+          "enrollment": 12,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-11-13",
+          "primary_completion": "2026-12-15",
+          "completion": "2029-01-23",
+          "last_update": "2026-04-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Brazil",
+            "Japan",
+            "Poland",
+            "Taiwan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06208488",
+          "title": "A Study of Subcutaneous Gefurulimab Using Prefilled Syringe Versus Autoinjector in Healthy Adult Participants",
+          "official_title": "A Phase 1, Open-label, Randomized, Parallel-group Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Safety, Immunogenicity, and Device Performance of ALXN1720 (Gefurulimab) Administered Subcutaneously Using Prefilled Syringe Versus Autoinjector in Adult Healthy Participants",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Healthy Adult Participants"
+          ],
+          "interventions": [
+            "Gefurulimab PFS-SD",
+            "Gefurulimab AI"
+          ],
+          "primary_outcomes": [
+            "Area under the serum concentration-time curve from time zero to the last measurable concentration (AUClast)",
+            "Area under the serum concentration-time curve from time zero to time infinity (AUCinf)",
+            "Maximum (peak) concentration observed after study intervention administration (Cmax)"
+          ],
+          "enrollment": 175,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-11-22",
+          "primary_completion": "2024-09-17",
+          "completion": "2024-09-28",
+          "last_update": "2024-10-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06677138",
+          "title": "PK Study of Gefurulimab SC in Healthy Chinese Adult Participants",
+          "official_title": "A Phase 1 Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Safety, and Immunogenicity of Gefurulimab (ALXN1720) in Healthy Chinese Adults",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Alexion Pharmaceuticals, Inc.",
+          "conditions": [
+            "Healthy"
+          ],
+          "interventions": [
+            "gefurulimab"
+          ],
+          "primary_outcomes": [
+            "Maximum Observed Serum Concentration (Cmax) of Gefurulimab",
+            "Area Under the Plasma Concentration Versus Time Curve From Time 0 Extrapolated to Infinity (AUC0-inf) of Gefurulimab"
+          ],
+          "enrollment": 8,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-10-28",
+          "primary_completion": "2025-03-19",
+          "completion": "2025-03-19",
+          "last_update": "2025-05-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "gefurulimab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "51cc2e8737bf87da": {
+    "id": "51cc2e8737bf87da",
+    "title": "Shorter Cycle Maintains Efficacy of Colorectal Cancer Regimen",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "173cf498b20b66d8": {
+    "id": "173cf498b20b66d8",
+    "title": "食管鳞癌二线：百利天恒公司双抗 ADC 登 JAMA，497 例入组进展风险降 50% 而 OS 只多两个多月",
+    "score": 8.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "苏州宜联生物",
+          "石药集团",
+          "映恩生物制药",
+          "中山康方生物"
+        ],
+        "sponsor_en": [
+          "苏州宜联生物",
+          "CSPC",
+          "映恩生物制药",
+          "Akeso"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "4f7008f84ec3b02f": {
+    "id": "4f7008f84ec3b02f",
+    "title": "<![CDATA[CHMP Recommends Approval of Belzutifan Plus Lenvatinib for Advanced ccRCC After PD-(L)1 Inhibition]]>",
+    "score": 7.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT02973997",
+        "title": "Lenvatinib and Pembrolizumab in Differentiated Thyroid Cancers (DTC)",
+        "official_title": "Combination Targeted Therapy With Pembrolizumab and Lenvatinib in Progressive, Radioiodine-Refractory Differentiated Thyroid Cancers: A Phase II Study",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Academic and Community Cancer Research United",
+        "conditions": [
+          "Columnar Cell Variant Thyroid Gland Papillary Carcinoma",
+          "Follicular Variant Thyroid Gland Papillary Carcinoma",
+          "Metastatic Thyroid Gland Follicular Carcinoma",
+          "Metastatic Thyroid Gland Papillary Carcinoma",
+          "Poorly Differentiated Thyroid Gland Carcinoma",
+          "Recurrent Differentiated Thyroid Gland Carcinoma",
+          "Recurrent Thyroid Gland Follicular Carcinoma",
+          "Recurrent Thyroid Gland Papillary Carcinoma",
+          "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage III Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage III Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7",
+          "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+          "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7",
+          "Tall Cell Variant Thyroid Gland Papillary Carcinoma",
+          "Thyroid Gland Hurthle Cell Carcinoma",
+          "Unresectable Differentiated Thyroid Gland Carcinoma",
+          "Unresectable Thyroid Gland Carcinoma"
+        ],
+        "interventions": [
+          "Laboratory Biomarker Analysis",
+          "Lenvatinib",
+          "Lenvatinib Mesylate",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Complete Response Rate (Cohort 1)",
+          "Confirmed Response Rate (Cohort 2)"
+        ],
+        "enrollment": 57,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-02-07",
+        "primary_completion": "2022-08-15",
+        "completion": "2023-10-08",
+        "last_update": "2025-08-29",
+        "results_first_post": "2023-10-24",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02973997",
+          "title": "Lenvatinib and Pembrolizumab in Differentiated Thyroid Cancers (DTC)",
+          "official_title": "Combination Targeted Therapy With Pembrolizumab and Lenvatinib in Progressive, Radioiodine-Refractory Differentiated Thyroid Cancers: A Phase II Study",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Academic and Community Cancer Research United",
+          "conditions": [
+            "Columnar Cell Variant Thyroid Gland Papillary Carcinoma",
+            "Follicular Variant Thyroid Gland Papillary Carcinoma",
+            "Metastatic Thyroid Gland Follicular Carcinoma",
+            "Metastatic Thyroid Gland Papillary Carcinoma",
+            "Poorly Differentiated Thyroid Gland Carcinoma",
+            "Recurrent Differentiated Thyroid Gland Carcinoma",
+            "Recurrent Thyroid Gland Follicular Carcinoma",
+            "Recurrent Thyroid Gland Papillary Carcinoma",
+            "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage III Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage III Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7",
+            "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+            "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7",
+            "Tall Cell Variant Thyroid Gland Papillary Carcinoma",
+            "Thyroid Gland Hurthle Cell Carcinoma",
+            "Unresectable Differentiated Thyroid Gland Carcinoma",
+            "Unresectable Thyroid Gland Carcinoma"
+          ],
+          "interventions": [
+            "Laboratory Biomarker Analysis",
+            "Lenvatinib",
+            "Lenvatinib Mesylate",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Complete Response Rate (Cohort 1)",
+            "Confirmed Response Rate (Cohort 2)"
+          ],
+          "enrollment": 57,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-02-07",
+          "primary_completion": "2022-08-15",
+          "completion": "2023-10-08",
+          "last_update": "2025-08-29",
+          "results_first_post": "2023-10-24",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02915783",
+          "title": "A Trial to Evaluate Efficacy and Safety of Lenvatinib in Combination With Everolimus in Subjects With Unresectable Advanced or Metastatic Non Clear Cell Renal Cell Carcinoma (nccRCC) Who Have Not Received Any Chemotherapy for Advanced Disease",
+          "official_title": "A Single-arm, Multicenter, Phase 2 Trial to Evaluate Efficacy and Safety of Lenvatinib in Combination With Everolimus in Subjects With Unresectable Advanced or Metastatic Non Clear Cell Renal Cell Carcinoma (nccRCC) Who Have Not Received Any Chemotherapy for Advanced Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Eisai Inc.",
+          "conditions": [
+            "Non Clear Cell Renal Cell Carcinoma (nccRCC)"
+          ],
+          "interventions": [
+            "lenvatinib",
+            "everolimus"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 41,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-02-20",
+          "primary_completion": "2021-11-02",
+          "completion": "2021-11-02",
+          "last_update": "2023-01-17",
+          "results_first_post": "2020-07-13",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07685535",
+          "title": "HAIC + DEB-TACE + Toripalimab + Lenvatinib for Unresectable Intrahepatic Cholangiocarcinoma",
+          "official_title": "Hepatic Arterial Infusion Chemotherapy (HAIC) Sequential Small-Sized Drug-Eluting Beads Transarterial Chemoembolization (DEB-TACE) Combined With Toripalimab and Lenvatinib for Unresectable Intrahepatic Cholangiocarcinoma: A Phase II Clinical Study",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Shanghai Zhongshan Hospital",
+          "conditions": [
+            "Liver Cancer"
+          ],
+          "interventions": [
+            "DEB-TACE",
+            "Toripalimab",
+            "Lenvatinib",
+            "Gemcitabine",
+            "Oxaliplatin"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)",
+            "Progression-Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 29,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-06-30",
+          "primary_completion": "2028-06-30",
+          "completion": "2028-12-31",
+          "last_update": "2026-07-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Lenvatinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "225fe31cb32597e5": {
+    "id": "225fe31cb32597e5",
+    "title": "How to select adjuvant endocrine therapy for postmenopausal women with HR-positive early breast cancer?",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "6e6bde11fef94d38": {
+    "id": "6e6bde11fef94d38",
+    "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT01667133",
+        "title": "A Study of Ponatinib in Japanese Participants With Chronic Myeloid Leukemia (CML) and Ph+ Acute Lymphoblastic Leukemia (ALL)",
+        "official_title": "A Phase 1/2 Multi-center, Open-label Study of Ponatinib in Japanese Patients With Chronic Myeloid Leukemia (CML) Who Have Failed Dasatinib or Nilotinib or Ph+ Acute Lymphoblastic Leukemia (ALL) Who Have Failed Prior Tyrosine Kinase Inhibitors (TKIs)",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Ariad Pharmaceuticals",
+        "conditions": [
+          "Chronic Myeloid Leukemia (CML)",
+          "Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia (Ph+ ALL)"
+        ],
+        "interventions": [
+          "ponatinib - Phase 1",
+          "ponatinib - Phase 2"
+        ],
+        "primary_outcomes": [
+          "Phase 1: Number of Participants With Dose-limiting Toxicities (DLTs) as a Measure of Safety Profile to Determine Recommended Dose of Ponatinib",
+          "Phase 2, CP-CML Participants: Percentage of Participants With Major Cytogenetic Response (MCyR)",
+          "Phase 2, BP-CML and Ph+ALL: Percentage of Participants With Major Hematologic Response (MaHR)"
+        ],
+        "enrollment": 35,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2012-08-31",
+        "primary_completion": "2018-08-02",
+        "completion": "2018-08-02",
+        "last_update": "2022-06-13",
+        "results_first_post": "2022-06-13",
+        "has_results": true,
+        "countries": [
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01667133",
+          "title": "A Study of Ponatinib in Japanese Participants With Chronic Myeloid Leukemia (CML) and Ph+ Acute Lymphoblastic Leukemia (ALL)",
+          "official_title": "A Phase 1/2 Multi-center, Open-label Study of Ponatinib in Japanese Patients With Chronic Myeloid Leukemia (CML) Who Have Failed Dasatinib or Nilotinib or Ph+ Acute Lymphoblastic Leukemia (ALL) Who Have Failed Prior Tyrosine Kinase Inhibitors (TKIs)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Ariad Pharmaceuticals",
+          "conditions": [
+            "Chronic Myeloid Leukemia (CML)",
+            "Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia (Ph+ ALL)"
+          ],
+          "interventions": [
+            "ponatinib - Phase 1",
+            "ponatinib - Phase 2"
+          ],
+          "primary_outcomes": [
+            "Phase 1: Number of Participants With Dose-limiting Toxicities (DLTs) as a Measure of Safety Profile to Determine Recommended Dose of Ponatinib",
+            "Phase 2, CP-CML Participants: Percentage of Participants With Major Cytogenetic Response (MCyR)",
+            "Phase 2, BP-CML and Ph+ALL: Percentage of Participants With Major Hematologic Response (MaHR)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2012-08-31",
+          "primary_completion": "2018-08-02",
+          "completion": "2018-08-02",
+          "last_update": "2022-06-13",
+          "results_first_post": "2022-06-13",
+          "has_results": true,
+          "countries": [
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03576547",
+          "title": "Venetoclax, Ponatinib, and Dexamethasone in Participants With Philadelphia Chromosome or BCR-ABL Positive Relapsed or Refractory Acute Lymphoblastic Leukemia or Chronic Myelogenous Leukemia",
+          "official_title": "A Phase I/II Study of the Combination of Venetoclax, Ponatinib and Corticosteroids in Patients With Relapsed or Refractory Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia and Lymphoid Blast Phase Chronic Myelogenous Leukemia",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "The study was terminated early due to slow accrual and low level of interest both by the sponsor and by the department",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "M.D. Anderson Cancer Center",
+          "conditions": [
+            "Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "Philadelphia Chromosome Positive",
+            "Recurrent Acute Lymphoblastic Leukemia",
+            "Recurrent Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "Refractory Acute Lymphoblastic Leukemia",
+            "Refractory Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+            "t(9;22)"
+          ],
+          "interventions": [
+            "Dexamethasone",
+            "Ponatinib Hydrochloride",
+            "Rituximab",
+            "Venetoclax"
+          ],
+          "primary_outcomes": [
+            "Maximum Tolerated Dose (MTD) of Venetoclax When Given in Combination With Ponatinib and Dexamethasone (Phase I)",
+            "Number of Participants With a Response Complete Response (CR) + CR With Incomplete Count Recovery (CRi)",
+            "Event Free Survival (EFS)"
+          ],
+          "enrollment": 9,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-06-26",
+          "primary_completion": "2024-06-19",
+          "completion": "2024-06-19",
+          "last_update": "2025-05-08",
+          "results_first_post": "2025-05-08",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04845035",
+          "title": "Pediatric-Inspired Chemotherapy Plus Tyrosine Kinase Inhibitor in Adult Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
+          "official_title": "A Phase II Study Using a BFM Regimen Plus Tyrosine Kinase Inhibitor in Adult Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "The PI plans to revise the study design in a new protocol",
+          "phase": "PHASE2",
+          "sponsor": "University of Michigan Rogel Cancer Center",
+          "conditions": [
+            "Acute Lymphoblastic Leukemia"
+          ],
+          "interventions": [
+            "Dasatinib",
+            "Ponatinib",
+            "Berlin-Frankfurt-Münster Chemotherapy",
+            "Methotrexate and Cytarabine"
+          ],
+          "primary_outcomes": [
+            "Rate of complete molecular remission (CMR) at the end of one cycle of Dasatinib + BFM"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-01",
+          "primary_completion": "2026-01",
+          "completion": "2029-01",
+          "last_update": "2024-02-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Ponatinib",
+          "Blinatumomab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "dcca307faacc5e7c": {
+    "id": "dcca307faacc5e7c",
+    "title": "全球首款Claudin6 ADC！齐鲁制药QLS5132启动III期临床，7款ADC管线全面推进",
+    "score": 6.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:客观缓解"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:客观缓解"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:客观缓解",
+    "registry": {
+      "best": {
+        "nct": "NCT07926048",
+        "title": "A Study of QLS5132 in Platinum-Resistant Recurrent Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+        "official_title": "A Phase III, Multicenter, Randomized, Open-Label, Controlled Study of QLS5132 Versus Investigator's Choice of Chemotherapy in Platinum-Resistant Recurrent Epithelial Ovarian Cancer, Fallopian Tube Cancer, or Primary Peritoneal Cancer",
+        "acronym": "",
+        "status": "NOT_YET_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Qilu Pharmaceutical Co., Ltd.",
+        "conditions": [
+          "Epithelial Ovarian Cancer",
+          "Fallopian Tube Cancer",
+          "Primary Peritoneal Cancer"
+        ],
+        "interventions": [
+          "QLS5132",
+          "Liposomal Doxorubicin",
+          "Paclitaxel",
+          "Topotecan"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS) Assessed by BICR",
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 420,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2026-12",
+        "primary_completion": "2029-12",
+        "completion": "2030-01",
+        "last_update": "2026-11-09",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07926048",
+          "title": "A Study of QLS5132 in Platinum-Resistant Recurrent Ovarian, Fallopian Tube, or Primary Peritoneal Cancer",
+          "official_title": "A Phase III, Multicenter, Randomized, Open-Label, Controlled Study of QLS5132 Versus Investigator's Choice of Chemotherapy in Platinum-Resistant Recurrent Epithelial Ovarian Cancer, Fallopian Tube Cancer, or Primary Peritoneal Cancer",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Qilu Pharmaceutical Co., Ltd.",
+          "conditions": [
+            "Epithelial Ovarian Cancer",
+            "Fallopian Tube Cancer",
+            "Primary Peritoneal Cancer"
+          ],
+          "interventions": [
+            "QLS5132",
+            "Liposomal Doxorubicin",
+            "Paclitaxel",
+            "Topotecan"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) Assessed by BICR",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 420,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-12",
+          "primary_completion": "2029-12",
+          "completion": "2030-01",
+          "last_update": "2026-11-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07453394",
+          "title": "QLS5132 Combination Therapy in Advanced Solid Tumors",
+          "official_title": "A Phase Ib/II Clinical Study on the Safety, Tolerability, Pharmacokinetics, and Efficacy of Intravenous QLS5132 Combination Therapy in Participants With Advanced Solid Tumors",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Qilu Pharmaceutical Co., Ltd.",
+          "conditions": [
+            "Gastric Cancer (GC)",
+            "Non-small Cell Lung Cancer (NSCLC)",
+            "Endometrial Cancer",
+            "Advanced Solid Tumors",
+            "Ovarian Cancer"
+          ],
+          "interventions": [
+            "QLS5132; Bevacizumab",
+            "QLS5132; Platinum; Bevacizumab",
+            "QLS5132; Olaparib; Bevacizumab",
+            "QLS5132; QL1706; QL2107",
+            "QLS5132; QL1706; QL2107; Carboplatin; Cisplatin; Oxaliplatin"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of adverse events",
+            "Maximum tolerated dose (MTD)",
+            "Recommended Phase 2 Dose (RP2D)"
+          ],
+          "enrollment": 626,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-04",
+          "primary_completion": "2027-04",
+          "completion": "2029-02",
+          "last_update": "2026-03-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06932094",
+          "title": "Phase 1 Clinical Study of QLS5132 Monotherapy in Advanced Solid Tumors",
+          "official_title": "A Phase 1 Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of QLS5132 Monotherapy in Subjects With Advanced Solid Tumors",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Qilu Pharmaceutical Co., Ltd.",
+          "conditions": [
+            "Advanced Solid Tumors"
+          ],
+          "interventions": [
+            "QLS5132"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of adverse events and serious adverse events",
+            "Maximum tolerated dose (MTD)",
+            "Recommended Phase 2 Dose (RP2D)"
+          ],
+          "enrollment": 256,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05",
+          "primary_completion": "2027-05",
+          "completion": "2028-02",
+          "last_update": "2025-04-23",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "QLS5132",
+          "QLC5508",
+          "QLS5316",
+          "QLS5308"
+        ],
+        "sponsor": [
+          "齐鲁制药",
+          "据摩熵医药",
+          "是齐鲁制药",
+          "摩熵医药"
+        ],
+        "sponsor_en": [
+          "Qilu",
+          "据摩熵医药",
+          "Qilu",
+          "摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "3741722618d1adff": {
+    "id": "3741722618d1adff",
+    "title": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "5862859603ea1e4a": {
+    "id": "5862859603ea1e4a",
+    "title": "医药科技政策简讯 | Intismeran Autogene 个体化新抗原mRNA III 期临床取得突破",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:生存率"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:生存率"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:生存率",
+    "registry": {
+      "best": {
+        "nct": "NCT03815058",
+        "title": "A Study to Evaluate the Efficacy and Safety of Autogene Cevumeran (RO7198457) in Combination With Pembrolizumab Versus Pembrolizumab Alone in Participants With Previously Untreated Advanced Melanoma.",
+        "official_title": "A Phase II, Open-Label, Multicenter, Randomized Study of the Efficacy and Safety of RO7198457 in Combination With Pembrolizumab Versus Pembrolizumab in Patients With Previously Untreated Advanced Melanoma",
+        "acronym": "IMCODE001",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Genentech, Inc.",
+        "conditions": [
+          "Advanced Melanoma"
+        ],
+        "interventions": [
+          "Autogene cevumeran",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Progression-free Survival (PFS) According to Response Evaluation Criteria in Solid Tumors, Version 1.1 (RECIST v.1.1) After Randomization"
+        ],
+        "enrollment": 131,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-12-21",
+        "primary_completion": "2025-01-21",
+        "completion": "2025-01-21",
+        "last_update": "2026-01-30",
+        "results_first_post": "2026-01-30",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Germany",
+          "Spain",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03815058",
+          "title": "A Study to Evaluate the Efficacy and Safety of Autogene Cevumeran (RO7198457) in Combination With Pembrolizumab Versus Pembrolizumab Alone in Participants With Previously Untreated Advanced Melanoma.",
+          "official_title": "A Phase II, Open-Label, Multicenter, Randomized Study of the Efficacy and Safety of RO7198457 in Combination With Pembrolizumab Versus Pembrolizumab in Patients With Previously Untreated Advanced Melanoma",
+          "acronym": "IMCODE001",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Genentech, Inc.",
+          "conditions": [
+            "Advanced Melanoma"
+          ],
+          "interventions": [
+            "Autogene cevumeran",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Progression-free Survival (PFS) According to Response Evaluation Criteria in Solid Tumors, Version 1.1 (RECIST v.1.1) After Randomization"
+          ],
+          "enrollment": 131,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-12-21",
+          "primary_completion": "2025-01-21",
+          "completion": "2025-01-21",
+          "last_update": "2026-01-30",
+          "results_first_post": "2026-01-30",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06077760",
+          "title": "A Study of Intismeran Autogene (V940) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Non-small Cell Lung Cancer (V940-002)",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo- and Active-Comparator-Controlled Clinical Study of Adjuvant V940 (mRNA-4157) Plus Pembrolizumab Versus Adjuvant Placebo Plus Pembrolizumab in Participants With Resected Stage II, IIIA, IIIB (N2) Non-small Cell Lung Cancer (INTerpath-002)",
+          "acronym": "INTerpath-002",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Intismeran autogene",
+            "Pembrolizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Disease- Free Survival (DFS)"
+          ],
+          "enrollment": 868,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-06",
+          "primary_completion": "2030-06-25",
+          "completion": "2035-12-21",
+          "last_update": "2026-09-18",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Costa Rica",
+            "Czechia",
+            "Denmark",
+            "Estonia",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06623422",
+          "title": "A Study of Pembrolizumab (MK-3475) With or Without Intismeran Autogene (V940) in Participants With Non-small Cell Lung Cancer (V940-009/INTerpath-009)",
+          "official_title": "A Phase 3 Randomized Double-blind Study of Adjuvant Pembrolizumab With or Without V940 in Participants With Resectable Stage II to IIIB (N2) NSCLC Not Achieving pCR After Receiving Neoadjuvant Pembrolizumab With Platinum-based Doublet Chemotherapy (INTerpath-009)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "interventions": [
+            "Pembrolizumab",
+            "Cisplatin",
+            "Carboplatin",
+            "Pemetrexed",
+            "Gemcitabine",
+            "Paclitaxel",
+            "Intismeran autogene",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Disease-Free Survival (DFS)"
+          ],
+          "enrollment": 680,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-21",
+          "primary_completion": "2033-05-16",
+          "completion": "2038-01-26",
+          "last_update": "2026-11-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "Finland",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Autogene",
+          "autogene"
+        ],
+        "sponsor": [
+          "医药科技"
+        ],
+        "sponsor_en": [
+          "医药科技"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "0a849d4fe113000c": {
+    "id": "0a849d4fe113000c",
+    "title": "<![CDATA[NDA Completed for Zipalertinib Plus Chemo in Frontline EGFR Exon 20 NSCLC]]>",
+    "score": 6.3,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05973773",
+        "title": "REZILIENT3 (REsearching ZIpaLertinib In Egfr Non-small Cell Lung Cancer Tumors)",
+        "official_title": "Randomized, Controlled, Open-label, Phase 3, Global Multi - Center Trial to Assess the Efficacy and Safety of Zipalertinib Plus Chemotherapy Versus Chemotherapy Alone, in Patients With Previously Untreated, Locally Advanced or Metastatic Nonsquamous Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion (ex20ins) Mutations",
+        "acronym": "REZILIENT3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Taiho Oncology, Inc.",
+        "conditions": [
+          "Advanced or Metastatic NSCLS With Exon 20 Insertion Mutation"
+        ],
+        "interventions": [
+          "TAS6417"
+        ],
+        "primary_outcomes": [
+          "Part A and B: The rate and severity of treatment emergent AEs",
+          "Part A and Part B: Progression-free survival (PFS) by blinded independent central review (BICR)",
+          "Part A: The rate and severity of DLTs according to the NCI-Common Terminology Criteria of Adverse Events (CTCAE) v5.0 during Cycle 1"
+        ],
+        "enrollment": 285,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-12-18",
+        "primary_completion": "2027-05-27",
+        "completion": "2027-05-27",
+        "last_update": "2026-11-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "France",
+          "Germany",
+          "Greece",
+          "Israel",
+          "Italy",
+          "Japan",
+          "Mexico"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05973773",
+          "title": "REZILIENT3 (REsearching ZIpaLertinib In Egfr Non-small Cell Lung Cancer Tumors)",
+          "official_title": "Randomized, Controlled, Open-label, Phase 3, Global Multi - Center Trial to Assess the Efficacy and Safety of Zipalertinib Plus Chemotherapy Versus Chemotherapy Alone, in Patients With Previously Untreated, Locally Advanced or Metastatic Nonsquamous Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion (ex20ins) Mutations",
+          "acronym": "REZILIENT3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Taiho Oncology, Inc.",
+          "conditions": [
+            "Advanced or Metastatic NSCLS With Exon 20 Insertion Mutation"
+          ],
+          "interventions": [
+            "TAS6417"
+          ],
+          "primary_outcomes": [
+            "Part A and B: The rate and severity of treatment emergent AEs",
+            "Part A and Part B: Progression-free survival (PFS) by blinded independent central review (BICR)",
+            "Part A: The rate and severity of DLTs according to the NCI-Common Terminology Criteria of Adverse Events (CTCAE) v5.0 during Cycle 1"
+          ],
+          "enrollment": 285,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-12-18",
+          "primary_completion": "2027-05-27",
+          "completion": "2027-05-27",
+          "last_update": "2026-11-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Mexico"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07128199",
+          "title": "A Study to Assess Zipalertinib Versus Placebo in Participants With Early Stage NSCLC With Uncommon EGFR Mutations, Following Complete Tumor Resection",
+          "official_title": "A Randomized, Placebo-Controlled, Double-Blind, Multi-Center Phase 3 Study of Zipalertinib Versus Placebo in Early Stage NSCLC Patients With Uncommon EGFR Mutations Following Complete Tumor Resection (REZILIENT4)",
+          "acronym": "REZILIENT4",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Taiho Oncology, Inc.",
+          "conditions": [
+            "Lung Cancer",
+            "Adjuvant",
+            "Post-surgical",
+            "EGFR",
+            "Exon 20",
+            "Early Stage Lung Cancer",
+            "Uncommon EGFR Mutations",
+            "NSCLC, Early Stage"
+          ],
+          "interventions": [
+            "TAS6417",
+            "Zipalertinib Matching-placebo"
+          ],
+          "primary_outcomes": [
+            "Disease-free Survival (DFS) as Assessed by the Investigator"
+          ],
+          "enrollment": 360,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-12-22",
+          "primary_completion": "2029-10-01",
+          "completion": "2032-10-01",
+          "last_update": "2026-10-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05967689",
+          "title": "A Study of Zipalertinib in Patients With Advanced Non-Small Cell Lung Cancer With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertions or Other Uncommon Mutation.",
+          "official_title": "An Open-Label, Phase 2b, Global Multicenter Cohort Trial to Assess the Safety and Efficacy of Zipalertinib in Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer With Exon 20 Insertion and Uncommon/Single or Compound Epidermal Growth Factor Receptor Mutations.",
+          "acronym": "REZILIENT2",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Taiho Oncology, Inc.",
+          "conditions": [
+            "Advanced or Metastatic NSCLC Harboring Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion (ex20ins) Mutations"
+          ],
+          "interventions": [
+            "TAS6417",
+            "CYP Cocktail",
+            "Transporter Cocktail"
+          ],
+          "primary_outcomes": [
+            "Cohorts 1-4: Objective Response Rate (ORR)",
+            "Dose Optimization Substudy: ORR as Assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 220,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-07-31",
+          "primary_completion": "2028-08-31",
+          "completion": "2028-12-31",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Canada",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Italy",
+            "Japan",
+            "South Korea",
+            "Spain",
+            "Turkey (Türkiye)",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Zipalertinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "8c9ad641584e3b74": {
+    "id": "8c9ad641584e3b74",
+    "title": "[Articles] First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {
+        "nct": "NCT02903914",
+        "title": "Arginase Inhibitor INCB001158 as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors",
+        "official_title": "Safety, Pharmacokinetics, and Pharmacodynamics of Escalating Oral Doses of the Arginase Inhibitor INCB001158 (Formerly Known as CB1158) as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1",
+        "sponsor": "Incyte Corporation",
+        "conditions": [
+          "Metastatic Cancer",
+          "Solid Tumors",
+          "Colorectal Cancer (CRC)",
+          "Gastric Cancer",
+          "Head and Neck Cancer",
+          "Lung Cancer",
+          "Renal Cell Carcinoma (RCC)",
+          "Bladder Cancer",
+          "UC (Urothelial Cancer)",
+          "Mesothelioma"
+        ],
+        "interventions": [
+          "INCB001158",
+          "Pembrolizumab"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Any Treatment-emergent Adverse Event (TEAE)"
+        ],
+        "enrollment": 260,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2016-09-14",
+        "primary_completion": "2020-04-30",
+        "completion": "2022-08-15",
+        "last_update": "2025-08-05",
+        "results_first_post": "2021-09-30",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Italy",
+          "Netherlands",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT02903914",
+          "title": "Arginase Inhibitor INCB001158 as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors",
+          "official_title": "Safety, Pharmacokinetics, and Pharmacodynamics of Escalating Oral Doses of the Arginase Inhibitor INCB001158 (Formerly Known as CB1158) as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "Incyte Corporation",
+          "conditions": [
+            "Metastatic Cancer",
+            "Solid Tumors",
+            "Colorectal Cancer (CRC)",
+            "Gastric Cancer",
+            "Head and Neck Cancer",
+            "Lung Cancer",
+            "Renal Cell Carcinoma (RCC)",
+            "Bladder Cancer",
+            "UC (Urothelial Cancer)",
+            "Mesothelioma"
+          ],
+          "interventions": [
+            "INCB001158",
+            "Pembrolizumab"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Any Treatment-emergent Adverse Event (TEAE)"
+          ],
+          "enrollment": 260,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-09-14",
+          "primary_completion": "2020-04-30",
+          "completion": "2022-08-15",
+          "last_update": "2025-08-05",
+          "results_first_post": "2021-09-30",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Italy",
+            "Netherlands",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03774732",
+          "title": "PD-1 Inhibitor and Chemotherapy With Concurrent Irradiation at Varied Tumour Sites in Advanced Non-small Cell Lung Cancer",
+          "official_title": "PD-1 Inhibitor and Chemotherapy With Concurrent Irradiation at Varied Tumour Sites in Advanced Non-small Cell Lung Cancer",
+          "acronym": "NIRVANA-LUNG",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "UNICANCER",
+          "conditions": [
+            "Non Small Cell Lung Cancer",
+            "Non Small Cell Lung Cancer Metastatic",
+            "Non-Small Cell Carcinoma of Lung, TNM Stage 4"
+          ],
+          "interventions": [
+            "Radiotherapy",
+            "Pembrolizumab",
+            "Chemotherapy"
+          ],
+          "primary_outcomes": [
+            "1-year Overall Survival"
+          ],
+          "enrollment": 327,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2018-01-24",
+          "primary_completion": "2026-12-22",
+          "completion": "2026-12-22",
+          "last_update": "2026-02-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "France",
+            "Monaco"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07877584",
+          "title": "PD-1 Blockade Alone Versus in Combination With Chemotherapy as First Line Therapy in Females With Advanced NSCLC & PD-L1 Expression ≥50%",
+          "official_title": "PD-1 Blockade Alone Versus in Combination With Chemotherapy as First Line Therapy in Females With Advanced NSCLC & PD-L1 Expression ≥50%",
+          "acronym": "IFEM",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "German Cancer Research Center",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Pembrolizumab",
+            "Carboplatin (AUC 5)",
+            "Cisplatin (75 mg/m²)",
+            "Pemetrexed (500 mg/m²)",
+            "nab-Paclitaxel (100 mg/m² )"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS)"
+          ],
+          "enrollment": 406,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-30",
+          "primary_completion": "2033-11-30",
+          "completion": "2033-11-30",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pembrolizumab",
+          "GOG-3064"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}

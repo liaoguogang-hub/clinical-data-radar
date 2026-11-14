@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-15",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:bl-b01d1",
+      "lead_id": "173cf498b20b66d8",
+      "title": "食管鳞癌二线：百利天恒公司双抗 ADC 登 JAMA，497 例入组进展风险降 50% 而 OS 只多两个多月",
+      "score": 8.4,
+      "channel": "china",
+      "member_ids": [
+        "173cf498b20b66d8"
+      ],
+      "members": [
+        {
+          "title": "食管鳞癌二线：百利天恒公司双抗 ADC 登 JAMA，497 例入组进展风险降 50% 而 OS 只多两个多月",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_393417",
+          "score": 8.4,
+          "reasoning": "素材明确报告497例随机III期研究双主要终点均达到，且全文发表于JAMA，属于明确的统计结论而非单纯疗效数字；同时仍需补齐各终点的效应量、置信区间和显著性数据。"
+        }
+      ],
+      "reasoning": "素材明确报告497例随机III期研究双主要终点均达到，且全文发表于JAMA，属于明确的统计结论而非单纯疗效数字；同时仍需补齐各终点的效应量、置信区间和显著性数据。",
+      "verify_todo": [
+        "核实药物通用名、试验注册号及双主要终点定义",
+        "核对PFS和OS的HR、95%CI、p值及OS绝对获益",
+        "核实中国批准时间、批准范围及JAMA论文正式出处"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:qls5132",
+      "lead_id": "dcca307faacc5e7c",
+      "title": "全球首款Claudin6 ADC！齐鲁制药QLS5132启动III期临床，7款ADC管线全面推进",
+      "score": 6.4,
+      "channel": "china",
+      "member_ids": [
+        "dcca307faacc5e7c"
+      ],
+      "members": [
+        {
+          "title": "全球首款Claudin6 ADC！齐鲁制药QLS5132启动III期临床，7款ADC管线全面推进",
+          "url": "https://www.pharnexcloud.com/zixun/sx_392451",
+          "score": 6.4,
+          "reasoning": "QLS5132登记开展420例卵巢癌III期试验是重要开发里程碑，素材中的注册状态可信；但此前28例数据仅报告ORR和DCR等疗效数字，没有统计检验，不能据此认定III期或早期主要终点达到。"
+        }
+      ],
+      "reasoning": "QLS5132登记开展420例卵巢癌III期试验是重要开发里程碑，素材中的注册状态可信；但此前28例数据仅报告ORR和DCR等疗效数字，没有统计检验，不能据此认定III期或早期主要终点达到。",
+      "verify_todo": [
+        "核实III期试验注册号、申办方、状态和PFS/OS终点定义",
+        "核对计划样本量及目标入组地区",
+        "核实早期I期数据的统计区间、p值及完整随访",
+        "将首创性表述限定为全球首个进入III期的CLDN6 ADC"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:zipalertinib",
+      "lead_id": "0a849d4fe113000c",
+      "title": "<![CDATA[NDA Completed for Zipalertinib Plus Chemo in Frontline EGFR Exon 20 NSCLC]]>",
+      "score": 6.3,
+      "channel": "china",
+      "member_ids": [
+        "0a849d4fe113000c"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[NDA Completed for Zipalertinib Plus Chemo in Frontline EGFR Exon 20 NSCLC]]>",
+          "url": "https://www.targetedonc.com/view/zipalertinib-chemotherapy-nda-first-line-egfr-exon-20-nsclc",
+          "score": 6.3,
+          "reasoning": "完成一线EGFR 20号外显子插入突变NSCLC联合化疗的NDA，是重要监管申报节点；但素材未提供NDA状态确认及支持性III期统计结果，因此不能按终点已达到处理。"
+        }
+      ],
+      "reasoning": "完成一线EGFR 20号外显子插入突变NSCLC联合化疗的NDA，是重要监管申报节点；但素材未提供NDA状态确认及支持性III期统计结果，因此不能按终点已达到处理。",
+      "verify_todo": [
+        "核实是完成NDA提交、受理还是获批",
+        "核实支持申请的试验名称、主要终点和效应量",
+        "核实监管机构、适应症措辞及优先审评状态"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "target:amyloidosis",
+      "lead_id": "37a9e3140a136c5a",
+      "title": "AstraZeneca pulls EU filing for antibody as CHMP backs Gazyvaro in lupus",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "37a9e3140a136c5a"
+      ],
+      "members": [
+        {
+          "title": "AstraZeneca pulls EU filing for antibody as CHMP backs Gazyvaro in lupus",
+          "url": "https://endpoints.news/astrazeneca-pulls-eu-filing-for-antibody-as-chmp-backs-gazyvaro-in-lupus/",
+          "score": 7.5,
+          "reasoning": "药物在更广泛人群的晚期研究中失败后，企业撤回欧洲特定淀粉样变亚群申请，属于值得重视的临床失败及监管路径收缩；素材同时提及狼疮领域的独立CHMP支持，不能与撤回事项混为同一结论。"
+        }
+      ],
+      "reasoning": "药物在更广泛人群的晚期研究中失败后，企业撤回欧洲特定淀粉样变亚群申请，属于值得重视的临床失败及监管路径收缩；素材同时提及狼疮领域的独立CHMP支持，不能与撤回事项混为同一结论。",
+      "verify_todo": [
+        "核实抗体名称、申办方和撤回的欧洲申请名称",
+        "核实两项晚期研究名称及主要终点失败情况",
+        "拆分核实Gazyvaro在狼疮适应症的CHMP意见"
+      ],
+      "flags": [
+        "halted",
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ponatinib-blinatumomab",
+      "lead_id": "6e6bde11fef94d38",
+      "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "6e6bde11fef94d38"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+          "url": "https://www.targetedonc.com/view/in-phase-3-ponatinib-blinatumomab-improves-efs-in-ph-all",
+          "score": 7.5,
+          "reasoning": "标题明确报告Ⅲ期研究中的EFS改善，属于注册阶段关键比较性结果，值得深度报道；但当前只有会议报道式措辞，尚缺具体HR、置信区间、样本量和安全性数据。"
+        }
+      ],
+      "reasoning": "标题明确报告Ⅲ期研究中的EFS改善，属于注册阶段关键比较性结果，值得深度报道；但当前只有会议报道式措辞，尚缺具体HR、置信区间、样本量和安全性数据。",
+      "verify_todo": [
+        "核实试验名称和注册编号",
+        "核实EFS是否为主要终点及其HR、置信区间和p值",
+        "核实样本量、分组、早期死亡及总体生存结果"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:gefurulimab",
+      "lead_id": "c945f740362ffb42",
+      "title": "Injectable Nanobody Wins FDA Approval for Myasthenia Gravis",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "c945f740362ffb42"
+      ],
+      "members": [
+        {
+          "title": "Injectable Nanobody Wins FDA Approval for Myasthenia Gravis",
+          "url": "https://www.medpagetoday.com/neurology/generalneurology/123885",
+          "score": 7.4,
+          "reasoning": "FDA批准gefurulimab用于成人全身型重症肌无力，是具有明确监管依据的临床开发结果；素材未提供支持批准的试验统计量，因此仍需补查关键研究终点。"
+        }
+      ],
+      "reasoning": "FDA批准gefurulimab用于成人全身型重症肌无力，是具有明确监管依据的临床开发结果；素材未提供支持批准的试验统计量，因此仍需补查关键研究终点。",
+      "verify_todo": [
+        "核实FDA批准日期、完整适应症及说明书",
+        "核实支持批准的试验名称、期别、主要终点及效应量",
+        "核实C5纳米抗体和双结合设计的首创性"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
