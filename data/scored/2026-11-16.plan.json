@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-16",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "7482cfd95e5d42e8",
+      "title": "三阴乳腺癌联合治疗方案！Lancet系列（IF:33)｜复旦大学吴炅/张剑：双抗联合化疗实现73.8%客观缓解率，中位总生存期达33.4个月",
+      "score": 6.2,
+      "channel": "china",
+      "member_ids": [
+        "7482cfd95e5d42e8"
+      ],
+      "members": [
+        {
+          "title": "三阴乳腺癌联合治疗方案！Lancet系列（IF:33)｜复旦大学吴炅/张剑：双抗联合化疗实现73.8%客观缓解率，中位总生存期达33.4个月",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_393626",
+          "score": 6.2,
+          "reasoning": "标题披露了客观缓解率和中位总生存期等具有临床吸引力的数字，并指向Lancet系列成果；但素材未给出试验阶段、统计检验或明确是否达到预设主要终点，依据仍是疗效数字而非终点达标的统计结论。"
+        }
+      ],
+      "reasoning": "标题披露了客观缓解率和中位总生存期等具有临床吸引力的数字，并指向Lancet系列成果；但素材未给出试验阶段、统计检验或明确是否达到预设主要终点，依据仍是疗效数字而非终点达标的统计结论。",
+      "verify_todo": [
+        "核实双抗药物名称、联合方案、试验阶段和注册号",
+        "核实主要终点、统计检验、置信区间及安全性结果",
+        "确认Lancet论文的正式题名和发表状态"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "51cc2e8737bf87da",
+      "title": "Shorter Cycle Maintains Efficacy of Colorectal Cancer Regimen",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "51cc2e8737bf87da"
+      ],
+      "members": [
+        {
+          "title": "Shorter Cycle Maintains Efficacy of Colorectal Cancer Regimen",
+          "url": "https://www.medpagetoday.com/hematologyoncology/coloncancer/123883",
+          "score": 7.2,
+          "reasoning": "媒体明确转述III期PRABITAS试验达到OS非劣效结论且减少毒性，这是有统计含义的主要终点结果；不过摘要未提供非劣界值、置信区间和样本量，数据成熟度仍需原始来源确认。"
+        }
+      ],
+      "reasoning": "媒体明确转述III期PRABITAS试验达到OS非劣效结论且减少毒性，这是有统计含义的主要终点结果；不过摘要未提供非劣界值、置信区间和样本量，数据成熟度仍需原始来源确认。",
+      "verify_todo": [
+        "核实试验注册号、样本量、具体给药方案和非劣效界值",
+        "核实OS置信区间及主要安全性终点",
+        "查找会议报告或论文原始出处"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ponatinib-blinatumomab",
+      "lead_id": "6e6bde11fef94d38",
+      "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "6e6bde11fef94d38"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[In Phase 3, Ponatinib/Blinatumomab Improves EFS in Ph+ ALL ]]>",
+          "url": "https://www.targetedonc.com/view/in-phase-3-ponatinib-blinatumomab-improves-efs-in-ph-all",
+          "score": 7.2,
+          "reasoning": "标题给出Ⅲ期EFS改善的明确疗效结论，属于高价值注册性读出；但现有材料未附p值、置信区间或数据截止信息，统计结论仍需原始来源核实。"
+        }
+      ],
+      "reasoning": "标题给出Ⅲ期EFS改善的明确疗效结论，属于高价值注册性读出；但现有材料未附p值、置信区间或数据截止信息，统计结论仍需原始来源核实。",
+      "verify_todo": [
+        "核实EFR或EFS的定义、预设统计假设及p值",
+        "核实试验名称、样本量、分期和对照组",
+        "核实报告会议及是否已有完整论文或注册库结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:tiratricol",
+      "lead_id": "eb07d8ef4efa6651",
+      "title": "新药速递 | 全球首个MCT8缺乏症治疗药物诞生：FDA批准Egetis公司Emcitate®（tiratricol，替拉曲考）上市",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "eb07d8ef4efa6651"
+      ],
+      "members": [
+        {
+          "title": "新药速递 | 全球首个MCT8缺乏症治疗药物诞生：FDA批准Egetis公司Emcitate®（tiratricol，替拉曲考）上市",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_393768",
+          "score": 7.0,
+          "reasoning": "监管批准本身构成可报道的临床开发结果，且超罕见病无药可用的需求与潜在首创性显著；素材未披露支持批准的终点数据及统计结果，因此可信度仍受媒体转述限制。"
+        }
+      ],
+      "reasoning": "监管批准本身构成可报道的临床开发结果，且超罕见病无药可用的需求与潜在首创性显著；素材未披露支持批准的终点数据及统计结果，因此可信度仍受媒体转述限制。",
+      "verify_todo": [
+        "核实FDA批准日期、适应症措辞及批准依据",
+        "补充支持批准的关键患者数、主要终点和疗效结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
