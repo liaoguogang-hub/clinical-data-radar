@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-17",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "c72db9e6b55d98b8",
+      "title": "以岭药业两款中药新药同步获批：芪秦通痹片剑指类风湿关节炎，半夏白术天麻汤颗粒激活经典名方",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "c72db9e6b55d98b8"
+      ],
+      "members": [
+        {
+          "title": "以岭药业两款中药新药同步获批：芪秦通痹片剑指类风湿关节炎，半夏白术天麻汤颗粒激活经典名方",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_393813",
+          "score": 6.0,
+          "reasoning": "两项中国新药的NMPA上市批准属于临床开发闭环的重要结果，其中芪秦通痹片具有明确适应症；但素材未提供支撑批准的关键试验终点、样本量及统计结果。"
+        }
+      ],
+      "reasoning": "两项中国新药的NMPA上市批准属于临床开发闭环的重要结果，其中芪秦通痹片具有明确适应症；但素材未提供支撑批准的关键试验终点、样本量及统计结果。",
+      "verify_todo": [
+        "核实两款药物各自关键临床试验的设计和结果",
+        "补齐审评报告或NMPA批准依据",
+        "确认批准文号、上市日期与具体适应症"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "landscape:esmo-2026",
+      "lead_id": "374e9853daef8b14",
+      "title": "2026 ESMO年会9项肿瘤III期研究解读：ADC、KRAS、MET最新临床数据",
+      "score": 7.6,
+      "channel": "global",
+      "member_ids": [
+        "374e9853daef8b14",
+        "4ab0fa19f3c95068"
+      ],
+      "members": [
+        {
+          "title": "2026 ESMO年会9项肿瘤III期研究解读：ADC、KRAS、MET最新临床数据",
+          "url": "https://www.pharnexcloud.com/zixun/sd_393818",
+          "score": 7.6,
+          "reasoning": "围绕ADC、KRAS、MET等方向梳理9项Ⅲ期研究，覆盖生存终点、头对头比较及不同治疗线，具有横向比较价值；素材称部分结果达到统计学阈值，但仍需逐项核对摘要。"
+        },
+        {
+          "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
+          "url": "https://www.pharnexcloud.com/zixun/sd_393817",
+          "score": 7.3,
+          "reasoning": "系统汇总12项Ⅲ期肿瘤研究，并明确指出其中多项报告具有统计学显著性的OS结果，包含新机制与头对头研究，适合作为ESMO临床证据横向解读的选题。"
+        }
+      ],
+      "reasoning": "围绕ADC、KRAS、MET等方向梳理9项Ⅲ期研究，覆盖生存终点、头对头比较及不同治疗线，具有横向比较价值；素材称部分结果达到统计学阈值，但仍需逐项核对摘要。",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "target:personalized-neoantigen-mrna-vaccine",
+      "lead_id": "c530e59e0497712b",
+      "title": "癌症疫苗“上岸”了？默沙东/Moderna III期数据：黑色素瘤复发风险降42%",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "c530e59e0497712b"
+      ],
+      "members": [
+        {
+          "title": "癌症疫苗“上岸”了？默沙东/Moderna III期数据：黑色素瘤复发风险降42%",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_393893",
+          "score": 8.2,
+          "reasoning": "个性化新抗原mRNA疫苗的Ⅲ期RFS结果报告阳性，并给出42%的复发风险下降，属于具备明确统计结论的高权重读出；仍需核对HR、置信区间、试验设计及报告层级。"
+        }
+      ],
+      "reasoning": "个性化新抗原mRNA疫苗的Ⅲ期RFS结果报告阳性，并给出42%的复发风险下降，属于具备明确统计结论的高权重读出；仍需核对HR、置信区间、试验设计及报告层级。",
+      "verify_todo": [
+        "核实疫苗名称、试验编号、样本量和主要终点",
+        "获取复发风险下降对应的HR及置信区间",
+        "确认结论来自正式口头报告还是会议摘要",
+        "核实安全性与既往免疫治疗背景"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:cretostimogene-grenadenorepvec",
+      "lead_id": "500e92426d9ff48c",
+      "title": "CG Oncology's bladder cancer treatment beats expectations in Phase 3",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "500e92426d9ff48c"
+      ],
+      "members": [
+        {
+          "title": "CG Oncology's bladder cancer treatment beats expectations in Phase 3",
+          "url": "https://endpoints.news/cg-oncologys-bladder-cancer-treatment-beats-expectations-in-phase-3/",
+          "score": 8.2,
+          "reasoning": "非肌层浸润性膀胱癌Ⅲ期试验报告达到主要终点，是高权重注册性结果，并可能改变该适应症的局部治疗格局；目前依据公司顶线措辞，需补充效应量和完整安全性。"
+        }
+      ],
+      "reasoning": "非肌层浸润性膀胱癌Ⅲ期试验报告达到主要终点，是高权重注册性结果，并可能改变该适应症的局部治疗格局；目前依据公司顶线措辞，需补充效应量和完整安全性。",
+      "verify_todo": [
+        "核实试验名称、NCT编号、样本量和具体主要终点",
+        "获取完整缓解率、持续时间及p值或置信区间",
+        "核实各亚组结果及监管申报计划"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
