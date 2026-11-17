@@ -1,0 +1,1840 @@
+{
+  "1dce7a067cdba9e1": {
+    "id": "1dce7a067cdba9e1",
+    "title": "罗氏奥妥珠单抗获FDA批准治疗原发性膜性肾病，成为美国首个获批疗法",
+    "score": 7.9,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:完全缓解"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:完全缓解"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:完全缓解",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "1b4b32a6065166d7": {
+    "id": "1b4b32a6065166d7",
+    "title": "FDA批准首个膜性肾病疗法，但全球第一款药在中国先上市了",
+    "score": 7.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "92bad0d1d70631f1": {
+    "id": "92bad0d1d70631f1",
+    "title": "罗氏CD20单抗获批治疗原发性膜性肾病；药明巨诺定向增发募资1.60亿港元",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "31ce12f2f16a5e65": {
+    "id": "31ce12f2f16a5e65",
+    "title": "英派药业 | 塞纳帕利获得欧盟委员会批准上市，用于卵巢癌一线全人群维持治疗",
+    "score": 7.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "英派药业"
+        ],
+        "sponsor_en": [
+          "英派药业"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（英派药业）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "762b4aa027d152db": {
+    "id": "762b4aa027d152db",
+    "title": "Beren wins FDA approval for long-studied rare disease drug",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Beren"
+        ],
+        "sponsor_en": [
+          "Beren"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "e61c670a6820a17d": {
+    "id": "e61c670a6820a17d",
+    "title": "Sellas claims Phase 3 win on AML cancer vaccine",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:win"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:win"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:win",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "cbb8d3b3ecb4ee47": {
+    "id": "cbb8d3b3ecb4ee47",
+    "title": "AR1001 在阿尔茨海默病III期 POLARIS-AD 临床试验中达成主要疗效目标，在预设单药治疗人群中可延缓疾病进展",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05531526",
+        "title": "Phase 3, Double-blind, Randomized, Placebo-controlled Trial to Evaluate the Efficacy and Safety of AR1001 in Participants With Early Alzheimer's Disease (Polaris-AD)",
+        "official_title": "A Phase 3 Double-blind, Randomized, Placebo-controlled, Multi-center Trial to Evaluate the Efficacy and Safety of AR1001 Over 52 Weeks in Participants With Early Alzheimer's Disease (Polaris-AD)",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "AriBio Co., Ltd.",
+        "conditions": [
+          "Alzheimer Disease"
+        ],
+        "interventions": [
+          "AR1001",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Change from Baseline in the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) (Overall Population)",
+          "Change from Baseline in the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) (Monotherapy Population)"
+        ],
+        "enrollment": 1535,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2022-12-23",
+        "primary_completion": "2026-06-29",
+        "completion": "2027-10",
+        "last_update": "2026-10-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Canada",
+          "China",
+          "Czechia",
+          "Denmark",
+          "France",
+          "Germany",
+          "Italy",
+          "Netherlands",
+          "Poland",
+          "South Korea",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05531526",
+          "title": "Phase 3, Double-blind, Randomized, Placebo-controlled Trial to Evaluate the Efficacy and Safety of AR1001 in Participants With Early Alzheimer's Disease (Polaris-AD)",
+          "official_title": "A Phase 3 Double-blind, Randomized, Placebo-controlled, Multi-center Trial to Evaluate the Efficacy and Safety of AR1001 Over 52 Weeks in Participants With Early Alzheimer's Disease (Polaris-AD)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "AriBio Co., Ltd.",
+          "conditions": [
+            "Alzheimer Disease"
+          ],
+          "interventions": [
+            "AR1001",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from Baseline in the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) (Overall Population)",
+            "Change from Baseline in the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) (Monotherapy Population)"
+          ],
+          "enrollment": 1535,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-12-23",
+          "primary_completion": "2026-06-29",
+          "completion": "2027-10",
+          "last_update": "2026-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "France",
+            "Germany",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03625622",
+          "title": "Efficacy and Safety of 26-Week Treatment of AR1001 in Patients With Mild to Moderate Alzheimer's Disease",
+          "official_title": "A Double-Blind, Randomized, Placebo-Controlled Study to Evaluate Efficacy and Safety of 26-Week Treatment of AR1001 in Patients With Mild to Moderate Alzheimer's Disease",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "AriBio Co., Ltd.",
+          "conditions": [
+            "Mild to Moderate Alzheimer's Disease"
+          ],
+          "interventions": [
+            "AR1001",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "ADAS-Cog 13",
+            "ADCS-CGIC"
+          ],
+          "enrollment": 210,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-04-01",
+          "primary_completion": "2020-12-22",
+          "completion": "2021-06-28",
+          "last_update": "2021-07-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "AR1001"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "2ca09c7f092ceddd": {
+    "id": "2ca09c7f092ceddd",
+    "title": "罗氏CD20单抗奥妥珠单抗新适应症获FDA批准，拿下原发性膜性肾病首个疗法",
+    "score": 8.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT05797610",
+        "title": "A Study to Evaluate the Efficacy and Safety of Sefaxersen (RO7434656) in Participants With Primary Immunoglobulin A (IgA) Nephropathy at High Risk of Progression",
+        "official_title": "A Phase III, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Sefaxersen, an Antisense Inhibitor of Complement Factor B, in Patients With Primary IgA Nephropathy at High Risk of Progression",
+        "acronym": "IMAGINATION",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Hoffmann-La Roche",
+        "conditions": [
+          "Primary IgA Nephropathy"
+        ],
+        "interventions": [
+          "Sefaxersen (RO7434656)",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Change From Baseline in the Urine Protein-to-Creatinine Ratio (UPCR) at Week 37"
+        ],
+        "enrollment": 459,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-08-08",
+        "primary_completion": "2028-05-25",
+        "completion": "2029-08-31",
+        "last_update": "2026-10-28",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "China",
+          "Czechia",
+          "France",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Italy"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05797610",
+          "title": "A Study to Evaluate the Efficacy and Safety of Sefaxersen (RO7434656) in Participants With Primary Immunoglobulin A (IgA) Nephropathy at High Risk of Progression",
+          "official_title": "A Phase III, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Sefaxersen, an Antisense Inhibitor of Complement Factor B, in Patients With Primary IgA Nephropathy at High Risk of Progression",
+          "acronym": "IMAGINATION",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Hoffmann-La Roche",
+          "conditions": [
+            "Primary IgA Nephropathy"
+          ],
+          "interventions": [
+            "Sefaxersen (RO7434656)",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change From Baseline in the Urine Protein-to-Creatinine Ratio (UPCR) at Week 37"
+          ],
+          "enrollment": 459,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-08-08",
+          "primary_completion": "2028-05-25",
+          "completion": "2029-08-31",
+          "last_update": "2026-10-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hong Kong",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "sefaxersen"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT05797610），写入前需确认是否同一适应症"
+    }
+  },
+  "31307272c515d0f5": {
+    "id": "31307272c515d0f5",
+    "title": "FDA最新安全性警示：GLP-1类药物新增NAION风险黑框提示，司美格鲁肽、替尔泊肽全品类涉入",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0886e43682f8748a": {
+    "id": "0886e43682f8748a",
+    "title": "Next-Generation Oral SERD Approved for Breast Cancer",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "535d7b43a459b15a": {
+    "id": "535d7b43a459b15a",
+    "title": "OS HR 0.66！NEOTORCH最终分析重磅揭晓：特瑞普利单抗围术期治疗可切除Ⅱ/Ⅲ期NSCLC实现长期生存突破",
+    "score": 8.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:阳性结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:阳性结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:阳性结果",
+    "registry": {
+      "best": {
+        "nct": "NCT03924050",
+        "title": "Toripalimab Plus Pemetrexed+Platinus in Advanced Non-small-cell Lungcancer Patients Previsouly Treated EGFR-TKI",
+        "official_title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter, Phase III Study of Pemetrexed + Platinum Chemotherapy With or Without Toripalimab (JS001) in Advanced Non-small Cell Lung Cancer (NSCLC) Participants With TKI-resistant EGFR-mutated Tumors",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+        "conditions": [
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "TORIPALIMAB INJECTION(JS001 )"
+        ],
+        "primary_outcomes": [
+          "OS"
+        ],
+        "enrollment": 440,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-05-06",
+        "primary_completion": "2024-10-21",
+        "completion": "2025-02-24",
+        "last_update": "2026-08-06",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03924050",
+          "title": "Toripalimab Plus Pemetrexed+Platinus in Advanced Non-small-cell Lungcancer Patients Previsouly Treated EGFR-TKI",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter, Phase III Study of Pemetrexed + Platinum Chemotherapy With or Without Toripalimab (JS001) in Advanced Non-small Cell Lung Cancer (NSCLC) Participants With TKI-resistant EGFR-mutated Tumors",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "TORIPALIMAB INJECTION(JS001 )"
+          ],
+          "primary_outcomes": [
+            "OS"
+          ],
+          "enrollment": 440,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-05-06",
+          "primary_completion": "2024-10-21",
+          "completion": "2025-02-24",
+          "last_update": "2026-08-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03859128",
+          "title": "Toripalimab or Placebo as Adjuvant Therapy in Hepatocellular Carcinoma After Radical Resection",
+          "official_title": "A Phase II/III, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of Toripalimab (Recombinant Humanized Anti-PD-1 Monoclonal Antibody, JS001) Versus Placebo as Adjuvant Therapy in Patients With Hepatocellular Carcinoma at High Risk of Recurrence Following Radical Resection",
+          "acronym": "JUPITER 04",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Hepatocellular Carcinoma"
+          ],
+          "interventions": [
+            "TORIPALIMAB INJECTION(JS001 )"
+          ],
+          "primary_outcomes": [
+            "BICR-RFS"
+          ],
+          "enrollment": 427,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-03-05",
+          "primary_completion": "2026-12-31",
+          "completion": "2027-12-31",
+          "last_update": "2026-08-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04568304",
+          "title": "A Study Evaluating Toripalimab Injection Combined With Standard Chemotherapy as a First-line Treatment for Locally Advanced or Metastatic Urothelial Carcinoma",
+          "official_title": "A Phase III, Randomized, Double-blind, Placebo-controlled, Multi-center Clinical Study to Evaluate the Efficacy and Safety of Toripalimab Injection (JS001) in Combination With Standard Chemotherapy Versus Placebo in Combination With Standard Chemotherapy as the 1st-line Therapy for Treatment-naive Subjects With PD-L1-positive Locally Advanced or Metastatic Urothelial Carcinoma",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "This study was not conducted",
+          "phase": "PHASE3",
+          "sponsor": "Shanghai Junshi Bioscience Co., Ltd.",
+          "conditions": [
+            "Locally Advanced or Metastatic Urothelial Carcinoma"
+          ],
+          "interventions": [
+            "Toripalimab Injection",
+            "Gemcitabine Hydrochloride for Injection",
+            "Cisplatin for Injection / Carboplatin Injection",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Investigator-assessed progression-free survival (INV-PFS) as per RECIST 1.1 criteria"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-09-06",
+          "primary_completion": "2022-09-06",
+          "completion": "2022-09-06",
+          "last_update": "2026-07-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Toripalimab",
+          "toripalimab",
+          "Durvalumab",
+          "Nivolumab"
+        ],
+        "sponsor": [
+          "旨在满足医疗",
+          "君实生物"
+        ],
+        "sponsor_en": [
+          "旨在满足医疗",
+          "Junshi"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "fcac32c2411326fe": {
+    "id": "fcac32c2411326fe",
+    "title": "Helus Pharma notches successful Phase 3 depression readout",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:successful"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:successful"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:successful",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Helus"
+        ],
+        "sponsor_en": [
+          "Helus"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "6e088b811f518dc2": {
+    "id": "6e088b811f518dc2",
+    "title": "CG Oncology涨14%：溶瘤病毒CG0070三期临床大获成功，乐普生物拥有大中华区权益",
+    "score": 6.8,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "注册库状态=TERMINATED，原因：Change in study design"
+      ],
+      "conflict": false,
+      "halt_reason": "other"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：other\n证据：注册库状态=TERMINATED，原因：Change in study design",
+    "registry": {
+      "best": {
+        "nct": "NCT01438112",
+        "title": "Efficacy Study of Recombinant Adenovirus for Non Muscle Invasive Bladder Cancer",
+        "official_title": "An Integrated Phase II/III, Open Label, Randomized and Controlled Study of the Safety and Efficacy of CG0070 Adenovirus Vector Expressing GM-CSF in Patients With NMIBC With Carcinoma In Situ Disease Who Have Failed BCG",
+        "acronym": "BOND",
+        "status": "TERMINATED",
+        "why_stopped": "Change in study design",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "CG Oncology, Inc.",
+        "conditions": [
+          "Transitional Cell Carcinoma",
+          "Bladder Cancer",
+          "Carcinoma in Situ",
+          "Carcinoma in Situ Concurrent With Papillary Tumors"
+        ],
+        "interventions": [
+          "CG0070 Adenovirus Vector",
+          "Control Arm: Quadruple Choice"
+        ],
+        "primary_outcomes": [
+          "Complete Response Proportion (CR)",
+          "Durable Complete Response Proportion (DCR)"
+        ],
+        "enrollment": 22,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2014-03",
+        "primary_completion": "2016-06",
+        "completion": "2016-06",
+        "last_update": "2021-04-14",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT01438112",
+          "title": "Efficacy Study of Recombinant Adenovirus for Non Muscle Invasive Bladder Cancer",
+          "official_title": "An Integrated Phase II/III, Open Label, Randomized and Controlled Study of the Safety and Efficacy of CG0070 Adenovirus Vector Expressing GM-CSF in Patients With NMIBC With Carcinoma In Situ Disease Who Have Failed BCG",
+          "acronym": "BOND",
+          "status": "TERMINATED",
+          "why_stopped": "Change in study design",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "CG Oncology, Inc.",
+          "conditions": [
+            "Transitional Cell Carcinoma",
+            "Bladder Cancer",
+            "Carcinoma in Situ",
+            "Carcinoma in Situ Concurrent With Papillary Tumors"
+          ],
+          "interventions": [
+            "CG0070 Adenovirus Vector",
+            "Control Arm: Quadruple Choice"
+          ],
+          "primary_outcomes": [
+            "Complete Response Proportion (CR)",
+            "Durable Complete Response Proportion (DCR)"
+          ],
+          "enrollment": 22,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2014-03",
+          "primary_completion": "2016-06",
+          "completion": "2016-06",
+          "last_update": "2021-04-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02365818",
+          "title": "Safety and Efficacy of CG0070 Oncolytic Virus Regimen for High Grade NMIBC After BCG Failure",
+          "official_title": "An Open Label, Single Arm, Phase II, Multicenter Study of the Safety and Efficacy of CG0070 Oncolytic Vector Regimen in Patients With Non-Muscle Invasive Bladder Carcinoma Who Have Failed BCG (Bacillus Calmette-Guerin) Therapy and Refused Cystectomy",
+          "acronym": "BOND2",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "CG Oncology, Inc.",
+          "conditions": [
+            "Bladder Cancer"
+          ],
+          "interventions": [
+            "CG0070"
+          ],
+          "primary_outcomes": [
+            "Durable Complete Response Proportion (DCR)"
+          ],
+          "enrollment": 66,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2015-06-02",
+          "primary_completion": "2018-08",
+          "completion": "2019-02",
+          "last_update": "2021-04-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04387461",
+          "title": "Study of CG0070 Given in Combination With Pembrolizumab, in Non-Muscle Invasive Bladder Cancer, Unresponsive to Bacillus Calmette-Guerin",
+          "official_title": "A Phase 2, Single Arm Study of CG0070 Combined With Pembrolizumab in Patients With Non Muscle Invasive Bladder Cancer (NMIBC) Unresponsive to Bacillus Calmette-Guerin (BCG)",
+          "acronym": "CORE-001",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "CG Oncology, Inc.",
+          "conditions": [
+            "Non Muscle Invasive Bladder Cancer"
+          ],
+          "interventions": [
+            "CG0070",
+            "Pembrolizumab Injection",
+            "n-dodecyl-B-D-maltoside"
+          ],
+          "primary_outcomes": [
+            "Complete response rate in patients"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-12-08",
+          "primary_completion": "2023-03-07",
+          "completion": "2024-05-28",
+          "last_update": "2024-09-25",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "CG0070",
+          "Cretostimogene"
+        ],
+        "sponsor": [
+          "乐普生物"
+        ],
+        "sponsor_en": [
+          "乐普生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "91738a04aa179bc1": {
+    "id": "91738a04aa179bc1",
+    "title": "FDA flags potential VEGF-related safety concern in Summit rejection letter",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06396065",
+        "title": "Phase III Study of AK112 for NSCLC Patients",
+        "official_title": "A Randomized, Double-blind, Multi-center, Phase III Study of AK112 or Placebo Combined With Pemetrexed and Carboplatin in Patients With EGFR-mutant Locally Advanced or Metastatic Non-squamous NSCLC Who Have Failed to EGFR-TKI Treatment",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Summit Therapeutics",
+        "conditions": [
+          "Non-Squamous Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "AK112 Injection",
+          "Placebo Injection"
+        ],
+        "primary_outcomes": [
+          "Progression-free survival (PFS)",
+          "Overall Survival (OS) in the ITT population"
+        ],
+        "enrollment": 420,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-05-04",
+        "primary_completion": "2025-04-12",
+        "completion": "2026-12-31",
+        "last_update": "2026-07-28",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Canada",
+          "France",
+          "Italy",
+          "Spain",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06396065",
+          "title": "Phase III Study of AK112 for NSCLC Patients",
+          "official_title": "A Randomized, Double-blind, Multi-center, Phase III Study of AK112 or Placebo Combined With Pemetrexed and Carboplatin in Patients With EGFR-mutant Locally Advanced or Metastatic Non-squamous NSCLC Who Have Failed to EGFR-TKI Treatment",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Summit Therapeutics",
+          "conditions": [
+            "Non-Squamous Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "AK112 Injection",
+            "Placebo Injection"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS)",
+            "Overall Survival (OS) in the ITT population"
+          ],
+          "enrollment": 420,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-05-04",
+          "primary_completion": "2025-04-12",
+          "completion": "2026-12-31",
+          "last_update": "2026-07-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada",
+            "France",
+            "Italy",
+            "Spain",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Summit"
+        ],
+        "sponsor_en": [
+          "Summit"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "3741722618d1adff": {
+    "id": "3741722618d1adff",
+    "title": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b067f9a34797d649": {
+    "id": "b067f9a34797d649",
+    "title": "6000多人9例肿瘤，FDA认定AAV载体整合致癌，血友这3件事得重新算了",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "9bd9aa9b3f63a04d": {
+    "id": "9bd9aa9b3f63a04d",
+    "title": "#CTAD26: Priavoid’s amyloid-detangling pill PRI-002 fails Phase 2 study in Alzheimer’s",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06182085",
+        "title": "Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD)",
+        "official_title": "Randomised, Double-blind, Placebo-controlled Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD) (PRImus-AD)",
+        "acronym": "PRImus-AD",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "PRInnovation GmbH",
+        "conditions": [
+          "Mild Cognitive Impairment Due to Alzheimer's Disease",
+          "Alzheimer's Disease, Early Onset"
+        ],
+        "interventions": [
+          "PRI-002",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "To evaluate the safety and tolerability of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on incidence of drug-related adverse events (AEs).",
+          "To evaluate the efficacy of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on the Clinical Dementia Rating - Sum of Boxes (CDR-SB)."
+        ],
+        "enrollment": 304,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-02-15",
+        "primary_completion": "2026-04-15",
+        "completion": "2026-07-02",
+        "last_update": "2026-07-10",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Czechia",
+          "Germany",
+          "Italy",
+          "Netherlands",
+          "Poland",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06182085",
+          "title": "Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD)",
+          "official_title": "Randomised, Double-blind, Placebo-controlled Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD) (PRImus-AD)",
+          "acronym": "PRImus-AD",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "PRInnovation GmbH",
+          "conditions": [
+            "Mild Cognitive Impairment Due to Alzheimer's Disease",
+            "Alzheimer's Disease, Early Onset"
+          ],
+          "interventions": [
+            "PRI-002",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "To evaluate the safety and tolerability of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on incidence of drug-related adverse events (AEs).",
+            "To evaluate the efficacy of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on the Clinical Dementia Rating - Sum of Boxes (CDR-SB)."
+          ],
+          "enrollment": 304,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-02-15",
+          "primary_completion": "2026-04-15",
+          "completion": "2026-07-02",
+          "last_update": "2026-07-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Czechia",
+            "Germany",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "PRI-002"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "c9ccc024daebd635": {
+    "id": "c9ccc024daebd635",
+    "title": "<![CDATA[Pertuzumab Biosimilar Gains FDA Approval for HER2+ Breast Cancer]]>",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT07057427",
+        "title": "Efficacy of Nab-PHP Versus TCbHP in Neoadjuvant Therapy for HER2-positive Early Breast Cancer",
+        "official_title": "Comparing the Efficacy of Nab-PHP and TCbHP in Neoadjuvant Therapy for HER2-positive Early Breast Cancer, A Multicenter, Randomized, Phase III Clinical Trial",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Henan Cancer Hospital",
+        "conditions": [
+          "Breast Cancer"
+        ],
+        "interventions": [
+          "Nab paclitaxel",
+          "Docetaxel and Carboplatin",
+          "Trastuzumab + Pertuzumab"
+        ],
+        "primary_outcomes": [
+          "Pathological Complete Response (pCR)"
+        ],
+        "enrollment": 812,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-06-24",
+        "primary_completion": "2028-06-30",
+        "completion": "2029-06-30",
+        "last_update": "2025-07-09",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07057427",
+          "title": "Efficacy of Nab-PHP Versus TCbHP in Neoadjuvant Therapy for HER2-positive Early Breast Cancer",
+          "official_title": "Comparing the Efficacy of Nab-PHP and TCbHP in Neoadjuvant Therapy for HER2-positive Early Breast Cancer, A Multicenter, Randomized, Phase III Clinical Trial",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Henan Cancer Hospital",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "interventions": [
+            "Nab paclitaxel",
+            "Docetaxel and Carboplatin",
+            "Trastuzumab + Pertuzumab"
+          ],
+          "primary_outcomes": [
+            "Pathological Complete Response (pCR)"
+          ],
+          "enrollment": 812,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-06-24",
+          "primary_completion": "2028-06-30",
+          "completion": "2029-06-30",
+          "last_update": "2025-07-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04588545",
+          "title": "Radiation Therapy Followed by Intrathecal Trastuzumab/Pertuzumab in HER2+ Breast Leptomeningeal Disease",
+          "official_title": "Phase I/II Study of Radiation Therapy Followed by Intrathecal Trastuzumab/Pertuzumab in the Management of HER2+ Breast Leptomeningeal Disease",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+          "conditions": [
+            "HER2-positive Breast Cancer",
+            "Leptomeningeal Metastasis",
+            "Leptomeningeal Disease"
+          ],
+          "interventions": [
+            "Radiation Therapy",
+            "Pertuzumab",
+            "Trastuzumab"
+          ],
+          "primary_outcomes": [
+            "Phase 1: Maximum Tolerated Dose (MTD) of Intrathecal (IT) pertuzumab in combination with IT trastuzumab",
+            "Phase 2: Overall Survival (OS)"
+          ],
+          "enrollment": 33,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-12-10",
+          "primary_completion": "2027-04",
+          "completion": "2027-05",
+          "last_update": "2026-05-26",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04419181",
+          "title": "Feasibility of Chemotherapy De-escalation in Early-Stage HER2 Positive Breast Cancer",
+          "official_title": "A Feasibility Study of De-escalation of Chemotherapy in Patients With Early-Stage HER2 Positive Breast Cancer",
+          "acronym": "",
+          "status": "WITHDRAWN",
+          "why_stopped": "Change in the landscape of current treatment of early stage breast cancer. Larger clinical trials answering similar questions are expected to result in the next few years.",
+          "phase": "PHASE2",
+          "sponsor": "University of Rochester",
+          "conditions": [
+            "HER2-positive Breast Cancer"
+          ],
+          "interventions": [
+            "Docetaxel",
+            "Carboplatin",
+            "Trastuzumab",
+            "Pertuzumab",
+            "Trastuzumab emtansine"
+          ],
+          "primary_outcomes": [
+            "One Year Invasive Disease-Free Survival"
+          ],
+          "enrollment": 0,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2025-08-11",
+          "primary_completion": "2026-06-01",
+          "completion": "2027-06-01",
+          "last_update": "2025-10-14",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Pertuzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "63ad5a5884c7ddb4": {
+    "id": "63ad5a5884c7ddb4",
+    "title": "手术可能损害关节功能，药物能帮多少？和誉医药新药获 FDA 批准",
+    "score": 6.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05804045",
+        "title": "Study of Pimicotinib (ABSK021) for Tenosynovial Giant Cell Tumor (MANEUVER)",
+        "official_title": "A Phase 3, Randomized, Double-blind, Placebo-Controlled, Multicenter Study of ABSK021 to Assess the Efficacy and Safety in Patients With Tenosynovial Giant Cell Tumor",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Abbisko Therapeutics Co, Ltd",
+        "conditions": [
+          "Tenosynovial Giant Cell Tumor",
+          "Pigmented Villonodular Synovitis",
+          "Giant Cell Tumor of Tendon Sheath"
+        ],
+        "interventions": [
+          "Pimicotinib(ABSK021)",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR)"
+        ],
+        "enrollment": 94,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2023-04-27",
+        "primary_completion": "2024-09-23",
+        "completion": "2028-06",
+        "last_update": "2026-05-04",
+        "results_first_post": "2026-05-04",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Canada",
+          "China",
+          "Italy",
+          "Netherlands",
+          "Poland",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05804045",
+          "title": "Study of Pimicotinib (ABSK021) for Tenosynovial Giant Cell Tumor (MANEUVER)",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo-Controlled, Multicenter Study of ABSK021 to Assess the Efficacy and Safety in Patients With Tenosynovial Giant Cell Tumor",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Abbisko Therapeutics Co, Ltd",
+          "conditions": [
+            "Tenosynovial Giant Cell Tumor",
+            "Pigmented Villonodular Synovitis",
+            "Giant Cell Tumor of Tendon Sheath"
+          ],
+          "interventions": [
+            "Pimicotinib(ABSK021)",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 94,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-04-27",
+          "primary_completion": "2024-09-23",
+          "completion": "2028-06",
+          "last_update": "2026-05-04",
+          "results_first_post": "2026-05-04",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Canada",
+            "China",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07707882",
+          "title": "Neoadjuvant Pimicotinib Combined With Surgery Versus Upfront Surgery for Diffuse Tenosynovial Giant Cell Tumor",
+          "official_title": "Neoadjuvant Pimicotinib Combined With Surgery Versus Upfront Surgery for Diffuse Tenosynovial Giant Cell Tumor: A Randomized, Open-label Trial",
+          "acronym": "NEXPERT",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+          "conditions": [
+            "Tenosynovial Giant Cell Tumor, Diffuse"
+          ],
+          "interventions": [
+            "Pimicotinib",
+            "Tumor resection surgery"
+          ],
+          "primary_outcomes": [
+            "Event-free survival"
+          ],
+          "enrollment": 84,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2027-10-01",
+          "primary_completion": "2029-09-30",
+          "completion": "2030-09-30",
+          "last_update": "2026-07-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06111274",
+          "title": "A Phase 2 Study of ABSK021 in Patients With Advanced Pancreatic Cancer",
+          "official_title": "A Multicenter, Open-Label Phase II Study To Evaluate The Efficacy And Safety Of ABSK021 In Combination With Chemotherapy With Or Without Toripalimab In Patients With Advanced Pancreatic Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Abbisko Therapeutics Co, Ltd",
+          "conditions": [
+            "Advanced Pancreatic Cancer"
+          ],
+          "interventions": [
+            "Pimicotinib (ABSK021)"
+          ],
+          "primary_outcomes": [
+            "Safety Event Occurance",
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 82,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-10-17",
+          "primary_completion": "2025-12-30",
+          "completion": "2026-12-29",
+          "last_update": "2024-04-11",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "pimicotinib"
+        ],
+        "sponsor": [
+          "和誉医药",
+          "简称和誉医药"
+        ],
+        "sponsor_en": [
+          "和誉医药",
+          "简称和誉医药"
+        ]
+      },
+      "note": ""
+    }
+  }
+}

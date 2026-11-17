@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-18",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "target:cd20",
+      "lead_id": "1b4b32a6065166d7",
+      "title": "FDA批准首个膜性肾病疗法，但全球第一款药在中国先上市了",
+      "score": 7.8,
+      "channel": "china",
+      "member_ids": [
+        "1b4b32a6065166d7"
+      ],
+      "members": [
+        {
+          "title": "FDA批准首个膜性肾病疗法，但全球第一款药在中国先上市了",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_394529",
+          "score": 7.8,
+          "reasoning": "首个膜性肾病监管批准及“中国先上市”的顺序差异具有明确首创性和监管报道价值，但材料未披露药物、试验终点统计量或批准日期，且日期未知。"
+        }
+      ],
+      "reasoning": "首个膜性肾病监管批准及“中国先上市”的顺序差异具有明确首创性和监管报道价值，但材料未披露药物、试验终点统计量或批准日期，且日期未知。",
+      "verify_todo": [
+        "核实药物名称、靶点、FDA批准文件及中国上市依据",
+        "核实支持批准的关键试验分期、主要终点、效应量和置信区间",
+        "核实中国先上市与FDA批准的准确时间线及上市地区限定",
+        "确认“首个”所针对的膜性肾病类型"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:senaparib",
+      "lead_id": "31ce12f2f16a5e65",
+      "title": "英派药业 | 塞纳帕利获得欧盟委员会批准上市，用于卵巢癌一线全人群维持治疗",
+      "score": 7.0,
+      "channel": "china",
+      "member_ids": [
+        "31ce12f2f16a5e65"
+      ],
+      "members": [
+        {
+          "title": "英派药业 | 塞纳帕利获得欧盟委员会批准上市，用于卵巢癌一线全人群维持治疗",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_394527",
+          "score": 7.0,
+          "reasoning": "欧盟委员会批准属于明确监管结果，且“一线全人群维持治疗”提示其覆盖范围较广；但缺少药物、试验和效应量等原始信息，需核实是否基于明确主要终点统计结论；发布日期未知。"
+        }
+      ],
+      "reasoning": "欧盟委员会批准属于明确监管结果，且“一线全人群维持治疗”提示其覆盖范围较广；但缺少药物、试验和效应量等原始信息，需核实是否基于明确主要终点统计结论；发布日期未知。",
+      "verify_todo": [
+        "核实欧盟批准日期、适应症措辞及批准类型",
+        "核实支持批准的关键III期试验注册号、主要终点、HR、置信区间和p值",
+        "核实“全人群”的具体入组范围及是否包含BRCA突变状态分层"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:cretostimogene",
+      "lead_id": "6e088b811f518dc2",
+      "title": "CG Oncology涨14%：溶瘤病毒CG0070三期临床大获成功，乐普生物拥有大中华区权益",
+      "score": 6.8,
+      "channel": "china",
+      "member_ids": [
+        "6e088b811f518dc2"
+      ],
+      "members": [
+        {
+          "title": "CG Oncology涨14%：溶瘤病毒CG0070三期临床大获成功，乐普生物拥有大中华区权益",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_394541",
+          "score": 6.8,
+          "reasoning": "溶瘤病毒项目被描述为Ⅲ期“大获成功”，并已进入后续上市申请准备阶段，属于潜在改变开发路径的注册性结果；依据仍是公司或媒体顶线措辞，摘要未提供主要终点和统计量。栏目归入china是因为中国公司持有大中华区权益。"
+        }
+      ],
+      "reasoning": "溶瘤病毒项目被描述为Ⅲ期“大获成功”，并已进入后续上市申请准备阶段，属于潜在改变开发路径的注册性结果；依据仍是公司或媒体顶线措辞，摘要未提供主要终点和统计量。栏目归入china是因为中国公司持有大中华区权益。",
+      "verify_todo": [
+        "核实Ⅲ期试验名称、主要终点、样本量及统计结果",
+        "核实申报时间表是否基于完整注册数据",
+        "核实大中华区权益交易及权利范围"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:obinutuzumab",
+      "lead_id": "2ca09c7f092ceddd",
+      "title": "罗氏CD20单抗奥妥珠单抗新适应症获FDA批准，拿下原发性膜性肾病首个疗法",
+      "score": 8.5,
+      "channel": "global",
+      "member_ids": [
+        "2ca09c7f092ceddd",
+        "1dce7a067cdba9e1"
+      ],
+      "members": [
+        {
+          "title": "罗氏CD20单抗奥妥珠单抗新适应症获FDA批准，拿下原发性膜性肾病首个疗法",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_394154",
+          "score": 8.5,
+          "reasoning": "FDA批准基于随机Ⅲ期MAJESTY，主要终点达到，104周完全缓解率36.1%对5.7%，组间差异95%CI 18.2%–44.0%且P<0.001，具备完整的统计与监管双重价值。栏目归入global，因为主体为罗氏的FDA注册项目，未显示中国申办方或中国主要站点。"
+        },
+        {
+          "title": "罗氏奥妥珠单抗获FDA批准治疗原发性膜性肾病，成为美国首个获批疗法",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_394513",
+          "score": 7.9,
+          "reasoning": "Ⅲ期MAJESTY随机研究显示104周完全缓解率36.1%对5.7%，且摘要明确称主要终点达到并给出显著性判断，属于注册性临床获益与监管批准结果。栏目归入global，因为主体为罗氏的FDA注册项目，未显示中国申办方或中国主要站点。"
+        }
+      ],
+      "reasoning": "FDA批准基于随机Ⅲ期MAJESTY，主要终点达到，104周完全缓解率36.1%对5.7%，组间差异95%CI 18.2%–44.0%且P<0.001，具备完整的统计与监管双重价值。栏目归入global，因为主体为罗氏的FDA注册项目，未显示中国申办方或中国主要站点。",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "target:cd20",
+      "lead_id": "92bad0d1d70631f1",
+      "title": "罗氏CD20单抗获批治疗原发性膜性肾病；药明巨诺定向增发募资1.60亿港元",
+      "score": 7.4,
+      "channel": "global",
+      "member_ids": [
+        "92bad0d1d70631f1"
+      ],
+      "members": [
+        {
+          "title": "罗氏CD20单抗获批治疗原发性膜性肾病；药明巨诺定向增发募资1.60亿港元",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/yytrz_394386",
+          "score": 7.4,
+          "reasoning": "靶向CD20药物获批原发性膜性肾病具有明确监管和未满足需求价值，但标题混合了一笔融资事件，且未提供支持批准试验的终点统计量；发布日期未知。"
+        }
+      ],
+      "reasoning": "靶向CD20药物获批原发性膜性肾病具有明确监管和未满足需求价值，但标题混合了一笔融资事件，且未提供支持批准试验的终点统计量；发布日期未知。",
+      "verify_todo": [
+        "核实药物名称、监管机构、批准日期及适应症边界",
+        "核实支持批准试验的注册号、主要终点、效应量、置信区间和p值",
+        "与同簇另一条膜性肾病获批报道核对是否为同一事件",
+        "剔除与临床读出无关的融资内容"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ar1001",
+      "lead_id": "cbb8d3b3ecb4ee47",
+      "title": "AR1001 在阿尔茨海默病III期 POLARIS-AD 临床试验中达成主要疗效目标，在预设单药治疗人群中可延缓疾病进展",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "cbb8d3b3ecb4ee47"
+      ],
+      "members": [
+        {
+          "title": "AR1001 在阿尔茨海默病III期 POLARIS-AD 临床试验中达成主要疗效目标，在预设单药治疗人群中可延缓疾病进展",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_394543",
+          "score": 7.2,
+          "reasoning": "标题明确称AR1001在阿尔茨海默病Ⅲ期POLARIS-AD试验中达到主要疗效目标，且涉及预设单药治疗人群，具有较高临床价值；但现有素材仅提供顶线结论，没有p值、置信区间或效应量。现有信息未显示中国申办方或中国主要站点。"
+        }
+      ],
+      "reasoning": "标题明确称AR1001在阿尔茨海默病Ⅲ期POLARIS-AD试验中达到主要疗效目标，且涉及预设单药治疗人群，具有较高临床价值；但现有素材仅提供顶线结论，没有p值、置信区间或效应量。现有信息未显示中国申办方或中国主要站点。",
+      "verify_todo": [
+        "核实主要终点定义、统计层级和p值或置信区间",
+        "核实预设单药治疗人群是否为预设亚组及完整结果",
+        "核实样本量、试验设计、安全性和会议或公告出处"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}
