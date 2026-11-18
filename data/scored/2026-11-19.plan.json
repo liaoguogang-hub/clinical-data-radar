@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-19",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "target:wt1-vaccine",
+      "lead_id": "3b6d0f0e9f2d0426",
+      "title": "思路迪医药引入的 WT1 肿瘤疫苗在急性髓系白血病三期达标：126 例入组，拟报 FDA",
+      "score": 8.0,
+      "channel": "china",
+      "member_ids": [
+        "3b6d0f0e9f2d0426"
+      ],
+      "members": [
+        {
+          "title": "思路迪医药引入的 WT1 肿瘤疫苗在急性髓系白血病三期达标：126 例入组，拟报 FDA",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_395061",
+          "score": 8.0,
+          "reasoning": "标题明确报告III期研究达到预设终点，126例规模及拟向FDA申报使其具有较高临床和监管价值；目前依据是措辞层面的终点结论，而非原始p值。发布日期未知。"
+        }
+      ],
+      "reasoning": "标题明确报告III期研究达到预设终点，126例规模及拟向FDA申报使其具有较高临床和监管价值；目前依据是措辞层面的终点结论，而非原始p值。发布日期未知。",
+      "verify_todo": [
+        "核实疫苗及申办方、试验注册号和主要终点定义",
+        "核实达到终点的p值、效应量、随访时间及安全性结果",
+        "核实FDA申报是计划还是已经提交"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:ivonescimab",
+      "lead_id": "355c055b24ff7c14",
+      "title": "FDA拒绝依沃西单抗原因公布！93%临床事件来自中国患者",
+      "score": 7.0,
+      "channel": "china",
+      "member_ids": [
+        "355c055b24ff7c14"
+      ],
+      "members": [
+        {
+          "title": "FDA拒绝依沃西单抗原因公布！93%临床事件来自中国患者",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_395063",
+          "score": 7.0,
+          "reasoning": "美国BLA收到完整回复函且报道明确指出OS未达标，是中国原研药物全球注册失败的重要事件，对后续开发策略影响较大。报道还提示关键事件高度集中于中国患者，需在成稿前核查各地区数据的一致性及审评文件原文。"
+        }
+      ],
+      "reasoning": "美国BLA收到完整回复函且报道明确指出OS未达标，是中国原研药物全球注册失败的重要事件，对后续开发策略影响较大。报道还提示关键事件高度集中于中国患者，需在成稿前核查各地区数据的一致性及审评文件原文。",
+      "verify_todo": [
+        "核实FDA完整回复函原文及列出的所有缺陷",
+        "核实OS分析的分层结果、事件数、HR和置信区间",
+        "核实93% PFS事件来自中国患者的原始数据及计算口径",
+        "确认中国申办方和Summit对外声明"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:ixcell-huc-msc-o",
+      "lead_id": "0eca24911856946c",
+      "title": "国内首款完成III期干细胞药NDA获受理",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "0eca24911856946c"
+      ],
+      "members": [
+        {
+          "title": "国内首款完成III期干细胞药NDA获受理",
+          "url": "https://bydrug.pharmcube.com/news/detail/bb28fa762927f51daae67fb20eff8d15",
+          "score": 6.0,
+          "reasoning": "国内首个完成Ⅲ期并进入NDA受理阶段的干细胞药物，属于注册路径上的关键节点，并带有较强的国内首创性。素材未提供Ⅲ期主要终点的统计结果，因此不能视为新的疗效统计结论。"
+        }
+      ],
+      "reasoning": "国内首个完成Ⅲ期并进入NDA受理阶段的干细胞药物，属于注册路径上的关键节点，并带有较强的国内首创性。素材未提供Ⅲ期主要终点的统计结果，因此不能视为新的疗效统计结论。",
+      "verify_todo": [
+        "核实CDE受理号CXSS2600189及受理状态",
+        "核实该Ⅲ期研究的主要终点、样本量、统计结果和实际完成时间",
+        "核实“国内首款”表述的公开检索依据"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:galinpepimut-s",
+      "lead_id": "e7575b094502523e",
+      "title": "暴涨，SELLAS癌症疫苗GPS治疗AML三期成功，思路迪拥有中国权益",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "e7575b094502523e",
+        "e61c670a6820a17d",
+        "0ca3179467a8597a"
+      ],
+      "members": [
+        {
+          "title": "暴涨，SELLAS癌症疫苗GPS治疗AML三期成功，思路迪拥有中国权益",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_394910",
+          "score": 8.2,
+          "reasoning": "Ⅲ期REGAL研究报告达到主要终点，并提供HR 0.59、p=0.035和中位OS 24.0个月对14.7个月，依据为明确的统计结论而非单纯疗效数字。该事件同时具备注册阶段、AML复发人群的未满足需求及潜在监管意义，值得重点报道。"
+        },
+        {
+          "title": "Sellas claims Phase 3 win on AML cancer vaccine",
+          "url": "https://endpoints.news/sellas-claims-phase-3-win-on-aml-cancer-vaccine/",
+          "score": 7.0,
+          "reasoning": "Ⅲ期AML癌症疫苗试验被公司明确报告为成功，属于影响后续BLA路径的关键读出。摘要没有列出效应量、p值或样本量，结论依据为公司顶线措辞而非完整统计材料。"
+        },
+        {
+          "title": "<![CDATA[Galinpepimut-S Improves Overall Survival in Phase 3 REGAL Trial in AML]]>",
+          "url": "https://www.targetedonc.com/view/galinpepimut-s-regal-phase-3-overall-survival-aml",
+          "score": 6.8,
+          "reasoning": "标题明确称Ⅲ期REGAL试验改善总生存，属于关键注册性阳性读出。条目没有正文和统计细节，因此目前只能依据标题措辞，尚不能复核风险比、p值及分析集。"
+        }
+      ],
+      "reasoning": "Ⅲ期REGAL研究报告达到主要终点，并提供HR 0.59、p=0.035和中位OS 24.0个月对14.7个月，依据为明确的统计结论而非单纯疗效数字。该事件同时具备注册阶段、AML复发人群的未满足需求及潜在监管意义，值得重点报道。",
+      "_idx": 4
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:nemtabrutinib",
+      "lead_id": "643a12fe264a7bb7",
+      "title": "刚刚！默沙东宣布终止非共价BTK全部临床！",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "643a12fe264a7bb7",
+        "fa0df940fbc2f521",
+        "b7d5656bf77694e2"
+      ],
+      "members": [
+        {
+          "title": "刚刚！默沙东宣布终止非共价BTK全部临床！",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_395068",
+          "score": 7.2,
+          "reasoning": "报道给出Ⅲ期项目被全面终止及eDMC认为获益难以覆盖风险的直接信息，是明确的临床失败节点，适合开展BTK赛道复盘。现有信息仍属于公告与媒体转述，未提供可核验的终点统计量。"
+        },
+        {
+          "title": "默沙东终止 BTK 抑制剂多项 Ⅲ 期临床试验",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_395066",
+          "score": 7.0,
+          "reasoning": "默沙东终止nemtabrutinib的多项Ⅲ期项目，且相关报道指出数据监察委员会认为获益可能不超过风险，属于行业级临床失败。素材未给出具体疗效数值和安全性事件，因此应依据终止决定及eDMC措辞，而非自行推断失败机制。"
+        },
+        {
+          "title": "默沙东：BTK抑制剂终止三期临床",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_395073",
+          "score": 7.0,
+          "reasoning": "报道明确给出eDMC认为Ⅲ期研究获益可能不超过风险，并称因此终止BELLWAVE系列，具有清晰的临床失败与赛道影响。仍需在成稿前获取原始数据，避免将公告判断扩写为具体疗效或安全性结论。"
+        }
+      ],
+      "reasoning": "报道给出Ⅲ期项目被全面终止及eDMC认为获益难以覆盖风险的直接信息，是明确的临床失败节点，适合开展BTK赛道复盘。现有信息仍属于公告与媒体转述，未提供可核验的终点统计量。",
+      "_idx": 5
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:adrabetadex",
+      "lead_id": "3de2782b5c38ede1",
+      "title": "FDA OKs Drug Linked to Longer Survival in Fatal Genetic Disorder",
+      "score": 6.6,
+      "channel": "global",
+      "member_ids": [
+        "3de2782b5c38ede1",
+        "762b4aa027d152db"
+      ],
+      "members": [
+        {
+          "title": "FDA OKs Drug Linked to Longer Survival in Fatal Genetic Disorder",
+          "url": "https://www.medpagetoday.com/genetics/generalgenetics/123945",
+          "score": 6.6,
+          "reasoning": "监管批准构成晚期临床开发的结果节点，且适应症为致死性罕见遗传病，未满足需求突出。报道给出生存获益线索，但未提供具体终点数值、样本量或统计检验细节。"
+        },
+        {
+          "title": "Beren wins FDA approval for long-studied rare disease drug",
+          "url": "https://endpoints.news/beren-wins-fda-approval-for-long-studied-rare-disease-drug/",
+          "score": 6.5,
+          "reasoning": "罕见致命疾病的FDA批准构成重要监管与临床结果节点，也体现了长期研发项目的数据支持。摘要未提供批准所依据的样本量、生存终点和统计结果。"
+        }
+      ],
+      "reasoning": "监管批准构成晚期临床开发的结果节点，且适应症为致死性罕见遗传病，未满足需求突出。报道给出生存获益线索，但未提供具体终点数值、样本量或统计检验细节。",
+      "_idx": 6
+    }
+  ]
+}

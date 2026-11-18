@@ -1,0 +1,2028 @@
+{
+  "e7575b094502523e": {
+    "id": "e7575b094502523e",
+    "title": "暴涨，SELLAS癌症疫苗GPS治疗AML三期成功，思路迪拥有中国权益",
+    "score": 8.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "3b6d0f0e9f2d0426": {
+    "id": "3b6d0f0e9f2d0426",
+    "title": "思路迪医药引入的 WT1 肿瘤疫苗在急性髓系白血病三期达标：126 例入组，拟报 FDA",
+    "score": 8.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "思路迪医药"
+        ],
+        "sponsor_en": [
+          "思路迪医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（思路迪医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "2eaafe5d51728879": {
+    "id": "2eaafe5d51728879",
+    "title": "ESR1突变乳腺癌风险降62%！罗氏口服SERD新药美国获批上市",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "355c055b24ff7c14": {
+    "id": "355c055b24ff7c14",
+    "title": "FDA拒绝依沃西单抗原因公布！93%临床事件来自中国患者",
+    "score": 7.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04982237",
+        "title": "A Study of AK104 Plus Platinum-containing Chemotherapy±Bevacizumab as First-line Treatment for Persistent, Recurrent, or Metastatic Cervical Cancer",
+        "official_title": "A Randomized, Double-blind, Placebo-controlled Phase III Study to Evaluate AK104 Plus Platinum-containing Chemotherapy With or Without Bevacizumab as First-line Treatment for Persistent, Recurrent, or Metastatic Cervical Cancer",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Cervical Cancer"
+        ],
+        "interventions": [
+          "AK104",
+          "paclitaxel",
+          "carboplatin",
+          "cisplatin",
+          "bevacizumab",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "progression-free survival (PFS) assessed by blinded independent central review (BICR) per RECIST v1.1",
+          "overall survival (OS)"
+        ],
+        "enrollment": 445,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-08-27",
+        "primary_completion": "2025-12-30",
+        "completion": "2025-12-30",
+        "last_update": "2025-11-19",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04982237",
+          "title": "A Study of AK104 Plus Platinum-containing Chemotherapy±Bevacizumab as First-line Treatment for Persistent, Recurrent, or Metastatic Cervical Cancer",
+          "official_title": "A Randomized, Double-blind, Placebo-controlled Phase III Study to Evaluate AK104 Plus Platinum-containing Chemotherapy With or Without Bevacizumab as First-line Treatment for Persistent, Recurrent, or Metastatic Cervical Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Cervical Cancer"
+          ],
+          "interventions": [
+            "AK104",
+            "paclitaxel",
+            "carboplatin",
+            "cisplatin",
+            "bevacizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "progression-free survival (PFS) assessed by blinded independent central review (BICR) per RECIST v1.1",
+            "overall survival (OS)"
+          ],
+          "enrollment": 445,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-08-27",
+          "primary_completion": "2025-12-30",
+          "completion": "2025-12-30",
+          "last_update": "2025-11-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05184712",
+          "title": "Phase 3 Clinical Study of AK112 for NSCLC Patients",
+          "official_title": "A Randomized, Double-blind, Multi-center, Phase III Study of AK112 Combined With Pemetrexed and Carboplatin Versus Placebo Combined With Pemetrexed and Carboplatin in Patients With Locally Advanced or Metastatic EGFR-mutant Non-squamous NSCLC Who Have Failed Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors (EGFR-TKIs)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Non-Squamous Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Ivonescimab (SMT112 or AK112) Injection",
+            "Placebo Injection"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS)"
+          ],
+          "enrollment": 322,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-01-25",
+          "primary_completion": "2023-03-10",
+          "completion": "2026-09",
+          "last_update": "2026-03-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04870177",
+          "title": "Study of AK112 in the Treatment of Advanced Gynecological Tumors",
+          "official_title": "Phase II Study of AK112 (Anti-PD-1 and VEGF Bi-specific Antibody) in the Treatment of Advanced Gynecological Carcinoma",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Gynecologic Cancer",
+            "Cancer Metastatic",
+            "Ovarian Neoplasms",
+            "Cervical Neoplasm",
+            "Endometrial Neoplasms"
+          ],
+          "interventions": [
+            "AK112"
+          ],
+          "primary_outcomes": [
+            "Objective response rates (ORR) according to RECIST v1.1 in the FAS population"
+          ],
+          "enrollment": 53,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-04-09",
+          "primary_completion": "2024-05-10",
+          "completion": "2024-05-10",
+          "last_update": "2025-02-28",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "康方生物",
+          "与康方生物"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "e61c670a6820a17d": {
+    "id": "e61c670a6820a17d",
+    "title": "Sellas claims Phase 3 win on AML cancer vaccine",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:win"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:win"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:win",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0ca3179467a8597a": {
+    "id": "0ca3179467a8597a",
+    "title": "<![CDATA[Galinpepimut-S Improves Overall Survival in Phase 3 REGAL Trial in AML]]>",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "643a12fe264a7bb7": {
+    "id": "643a12fe264a7bb7",
+    "title": "刚刚！默沙东宣布终止非共价BTK全部临床！",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT06136559",
+        "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+        "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Ibrutinib",
+          "Acalabrutinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+          "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+        ],
+        "enrollment": 1200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-13",
+        "primary_completion": "2032-09-07",
+        "completion": "2032-09-07",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia",
+          "Denmark",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07583810",
+          "title": "Non-covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab for the Treatment of Marginal Zone Lymphoma",
+          "official_title": "A Phase II Study of the Non-Covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab in Patients With Marginal Zone Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Marginal Zone Lymphoma",
+            "Nodal Marginal Zone Lymphoma",
+            "Splenic Marginal Zone Lymphoma",
+            "Lymphoma",
+            "Extranodal Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Nemtabrutinib",
+            "Positron Emission Tomography",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Incidence of unacceptable toxicity (Safety lead-in)",
+            "Complete response (CR) rate (Phase 2)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2030-09-25",
+          "completion": "2030-09-25",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07673367",
+          "title": "Nemtabrutinib With CAR T Therapy in Relapsed/Refractory Mantle Cell Lymphoma",
+          "official_title": "A Phase 2 Trial of Nemtabrutinib in Combination With Brexu-cel for Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanderbilt-Ingram Cancer Center",
+          "conditions": [
+            "Recurrent Mantle Cell Lymphoma",
+            "Refractory Mantle Cell Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Brexucabtagene autoleucel ( other names: brexu-cel , Tecartus)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival after brexucabtagene autoleucel (brexu-cel) infusion in relapsed/refractory mantle cell lymphoma"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-31",
+          "primary_completion": "2031-07-31",
+          "completion": "2032-07-31",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "nemtabrutinib",
+          "MK-1026"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "fa0df940fbc2f521": {
+    "id": "fa0df940fbc2f521",
+    "title": "默沙东终止 BTK 抑制剂多项 Ⅲ 期临床试验",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT06136559",
+        "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+        "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Ibrutinib",
+          "Acalabrutinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+          "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+        ],
+        "enrollment": 1200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-13",
+        "primary_completion": "2032-09-07",
+        "completion": "2032-09-07",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia",
+          "Denmark",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07583810",
+          "title": "Non-covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab for the Treatment of Marginal Zone Lymphoma",
+          "official_title": "A Phase II Study of the Non-Covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab in Patients With Marginal Zone Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Marginal Zone Lymphoma",
+            "Nodal Marginal Zone Lymphoma",
+            "Splenic Marginal Zone Lymphoma",
+            "Lymphoma",
+            "Extranodal Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Nemtabrutinib",
+            "Positron Emission Tomography",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Incidence of unacceptable toxicity (Safety lead-in)",
+            "Complete response (CR) rate (Phase 2)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2030-09-25",
+          "completion": "2030-09-25",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07673367",
+          "title": "Nemtabrutinib With CAR T Therapy in Relapsed/Refractory Mantle Cell Lymphoma",
+          "official_title": "A Phase 2 Trial of Nemtabrutinib in Combination With Brexu-cel for Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanderbilt-Ingram Cancer Center",
+          "conditions": [
+            "Recurrent Mantle Cell Lymphoma",
+            "Refractory Mantle Cell Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Brexucabtagene autoleucel ( other names: brexu-cel , Tecartus)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival after brexucabtagene autoleucel (brexu-cel) infusion in relapsed/refractory mantle cell lymphoma"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-31",
+          "primary_completion": "2031-07-31",
+          "completion": "2032-07-31",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nemtabrutinib",
+          "MK-1026"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "975dfbb6b02ecc55": {
+    "id": "975dfbb6b02ecc55",
+    "title": "Roche enters the SERD market with FDA approval in late-stage breast cancer",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "3de2782b5c38ede1": {
+    "id": "3de2782b5c38ede1",
+    "title": "FDA OKs Drug Linked to Longer Survival in Fatal Genetic Disorder",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "964e155133a623cb": {
+    "id": "964e155133a623cb",
+    "title": "<![CDATA[Galinpepimut-S Improves OS in AML in Second or Later Remission]]>",
+    "score": 6.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b7d5656bf77694e2": {
+    "id": "b7d5656bf77694e2",
+    "title": "默沙东：BTK抑制剂终止三期临床",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT06136559",
+        "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+        "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Ibrutinib",
+          "Acalabrutinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+          "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+        ],
+        "enrollment": 1200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-13",
+        "primary_completion": "2032-09-07",
+        "completion": "2032-09-07",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia",
+          "Denmark",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07583810",
+          "title": "Non-covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab for the Treatment of Marginal Zone Lymphoma",
+          "official_title": "A Phase II Study of the Non-Covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab in Patients With Marginal Zone Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Marginal Zone Lymphoma",
+            "Nodal Marginal Zone Lymphoma",
+            "Splenic Marginal Zone Lymphoma",
+            "Lymphoma",
+            "Extranodal Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Nemtabrutinib",
+            "Positron Emission Tomography",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Incidence of unacceptable toxicity (Safety lead-in)",
+            "Complete response (CR) rate (Phase 2)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2030-09-25",
+          "completion": "2030-09-25",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07673367",
+          "title": "Nemtabrutinib With CAR T Therapy in Relapsed/Refractory Mantle Cell Lymphoma",
+          "official_title": "A Phase 2 Trial of Nemtabrutinib in Combination With Brexu-cel for Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanderbilt-Ingram Cancer Center",
+          "conditions": [
+            "Recurrent Mantle Cell Lymphoma",
+            "Refractory Mantle Cell Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Brexucabtagene autoleucel ( other names: brexu-cel , Tecartus)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival after brexucabtagene autoleucel (brexu-cel) infusion in relapsed/refractory mantle cell lymphoma"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-31",
+          "primary_completion": "2031-07-31",
+          "completion": "2032-07-31",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nemtabrutinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "9bd9aa9b3f63a04d": {
+    "id": "9bd9aa9b3f63a04d",
+    "title": "#CTAD26: Priavoid’s amyloid-detangling pill PRI-002 fails Phase 2 study in Alzheimer’s",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06182085",
+        "title": "Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD)",
+        "official_title": "Randomised, Double-blind, Placebo-controlled Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD) (PRImus-AD)",
+        "acronym": "PRImus-AD",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "PRInnovation GmbH",
+        "conditions": [
+          "Mild Cognitive Impairment Due to Alzheimer's Disease",
+          "Alzheimer's Disease, Early Onset"
+        ],
+        "interventions": [
+          "PRI-002",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "To evaluate the safety and tolerability of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on incidence of drug-related adverse events (AEs).",
+          "To evaluate the efficacy of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on the Clinical Dementia Rating - Sum of Boxes (CDR-SB)."
+        ],
+        "enrollment": 304,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2024-02-15",
+        "primary_completion": "2026-04-15",
+        "completion": "2026-07-02",
+        "last_update": "2026-07-10",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "Czechia",
+          "Germany",
+          "Italy",
+          "Netherlands",
+          "Poland",
+          "Spain"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06182085",
+          "title": "Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD)",
+          "official_title": "Randomised, Double-blind, Placebo-controlled Study to Assess Safety and Efficacy of PRI-002 in Patients With MCI to Mild Dementia Due to Alzheimer's Disease (AD) (PRImus-AD)",
+          "acronym": "PRImus-AD",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "PRInnovation GmbH",
+          "conditions": [
+            "Mild Cognitive Impairment Due to Alzheimer's Disease",
+            "Alzheimer's Disease, Early Onset"
+          ],
+          "interventions": [
+            "PRI-002",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "To evaluate the safety and tolerability of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on incidence of drug-related adverse events (AEs).",
+            "To evaluate the efficacy of multiple doses of PRI-002 in subjects with MCI or mild dementia due to AD, based on the Clinical Dementia Rating - Sum of Boxes (CDR-SB)."
+          ],
+          "enrollment": 304,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-02-15",
+          "primary_completion": "2026-04-15",
+          "completion": "2026-07-02",
+          "last_update": "2026-07-10",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Czechia",
+            "Germany",
+            "Italy",
+            "Netherlands",
+            "Poland",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "PRI-002"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6d57a69bae2ce898": {
+    "id": "6d57a69bae2ce898",
+    "title": "诺和盈®使近80%的6岁至12岁肥胖儿童BMI降低10%或以上，安慰剂组为0%——STEP Young研究结果发表于《新英格兰医学杂志》",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "856efaa0cb4e760b": {
+    "id": "856efaa0cb4e760b",
+    "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "7a5f357a2d045b79": {
+    "id": "7a5f357a2d045b79",
+    "title": "Sellas大涨156%：肿瘤疫苗GPS治疗AML三期临床成功",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:临床成功"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:临床成功"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:临床成功",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "0eca24911856946c": {
+    "id": "0eca24911856946c",
+    "title": "国内首款完成III期干细胞药NDA获受理",
+    "score": 6.0,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "本文仅作医疗",
+          "海爱萨尔生物",
+          "医药股份",
+          "爱萨尔生物"
+        ],
+        "sponsor_en": [
+          "本文仅作医疗",
+          "海爱萨尔生物",
+          "医药股份",
+          "爱萨尔生物"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（本文仅作医疗、海爱萨尔生物、医药股份、爱萨尔生物）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "762b4aa027d152db": {
+    "id": "762b4aa027d152db",
+    "title": "Beren wins FDA approval for long-studied rare disease drug",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Beren"
+        ],
+        "sponsor_en": [
+          "Beren"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "ade333a5664ac5d8": {
+    "id": "ade333a5664ac5d8",
+    "title": "Merck ends the sorry saga of BTK inhibitor it got from ArQule",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06136559",
+        "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+        "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Ibrutinib",
+          "Acalabrutinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+          "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+        ],
+        "enrollment": 1200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-13",
+        "primary_completion": "2032-09-07",
+        "completion": "2032-09-07",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia",
+          "Denmark",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07583810",
+          "title": "Non-covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab for the Treatment of Marginal Zone Lymphoma",
+          "official_title": "A Phase II Study of the Non-Covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab in Patients With Marginal Zone Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Marginal Zone Lymphoma",
+            "Nodal Marginal Zone Lymphoma",
+            "Splenic Marginal Zone Lymphoma",
+            "Lymphoma",
+            "Extranodal Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Nemtabrutinib",
+            "Positron Emission Tomography",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Incidence of unacceptable toxicity (Safety lead-in)",
+            "Complete response (CR) rate (Phase 2)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2030-09-25",
+          "completion": "2030-09-25",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07673367",
+          "title": "Nemtabrutinib With CAR T Therapy in Relapsed/Refractory Mantle Cell Lymphoma",
+          "official_title": "A Phase 2 Trial of Nemtabrutinib in Combination With Brexu-cel for Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanderbilt-Ingram Cancer Center",
+          "conditions": [
+            "Recurrent Mantle Cell Lymphoma",
+            "Refractory Mantle Cell Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Brexucabtagene autoleucel ( other names: brexu-cel , Tecartus)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival after brexucabtagene autoleucel (brexu-cel) infusion in relapsed/refractory mantle cell lymphoma"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-31",
+          "primary_completion": "2031-07-31",
+          "completion": "2032-07-31",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nemtabrutinib",
+          "MK-1026"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "4b0abbca774449ba": {
+    "id": "4b0abbca774449ba",
+    "title": "27亿美元打水漂，默沙东终止BTK抑制剂三期临床",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT06136559",
+        "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+        "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Ibrutinib",
+          "Acalabrutinib"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+          "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+        ],
+        "enrollment": 1200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-13",
+        "primary_completion": "2032-09-07",
+        "completion": "2032-09-07",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Czechia",
+          "Denmark",
+          "Germany",
+          "Greece"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07583810",
+          "title": "Non-covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab for the Treatment of Marginal Zone Lymphoma",
+          "official_title": "A Phase II Study of the Non-Covalent BTK Inhibitor Nemtabrutinib in Combination With the CD20 Monoclonal Antibody Rituximab in Patients With Marginal Zone Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "City of Hope Medical Center",
+          "conditions": [
+            "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
+            "Marginal Zone Lymphoma",
+            "Nodal Marginal Zone Lymphoma",
+            "Splenic Marginal Zone Lymphoma",
+            "Lymphoma",
+            "Extranodal Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Biopsy Procedure",
+            "Biospecimen Collection",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Magnetic Resonance Imaging",
+            "Nemtabrutinib",
+            "Positron Emission Tomography",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Incidence of unacceptable toxicity (Safety lead-in)",
+            "Complete response (CR) rate (Phase 2)"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-10-23",
+          "primary_completion": "2030-09-25",
+          "completion": "2030-09-25",
+          "last_update": "2026-10-29",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07673367",
+          "title": "Nemtabrutinib With CAR T Therapy in Relapsed/Refractory Mantle Cell Lymphoma",
+          "official_title": "A Phase 2 Trial of Nemtabrutinib in Combination With Brexu-cel for Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Vanderbilt-Ingram Cancer Center",
+          "conditions": [
+            "Recurrent Mantle Cell Lymphoma",
+            "Refractory Mantle Cell Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Brexucabtagene autoleucel ( other names: brexu-cel , Tecartus)"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival after brexucabtagene autoleucel (brexu-cel) infusion in relapsed/refractory mantle cell lymphoma"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-07-31",
+          "primary_completion": "2031-07-31",
+          "completion": "2032-07-31",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "nemtabrutinib",
+          "MK-1026",
+          "Nemtabrutinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  }
+}
