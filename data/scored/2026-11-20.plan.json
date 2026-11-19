@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-20",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:alveltamig",
+      "lead_id": "3a4523359bf4bdea",
+      "title": "泽璟制药三抗新药肺癌关键临床研究达主要终点，拟申报上市丨产业新闻",
+      "score": 7.4,
+      "channel": "china",
+      "member_ids": [
+        "3a4523359bf4bdea"
+      ],
+      "members": [
+        {
+          "title": "泽璟制药三抗新药肺癌关键临床研究达主要终点，拟申报上市丨产业新闻",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_395621",
+          "score": 7.4,
+          "reasoning": "随机对照关键试验的预设期中分析由独立数据监查委员会判定达到主要终点，是三线SCLC领域值得报道的阶段性临床结果；条目未提供效应量、置信区间和样本量，因此可信度仍受公司披露限制。"
+        }
+      ],
+      "reasoning": "随机对照关键试验的预设期中分析由独立数据监查委员会判定达到主要终点，是三线SCLC领域值得报道的阶段性临床结果；条目未提供效应量、置信区间和样本量，因此可信度仍受公司披露限制。",
+      "verify_todo": [
+        "核实主要终点定义、期中分析统计边界和检验方法",
+        "核实OS、PFS、效应量、置信区间及样本量",
+        "核实试验注册号、入组人群和安全性结果",
+        "核实Pre-BLA沟通计划及后续申报时间表"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:semaglutide",
+      "lead_id": "3d6738d10d6eb4d7",
+      "title": "SPOTLIGHT EASD 2026：中国 T2D 患者心血管一级预防新证据：原研司美格鲁肽降低 MACE 风险达 48%！",
+      "score": 7.4,
+      "channel": "china",
+      "member_ids": [
+        "3d6738d10d6eb4d7"
+      ],
+      "members": [
+        {
+          "title": "SPOTLIGHT EASD 2026：中国 T2D 患者心血管一级预防新证据：原研司美格鲁肽降低 MACE 风险达 48%！",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/qy_395564",
+          "score": 7.4,
+          "reasoning": "SPOTLIGHT报告了中国T2D患者心血管一级预防的MACE风险下降数据，涉及有临床意义的长期结局；但现有摘要没有明确说明主要终点是否按预设统计假设成功，也缺少置信区间和p值，因此仅按积极疗效数字而非统计结论评分。"
+        }
+      ],
+      "reasoning": "SPOTLIGHT报告了中国T2D患者心血管一级预防的MACE风险下降数据，涉及有临床意义的长期结局；但现有摘要没有明确说明主要终点是否按预设统计假设成功，也缺少置信区间和p值，因此仅按积极疗效数字而非统计结论评分。",
+      "verify_todo": [
+        "核实SPOTLIGHT是否正式达到主要终点及完整统计分析",
+        "核实MACE事件数、风险比、置信区间和p值",
+        "核实结果是否属于预设亚组、区域分析或事后分析",
+        "核实会议报告形式和后续同行评议计划"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:ensartinib",
+      "lead_id": "32f9ec9e8e75055a",
+      "title": "贝达药业肺癌靶向药盐酸恩沙替尼胶囊获欧盟EC批准，成为首个中美欧三地上市的国产ALK抑制剂",
+      "score": 7.3,
+      "channel": "china",
+      "member_ids": [
+        "32f9ec9e8e75055a"
+      ],
+      "members": [
+        {
+          "title": "贝达药业肺癌靶向药盐酸恩沙替尼胶囊获欧盟EC批准，成为首个中美欧三地上市的国产ALK抑制剂",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_395247",
+          "score": 7.3,
+          "reasoning": "中国原研ALK抑制剂取得欧盟批准并形成中美欧三地布局，属于具有全球临床转化意义的监管结果；现有材料未给出支持批准的临床统计量，主要依据监管批准的文本信息评分。"
+        }
+      ],
+      "reasoning": "中国原研ALK抑制剂取得欧盟批准并形成中美欧三地布局，属于具有全球临床转化意义的监管结果；现有材料未给出支持批准的临床统计量，主要依据监管批准的文本信息评分。",
+      "verify_todo": [
+        "核实欧盟委员会批准文件及正式适应症措辞",
+        "核实支持批准的注册性试验、主要终点和关键统计结果",
+        "核实中美欧各适应症批准时间与范围"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:cemdisiran",
+      "lead_id": "83794afd396003e4",
+      "title": "全球首个！再生元gMG siRNA疗法获FDA批准，一年仅需皮下注射四次",
+      "score": 8.7,
+      "channel": "global",
+      "member_ids": [
+        "83794afd396003e4"
+      ],
+      "members": [
+        {
+          "title": "全球首个！再生元gMG siRNA疗法获FDA批准，一年仅需皮下注射四次",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_395595",
+          "score": 8.7,
+          "reasoning": "监管批准建立在随机对照III期结果之上，条目提供多个预设终点的组间差异及明确p值，属于高可信度的临床获益结论；主要终点为患者报告的功能量表，替代终点属性仍需在成稿前核实。"
+        }
+      ],
+      "reasoning": "监管批准建立在随机对照III期结果之上，条目提供多个预设终点的组间差异及明确p值，属于高可信度的临床获益结论；主要终点为患者报告的功能量表，替代终点属性仍需在成稿前核实。",
+      "verify_todo": [
+        "核实NIMBLE试验注册号、主要终点定义及完整统计结果",
+        "核实FDA批准依据、适应症措辞和上市后要求",
+        "核实长期疗效、持续应答及关键安全性结果"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:giredestrant",
+      "lead_id": "1bf8075d2ee0172c",
+      "title": "FDA approves giredestrant in combination with everolimus for ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer",
+      "score": 8.1,
+      "channel": "global",
+      "member_ids": [
+        "1bf8075d2ee0172c"
+      ],
+      "members": [
+        {
+          "title": "FDA approves giredestrant in combination with everolimus for ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/fda-approves-giredestrant-in-combination-with-everolimus-for-er-positive-her2-negative-esr1-mutated-locally-advanced-or-metastatic-breast-cancer",
+          "score": 8.1,
+          "reasoning": "FDA批准基于evERA乳腺癌研究，是ESR1突变乳腺癌精准治疗的重要监管结果；现有材料提供批准和适应症信息，但未展示支持批准的PFS、OS统计量及检验结果。"
+        }
+      ],
+      "reasoning": "FDA批准基于evERA乳腺癌研究，是ESR1突变乳腺癌精准治疗的重要监管结果；现有材料提供批准和适应症信息，但未展示支持批准的PFS、OS统计量及检验结果。",
+      "verify_todo": [
+        "核实evERA试验的设计、主要终点和关键统计结果",
+        "核实PFS、OS、效应量、置信区间及p值",
+        "核实批准依据与伴随诊断的具体规定",
+        "核实联合方案的禁忌证和主要安全性结果"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 5
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:neladalkib",
+      "lead_id": "c511f2185713659e",
+      "title": "ALK 四代药Neladalkib(NVL-655，奈拉达基)获批上市，洛拉替尼耐药有新药了！",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "c511f2185713659e"
+      ],
+      "members": [
+        {
+          "title": "ALK 四代药Neladalkib(NVL-655，奈拉达基)获批上市，洛拉替尼耐药有新药了！",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_395596",
+          "score": 6.8,
+          "reasoning": "FDA加速批准为耐药ALK阳性NSCLC带来新的监管性临床进展，具有较高报道价值；但条目没有展示支持批准的疗效数字、统计检验或监管文件原件。"
+        }
+      ],
+      "reasoning": "FDA加速批准为耐药ALK阳性NSCLC带来新的监管性临床进展，具有较高报道价值；但条目没有展示支持批准的疗效数字、统计检验或监管文件原件。",
+      "verify_todo": [
+        "核实FDA批准文件、适应症范围及加速批准转换要求",
+        "核实支持批准的试验名称、NCT编号和关键疗效统计",
+        "核实既往治疗要求及主要安全性信号"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 6
+    }
+  ]
+}

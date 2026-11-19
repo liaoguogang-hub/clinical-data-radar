@@ -1,0 +1,2354 @@
+{
+  "1bf8075d2ee0172c": {
+    "id": "1bf8075d2ee0172c",
+    "title": "FDA approves giredestrant in combination with everolimus for ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer",
+    "score": 8.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:statistically significant"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:statistically significant"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:statistically significant",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [
+          "NCT05306340"
+        ],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "0ca3179467a8597a": {
+    "id": "0ca3179467a8597a",
+    "title": "<![CDATA[Galinpepimut-S Improves Overall Survival in Phase 3 REGAL Trial in AML]]>",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "3d6738d10d6eb4d7": {
+    "id": "3d6738d10d6eb4d7",
+    "title": "SPOTLIGHT EASD 2026：中国 T2D 患者心血管一级预防新证据：原研司美格鲁肽降低 MACE 风险达 48%！",
+    "score": 7.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "beab09823c142fbf": {
+    "id": "beab09823c142fbf",
+    "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+    "score": 7.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:III期成功"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:III期成功"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:III期成功",
+    "registry": {
+      "best": {
+        "nct": "NCT04588922",
+        "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+        "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Sellas Life Sciences Group",
+        "conditions": [
+          "Hematologic Malignancies"
+        ],
+        "interventions": [
+          "SLS009",
+          "venetoclax",
+          "azacitidine"
+        ],
+        "primary_outcomes": [
+          "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
+          "Safety and Tolerability: adverse events (AEs)",
+          "Efficacy: ORR"
+        ],
+        "enrollment": 160,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2021-05-10",
+        "primary_completion": "2026-12-30",
+        "completion": "2027-12-31",
+        "last_update": "2026-09-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04588922",
+          "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+          "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Sellas Life Sciences Group",
+          "conditions": [
+            "Hematologic Malignancies"
+          ],
+          "interventions": [
+            "SLS009",
+            "venetoclax",
+            "azacitidine"
+          ],
+          "primary_outcomes": [
+            "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
+            "Safety and Tolerability: adverse events (AEs)",
+            "Efficacy: ORR"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-05-10",
+          "primary_completion": "2026-12-30",
+          "completion": "2027-12-31",
+          "last_update": "2026-09-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "SLS009"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "入驻摩熵医药",
+          "代表摩熵医药"
+        ]
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04588922），写入前需确认是否同一适应症"
+    }
+  },
+  "814bbee464521cb0": {
+    "id": "814bbee464521cb0",
+    "title": "康方生物依沃西单抗BLA收FDA完整回复函：OS未达统计学显著性、93%PFS事件来自中国患者",
+    "score": 7.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:中止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:中止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:中止",
+    "registry": {
+      "best": {
+        "nct": "NCT06951503",
+        "title": "AK112 and Chemotherapy in First-line Metastatic Colorectal Cancer",
+        "official_title": "A Randomized, Controlled, Multicenter Phase III Clinical Study of AK112 Combined With Chemotherapy Versus Bevacizumab Combined With Chemotherapy in First-line Metastatic Colorectal Cancer",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Akeso",
+        "conditions": [
+          "Colorectal Adenocarcinoma"
+        ],
+        "interventions": [
+          "AK112",
+          "Oxaliplatin",
+          "Irinotecan",
+          "Leucovorin and 5-FU",
+          "Bevacizumab"
+        ],
+        "primary_outcomes": [
+          "Progression-free survival (PFS) assessed by blinded independent central review (BICR)"
+        ],
+        "enrollment": 560,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-05-27",
+        "primary_completion": "2027-01-13",
+        "completion": "2029-01-07",
+        "last_update": "2026-03-04",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06951503",
+          "title": "AK112 and Chemotherapy in First-line Metastatic Colorectal Cancer",
+          "official_title": "A Randomized, Controlled, Multicenter Phase III Clinical Study of AK112 Combined With Chemotherapy Versus Bevacizumab Combined With Chemotherapy in First-line Metastatic Colorectal Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Colorectal Adenocarcinoma"
+          ],
+          "interventions": [
+            "AK112",
+            "Oxaliplatin",
+            "Irinotecan",
+            "Leucovorin and 5-FU",
+            "Bevacizumab"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS) assessed by blinded independent central review (BICR)"
+          ],
+          "enrollment": 560,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-05-27",
+          "primary_completion": "2027-01-13",
+          "completion": "2029-01-07",
+          "last_update": "2026-03-04",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06586294",
+          "title": "A Study of Anti-PD-1 and LAG-3 Bispecific Antibody(AK129) Combined With Chemotherapy With or Without Cadonilimab in the First-line Treatment of Unresectable Locally Advanced or Metastatic G/ GEJ Adenocarcinoma",
+          "official_title": "A Phase Ib/II Open Label,Dose Escalation and Dose Extension Study Evaluating the Safety, Tolerability, and Initial Antitumor Efficacy of Anti-PD-1 and Lymphocyte Activation Gene 3(LAG-3) Bispecific Antibody AK129 Combined With Chemotherapy With or Without Cadonilimab in Patients With Human Epidermal Growth Factor Receptor 2 (HER2) Negative Unresectable Locally Advanced or Metastatic G/GEJ Adenocarcinoma",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Gastric Adenocarcinoma",
+            "Gastroesophageal Junction Adenocarcinoma"
+          ],
+          "interventions": [
+            "Drug: AK129 Drug：oxaliplatin Drug：capecitabine",
+            "Drug: AK129 Drug: cadonilimab Drug: oxaliplatin Drug: capecitabine"
+          ],
+          "primary_outcomes": [
+            "Incidence and severity of adverse events(AE)",
+            "Incidence of serious adverse events(SAE) and suspected unexpected serious adverse reactions(SUSAR)",
+            "Incidence of dose-limiting toxicity(DLT)",
+            "Clinically significant changes in safety/laboratory evaluation parameters and AEs that led to treatment termination or suspension",
+            "Objective Solution Rate (ORR) based on RECIST v1.1"
+          ],
+          "enrollment": 35,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2024-09-30",
+          "primary_completion": "2026-04-20",
+          "completion": "2026-04-20",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05227664",
+          "title": "A Study of AK117/AK112 in Metastatic Triple-Negative Breast Cancer",
+          "official_title": "A Phase II Study of AK117/AK112 in Combination With Chemotherapy for Patients With Previously Untreated Metastatic Triple-Negative Breast Cancer",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Akeso",
+          "conditions": [
+            "Metastatic Triple-negative Breast Cancer",
+            "Locally Advanced Triple-negative Breast Cancer"
+          ],
+          "interventions": [
+            "AK117",
+            "AK112",
+            "Nab paclitaxel",
+            "paclitaxel"
+          ],
+          "primary_outcomes": [
+            "Objective response rates (ORR)",
+            "Number of participants with adverse events (AEs)"
+          ],
+          "enrollment": 120,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-03-23",
+          "primary_completion": "2026-12-30",
+          "completion": "2027-06-30",
+          "last_update": "2026-03-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "康方生物",
+          "与康方生物",
+          "沃西单抗生物",
+          "摩熵医药"
+        ],
+        "sponsor_en": [
+          "Akeso",
+          "Akeso",
+          "沃西单抗生物",
+          "摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "83794afd396003e4": {
+    "id": "83794afd396003e4",
+    "title": "全球首个！再生元gMG siRNA疗法获FDA批准，一年仅需皮下注射四次",
+    "score": 8.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "疗效数据表述:获益",
+        "注册库状态=TERMINATED，原因：Study was terminated early having identified clinically meaningful magnitude of "
+      ],
+      "conflict": false,
+      "halt_reason": "safety"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：safety\n证据：疗效数据表述:获益；注册库状态=TERMINATED，原因：Study was terminated early having identified clinically meaningful magnitude of ",
+    "registry": {
+      "best": {
+        "nct": "NCT03841448",
+        "title": "A Study of Cemdisiran in Adults With Immunoglobulin A Nephropathy (IgAN)",
+        "official_title": "A Phase 2, Randomized, Double-blind, Placebo-controlled Study of Cemdisiran in Adult Patients With IgA Nephropathy",
+        "acronym": "",
+        "status": "TERMINATED",
+        "why_stopped": "Study was terminated early having identified clinically meaningful magnitude of proteinuria reduction due to cemdisiran (study goal). Participants completed DBT period\\&were in OLE period. Sponsor had no concerns with safety\\&integrity of participants.",
+        "phase": "PHASE2",
+        "sponsor": "Alnylam Pharmaceuticals",
+        "conditions": [
+          "IgA Nephropathy (IgAN)",
+          "Berger Disease",
+          "Glomerulonephritis, IgA"
+        ],
+        "interventions": [
+          "Placebo",
+          "Cemdisiran"
+        ],
+        "primary_outcomes": [
+          "Percent Change From Baseline in UPCR as Measured in 24-hour Urine at Week 32"
+        ],
+        "enrollment": 31,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2019-09-30",
+        "primary_completion": "2022-03-17",
+        "completion": "2023-06-27",
+        "last_update": "2024-08-09",
+        "results_first_post": "2023-12-08",
+        "has_results": true,
+        "countries": [
+          "Canada",
+          "France",
+          "Malaysia",
+          "Philippines",
+          "Singapore",
+          "Spain",
+          "Sweden",
+          "Taiwan",
+          "United Kingdom"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03841448",
+          "title": "A Study of Cemdisiran in Adults With Immunoglobulin A Nephropathy (IgAN)",
+          "official_title": "A Phase 2, Randomized, Double-blind, Placebo-controlled Study of Cemdisiran in Adult Patients With IgA Nephropathy",
+          "acronym": "",
+          "status": "TERMINATED",
+          "why_stopped": "Study was terminated early having identified clinically meaningful magnitude of proteinuria reduction due to cemdisiran (study goal). Participants completed DBT period\\&were in OLE period. Sponsor had no concerns with safety\\&integrity of participants.",
+          "phase": "PHASE2",
+          "sponsor": "Alnylam Pharmaceuticals",
+          "conditions": [
+            "IgA Nephropathy (IgAN)",
+            "Berger Disease",
+            "Glomerulonephritis, IgA"
+          ],
+          "interventions": [
+            "Placebo",
+            "Cemdisiran"
+          ],
+          "primary_outcomes": [
+            "Percent Change From Baseline in UPCR as Measured in 24-hour Urine at Week 32"
+          ],
+          "enrollment": 31,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2019-09-30",
+          "primary_completion": "2022-03-17",
+          "completion": "2023-06-27",
+          "last_update": "2024-08-09",
+          "results_first_post": "2023-12-08",
+          "has_results": true,
+          "countries": [
+            "Canada",
+            "France",
+            "Malaysia",
+            "Philippines",
+            "Singapore",
+            "Spain",
+            "Sweden",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04811716",
+          "title": "Pozelimab and Cemdisiran Combination Treatment in Adult Participants With Paroxysmal Nocturnal Hemoglobinuria Who Have Received Pozelimab Monotherapy",
+          "official_title": "A Randomized, Open-label, Two-arm Study to Evaluate the Safety, Efficacy, and Pharmacodynamic Effects of Pozelimab and Cemdisiran Combination Treatment in Patients With Paroxysmal Nocturnal Hemoglobinuria Who Have Received Pozelimab Monotherapy",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Regeneron Pharmaceuticals",
+          "conditions": [
+            "Paroxysmal Nocturnal Hemoglobinuria"
+          ],
+          "interventions": [
+            "Pozelimab",
+            "Cemdisiran"
+          ],
+          "primary_outcomes": [
+            "Percentage of Participants With Treatment Emergent Adverse Events (TEAEs)"
+          ],
+          "enrollment": 24,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-07-29",
+          "primary_completion": "2022-10-25",
+          "completion": "2023-10-18",
+          "last_update": "2025-04-08",
+          "results_first_post": "2025-01-16",
+          "has_results": true,
+          "countries": [
+            "Hong Kong",
+            "Hungary",
+            "Malaysia",
+            "South Korea",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05744921",
+          "title": "A Study in Adult Patients With Paroxysmal Nocturnal Hemoglobinuria (PNH) to Evaluate How Safe Long-term Treatment With Pozelimab + Cemdisiran Combination Therapy is and How Well it Works",
+          "official_title": "An Open-Label Extension Study to Evaluate the Long-Term Safety, Tolerability, and Efficacy of Pozelimab and Cemdisiran Combination Therapy in Patients With Paroxysmal Nocturnal Hemoglobinuria",
+          "acronym": "ACCESS-EXT",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Regeneron Pharmaceuticals",
+          "conditions": [
+            "Paroxysmal Nocturnal Hemoglobinuria"
+          ],
+          "interventions": [
+            "Pozelimab",
+            "Cemdisiran"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent serious adverse events (SAEs)",
+            "Severity of treatment-emergent SAEs",
+            "Incidence of treatment emergent adverse events of special interest (AESIs)",
+            "Severity of treatment emergent AESIs",
+            "Incidence of adverse events (AEs) leading to permanent treatment discontinuation",
+            "Severity of adverse events (AEs) leading to permanent treatment discontinuation",
+            "Percent change from baseline in lactate dehydrogenase (LDH)"
+          ],
+          "enrollment": 202,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-03-07",
+          "primary_completion": "2028-10-10",
+          "completion": "2028-10-10",
+          "last_update": "2026-11-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "Brazil",
+            "Canada",
+            "Colombia",
+            "Hungary",
+            "India",
+            "Italy",
+            "Japan",
+            "Jordan",
+            "Malaysia",
+            "Mexico",
+            "Peru",
+            "Philippines"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "cemdisiran"
+        ],
+        "sponsor": [
+          "再生元制药",
+          "触界生物"
+        ],
+        "sponsor_en": [
+          "Regeneron",
+          "触界生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "3a4523359bf4bdea": {
+    "id": "3a4523359bf4bdea",
+    "title": "泽璟制药三抗新药肺癌关键临床研究达主要终点，拟申报上市丨产业新闻",
+    "score": 7.4,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT07189455",
+        "title": "Study Comparing ZG006 With Investigator-Selected Chemotherapy in Participants With Relapsed Small Cell Lung Cancer",
+        "official_title": "A Multicenter, Randomized, Controlled, Open-Label Phase III Study Evaluating the Efficacy and Safety of ZG006 for Injection Compared With Investigator-Selected Chemotherapy in Participants With Relapsed Small Cell Lung Cancer",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+        "conditions": [
+          "Small-cell Lung Cancer"
+        ],
+        "interventions": [
+          "ZG006",
+          "Topotecan"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 420,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-12-12",
+        "primary_completion": "2028-10",
+        "completion": "2028-12",
+        "last_update": "2026-01-05",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07189455",
+          "title": "Study Comparing ZG006 With Investigator-Selected Chemotherapy in Participants With Relapsed Small Cell Lung Cancer",
+          "official_title": "A Multicenter, Randomized, Controlled, Open-Label Phase III Study Evaluating the Efficacy and Safety of ZG006 for Injection Compared With Investigator-Selected Chemotherapy in Participants With Relapsed Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+          "conditions": [
+            "Small-cell Lung Cancer"
+          ],
+          "interventions": [
+            "ZG006",
+            "Topotecan"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 420,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-12-12",
+          "primary_completion": "2028-10",
+          "completion": "2028-12",
+          "last_update": "2026-01-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07038096",
+          "title": "ZG006 and ZG005 in Participants With Small Cell Lung Cancer or Neuroendocrine Carcinoma",
+          "official_title": "A Phase Ib/II Study of the Tolerability, Safety, Efficacy, and Pharmacokinetics of ZG006 in Combination With ZG005 in Participants With Advanced Small Cell Lung Cancer or Neuroendocrine Carcinoma(NEC)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+          "conditions": [
+            "Small Cell Lung Cancer",
+            "Neuroendocrine Carcinoma"
+          ],
+          "interventions": [
+            "ZG006",
+            "ZG005"
+          ],
+          "primary_outcomes": [
+            "Number of Participants Who Experienced Dose-limiting Toxicity (DLT)",
+            "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+            "Objective Response Rate (ORR)"
+          ],
+          "enrollment": 350,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-09-23",
+          "primary_completion": "2027-09",
+          "completion": "2027-09",
+          "last_update": "2026-01-05",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06283719",
+          "title": "Dose Escalation Study of ZG006 in Participants With Advanced Small Cell Lung Cancer or Neuroendocrine Carcinoma, Followed by Dose Expansion Study in Participants With Advanced Small Cell Lung Cancer",
+          "official_title": "A Phase I Dose Escalation Study of Tolerability, Safety, Efficacy, and Pharmacokinetics of ZG006 in Participants With Advanced Small Cell Lung Cancer or Neuroendocrine Carcinoma, Followed by a Phase II Dose Expansion Study in Participants With Advanced Small Cell Lung Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+          "conditions": [
+            "Small Cell Lung Cancer",
+            "Neuroendocrine Cancer"
+          ],
+          "interventions": [
+            "ZG006"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR)",
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 265,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-09-02",
+          "primary_completion": "2027-04",
+          "completion": "2027-04",
+          "last_update": "2026-10-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "ZG006"
+        ],
+        "sponsor": [
+          "泽璟制药",
+          "是泽璟制药"
+        ],
+        "sponsor_en": [
+          "Zelgen",
+          "Zelgen"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "32f9ec9e8e75055a": {
+    "id": "32f9ec9e8e75055a",
+    "title": "贝达药业肺癌靶向药盐酸恩沙替尼胶囊获欧盟EC批准，成为首个中美欧三地上市的国产ALK抑制剂",
+    "score": 7.3,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06041776",
+        "title": "Adjuvant Befotertinib in Stage IB-IIIB Non-small Cell Lung Cancer With Positive EGFR Sensitive Mutations",
+        "official_title": "A Multicenter, Randomized, Controlled, Double Blind, Double Simulated, Phase III Clinical Study of Befotertinib vs Icotinib for Postoperative Adjuvant Treatment of IB-IIIB (T3N2M0) Stage Non Small Cell Lung Cancer With Positive EGFR Sensitive Mutations",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Betta Pharmaceuticals Co., Ltd.",
+        "conditions": [
+          "Non-Small Cell Lung Cancer",
+          "EGFR Sensitive Mutation",
+          "Adjuvant Therapy"
+        ],
+        "interventions": [
+          "Befotertinib + Icotinib placebo",
+          "Icotinib + Befotertinib placebo"
+        ],
+        "primary_outcomes": [
+          "Disease free survival (DFS) evaluated by investigator in patients with stage II-IIIB (T3N2M0)"
+        ],
+        "enrollment": 570,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-03-28",
+        "primary_completion": "2028-04-30",
+        "completion": "2029-11-30",
+        "last_update": "2023-09-22",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06041776",
+          "title": "Adjuvant Befotertinib in Stage IB-IIIB Non-small Cell Lung Cancer With Positive EGFR Sensitive Mutations",
+          "official_title": "A Multicenter, Randomized, Controlled, Double Blind, Double Simulated, Phase III Clinical Study of Befotertinib vs Icotinib for Postoperative Adjuvant Treatment of IB-IIIB (T3N2M0) Stage Non Small Cell Lung Cancer With Positive EGFR Sensitive Mutations",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Betta Pharmaceuticals Co., Ltd.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "EGFR Sensitive Mutation",
+            "Adjuvant Therapy"
+          ],
+          "interventions": [
+            "Befotertinib + Icotinib placebo",
+            "Icotinib + Befotertinib placebo"
+          ],
+          "primary_outcomes": [
+            "Disease free survival (DFS) evaluated by investigator in patients with stage II-IIIB (T3N2M0)"
+          ],
+          "enrollment": 570,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-03-28",
+          "primary_completion": "2028-04-30",
+          "completion": "2029-11-30",
+          "last_update": "2023-09-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06885840",
+          "title": "Study of MCLA-129 in the Treatment of Advanced Non-small Cell Lung Cancer with AGA and MET Amplification.",
+          "official_title": "A Multi-cohort, Open-label Phase II Study to Evaluate the Efficacy and Safety of the Anti-EGFR/c-Met Bispecific Antibody MCLA-129 in Patients with Advanced Non-Small Cell Lung Cancer with Actionable Gene Alterations and MET Amplification.",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Betta Pharmaceuticals Co., Ltd.",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "MCLA-129"
+          ],
+          "primary_outcomes": [
+            "Overall Response Rate (ORR)"
+          ],
+          "enrollment": 100,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-03-31",
+          "primary_completion": "2028-04",
+          "completion": "2028-09",
+          "last_update": "2025-03-20",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT01929200",
+          "title": "Icotinib as Adjuvant Therapy in Treating Non-small-cell Lung Cancer Patients With Positive EGFR Mutation",
+          "official_title": "Randomized, Open-label, Multicenter Study of Icotinib as Adjuvant Therapy in Treating Stage II-IIIA Non-small-cell Lung Cancer Patients With Positive EGFR Mutation",
+          "acronym": "",
+          "status": "UNKNOWN",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Betta Pharmaceuticals Co., Ltd.",
+          "conditions": [
+            "Non-small-cell Lung Cancer"
+          ],
+          "interventions": [
+            "1-year treatment with icotinib",
+            "2-year treatment with icotinib"
+          ],
+          "primary_outcomes": [
+            "Recurrence-free Survival"
+          ],
+          "enrollment": 120,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2013-08",
+          "primary_completion": "2015-12",
+          "completion": "2017-08",
+          "last_update": "2015-05-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "贝达药业",
+          "尼是贝达药业",
+          "摩熵医药",
+          "与晟斯生物"
+        ],
+        "sponsor_en": [
+          "Betta",
+          "Betta",
+          "摩熵医药",
+          "与晟斯生物"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "762b4aa027d152db": {
+    "id": "762b4aa027d152db",
+    "title": "Beren wins FDA approval for long-studied rare disease drug",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "Beren"
+        ],
+        "sponsor_en": [
+          "Beren"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "856efaa0cb4e760b": {
+    "id": "856efaa0cb4e760b",
+    "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "c1159daa1e770f1c": {
+    "id": "c1159daa1e770f1c",
+    "title": "默沙东官宣终止Nemtabrutinib全部BELLWAVE项目，三款含中国中心的BTK抑制剂III期试验全部叫停",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "halted",
+        "basis": "textual",
+        "confidence": 0.7,
+        "evidence": [
+          "终止表述:终止"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "textual",
+      "confidence": 0.7,
+      "evidence": [
+        "终止表述:终止"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.70\n证据：终止表述:终止",
+    "registry": {
+      "best": {
+        "nct": "NCT05624554",
+        "title": "A Study of Nemtabrutinib vs Chemoimmunotherapy for Participants With Previously Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) Without TP53 Aberrations (MK-1026-008, BELLWAVE-008)",
+        "official_title": "A Phase 3, Randomized Study to Compare the Efficacy and Safety of Nemtabrutinib Versus Chemoimmunotherapy for Previously Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Without TP53 Aberrations",
+        "acronym": "",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Chronic Lymphocytic Leukemia",
+          "Small Lymphocytic Lymphoma"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Fludarabine",
+          "Cyclophosphamide",
+          "Bendamustine",
+          "Rituximab",
+          "Truxima",
+          "Ruxience",
+          "Riabni"
+        ],
+        "primary_outcomes": [
+          "Progression-Free Survival (PFS) per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as Assessed by Blinded Independent Central Review (BICR)"
+        ],
+        "enrollment": 300,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-03-16",
+        "primary_completion": "2027-05-19",
+        "completion": "2031-03-17",
+        "last_update": "2026-03-16",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Brazil",
+          "Bulgaria",
+          "Chile",
+          "China",
+          "Colombia",
+          "Denmark",
+          "Guatemala",
+          "Hong Kong",
+          "Hungary",
+          "Lithuania"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05624554",
+          "title": "A Study of Nemtabrutinib vs Chemoimmunotherapy for Participants With Previously Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) Without TP53 Aberrations (MK-1026-008, BELLWAVE-008)",
+          "official_title": "A Phase 3, Randomized Study to Compare the Efficacy and Safety of Nemtabrutinib Versus Chemoimmunotherapy for Previously Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Without TP53 Aberrations",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Fludarabine",
+            "Cyclophosphamide",
+            "Bendamustine",
+            "Rituximab",
+            "Truxima",
+            "Ruxience",
+            "Riabni"
+          ],
+          "primary_outcomes": [
+            "Progression-Free Survival (PFS) per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as Assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 300,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-03-16",
+          "primary_completion": "2027-05-19",
+          "completion": "2031-03-17",
+          "last_update": "2026-03-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Bulgaria",
+            "Chile",
+            "China",
+            "Colombia",
+            "Denmark",
+            "Guatemala",
+            "Hong Kong",
+            "Hungary",
+            "Lithuania"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06136559",
+          "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+          "official_title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Ibrutinib",
+            "Acalabrutinib"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) per Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 as assessed by Blinded Independent Central Review (BICR)",
+            "Progression-Free Survival (PFS) per iwCLL Criteria 2018 as assessed by BICR"
+          ],
+          "enrollment": 1200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-13",
+          "primary_completion": "2032-09-07",
+          "completion": "2032-09-07",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Czechia",
+            "Denmark",
+            "Germany",
+            "Greece"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05947851",
+          "title": "A Study of Nemtabrutinib Plus Venetoclax vs Venetoclax + Rituximab (VR) in Second-line (2L) + Relapsed/Refractory (R/R) Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) (MK-1026-010/BELLWAVE-010).",
+          "official_title": "A Phase 3, Open-label, Randomized Study to Compare the Efficacy and Safety of Nemtabrutinib (MK-1026) Plus Venetoclax Versus Venetoclax Plus Rituximab in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Following at Least 1 Prior Therapy (BELLWAVE-010)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Leukemia, Lymphocytic, Chronic, B-Cell",
+            "Leukemia, Chronic Lymphocytic",
+            "Small-Cell Lymphoma",
+            "Lymphoma, Small Lymphocytic",
+            "CLL",
+            "SLL"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Venetoclax",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants Experiencing Dose-Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Adverse Events (AEs)",
+            "Part 1: Number of Participants Discontinuing Study Treatment Due to AEs",
+            "Part 2: PFS per the 2018 International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria as Assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 735,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-08-08",
+          "primary_completion": "2032-06-01",
+          "completion": "2035-07-01",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT06136559",
+          "NCT05624554",
+          "NCT05947851"
+        ],
+        "drug": [
+          "Nemtabrutinib",
+          "Zilovertamab",
+          "MK-2140",
+          "Bomedemstat"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "从同润生物",
+          "个全人源生物",
+          "入驻摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "从同润生物",
+          "个全人源生物",
+          "入驻摩熵医药"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "964e155133a623cb": {
+    "id": "964e155133a623cb",
+    "title": "<![CDATA[Galinpepimut-S Improves OS in AML in Second or Later Remission]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "c511f2185713659e": {
+    "id": "c511f2185713659e",
+    "title": "ALK 四代药Neladalkib(NVL-655，奈拉达基)获批上市，洛拉替尼耐药有新药了！",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06765109",
+        "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+        "official_title": "A Phase 3 Study of the Selective Anaplastic Lymphoma Kinase (ALK) Inhibitor NVL-655 Compared to Alectinib in First-Line Treatment of Patients With ALK-Positive Advanced Non-Small Cell Lung Cancer (ALKAZAR)",
+        "acronym": "ALKAZAR",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Nuvalent Inc.",
+        "conditions": [
+          "Non-small Cell Lung Cancer",
+          "Anaplastic Lymphoma Kinase-positive"
+        ],
+        "interventions": [
+          "Neladalkib (NVL-655)",
+          "Alectinib"
+        ],
+        "primary_outcomes": [
+          "Progression-free survival (PFS) per blinded independent central review (BICR)"
+        ],
+        "enrollment": 450,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-07-17",
+        "primary_completion": "2029-12",
+        "completion": "2029-12",
+        "last_update": "2026-09-30",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "Denmark",
+          "France",
+          "Germany"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06765109",
+          "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+          "official_title": "A Phase 3 Study of the Selective Anaplastic Lymphoma Kinase (ALK) Inhibitor NVL-655 Compared to Alectinib in First-Line Treatment of Patients With ALK-Positive Advanced Non-Small Cell Lung Cancer (ALKAZAR)",
+          "acronym": "ALKAZAR",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Nuvalent Inc.",
+          "conditions": [
+            "Non-small Cell Lung Cancer",
+            "Anaplastic Lymphoma Kinase-positive"
+          ],
+          "interventions": [
+            "Neladalkib (NVL-655)",
+            "Alectinib"
+          ],
+          "primary_outcomes": [
+            "Progression-free survival (PFS) per blinded independent central review (BICR)"
+          ],
+          "enrollment": 450,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-07-17",
+          "primary_completion": "2029-12",
+          "completion": "2029-12",
+          "last_update": "2026-09-30",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "Denmark",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05384626",
+          "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+          "official_title": "A Phase 1/2 Study of the Selective Anaplastic Lymphoma Kinase (ALK) Inhibitor NVL-655 in Patients With Advanced NSCLC and Other Solid Tumors (ALKOVE-1)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Nuvalent Inc.",
+          "conditions": [
+            "Locally Advanced Solid Tumor",
+            "Metastatic Solid Tumor"
+          ],
+          "interventions": [
+            "Neladalkib (NVL-655)",
+            "Midazolam",
+            "Repaglinide",
+            "Itraconazole"
+          ],
+          "primary_outcomes": [
+            "Dose limiting toxicities (DLTs) (Phase 1)",
+            "Recommended Phase 2 Dose (RP2D) (Phase 1)",
+            "Objective Response Rate (ORR) (Phase 2)",
+            "Number of participants with treatment-emergent adverse events, as assessed by CTCAE, V5.0 (Phase 1)",
+            "Area under the curve of repaglinide (Phase 2 DDI sub-study)",
+            "Area under the curve of midazolam (Phase 2 DDI sub-study)",
+            "Area under the curve of neladalkib (NVL-655) (Phase 2 DDI sub-study)"
+          ],
+          "enrollment": 840,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-09",
+          "primary_completion": "2027-12",
+          "completion": "2028-01",
+          "last_update": "2026-11-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "France",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Singapore",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06834074",
+          "title": "Expanded Access Program of Neladalkib (NVL-655) for Patients With Advanced ALK+ NSCLC or Other ALK+ Solid Tumors",
+          "official_title": "Expanded Access Treatment of Neladalkib (NVL-655) in Patients With Advanced ALK+ NSCLC or Other ALK+ Solid Tumors",
+          "acronym": "NVL-655-EAP",
+          "status": "AVAILABLE",
+          "why_stopped": "",
+          "phase": "",
+          "sponsor": "Nuvalent Inc.",
+          "conditions": [
+            "Non Small Cell Lung Cancer",
+            "ALK-positive Non-small Cell Lung Cancer (NSCLC)"
+          ],
+          "interventions": [
+            "NVL-655"
+          ],
+          "primary_outcomes": [],
+          "enrollment": null,
+          "enrollment_type": "",
+          "start_date": "",
+          "primary_completion": "",
+          "completion": "",
+          "last_update": "2026-09-21",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Canada",
+            "France",
+            "Italy",
+            "Netherlands",
+            "Singapore",
+            "South Korea",
+            "Spain",
+            "Switzerland",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "NVL-655"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "6ab1759c1a61ac50": {
+    "id": "6ab1759c1a61ac50",
+    "title": "阿尔茨海默病口服药临床II期失败",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "ade333a5664ac5d8": {
+    "id": "ade333a5664ac5d8",
+    "title": "Merck ends the sorry saga of BTK inhibitor it got from ArQule",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05947851",
+        "title": "A Study of Nemtabrutinib Plus Venetoclax vs Venetoclax + Rituximab (VR) in Second-line (2L) + Relapsed/Refractory (R/R) Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) (MK-1026-010/BELLWAVE-010).",
+        "official_title": "A Phase 3, Open-label, Randomized Study to Compare the Efficacy and Safety of Nemtabrutinib (MK-1026) Plus Venetoclax Versus Venetoclax Plus Rituximab in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Following at Least 1 Prior Therapy (BELLWAVE-010)",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Leukemia, Lymphocytic, Chronic, B-Cell",
+          "Leukemia, Chronic Lymphocytic",
+          "Small-Cell Lymphoma",
+          "Lymphoma, Small Lymphocytic",
+          "CLL",
+          "SLL"
+        ],
+        "interventions": [
+          "Nemtabrutinib",
+          "Venetoclax",
+          "Rituximab"
+        ],
+        "primary_outcomes": [
+          "Part 1: Number of Participants Experiencing Dose-Limiting Toxicities (DLTs)",
+          "Part 1: Number of Participants Experiencing Adverse Events (AEs)",
+          "Part 1: Number of Participants Discontinuing Study Treatment Due to AEs",
+          "Part 2: PFS per the 2018 International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria as Assessed by Blinded Independent Central Review (BICR)"
+        ],
+        "enrollment": 735,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-08-08",
+        "primary_completion": "2032-06-01",
+        "completion": "2035-07-01",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Colombia",
+          "France",
+          "Germany",
+          "Greece",
+          "Israel"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05947851",
+          "title": "A Study of Nemtabrutinib Plus Venetoclax vs Venetoclax + Rituximab (VR) in Second-line (2L) + Relapsed/Refractory (R/R) Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) (MK-1026-010/BELLWAVE-010).",
+          "official_title": "A Phase 3, Open-label, Randomized Study to Compare the Efficacy and Safety of Nemtabrutinib (MK-1026) Plus Venetoclax Versus Venetoclax Plus Rituximab in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Following at Least 1 Prior Therapy (BELLWAVE-010)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Leukemia, Lymphocytic, Chronic, B-Cell",
+            "Leukemia, Chronic Lymphocytic",
+            "Small-Cell Lymphoma",
+            "Lymphoma, Small Lymphocytic",
+            "CLL",
+            "SLL"
+          ],
+          "interventions": [
+            "Nemtabrutinib",
+            "Venetoclax",
+            "Rituximab"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants Experiencing Dose-Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Adverse Events (AEs)",
+            "Part 1: Number of Participants Discontinuing Study Treatment Due to AEs",
+            "Part 2: PFS per the 2018 International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria as Assessed by Blinded Independent Central Review (BICR)"
+          ],
+          "enrollment": 735,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-08-08",
+          "primary_completion": "2032-06-01",
+          "completion": "2035-07-01",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03162536",
+          "title": "A Study of Nemtabrutinib (MK-1026) in Participants With Relapsed or Refractory Hematologic Malignancies (ARQ 531-101/MK-1026-001)",
+          "official_title": "A Phase 1/2 Dose Escalation Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of ARQ 531 in Selected Subjects With Relapsed or Refractory Hematologic Malignancies",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+          "conditions": [
+            "Lymphoma, B-Cell",
+            "Small Lymphocytic Lymphoma",
+            "Chronic Lymphocytic Leukemia",
+            "Waldenstrom Macroglobulinemia",
+            "Mantle Cell Lymphoma",
+            "Diffuse Large B Cell Lymphoma",
+            "Richter's Transformation",
+            "Follicular Lymphoma",
+            "Marginal Zone Lymphoma"
+          ],
+          "interventions": [
+            "Nemtabrutinib"
+          ],
+          "primary_outcomes": [
+            "Phase 1: Number of Participants Experiencing Dose Limiting Toxicity (DLT)",
+            "Phase 1: Number of Participants Who Experienced an Adverse Event (AE)",
+            "Phase 1: Number of Participants Who Discontinued Study Treatment Due to an AE",
+            "Phase 2: Expansion Cohorts A, B & C: Objective Response Rate (ORR) per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria as Assessed by the Investigator",
+            "Phase 2: Expansion Cohorts A, B, C: ORR per Lugano Classification as Assessed by the Investigator"
+          ],
+          "enrollment": 190,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2017-06-26",
+          "primary_completion": "2027-09-17",
+          "completion": "2027-09-17",
+          "last_update": "2026-06-12",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07557056",
+          "title": "Nemtabrutinib and Venetoclax for the Treatment of Patients With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+          "official_title": "A Phase 2 Study of Nemtabrutinib and Venetoclax as Frontline Treatment for Chronic Lymphocytic Leukemia (CLL)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Jennifer Woyach",
+          "conditions": [
+            "Chronic Lymphocytic Leukemia",
+            "Small Lymphocytic Lymphoma"
+          ],
+          "interventions": [
+            "Biospecimen Collection",
+            "Bone Marrow Aspiration",
+            "Bone Marrow Biopsy",
+            "Computed Tomography",
+            "Nemtabrutinib",
+            "Questionnaire Administration",
+            "Venetoclax"
+          ],
+          "primary_outcomes": [
+            "Presence of undetectable minimal residual disease (MRD)"
+          ],
+          "enrollment": 25,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-11-01",
+          "primary_completion": "2027-12-31",
+          "completion": "2027-12-31",
+          "last_update": "2026-10-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Nemtabrutinib",
+          "MK-1026"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "7bcd1f72252c06cf": {
+    "id": "7bcd1f72252c06cf",
+    "title": "Sanofi's Infilbray wins first approval for neurological symptoms of Gaucher",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "halted",
+      "basis": "registry_status",
+      "confidence": 0.85,
+      "evidence": [
+        "达到表述:wins",
+        "注册库状态=TERMINATED，原因：Interim analysis for futility of the Stage 1 of the EFC15392 study met the proto"
+      ],
+      "conflict": false,
+      "halt_reason": "efficacy"
+    },
+    "verdict_block": "终点判定：试验已终止/暂停\n依据层级：注册库状态记录（可信）\n置信度：0.85\n终止原因分类：efficacy\n证据：达到表述:wins；注册库状态=TERMINATED，原因：Interim analysis for futility of the Stage 1 of the EFC15392 study met the proto",
+    "registry": {
+      "best": {
+        "nct": "NCT03523728",
+        "title": "A Medical Research Study Designed to Determine if Venglustat Can be a Future Treatment for ADPKD Patients",
+        "official_title": "Multicenter, Randomized, Double-blind, Placebo-controlled Two Stage Study to Characterize the Efficacy, Safety, Tolerability and Pharmacokinetics of GZ/SAR402671 in Patients at Risk of Rapidly Progressive Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+        "acronym": "STAGED-PKD",
+        "status": "TERMINATED",
+        "why_stopped": "Interim analysis for futility of the Stage 1 of the EFC15392 study met the protocol specified stopping rule based on the primary endpoint. EFC15392 study was stopped for futility based on prespecified criteria and recommendation from DMC",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Genzyme, a Sanofi Company",
+        "conditions": [
+          "Polycystic Kidney, Autosomal Dominant"
+        ],
+        "interventions": [
+          "Venglustat",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Annualized Slope of Change in Total Kidney Volume (TKV) From Baseline to Month 18: Stage 1",
+          "Annualized Rate of Change in Estimated Glomerular Filtration Rate (eGFR) (Chronic Kidney Disease Epidemiology Collaboration [CKD-EPI]) From Baseline to Month 24: Combined Stage 1 and Stage 2"
+        ],
+        "enrollment": 478,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2018-10-04",
+        "primary_completion": "2021-08-03",
+        "completion": "2021-08-03",
+        "last_update": "2023-02-03",
+        "results_first_post": "2022-11-09",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "China",
+          "Czechia",
+          "Denmark",
+          "France",
+          "Germany",
+          "Israel"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT03523728",
+          "title": "A Medical Research Study Designed to Determine if Venglustat Can be a Future Treatment for ADPKD Patients",
+          "official_title": "Multicenter, Randomized, Double-blind, Placebo-controlled Two Stage Study to Characterize the Efficacy, Safety, Tolerability and Pharmacokinetics of GZ/SAR402671 in Patients at Risk of Rapidly Progressive Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+          "acronym": "STAGED-PKD",
+          "status": "TERMINATED",
+          "why_stopped": "Interim analysis for futility of the Stage 1 of the EFC15392 study met the protocol specified stopping rule based on the primary endpoint. EFC15392 study was stopped for futility based on prespecified criteria and recommendation from DMC",
+          "phase": "PHASE2, PHASE3",
+          "sponsor": "Genzyme, a Sanofi Company",
+          "conditions": [
+            "Polycystic Kidney, Autosomal Dominant"
+          ],
+          "interventions": [
+            "Venglustat",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Annualized Slope of Change in Total Kidney Volume (TKV) From Baseline to Month 18: Stage 1",
+            "Annualized Rate of Change in Estimated Glomerular Filtration Rate (eGFR) (Chronic Kidney Disease Epidemiology Collaboration [CKD-EPI]) From Baseline to Month 24: Combined Stage 1 and Stage 2"
+          ],
+          "enrollment": 478,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2018-10-04",
+          "primary_completion": "2021-08-03",
+          "completion": "2021-08-03",
+          "last_update": "2023-02-03",
+          "results_first_post": "2022-11-09",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Canada",
+            "China",
+            "Czechia",
+            "Denmark",
+            "France",
+            "Germany",
+            "Israel"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT02906020",
+          "title": "A Global Study to Assess the Drug Dynamics, Efficacy, and Safety of Venglustat (GZ/SAR402671) in Parkinson's Disease Patients Carrying a Glucocerebrosidase (GBA) Gene Mutation",
+          "official_title": "Multicenter, Randomized, Double-blind, Placebo Controlled Study to Assess the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of GZ/SAR402671 in Patients With Early-stage Parkinson's Disease Carrying a GBA Mutation or Other Pre-specified Variant",
+          "acronym": "MOVES-PD",
+          "status": "TERMINATED",
+          "why_stopped": "The topline results of the 52-week double-blind placebo-controlled period were analyzed. The study did not meet the primary or secondary endpoints. Based on these results, the decision was made to halt the long-term follow-up period of the study",
+          "phase": "PHASE2",
+          "sponsor": "Genzyme, a Sanofi Company",
+          "conditions": [
+            "Parkinson's Disease"
+          ],
+          "interventions": [
+            "venglustat GZ/SAR402671",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Part 1: Number of Participants With Treatment-Emergent Adverse Events (TEAEs), and Treatment-Emergent Serious Adverse Events (TESAEs)",
+            "Part 1: Number of Participants With Abnormal Physical Examination Findings",
+            "Part 1: Number of Participants With Abnormal Neurological Examination Findings",
+            "Part 1: Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Hematology",
+            "Part 1: Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Liver Function Parameters",
+            "Part 1: Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Renal Parameters",
+            "Part 1: Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Metabolic Parameters",
+            "Part 1: Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Electrolytes Parameters",
+            "Part 1: Number of Participants With Potentially Clinically Significant Vital Signs Abnormalities",
+            "Part 1: Number of Participants With Potentially Clinically Significant Ophthalmological Abnormalities",
+            "Part 1: Number of Participants With Potentially Clinically Significant Electrocardiogram Abnormalities",
+            "Part 2: Change From Baseline to Week 52 in Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part II+III Total Score"
+          ],
+          "enrollment": 273,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2016-12-15",
+          "primary_completion": "2020-12-18",
+          "completion": "2021-05-27",
+          "last_update": "2022-05-24",
+          "results_first_post": "2022-02-28",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Austria",
+            "Canada",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Norway",
+            "Portugal",
+            "Singapore"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05222906",
+          "title": "Study to Evaluate the Efficacy and Safety of Venglustat in Adult and Pediatric Patients With Gaucher Disease Type 3",
+          "official_title": "A Phase 3, Multicenter, Multinational, Randomized, Double-blind, Double-dummy, Active-comparator Study to Evaluate the Efficacy and Safety of Venglustat in Adult and Pediatric Patients With Gaucher Disease Type 3 (GD3) Who Have Reached Therapeutic Goals With Enzyme Replacement Therapy (ERT)",
+          "acronym": "LEAP2MONO",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Sanofi",
+          "conditions": [
+            "Gaucher's Disease Type III"
+          ],
+          "interventions": [
+            "Venglustat",
+            "imiglucerase"
+          ],
+          "primary_outcomes": [
+            "Change in Scale for Assessment and Rating of Ataxia (SARA) modified total score",
+            "Change in Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) total scale index score"
+          ],
+          "enrollment": 43,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-04-18",
+          "primary_completion": "2025-10-02",
+          "completion": "2026-10-30",
+          "last_update": "2026-07-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Canada",
+            "China",
+            "France",
+            "Germany",
+            "Hungary",
+            "Italy",
+            "Japan",
+            "Turkey (Türkiye)",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "venglustat"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "1a6a01e7a590fdcb": {
+    "id": "1a6a01e7a590fdcb",
+    "title": "<![CDATA[Detalimogene Demonstrates Durability in NMIBC, Supporting BLA Submission]]>",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Detalimogene"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  }
+}
