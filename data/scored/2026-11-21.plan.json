@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-21",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:toripalimab",
+      "lead_id": "ea8fd1073a460950",
+      "title": "从“可切除”到“深缓解”：NEOTORCH最终分析为可切除Ⅱ/Ⅲ期NSCLC外科治疗注入免疫新动力",
+      "score": 8.1,
+      "channel": "china",
+      "member_ids": [
+        "ea8fd1073a460950"
+      ],
+      "members": [
+        {
+          "title": "从“可切除”到“深缓解”：NEOTORCH最终分析为可切除Ⅱ/Ⅲ期NSCLC外科治疗注入免疫新动力",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/qy_396085",
+          "score": 8.1,
+          "reasoning": "NEOTORCH最终分析以ESMO突破性摘要和Annals of Oncology全文呈现，并明确报告长期生存获益及显著性措辞，属于关键Ⅲ期文字性统计结论，而非仅展示缓解数字。"
+        }
+      ],
+      "reasoning": "NEOTORCH最终分析以ESMO突破性摘要和Annals of Oncology全文呈现，并明确报告长期生存获益及显著性措辞，属于关键Ⅲ期文字性统计结论，而非仅展示缓解数字。",
+      "verify_todo": [
+        "核实最终分析中EFS或OS的主要终点定义、HR、置信区间和p值",
+        "核实长期生存获益是否为预设统计假设下的正式结论",
+        "核实手术可及性和手术取消率分析是否属于预设或事后分析"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:HMPL-523",
+      "lead_id": "736727aa5d9fd8c3",
+      "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+      "score": 8.0,
+      "channel": "china",
+      "member_ids": [
+        "736727aa5d9fd8c3"
+      ],
+      "members": [
+        {
+          "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_395758",
+          "score": 8.0,
+          "reasoning": "监管批准构成Ⅲ期关键研究和上市申请的结果，素材同时报告ITP研究达到持续应答率主要终点及全部次要终点，具有明确临床获益信号和国产首创性。"
+        }
+      ],
+      "reasoning": "监管批准构成Ⅲ期关键研究和上市申请的结果，素材同时报告ITP研究达到持续应答率主要终点及全部次要终点，具有明确临床获益信号和国产首创性。",
+      "verify_todo": [
+        "核实NMPA批准文件、批准日期及两项适应症的完整说明书",
+        "核实ESLIM-01持续应答率的样本量、效应量、置信区间和p值",
+        "核实ESLIM-02支持wAIHA适应症的终点结果",
+        "核实“首个国产Syk抑制剂”的市场范围及美国上市药物情况"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:cmg901",
+      "lead_id": "da1a65c386776c41",
+      "title": "乐普生物｜全球首款CLDN18.2 ADC CMG901 2L+胃癌 BLA 获 FDA 受理并纳入优先审评",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "da1a65c386776c41"
+      ],
+      "members": [
+        {
+          "title": "乐普生物｜全球首款CLDN18.2 ADC CMG901 2L+胃癌 BLA 获 FDA 受理并纳入优先审评",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396128",
+          "score": 6.0,
+          "reasoning": "国产CLDN18.2 ADC的FDA上市申请获受理并进入优先审评，是注册性转化和监管节点，但素材未提供支持申请的PFS、OS统计结论，也尚非最终批准；发布日期未知。"
+        }
+      ],
+      "reasoning": "国产CLDN18.2 ADC的FDA上市申请获受理并进入优先审评，是注册性转化和监管节点，但素材未提供支持申请的PFS、OS统计结论，也尚非最终批准；发布日期未知。",
+      "verify_todo": [
+        "核实FDA受理日期、申请编号、适应症和审评状态",
+        "核实支持申请的关键试验名称、样本量及PFS或OS统计结果",
+        "核实“全球首款”表述的限定范围和原始来源"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 3
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:cemdisiran",
+      "lead_id": "38cf63d480888155",
+      "title": "FDA 批准再生元公司 siRNA 疗法：重症肌无力 123 例三期，AChR 阳性者应答率 76.6%",
+      "score": 7.8,
+      "channel": "global",
+      "member_ids": [
+        "38cf63d480888155",
+        "ca3bde6d1de35b04"
+      ],
+      "members": [
+        {
+          "title": "FDA 批准再生元公司 siRNA 疗法：重症肌无力 123 例三期，AChR 阳性者应答率 76.6%",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396152",
+          "score": 7.8,
+          "reasoning": "FDA批准构成Ⅲ期监管结果，123例三期及AChR阳性患者应答率为监管获益提供重要依据；标题中的76.6%是疗效数字而非统计检验，具体效应量和p值仍需核实。"
+        },
+        {
+          "title": "First siRNA Therapy Approved for Myasthenia Gravis",
+          "url": "https://www.medpagetoday.com/neurology/generalneurology/123972",
+          "score": 6.8,
+          "reasoning": "监管批准构成关键临床进展，报道还突出其作为重症肌无力领域首个siRNA疗法的差异化；依据是监管批准结论而非单项疗效数字，具体获益数据需回查标签和关键试验。归属global，因为开发及批准主体为美国公司。"
+        }
+      ],
+      "reasoning": "FDA批准构成Ⅲ期监管结果，123例三期及AChR阳性患者应答率为监管获益提供重要依据；标题中的76.6%是疗效数字而非统计检验，具体效应量和p值仍需核实。",
+      "_idx": 4
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:sacituzumab-tirumotecan",
+      "lead_id": "19e64eee38c0e643",
+      "title": "<![CDATA[TroFuse-015 Meets Primary OS End Point With Sac-TMT in Third-Line or Later Gastroesophageal Adenocarcinoma]]>",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "19e64eee38c0e643",
+        "81a5c70d714bd51d"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[TroFuse-015 Meets Primary OS End Point With Sac-TMT in Third-Line or Later Gastroesophageal Adenocarcinoma]]>",
+          "url": "https://www.onclive.com/view/trofuse-015-meets-primary-os-end-point-with-sac-tmt-in-third-line-or-later-gastroesophageal-adenocarcinoma",
+          "score": 7.2,
+          "reasoning": "标题明确称TroFuse-015达到主要OS终点，属于文字性统计结论而非仅展示应答率；所处后线胃食管腺癌领域仍有显著未满足需求，但素材未提供HR、置信区间或样本量，需补齐。"
+        },
+        {
+          "title": "Merck gets another Phase 3 win for sac-TMT, this time in gastric cancer",
+          "url": "https://endpoints.news/merck-gets-another-phase-3-win-for-sac-tmt-this-time-in-gastric-cancer/",
+          "score": 6.8,
+          "reasoning": "标题将胃癌项目描述为Ⅲ期成功并称sac-TMT取得另一项Ⅲ期成功，属于文字性试验结论；后线及胃癌需求和关键试验规模使其值得报道，但原始统计量未展示。"
+        }
+      ],
+      "reasoning": "标题明确称TroFuse-015达到主要OS终点，属于文字性统计结论而非仅展示应答率；所处后线胃食管腺癌领域仍有显著未满足需求，但素材未提供HR、置信区间或样本量，需补齐。",
+      "_idx": 5
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:az-cldn18-2-adc",
+      "lead_id": "d637ac9471c19f56",
+      "title": "二线及后线PFS未达标，阿斯利康CLDN18.2 ADC仍获FDA优先审评",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "d637ac9471c19f56"
+      ],
+      "members": [
+        {
+          "title": "二线及后线PFS未达标，阿斯利康CLDN18.2 ADC仍获FDA优先审评",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396133",
+          "score": 8.0,
+          "reasoning": "素材明确指出二线及后线PFS未达标，这是注册性项目的重要失败信号；后续优先审评形成监管与临床结论的明显反差，值得重点核查，但尚缺原始统计量；发布日期未知。"
+        }
+      ],
+      "reasoning": "素材明确指出二线及后线PFS未达标，这是注册性项目的重要失败信号；后续优先审评形成监管与临床结论的明显反差，值得重点核查，但尚缺原始统计量；发布日期未知。",
+      "verify_todo": [
+        "核实试验名称、登记号、分期、样本量、对照方案及主要终点定义",
+        "核实PFS未达标的统计假设、效应量、置信区间和预设分析计划",
+        "核实优先审评所依据的适应症、申报数据及与失败试验的关系",
+        "核实监管机构意见及是否要求补充试验"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
+    }
+  ]
+}
