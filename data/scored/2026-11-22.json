@@ -1,0 +1,2673 @@
+[
+  {
+    "id": "814bbee464521cb0",
+    "score": 8.1,
+    "channel": "china",
+    "cluster_key": "drug:ivonescimab",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "statistical",
+    "confidence": 0.93,
+    "reasoning": "FDA完整回复函显示关键Ⅲ期研究的OS未达到统计学显著性，且监管方对地域失衡下PFS结果的可外推性提出质疑，依据是明确的统计与审评结论而非疗效数字。该事件对中国原研资产及其全球申报具有较高行业影响。",
+    "verify_todo": [
+      "核对FDA完整回复函及HARMONi注册信息",
+      "核实OS分析的数据截止日、风险比和置信区间",
+      "核实监管方关于地域构成及美国人群适用性的完整措辞"
+    ],
+    "article_type": "halt",
+    "title": "康方生物依沃西单抗BLA收FDA完整回复函：OS未达统计学显著性、93%PFS事件来自中国患者",
+    "url": "https://www.pharnexcloud.com/zixun/sx_395238",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "康方生物依沃西单抗（ivonescimab）美国上市申请遭FDA拒绝已过去数日，拒批背后的具体原因也逐渐明朗。美国FDA官网公布了Summit Therapeutics与康方生物联合开发的PD-1/VEGF双特异性抗体依沃西单抗生物制品许可申请（BLA）完整回复函（CRL），披露了此次申请未获通过的主要原因。图源：美国FDA官网（机翻版）FDA此次拒绝依沃西单抗用于既往接受过治疗的EGFR突变非小细胞肺癌（NSCLC），主要涉及两方面问题：一是关键临床试验未能证明具有统计学显著性的总生存期（OS）获益；二是支持性III期HARMONi研究存在患者地域构成失衡，高达93%的无进展生存期（PFS）事件来自中国患者，FDA因此无法确定研究结果能否适用于美国患者群体。一、OS未达标，93% PFS事件来自中国患者HARMONi研究评估了依沃西单抗联合化疗用于既往接受过第三代EGFR-TKI治疗的EGFR突变NSCLC患者的疗效。研究显示，依沃西单抗联合化疗组中位PFS达到6.8个月，优于化疗组的4.4个月，但最终OS分析未能达到统计学显著性。除了OS数据未达标，FDA还对研究的患者地域构成提出质疑。根据CRL披露的数据，HARMONi研究共发生275例PFS事件，其中257例（93%）来自中国患者。FDA认为，由于绝大多数PFS事件来自中国患者，现有数据不足以确定研究中的阳性PFS结果能否适用于美国患者群体。图源：摩熵医药-全球药物研发数据库事实上，FDA早在2023年和2025年就曾对该研究的入组方式表达担忧。HARMONi研究中，Summit纳入了此前参加康方生物在中国开展的HARMONi-A研究、接受过第三代EGFR-TKI治疗的患者。而美欧地区的患者入组工作比中国研究启动晚了近一年半。这种序贯入组设计虽然有助于加快全球临床数据积累，但也造成了不同地区患者入组及随访进度不一致的问题。当HARMONi公布最终OS分析时，主要由中国患者贡献临床事件，西方患者的随访数据尚不成熟。二、事后OS分析未能扭转局面，FDA要求重新开展全球研究为进一步证明依沃西单抗在西方患者中的疗效，Summit随后进行了额外随访，数据显示不同地区患者的OS获益呈现一定一致性趋势。不过，FDA在CRL中明确指出，事后提交的OS分析仅具有探索性，且受到不同地区数据截止日期（DCO）差异的限制，无法替代预设分析结果。此外，FDA认为，依沃西单抗将中位PFS从4.4个月提高至6.8个月，改善幅度相对有限，尚不足以抵消联合治疗带来的额外毒性风险。因此，FDA明确要求Summit重新开展一项充分且设计良好的全球临床试验，以进一步验证依沃西单抗在该适应症中的临床获益。这意味着，依沃西单抗若想重新争取该适应症的美国上市资格，仍需要新的全球临床数据支持。三、Summit股价连续下跌，康方生物回应后续开发此次CRL公布后，Summit股价连续两个交易日下跌，周一跌幅达到16.4%，周二再度下跌约10%。面对FDA的拒批决定，Summit正在评估后续监管策略，并考虑是否重新提交申请。对于此次申报受阻，康方生物方面表示，双方此前曾与FDA沟通并获得其对序贯入组设计的认可，将HARMONi作为中国HARMONi-A研究的延续。但FDA始终要求全球临床试验取得具有统计学显著性的OS结果，最终OS未能达到这一要求，成为此次申请未获批准的关键因素。在安全性方面，康方生物方面指出，依沃西单抗联合化疗组与单纯化疗组的治疗中止率及治疗相关死亡率相近，相关安全性表现对海外研究者仍具有积极意义。康方方面认为，此次拒批应被视为涉及相对较小适应症的一次孤立事件，PD-1/VEGF双特异性抗体赛道的整体发展前景依然值得期待。此次美国申报受阻，给依沃西单抗的全球开发带来挑战，但并不意味着其其他适应症的研发进程就此终止。后续全球临床研究能否进一步验证其在不同人群中的疗效，仍值得关注。附件：参考来源：[1] FDA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 康方生物依沃西单抗遭FDA拒批，错失美国EGFR-TKI耐药NSCLC赛道窗口，单日市值蒸发超800亿港元2. 康方生物依沃西单抗胆道癌新适应症拟纳入优先审评，全球首创PD-1/VEGF双抗再拓实体瘤版图3. 康方生物PD-1/VEGF双抗依沃西单抗注射液获批第3项NSCLC适应症，头对头击败替雷利珠\n中山康方生物医药有限公司相关推荐\n相关靶点：\nTROP2\nCD276\nEGFR\nIL-12\nPD-L1\nPCSK9\nIL-23\nPD-1\nCD73\nIL-1β\n相关适应症：\n贫血\n急性髓系白血病\n胰腺导管腺癌\n恶性肿瘤\n炎症性肠病\n神经系统疾病\n心血管疾病\n宫颈癌\nCOVID-19\n胰腺癌\n相关药品：\n依沃西单抗\n派安普利单抗\n古莫奇单抗\n卡度尼利单抗\n依若奇单抗\n普特利单抗\n伊努西单抗\n曼多奇单抗\n依沃西单抗*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n34条\n中国药品批文\n1条\n药品招投标\n39条\n全球临床试验\n中国临床试验\n102条\n一致性评价\n美国FDA批准药品\n查看更多\n康方生物*点击下方数字查看更多企业相关数据\n全球药物研发信息\n40条\n中国药品审评信息\n176条\n中国药品批文\n5条\n药品招投标\n294条\n全球临床试验\n150条\n中国临床试验\n175条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-19T09:59:05+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "fbfd875ccf35a5b0",
+    "score": 7.8,
+    "channel": "global",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.9,
+    "reasoning": "全球随机Ⅲ期试验报告OS达到主要终点，构成后线胃食管腺癌的重要临床读出；该依据是达到主要终点及统计学显著的明确结论，而非仅凭缓解率数字。",
+    "verify_todo": [
+      "核实HR、中位OS、置信区间及正式p值",
+      "核实PFS和ORR的检验层级及未达标原因",
+      "确认完整注册信息、监管申报计划及中国参与情况"
+    ],
+    "article_type": "readout",
+    "title": "默沙东公司TROP2 ADC胃食管腺癌三期总生存达标：473例三线患者，无进展生存未达标",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396837",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "一、473例患者，总生存这一关已经过了 对照是医生选的四种化疗。 TroFuse-015是一项随机、开放标签、多中心全球三期试验，注册号NCT06356311，入组 473例 局部晚期不可切除或转移性胃食管腺癌患者，全部接受过两线及以上系统治疗。 胃食管腺癌把胃癌、胃食管结合部腺癌和食管腺癌都算在内。\n胃癌相关推荐\n相关靶点：\nKRAS\nPD-L1\nPD-1\nTROP2\nHER3\nCD19\nPCSK9\nLAG3\nGPC3\nHER2\n相关药品：\nCLDN18.2 ADC\n多柔比星\n多西他赛\n帕博利珠单抗\n曲妥珠单抗\n阿得贝利单抗\n度伐利尤单抗\n斯鲁利单抗\n甲氨蝶呤\n紫杉醇\n相关企业：\n深圳易慕峰生物科技股份有限公司\n原启生物科技（上海）有限责任公司\n四川大学\n中山大学\n信达生物制药（苏州）有限公司\n苏州泽璟生物制药股份有限公司\n复旦大学\n江苏恒瑞医药股份有限公司\n苏州宜联生物医药有限公司\n齐鲁制药有限公司\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T09:18:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "f0261cc923e708a6",
+    "score": 7.7,
+    "channel": "global",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.93,
+    "reasoning": "随机Ⅲ期OS达到主要终点而PFS次要终点未达标，形成分层明确且值得深度解读的读出；OS部分依据统计学显著的终点结论，ORR则仅属未经正式检验的名义结果。",
+    "verify_todo": [
+      "核实OS的HR、中位数、置信区间和p值",
+      "核实PFS未达标的定义、事件数及正式检验结果",
+      "核实ORR名义结果及多重性控制方案"
+    ],
+    "article_type": "readout",
+    "title": "OS 阳性，PFS 落空：默沙东 sac-TMT 的\"半张\"III 期成绩单",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396739",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "当地时间 11 月 20 日，默沙东宣布关键 III 期 TroFuse-015 试验达到主要终点——在既往接受过二线及以上系统治疗的局部晚期不可切除或转移性胃食管腺癌患者中，TROP2 靶向 ADC sacituzumab tirumotecan（sac-TMT） 的总生存期（OS）显著优于医生选择的治疗方案（TPC）。 这是 TROP2 ADC 在胃食管腺癌领域的首个 OS 阳性 III 期读出。 但同一份官宣中，PFS（BICR 评估）次要终点未达标，ORR 改善仅为名义结果、未经预设正式检验，HR、中位 OS 与具体 p 值均未披露。\nTROP2相关推荐\n相关适应症：\n血液肿瘤\n肝肿瘤\n晚期实体瘤\n肿瘤\n多发性骨髓瘤\n胰腺导管腺癌\n恶性肿瘤\n宫颈癌\n子宫内膜癌\n滤泡性淋巴瘤\n相关药品：\n芦康沙妥珠单抗\nTROP2 ADC\n德达博妥单抗\n戈沙妥珠单抗\nTrop2-adc\n重组人透明质酸酶\n相关企业：\n上海百英生物科技股份有限公司\n浙江大学\nModerna Inc\n中山大学\n常州恒邦药业有限公司\n中国医学科学院肿瘤医院\n翰森制药集团有限公司\n信达生物制药（苏州）有限公司\n江苏省人民医院（南京医科大学第一附属医院）\nJohnson & Johnson\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-20T21:40:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "736727aa5d9fd8c3",
+    "score": 7.7,
+    "channel": "china",
+    "cluster_key": "drug:hmpl-523",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.87,
+    "reasoning": "中国申办方申报的创新药获得NMPA双适应症批准，依据是注册试验达到主要终点后的监管结果，而非仅有疗效数字。国产首个Syk抑制剂及ITP、wAIHA两个适应症具有较高临床和首创性价值。",
+    "verify_todo": [
+      "核对NMPA批准文号和适应症原文",
+      "获取ESLIM-01、ESLIM-02完整统计结果及监管审评报告",
+      "核实与fostamatinib的全球首创表述口径"
+    ],
+    "article_type": "readout",
+    "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_395758",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "11月19日，国家药监局（NMPA）官网显示，和黄医药旗下和记黄埔医药（上海）的1类创新药醋酸索乐匹尼布片正式获批上市，适用于既往接受一线标准治疗（糖皮质激素、免疫球蛋白）无效或复发的成人ITP患者，以及既往对糖皮质激素治疗反应不佳的成人温抗体型自身免疫性溶血性贫血（wAIHA）患者。图源：NMPA官网至此，索乐匹尼布成为首个获批上市的国产Syk抑制剂，覆盖ITP和wAIHA两大适应症。一、双适应症获批，国产首个Syk抑制剂上市索乐匹尼布（HMPL-523）是和黄医药自主研发的一款新型、高选择性口服脾酪氨酸激酶（Syk）抑制剂，主要面向自身免疫性疾病和血液系统恶性肿瘤开展研发。图源：摩熵医药-全球药物研发数据库此次获批的ITP和wAIHA两项适应症，分别获得ESLIM-01和ESLIM-02关键临床研究支持。其中，ITP适应症率先取得进展。2023年8月，和黄医药宣布，该药治疗成人ITP的ESLIM-01中国关键性III期研究达到持续应答率主要终点及全部次要终点。随后，其ITP适应症上市申请于2024年1月获受理并纳入优先审评，2026年2月重新提交的上市申请再次获受理。同年4月，wAIHA适应症上市申请也获受理并纳入优先审评。最终，两项适应症均于11月19日获批上市。图源：摩熵医药-全球药物研发数据库从全球研发格局来看，Rigel Pharmaceuticals开发的Fostamatinib于2018年获得美国FDA批准，成为全球首款上市的Syk抑制剂，用于治疗ITP，目前尚未在国内获批。此次索乐匹尼布上市，标志着国产Syk抑制剂实现商业化突破。随着索乐匹尼布两项适应症相继获批，国产Syk抑制剂实现从研发向商业化的跨越，也为ITP和wAIHA患者提供了新的治疗选择。二、5款1类新药上市，16款创新药推进临床索乐匹尼布获批进一步丰富了和黄医药的创新药产品矩阵。目前，公司已有索凡替尼胶囊、赛沃替尼片、呋喹替尼胶囊、酒石酸凡瑞格拉替尼片及醋酸索乐匹尼布片5款1类新药获批上市，覆盖肿瘤及自身免疫性疾病等领域。其中，呋喹替尼、赛沃替尼和索凡替尼已形成一定的商业化基础。据摩熵医药数据库显示，2026年Q3，三款产品在全终端医院市场的销售额分别为5.34亿元、1.18亿元和1.27亿元。图源：摩熵医药-中国药品审评数据库其中，呋喹替尼、赛沃替尼和索凡替尼已形成一定的商业化基础。据摩熵医药数据库显示，2026年Q3，三款产品在全终端医院市场的销售额分别为5.34亿元、1.18亿元和1.27亿元。\n和记黄埔医药（上海）有限公司销售数据\n【和记黄埔医药（上海）有限公司】全国药店零售额-年度趋势\n销售额(亿元)\n增长率(%)\n【和记黄埔医药（上海）有限公司】全国医院(全终端)销售额-年度趋势\n销售额(亿元)\n增长率(%)\n【和记黄埔医药（上海）有限公司】全国医院(全终端)销售额-药品分析TOP10\nMAH/生产企业\n销售额(亿元)\n可直接点击跳转到数据库免费查看最新数据详细信息\n此外，和黄医药的创新药研发管线也在不断拓展中。据摩熵医药数据库显示，目前公司还有16款创新药处于国内I期（含I/II/III期）临床及以上阶段（不含已上市及申请上市），研发方向以抗肿瘤领域为主。\n图源：摩熵医药-全球药物研发数据库其中，HMPL-813和BTK抑制剂HMPL-760胶囊均已进入III期临床阶段。此外，处于I/II期临床阶段的注射用HMPL-A251也值得关注。该药是一款全球首创的PI3K/AKT/mTOR（PAM）-HER2抗体靶向偶联药物（ATTC），采用人源化抗HER2 IgG1抗体与PI3K/PIKK抑制剂载荷偶联的设计。结语从索乐匹尼布双适应症获批，到呋喹替尼、赛沃替尼等产品持续贡献商业化收入，再到多款创新药稳步推进临床，和黄医药正逐步形成覆盖肿瘤与自身免疫性疾病领域的创新药产品及研发管线布局。参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库扩展阅读：1. 和黄医药肿瘤新药达唯珂®因重大安全风险在中国全面撤市召回，全球首创EZH2抑制剂遭遇滑铁卢！2. 十年磨一剑，和黄医药呋喹替尼在美获批！国产创新药出海新篇章\n血小板减少性紫癜相关推荐\n相关靶点：\nTPOR\nSYK\nVWF\nCD20\nIgG\nIgG1\nCD40\nCTLA4\nCD40LG\nFCGR1\n相关药品：\n利妥昔单抗\n人免疫球蛋白\n罗普司亭\n卡拉西珠单抗\n醋酸甲羟孕酮\n相关企业：\n沈阳三生制药有限责任公司\n中国科学院广州生物医药与健康研究院\n武汉生物制品研究所有限责任公司\n深圳市卫光生物制品股份有限公司\nMacroGenics Inc\nSarepta Therapeutics Inc\n成都蓉生药业有限责任公司\nMedarex Inc\nHumanigen Inc\n上海生物制品研究所有限责任公司\n醋酸索乐匹尼布片*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n16条\n中国药品批文\n药品招投标\n全球临床试验\n中国临床试验\n9条\n一致性评价\n美国FDA批准药品\n查看更多\n和黄医药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n11条\n中国药品审评信息\n1条\n中国药品批文\n药品招投标\n23条\n全球临床试验\n中国临床试验\n88条\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-20T08:44:33+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "0c3c30949e6fc406",
+    "score": 7.5,
+    "channel": "global",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.87,
+    "reasoning": "全球随机Ⅲ期报告统计学显著且具有临床意义的OS获益，属于关键性读出；其依据是达到主要终点的结论，而非疗效比例或专家判断。",
+    "verify_todo": [
+      "核实正式HR、中位OS、置信区间和p值",
+      "核实第二项海外Ⅲ期的具体试验编号和适应症",
+      "核实公司公告与注册信息是否一致"
+    ],
+    "article_type": "readout",
+    "title": "sac-TMT第二项海外III期成功",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396617",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "今天MSD宣布sac-TMT的第二项海外三期Tropfuse-015成功达标。 三线 胃食管腺癌，单药对照医生选择的化疗方案，头对头打化疗，sac-TMT取得统计显著且 临床有意义 的OS获益，又一次完胜。 从 妇科肿瘤到消化道肿瘤 ， 均为不限制TROP2表达 的OS获益，sac-TMT百亿美金销售额的预期越来越扎实；。\nTROP2相关推荐\n相关适应症：\n血液肿瘤\n肝肿瘤\n晚期实体瘤\n肿瘤\n多发性骨髓瘤\n胰腺导管腺癌\n恶性肿瘤\n宫颈癌\n子宫内膜癌\n滤泡性淋巴瘤\n相关药品：\n芦康沙妥珠单抗\nTROP2 ADC\n德达博妥单抗\n戈沙妥珠单抗\nTrop2-adc\n重组人透明质酸酶\n相关企业：\n上海百英生物科技股份有限公司\n浙江大学\nModerna Inc\n中山大学\n常州恒邦药业有限公司\n中国医学科学院肿瘤医院\n翰森制药集团有限公司\n信达生物制药（苏州）有限公司\n江苏省人民医院（南京医科大学第一附属医院）\nJohnson & Johnson\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-20T20:59:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "ebcbf6511df250dd",
+    "score": 7.4,
+    "channel": "china",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.84,
+    "reasoning": "报道将中国药企相关TROP2 ADC项目与全球Ⅲ期胃食管腺癌读出关联，具备本土创新药全球开发价值；依据是Ⅲ期达到主要终点的明确结论，但具体统计量仍需核实。",
+    "verify_todo": [
+      "核实芦康沙妥珠单抗与sacituzumab tirumotecan的名称、许可及项目归属关系",
+      "核实TroFuse-015的申办方、试验方案和正式统计结果",
+      "核实“全球首创”及多个适应症FIC表述的依据"
+    ],
+    "article_type": "readout",
+    "title": "FIC里程碑：科伦博泰芦康沙妥珠单抗胃癌全球三期临床成功",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396839",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "芦康沙妥珠单抗已经启动18项全球三期临床， 其中14项具有FIC的机会，包括此次撞线的TroFuse-015，意味着芦康沙妥珠单抗在多个瘤种进行首创性探索。 芦康沙妥珠单抗开展的18项全球三期临床如下，其中治疗子宫内膜癌的TroFuse-005、治疗胃癌的TroFuse-015三期临床已经获得成功。 芦康沙妥珠单抗是覆盖最广泛治疗范围和更多临床应用场景的Trop2 ADC。\n胃癌相关推荐\n相关靶点：\nKRAS\nPD-L1\nPD-1\nTROP2\nHER3\nCD19\nPCSK9\nLAG3\nGPC3\nHER2\n相关药品：\nCLDN18.2 ADC\n多柔比星\n多西他赛\n帕博利珠单抗\n曲妥珠单抗\n阿得贝利单抗\n度伐利尤单抗\n斯鲁利单抗\n甲氨蝶呤\n紫杉醇\n相关企业：\n深圳易慕峰生物科技股份有限公司\n原启生物科技（上海）有限责任公司\n四川大学\n中山大学\n信达生物制药（苏州）有限公司\n苏州泽璟生物制药股份有限公司\n复旦大学\n江苏恒瑞医药股份有限公司\n苏州宜联生物医药有限公司\n齐鲁制药有限公司\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T08:00:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "d0f5b677a531b144",
+    "score": 7.2,
+    "channel": "global",
+    "cluster_key": "drug:deramiocel",
+    "flags": [
+      "halted"
+    ],
+    "endpoint_verdict": "halted",
+    "verdict_basis": "textual",
+    "confidence": 0.86,
+    "reasoning": "FDA拒绝批准构成重大监管性挫折，临床开发路径和DMD适应症进展因此发生转折；该依据为监管决定的明确措辞，而非单纯疗效数字，但拒绝原因仍需核实。",
+    "verify_todo": [
+      "核实FDA完整回复函中的具体问题和审评结论",
+      "核实Deramiocel支持申请的注册性试验名称、阶段及主要终点结果",
+      "确认公司后续补救路径及是否需要补充试验"
+    ],
+    "article_type": "halt",
+    "title": "Capricor大跌78%：FDA拒绝批准其DMD外泌体疗法",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396829",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "受此消息影响，Capricor Therapeutics股价盘后大跌78%，目前市值不足1亿美元。 Deramiocel由心球来源细胞（CDCs）组成，通过分泌外泌体发挥免疫调节、抗炎和抗纤维化作用，延缓肌肉退化。 截至2026年9月底，Capricor还有2亿美元现金及等价，可以支撑至少12个月的运营。\nCapricor Therapeutics Inc相关推荐\n相关靶点：\nTFRC\n3CLpro\nDMD\nGC-C\n相关适应症：\nCOVID-19\n心脏衰竭\n心血管疾病\n心肌梗死\n心力衰竭\n纤维化\n自身炎症性疾病\n代谢紊乱\n动脉粥样硬化\n肾病\n相关药品：\nDeramiocel\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T12:02:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c1159daa1e770f1c",
+    "score": 7.2,
+    "channel": "china",
+    "cluster_key": "drug:nemtabrutinib",
+    "flags": [
+      "halted"
+    ],
+    "endpoint_verdict": "halted",
+    "verdict_basis": "textual",
+    "confidence": 0.88,
+    "reasoning": "三项国际多中心Ⅲ期研究因eDMC认为潜在获益不足以抵消风险而全部终止，明确属于高影响的项目终止事件。项目包含中国研究中心且涉及CLL/SLL这一已有多种疗法但仍有需求的领域。",
+    "verify_todo": [
+      "核实三项试验的终止日期和官方状态",
+      "获取eDMC建议及公司披露的完整风险收益数据",
+      "核实各试验是否计划向监管机构提交结果"
+    ],
+    "article_type": "halt",
+    "title": "默沙东官宣终止Nemtabrutinib全部BELLWAVE项目，三款含中国中心的BTK抑制剂III期试验全部叫停",
+    "url": "https://www.pharnexcloud.com/zixun/sx_395239",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "默沙东血液瘤研发遭遇挫折。2026年11月17日，默沙东宣布，终止在研非共价BTK抑制剂Nemtabrutinib的BELLWAVE临床开发项目，包括BELLWAVE-011、BELLWAVE-008和BELLWAVE-010等多项III期临床试验。图源：默沙东企业官网此次终止的直接原因是，外部数据监察委员会（eDMC）评估认为，BELLWAVE-011研究中Nemtabrutinib的潜在获益可能不足以抵消风险。默沙东在全面审查相关数据后，决定终止该研究，并进一步停止整个BELLWAVE临床开发项目。一、27亿美元收购引入，三项III期研究全部终止Nemtabrutinib是一款在研口服非共价布鲁顿酪氨酸激酶（BTK）抑制剂，主要针对慢性淋巴细胞白血病/小淋巴细胞淋巴瘤（CLL/SLL）等血液系统恶性肿瘤。2019年12月，默沙东以约27亿美元收购ArQule，获得Nemtabrutinib等核心资产，将其纳入血液瘤研发管线。图源：摩熵医药-全球药物研发数据库此次终止的BELLWAVE项目涉及三项国际多中心III期临床研究，均包含中国研究中心：BELLWAVE-011（NCT06136559）：在既往未经治疗的CLL/SLL患者中，比较Nemtabrutinib与研究者选择的伊布替尼或阿可替尼的疗效和安全性。此次eDMC提出获益可能不足以抵消风险的研究即为该项试验。BELLWAVE-008（NCT05624554）：在既往未经治疗、无TP53畸变的CLL/SLL患者中，比较Nemtabrutinib与化学免疫疗法的有效性和安全性。BELLWAVE-010（NCT05947851）：在至少接受过一种既往治疗的复发/难治性CLL/SLL患者中，比较Nemtabrutinib联合维奈克拉与维奈克拉联合利妥昔单抗的有效性和安全性。随着上述研究陆续终止，Nemtabrutinib在CLL/SLL领域的III期临床开发也就此画上句号。二、BTK抑制剂折戟，默沙东血液瘤布局仍在继续尽管Nemtabrutinib开发受挫，但默沙东并未放缓血液瘤领域的布局。目前，其相关研发管线仍包括多款处于临床开发阶段的候选药物：Zilovertamab vedotin（MK-2140）：靶向ROR1的抗体偶联药物（ADC）。Bomedemstat（MK-3543）：LSD1抑制剂，主要针对骨髓增殖性肿瘤。图源：摩熵医药-全球药物研发数据库TERN-701：今年5月，默沙东以约67亿美元收购Terns Pharmaceuticals，将这款用于慢性髓性白血病（CML）的在研新药纳入管线。MK-1045：从同润生物引进的CD19×CD3 T细胞衔接器，近期已启动治疗滤泡性淋巴瘤（FL）的全球II/III期临床试验。从27亿美元收购ArQule引入Nemtabrutinib，到约67亿美元收购Terns获得TERN-701，默沙东在血液瘤领域的投入仍在持续。Nemtabrutinib的终止，反映出创新药研发过程中临床获益与风险评估的重要性。而对于默沙东而言，如何依托现有管线推进新的临床突破，将成为其血液瘤业务后续发展的重要看点。参考来源：[1] 企业官网/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 科伦博泰/默沙东TROP2 ADC登ESMO，Ⅲ期研究实锤芦康沙妥珠单抗为子宫内膜癌带来生存新突破2. 默沙东K药皮下注射剂登陆中国，国内首个PD-1单抗皮下剂型获批！3. 默沙东：全球首个全人源生物制剂索特西普在华获批，改写肺动脉高压“治标不治本”困局\nBTK相关推荐\n相关适应症：\n慢性阻塞性肺疾病\n淋巴瘤\n银屑病\n非小细胞肺癌\n特发性血小板减少性紫癜\n糖尿病\n帕金森病\n肝硬化\n贫血\n实体瘤\n相关药品：\n伊布替尼\n奥布替尼\n阿可替尼\n奥雷巴替尼\n泽布替尼\n瑞米布替尼\n达沙替尼\nBexobrutideg\n相关企业：\n清华大学\n无锡药明康德新药开发股份有限公司\n江苏恒瑞医药股份有限公司\n信达生物制药（苏州）有限公司\n鲁南制药集团股份有限公司\n百济神州（北京）生物科技有限公司\n云顶新耀医药科技有限公司\n北京大学\nJohnson & Johnson\n苏州信诺维医药科技股份有限公司\nNemtabrutinib*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n35条\n中国药品批文\n药品招投标\n全球临床试验\n26条\n中国临床试验\n5条\n一致性评价\n美国FDA批准药品\n查看更多\n默沙东*点击下方数字查看更多企业相关数据\n全球药物研发信息\n949条\n中国药品审评信息\n2532条\n中国药品批文\n1条\n药品招投标\n6599条\n全球临床试验\n4689条\n中国临床试验\n238条\n一致性评价\n美国FDA批准药品\n31条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-19T10:39:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "81a5c70d714bd51d",
+    "score": 6.8,
+    "channel": "global",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.78,
+    "reasoning": "报道明确指向关键Ⅲ期成功，具有较高行业影响力；其主要依据是公司宣布试验成功这一终点结论，但摘要截断且未提供具体统计量。",
+    "verify_todo": [
+      "核实试验编号、患者人数和主要终点定义",
+      "获取OS的HR、置信区间和p值",
+      "核实PFS等次要终点及后续监管计划"
+    ],
+    "article_type": "readout",
+    "title": "Merck gets another Phase 3 win for sac-TMT, this time in gastric cancer",
+    "url": "https://endpoints.news/merck-gets-another-phase-3-win-for-sac-tmt-this-time-in-gastric-cancer/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "An experimental antibody-drug conjugate from Merck has succeeded in another Phase 3 cancer study, potentially helping offset Keytruda's looming patent cliff. Merck said Friday morning that a pivotal trial testing sacituzumab ...",
+    "lang": "en",
+    "published": "2026-11-20T15:31:58+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "beab09823c142fbf",
+    "score": 6.8,
+    "channel": "global",
+    "cluster_key": "drug:galinpepimut-s",
+    "flags": [
+      "met",
+      "small_n"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.86,
+    "reasoning": "报道明确称随机Ⅲ期REGAL试验达到主要终点，OS获益属于统计结论，24个月中位OS和死亡风险下降为结果数字。高危AML存在显著未满足需求，但试验仅126例且数据主要来自公司披露，需下调可信度和外溢影响。",
+    "verify_todo": [
+      "获取REGAL试验注册编号和完整统计分析计划",
+      "核实OS风险比、置信区间及预设统计假设",
+      "核实入组人群构成和后续FDA申报计划"
+    ],
+    "article_type": "readout",
+    "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+    "url": "https://www.pharnexcloud.com/zixun/sx_395246",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "癌症疫苗研发迎来重要进展。11月17日，Sellas Life Sciences宣布，其针对急性髓系白血病（AML）开发的癌症疫苗 galinpepimut-S（GPS） 在III期临床试验中达到主要终点。数据显示，galinpepimut-S治疗组患者中位总生存期（OS）达到24个月，较最佳可用疗法组延长超过9个月，死亡风险降低41%。图源：Sellas企业官网基于积极的临床结果，公司计划启动向美国FDA申请加速批准的程序。消息公布后，Sellas股价盘前上涨7.1%。一、III期临床成功，中位OS达到24个月galinpepimut-S是一款靶向WT1（Wilms肿瘤基因1）蛋白的肽疫苗。WT1在多种肿瘤类型中存在表达，galinpepimut-S旨在通过诱导机体产生针对WT1的免疫应答，发挥抗肿瘤作用。图源：摩熵医药-全球药物研发数据库此次III期临床试验共纳入126例高危AML患者，受试者随机接受galinpepimut-S单药治疗或最佳可用疗法（BAT）。入组患者均为高危人群，既往经历多轮挽救治疗，且不符合干细胞移植条件，或处于完全缓解但血小板尚未恢复等临床状态。最终分析显示：中位OS：galinpepimut-S组达到24个月，对照组不足15个月；死亡风险：galinpepimut-S组较对照组降低41%；主要终点：试验达到预设主要终点。在安全性方面，galinpepimut-S表现出良好的安全性和耐受性。值得关注的是，该试验原计划在达到80例死亡事件后进行最终分析，但相关事件数达到预期的时间晚于公司此前估计，直至2026年10月下旬才完成。这也意味着试验最终分析所需的数据事件数已经达到。二、冲刺FDA加速审批，还有多条管线布局galinpepimut-S最初引进自纪念斯隆-凯特琳癌症中心（MSK），并于2023年获得FDA孤儿药资格。此次III期临床取得积极结果后，Sellas计划推进FDA加速审批申请。Sellas首席执行官Angelos Stergiou表示，galinpepimut-S展现出的生存获益是公司的重要里程碑，也为WT1靶向免疫治疗提供了III期临床验证，有望为高危AML患者带来新的治疗选择。除AML外，摩熵医药数据库显示，galinpepimut-S还在恶性胸膜间皮瘤领域开展中期单药临床研究，并探索与Opdivo、Keytruda联合用药的潜力。图源：摩熵医药-全球药物研发数据库此外，Sellas还布局了一款针对AML的小分子药物SLS009。公司计划于2026年12月举行的美国血液学会（ASH）年会上公布该药物的疗效反应及生存期数据。随着galinpepimut-S III期临床取得积极结果，Sellas在AML领域的研发管线有望迎来新的进展。后续FDA审批申请及其他在研项目的数据表现，仍值得关注。参考来源：[1] 企业官网/官方披露[2] 摩熵医药（原药融云）数据库\nWT1相关推荐\n相关适应症：\n淋巴瘤\n急性白血病\n滤泡性淋巴瘤\n小细胞肺癌\n胆道癌\n急性髓系白血病\n胶质母细胞瘤\n套细胞淋巴瘤\n转移性胰腺癌\n实体瘤\n相关药品：\n癌症疫苗\n相关企业：\nIntellia Therapeutics Inc\n百奥赛图（北京）医药科技股份有限公司\n中国科学院微生物研究所\nNational Institutes of Health\n上海交通大学医学院附属瑞金医院\nInovio Pharmaceuticals Inc\nImmunocore Ltd\nBaylor College of Medicine\nCue Biopharma Inc\nSangamo Therapeutics Inc\nSELLAS Life Sciences*点击下方数字查看更多企业相关数据\n全球药物研发信息\n9条\n中国药品审评信息\n中国药品批文\n药品招投标\n全球临床试验\n8条\n中国临床试验\n一致性评价\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-19T16:42:30+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "856efaa0cb4e760b",
+    "score": 6.7,
+    "channel": "global",
+    "cluster_key": "drug:mevidalen",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "textual",
+    "confidence": 0.9,
+    "reasoning": "会议报道明确表述mevidalen的Ⅱ期阿尔茨海默病试验失败并停止开发，依据是失败结论而非仅有利好或无效的数字。疾病领域未满足需求较高，但Ⅱ期失败对全球研发格局的影响仍有限。",
+    "verify_todo": [
+      "获取CTAD报告或演示文稿中的试验设计和终点定义",
+      "核实样本量、效应量及统计结果",
+      "核实后续是否开展其他适应症开发"
+    ],
+    "article_type": "halt",
+    "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+    "url": "https://endpoints.news/ctad26-lillys-dopamine-drug-mevidalen-fails-phase-2-study-in-alzheimers/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "BOSTON — A little-known therapy Eli Lilly has quietly been testing in people with mild and moderate Alzheimer’s disease has failed in its Phase 2 study. The experimental drug, called mevidalen, was dropped ...",
+    "lang": "en",
+    "published": "2026-11-18T16:22:48+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b5988ecd4c36b8d6",
+    "score": 6.5,
+    "channel": "global",
+    "cluster_key": "drug:sacituzumab-tirumotecan",
+    "flags": [],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.72,
+    "reasoning": "标题明确指向Ⅲ期OS改善，具有较高临床价值，但正文缺失且未提供统计量或终点检验细节，因此可信度低于完整公司公告和注册记录。",
+    "verify_todo": [
+      "获取正文并核实OS达到主要终点的原始表述",
+      "核实HR、中位OS、置信区间和PFS结果",
+      "确认试验编号、入组人数及数据披露日期"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Sacituzumab Tirumotecan Improves OS in 3L+ Gastroesophageal Cancer]]>",
+    "url": "https://www.targetedonc.com/view/sacituzumab-tirumotecan-trofuse-015-gastroesophageal-cancer",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T20:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "7bcd1f72252c06cf",
+    "score": 6.3,
+    "channel": "global",
+    "cluster_key": "drug:venglustat",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.77,
+    "reasoning": "FDA批准构成明确监管结果，且针对罕见病Gaucher病神经系统症状具有较高未满足需求。报道未提供底层试验的统计结论，首创性及全球范围仍需监管文件确认。",
+    "verify_todo": [
+      "核实FDA批准文件、适应症和商品名",
+      "获取支持性试验的终点、样本量及统计结果",
+      "核实是否确为全球首个用于该神经系统适应症的疗法"
+    ],
+    "article_type": "readout",
+    "title": "Sanofi's Infilbray wins first approval for neurological symptoms of Gaucher",
+    "url": "https://endpoints.news/sanofis-infilbray-wins-first-approval-for-neurological-symptoms-of-gaucher/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Sanofi won FDA approval Wednesday for Infilbray, the first drug in the US to treat the neurological symptoms of a rare genetic disorder called Gaucher disease. Infilbray, also known as venglustat, crosses the blood-brain barrier ...",
+    "lang": "en",
+    "published": "2026-11-19T19:18:12+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c669ae4d89058e8d",
+    "score": 5.8,
+    "channel": "global",
+    "cluster_key": "drug:barzolvolimab",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "textual",
+    "confidence": 0.83,
+    "reasoning": "Ⅱ期研究明确报告主要疗效目标失败并导致项目停止，依据是失败结论而非单项疗效数字。该事件可能影响后续湿疹适应症开发，但目前仅为Ⅱ期且缺少样本量、效应量和统计细节。",
+    "verify_todo": [
+      "核实试验名称、注册编号及预设主要终点",
+      "核实样本量、p值或置信区间",
+      "核实停止原因及安全性数据"
+    ],
+    "article_type": "halt",
+    "title": "Celldex culls eczema study after Phase 2 failure",
+    "url": "https://endpoints.news/celldex-culls-eczema-drug-after-phase-2-failure/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Celldex Therapeutics is dropping its monoclonal antibody as a therapy for eczema after the drug flunked a mid-stage study. The drug, called barzolvolimab, failed to reduce itching in patients with eczema compared with placebo after ...",
+    "lang": "en",
+    "published": "2026-11-20T12:36:09+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c07361b767670229",
+    "score": 5.6,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.79,
+    "reasoning": "内容包含一项全球Ⅲ期达到主要终点的明确统计结论，以及另一项Ⅱ期积极信号，属于值得拆分的产业读出；由于同时混合不同项目，不宜合并为单一药物簇。",
+    "verify_todo": [
+      "核实p53再激活剂的药名、试验阶段、样本量和统计结果",
+      "核实两项数据的原始来源和是否仅为公司顶线公告",
+      "核实sac-TMT读出是否与同批其他条目完全重复"
+    ],
+    "article_type": "readout",
+    "title": "默沙东TROP2靶向ADC达到3期临床主要终点；p53再激活剂2期结果积极……｜产业新闻",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396841",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "默沙东TROP2靶向ADC达到3期临床主要终点，晚期胃食管腺癌患者总生存期显著改善。 默沙东（MSD）宣布，在研靶向TROP2的抗体偶联药物（ADC）sacituzumab tirumotecan（sac-TMT）在全球3期TroFuse-015研究中取得积极结果。 最终分析显示， 在既往至少接受过两线全身治疗的局部晚期不可切除或转移性胃食管腺癌患者中，该药显著改善了总生存期（OS），研究达到主要终点。\nTROP2相关推荐\n相关适应症：\n血液肿瘤\n肝肿瘤\n晚期实体瘤\n肿瘤\n多发性骨髓瘤\n胰腺导管腺癌\n恶性肿瘤\n宫颈癌\n子宫内膜癌\n滤泡性淋巴瘤\n相关药品：\n芦康沙妥珠单抗\nTROP2 ADC\n德达博妥单抗\n戈沙妥珠单抗\nTrop2-adc\n重组人透明质酸酶\n相关企业：\n上海百英生物科技股份有限公司\n浙江大学\nModerna Inc\n中山大学\n常州恒邦药业有限公司\n中国医学科学院肿瘤医院\n翰森制药集团有限公司\n信达生物制药（苏州）有限公司\n江苏省人民医院（南京医科大学第一附属医院）\nJohnson & Johnson\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T07:30:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "80d32d122327d931",
+    "score": 5.4,
+    "channel": "china",
+    "cluster_key": "target:pan-ras",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.46,
+    "reasoning": "国产泛RAS靶向药在疗效相当并改善安全性的方向上形成积极临床信号，值得跟踪，但素材缺少药名、试验阶段、样本量及统计检验，不能视为明确达到终点。",
+    "verify_todo": [
+      "核实候选药名称、申办企业和试验注册号",
+      "核实试验阶段、对照方案、患者人数和主要终点",
+      "获取HR、置信区间或p值，并确认疗效和安全性结论"
+    ],
+    "article_type": "readout",
+    "title": "疗效相当，安全性更优！国产泛RAS靶向药来了",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/qy_396820",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "今年 8 月，美国 FDA正式 批准泛 RAS 抑制剂 Daraxonrasib 上市， 用于胰腺癌的治疗，让 “ 癌王 ” 也进入了靶向治疗时代。 但这种药物价格也着实不菲，目前在美国的年治疗费用约为 46.8 万美元 （约合人民币 300 余万元） 。 它或许能让国内的胰腺癌患者用上便宜的靶向药。\nRas相关推荐\n相关适应症：\n鳞状细胞癌\n血液肿瘤\n肝细胞癌\n多发性骨髓瘤\n肠癌\n帕金森病\n子宫内膜癌\n转移性乳腺癌\n晚期实体瘤\n相关药品：\nnamodenoson\n相关企业：\nJohnson & Johnson\nErasca Inc\n荣昌生物制药（烟台）股份有限公司\n中国生物制药有限公司\n广东东阳光药业股份有限公司\n博瑞生物医药（苏州）股份有限公司\nCan-Fite BioPharma Ltd\nIonis Pharmaceuticals Inc\n深圳市康哲药业有限公司\nUniversity of Oxford\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T11:02:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9568557703488b32",
+    "score": 5.4,
+    "channel": "china",
+    "cluster_key": "drug:kd-496",
+    "flags": [
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.61,
+    "reasoning": "双靶点CAR-T在高未满足需求适应症中出现值得关注的早期疗效信号，但100%缓解率仅是特定剂量组的疗效数字，未提供统计检验且样本量较小。",
+    "verify_todo": [
+      "核实各剂量组实际样本量、应答人数和缓解率分母",
+      "核实试验阶段、是否单臂、研究设计及ASCO摘要编号",
+      "核实随访时间、确认缓解标准及安全性数据"
+    ],
+    "article_type": "readout",
+    "title": "特定剂量组缓解率高达100%！全球首款\"双靶点\"CAR-T为胃癌胰腺癌再添\"续命\"新选择",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/qy_396717",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "好消息是，2026年美国临床肿瘤学会（ASCO）年会上，一支中国团队交出了一份让国际同行眼前一亮的答卷： 全球首个同时锁定\" CLDN18.2+NKG2DL \"两个靶点的双靶CAR-T细胞KD-496 ，在难治性晚期胃癌、胰腺癌病友体内交出初步疗效—— 中剂量组中，胃癌和胰腺癌病友的肿瘤缓解率双双达到100% ；更有一位晚期胰腺癌病友，肿瘤持续缩小超过180天， 为消化道实体瘤 CAR-T 打开全新研发方向。 全球首款\"双频锁定\"CAR-T来了！ 两个信号同时确认才出手，把逃逸的门一扇扇堵死。\n胰腺癌相关推荐\n相关靶点：\nIL-12\nPD-L1\nCD276\nEGFR\nTROP2\nCD3\nHER2\nKRAS G12D\nCD19\nKRAS\n相关药品：\nCLDN18.2 ADC\n伊立替康\n吉西他滨\n氟唑帕利\n氟尿嘧啶\n奥拉帕利\n格索雷塞\n瑞拉芙普α\n阿糖胞苷\n异环磷酰胺\n相关企业：\n信达生物制药（苏州）有限公司\n无锡药明康德新药开发股份有限公司\n浙江同源康医药股份有限公司\n贝达药业股份有限公司\n博生吉医药科技（苏州）有限公司\n江苏恒瑞医药股份有限公司\n石药集团有限公司\n深圳易慕峰生物科技股份有限公司\n江苏省人民医院（南京医科大学第一附属医院）\n上海交通大学\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-20T23:59:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "e13d508eacf65870",
+    "score": 5.2,
+    "channel": "global",
+    "cluster_key": "drug:isatuximab",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.47,
+    "reasoning": "BENEFIT试验的48个月生存随访具有长期数据价值，但标题只说明分析主题，没有披露生存获益是否达到统计阈值或仅给出数值。",
+    "verify_todo": [
+      "核实48个月分析的样本量、随访率和主要终点",
+      "获取OS、PFS的HR、置信区间及是否具正式统计显著性",
+      "核实该结果来自正式发表、会议报告还是公司公告"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[48-Month Survival Analysis of the BENEFIT Trial, Isatuximab Plus Bortezomib, Lenalidomide, and Dexamethasone for Transplant-Ineligible Newly Diagnosed Multiple Myeloma Patients]]>",
+    "url": "https://www.onclive.com/view/48-month-survival-analysis-of-the-benefit-trial-isatuximab-plus-bortezomib-lenalidomide-and-dexamethasone-for-transplant-ineligible-newly-diagnosed-multiple-myeloma-patients",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T13:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "ca3bde6d1de35b04",
+    "score": 5.2,
+    "channel": "global",
+    "cluster_key": "drug:cemdisiran",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.74,
+    "reasoning": "监管批准构成临床开发终点，且报道声称其为首个获批的重症肌无力siRNA疗法。条目未提供底层试验的统计结果，因此结论主要依据监管批准和媒体措辞。",
+    "verify_todo": [
+      "核实FDA批准文件及完整适应症",
+      "核实支持性试验的样本量、主要终点和统计结果",
+      "核实“首个siRNA疗法”的全球口径"
+    ],
+    "article_type": "readout",
+    "title": "First siRNA Therapy Approved for Myasthenia Gravis",
+    "url": "https://www.medpagetoday.com/neurology/generalneurology/123972",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "(MedPage Today) -- The FDA approved subcutaneous cemdisiran (Livsayis), a small interfering RNA (siRNA) therapy, to treat generalized myasthenia gravis in adults who are anti-acetylcholine receptor (AChR) antibody-positive, Regeneron announced...",
+    "lang": "en",
+    "published": "2026-11-19T22:43:02+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "427585d7cc13d703",
+    "score": 5.2,
+    "channel": "global",
+    "cluster_key": "target:gut-microbiome-metabolites",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.86,
+    "reasoning": "129例CAR-T患者队列将微生物代谢物与治疗应答关联，并配合机制实验，具备形成转化医学专题的潜力。临床部分属于观察性关联而非干预试验，不能据此认定代谢物干预改善了临床终点；发布日期未知。",
+    "verify_todo": [
+      "核实队列构成、应答定义及校正后的效应量和置信区间",
+      "区分临床相关性与小鼠或人源细胞实验中的因果证据",
+      "确认论文正式发表信息及报道日期"
+    ],
+    "article_type": "readout",
+    "title": "Cell：肠道菌代谢物决定 CAR-T细胞成败！戊酸助阵、吲哚拖后腿，代谢风险评分可预测疗效",
+    "url": "http://news.bioon.com/article/89f9954156aa.html",
+    "sources": [
+      "bioon_celltherapy"
+    ],
+    "content": "Cell：肠道菌代谢物决定 CAR-T细胞成败！戊酸助阵、吲哚拖后腿，代谢风险评分可预测疗效\n来源：生物谷原创 2026-10-21 10:47\n这项研究为肠道微生物组在CAR-T细胞疗法中的作用提供了新视角。\n免疫疗法，尤其是 CAR-T细胞疗法，近年来从根本上改变了癌症治疗，特别是某些形式的白血病和淋巴瘤。然而，并非所有肿瘤都同样反应良好，其原因仍未被完全理解。莱布尼茨免疫治疗研究所合作组 Innate Immune Sensing in Cancer and Transplantation 的一项新多中心研究现在表明，决定CAR-T细胞疗法成功的不仅是肠道微生物群的组成，而尤其是其代谢产物。\n正如发表在 Cell 期刊上所述，某些微生物代谢物可以增强或抑制CAR-T细胞功能，对治疗结局产生重大影响。它们还为基于微生物组的疗法和旨在癌症治疗期间支持肠道微生物组的饮食策略提供了起点。\n这项研究以来自 Munich (LMU)、Heidelberg 和 Regensburg 的 3 所德国大学医院的 129 名患者的观察性队列为中心。使用先进的微生物组和代谢组分析，研究团队鉴定了与 CAR-T细胞疗法应答或失败相关的肠道微生物组代谢物。\n然后在小鼠模型和使用人类CAR-T细胞的临床前模型中测试了这些代谢物。这使研究人员能够分析它们对CAR-T细胞活性、代谢和疗效的直接影响，并首次更详细地阐明潜在生物学机制。\n“我们的结果表明，单个微生物代谢物可以产生非常不同的影响，因此如果未来要利用肠道微生物组来预测或改善治疗成功，就需要具体考虑它们，”Hendrik Poeck 说。\n特别值得注意的是短链脂肪酸戊酸：治疗前水平低与疾病进展风险更高相关，而治疗性给药改善了人类和小鼠模型中的CAR-T细胞功能。\n相比之下，吲哚代谢物如吲哚-3-甲醛（Indole-3-carboxaldehyde） 和‌吲哚-3-乙酸‌（indole-3-acetic acid ） 水平升高与不利结局相关；这些代谢物在人类和小鼠模型中都降低了CAR-T细胞疗效。异戊酸，一种支链脂肪酸，被证明更复杂：它在某些方面改善了CAR-T细胞功能，但也与一种此前未知的促肿瘤作用相关。\n微生物组复杂性：对免疫系统和肿瘤都有影响\n这项研究为肠道微生物组在CAR-T细胞疗法中的作用提供了新视角。直到现在，研究主要集中在细菌组成上。这项工作反而表明，微生物代谢物是影响治疗成功的关键生物学角色。研究还表明，这些代谢物并非本质上就有益或有害；它们可以产生高度特异性、有时相反的效果。\n“这些发现突出了微生物组的矛盾性和复杂性：它不仅影响治疗性免疫系统，也影响肿瘤本身，”Poeck 说。\n“通过我们的研究，我们挑战了一个此前占主导地位的观点，并为微生物组研究和基于微生物组疗法的进一步发展开辟了新视角，”Dr. Dr. Markus Perl 说，他是第一作者，也是 University Hospital Regensburg 的医师。从长远来看，这些结果可能有助于通过靶向调节肠道微生物组来改善免疫疗法结局，例如通过微生物群转移或特定饮食策略。\n“基于这些发现，我们目前正在 NCT-OCT2 项目中准备一项临床试验 CARBiome，研究在接受过抗生素并计划接受CAR-T细胞疗法的多发性骨髓瘤患者中进行微生物群转移，”Dr. Erik Thiele-Orberg, Ph.D. 说，他是该研究的共同最后作者。\nPerl 补充说，这项研究还表明，“Regensburg 科学中心卓越的、具有国际可见度的前沿研究之所以成功，要归功于强有力的合作以及全世界许多敬业科学家的共同努力。”\n微生物组研究转向生物活性代谢物\n“这些发现将CAR-T细胞疗法中的微生物组研究从纯粹的细菌组成观点转向生物活性代谢物，”Dr. Severin Gütter 和 Dr. Simon Holzinger 解释说，两人都是该研究的共同第一作者。\n“我们希望，聚焦细菌代谢物将能够在未来实现更稳健的治疗成功生物标志物。此外，这些代谢物的靶向治疗使用为未来治疗开辟了有趣前景，例如使CAR-T细胞疗法更有效。”\n研究团队已经为临床应用提供了初步概念验证：一种基于代谢物的风险评分预测了对CAR-T细胞疗法的临床应答。下一步是与国家和国际伙伴合作，在额外队列中验证这些发现。（生物谷Bioon.com）\n参考文献：\nMarkus Perl et al, Opposing functions of gut immunomodulatory metabolites on CAR-T therapy, Cell (2026). DOI: 10.1016/j.cell.2026.09.004.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026亚太科研与工程智能大会\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9d826bc14afbe5a7",
+    "score": 5.0,
+    "channel": "china",
+    "cluster_key": "drug:ivonescimab",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "textual",
+    "confidence": 0.37,
+    "reasoning": "标题同时涉及HARMONi生存数据和FDA决定，潜在重要性较高，但正文缺失，无法确认监管决定方向、OS统计结论或最终获批状态。",
+    "verify_todo": [
+      "核实FDA决定是批准、延迟还是拒绝，并查找完整审评文件",
+      "核实HARMONi试验的OS结果、HR、置信区间和p值",
+      "核实此前经治EGFR突变NSCLC的监管时间线"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Dr Leighl on HARMONi Survival Data and the FDA's Decision on Ivonescimab in Previously Treated EGFR-Mutated NSCLC]]>",
+    "url": "https://www.onclive.com/view/dr-leighl-on-harmoni-survival-data-and-the-fda-s-decision-on-ivonescimab-in-previously-treated-egfr-mutated-nsclc",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T17:17:30+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "0ca3179467a8597a",
+    "score": 5.0,
+    "channel": "global",
+    "cluster_key": "drug:galinpepimut-s",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.67,
+    "reasoning": "标题提供Ⅲ期REGAL试验OS改善的疗效信号，但未明确陈述主要终点是否达到，也未提供p值或置信区间，因此只能按积极疗效数据而非完整统计结论处理。应与同一试验的公司披露条目合并核查。",
+    "verify_todo": [
+      "获取完整会议报告或摘要",
+      "核实主要终点定义及统计显著性",
+      "与公司顶线公告和REGAL注册信息交叉验证"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Galinpepimut-S Improves Overall Survival in Phase 3 REGAL Trial in AML]]>",
+    "url": "https://www.targetedonc.com/view/galinpepimut-s-regal-phase-3-overall-survival-aml",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-18T13:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "581319dfd96aa295",
+    "score": 4.8,
+    "channel": "china",
+    "cluster_key": "drug:deucravacitinib",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.86,
+    "reasoning": "口服TYK2药物上市申请获受理是从注册开发迈向监管审评的重要节点，可与同靶点竞争项目开展横向比较。现有材料只有受理状态，没有新的疗效统计结论，且发布日期未知。",
+    "verify_todo": [
+      "核实HS-10374与氘索昔替尼的名称及全球开发关系",
+      "获取支持银屑病申请的关键注册试验结果和统计结论",
+      "核实NMPA受理日期及当前审评状态",
+      "确认报道发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "翰森制药丨口服TYK2 创新药氘索昔替尼片（HS-10374片）上市许可申请获NMPA受理，用于治疗成人中重度斑块状银屑病",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396603",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "e2ec8442b7c62506",
+    "score": 4.6,
+    "channel": "global",
+    "cluster_key": "drug:trastuzumab-deruxtecan",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.45,
+    "reasoning": "标题指向HER2突变NSCLC的Ⅲ期疗效和一线治疗数据，具备潜在报道价值，但正文缺失，无法判断是否达到主要终点或仅报告疗效数字。",
+    "verify_todo": [
+      "获取正文并确认DESTINY-Lung04的主要终点和统计结论",
+      "核实一线人群与经治人群是否来自不同分析",
+      "核实样本量、HR、置信区间、p值及安全性数据"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[HER2-Mutant NSCLC: DESTINY-Lung04 and First-Line T-DXd Efficacy]]>",
+    "url": "https://www.onclive.com/view/her2-mutant-nsclc-destiny-lung04-and-first-line-t-dxd-efficacy",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T13:05:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "50e4114388fe6bc8",
+    "score": 4.5,
+    "channel": "china",
+    "cluster_key": "drug:sevabertinib",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.44,
+    "reasoning": "更新分析覆盖HER2突变NSCLC、一线患者及活动性脑转移，临床场景较重要，但正文缺失，尚无统计结论或可核验疗效数字。",
+    "verify_todo": [
+      "获取正文并核实研究阶段、队列划分和样本量",
+      "确认ORR、 intracranial ORR、DCR及生存结果是否有正式统计检验",
+      "核实活动性脑转移亚组的随访时间和安全性"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[SOHO-01: Updated efficacy and safety of sevabertinib in advanced HER2-mutant NSCLC, including first-line patients (pts) and those with active brain metastases]]>",
+    "url": "https://www.onclive.com/view/soho-01-updated-efficacy-and-safety-of-sevabertinib-in-advanced-her2-mutant-nsclc-including-first-line-patients-pts-and-those-with-active-brain-metastases",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T13:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "224a497aa8896cc5",
+    "score": 4.4,
+    "channel": "china",
+    "cluster_key": "drug:ivonescimab",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "textual",
+    "confidence": 0.62,
+    "reasoning": "监管未获批准本身可能构成重要进展，且涉及中国原研药物在海外监管路径中的关键挫折，值得追踪具体原因。标题没有说明是疗效、安全性、生产还是审评问题，不能把未批准直接归因为试验终点失败；发布日期未知。",
+    "verify_todo": [
+      "核实FDA决定类型、日期和完整回复信内容",
+      "区分临床终点问题与生产、CMC或申报问题",
+      "核实涉及的关键试验及统计结论",
+      "确认报道发布日期"
+    ],
+    "article_type": "halt",
+    "title": "有了欧美患者，依沃西为何仍未获FDA批准？",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396831",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c72db9e6b55d98b8",
+    "score": 4.3,
+    "channel": "china",
+    "cluster_key": "drug:qiqintongbi-pian",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.74,
+    "reasoning": "NMPA批准构成监管结果，其中芪秦通痹片获得类风湿关节炎相关适应症，但报道没有披露关键临床试验的样本量、终点或统计结果。另一款产品为经典名方，文章整体还包含较多商业化内容，因此临床读出深度有限。",
+    "verify_todo": [
+      "核实两款产品的批准文号和完整适应症",
+      "获取芪秦通痹片支持性临床试验设计和统计结果",
+      "确认其与现有RA治疗相比的临床定位"
+    ],
+    "article_type": "readout",
+    "title": "以岭药业两款中药新药同步获批：芪秦通痹片剑指类风湿关节炎，半夏白术天麻汤颗粒激活经典名方",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_393813",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "11月13日，国家药监局官网显示，以岭药业旗下两款中药新药获批上市，分别为北京以岭药业研发的中药1.1类新药芪秦通痹片，以及石家庄以岭药业申报的中药3.1类新药半夏白术天麻汤颗粒。图源：NMPA官网其中，芪秦通痹片用于活动期类风湿关节炎风寒湿痹证，半夏白术天麻汤颗粒则是经典名方开发品种。两款产品同步获批，进一步丰富了以岭药业的中药产品布局。一、1.1类创新药、经典名方齐获批芪秦通痹片是以岭药业自主研发的中药1.1类新药，具有祛风除湿、蠲痹通络、散寒止痛的功效，用于活动期类风湿关节炎风寒湿痹证，可改善关节疼痛、关节肿胀、遇冷加重、关节活动受限等症状。该品种上市申请（CXZS2500014）于2025年4月获得CDE承办，并于2026年11月获批上市。图源：摩熵医药-中国药品审评数据库另一款产品半夏白术天麻汤颗粒，申报主体为石家庄以岭药业，受理号为CXZS2500028，批准文号为国药准字C20260026，属于中药3.1类新药。该方出自《医学心悟》，具有化痰息风、健脾祛湿的功效，用于风痰上扰证，症见眩晕、头痛、胸膈痞闷、恶心呕吐等。此次颗粒剂获批上市，为经典名方的现代化应用增加了新的产品选择。从研发储备来看，摩熵医药数据库显示，以岭药业（含子公司）还有芪桂络痹通片、骨关节颗粒等中药1.1类新药处于上市申请审评阶段。图源：摩熵医药-中国药品审评数据库此外，公司另有多款中药1类新药获批上市，包括辛芪通鼻片、芪黄明目胶囊、苏夏解郁除烦胶囊等。临床研发方面，摩熵医药数据库显示，截至目前，以岭药业有10款中药创新药处于获批临床及以上阶段。其中，中药1.1类新药藿夏感冒颗粒和连花清咳颗粒均已进入Ⅲ期临床，此外还有2款处于Ⅱ期临床及多款处于临床以上研发阶段。图源：摩熵医药-全球药物研发数据库此外，2026年10月，中药1.1类新药健骨关节颗粒的临床试验申请获受理。目前，以岭药业已上市17款专利中药，覆盖心脑血管、糖尿病、神经、肿瘤等多个疾病领域。\n二、前三季度净利增长9.55%，研发费用达4.49亿元以岭药业2026年三季报显示，前三季度公司实现营业收入59.68亿元，同比增长1.72%；归母净利润10.96亿元，同比增长9.55%；扣非归母净利润10.60亿元，同比增长9.68%。图源：以岭药业第三季度报告其中，第三季度单季实现营业收入18.94亿元，同比增长3.62%；归母净利润3.39亿元，同比增长2.04%。从业务结构来看，心脑血管类产品仍是公司主要收入来源。2026年上半年，该类产品实现营收24.50亿元，占同期营业收入的60.14%。通心络胶囊、参松养心胶囊、芪苈强心胶囊三大品种合计收入约24.5亿元，同比增长近25%。政策准入方面，2026年9月1日，新版《国家基本药物目录（2026年版）》正式施行。以岭药业解郁除烦胶囊首次纳入目录，公司进入国家基本药物目录的独家品种由5个增至6个。图源：摩熵医药-中国药品批文数据库研发投入方面，2019—2025年，以岭药业累计研发投入超过60亿元。2026年前三季度，公司研发费用达4.49亿元，占营业收入的7.52%。从两款中药新药获批，到多款在研品种持续推进，以岭药业的中药产品管线进一步丰富。随着新产品陆续获批及在研品种推进，后续研发进展和市场表现值得关注。\n石家庄以岭药业股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n石家庄以岭药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n参考来源：[1] NMPA官网[2] 摩熵医药（原药融云）数据库[3] 企业公告/官方披露扩展阅读：1. ‌以岭药业中药1.1类新药小儿连花感冒颗粒获批上市，瞄准4-12岁儿童风热感冒赛道‌，管线持续扩容中2. 以岭药业中药1.1类新药芪龙定喘片获批临床，剑指百亿慢阻肺市场，19款产品矩阵夯实龙头地位3. 以岭药业：2025年业绩扭亏为盈，首个化药2.1类新药苯胺洛芬注射液获批上市！\n类风湿关节炎相关推荐\n相关靶点：\nPD-1\nNLRP3\nER\n4-1BB\np53\nCD3\nHER2\nBTK\nRANKL\nTYK2\n相关药品：\n奥布替尼\n阿可替尼\n他克莫司\n索乐匹尼布\n伏欣奇拜单抗\n利妥昔单抗\n古塞奇尤单抗\n地舒单抗\n玻璃酸钠\n间充质干细胞\n相关企业：\n浙江同源康医药股份有限公司\nInsmed Inc\n华夏英泰（北京）生物技术有限公司\n中国医学科学院血液病医院（中国医学科学院血液学研究所）\nModerna Inc\nJohnson & Johnson\n江苏豪森药业集团有限公司\nAddex Therapeutics Ltd\n百济神州（北京）生物科技有限公司\n浙江海正药业股份有限公司\n石家庄以岭药业股份有限公司*点击下方数字查看更多企业相关数据\n全球药物研发信息\n25条\n中国药品审评信息\n266条\n中国药品批文\n75条\n药品招投标\n4252条\n全球临床试验\n13条\n中国临床试验\n94条\n一致性评价\n6条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-16T15:19:17+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "0f759157076e30fc",
+    "score": 4.3,
+    "channel": "china",
+    "cluster_key": "target:neutrophil-spatial-signature",
+    "flags": [
+      "subgroup"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.79,
+    "reasoning": "多队列结合空间组学和计算病理形成的预后及免疫治疗获益标志物具有转化价值，值得作为生物标志物专题候选。现有依据主要是队列关联和疗效数字，并非干预试验中的预设终点统计结论；发布日期未知。",
+    "verify_todo": [
+      "核实各队列样本量、独立验证队列及主要终点定义",
+      "核查五年无复发生存率等数字的置信区间和模型校正方法",
+      "确认研究是否经过前瞻性临床验证"
+    ],
+    "article_type": "readout",
+    "title": "别只看细胞多少！中性粒细胞的肿瘤“落脚地”决定三阴性乳腺癌预后与免疫疗效｜Cancer Cell",
+    "url": "http://news.bioon.com/article/aada96364005.html",
+    "sources": [
+      "bioon_tumor_immunotherapy"
+    ],
+    "content": "别只看细胞多少！中性粒细胞的肿瘤“落脚地”决定三阴性乳腺癌预后与免疫疗效｜Cancer Cell\n来源：生物谷原创 2026-11-11 11:31\n该研究整合计算病理学与单细胞空间多组学，解析乳腺癌中性粒细胞空间异质性，明确两类空间模式的临床价值及作用机制，助力三阴性乳腺癌患者风险分层。\n谈到肿瘤免疫评估，很多人习惯直接数免疫细胞的数量。但肿瘤组织并不是均匀的整体，免疫细胞处在什么位置、和哪些细胞相邻，往往比单纯的细胞数量更有参考意义。\n中性粒细胞是人体外周血里数量最多的固有免疫细胞，在乳腺癌中有着双向作用。它能够参与杀伤癌细胞，也会被肿瘤微环境重塑，反过来促进癌细胞侵袭转移。以往多数研究聚焦中性粒细胞内部分子特征的变化，很少关注它在肿瘤组织中的空间分布，不少实验室成果很难真正落地到日常病理诊断。复旦大学团队在Cancer Cell发表这项研究，跳出只统计细胞数量的思路，从空间分布角度解析中性粒细胞，寻找适合三阴性乳腺癌临床评估的标志物。\n图1 研究整体技术路线概览\n研究分析多套乳腺癌临床队列，结合人工智能计算病理学与单细胞空间多组学，划分出四种中性粒细胞空间亚型。其中两种亚型和三阴性乳腺癌的临床结局密切相关。当中性粒细胞紧贴肿瘤细胞分布，也就是肿瘤浸润型，患者预后更好；当中性粒细胞和其他免疫细胞聚集在一起，即免疫聚集型，提示患者更有可能从免疫检查点抑制剂治疗中获益。\n图2 不同中性粒细胞空间模式的病理代表图\n把中性粒细胞空间特征和现有成熟标志物联合使用，评估效果还能进一步提升。单独依靠肿瘤浸润淋巴细胞判断预后存在局限，叠加中性粒细胞靠近肿瘤细胞这一特征后，对复发风险的识别会更加精准。同时具备两项有利特征的三阴性乳腺癌患者，五年无复发生存率超过96%。针对新辅助免疫治疗，结合中性粒细胞免疫聚集特征与CD8指标，能够筛选出更容易实现病理完全缓解的获益人群。\n图3 中性粒细胞调控免疫应答的机制示意图\n从机制层面来看，紧贴肿瘤的中性粒细胞会和肿瘤细胞产生炎症信号交流，激活Toll样受体2通路，上调肿瘤细胞I类主要组织相容性复合体表达，方便CD8阳性T细胞识别并清除肿瘤细胞，带来生存获益。和免疫细胞聚集的中性粒细胞具备抗原呈递能力，干扰素γ、粒细胞‑巨噬细胞集落刺激因子可以诱导该表型。在此基础上抑制多胺代谢，还能进一步强化抗原呈递功能，激活T细胞，提升免疫检查点抑制剂的治疗效果。\n这项研究说明，评估肿瘤内中性粒细胞不能只看数量，细胞所处微环境、周边相邻细胞类型，才是决定它功能走向的关键。整套分析依托临床常规HE病理切片即可完成，不需要昂贵的测序检测，临床转化门槛低。研究也为三阴性乳腺癌联合治疗提供新方向，多胺代谢抑制类药物，有潜力作为免疫治疗的增效手段，推动三阴性乳腺癌精准诊疗发展。（生物谷Bioon.com）\n参考文献：\nXu YZ, Wu XR, Qiu ZY, et al. Decoding neutrophil spatial heterogeneity and clinical implications in breast cancer. Cancer Cell. 2026;44(11):2249-2266.e9. doi:10.1016/j.ccell.2026.10.005\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026亚太科研与工程智能大会\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "0456a15323f7a624",
+    "score": 4.3,
+    "channel": "china",
+    "cluster_key": "drug:nv-a01",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.55,
+    "reasoning": "标题显示NV-A01溶瘤病毒获批临床，属于开发启动而非统计结论或疗效数字；胶质母细胞瘤领域未满足需求突出，“新靶点”表述具备潜在报道价值，但分期、注册状态、设计及所谓新靶点均需原始来源确认。发布日期未知，可信度主要受限于仅有媒体标题。",
+    "verify_todo": [
+      "核实NV-A01的试验编号、申办方、试验分期及注册状态",
+      "核实作用机制和“新靶点”的具体含义",
+      "核实主要终点、剂量、给药方式及计划入组人数",
+      "查找NMPA或药物临床试验登记与信息公示平台记录"
+    ],
+    "article_type": "milestone",
+    "title": "经纬关注 | 新靶点突破！NV-A01溶瘤病毒获批临床，直击胶质母细胞瘤",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396734",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "292248d42a8cfc9f",
+    "score": 4.1,
+    "channel": "china",
+    "cluster_key": "drug:ter-2013",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.76,
+    "reasoning": "全球首创AKT1选择性抑制剂的临床申报属于具有差异化潜力的研发里程碑，但目前没有疗效数字或统计结论，且此前海外试验已启动。",
+    "verify_todo": [
+      "核实中国临床申请受理、试验注册号及申办主体",
+      "核实TER-2013现有Ⅰ/Ⅱ期试验的阶段、地点和主要终点",
+      "核实“全球首创选择性”表述及与在研AKT抑制剂的差异"
+    ],
+    "article_type": "milestone",
+    "title": "百济神州：全球首创AKT1选择性抑制剂申报临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396840",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "TER-2013为全球首创的AKT1选择性抑制剂，由Terremoto Biosciences研发，此前已经于2025年9月启动全球1/2期临床。 Terremoto Biosciences成立于2022年，聚焦开发赖氨酸靶向共价抑制剂。 此前的共价药物多针对半胱氨酸残基，因其反应活性强，但受限于半胱氨酸在蛋白质含量少，基于此可选靶点受限。\nAKT1相关推荐\n相关适应症：\n鳞状细胞癌\n卒中\n黑色素瘤\n肝细胞癌\n恶性肿瘤\n心血管疾病\n急性髓系白血病\n套细胞淋巴瘤\n神经系统疾病\n转移性乳腺癌\n相关药品：\n卡匹色替\n相关企业：\n齐鲁制药有限公司\n江苏恒瑞医药股份有限公司\nGSK PLC\n四川大学\n浙江大学\n安进\n暨南大学\n中国科学院上海药物研究所\nOpus Genetics Inc\n中国科学技术大学\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T08:00:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b7e7a1d36c8d24f2",
+    "score": 4.1,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "halted"
+    ],
+    "endpoint_verdict": "halted",
+    "verdict_basis": "textual",
+    "confidence": 0.58,
+    "reasoning": "报道明确称公司唯一临床研究提前停止，依据是项目终止状态而非疗效数字。由于摘要未提供候选药物、试验阶段、终止原因及统计结果，深度报道价值受到较大限制。",
+    "verify_todo": [
+      "核实候选药物和试验名称",
+      "核实试验阶段、注册编号及样本量",
+      "核实提前终止原因是疗效、安全性、策略还是商业原因"
+    ],
+    "article_type": "halt",
+    "title": "nChroma Bio stops its only clinical study early, lays off 50%",
+    "url": "https://endpoints.news/nchroma-bio-stops-its-only-clinical-study-early-lays-off-50/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "A couple of years ago, two Boston-area biotech CEOs decided to merge their startups, hoping to survive a down market for genetic medicine companies. Jeff Walsh, the CEO of that combined company, nChroma Bio,",
+    "lang": "en",
+    "published": "2026-11-18T21:19:50+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "4ab0fa19f3c95068",
+    "score": 4.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "partial",
+    "verdict_basis": "statistical",
+    "confidence": 0.71,
+    "reasoning": "文章汇总ESMO期间多项Ⅲ期研究，并明确区分OS获益与证据边界，具有横向选题价值。由于是多试验盘点而非单一完整读出，且未给出各研究完整统计细节，优先级低于单试验高价值结果。",
+    "verify_todo": [
+      "核实12项研究的试验名称和会议来源",
+      "提取各研究主要终点、效应量及置信区间",
+      "核实所称7项统计学显著OS结果"
+    ],
+    "article_type": "landscape",
+    "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
+    "url": "https://www.pharnexcloud.com/zixun/sd_393817",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据\n2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据\n*本文内容节选自2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据，若您对全文感兴趣，欢迎下载完整报告！\n摩熵咨询\nESMO 2026\n重点临床研究\n肿瘤研发启示\n21页\n免费下载\n2026年欧洲肿瘤内科学会（ESMO）年会于西班牙马德里落幕，多项III期关键临床数据集中披露，正在重塑肿瘤药物研发的临床证据格局。摩熵咨询从大会晚期摘要中遴选12项高决策价值研究开展系统盘点：7项研究在明确人群中报告了具有统计学显著性的总生存（OS）获益；个体化新抗原mRNA疫苗首次取得III期无复发生存（RFS）阳性结果；DLL3-CD3衔接器应用场景推进至一线维持治疗；PD-1/VEGF双特异性抗体完成以活性免疫方案为对照的头对头验证。这批证据共同指向一个核心趋势：肿瘤药物研发的评价基准，正从“验证是否有效”转向“证据能否支撑临床定位与可执行的交付模式”。本文内容摘自摩熵咨询《2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》报告。报告以生存证据与治疗定位为两条核心主线，逐一拆解各研究的试验设计、入组人群、疗效结果与临床解读，并从OS风险比、生存期中位数差值、安全性三个维度开展跨研究汇总分析；治疗前移、新机制与联合、精准分层、证据边界四大方向，构成本次盘点的核心观察框架。需特别说明的是，报告披露的效应量均为单试验内相对效应，不构成跨试验疗效排序，不计算合并效应，亦不推算市场份额。本文为盘点上篇，聚焦大会核心摘要、研究整体概览及三项代表性重点研究，其余9项研究与跨研究汇总分析详见下篇。一、研究概览：12项重点研究勾勒肿瘤研发核心脉络2026年欧洲肿瘤内科学会（ESMO）年会于10月23日至27日举办，作为全球最具影响力的肿瘤学学术盛会之一，大会集中呈现了全球肿瘤诊疗与药物研发的前沿突破，多项III期注册研究结果有望直接推动临床指南更新与治疗格局变革。（一）研究遴选：聚焦临床决策的核心价值本次纳入盘点的12项研究均为III期临床研究，采用有目的的重点选择方式，遴选标准侧重研究结果对临床决策的参考价值，以及对照设置的解释价值，覆盖不同疾病阶段与研发方向。注：NI，非劣效。所选研究均为III期；本综述采用有目的的重点选择。从技术平台分类来看，含抗体药物偶联物（ADC）的治疗方案占所选研究的5/12（41.7%），免疫主导策略同样占比41.7%，靶向小分子药物占16.7%。从治疗阶段划分，有2项研究聚焦根治意图的治疗场景，其余10项覆盖晚期疾病的系统治疗或维持治疗。注：以上为互斥的编辑分类，联合方案在其他分类体系中可能归入不同类别。（二）生存证据与治疗定位构成重点研究的两条主线本次盘点的12项研究始终围绕两条核心主线展开：一是生存证据的验证，即总生存获益的统计学显著性与临床实际意义，这是衡量抗肿瘤药物核心价值的金标准；二是治疗定位的明确，即各类创新方案在现有治疗格局中的适用人群、线位与临床价值定位。图片来源：摩熵咨询《2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》在此基础上，所有研究可归入四大观察维度：治疗前移：INTerpath-001与VOLGA将研发推进至根治意图治疗场景；新机制与联合：DLL3、PD-1/VEGF及ADC为联合治疗策略提供新证据，涉及DeLLphi-305、HARMONi-GI1、TroFuse-005、ARTEMIS-011与TAISHAN-301；精准分层：SAFFRON与Krascendo 1在分子特征明确的人群中验证差异化；证据边界：CLARITY的共同主要终点结果不一致，MOIO未证实非劣效。二、治疗前移：INTerpath-001个体化疫苗辅助治疗研究治疗前移是肿瘤药物研发的长期趋势，将有效治疗方案向更早疾病阶段推进，有望实现更高比例的患者治愈。INTerpath-001 研究作为全球首个取得 III 期阳性结果的个体化 mRNA 肿瘤疫苗研究，为根治意图治疗场景的创新疗法开发提供了关键参照。（一）研究设计与人群INTerpath-001研究入组人群为完全切除后的IIB—IV期黑色素瘤患者，共1137例。试验组为Intismeran autogene联合帕博利珠单抗，对照组为帕博利珠单抗单药，主要终点为无复发生存期（RFS）。（二）疗效结果研究结果显示，两组两年无复发生存率分别为82.2%与70.0%，绝对差值12.2个百分点；RFS风险比（HR）为0.58（95%CI0.45–0.75）。截至数据分析节点，总生存数据尚未成熟。（三）安全性两组3—5级治疗相关不良事件（TRAE）发生率分别为14.2%与13.4%，试验组较对照组高0.8个百分点。（四）个体化肿瘤疫苗流程个体化肿瘤疫苗的实施流程包含：获取患者切除肿瘤组织样本，开展测序与新抗原筛选，进行个体化mRNA设计，生产制备Intismeran疫苗，最终为患者接种并联合帕博利珠单抗治疗。（五）研究解读该研究的核心研发挑战在于生产周转效率与患者个体化供货保障。目前研究尚未证实总生存获益，结果不能外推至其他癌种。三、新机制与联合：双靶点方案补充联合治疗证据新作用机制药物与现有标准治疗的联合，是本次ESMO大会的重点方向之一。双特异性抗体凭借同时靶向两个靶点的优势，在免疫联合、抗血管生成联合等方向展现出差异化的治疗价值，DeLLphi-305与HARMONi-GI1两项研究分别在小细胞肺癌与胆道癌领域验证了双靶点策略的临床潜力。（一）DeLLphi-305：DLL3-CD3衔接器用于一线维持治疗1. 研究设计与人群DeLLphi-305研究入组人群为诱导化疗后未进展的广泛期小细胞肺癌患者，共563例。患者按1:1随机分配至维持治疗阶段：试验组为Tarlatamab联合度伐利尤单抗（n=282），对照组为度伐利尤单抗单药（n=281）。研究主要终点为OS，关键次要终点为PFS，两类终点均自维持治疗随机化起算。2. 疗效结果维持治疗阶段，两组中位OS分别为21.1个月与12.7个月，绝对差值8.4个月；中位PFS分别为7.4个月与1.9个月，绝对差值5.5个月。OS与PFS均实现统计学显著性改善，OS HR为0.42（95%CI0.32–0.54）。图片来源：摩熵咨询《2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》3. DLL3—CD3作用机制DLL3-CD3衔接器可将CD3阳性T细胞募集至DLL3阳性的小细胞肺癌细胞周围，激活T细胞发挥抗肿瘤杀伤作用。4. 维持治疗安全性联合组近半数患者出现细胞因子释放综合征（CRS），多为1—2级。方案实施需配套阶梯给药及不良反应监测能力。两组≥3级不良事件发生率分别为46.8%与40.6%，试验组较对照组高6.2个百分点。5. 关键说明该研究的生存数据自维持治疗随机化起算，不等同于自患者初诊起算的生存期。（二）HARMONi-GI1：以活性免疫对照验证PD-1/VEGF1. 研究概览研究人群为一线晚期胆道癌；研究设计为随机、活性对照；治疗组为依沃西单抗＋化疗，对照组为度伐利尤单抗＋化疗；研究终点为OS与PFS。申办方为康方生物。2. PD-1与VEGF双重阻断依沃西单抗为同时靶向PD-1与VEGF的双特异性抗体。其抗PD-1端解除T细胞抑制、恢复抗肿瘤免疫；抗VEGF端抑制VEGF、减少肿瘤血管生成。3. 疗效结果一线晚期胆道癌中，中位OS为14.9对12.1个月，提高2.8个月；中位PFS为8.4对5.8个月。OS HR为0.75（95%CI0.61–0.92）。图片来源：摩熵咨询《2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》4. 关键结论活性免疫对照强化了研发价值判断。地区可迁移性、后续治疗及安全性仍影响定位，结果不能外推所有癌种。结语纵观上篇梳理的三项研究，肿瘤药物研发的“证据门槛”正在被重新定义。INTerpath-001证明个体化新抗原疫苗可以在III期随机对照中转化为无复发生存获益，但随之而来的研发问题转向了生产周转与个体化供货；DeLLphi-305以0.42的OS HR将DLL3衔接器推进至一线维持，代价则是近半患者出现的CRS，以及对阶梯给药与监测能力的配套要求；HARMONi-GI1用活性免疫对照而非化疗对照检验PD-1/VEGF双抗，使“优效于谁”有了更严格的答案。三项研究的共性在于：疗效读数只是起点，临床定位与可执行的交付模式正在共同决定项目价值。在下篇中，我们将继续解读 TroFuse-005、ARTEMIS-011、TAISHAN-301 等ADC相关联合研究，以及精准分层、证据边界维度的重点研究，并呈现跨研究的汇总分析与研发启示，敬请关注。参考资料：[1] 摩熵咨询《2026 ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》[2] 默沙东 / Moderna. INTerpath-001. 2026-10-22, LBA1.[3] 阿斯利康. DeLLphi-305. 2026-10-24, LBA3.[4] 默沙东. TroFuse-005. 2026-10-26, LBA11.相关拓展阅读：1. 2026 ESMO年会9项肿瘤III期研究解读：ADC、KRAS、MET最新临床数据以上内容均来自摩熵咨询《2026 ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据》，如需查看或下载完整版报告，可点击！\nPD-1相关推荐\n相关适应症：\n甲状腺癌\n衰老\n宫颈癌\n胰腺癌\n食管腺癌\n卒中\n黑色素瘤\n转移性乳腺癌\n乳腺癌\n胃癌\n相关药品：\n依沃西单抗\n帕博利珠单抗\n派安普利单抗\n特瑞普利单抗\n西妥昔单抗\n斯鲁利单抗\n替雷利珠单抗\n纳武利尤单抗\n信迪利单抗\n卡瑞利珠单抗\n相关企业：\n南京传奇生物科技有限公司\n和铂医药（上海）有限责任公司\n北京大学\n北京大学肿瘤医院\n江苏豪森药业集团有限公司\n四川大学\n上海百英生物科技股份有限公司\n吉林大学第一医院\n鲁南制药集团股份有限公司\n西湖大学\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-16T19:13:10+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b9352dcf5a982c27",
+    "score": 4.0,
+    "channel": "global",
+    "cluster_key": "target:cd19-cd20-cd22",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.76,
+    "reasoning": "Ⅰ期三特异性CAR-T研究涉及新的靶向组合及OX40增强策略，且报告多病种缓解信号，值得核查原始论文。现有表述是缓解和安全性描述，未提供样本量、终点定义或统计检验；发布日期未知。",
+    "verify_todo": [
+      "获取Blood Cancer Discovery论文全文并核实各队列样本量",
+      "核查主要终点、缓解标准、随访时间及统计检验",
+      "确认是否单臂、是否属于事后或亚组分析"
+    ],
+    "article_type": "readout",
+    "title": "Blood Cancer Discov：三重靶向＋OX40增强＋6天快速制造！三特异性CAR T细胞疗法为复发难治B细胞血液癌症带来新希望",
+    "url": "http://news.bioon.com/article/9dab95e68937.html",
+    "sources": [
+      "bioon_celltherapy"
+    ],
+    "content": "Blood Cancer Discov：三重靶向＋OX40增强＋6天快速制造！三特异性CAR T细胞疗法为复发难治B细胞血液癌症带来新希望\n来源：生物谷原创 2026-10-22 10:02\n由俄亥俄州立大学综合癌症中心领导的一项I期临床试验结果显示，可能有一条途径可改善复发或治疗耐药性B细胞血液癌症患者的治疗选择。研究结果发表在Blood Cancer Discovery上。\n研究人员得以在早期工作的基础上进一步推进，该早期工作利用CAR T细胞疗法增强B细胞血液癌症的治疗。所有血液癌症中约一半为B细胞血液癌症，包括淋巴瘤和某些白血病。\n该试验测试了靶向3种蛋白——CD19、CD20和CD22的三特异性CAR T细胞疗法，并使用一种名为OX40的不同蛋白来增强患者的免疫反应。\n“这是CAR T细胞临床试验首次使用OX-40来增强该过程并改善肿瘤杀伤，”该研究第一作者兼通讯作者Sumithira Vasu医学博士说。“我们试验的结果可能为那些B细胞血液癌症复发或治疗停止起效后选择有限的患者带来更好的治疗结局。”\n团队还使用了一种更快的流程，在短短6天内完成细胞的采集、制备和回输给患者。这带来了积极结局，且患者副作用极小。\n“此前有观点认为新鲜细胞回输更可取，而我们能够证明快速制造时间和新鲜细胞回输的可行性，”共同资深作者LHM项目成员Lapo Alinari医学博士、哲学博士说。“这在B细胞非霍奇金淋巴瘤中产生了有意义的临床活性且副作用极小，并在套细胞淋巴瘤、滤泡性淋巴瘤和弥漫性大B细胞淋巴瘤中实现了缓解。”\nCAR T细胞疗法如何工作？\nCAR T细胞疗法从患者免疫系统中取出抗癌T细胞，在实验室中修改这些细胞以增强其杀死癌细胞的能力，然后通过输注将细胞回输给患者。\n该细胞疗法通常靶向在B细胞血液癌症中起重要作用的CD19蛋白。在此前的动物研究中，其他机构的科学家开发了一种同时靶向另外2种蛋白——CD20和CD22的CAR T细胞疗法，并显示出更强的有效性。\n“尽管CAR T细胞疗法已经彻底改变了B细胞血液癌症患者的治疗，缓解率高，但许多患者会在CAR T细胞疗法后复发，且往往在第1年内，”Vasu说。“患者随后只剩下有限的治疗选择。”\n该临床试验入组了18名中位年龄为64岁的患者，其中16人接受了OX-40蛋白增强的CAR T细胞过程治疗。所有入组患者在接受增强细胞疗法之前，此前均已接受过中位3种类型的治疗。\n“虽然我们的试验显示，接受增强CAR T细胞治疗的B细胞非霍奇金淋巴瘤患者取得了令人鼓舞的结局，但仍需要在更大患者群体中进行更多研究，”资深共同作者Marcos de Lima医学博士说。（生物谷Bioon.com）\n参考文献：\nSumithira Vasu et al., Safety and Clinical Outcomes of a First-in-Human Trial of Point-of-Care Manufactured Trispecific CAR T Cells Targeting CD19, CD20, and CD22, Blood Cancer Discovery (2026). DOI: 10.1158/2643-3230.bcd-26-0186.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026亚太科研与工程智能大会\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "2cc1c33784fc6918",
+    "score": 4.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.61,
+    "reasoning": "口服RIPTAC的Ⅰ期人体数据可为新型口服靶向递送平台提供早期验证，因而具有跟踪价值。现有信息未给出具体药物、受试者特征、剂量、疗效统计或安全性结论，且发布日期未知。",
+    "verify_todo": [
+      "识别具体候选分子、靶点和试验注册号",
+      "获取Ⅰ期剂量爬坡、药效、疗效及安全性数据",
+      "确认数据出处为会议报告还是正式论文",
+      "确认发布日期"
+    ],
+    "article_type": "readout",
+    "title": "热点追踪 | 强生口服RIPTAC疗法公布Ⅰ期数据，\"小分子ADC\"迎来临床验证",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396145",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "25e8cd9fd7e67e37",
+    "score": 4.0,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.55,
+    "reasoning": "素材标题显示为胶质母细胞瘤新药获批临床的启动节点，而非疗效读出；该适应症未满足需求较高，且标题提出全球首款定位，但具体药名、试验分期、注册信息及首创性依据均未提供。发布日期未知，当前主要依据媒体标题而非注册库或统计数据。",
+    "verify_todo": [
+      "核实具体候选药物名称、靶点与作用机制",
+      "核实申办方、试验分期、试验编号、剂量及主要终点",
+      "核实“全球首款”对应的机制、靶点及适应症边界",
+      "查找NMPA或药物临床试验登记与信息公示平台记录"
+    ],
+    "article_type": "milestone",
+    "title": "全球首款！诺惟生物胶质母细胞瘤新药获批临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396604",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "923a5515c9fcdf4e",
+    "score": 3.8,
+    "channel": "global",
+    "cluster_key": "target:cll-car-t",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.35,
+    "reasoning": "标题涉及复发或难治性CLL中的CAR-T疗效，但没有具体产品、试验设计、样本量或结果，无法判断证据是否达到终点。",
+    "verify_todo": [
+      "获取正文并识别CAR-T产品、试验注册号和临床阶段",
+      "核实样本量、应答率、缓解持续时间及统计检验",
+      "确认是否有CRS、神经毒性等安全性结论"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Efficacy of CAR T-Cell Therapy in Relapsed/Refractory CLL]]>",
+    "url": "https://www.onclive.com/view/efficacy-of-car-t-cell-therapy-in-relapsed-refractory-cll",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T13:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "daff05eb736b6d61",
+    "score": 3.8,
+    "channel": "global",
+    "cluster_key": "drug:cemdisiran",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.48,
+    "reasoning": "简报标题提及Livsayis的监管批准，属于临床开发结果，但没有提供支持性试验终点、样本量或统计结论。该内容以行业简讯为主，深度报道价值有限。",
+    "verify_todo": [
+      "核实FDA批准日期、适应症和监管文件",
+      "核实支持性试验的设计及关键终点结果"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[ACT Brief: AI Trial Matching Access, IRB Oncology Expertise, and Livsayis Myasthenia Gravis Approval]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/ai-trial-matching-access-irb-oncology-expertise-livsayis-myasthenia-gravis-approval",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T11:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "64c3a31107c51235",
+    "score": 3.8,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.82,
+    "reasoning": "内容是创新药临床申请、上市申请和获批事项的周度盘点，包含若干开发节点但没有单一试验的完整结果。适合监管及管线全景观察，不属于高优先级单试验读出。",
+    "verify_todo": [
+      "逐项核实所列CDE许可和受理状态",
+      "识别其中可能具有关键性数据读出的具体项目"
+    ],
+    "article_type": "landscape",
+    "title": "2026年第46周11.09-11.15国内创新药/改良型新药申请临床/获批临床/申请上市/获批上市数据分析",
+    "url": "https://www.pharnexcloud.com/zixun/bg_395242",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "摩熵咨询医药行业观察周报（2026.11.09-2026.11.15）\n摩熵咨询医药行业观察周报（2026.11.09-2026.11.15）\n*本文内容节选自摩熵咨询医药行业观察周报（2026.11.09-2026.11.15），若您对全文感兴趣，欢迎下载完整报告！\n摩熵咨询\n仿制药\n行业政策法规\n创新药/改良型新药\n32页\n免费下载\n1.1.1 总体概况根据摩熵医药数据库统计，2026.11.09-2026.11.15期间共有124个创新药/改良型新药临床申请/上市申请获国家药品监督管理局药品审评中心（CDE）承办（按受理号统计，不含补充申请）。其中国产药品受理号93个，进口药品受理号31个。本周共计81款创新药/改良型新药临床试验申请获得“默示许可”，包括化学药38款，生物药36款，中药7款。其中值得注意的有：（1）SIM0725注射液2026年11月9日，CDE官网公示：先声药业申报的SIM0725注射液获得临床试验默示许可，用于白癜风的治疗。公开资料显示，SIM0725是一种靶向白细胞介素-2受体β链（CD122）的长效拮抗型单克隆抗体，可阻断IL-2及IL-15介导的信号传导，抑制相关效应及记忆T细胞应答，并有望通过干预IL-15依赖的致病性组织驻留记忆T细胞（TRM）的存活与维持，影响与疾病持续及复发相关的自身免疫反应。（2）MWX205注射液2026年11月10日，CDE官网公示：上海民为申报的MWX205注射液获得临床试验默示许可，用于治疗血脂异常。公开资料显示，MWX205是一款创新双靶点siRNA药物，旨在通过同时抑制PCSK9和ANGPTL3两个关键靶点，为广大高脂血症及动脉粥样硬化性心血管疾病（ASCVD）患者提供更强效、更长效的降脂解决方案。（3）注射用HWK-2062026年11月13日，CDE官网公示：白鹰生物申报的注射用HWK-206获得临床试验默示许可，用于治疗实体瘤。公开资料显示，HWK-206是一款下一代ADC，采用双旁位抗体（bpAb）策略靶向SEZ6，其Fc效应功能减弱的IgG1抗体偶联了新型DNA拓扑异构酶I抑制剂CPT116。本周5款新药获批上市。2026年11月12日国家药品监督管理局发布4个监管公告：国家药品监督管理局批准北京以岭药业有限公司申报的中药1.1类创新药芪秦通痹片上市。芪秦通痹片具有祛风除湿、蠲痹通络、散寒止痛的功效，与甲氨蝶呤联合用于活动期类风湿关节炎风寒湿痹证所致的关节疼痛、关节肿胀、遇冷加重、关节活动受限等。国家药品监督管理局批准EliLilly Nederland B.V.申报的1类创新药奥氟格列隆钙片（商品名称：穆优达）上市，适用于在控制饮食和增加运动基础上，用于初始体重指数（BMI）符合以下要求的成人的长期体重管理：≥30 kg/m2（肥胖），或≥27 kg/m2至<30 kg/m2（超重）并伴有至少一种体重相关合并症（例如高血压、血脂异常、高血糖、阻塞性睡眠呼吸暂停综合征、心血管疾病等）。国家药品监督管理局批准苏州信诺维医药科技股份有限公司申报的1类创新药注射用亚胺西福（商品名称：福诺凯）上市，适应症为：医院获得性细菌性肺炎和呼吸机相关性细菌性肺炎（HABP/VABP）。该药适用于治疗18岁及以上患者中由下列对本品敏感的革兰阴性菌引起的医院获得性细菌性肺炎和呼吸机相关性细菌性肺炎：肺炎克雷伯菌、醋酸钙-鲍曼不动杆菌复合群、铜绿假单胞菌、流感嗜血杆菌、产气克雷伯菌、阴沟肠杆菌、大肠埃希菌、产酸克雷伯菌。公开资料显示，注射用亚胺西福是信诺维自主研发的全球首个针对三大碳青霉烯类耐药革兰阴性杆菌（CRO）具有广谱抗菌活性的β-内酰胺类/β-内酰胺酶抑制剂（BL/BLI）复方制剂1类新药。国家药品监督管理局通过优先审评审批程序批准北京盛迪医药有限公司申报的芮弗西拜单抗注射液（皮下注射）（商品名：艾轻达）上市，该药品可与低脂饮食和其他降脂药物合用，用于治疗成人和12岁及以上青少年的纯合子型家族性高胆固醇血症（HoFH），以降低低密度脂蛋白胆固醇（LDL-C）水平。公开资料显示，芮弗西拜单抗是一种靶向血管生成素样蛋白3（ANGPTL3）的全人源单克隆抗体。ANGPTL3是脂质代谢的关键调控蛋白，可通过抑制脂蛋白脂肪酶和内皮脂肪酶活性，削弱机体对甘油三酯（TG）和低密度脂蛋白胆固醇（LDL-C）的清除能力。芮弗西拜单抗可特异性抑制ANGPTL3活性，解除其对脂酶的通路抑制，不依赖LDL受体通路发挥降脂作用。2026年11月13日药品批准证明文件送达信息显示，国家药品监督管理局批准利奥制药申报的德戈替尼乳膏上市，用于对外用皮质类固醇（也就是常说的激素药膏）应答不充分、或不适合接受激素治疗的成人中重度慢性手部湿疹（CHE）的局部治疗。公开资料显示，德戈替尼是一款泛JAK抑制剂，能同时抑制JAK家族全部4种亚型（JAK1、JAK2、JAK3、TYK2），从而广泛抑制JAK-STAT信号通路介导的炎症反应，为慢性手部湿疹患者提供新的治疗选择。1.1.2 本周获批临床创新药/改良型新药信息速览（不含补充申请）备注：（1）此处未包括补充申请之情形；（2）此处所列创新药/改良型新药，主要是指CDE受理批准的1类、2类、5.1类以及生物制品3.1类和3.2类。（3）更多获批临床信息及研发进展详情及相关靶点全局分析等，可通过摩熵中国药品审评数据库获取并下载EXCEL表格。1.1.3 本周获批上市创新药信息速览备注：（1）此处所列新药，主要是指国家药品监督管理局(NMPA)首次批准在中国上市的药品，包括新分子实体(以及包含有新分子实体的复方）、生物药、中药和疫苗。其中，新分子实体主要是化药注册分类下的1类(境内外均未上市的创新药)、5.1类(境外上市的原研药申请在国内上市);生物药主要为NMPA首次批准的国产及进口生物药;不包括生物类似物、新适应症、新剂型。（2）更多信息如获批临床品种相关靶点、研发企业、全球上市及研发进展及相关靶点全局分析等，可通过摩熵医药数据库获取并下载EXCEL表格。同期事件：1. 2026年第46周11.09-11.15国内仿制药/生物类似物申报/审批数据分析2. 2026年第46周11.09-11.15国内医药大健康行业政策法规汇总3. 2026年第46周11.09-11.15全球创新药研发概览以上内容均来自｛ 摩熵咨询医药行业观察周报(2026.11.09-2026.11.15) ｝，如需查看或下载完整版报告，可点击！\nANGPTL3相关推荐\n相关适应症：\n冠状动脉疾病\n心肌梗死\n心血管疾病\n糖尿病肾病\n先天代谢异常类疾病\n肥胖\n恶性肿瘤\n高血压\n血栓栓塞\n糖尿病\n相关企业：\n上海舶望制药有限公司\n石药集团有限公司\n江苏恒瑞医药股份有限公司\n复旦大学\n北京福元医药股份有限公司\nArrowhead Pharmaceuticals Inc\n山东博安生物技术股份有限公司\n上海君实生物医药科技股份有限公司\nNovo Nordisk A/S\nAlnylam Pharmaceuticals Inc\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-19T15:18:55+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b3376589b6ebc635",
+    "score": 3.8,
+    "channel": "global",
+    "cluster_key": "intervention:immersive-vr",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.79,
+    "reasoning": "随机对照试验显示虚拟现实干预显著减少化疗相关恶心和呕吐，依据是具有统计比较的临床症状终点而非药物疗效数字。该结果属于支持治疗领域的非药物干预，对药物临床开发管线的直接外溢有限。",
+    "verify_todo": [
+      "核实试验注册编号及主要终点",
+      "核实恶心呕吐结局的具体量表和组间统计结果",
+      "核实随机、盲法及随访安排"
+    ],
+    "article_type": "readout",
+    "title": "Could virtual reality become a reality in cancer supportive care?",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/could-virtual-reality-become-a-reality-in-cancer-supportive-care",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "When administered before chemotherapy, immersive virtual reality is shown to significantly reduce chemotherapy-induced nausea and vomiting in a randomised, controlled trial\nImmersive virtual reality (IVR) offers a non-pharmacological , non-invasive approach to symptom management, complementing pharmacological therapy in cancer care. The goal is to create an engaging computer-generated environment through the stimulation of high-level visual and auditory cortex pathways that compete with incoming visceral emetic signals, thus diverting the patient’s attention away from these sensations and reducing chemotherapy-associated anxiety ( J Clin Question. 2026;3:e115 ; Semin Oncol Nurs. 2025;41:151908 ).\nIn a randomised trial of 210 chemotherapy-naïve patients scheduled to receive highly emetogenic cisplatin- or anthracycline-based chemotherapy, IVR added to standard anti-emetic prophylaxis reduced acute, delayed and anticipatory nausea and vomiting compared with standard care alone. As presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November), patients in the IVR arm experienced significant reductions in acute nausea (26.7% versus 48.6%; p=0.001) and vomiting (13.3% versus 33.3%; p<0.001), delayed vomiting (15.2% versus 31.4%; p=0.006) and anticipatory nausea (prior to chemotherapy cycle 2; 3.8% versus 15.2%; p=0.005) ( Abstract 141O ).\nIVR was administered in three 20-minute sessions; 2 hours and also 20 minutes before the first chemotherapy, and 2 hours before the second chemotherapy. Chemotherapy-induced nausea and vomiting was assessed by the Multinational Association of Supportive Care in Cancer (MASCC) Antiemesis Tool 24 hours after the first chemotherapy and immediately before the second chemotherapy.\n“The magnitude of the observed effect is remarkable and is comparable to the effects reported in landmark studies of anti-emetic medications. Importantly, it remains unclear whether patients received guideline-concordant anti-emetic prophylaxis , as recommended by MASCC/ESMO for highly emetogenic chemotherapy ( Support Care Cancer. 2023;32:45 ). Nevertheless, these findings suggest that IVR could become a valuable addition to supportive cancer care, particularly in outpatient chemotherapy settings,” comments Prof. Anne Letsch from the University Cancer Center Schleswig-Holstein, Kiel, Germany. In the study, IVR was associated with very few side-effects: only 3 patients experienced claustrophobia. “The technology could also be tailored to suit a patient’s personal preferences in terms of the type of virtual environment they find most relaxing, thus having an impact on the intervention outcomes,” she suggests, highlighting that chemotherapy-induced nausea and vomiting is also influenced by psychological factors , previous treatment experience and conditioned responses ( Int J Clin Oncol. 2024;29:889–898 ). According to Letsch, IVR may be of specific interest for anticipatory nausea. “Interestingly, the intervention consisted of only three short IVR sessions . However, we do not yet know the optimal timing, duration or frequency of IVR interventions. And it is unclear whether benefits will be sustained over multiple chemotherapy cycles,” she notes. “Future studies should also compare IVR with other relaxation-based interventions , such as guided imagery or music therapy, to determine whether the IVR offers a specific additional benefit.” Previous data suggest that music therapy significantly reduces anxiety, nausea and vomiting in adolescents undergoing chemotherapy ( J Pain Symptom Manage. 2024;68:e62–e74 ).\nDespite being promising, implementation of IVR in clinical practice – as for other non-pharmacological interventions that are emerging alongside traditional cancer care – will be subject to further randomised research to validate its clinical benefit and determine the optimal duration and timing of administration . “We should view these IVR data as a promising piece of the puzzle in the multi-dimensional treatment of nausea and vomiting that is particularly relevant, as symptom management remains a major challenge across the cancer care continuum, including for patients receiving newer targeted therapies,” Letsch concludes.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-17T12:30:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "13ce987f10ab3713",
+    "score": 3.7,
+    "channel": "china",
+    "cluster_key": "drug:prt-064040",
+    "flags": [
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.82,
+    "reasoning": "鼻喷制剂新增适应症获批临床，且已有Ⅰ期壁报和正在进行的Ⅱ期研究，具备连续跟踪价值。壁报摘要提供的是药代和耐受性数字，没有明确疗效统计结论；条目已非近日。",
+    "verify_todo": [
+      "核实丛集性头痛试验的试验号、分期和目标入组量",
+      "获取Ⅰ期壁报全文并核查样本量及安全性统计",
+      "核实该药在全球鼻喷CGRP领域的首创性"
+    ],
+    "article_type": "milestone",
+    "title": "倍特药业PRT-064040鼻喷雾新适应症获批临床，第三代CGRP拮抗剂拓展丛集性头痛治疗赛道",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_391442",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "随着CGRP靶向药物不断拓展头痛疾病治疗领域，给药方式创新与适应症拓展也成为行业关注的方向。据摩熵医药中国药品审评数据库显示，近日，倍特药业旗下四川普锐特药业自主研发的1类新药PRT-064040鼻喷雾再获临床进展，新增成人丛集性头痛急性治疗适应症，获批开展临床研究。图源：摩熵医药-中国药品审评数据库这款第三代高选择性CGRP受体拮抗剂采用鼻喷给药，此前已进入成人偏头痛急性治疗Ⅱ期临床。此次适应症拓展，也使其研发范围从偏头痛进一步延伸至丛集性头痛。一、第三代CGRP拮抗剂，Ⅰ期临床数据亮相PRT-064040鼻喷雾是四川普锐特药业自主研发的第三代高选择性降钙素基因相关肽（CGRP）受体拮抗剂，采用鼻喷给药方式，旨在满足偏头痛急性发作对快速起效和便捷给药的临床需求。在研发进度方面，该产品此前已于2025年3月获得CDE承办受理，拟用于成人有或无先兆偏头痛的急性治疗，目前相关Ⅱ期临床研究正在国内开展。图源：摩熵医药-中国药品审评数据库2026年8月27日，PRT-064040进一步提交了用于成人丛集性头痛急性治疗的临床申请，并于11月5日获批临床，实现了从偏头痛到丛集性头痛的适应症拓展。图源：摩熵医药-中国药品审评数据库临床数据方面，2026年6月，第68届美国头痛学会（AHS）年度科学会议在美国佛罗里达州奥兰多举行，PRT-064040鼻喷雾Ⅰ期临床研究数据入选会议壁报展示。Ⅰ期临床试验结果显示，该药在健康成人单次及多次给药中均表现出良好的安全性与耐受性，未观察到鼻用制剂常见的味觉相关不良事件。药代动力学方面，该药吸收迅速，达峰时间为15～20分钟，且在极低剂量下即可达到预期有效暴露水平，显示出较快的药物吸收特征。目前，PRT-064040鼻喷雾正在国内偏头痛患者中开展Ⅱ期临床研究，进一步评估其用于成人有或无先兆偏头痛急性治疗的有效性和安全性。二、今年6款1类新药获批临床，倍特药业创新管线提速从单款产品的适应症拓展，到多款创新药陆续进入临床阶段，倍特药业的创新药研发管线也在持续推进。近年来，倍特药业持续布局创新药、改良型新药及生物类似药等多个研发方向，逐步推进产品研发与临床转化。据摩熵医药数据库显示，今年以来，倍特药业（含子公司）已有6款1类新药获批临床。其中，BPR-30901649注射液、注射用HC-029、BPR-30160639注射液、SNH-118110软胶囊4款产品均为首次在国内获批临床。\n成都倍特药业股份有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n成都倍特药业股份有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库从研发进度来看，BPR-30901649注射液、BPR-30160639注射液及SNH-118110软胶囊已分别于今年10月、8月和6月启动Ⅰ期临床试验。随着多款创新药陆续进入临床阶段，倍特药业的创新药研发管线持续扩充。PRT-064040此次新增丛集性头痛适应症，也为其后续临床开发带来新的看点。\n【成都倍特药业股份有限公司】2025年指数排名\n当前排名\n第17名\n90.45分\n摩熵指数\n39个\n新获批上市药物\n44个\n新申报上市药物\n3个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] 企业官网/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 新一代高甘油三酯血症治疗药佩玛贝特片国产首仿获批，正大天晴和倍特药业领跑降脂新赛道2. 四川普锐特药业抢仿瑞维那新吸入溶液，国内COPD吸入剂市场迎变局3. 四川普锐特药业成国产沙美特罗替卡松吸入粉雾剂第2家过评企业，进一步挑战进口垄断\n丛集性头痛相关推荐\n相关靶点：\n5-HT receptor\nCGRP\nDRD2\nTRPV1\nSSTR2\nNOS\n相关药品：\n利多卡因\n扎维吉泮\n瑞玛奈珠单抗\n相关企业：\nHarvard Medical School\nAmneal Pharmaceuticals Inc\nSoleno Therapeutics Inc\nOrganon & Co\n四川普锐特药业有限公司\nPraxis Precision Medicines Inc\nMind Medicine Inc\nZogenix Inc\nCrossject\nTheriva Biologics Inc\nPRT-064040鼻喷雾*点击下方数字查看更多药品相关数据\n全球药物研发信息\n中国药品审评信息\n6条\n中国药品批文\n药品招投标\n全球临床试验\n中国临床试验\n2条\n一致性评价\n美国FDA批准药品\n查看更多\n倍特药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n24条\n中国药品审评信息\n914条\n中国药品批文\n536条\n药品招投标\n43045条\n全球临床试验\n9条\n中国临床试验\n135条\n一致性评价\n246条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-11T10:52:20+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "f653142b79680915",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "drug:osimertinib",
+    "flags": [
+      "positive_data",
+      "stale",
+      "single_arm",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.84,
+    "reasoning": "Ⅱ期PACE-LUNG数据可支持关于ctDNA指导治疗强化的专题报道，但目前依据是50例单臂PFS与历史数据比较的疗效数字，并非明确的统计结论。单臂、小样本及历史对照显著限制证据强度，且条目已非近日。",
+    "verify_todo": [
+      "获取LBA73完整摘要并核实PFS数值、置信区间和预设统计假设",
+      "核实历史对照来源及是否存在选择偏倚",
+      "确认正式发表或会议展示状态"
+    ],
+    "article_type": "readout",
+    "title": "Can ctDNA guide treatment intensification in EGFR mutated non-small cell lung cancer?",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/can-ctdna-guide-treatment-intensification-in-egfr-mutated-non-small-cell-lung-cancer",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "Results from the phase II PACE-LUNG trial show promise in patient selection\nAs the treatment landscape in epidermal growth factor receptor ( EGFR )-mutated advanced non-small-cell lung cancer (NSCLC) has become increasingly complex, circulating tumour (ct)DNA is consolidating as a prognostic and monitoring tool to personalise treatment. Novel data presented at ESMO Congress 2026 further reinforce the value of this approach. The phase II PACE-LUNG trial reported favourable progression-free survival (PFS) compared with historical data in 50 patients with untreated advanced/metastatic NSCLC and persisting EGFR mutations ( EGFR m) circulating tumour DNA (ctDNA) after 3 weeks of first-line osimertinib monotherapy who received chemotherapy ( LBA73 ). In the academic-led single-arm study, median PFS was 17.8 months from the start of osimertinib (95% CI, 13.1- 20.5) and 16.3 months from the start of chemotherapy (95% CI, 10.8 -18.9).\n“We know that baseline ctDNA detection of EGFR mutation is associated with disease burden, and that patients with undetectable disease have good prognosis with osimertinib monotherapy not benefiting from combination regimens,” said Dr Xiuning Lee , The University of Texas MD Anderson Cancer Center, U.S. discussing the findings from PACE-LUNG at the Rapid Oral session in Madrid. In recent years, the pivotal phase III FLAURA2 and MARIPOSA trials demonstrated that first-line combination therapies - osimertinib plus chemotherapy and amivantamab-lazertinib, respectively – lead to superior outcomes compared to osimertinib monotherapy in biomarker-unselected patients with epidermal growth factor receptor ( EGFR )-mutated advanced non-small-cell lung cancer (NSCLC) ( N Engl J Med. 2026 Jan 1;394(1):27-38 ;  N Engl J Med. 2025 Oct 30;393(17):1681-1693 ). “However, for the majority of the patients who have baseline ctDNA-detected EGFR m, intensification with either the FLAURA2 or MARIPOSA regimen offers significant additional benefit.”\nLee highlighted that findings from PACE-LUNG are comparable to those from the phase II FLAME study , which evaluated the efficacy and safety of osimertinib plus chemotherapy versus osimertinib monotherapy in locally advanced or metastatic EGFR-mutated NSCLC patients with persistent plasma ctDNA EGFRm at 3weeks of first line osimertinib monotherapy. Findings were presented earlier this year ( J Clin Oncol 2026;44, LBA101 ). Both PACE and FLAME demonstrated a PFS benefit at 3 weeks with first-line intensification. However, when comparing these data to previously reported research, “none of those numbers is numerically higher than a median PFS of 24.8 months observed in FLAURA2 in the subgroup with baseline detectable EGFR-mutant ctDNA. Therefore, I think we need to be mindful and careful, especially for patients who are eligible for upfront combination,” she added.\nWhile pending analyses of co-mutational data from PACE-LUNG may help to inform future ctDNA-based treatment strategies​, Lee shared some take-home messages : “For patients who start osimertinib monotherapy but without ctDNA clearance of EGFR m at 3-4 weeks, the addition of platinum chemotherapy is indicated. For patients who has clearance of ctDNA EGFR m, the magnitude of benefit of osimertinib plus chemotherapy is the largest. Therefore, all eligible patients should start with osimertinib plus chemotherapy because on-treatment ctDNA EGFR m clearance was not predictive of benefit with osimertinib plus chemotherapy compared to osimertinib monotherapy.”",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-10T09:45:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "225fe31cb32597e5",
+    "score": 3.5,
+    "channel": "global",
+    "cluster_key": "target:aromatase-inhibitors",
+    "flags": [
+      "stale"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.76,
+    "reasoning": "GIM3 FATA的长期头对头比较及最终分析可支持内分泌治疗策略比较，但现有摘要仅描述治疗方案间存在差异，未提供可核验的统计结论。该条目已超过14天，按时效规则显著降权。",
+    "verify_todo": [
+      "核实GIM3 FATA的最终分析发表状态、样本量和随机分组",
+      "获取各组无进展生存或无病生存的效应量、置信区间及统计检验",
+      "确认文章发布日期与实际数据首次披露日期"
+    ],
+    "article_type": "readout",
+    "title": "How to select adjuvant endocrine therapy for postmenopausal women with HR-positive early breast cancer?",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/how-to-select-adjuvant-endocrine-therapy-for-postmenopausal-women-with-hr-positive-early-breast-cancer",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "In the GIM3 FATA trial, head-to-head comparisons at 10 years reported moderate differences between treatment schedules and aromatase inhibitors\nAromatase inhibitors (AIs), used either upfront or sequentially after 2-3 years of tamoxifen, are the backbone treatment for postmenopausal women HR-positive early breast cancer as they offer lower risk of recurrence in compared with tamoxifen alone ( Ann Oncol. 2024 Feb;35(2):159-182 ). Whether the three AIs currently approved in this setting - anastrozole, exemestane and letrozole – are interchangeable and which is the optimal schedule for each patient have been unaddressed issues for long, but final analysis of the large, investigator-initiated GIM3 FATA trial provide further guidance to oncologists.\nThe study, which was presented at the ESMO Congress 2026 , explored treatment with AIs in 3,697 postmenopausal patients ( Abstract 544RO ). A previous analysis, with a median follow-up of 60 months, indicated that 5 years of AI treatment (‘upfront’ group) was not superior to 2 years of tamoxifen followed by 3 years of AI (‘switch’ group) and that none of the 3 AIs evaluated (anastrozole, exemestane and letrozole) showed superior efficacy to the others ( Lancet Oncol. 2018;19:474–485 ). At a median follow-up of 88.9 months, the latest analysis reported no statistically significant difference for the upfront versus switch schedule for disease-free survival (DFS; hazard ratio [HR] 0.95; 95% confidence interval [CI] 0.82–1.09) or OS (HR 0.88; 95% CI 0.74–1.06).\n“Long-term follow-up in so many patients is an extraordinary effort, particularly for an academically-led trial . The longer follow-up suggests very moderate differences between therapies and schedules that can be aligned with the patient’s clinical situation,” observes Prof. Peter Dubsky from Breast Cancer Center Central Switzerland, and University of Lucerne, Switzerland.\nHead-to-head comparisons at 10 years suggested that exemestane was associated with a significantly worse DFS than anastrozole (74.2% versus 79.1%, respectively; p=0.028). No differences were observed between treatments in 10-year OS. Some variation in toxicity occurred; a greater frequency of musculoskeletal events was reported with the upfront than the switch schedule, and hypercholesterolaemia occurred more frequently with anastrozole and letrozole than with exemestane.\n“Study findings suggests that tamoxifen would be preferable to AI in patients with unclear menopausal or premenopausal status,” notes Dubsky. “The data of poorer DFS with exemestane than anastrozole requires follow-up, although this has not been observed in other studies to date”. For instance, this observation was not reported in the 5-year outcomes from the MA.27 study ( J Clin Oncol. 2013;31:1398–1404 ). “It is important to have these long-term data as patients with HR-positive disease can develop late metastasis, but we should be mindful that trial participants were treated before the introduction of CDK4/6 inhibitors in clinical practice, so they would be treated differently today,” he concludes.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-03T09:06:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "8e22165a4dc329e0",
+    "score": 3.4,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.55,
+    "reasoning": "这是ESMO重点研究的盘点入口，现有内容仅展示主题和相关药物列表，未提供具体试验数据或统计结论。可作为同主题横向综述的补充入口，但自身深度报道价值有限。",
+    "verify_todo": [
+      "获取完整盘点正文",
+      "核对所列研究和关键终点",
+      "与另一篇ESMO盘点条目合并去重"
+    ],
+    "article_type": "landscape",
+    "title": "2026 ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据",
+    "url": "https://www.pharnexcloud.com/zixun/sd_393819",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据\n2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据\n*本文内容节选自2026ESMO会议重点研究盘点——重塑肿瘤药物研发的临床证据，若您对全文感兴趣，欢迎下载完整报告！\n摩熵咨询\nESMO 2026\n重点临床研究\n肿瘤研发启示\n21页\n免费下载\nEGFR相关推荐\n相关适应症：\n干燥综合征\n淋巴瘤\n丙型肝炎\n乳腺癌\n肿瘤\n溃疡性结肠炎\n鼻咽癌\n白血病\n多发性硬化\n相关药品：\n埃万妥单抗\n多柔比星\n尼妥珠单抗\n帕妥尤单抗\n帕妥珠单抗\n曲妥珠单抗\n西妥昔单抗\n紫杉醇\n美凡厄替尼\n吉非替尼\n相关企业：\n吉林大学第一医院\n北京大学\n南京传奇生物科技有限公司\n百济神州（北京）生物科技有限公司\nGSK PLC\n复旦大学\n北京大学肿瘤医院\n常州恒邦药业有限公司\n清华大学\n山东绿叶制药有限公司\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-16T18:15:06+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "2fce59ec83b4c4dc",
+    "score": 3.4,
+    "channel": "global",
+    "cluster_key": "drug:bimekizumab",
+    "flags": [
+      "stale"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.55,
+    "reasoning": "标题提示包含Bimekizumab银屑病关节炎数据，可作为候选读出线索，但RSS无摘要，尚无法判断是否达到主要终点或仅属疗效数字。条目已非近日。",
+    "verify_todo": [
+      "读取全文并提取所涉试验名称、分期、样本量及终点",
+      "核实数据是否为会议报告以及是否包含统计检验"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[ACT Brief: China’s Startup Timelines, AI-Drafted Clinical Study Reports, and Bimzelx Psoriatic Arthritis Data]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/china-startup-timelines-ai-drafted-clinical-study-reports-bimzelx-psoriatic-arthritis-data",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-10T11:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "a95265915a0cb5bd",
+    "score": 3.2,
+    "channel": "global",
+    "cluster_key": "vaccine:menb",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.38,
+    "reasoning": "条目来自NEJM，但现有摘要仅显示对应文章题名和出处，没有样本量、终点、效应量或统计结论。无法据此判断临床获益，需获取全文或通讯正文后评分。",
+    "verify_todo": [
+      "获取文章正文及研究设计",
+      "核实主要终点、样本量和统计结果",
+      "确认该文是否包含新数据还是讨论既有研究"
+    ],
+    "article_type": "readout",
+    "title": "Meningococcal B Vaccine to Prevent Gonorrhea",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2611609?af=R&rss=currentIssue",
+    "sources": [
+      "nejm"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "New England Journal of Medicine, Volume 395, Issue 20, Page 2075-2076, November 19, 2026.",
+    "lang": "en",
+    "published": "2026-11-18T10:00:01+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "8ea8928bacb740a9",
+    "score": 3.2,
+    "channel": "china",
+    "cluster_key": "drug:placental-derived-stem-cells",
+    "flags": [
+      "positive_data",
+      "single_arm",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.65,
+    "reasoning": "胎盘来源干细胞治疗糖尿病足具有较高未满足需求，10例创面闭合结果值得核实原始研究。当前仅有全部患者闭合这一疗效数字，不能等同于达到预设主要终点，且小样本单臂设计限制可信度；发布日期未知。",
+    "verify_todo": [
+      "核实论文或会议来源、试验注册号及细胞制剂",
+      "获取主要终点定义、创面闭合持续时间、随访和不良反应数据",
+      "确认是否存在随机对照及长期随访"
+    ],
+    "article_type": "readout",
+    "title": "10例患者全部实现创面闭合！胎盘来源干细胞治疗糖尿病足取得积极临床进展",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396622",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9aca27262cec9c36",
+    "score": 3.1,
+    "channel": "global",
+    "cluster_key": "drug:pimjetmi",
+    "flags": [
+      "met",
+      "stale"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.39,
+    "reasoning": "简报标题提及Pimjetmi的肿瘤适应症获批，属于监管结果，但摘要为空，无法核查底层试验的统计结论。内容同时涉及临床试验运营，且发布时间已超过7天。",
+    "verify_todo": [
+      "核实Pimjetmi的通用名、申办方和监管批准文件",
+      "获取支持性试验的主要终点和统计结果",
+      "核实该资产是否属于中国或全球栏目"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[ACT Brief: Zip Code Trial Access, Smaller Biotech APAC Perceptions, and Pimjetmi Tumor Approval]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/ip-code-trial-access-smaller-biotech-apac-perceptions-pimjetmi-tumor-approval",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-13T11:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "90d62ebf90cea1ff",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "target:cns-tumor",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.64,
+    "reasoning": "主题涉及脑肿瘤治疗和长期生存，但正文缺失，无法判断是否包含具体试验、统计结论或仅属技术盘点，当前不具备深挖条件。",
+    "verify_todo": [
+      "补充正文并识别六项技术的具体药物、试验阶段和注册号",
+      "确认是否包含正式统计结果或仅为会议摘要",
+      "核实长期生存表述对应的数据来源"
+    ],
+    "article_type": "landscape",
+    "title": "破局脑瘤绝症宿命！2026六大前沿新技术重塑脑肿瘤长生存新格局",
+    "url": "https://bydrug.pharmcube.com/news/detail/f692f082852c66a8646ab1dedd02a4c9",
+    "sources": [
+      "pharmcube"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "ed39f923c381f24f",
+    "score": 3.0,
+    "channel": "global",
+    "cluster_key": "intervention:llm-assisted-care",
+    "flags": [
+      "not_clinical",
+      "failed",
+      "small_n",
+      "stale"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "statistical",
+    "confidence": 0.84,
+    "reasoning": "随机ALLIANCE中期分析显示LLM辅助虽增加不良事件记录，但未改善毒性管理或患者生活质量，依据是明确的临床效用结论。该研究仅56例、关注AI诊疗流程而非药物开发，且发布时间已超过7天。",
+    "verify_todo": [
+      "核实中期分析的预设终点和统计方法",
+      "核实不良事件记录增加是否源于评估流程变化",
+      "获取完整试验样本量和后续完成时间"
+    ],
+    "article_type": "readout",
+    "title": "Study shows AI-assisted chemotherapy toxicity assessment is feasible but its clinical value remains uncertain",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/study-shows-ai-assisted-chemotherapy-toxicity-assessment-is-feasible-but-its-clinical-value-remains-uncertain",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "The randomised ALLIANCE trial found that clinician use of ChatGPT Plus was associated with more chemotherapy-related adverse events being recorded, however did not improve toxicity management or patients’ quality of life.\nAccurate assessment of cancer treatment-toxicities is paramount for patient wellbeing, and large language models (LLMs) may help oncologists document them. However, the use of artificial intelligence-based systems does not necessarily turn into better patient outcomes, according to findings from an interim analysis of the single-centre, randomised ALLIANCE trial , presented at the ESMO Congress 2026 .\nA total of 56 patients with breast or colorectal cancer treated with chemotherapy were randomised to either receive standard care or LLM-assisted care. In the intervention arm, five physicians could use ChatGPT Plus during consultations to support the identification and assessment of adverse events. All AI-generated recommendations were reviewed by clinicians, who retained responsibility for treatment decisions. Patients in the LLM-assisted arm had a higher mean number of recorded toxicities than those receiving standard care (5.4 versus 2.8; p=0.006). However, this difference did not translate into significant improvements in chemotherapy management nor a benefit in terms of quality of life (QoL). Dose reductions occurred in 43% of patients in the intervention group, compared with 50% in the control group.\nCommenting on the results at the Proferred paper session, Dr Vanja Miskovic , Fondazione IRCCS Istituto Nazionale dei Tumori and Department of Electronics, Milan, Italy, noted: “Do more recorded toxicity mean better toxicity management? Not necessarily, it means that maybe clinicians (in the trial) just had an increase in the documentation. How robust is this unfavorable QoL estimate? Since a small number of patients had an assessment of end of the treatment, it might be also possibility of the bias estimate in this case.”\nA possible caveat of the study was the suboptimal uptake of LLMs by clinicians, which was used in only 47% of the monthly reports in the LLN-assisted care arm.  Also, although LLM output was generally considered appropriate when used under physician review, advice provided by the tool was partially adopted, thus failing to prove its potential value in guiding toxicity management . “These observations open a lot of questions about what drives the selective use and adoption of AI devices among oncology professionals,” Miskovic added. “Were the clinicians trained to actually use this kind of tools? And based on what they decided the tool was needed or not?”\nAlthough the study did not demonstrate a positive change in global health status of patients, it provides some basis to further research on how to integrate LLM-assisted assessment in clinical routine workflow .\n“I would really like to compliment the prospective and randomised design of this study. Even though the number of patients is small, (investigators) have really tried to show how these tools that are already being used in our clinical workflows,” she stated, stressing the need for solid evidence in the field. Despite a growing body of research in LLM use for clinical evaluations, prospective randomised trials are scarce. In a recent systematic review identifying 4,609 peer-reviewed studies on this topic, 1,048 studies used real-world patient data and of these only 19 were prospective randomised trials ( Nat Med. 2026 Mar;32(3):1152-1159 ).\n“The next challenge should be to define effective intervention and establish meaningful patient benefit. Building on top of these finding, there is a need to standardise the AI intervention , assess education of clinicians in using LLMs , measure meaningful outcomes , validate the clinical impact , compare it with standard of care, and assess harms in depth ,” she concluded. “I believe that the next breakthrough of oncology and AI must be clinical, and not just technological like we have seen until now.”",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-12T15:01:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b5b0beec5d2552d5",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:sim0725",
+    "flags": [
+      "stale",
+      "preclinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.78,
+    "reasoning": "获批临床及CD122靶点竞争格局构成早期研发节点，适合跟踪后续首次人体研究。现有依据主要是临床前疗效数字，并非人体统计结论；条目已非近日。",
+    "verify_todo": [
+      "核实获批临床的具体试验分期、适应症和注册编号",
+      "核实CD122双阻断机制及全球同类临床阶段",
+      "确认新闻发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "先声药业1类新药SIM0725注射液获批临床！CD122单抗切入白癜风赛道，有望实现长期控制减少复发",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_391984",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "近日（11月9日），据CDE官网及先声药业企业官方公告公示，其自主研发的1类创新药SIM0725注射液获得临床试验默示许可，拟用于白癜风治疗。图源：先声药业企业公告SIM0725是一款靶向IL-2Rβ（又称CD122）的单克隆抗体，可同时阻断IL-2和IL-15信号通路，通过调节多种与疾病发生、复发相关的免疫细胞，为白癜风治疗提供新的研发方向。一、靶向CD122双重阻断，潜在实现每12周给药一次白癜风是一种慢性自身免疫性疾病，主要表现为皮肤出现持续性脱色斑，其发病与黑素细胞特异性CD8+ T细胞介导的免疫破坏有关。值得关注的是，组织驻留记忆T细胞（TRM）被认为与白癜风治疗后的复发有关。这类细胞的维持依赖白细胞介素-15（IL-15）信号通路，因此，阻断IL-15信号成为干预疾病复发的潜在研究方向。SIM0725的特点在于，其靶向CD122，即IL-2受体β链，可同时阻断IL-2和IL-15信号传导。根据先声药业披露的信息，该药能够抑制TRM、炎症性CD8+ T细胞及致病性NK细胞，相较于单独阻断IL-15，有望实现更广泛的组织炎症控制。图源：摩熵医药-全球药物研发数据库临床前研究显示，SIM0725具有较长的半衰期和持久的药效学效应，并具备每12周一次皮下注射的潜在给药优势。此外，该药在多种人源化疾病动物模型中展现出良好的体内疗效，研究中未观察到不良反应。需要注意的是，目前上述数据均来自临床前研究，SIM0725的实际疗效、安全性及给药间隔，仍有待后续临床试验验证。二、全球尚无IL-2Rβ单抗上市，先声药业加入研发竞争根据摩熵医药数据库信息，全球目前尚无IL-2Rβ单抗获批上市，进入获批临床及以上阶段的IL-2Rβ靶向药仅有5款，相关研发仍处于早期阶段。图源：摩熵医药-全球药物研发数据库从研发格局来看，IL-2Rβ靶点已受到多家企业关注，白癜风也成为其探索的适应症之一。随着SIM0725获批临床，先声药业正式加入这一靶点的研发竞争。据摩熵医药数据库显示，截至目前，先声药业（含子公司）已有超10款1类新药进入获批临床及以上研发阶段。今年以来，公司另一款1类新药SIM-0532片也获批临床，目前已进入Ⅰ期临床阶段。\n先声药业集团有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n先声药业集团有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n图源：摩熵医药-中国药品审评数据库对于SIM0725而言，如何将临床前研究中的双重阻断机制和潜在长效给药优势转化为临床获益，将是后续研发值得关注的重点。\n【江苏先声药业有限公司】2025年指数排名\n当前排名\n第26名\n88.26分\n摩熵指数\n3个\n新获批上市药物\n5个\n新申报上市药物\n0个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] 企业公告/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 先声药业CD3/BCMA/GPRC5D三抗SIM0500临床数据亮相ASH 2026，安全性与疗效双优2. 先声药业拿下凌科药业泽普昔替尼皮肤科独家商业化权益，国产JAK1抑制剂特应性皮炎NDA获受理3. 先声药业合作品种玛氘诺沙韦上市失利，国产流感创新药竞争格局再迎变局4. 世界白癜风日｜全球4款新药上市，康哲药业国内首款JAK抑制剂芦可替尼乳膏爆卖\n白癜风相关推荐\n相关靶点：\nSYK\nPD-1\nTYK2\nIL-12\nIL-23\nGPX4\nIL-2\nIL-15\nIL-2R\nWNT\n相关药品：\n芦可替尼\n乌帕替尼\n罗氟司特\n本维莫德\n阿巴西普\nrosnilimab\n硫酸艾玛昔替尼\n相关企业：\n江苏恒瑞医药股份有限公司\n华东医药股份有限公司\n信达生物制药（苏州）有限公司\n杭州中美华东制药有限公司\n重庆智翔金泰生物制药股份有限公司\n珠海联邦制药股份有限公司\n安进\nEquillium Inc\nRigel Pharmaceuticals Inc\n中国药科大学\nSIM0725*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n1条\n中国药品批文\n药品招投标\n全球临床试验\n中国临床试验\n一致性评价\n美国FDA批准药品\n查看更多\n先声药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n115条\n中国药品审评信息\n533条\n中国药品批文\n130条\n药品招投标\n7395条\n全球临床试验\n84条\n中国临床试验\n122条\n一致性评价\n32条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-12T09:38:09+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "ddb9f43a46467ab9",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:格菲妥单抗",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.52,
+    "reasoning": "标题提供早期给药后缓解比例这一疗效数字，可作为中国数据读出线索，但不能视为达到主要终点的统计结论。缺少正文、样本量、试验设计及统计检验，发布日期未知。",
+    "verify_todo": [
+      "核实药物名称、靶点及试验注册信息",
+      "核实样本量、对照设计、缓解定义和随访时间",
+      "确认该研究是否为加速给药桥接探索及是否有安全性结论"
+    ],
+    "article_type": "readout",
+    "title": "第12天约80%患者获得缓解，解析格菲妥单抗加速给药用于紧急桥接的中国数据",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396619",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "3564d578fdd4fc97",
+    "score": 3.0,
+    "channel": "china",
+    "cluster_key": "drug:pl-3301",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.86,
+    "reasoning": "Ⅱ期研究完成首例入组是明确启动节点，但尚无疗效、安全性或终点数据可评估。条目未提供试验号、目标样本量及发布日期，报道价值主要在于后续读出追踪。",
+    "verify_todo": [
+      "核实试验注册号、目标样本量、适应症及主要终点",
+      "确认首例入组日期和预计完成时间",
+      "确认报道发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "普莱医药抗菌肽PL-3301口腔凝胶II期临床研究完成首例入组",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396624",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "d67baf39493f1e4a",
+    "score": 3.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.61,
+    "reasoning": "文章属于专家点评，讨论长期缓解特征与真实世界验证，但标题未指向明确的试验、效应量或统计结论。若要形成深度报道，需定位其依据的具体研究和数据。",
+    "verify_todo": [
+      "核实点评所依据的具体试验及真实世界队列",
+      "提取长期缓解定义、样本量和风险分层结果",
+      "确认发布日期"
+    ],
+    "article_type": "landscape",
+    "title": "瞭望ESMO·大咖点评｜赵兵教授：从长期获益特征到真实世界验证——探讨HR+/HER2-晚期乳腺癌一线治疗长期缓解特征",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/zjgd_396816",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "45481a6b73061f1e",
+    "score": 2.9,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.55,
+    "reasoning": "一款报产与一款新适应症获批构成双重监管进展，值得识别具体资产后开展跟踪。标题高度概括，未披露药物、适应症、试验设计或统计结论，且发布日期未知。",
+    "verify_todo": [
+      "核实两款恒瑞药物的名称、适应症和监管时间点",
+      "分别核查报产和获批所依据的关键临床试验",
+      "确认发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "恒瑞双线出击：一款报产，一款获批新适应症",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396731",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "a34a5b88ecfc1127",
+    "score": 2.8,
+    "channel": "china",
+    "cluster_key": "drug:qls7402",
+    "flags": [
+      "small_n"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.78,
+    "reasoning": "仅处于Ⅰ期启动和计划入组节点，属于中国原研减重管线的早期进展；目前既无统计结论，也无疗效数据，且计划样本量仅40例。",
+    "verify_todo": [
+      "核实试验注册号、申办方、主要终点和实际入组状态",
+      "核实QLS7402的机制及与现有减重药竞争差异",
+      "确认计划完成时间及是否已有剂量爬坡数据"
+    ],
+    "article_type": "milestone",
+    "title": "齐鲁制药：INHBE siRNA启动一期临床",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396836",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "该一期临床计划入组40例肥胖患者，患者接受单次给药不同剂量QLS7402的治疗，预计2027年10月初步完成。 齐鲁制药围绕减重领域进行了系统性布局，司美格鲁肽已经申报上市，口服版和吸入版也在推进临床中。 迭代管线中，除了INHBE siRNA，还有用于减重和MASH的多靶点新药QLS2406。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T12:02:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "adfda93349458165",
+    "score": 2.8,
+    "channel": "china",
+    "cluster_key": "drug:motherwort-injection",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.92,
+    "reasoning": "这是计划纳入2万例患者的前瞻性观察性研究方案，规模较大但尚无任何安全性或有效性结果，只构成研究启动节点。",
+    "verify_todo": [
+      "核实研究注册号、伦理批准、启动日期和实际入组进度",
+      "确认主要安全性终点及有效性评价方法",
+      "确认是否存在数据监查、混杂校正和主动对照"
+    ],
+    "article_type": "milestone",
+    "title": "益母草注射液用于止血及调经的安全性和有效性：一项前瞻性、观察性、多中心真实世界研究的方案",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/qy_396529",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "研究背景 ：益母草注射液（Motherwort injection, MI）是广泛应用于妇产科止血、调经的中药注射剂。 研究目的 ：本研究旨在评估益母草注射液在常规临床实践中的安全性与有效性，生成真实世界证据，支持其在获批妇产科适应症女性患者中的合理用药。 研究方法 ：本研究为前瞻性、观察性、多中心真实世界登记研究，计划纳入中国常规临床中因获批妇产科适应症接受益母草注射液治疗的 20000 例患者。\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-20T21:20:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c1060b603d1ddb0c",
+    "score": 2.8,
+    "channel": "global",
+    "cluster_key": "model:dantes",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.79,
+    "reasoning": "研究属于回顾性AI预后模型开发与验证，核心结果是预测性能而非治疗干预获益。虽涉及临床数据和会议摘要，但不构成药物临床开发读出。",
+    "verify_todo": [
+      "获取摘要中的验证集设计、样本量和性能指标",
+      "核实是否存在外部验证及数据泄漏控制"
+    ],
+    "article_type": "readout",
+    "title": "A multimodal AI model shows promise in predicting survival in non-small cell lung cancer",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/a-multimodal-ai-model-shows-promise-in-predicting-survival-in-non-small-cell-lung-cancer",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "The DANTES framework suggests that adding PET imaging to clinical data can improve the prediction of progression-free survival in patients with advanced disease treated with immunotherapy\nIn a study presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November), researchers showed that a novel multimodal artificial intelligence (AI) model improved the prediction of progression-free survival (PFS) over clinical data alone in patients with advanced non-small cell lung cancer (NSCLC) treated with immunotherapy or chemo-immunotherapy ( Abstract 332RO ). The DANTES framework – a model that combines computed tomography (CT) and positron emission tomography (PET) images with clinical data – was trained on 661 patients from the APOLLO11 consortium , an Italian nationwide lung cancer network designed to build a population-based, long-term, real-world data repository and a multi-level biobank, which ultimately aims to build a framework for clinical data-driven precision oncology ( NPJ Precis Oncol. 2026;10:96 ).\nFor each patient in the training phase,128 chest CT slices, 16 PET maximum intensity projection views taken at different angles, and 19 classical clinical covariates were used. DANTES was then tested on a further 136 patients from the same population and validated in an ‘external’ cohort of 130 patients. “What is most interesting is that in the external validation cohort – the stress test of the model – adding PET scan image data improved the concordance (C)-index for PFS from 0.56 to 0.72, which is encouraging,” notes Dr Julien Vibert from the Gustave Roussy Cancer Campus, Villejuif, France.\nThe framework’s largest gains were in predicting PFS : based on the combination of PET scan and clinical data, the 6-month PFS area under the curve was 0.83 versus 0.57 with clinical data only (Benjamini–Hochberg-adjusted one-sided p=0.0015 for both).\nWhile the study’s methodology is rigorous, Vibert cautions that, “The study included only patients in Italy with NSCLC who received immunotherapy-based treatment.” This is a hypothesis-generating study that requires validation in other settings and populations, however, “While the results are not sufficient on their own, they point to the addition of PET data providing a better prognostic indicator of survival than relying solely on clinical data.”\nDeveloping an AI model capable of providing a predictive score for outcomes is the ultimate goal, thinks Vibert. “True clinical impact will depend on whether patient-specific model scores can reliably guide treatment escalation or de-escalation to improve outcomes.” He thinks that the DANTES model, as it is a multimodal framework based on flexible architecture, could potentially be adapted in the future – perhaps with the addition of genomic information – to achieve such a goal.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-16T14:15:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "49fd5962134a70a5",
+    "score": 2.7,
+    "channel": "china",
+    "cluster_key": "device:gastric-bypass-stent",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.43,
+    "reasoning": "内镜下胃转流支架用于术后复胖具有明确临床探索价值，但标题未给出研究设计、疗效数字或统计结论。缺少正文且发布日期未知，需先核实是否为前瞻性临床研究。",
+    "verify_todo": [
+      "核实研究机构、试验设计、样本量及主要终点",
+      "获取体重变化、代谢改善和安全性数据",
+      "确认发布日期"
+    ],
+    "article_type": "readout",
+    "title": "临床动态｜内镜下胃转流支架临床研究：为袖胃术后复胖提供新的内镜治疗探索方向",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396620",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "a0dd7d9ab8d37a87",
+    "score": 2.7,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.58,
+    "reasoning": "复方止吐药新增适应症获批是监管里程碑，但标题未提供组成、适应症范围或支撑试验数据，尚不足以判断临床增量。发布日期未知。",
+    "verify_todo": [
+      "核实复方药物组成及新增适应症",
+      "核实批准日期和监管机构",
+      "获取支撑新增适应症的关键试验及主要终点"
+    ],
+    "article_type": "milestone",
+    "title": "恒瑞复方止吐药在国内获批新适应症",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396729",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "37a0cb645a0502d2",
+    "score": 2.6,
+    "channel": "global",
+    "cluster_key": "target:glp-1r",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.91,
+    "reasoning": "内容主要研究医生处方偏好和决策因素，未报告药物疗效、安全性或预设终点结果，不能作为临床数据读出深度报道。",
+    "verify_todo": [
+      "核实样本量、研究对象和离散选择实验设计",
+      "确认是否包含任何可解释的处方或临床获益结果"
+    ],
+    "article_type": "landscape",
+    "title": "【ObesityWeek® 2026 摘要速递】口服减重药物如何选？医患偏好双视角下的处方决策与临床获益考量",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396838",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "背景： 近期口服胰高血糖素样肽 -1 受体激动剂（ GLP-1 RA ）类肥胖症治疗药物的问世，为体重管理提供了全新的治疗选择。 本研究旨在评估影响医疗卫生专业人士（ HCP ）进行肥胖症管理决策与药物处方选择的关键因素。 方法： 2026 年 2 月 13 日至 3 月 11 日，美国负责管理成年超重或肥胖症患者的 HCP 完成了一项基于网络的离散选择实验（ discrete-choice experiment ， DCE ）。\nGLP-1相关推荐\n相关适应症：\n糖尿病\n肥胖\n帕金森病\n心脏衰竭\n烧伤\n2 型糖尿病\n代谢紊乱\n非酒精性脂肪性肝炎\n肌萎缩侧索硬化\n1 型糖尿病\n相关药品：\n艾塞那肽\n相关企业：\n江苏恒瑞医药股份有限公司\n中国生物制药有限公司\n山东博安生物技术股份有限公司\n上海复星医药（集团）股份有限公司\n乐普（北京）医疗器械股份有限公司\nTwist Bioscience Corp\nNational Institutes of Health\n中国药科大学\nAscendis Pharma A/S\nFractyl Health Inc\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T09:00:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "1156abf48aa5a901",
+    "score": 2.6,
+    "channel": "global",
+    "cluster_key": "target:xenotransplantation",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.91,
+    "reasoning": "文章主要讨论异种移植桥接治疗的定义与伦理评价，虽涉及个案进展，但未提供新的临床试验统计结论或系统数据。",
+    "verify_todo": [
+      "核实所评论病例的原始报告、样本量和移植结局",
+      "区分个案事实与通讯作者提出的评价框架"
+    ],
+    "article_type": "landscape",
+    "title": "[Correspondence] Defining success in kidney xenotransplantation",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01999-9/fulltext?rss=yes",
+    "sources": [
+      "lancet",
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Leonardo V Riella and colleagues report the first successful transition from porcine kidney xenotransplantation to allotransplantation.1 The possibility of this bridge raises important questions about its purpose and how its success should be defined—traditionally by graft survival.2 Xenotransplantation could serve different purposes, including reducing time on dialysis for patients waiting for an allograft, decreasing waiting-list mortality, or providing an alternative for patients unlikely to receive an allograft.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "6e467f00d5988f69",
+    "score": 2.6,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.72,
+    "reasoning": "标题包含卒中预防审批信息，但RSS未提供药物、适应症、试验设计或疗效统计，只能视为监管动态线索而非可深读的临床数据。条目已非近日。",
+    "verify_todo": [
+      "核实Sunharbo相关药物、适应症及批准机构",
+      "核实审批所依据的关键试验和主要终点结论"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[ACT Brief: APAC Trial Advantages, Learning From Setbacks, and Sunharbo Stroke Prevention Approval]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/apac-trial-advantages-learning-setbacks-sunharbo-stroke-prevention-approval",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-11T11:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c11ce494f26bba18",
+    "score": 2.4,
+    "channel": "global",
+    "cluster_key": "drug:remibrutinib",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.95,
+    "reasoning": "该文属于评论性观点，主要讨论BTK抑制剂在复发型多发性硬化中的定位，没有提供新的终点统计结论或可核验疗效数字。",
+    "verify_todo": [
+      "核实评论所依据的remibrutinib试验名称、阶段和已发表结果"
+    ],
+    "article_type": "landscape",
+    "title": "[Comment] Remibrutinib: a high-efficacy disease-modifying drug for relapsing multiple sclerosis?",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02240-3/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Bruton's tyrosine kinase (BTK) inhibitors directly modulate the functions of B lymphocytes and myeloid cells (notably macrophages and microglia) and thus target both the adaptive and innate mechanisms that contribute to the immunopathology of multiple sclerosis on either side of the blood–brain barrier. Treatment with BTK inhibitors capable of crossing the CNS could slow the progression of the disease by targeting immune cells on both sides of the blood–brain barrier.1 Although the results of clinical trials have been published for at least three BTK inhibitors (evobrutinib,2 tolebrutinib,3 and fenebrutinib4), the actual impact of this newer class of drugs on the treatment strategy for relapsing and progressive multiple sclerosis remains a subject of debate.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "86ac364cfd5b292a",
+    "score": 2.4,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.55,
+    "reasoning": "主题是AI辅助临床试验预筛的参与者体验，摘要为空，没有药物、疾病干预或疗效终点。属于临床运营和受试者流程研究，不符合本雷达的核心读出范围。",
+    "verify_todo": [
+      "核实研究设计和样本量",
+      "确认是否包含可量化的试验筛选效率终点"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[Participant Experience with AI-Assisted and Web-Based Clinical Trial Pre-Screening]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/participant-experience-ai-assisted-web-based-clinical-trial-pre-screening",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-16T19:09:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "aa6a93c088a7f6f1",
+    "score": 2.4,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.62,
+    "reasoning": "上市申请获受理及生产基地获批构成商业化监管节点，可作为研发进度跟踪线索。标题未披露药物、适应症、关键试验结果或申请审评状态，发布日期未知。",
+    "verify_todo": [
+      "核实候选药物名称、适应症及NDA受理日期",
+      "核实申报所依据的注册试验及主要终点结论",
+      "区分生产基地获批与产品获批上市",
+      "确认发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "生产基地获批，上市申请获受理！明济生物新药商业化取得重大进展",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396728",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "86d0f1e6d2fe8abb",
+    "score": 2.1,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "single_arm",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.92,
+    "reasoning": "该内容仅为单例康复病例报告，功能量表改善属于个案疗效数字，缺少对照和统计推断，临床证据等级较低。",
+    "verify_todo": [
+      "核实病例随访时间、干预措施及是否存在同期对照",
+      "核实各量表评分变化及可能的其他混杂因素"
+    ],
+    "article_type": "readout",
+    "title": "1例肾移植术后脑梗死致偏瘫患者的康复治疗",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/qy_396823",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "摘要 本文报道1例46岁男性肾移植术后并发脑梗死致右侧偏瘫及视野缺损的病例。 患者术后第2天突发脑梗死，经前期常规康复治疗后进入功能平台期，神经功能及运动能力改善停滞，生活自理能力受一定影响。 患者经4周系统干预及出院后4周随访，神经功能、运动能力及生活自理能力显著改善，Brunnstrom分期、Fugl-Meyer上肢评分、Berg平衡量表评分、10 m步行速度及Barthel指数均大幅提升，视野缺损范围缩小并建立有效视觉代偿策略。\n偏瘫相关推荐\n相关靶点：\nCALCR\nSIRT1\n相关药品：\n重组A型肉毒毒素\n羟丁酸钠\n相关企业：\nXenon Pharmaceuticals Inc\n重庆誉颜制药有限公司\n<END>\n*版权声明：本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T10:00:00+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b98379fbb4c77a51",
+    "score": 2.1,
+    "channel": "china",
+    "cluster_key": "target:ai-drug-discovery",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.78,
+    "reasoning": "内容聚焦AI制药和资本投入，但正文缺失，没有具体候选药物的临床试验进展、疗效数字或统计结论。",
+    "verify_todo": [
+      "补充正文并确认是否涉及进入临床阶段的AI发现项目",
+      "识别相关候选物、靶点和实际试验注册信息"
+    ],
+    "article_type": "landscape",
+    "title": "50亿美元之后，AI制药的“临床前夜”",
+    "url": "https://bydrug.pharmcube.com/news/detail/da44f1971b8bf5606d7adcf54eccd958",
+    "sources": [
+      "pharmcube"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "33604c5fc345d336",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.7,
+    "reasoning": "内容聚焦肿瘤临床试验可及性和AI工具，没有特定药物、试验终点或结果读出。属于临床运营讨论而非临床数据或开发进展。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[Can AI Fix Clinical Trial Access in Oncology? ]]>",
+    "url": "https://www.targetedonc.com/view/can-ai-fix-clinical-trial-access-in-oncology",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-19T21:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "c9a7b86f2dfe8745",
+    "score": 2.0,
+    "channel": "global",
+    "cluster_key": "target:multi-omics-ai",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.94,
+    "reasoning": "内容是肿瘤多组学AI模型构建方法的综述，没有给出单一药物、临床试验或可验证的结果读出。发布日期未知。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "算法很漂亮，临床用不上？Genes 给多组学AI肿瘤模型开了一张“务实体检单”：目标、数据、模型，缺一不可",
+    "url": "http://news.bioon.com/article/327596208829.html",
+    "sources": [
+      "bioon_tumor_immunotherapy"
+    ],
+    "content": "算法很漂亮，临床用不上？Genes 给多组学AI肿瘤模型开了一张“务实体检单”：目标、数据、模型，缺一不可\n预测模型\n肿瘤治疗\nAI\n多组学\n来源：生物谷原创 2026-11-04 10:17\n这篇综述没有许诺某种算法包治百病，而是把模型构建还原为一项工程：先定义预期用途与终点，再确认训练数据能否覆盖应用域，最后选择与知识储备相匹配的函数形式。\n肿瘤治疗正经历一场从\"一刀切\"到\"量体裁衣\"的转变，靶向治疗与免疫治疗延长部分患者生存期，疗效却因患者、瘤种与分期而异。肿瘤异质性让同一诊断下的患者走向截然不同的结局。与此同时，新一代测序与液体活检持续产出海量分子信息，影像学方法仍在补充结构层面的线索。信息越多，整合越难。多组学数据维度高、彼此依赖复杂，传统统计工具难以消化，人工智能与机器学习因此成为精准肿瘤学的重要抓手。\n日前，一篇发表在国际杂志Genes上题为“Integration of Multi-Omics in AI-Based Models for Predictive Oncology”综述报告换了一个角度审视这场整合：从目标、数据、模型三个概念出发来判断一个预测模型是否可行、有效、可用。\n文章中，来自法国的研究人员把预测模型拆成三个问题：要预测什么，用什么数据预测，用什么函数完成转换，三者对齐，模型才可能稳健。预测目标分三类。诊断包括癌症筛查、检测与分型，多组学聚类可无监督发现亚型，也可借通路活性推断引入知识。预后关注复发到死亡的预期病程，胃癌、肺癌、肾癌、前列腺癌均有基于多组学特征的预后模型，其中胃癌研究显示多组学整合较单组学进一步提升预测准确性。治疗反应预测覆盖体外细胞系、体内前临床模型与患者疗效，涉及疗效、复发与药物毒性，研究人员提出以癌症标志作为组学变量与临床结局之间的中介，帮助理解单个组学变量的贡献。\n把多组学数据与关于癌症病理生理现象（癌症标志）的知识整合起来，可使预测性肿瘤学更加稳健、更加准确\n数据层面的难点首先来自维度。多组学特征数远超样本量，组学层之间既对话又冗余，整合时机分早期、中期、晚期。批次效应校正方法的选择取决于对效应类型的假设，校正过度会抹掉真实生物信号；数据集划分时，校正须在每个训练折内完成，否则信息泄漏。缺失数据按MNAR、MAR、MCAR分类处理，传统插补存在方差降低与偏倚，深度学习与基于Transformer注意力的基础模型提供新思路。公共数据库如TCGA、CCLE、GDSC、CPTAC扩大训练域代表性，却带有回顾性设计、治疗注释不全、多样性有限、事件数少与检测异质性等局限。\n模型层面分表征与整合两步。表征阶段做特征选择与变换：LASSO、递归特征消除、方差过滤、Pearson相关、基于通路距离的基因选择，以及PCA、UMAP、自编码器、变换器嵌入、通路活性推断与可见神经网络。整合阶段从线性回归、随机森林、XGBoost延伸到深度神经网络、知识网络、布尔网络、QSP与ODE机制模型，再到自编码器加ODE、逻辑ODE加Macau算法等混合架构。深度学习能表示复杂关系，代价是解释性下降；骨肿瘤领域的系统评价显示经典机器学习与深度学习性能相当，具体取决于数据结构。机制模型利于理解病理生理与治疗组合，直接整合组学却困难；混合模型试图兼顾知识约束与数据驱动发现，难点在于找到合适的合并方式与知识、数据之间的平衡。\n可解释性是不可回避的一环，SHAP已成为医学与肿瘤文献中最常用的归因技术，但它解决的是模型透明度，不等于机制或因果有效性。组学特征高度相关时，SHAP值可能不稳定，重要性会在相关变量间转移。被标记的特征应视为生物学合理性假设，需独立统计验证或功能验证。黑色素瘤研究提供一则实例：整合MAPK中心组学数据后，靶向该通路药物的疗效持续时间预测准确性优于仅用临床数据。乳腺癌研究则显示，RNA测序数据对大量药物预测更好，而机制模型推导的细胞系特异参数对通路靶向药物预测更好，两类信息各有所长。\n这篇综述没有许诺某种算法包治百病，而是把模型构建还原为一项工程：先定义预期用途与终点，再确认训练数据能否覆盖应用域，最后选择与知识储备相匹配的函数形式。它提醒研究者，组学数据不是普通表格，背后的技术噪声、生物变异与分析流程都会渗入预测结果。批次效应要在折内校正，缺失机制要先分类再处理，SHAP结果要当作线索而非结论。外部验证、决策曲线分析与部署后的性能监测，构成从回顾性研究走向临床应用的必经台阶。精准肿瘤学的进步，或许不在于模型越建越复杂，而在于目标、数据与模型三者的对齐越来越诚实。（生物谷Bioon.com）\n参考文献：\nArnaud Nativel,Sarah Dandou,Florian Favier, et al. Integration of Multi-Omics in AI-Based Models for Predictive Oncology, Genes 2026, 17(10), 1231;doi:10.3390/genes17101231\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026亚太科研与工程智能大会\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "af686c0551d18fb0",
+    "score": 1.9,
+    "channel": "china",
+    "cluster_key": "drug:qls2416",
+    "flags": [
+      "preclinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.84,
+    "reasoning": "核心事件是QLS2416获得临床试验许可，属于启动开发的关键节点，但现阶段依据主要为临床前模型和药代数据，尚无人体疗效或安全性终点。文章同时混入医保目录商业化信息，进一步降低聚焦度。",
+    "verify_todo": [
+      "核实CDE临床试验批准及拟定适应症",
+      "核实IND中首个试验的阶段、样本量和主要终点",
+      "区分临床前数据与已获得的人体数据"
+    ],
+    "article_type": "milestone",
+    "title": "齐鲁制药双线突破：1类新药QLS2416获批临床布局自免赛道，3款产品新进2026国家医保目录",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_394657",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "齐鲁制药在创新药研发与商业化布局上再迎新进展。11月13日，齐鲁制药自主研发的1类创新生物药QLS2416注射液获得国家药品监督管理局药品审评中心（CDE）临床试验默示许可，拟开发用于系统性红斑狼疮、类风湿性关节炎、原发性干燥综合征及系统性硬化症等多种自身免疫性疾病。图源：摩熵医药-中国药品审评数据库与此同时，在2026年国家医保目录调整中，齐鲁制药旗下帕妥尤单抗N01注射液（安可泽®）、注射用奥氮平（醒可®）和注射用盐酸美法仑（佑瑞清®）三款产品成功新增纳入医保，涉及肿瘤、精神疾病及血液系统疾病等治疗领域。一、QLS2416获批临床，布局自免治疗新赛道自身免疫性疾病的发生与致病性B细胞及其分泌的自身抗体密切相关。系统性红斑狼疮、类风湿性关节炎等疾病长期存在治疗效果有限、难以实现深度缓解及全身性副作用等临床挑战，仍有较大的未满足治疗需求。QLS2416是齐鲁制药自主研发的创新双特异性CD3 T细胞衔接器（TCE），通过同时靶向相关免疫细胞，旨在利用T细胞介导的免疫机制清除致病性B细胞。图源：摩熵医药-全球药物研发数据库据临床前研究数据，QLS2416在多种自身免疫疾病模型中表现出较好的活性，不仅能够深度清除致病性B细胞，还可显著降低自身抗体水平，同时展现出良好的安全性特征。此次获批临床，意味着QLS2416正式进入临床开发阶段。未来，其在不同自身免疫性疾病中的安全性和有效性仍有待临床研究进一步验证。二、三款产品新增纳入医保，覆盖多个治疗领域在创新药研发之外，齐鲁制药也迎来商业化端的新进展。2026年国家医保目录新增107种药品，其中齐鲁制药3款产品成功纳入，进一步扩大了公司在不同治疗领域的医保覆盖。·帕妥尤单抗N01注射液（安可泽®）该产品是国内首个全人源抗EGFR单克隆抗体，于2025年12月获批上市，适用于联合FOLFOX方案治疗RAS野生型转移性结直肠癌患者的一线治疗。此次纳入医保，有望进一步提升国产抗EGFR靶向药物的可及性。图源：摩熵医药-全球药物研发数据库·注射用奥氮平（醒可®）该产品是国内首个获批的奥氮平肌肉注射剂，于2025年先后获得美国FDA和国家药监局批准，用于治疗与精神分裂症或双相Ⅰ型障碍躁狂发作相关的急性激越。纳入医保后，将进一步改善相关患者的用药可及性。·注射用盐酸美法仑（佑瑞清®）该产品于2026年6月获批上市，主要用于多发性骨髓瘤患者造血干细胞移植前的高剂量预处理，以及不适合口服剂型治疗患者的姑息治疗。此次纳入医保，有助于降低患者用药负担，提升相关治疗方案的可及性。\n注射用盐酸美法仑销售数据\n【注射用盐酸美法仑】全国药店零售额-年度趋势\n销售额(亿元)\n增长率(%)\n【注射用盐酸美法仑】全国医院(全终端)销售额-年度趋势\n销售额(亿元)\n增长率(%)\n【注射用盐酸美法仑】全国医院(全终端)销售额-企业分析TOP10\nMAH/生产企业\n销售额(亿元)\n可直接点击跳转到数据库免费查看最新数据详细信息\n三、28款1类新药获批临床，超220个产品纳入医保从创新研发来看，QLS2416获批临床，进一步丰富了齐鲁制药在自身免疫疾病领域的创新管线；从商业化来看，三款产品新增纳入国家医保目录，则有望进一步扩大产品覆盖人群。2026年以来，齐鲁制药已有28款1类新药获批临床，其中20款为生物药1类新药。上述20款生物药中，14款为首次获批临床的新品，覆盖双靶点融合蛋白、双抗及多抗、抗体偶联药物（ADC）等多个研发方向。图源：摩熵医药-中国药品审评数据库据齐鲁制药披露，公司自国家医保目录动态调整以来，已有17款产品通过医保谈判成功纳入目录，目前累计超220个产品纳入国家医保目录。\n齐鲁制药有限公司全球新药研发阶段分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n齐鲁制药有限公司过评汇总分布\n可直接点击跳转到数据库免费查看最新数据详细信息\n三、结语随着创新药研发持续推进，以及更多产品进入医保体系，齐鲁制药正进一步推动研发成果向临床应用转化。QLS2416后续临床开发进展及相关产品的市场表现，值得持续关注。参考来源：[1] CDE官网[2] 摩熵医药（原药融云）数据库[3] 企业官网/官方披露扩展阅读：1. 全球首款Claudin6 ADC！齐鲁制药QLS5132启动III期临床，7款ADC管线全面推进2. 齐鲁制药泊那替尼片获批上市拿下国内第2家第三代BCR-ABL抑制剂资质，T315I突变CML用药格局再扩容3. 齐鲁制药1类创新生物药QLS2401获批临床，靶向三靶点布局前列腺癌免疫治疗\n齐鲁制药*点击下方数字查看更多企业相关数据\n全球药物研发信息\n147条\n中国药品审评信息\n2075条\n中国药品批文\n600条\n药品招投标\n66122条\n全球临床试验\n227条\n中国临床试验\n592条\n一致性评价\n364条\n美国FDA批准药品\n83条\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-18T13:39:16+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "07358a132fe037ee",
+    "score": 1.9,
+    "channel": "china",
+    "cluster_key": "drug:sim0712",
+    "flags": [
+      "preclinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.87,
+    "reasoning": "临床试验获批是重要开发节点，但SIM0712的证据目前来自细胞、动物及非人灵长类药代数据，没有人体疗效或安全性终点。国产首个STAT6 PROTAC的定位提升关注度，但按临床前证据上限限制评分。",
+    "verify_todo": [
+      "核实NMPA临床试验批准和首个人体试验方案",
+      "核实靶点、降解机制及适应症选择",
+      "确认“国内首款STAT6 PROTAC”的竞品口径"
+    ],
+    "article_type": "milestone",
+    "title": "先声药业SIM0712获批临床，国内首款STAT6 PROTAC小分子降解剂可治疗特应性皮炎等多个2型炎症",
+    "url": "https://www.pharnexcloud.com/zixun/zcsp_394655",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "11月16日，先声药业宣布，公司自主研发的靶向STAT6口服小分子降解剂SIM0712，已获得国家药品监督管理局（NMPA）签发的药物临床试验批准通知书，拟用于特应性皮炎治疗。图源：先声药业企业公告一、靶向STAT6，阻断2型炎症信号SIM0712是一款基于先声药业专有蛋白降解靶向嵌合体（PROTAC）技术平台开发的小分子降解剂，靶向信号转导及转录激活因子6（STAT6）。该药物可通过结合STAT6的SH2结构域，诱导STAT6蛋白降解，从而阻断白细胞介素-4（IL-4）及白细胞介素-13（IL-13）介导的信号传导，抑制相关2型炎症反应。图源：摩熵医药-全球药物研发数据库临床前研究显示，SIM0712在皮摩尔（pM）级浓度下即可有效诱导多种疾病相关人源免疫细胞及基质细胞中的STAT6蛋白降解，对同家族蛋白STAT1至STAT5及CRBN相关底物未见明显降解作用，展现出较好的靶点活性与选择性。此外，该药物在小鼠特应性皮炎及哮喘模型中表现出显著抗炎活性，并在大鼠、犬及食蟹猴体内展现出良好的药代动力学特征及明确的药代动力学/药效动力学（PK/PD）关系。二、多适应症布局，创新管线持续推进先声药业表示，除特应性皮炎外，SIM0712在哮喘、慢性阻塞性肺病、嗜酸性粒细胞性食管炎及慢性鼻窦炎伴鼻息肉等多种2型炎症性疾病中也具有潜在应用价值，具备进一步拓展适应症的潜力。据摩熵医药数据库显示，截至目前，先声药业（含子公司）已有超30款1类新药进入获批临床及以上研发阶段。今年以来，公司已有7款1类新药获批临床。图源：摩熵医药-中国药品审评数据库随着SIM0712获得临床试验许可，先声药业在STAT6靶向蛋白降解领域取得进一步进展，其后续临床开发及多适应症布局值得关注。\n【江苏先声药业有限公司】2025年指数排名\n当前排名\n第26名\n88.26分\n摩熵指数\n3个\n新获批上市药物\n5个\n新申报上市药物\n0个\n新进入三期临床\n摩熵指数企业榜单TOP5\n江苏恒瑞医药股份有限公司\n99.5\n华润医药集团有限公司\n98.17\n正大天晴药业集团股份有限公司\n97.28\n上海复星医药（集团）股份有限公司\n96.32\n石药控股集团有限公司\n95.68\n查看摩熵指数完整榜单\n参考来源：[1] 企业公告/官方披露[2] 摩熵医药（原药融云）数据库扩展阅读：1. 先声药业1类新药SIM0725注射液获批临床！CD122单抗切入白癜风赛道，有望实现长期控制减少复发2. 先声药业CD3/BCMA/GPRC5D三抗SIM0500临床数据亮相ASH 2026，安全性与疗效双优3. 先声药业拿下凌科药业泽普昔替尼皮肤科独家商业化权益，国产JAK1抑制剂特应性皮炎NDA获受理\n特应性皮炎相关推荐\n相关靶点：\nNF-κB\nBTK\nMAPK\nRas\nPD-L1\nTYK2\nIL-1β\nAR\nIL-23\nNLRP3\n相关药品：\n他克莫司\n度普利尤单抗\n特泽利尤单抗\n阿布昔替尼\n芦可替尼\n司库奇尤单抗\n司普奇拜单抗\n地塞米松\n泼尼松\n乌司奴单抗\n相关企业：\n鲁南制药集团股份有限公司\n浙江大学\n齐鲁制药有限公司\n中山大学\n中国农业大学\n石药集团有限公司\n华东医药股份有限公司\n江苏普莱医药生物技术有限公司\nGSK PLC\n云顶新耀医药科技有限公司\nSIM0712*点击下方数字查看更多药品相关数据\n全球药物研发信息\n1条\n中国药品审评信息\n2条\n中国药品批文\n药品招投标\n全球临床试验\n中国临床试验\n一致性评价\n美国FDA批准药品\n查看更多\n先声药业*点击下方数字查看更多企业相关数据\n全球药物研发信息\n115条\n中国药品审评信息\n533条\n中国药品批文\n130条\n药品招投标\n7395条\n全球临床试验\n84条\n中国临床试验\n122条\n一致性评价\n32条\n美国FDA批准药品\n医药投融资\n药物集中采购\n境内外生产药品备案信息\n查看更多\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-18T09:51:12+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9f567dc4356165af",
+    "score": 1.8,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.92,
+    "reasoning": "主题是巴西乳腺癌治疗的可及性和成本，未提供药物比较、疗效数字或统计结论，不属于临床数据读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[Dr dos Anjos on How Access and Cost Shape Breast Cancer Treatment in Brazil ]]>",
+    "url": "https://www.onclive.com/view/dr-dos-anjos-on-how-access-and-cost-shape-breast-cancer-treatment-in-brazil",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T17:10:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "8b179862d7d9b5c0",
+    "score": 1.8,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.86,
+    "reasoning": "条目是MASLD影像及血清诊断标志物研究的作者更正，没有提供新的临床终点结果。属于学术勘误而非药物开发或临床数据读出。",
+    "verify_todo": [
+      "核实更正所涉及的具体内容是否影响主要结论"
+    ],
+    "article_type": "landscape",
+    "title": "Author Correction: Prospective validation of imaging and serum diagnostic biomarkers of steatohepatitis and fibrosis in MASLD: the LITMUS Imaging Study",
+    "url": "https://www.nature.com/articles/s41591-026-04803-x",
+    "sources": [
+      "nature_medicine"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Nature Medicine, Published online: 19 November 2026; doi:10.1038/s41591-026-04803-x Author Correction: Prospective validation of imaging and serum diagnostic biomarkers of steatohepatitis and fibrosis in MASLD: the LITMUS Imaging Study",
+    "lang": "en",
+    "published": "2026-11-19T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "5e35741da4eb125e",
+    "score": 1.8,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.87,
+    "reasoning": "内容报道AI辅助多学科肿瘤会诊的决策一致性和效率，没有药物开发、治疗终点或临床试验结果。属于医疗工作流研究而非本雷达关注的临床数据进展。",
+    "verify_todo": [],
+    "article_type": "readout",
+    "title": "Artificial intelligence can assist multidisciplinary tumour boards make faster and data-informed decisions",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/artificial-intelligence-can-assist-multidisciplinary-tumour-boards-make-faster-and-data-informed-decisions",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "Two studies report fewer errors and higher agreement between professionals with the support of AI\n“Half the challenge of a multidisciplinary tumour board (MTB) is gathering the relevant data from disparate sources, and artificial intelligence (AI) can help aggregate and also harmonise information to generate a better understanding of a patient, so that the time and expertise of the multidisciplinary team are focused on the nuanced judgement and coordination of care,” says Dr Caroline Chung from the MD Anderson Cancer Center, Houston, TX, USA, commenting on the findings from two studies that suggest AI may have a role in enabling a coordinated and data-informed management of patients with cancer.\nBy gathering and organising unstructured data from multiple sources into a consistent, coherent summary of a patient, a single-region, non-randomised study of 450 patients with breast, colorectal and lung cancer reported a 50–60% lower cumulative error risk with AI-assisted MTB over a 6-month period (14.0% risk with AI versus 28.3% risk without AI at 6 months) ( Abstract 143RO ). Approximately 6.5 minutes was saved per AI-assisted patient (28.1 minutes with AI versus 34.6 minutes without AI). Chung says that findings presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November) appear promising but cautions that a deep dive into all the factors that contribute to the time costs was lacking. She adds: “Time to recommendation captures the board’s work, but what about time spent preparing data for the AI model, reviewing and verifying its output, or setting up and maintaining the system? Those hidden costs could narrow the saving.” The cost-effectiveness of AI was predicted to improve with greater numbers of patients assessed; a €5,421 saving was estimated for 4,000 patients, suggesting that AI-assisted MTB is justified in large oncology centres or clinics with a high volume of newly diagnosed patients.\nIn a second study, an agentic system, ‘ ASTRA ’, was developed and validated to assist the MTB in the pre-operative assessment of patients with perihilar cholangiocarcinoma ( Abstract 146P ). The design followed a phased framework approach that included a reader study, comparing unaided versus ASTRA-assisted assessment, external validation and real-world deployment. Each study phase asked a different question relating to technical accuracy, the extent to which AI assisted clinicians, and whether the tool could be applied successfully at other centres and in routine clinical practice. The system extracted 21 key imaging features with 97% accuracy. With ASTRA’s help, surgeons’ accuracy increased from ~79% to 90–92%. Agreement between surgeons also improved substantially (kappa 0.57 to 0.86), and assessment time roughly halved. In real-world use, accuracy was 0.90 versus 0.72, and pre-MTB briefing time fell from ~8.5 minutes to just over 4 minutes.\n“At external centres, the system’s accuracy was 0.81, meaning it disagreed with expert consensus in roughly 1 in 5 cases and suggesting the need for further evaluation and refinement in either the specifics of the implementation or the fit of the model to the external centres’ data, population or practice itself,” Chung highlights. “Additionally, the reference standard was the board’s consensus , not what surgery or pathology eventually showed, and the system is based on radiology reports rather than the original images, so it is only as good as the reports.” Surgeons accepted the system’s judgement in nearly 90% of cases, potentially reflecting well-placed trust in technology. “However, this may also point to a potential risk of automation bias , so we need to be careful when integrating these systems into routine clinical workflows and when interpreting the metrics we use for success,” she concludes. “The presented studies provide some clue on the role of AI as a ‘co-worker’ in MTBs , but robust evidence is still needed on how AI-based tools perform in different settings, how teams actually use them and their impact on patient outcomes. Within this, the role of the clinician is predicted to shift from information gathering towards critical interpretation of information to make better informed decisions.”\nAI is already having an impact on clinical work and the clinician’s role . Data generation, integration into imaging scanners and software, and the flow of data to clinicians are all affected. In the future, a key question will relate to how AI can be deliberately shaped to improve clinical workflow, quality, safety and clinical decision-making while accounting for uncertainty.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-16T14:15:00Z",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "54f2b4d5517da79d",
+    "score": 1.8,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.94,
+    "reasoning": "文章盘点医药AI落地案例，未形成具体药物试验、终点或监管结果，属于跨场景案例汇总。条目已非近日。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "临床稽查与AI虚拟陪练：盘点4个跑通业务闭环的“医药+AI”真实案例",
+    "url": "https://www.pharnexcloud.com/zixun/sd_389436",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "随着大模型技术的爆发，“医药+AI”已经从最初的概念炒作，走向了产业深水区。然而，医药行业具有极高的专业壁垒和合规要求，通用大模型往往因为缺乏专业语料而在实际应用中频频“产生幻觉”。纵观当前行业，真正跑通的医药大模型落地项目，都有一个共性：背靠高质量的医药垂直数据底座。今天，我们就以第三方视角，盘点一下当前医药产业链中，最具代表性的四大“医药+AI”落地场景与真实案例。场景一：AI+ 药物研发与立项在药物早期研发阶段，最大的痛点不是没数据，而是“看得见、聚不拢、读不懂”。比如研发数据分散在ELN（电子实验记录本）、LIMS（实验室信息管理系统）和专利文献中，形成了严重的数据孤岛。案例：①某头部CRO的DEL研发数据基座在DNA编码化合物库（DEL）的研发中，某CRO企业面临文献、专利与内部实验数据标准不一的困境。该企业搭建了一套AI驱动的DEL数据管理平台。平台不仅完成了核心数据的标准化治理，还接入了多角色AI智能体（Agent）。例如，药化团队Agent可以自动完成ADMET性质预测和合成可及性评估；管理层Agent则能实时监控项目关键指标。这套系统最终实现了“虚拟筛选-实验筛选-验证优化”的研发闭环，大幅提升了从苗头化合物到候选药物的效率。 ②中医药多模态大模型与智能组方一家中医药企业在处理浩瀚的古籍、方剂和临床病案时，传统方式很难解析其中的作用机制。项目组通过引入多模态AI技术，将文本（古籍方剂）、图像（药材特征）与化学分子结构深度融合，构建了贯通“证-方-药-成分-靶点”的异质知识图谱。基于此图谱，AI不仅实现了靶点预测，还能进行基于特定证候的智能组方，让中医药研发从“经验驱动”走向了“数据可解释”。场景二：AI+ 生产制造与供应链药企的生产计划极为复杂，涉及订单、物料、产能、工艺甚至环境等多重约束。一旦遇到缺料、设备异常或临时插单，传统的ERP系统往往反应迟缓，全靠人工跨部门协调。案例：某老牌药企的“计划—执行—反馈”智能闭环一家山东的知名药企面临同样的困境。他们打通了底层的ERP、MES（制造执行系统）和WMS（仓储管理系统），构建了统一的生产数据底座。当产线发生异常时，AI排程智能体会基于多约束优化算法，迅速生成多套重排建议供计划员审核。系统实现了从销售预测、物料齐套检查到批次进度追踪的全透明管理，不仅提升了订单交付率，还满足了极其严苛的GMP（药品生产质量管理规范）审计追溯要求。 场景三：AI+ 临床与合规临床开发和注册申报是医药行业的“法规深水区”，容错率极低。如果没有权威的医药语料库进行微调和RAG（检索增强生成）约束，通用大模型在这里寸步难行。案例：某创新药企的自动化数据稽查面对跨中心、跨系统的海量临床数据（EDC/病历等），稽查人员往往疲于奔命。该药企引入AI稽查引擎，通过规则引擎与机器学习模型，对数据标准一致性、逻辑一致性（如受试者年龄与入排标准冲突）进行自动化交叉比对。AI不仅能快速发现异常和逻辑矛盾，还能自动生成稽查报告，将审计周期缩短了40%-60%，有效规避了法规风险。场景四：AI+商业化与企业运营在合规常态化与集采重压下，药企的商业化急需降本增效，而大模型正成为企业内部的“数字员工”。案例：①某创新药企的“AI虚拟医生”陪练为了提升医药代表的学术推广能力，该药企放弃了传统的“老带新”模式，上线了AI模拟陪练平台。系统生成了KOL、普通医生、药剂科医生等多种虚拟客户画像。销售代表在模拟学术拜访时，AI不仅进行多轮对抗对话，还能从学术专业度、沟通流畅度、合规检测等维度实时打分。这种“训练-评估-改进”的闭环，让销售培训变得可量化、可追溯。 ②大型药企的法务合同智能体一家合同量庞大的药企，法务团队常常成为业务瓶颈。通过部署基于大模型技术的智能合同管理平台，系统实现了合同智能起草、要素自动抽取、多维度风险审查（如合规条款缺失）以及履约异常预警。这不仅释放了法务人力，还让合同数据变成了可分析的企业资产。这些“医药+AI”项目，底层的共性是什么？复盘上述案例不难发现，能够真正跑通业务闭环的“医药+AI”项目，其底层都有一个共性规律：AI的上限取决于数据的下限。通用大模型虽然强大，但在严谨的医学场景中，必须依赖高质量的垂直数据底座与知识增强，才能有效避免“幻觉”。以其中提供底层技术支撑的摩熵数科DATA+AI解决方案为例，其核心逻辑正是基BCPM（生物-化学-药学-医学）全域数据架构，为药企提供高保真的专业语料；同时，通过RAG检索增强与智能体（Agent）工程，将AI能力无缝嵌入实际工作流。此外，其支持私有化部署与全链路溯源的可信治理体系，也为医药AI的合规落地筑牢了基础。这种“专业数据+行业知识+工程落地”的融合，正是当前药企数智化转型的务实路径。结语：医药行业的数智化转型，绝不是买一个大模型账号那么简单。从高价值的单点业务切入，依托具备扎实数据底座与工程化能力的解决方案（如摩熵DATA+AI等），正成为越来越多药企在“医药+AI”浪潮中实现业务破局的共同选择。\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-09T11:00:35+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9cea8b6445d902c4",
+    "score": 1.8,
+    "channel": "global",
+    "cluster_key": "target:angptl3",
+    "flags": [
+      "preclinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "numeric",
+    "confidence": 0.91,
+    "reasoning": "报道的持久降脂依据来自动物模型，尚不能转化为人体临床疗效或安全性结论，因此仅适合作为早期机制和转化研究线索。发布日期未知。",
+    "verify_todo": [
+      "核实是否已有相关人体临床试验启动或入组",
+      "确认Nature论文的正式题名、发表日期和动物实验数据",
+      "确认报道发布日期"
+    ],
+    "article_type": "readout",
+    "title": "Nature：一针实现多年降脂？！CRISPR 单碱基编辑瞄准顽固血脂难题！",
+    "url": "http://news.bioon.com/article/3d93964561de.html",
+    "sources": [
+      "bioon_trials",
+      "bioon_celltherapy",
+      "bioon_tumor_immunotherapy"
+    ],
+    "content": "Nature：一针实现多年降脂？！CRISPR 单碱基编辑瞄准顽固血脂难题\nANGPTL3\n甘油三酯\n肝脏\n脂质颗粒\nCRISPR\n来源：生物谷原创 2026-11-16 11:37\n这项工作把 “单次基因编辑治疗慢性心血管代谢疾病” 从理论概念，推进到拥有长期动物有效性数据支撑的人体试验阶段，而血脂异常正是检验 “一次给药长期获益” 这一创新治疗逻辑极具代表性的疾病赛道。\n低密度脂蛋白胆固醇（LDL‑C）以及富含甘油三酯的脂蛋白，是诱发动脉粥样硬化性心血管疾病的核心危险因素。尽管目前已经有多款获批降脂药物，但现实中长期服药的慢病管理模式面临诸多困境，多数高危患者依旧无法达到血脂控制目标；每日服药、定期复查，加上患者服药依从性波动，会直接削弱整体治疗效果。\n而体内基因编辑带来一条全新路径：不必常年依靠药物压制血脂，尝试一次性改写肝脏内部的基因指令，从源头调控脂质代谢。\n发表于《Nature》的这项临床前研究，来自美国 Verve Therapeutics 等机构的科研团队证实，单次静脉输注封装于 GalNAc‑脂质纳米颗粒的 CRISPR 腺嘌呤碱基编辑系统，可以选择性在肝脏灭活ANGPTL3基因，在非人灵长类动物模型当中实现长达三年的持久降脂效果。\nANGPTL3是由肝脏合成分泌的蛋白，它会抑制脂蛋白脂肪酶、内皮脂肪酶活性，延缓血液内脂质清除；当该基因功能被抑制，体内甘油三酯与 LDL‑C 水平便同步下降。这个靶点并不是新概念，单抗药物依维那库单抗（evinacumab）正是通过中和 ANGPTL3 蛋白用于治疗纯合子家族性高胆固醇血症，但该疗法需要每数周重复输注维持疗效，而基因编辑策略目标更加彻底，直接让肝细胞停止合成该致病蛋白。\n研究人员将编码腺嘌呤碱基编辑器 ABE8.8‑m 的 mRNA 与靶向ANGPTL3的向导 RNA 共同封装进GalNAc‑脂质纳米颗粒（GalNAc‑LNP）。向导 RNA 引导碱基编辑器定位至ANGPTL3基因的剪接供体位点，完成单碱基 A・T 向 G・C 的转换，由此引入框内 TGA 终止密码子，破坏蛋白合成信号。这套系统的 mRNA 与脂质载体进入机体后会快速代谢清除，但是肝细胞 DNA 层面的单碱基修改可以长期保留。\n在体外原代人肝细胞实验中，研究团队采用 ONE‑seq、Digenome‑seq、杂交捕获、ATUP、光学基因图谱（OGM）等多重手段开展脱靶风险评估，对大约 3000 个候选潜在脱靶位点进行筛查，在超饱和给药条件下，既没有检测到显著的向导 RNA 依赖的脱靶编辑，也未发现治疗诱导的染色体结构变异，为后续体内实验提供安全性基础。\n在食蟹猴非人灵长类动物实验中，肝脏靶向灭活ANGPTL3整体耐受性良好，单次给药之后，循环中 ANGPTL3 蛋白平均下降幅度超过 90%，疗效持久性最长追踪至给药后三年。在血脂基线正常的猴子队列，3 mg/kg 高剂量组随访三年的数据显示，ANGPTL3 蛋白较给药前平均下降 93.7%，甘油三酯平均降低 43.1%，而 LDL‑C 降幅相对温和，仅下降 12.9%；49 天肝活检与三年终末解剖的肝脏样本对比，肝细胞编辑效率维持稳定，提示编辑效果可以长期存续。\n而在高脂血症小鼠以及模拟血脂异常的非人灵长类模型中，ANGPTL3基因失活能够带来 LDL‑C 下降 40‑50%，甘油三酯下降 50‑70% 的显著改变。\n这项研究递送系统的一大亮点在于解决纯合子家族性高胆固醇血症（HoFH）的递送困境：传统脂质纳米颗粒主要依靠低密度脂蛋白受体（LDLR）介导进入肝细胞，但 HoFH 患者本身 LDLR 存在严重缺陷，导致常规 LNP 递送效率大打折扣。该研究使用的纳米颗粒表面偶联 GalNAc 糖基配体，可以借助肝细胞高表达的去唾液酸糖蛋白受体（ASGPR）完成胞吞，实现不依赖 LDLR 的肝脏靶向递送。在 LDLR 基因敲除的食蟹猴模型中，也就是模拟 HoFH 患者生理状态，接受 GalNAc‑LNP 单次治疗 35 天后，动物平均 LDL‑C 由 458 mg/dL 下降至 247 mg/dL，降幅达到 46%，不过该动物亚组随访时间较短，尚不能证实数年尺度下的长期降脂表现。\n研究还补充多项关键安全性验证结果：非人灵长类给药之后，观察到丙氨酸氨基转移酶（ALT）、天门冬氨酸氨基转移酶（AST）一过性升高，但两周之内即可回落至基线水平，长达三年的随访以及肝脏组织病理学检测，均没有发现持续性肝损伤、肝脂肪变性加重的证据。\n在代谢功能相关脂肪肝（MAFLD）小鼠模型中，Angptl3编辑处理甚至观察到肝脂肪变性程度显著改善，没有诱发肝脏炎症与纤维化加重，和部分ANGPTL3反义寡核苷酸药物带来的肝脏脂肪蓄积风险形成对比。\n另外，大规模小鼠垂直传播生殖毒性实验对 738 只 F1 子代个体检测，没有发现基因编辑向生殖细胞传递、垂直遗传给后代的现象，提示生殖系编辑风险极低。当然，体外肝细胞的脱靶筛查手段依然存在局限，无法完全穷尽基因组全部潜在的意外编辑事件。\n这款人源候选疗法命名为VERVE‑201，目前已经启动 1b 期人体临床试验，受试者为常规药物难以实现血脂达标的难治性血脂异常患者，科研团队希望通过单次给药，帮助患者摆脱终身持续降脂治疗的负担。从非人灵长类长达三年的临床前持久疗效，到人体临床试验真实临床终点，还有不少未知需要回答。\n综合全部临床前数据，这项工作把 “单次基因编辑治疗慢性心血管代谢疾病” 从理论概念，推进到拥有长期动物有效性数据支撑的人体试验阶段，而血脂异常正是检验 “一次给药长期获益” 这一创新治疗逻辑极具代表性的疾病赛道。当然，距离真正落地临床，还需要人体试验充分回答疗效持久性、整体安全性、个体应答差异等一系列现实问题。（生物谷Bioon.com）\n参考文献：\nMizoguchi, T., DeNizio, J.E., Chadwick, A.C. et al. In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering. Nature (2026). doi：10.1038/s41586-026-11233-9\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n2026亚太科研与工程智能大会\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "d990428b40cc143f",
+    "score": 1.8,
+    "channel": "china",
+    "cluster_key": "drug:bedaquiline",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.84,
+    "reasoning": "获批上市属于监管节点，但标题未显示其基于新的临床读出或新适应症，可能仅是既有药物的仿制或商业化批准。发布日期未知，需核实具体批准文号、适应症和支撑试验。",
+    "verify_todo": [
+      "核实批准时间、适应症、规格及申请人",
+      "确认该批准是仿制药、新适应症还是其他变更",
+      "确认报道发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "海正药业富马酸贝达喹啉片获批上市",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396835",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "9f552b265f2f5d79",
+    "score": 1.8,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "textual",
+    "confidence": 0.73,
+    "reasoning": "标题以服务商祝贺和企业宣传为主，虽提及药品获批，但未提供可核查的临床数据或适应症信息。发布日期未知，需核实药品和批准依据后才能提升评分。",
+    "verify_todo": [
+      "核实亚胺西福的药物类别、适应症和批准时间",
+      "获取支持批准的临床试验结果",
+      "确认报道发布日期"
+    ],
+    "article_type": "milestone",
+    "title": "服务赋能 | 从 IND 到 NDA 一站式护航，博腾祝贺信诺维创新药“亚胺西福”获批上市",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396732",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "6b4032edcb5df43f",
+    "score": 1.5,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.91,
+    "reasoning": "内容是关于新发病毒及妊娠风险的Lancet通讯，主要涉及动物监测和推测，没有人体临床试验数据。发布时间已超过7天，且不属于临床开发读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Emerging Shamonda virus: a new threat to pregnancy?",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02232-4/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "The emergence of Shamonda virus in Europe raises new questions about the potential consequences of orthobunyavirus infections during pregnancy. In June, 2026, Shamonda virus was identified in cattle in central Europe, including France, Germany, and Switzerland.1 Transmission is thought to occur through bites from Culicoides midges. Detection of viral RNA in aborted bovine fetuses suggests transplacental transmission.2",
+    "lang": "en",
+    "published": "2026-11-13T23:30:01+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "0244c2eb056dd5db",
+    "score": 1.3,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.93,
+    "reasoning": "内容是关于亚太临床试验中心布局的访谈，没有药物、特定试验结果或监管进展。发布时间已超过7天，属于临床运营与市场讨论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[Why APAC Clinical Trial Sites Deserve a Second Look: Q&A with James Cheong, Precision for Medicine]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/why-apac-clinical-trial-sites-deserve-second-look-james-cheong-precision-medicine",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-12T16:50:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "5240e37bd570063b",
+    "score": 1.2,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.9,
+    "reasoning": "内容聚焦亚太地区首次Ⅲ期试验的方法论经验，未提供具体药物、试验结果或统计结论，因而不具备独立临床读出价值。条目已非近日。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[What Smaller Biotechs Need to Get Right in Their First APAC Phase III Trial]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/smaller-biotechs-right-first-apac-phase-trial",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-11T12:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b0fcb571f59bbced",
+    "score": 1.2,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.9,
+    "reasoning": "内容聚焦中国Ⅲ期试验启动周期变化，属于运营与政策分析，未提供可评分的临床结果或具体试验读出。条目已非近日。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[How China Cut Its Phase III Startup Timeline and What Drove the Change]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/how-china-cut-phase-startup-timeline-drove-change",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-09T12:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "64b948440cd7ef26",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "personnel"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.99,
+    "reasoning": "内容为组织任命和公共卫生倡导者介绍，不涉及药物、试验设计或临床数据，不属于本临床雷达的报道范围。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Perspectives] Monica Geingos: advocate for adolescent health joins PMNCH",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02303-2/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "“Sexual and reproductive health and rights [SRHR] have been under a constant and coordinated attack”, notes Monica Geingos, former First Lady of Namibia, UNAIDS Special Ambassador for Adolescent Sexual and Reproductive Health and Rights, and Co-Chair of the UNAIDS Global Council on Inequality, AIDS and Pandemics. This month, Geingos brought her wide-ranging expertise to a new role as Board Chair of the Partnership for Maternal, Newborn and Child Health (PMNCH). Her leadership comes at a challenging time.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "44e7ad6e280046ae",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.99,
+    "reasoning": "内容属于医学史与文学主题的通讯文章，没有临床试验、疗效数据或统计结论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Agatha Christie: medicine, diagnosis, and the art of detection",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02089-1/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "2026 marks the 50th anniversary of the death of Agatha Christie (1890–1976). This occasion offers an opportunity to look again at Christie not only as a central figure in the history of crime fiction, but also as an author whose work shows a sustained and demonstrable engagement with medicine and the medical profession.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "75dad203c70a16a9",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.98,
+    "reasoning": "内容为儿童发育框架的学术通讯，未提供药物或干预试验的临床数据，不构成临床数据读出。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] The F-words for Child Development: Lessons Learned",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02147-1/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "We write as the creators and promoters of the F-words for Child Development framework1 to thank Chloe Wilson and colleagues for their refreshing advocacy of this expanded set of ideas regarding disability.2 Not surprisingly, we agree with and fully endorse the concepts being promoted.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "a39b4b8aea26770c",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.99,
+    "reasoning": "内容讨论残障研究的方法和报告规范，未涉及药物疗效、安全性或试验终点。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Disability-inclusive research: operational challenges",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02148-3/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Chloe Wilson and colleagues have recently provided author guidance on reporting disability.1 We congratulate the authors for acknowledging the diversity in the experience of disability.",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "aac2560e4e1367ca",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.99,
+    "reasoning": "内容是对残障报告指南与ICF关联的学术通讯建议，没有新的临床数据或统计结论。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] The Lancet Group's guidance on reporting disability: make link to the ICF explicit",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02149-5/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "The Lancet Group's new guidance on reporting disability1 is an important step towards more inclusive health research. However, we believe that one crucial link is missing: WHO's International Classification of Functioning, Disability and Health (ICF).2",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "62e40b07ee4d38b6",
+    "score": 1.0,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.95,
+    "reasoning": "内容为医药数据库产品功能升级与商业推广，没有特定药物的临床终点、试验进展或监管结果。属于非临床情报服务内容。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "摩熵医药数据库全链路升级：研发-临床-准入-销售一体化情报能力全面进阶",
+    "url": "https://www.pharnexcloud.com/zixun/kp_395240",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "一款新药从立项到上市，要闯过靶点验证、临床推进、审评审批、市场准入、终端销售等多道关口。每一步决策的背后，往往是几十个数据源的交叉印证：研发要判赛道冷热，BD要估标的成色，准入要算进院概率，销售要找增长源头。医药行业从不缺零散数据，缺的是一条能把数据串成证据、把证据落到结论的决策路径。近日，摩熵医药企业版完成覆盖研发、临床、审评、准入、销售等全链路的系统性升级，从数据颗粒度、场景覆盖度到决策支撑深度全面进阶，持续夯实“数据+洞察+决策”一体化医药情报平台能力，全方位赋能药企研发立项、竞争分析、市场布局、合规准入等核心业务场景。扫描/长按识别二维码，免费试用数据库一、总览：升级的不是功能清单，而是决策路径本次升级所有改动都指向同一个核心——让数据更贴近真实决策现场。第一，交互从“人适应系统”转向“系统适配人”。全库上线“上下/左右”双模式检索布局：上下布局平铺全量筛选条件，适合多维度统筹探索；左右布局固定筛选面板、实时联动结果，适配高频精细化调参。搭配条件拖拽排序、按需隐藏、分组折叠与个人预设保存功能，不同岗位均可快速搭建专属高效工作台。数据库支持上下/左右布局检索设置：拖拽排序、条件隐藏、预设保存第二，数据从“单点查询”走向“完整证据链”。药物详情页扩容至13个核心模块，品种详情页聚合十大信息区块，医院详情页补齐机构规模、服务能力与科室布局，政策法规库打通全球主流监管文件。过去需跨库拼凑的信息，如今一屏即可完整获取。第三，分析从“看现状”走向“看趋势、看预测”。赛道排名、数据透视、审评结论预测、同赛道队列对比、市场集中度指标等能力依次落地，直接回应赛道热度、上市节奏、竞争位次、格局分散度等核心问题，让数据不止回溯过往，更支撑前瞻性判断。一句话概括：查得更快、看得更全、判得更准、用得更顺。这四条主线背后是三次跃迁：筛选逻辑从“按字段堆砌”转向“按业务场景分组”，贴合立项、注册、准入、销售的真实工作流；数据链路从“单点孤岛”转向“全链贯通”，打通研发、临床、审评、批文、准入、销售全环节；分析视角从“静态现状”转向“动态预判”，同类对标、赛道排位、结论预测成为标配。三者合一，才是医药情报决策平台的真正价值。二、销售侧：打通从全国大盘到临床终端的洞察链路本次升级对销售数据矩阵进行了系统性重构与扩容：地域维度支持“全国—省市—区县”逐级下钻，渠道维度完整覆盖医疗机构、实体药店、网上药店三大终端，观察视角可由宏观大盘延伸至样本机构与终端动销表现，形成多维度、多颗粒度的数据体系，在数据颗粒度、渠道完整性与结论可靠性上实现全面提升。医疗机构端形成完整的数据梯队：新增的医疗机构销售放大（分等级）库，以“机构等级+地区类型”双重标签拆解市场，大幅强化下沉市场与基层医疗分析能力；新增分省份样本与放大库，支撑区域差异对比与机会挖掘。结合自2015年起的长周期历史库、重点城市样本库、区县颗粒度数据库，整套体系形成“放大看总量、样本看细节、下沉看区县”的分析逻辑，多颗粒度数据可交叉验证，让市场判断更扎实。全终端销售数据库全终端销售数据库三大终端口径实现统一：全新上线的全终端销售数据库，整合2021年至今三大终端超176万条数据。医院端依托多层级样本与放大模型还原院内市场，药店端基于全国十万余家零售药店分层抽样，线上覆盖主流B2C平台，彻底解决多终端口径不一、整合成本高的痛点。同一品种在不同渠道的销售表现、结构变化与增长来源，均可在同一视图下直观对比。在标准化数据之上，摩熵咨询进一步提供深度定制服务：在合规前提下完成数据采集与治理，输出真实世界细分维度洞察，还原院内用药结构、处方流转轨迹与品种替代规律，锁定高价值终端组合；结合专家深度访谈与行业积累输出定制研究报告，为品种市场定位、院内推广策略与营销资源配置提供坚实决策支撑。三、研发侧：从“查项目”到“看赛道、判价值”如果说销售数据回答“卖到哪里”，研发情报则要解决更上游的命题：做什么赛道、跟不跟项目、什么时候能上市。研发决策的难点从来不是信息太少，而是信息太散——靶点热度、临床进度、交易动态、专利壁垒、准入身份、市场天花板，任何一环缺失都会导致判断失真。本次研发侧升级的核心，就是把分散的环节收束成一条完整的决策证据链。全球药物研发库聚焦“十万级项目中快速判断赛道价值”。新版将药物类型细分为13类，新增研发状态、靶点成熟度、临床试验结果、交易、里程碑等检索条件，筛选阶段即可快速剔除低活跃管线、锁定高价值项目；列表页新增赛道排名与数据透视功能，直接回应赛道拥挤度、国内外进度差、竞争结构等核心问题；详情页扩容至13个模块，将交易、专利、研发历程、资讯、文献、市场准入融为一体。它的升级不止是增加字段，更是从“查单个药物”到“判整条赛道、评单个标的”的能力跃迁。全球药物研发新增赛道排名全球药物研发详情页全面升级品种格局库主打“选品时，市场表现能不能直接参与筛选”。新版首次将市场规模与增长率纳入检索维度，选品从“先查项目、再补销售、回头比对”的多步操作变为一步到位；筛选维度从17组扩容至28组，支持批准文号、受理号、登记号批量查询；品种列表将原本分散在6个页签的竞争格局、过评情况、医保身份、集采指标聚合成一张总览表，项目详情页补齐准入时间轴与中标分析，全新品种详情页用十大区块整合研发管线、原料药、专利、招投标、销售与竞争集中度。它让“品种值不值得做”的判断，从经验驱动转向数据驱动。中国药品审评库主攻“审评结果和时间提前预判”。新版新增审评结论预测功能，结合算法模型与法定时限双路径推演，输出预计公示结论时间与CDE审结时限；新增同类项目审评概况，用时长分布、中位数与平均值给出周期参考；新增同赛道预测队列，直观呈现竞品预计结论时间与自身位次；搭配数据对比、注册类型筛选与同品种申报排名功能，审评页面从“记录已经发生的事”变成“辅助判断下一步”。中国药品审评新增审评结论预测功能中国药品审评新增审评结论预测功能中国药品批文库强化“批文能否直接支撑立项与准入判断”。新版将筛选项重组为7大业务模块，新增注册分类、是否首仿、变更信息、批件转让、审评通道等属性标签；整合2018/2026版基药、集采批次、兴奋剂目录、医保调入调出、鼓励仿制/短缺药等政策标签；详情页将医保与OTC信息整合为“药品目录与注册属性”板块，补充品种销售额、医保目录出处与研发时间轴。批文不再只是“一张批准证明”，而是能回答“卖得如何、进过哪些目录、研发周期多长”的商业档案。中国临床试验库重点“量化招募效率，实现项目对标”。新增参与机构数量、招募周期、试验总时长、当前入组人数、入组速率、入组完成率等核心指标，支持列表浏览与一键导出，帮助临床运营与CRO团队直观对标项目推进效率。全新上线的行业会议库，把情报触角延伸到论文正式发表之前。库内收录ASCO、ESMO、AACR、ASH、EULAR等全球顶级医学会议摘要，支持多字段检索、结构化信息抽取、AI翻译与原文溯源，还可关联对应临床试验登记号，帮助用户提前捕获前沿临床信号，在管线监测与立项调研中抢占信息先机。行业会议卡片视图四、准入与合规：补齐决策最后一公里研发决定产品能不能做，销售决定产品卖到哪，准入与合规则决定产品能不能进院、能不能报销、合不合规。药品集中采购库让集采情报覆盖投标全流程。新版从“中选+备供”两类数据，扩展为“中选+备供+入围”三大板块，完整收录入围未中选品种，还原集采竞标全貌；筛选维度按基础信息、药品信息、集采信息重组，补充药品类型、采购比例、降幅区间等条件；详情页拆分各省报量与首年约定采购分析。降幅对标、区域供应、竞争格局研判，在一个库内即可完成，无需仅靠中选名单做判断。医保目录库实现“申报→落地”完整追踪。将原正式医保目录与形式审查目录整合，覆盖2009-2025年正式医保目录、商保创新药目录、地方目录，以及2020-2026年形式审查目录；详情页分栏展示正式目录、谈判价格、商保信息与形式审查进度。有效避免两类误判：遗漏审批中的潜力品种，或把“通过形式审查”错当成“正式纳入目录”。医保目录详情页政策法规库打通全球主流监管体系。新版在原有FDA、EMA指导原则基础上，大幅扩充海外监管数据源：美国侧新增警告信、检查报告、五大手册、内部审评文件与21CFR联邦法规；欧洲侧补齐EudraLex全套法规汇编；同时纳入英国、新加坡、日本、泰国等多国药监文件，以及WHO、PIC/S、东盟等国际组织指南。对注册与法规团队而言，这是一次从“找得到文件”到“看得懂、判得快”的体验升级。以上只是本次升级的核心亮点，更多细节能力已同步落地至摩熵医药企业版全库。从终端销售的五级穿透，到研发立项的全链证据，再到准入合规的全球覆盖，摩熵医药始终围绕医药人的真实决策场景打磨产品，让每一份数据都能转化为可落地的判断，陪伴行业高效前行。如需体验完整功能，欢迎登录摩熵医药企业版数据库。扫描/长按识别二维码，即可免费试用数据库！\n<END>\n*声明：本文由入驻摩熵医药的相关人员撰写或转载，观点仅代表作者本人，不代表摩熵医药的立场。",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-19T11:28:53+08:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "5259d06b3cb2e4e0",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.98,
+    "reasoning": "内容为巴西政治、科学与公共卫生政策评论，不包含药物、试验或临床终点。发布时间已超过7天，与临床开发雷达无直接关系。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "[Correspondence] Lula's new term—safeguarding science, health, and the Amazon",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02234-8/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Although Luiz Inácio Lula da Silva's victory in Brazil's presidential election promises executive commitment to science, public health, and environmental protection, the political reality signals a serious governability crisis. The unprecedented conservative surge in the 2026 legislative elections created a deeply hostile Congress, leaving a divided nation in which evidence-based governance, public health systems, and ecological preservation face imminent institutional gridlock. This political split, reflected in the 51·79% to 48·21% election result,1 is heightened by memories of past anti-democratic actions following the 2022 election, including civilian encampments outside military installations, demands for military intervention, and the January 2023 storming of Brasília's democratic in",
+    "lang": "en",
+    "published": "2026-11-13T23:30:01+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "b2cc1f62cf4ad81e",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.94,
+    "reasoning": "文章讨论临床研究职业角色，未呈现具体试验、药物或结果读出，不符合临床数据雷达的核心筛选范围。条目已非近日。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "<![CDATA[The Role of Clinical Research Professionals: From Early Discovery to Phase III Success]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/role-clinical-research-professionals-early-discovery-phase-success",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-10T19:34:00+00:00",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "8d61090eb21945fb",
+    "score": 1.0,
+    "channel": "china",
+    "cluster_key": "drug:脑脉利颗粒",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.94,
+    "reasoning": "内容聚焦临床常用联用药物方案，不包含单一试验的入组、终点或结果读出。发布日期未知。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "脑脉利颗粒临床常见联用药物方案 | 丁苯酞、依达拉奉右莰醇、尤瑞克林、瑞舒伐他汀......",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396621",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "ab21c297f5162a88",
+    "score": 1.0,
+    "channel": "china",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.96,
+    "reasoning": "内容聚焦细胞培养基和规模化生产，属于工艺与供应链信息，不包含临床试验结果或监管临床结论。发布日期未知。",
+    "verify_todo": [],
+    "article_type": "landscape",
+    "title": "从新药获批到商业化生产：细胞培养基如何支持规模化生产？",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396834",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  },
+  {
+    "id": "e86c140820e23a14",
+    "score": 1.0,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "not_clinical"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.88,
+    "reasoning": "该条聚焦美国立法机构提出的临床试验制度改革，未提供具体试验、终点结果或临床数据，因此不属于可深度解读的临床数据读出。发布日期未知，现阶段价值主要是政策背景信息。",
+    "verify_todo": [
+      "核实法案提出者、正式法案文本及当前立法进度",
+      "核实法案覆盖的具体改革环节及其实际执行时间表"
+    ],
+    "article_type": "landscape",
+    "title": "美两党议员提出《加快临床试验法案》，推动临床开发多环节改革",
+    "url": "https://www.pharnexcloud.com/zixun/shiye/yfzczc_396856",
+    "sources": [
+      "pharnexcloud"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-21T21:48:29Z"
+  }
+]

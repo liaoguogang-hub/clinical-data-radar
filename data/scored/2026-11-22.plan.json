@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-22",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:hmpl-523",
+      "lead_id": "736727aa5d9fd8c3",
+      "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+      "score": 7.7,
+      "channel": "china",
+      "member_ids": [
+        "736727aa5d9fd8c3"
+      ],
+      "members": [
+        {
+          "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_395758",
+          "score": 7.7,
+          "reasoning": "中国申办方申报的创新药获得NMPA双适应症批准，依据是注册试验达到主要终点后的监管结果，而非仅有疗效数字。国产首个Syk抑制剂及ITP、wAIHA两个适应症具有较高临床和首创性价值。"
+        }
+      ],
+      "reasoning": "中国申办方申报的创新药获得NMPA双适应症批准，依据是注册试验达到主要终点后的监管结果，而非仅有疗效数字。国产首个Syk抑制剂及ITP、wAIHA两个适应症具有较高临床和首创性价值。",
+      "verify_todo": [
+        "核对NMPA批准文号和适应症原文",
+        "获取ESLIM-01、ESLIM-02完整统计结果及监管审评报告",
+        "核实与fostamatinib的全球首创表述口径"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:deramiocel",
+      "lead_id": "d0f5b677a531b144",
+      "title": "Capricor大跌78%：FDA拒绝批准其DMD外泌体疗法",
+      "score": 7.2,
+      "channel": "global",
+      "member_ids": [
+        "d0f5b677a531b144"
+      ],
+      "members": [
+        {
+          "title": "Capricor大跌78%：FDA拒绝批准其DMD外泌体疗法",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_396829",
+          "score": 7.2,
+          "reasoning": "FDA拒绝批准构成重大监管性挫折，临床开发路径和DMD适应症进展因此发生转折；该依据为监管决定的明确措辞，而非单纯疗效数字，但拒绝原因仍需核实。"
+        }
+      ],
+      "reasoning": "FDA拒绝批准构成重大监管性挫折，临床开发路径和DMD适应症进展因此发生转折；该依据为监管决定的明确措辞，而非单纯疗效数字，但拒绝原因仍需核实。",
+      "verify_todo": [
+        "核实FDA完整回复函中的具体问题和审评结论",
+        "核实Deramiocel支持申请的注册性试验名称、阶段及主要终点结果",
+        "确认公司后续补救路径及是否需要补充试验"
+      ],
+      "flags": [
+        "halted"
+      ],
+      "endpoint_verdict": "halted",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:mevidalen",
+      "lead_id": "856efaa0cb4e760b",
+      "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+      "score": 6.7,
+      "channel": "global",
+      "member_ids": [
+        "856efaa0cb4e760b"
+      ],
+      "members": [
+        {
+          "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+          "url": "https://endpoints.news/ctad26-lillys-dopamine-drug-mevidalen-fails-phase-2-study-in-alzheimers/",
+          "score": 6.7,
+          "reasoning": "会议报道明确表述mevidalen的Ⅱ期阿尔茨海默病试验失败并停止开发，依据是失败结论而非仅有利好或无效的数字。疾病领域未满足需求较高，但Ⅱ期失败对全球研发格局的影响仍有限。"
+        }
+      ],
+      "reasoning": "会议报道明确表述mevidalen的Ⅱ期阿尔茨海默病试验失败并停止开发，依据是失败结论而非仅有利好或无效的数字。疾病领域未满足需求较高，但Ⅱ期失败对全球研发格局的影响仍有限。",
+      "verify_todo": [
+        "获取CTAD报告或演示文稿中的试验设计和终点定义",
+        "核实样本量、效应量及统计结果",
+        "核实后续是否开展其他适应症开发"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:venglustat",
+      "lead_id": "7bcd1f72252c06cf",
+      "title": "Sanofi's Infilbray wins first approval for neurological symptoms of Gaucher",
+      "score": 6.3,
+      "channel": "global",
+      "member_ids": [
+        "7bcd1f72252c06cf"
+      ],
+      "members": [
+        {
+          "title": "Sanofi's Infilbray wins first approval for neurological symptoms of Gaucher",
+          "url": "https://endpoints.news/sanofis-infilbray-wins-first-approval-for-neurological-symptoms-of-gaucher/",
+          "score": 6.3,
+          "reasoning": "FDA批准构成明确监管结果，且针对罕见病Gaucher病神经系统症状具有较高未满足需求。报道未提供底层试验的统计结论，首创性及全球范围仍需监管文件确认。"
+        }
+      ],
+      "reasoning": "FDA批准构成明确监管结果，且针对罕见病Gaucher病神经系统症状具有较高未满足需求。报道未提供底层试验的统计结论，首创性及全球范围仍需监管文件确认。",
+      "verify_todo": [
+        "核实FDA批准文件、适应症和商品名",
+        "获取支持性试验的终点、样本量及统计结果",
+        "核实是否确为全球首个用于该神经系统适应症的疗法"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
