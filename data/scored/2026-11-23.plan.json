@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-23",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:HMPL-523",
+      "lead_id": "736727aa5d9fd8c3",
+      "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+      "score": 8.0,
+      "channel": "china",
+      "member_ids": [
+        "736727aa5d9fd8c3"
+      ],
+      "members": [
+        {
+          "title": "国产首个Syk抑制剂正式获批！和黄医药醋酸索乐匹尼布片拿下ITP、wAIHA双适应症",
+          "url": "https://www.pharnexcloud.com/zixun/zcsp_395758",
+          "score": 8.0,
+          "reasoning": "中国创新药双适应症获批构成重要监管结果，素材还明确给出关键性Ⅲ期研究达到主要及次要终点的统计结论，而非仅罗列疗效数字。国产首创性、双适应症和血液系统疾病未满足需求共同提升报道价值。"
+        }
+      ],
+      "reasoning": "中国创新药双适应症获批构成重要监管结果，素材还明确给出关键性Ⅲ期研究达到主要及次要终点的统计结论，而非仅罗列疗效数字。国产首创性、双适应症和血液系统疾病未满足需求共同提升报道价值。",
+      "verify_todo": [
+        "核实ESLIM-01和ESLIM-02的注册号、样本量及完整统计分析结果",
+        "核实NMPA批准文号、适应症措辞和监管审评结论"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:galinpepimut-S",
+      "lead_id": "beab09823c142fbf",
+      "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+      "score": 8.0,
+      "channel": "global",
+      "member_ids": [
+        "beab09823c142fbf",
+        "0ca3179467a8597a"
+      ],
+      "members": [
+        {
+          "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+          "url": "https://www.pharnexcloud.com/zixun/sx_395246",
+          "score": 8.0,
+          "reasoning": "素材明确报告Ⅲ期研究达到预设主要终点，并提供OS和死亡风险效应量，属于明确的统计结论而非单纯疗效数字；高危AML治疗需求、随机对照设计和OS硬终点使其具备较高报道价值。"
+        },
+        {
+          "title": "<![CDATA[Galinpepimut-S Improves Overall Survival in Phase 3 REGAL Trial in AML]]>",
+          "url": "https://www.targetedonc.com/view/galinpepimut-s-regal-phase-3-overall-survival-aml",
+          "score": 6.8,
+          "reasoning": "标题报告Ⅲ期REGAL试验的OS改善，构成高价值疗效信号；但标题未明确说明是否达到预设主要终点，也缺少置信区间和显著性数据，因此不能按完整统计成功结论处理。"
+        }
+      ],
+      "reasoning": "素材明确报告Ⅲ期研究达到预设主要终点，并提供OS和死亡风险效应量，属于明确的统计结论而非单纯疗效数字；高危AML治疗需求、随机对照设计和OS硬终点使其具备较高报道价值。",
+      "_idx": 2
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:pembrolizumab",
+      "lead_id": "d0d4cca7aa4170a9",
+      "title": "2026 ESMO重磅｜PERSEE研究登陆Ann Oncol：帕博利珠单抗一线加化疗，进展风险降44%",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "d0d4cca7aa4170a9"
+      ],
+      "members": [
+        {
+          "title": "2026 ESMO重磅｜PERSEE研究登陆Ann Oncol：帕博利珠单抗一线加化疗，进展风险降44%",
+          "url": "https://bydrug.pharmcube.com/news/detail/465bb58f6e9095ce0ae3ff90625631ae",
+          "score": 6.8,
+          "reasoning": "素材称研究发表于Annals of Oncology并报告进展风险下降44%，数据成熟度较高；但标题未说明该数字对应的终点及统计显著性，因此目前属于有疗效数字支持但缺少完整统计结论的信号。"
+        }
+      ],
+      "reasoning": "素材称研究发表于Annals of Oncology并报告进展风险下降44%，数据成熟度较高；但标题未说明该数字对应的终点及统计显著性，因此目前属于有疗效数字支持但缺少完整统计结论的信号。",
+      "verify_todo": [
+        "核实PERSEE研究阶段、纳排标准及治疗线次",
+        "核实44%对应的终点、风险比、置信区间和p值",
+        "核实论文是否报告主要终点达到及安全性结果"
+      ],
+      "flags": [
+        "positive_data"
+      ],
+      "endpoint_verdict": "positive_data",
+      "_idx": 3
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:diranersen",
+      "lead_id": "678abefc7b20a56d",
+      "title": "Ⅱ期临床失败后，锁定最低剂量推Ⅲ期",
+      "score": 6.3,
+      "channel": "global",
+      "member_ids": [
+        "678abefc7b20a56d"
+      ],
+      "members": [
+        {
+          "title": "Ⅱ期临床失败后，锁定最低剂量推Ⅲ期",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_396988",
+          "score": 6.3,
+          "reasoning": "标题明确指向II期临床失败，属于需要重视的负面终点结论；素材同时以最低剂量组的减缓趋势支持后续III期，但该剂量表现可能是亚组或探索性信号，不能抵消整体失败结论。"
+        }
+      ],
+      "reasoning": "标题明确指向II期临床失败，属于需要重视的负面终点结论；素材同时以最低剂量组的减缓趋势支持后续III期，但该剂量表现可能是亚组或探索性信号，不能抵消整体失败结论。",
+      "verify_todo": [
+        "核实预设主要终点、失败原因、效应量及p值",
+        "核实60mg组结果属于预设分析还是事后亚组",
+        "核实后续III期试验设计、剂量选择依据和注册状态"
+      ],
+      "flags": [
+        "failed",
+        "subgroup"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 4
+    }
+  ]
+}
