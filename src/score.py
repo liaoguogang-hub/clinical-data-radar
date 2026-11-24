@@ -504,6 +504,37 @@ def score_items(items: list[RawItem], cfg: dict, client: OpenAI,
     pre = _prefilter(items, cfg)
     print(f"[score] 预筛后 {len(pre)} 条（原始 {len(items)}）")
 
+    # ---- 象信前置闸门（2026-11-25 新增）----
+    # 在昂贵的 LLM 打分之前，用象信先判断「这条到底是不是一条临床数据读出」，
+    # 把明显不是临床内容的条目（纯 BD / 人事 / 融资 / 综述 / 会议预告 /
+    # 财经股价）拦掉。只做这一个原子判断，不替代 LLM 打分。
+    #
+    # ⚠️ 判据与 BD 雷达【不同】：BD 问「有没有交易对手方」，
+    #    本雷达问「有没有具体的临床试验结果或关键节点」。
+    #    照搬 BD 的判据会把临床读出全拦掉。
+    #
+    # 安全边界：
+    #   - 闸门只拦「高置信度非临床」，低置信度一律放行给 LLM。
+    #   - 象信不可用（无 key / 未装包 / 报错）时整体旁路，绝不阻断生产。
+    #   - 可用配置关闭：scoring.yaml 里 llm.xiangxin_gate.enabled = false
+    if (cfg.get("llm") or {}).get("xiangxin_gate", {}).get("enabled", False):
+        try:
+            from xiangxin_gate import filter_items as _xx_filter
+            pre, gate_stats = _xx_filter(pre)
+            if gate_stats.get("enabled"):
+                blocked = gate_stats.get("blocked", 0)
+                total = gate_stats.get("total", 0)
+                pct = (blocked / total * 100) if total else 0
+                print(f"[xiangxin-gate] 拦掉 {blocked}/{total}（{pct:.1f}%）"
+                      f"非临床条目，剩 {len(pre)} 条送 LLM")
+            elif gate_stats.get("error"):
+                print(f"[xiangxin-gate] 旁路（{gate_stats['error']}），"
+                      f"{len(pre)} 条全部送 LLM")
+        except Exception as e:
+            print(f"[xiangxin-gate] 异常，全部放行: {type(e).__name__}: {e}")
+    else:
+        print("[xiangxin-gate] 未启用（scoring.yaml → llm.xiangxin_gate.enabled）")
+
     for i in range(0, len(pre), batch):
         chunk = pre[i:i + batch]
         user = f"请为以下 {len(chunk)} 条临床数据新闻打分。\n" \
