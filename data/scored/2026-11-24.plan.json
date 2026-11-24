@@ -1,162 +1,13 @@
 {
   "date": "2026-11-24",
-  "count": 6,
+  "count": 2,
   "plan": [
     {
       "type": "readout",
-      "cluster_key": "drug:toripalimab",
-      "lead_id": "9c0124013204cf74",
-      "title": "JCO重磅发表｜特瑞普利单抗联合化疗显著改善临界可切除或局部晚期胰腺癌EFS，为患者带来长生存新希望",
-      "score": 7.8,
-      "channel": "china",
-      "member_ids": [
-        "9c0124013204cf74"
-      ],
-      "members": [
-        {
-          "title": "JCO重磅发表｜特瑞普利单抗联合化疗显著改善临界可切除或局部晚期胰腺癌EFS，为患者带来长生存新希望",
-          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397278",
-          "score": 7.8,
-          "reasoning": "随机对照II期研究明确达到EFS主要终点，并报告HR 0.74、95% CI 0.60-0.92及P=0.007，依据是完整统计结论而非单纯疗效数字。胰腺癌未满足需求较高，但目前仍需III期验证。"
-        }
-      ],
-      "reasoning": "随机对照II期研究明确达到EFS主要终点，并报告HR 0.74、95% CI 0.60-0.92及P=0.007，依据是完整统计结论而非单纯疗效数字。胰腺癌未满足需求较高，但目前仍需III期验证。",
-      "verify_todo": [
-        "核实JCO原文、试验注册号和完整样本量",
-        "核实OS成熟度及预设亚组分析是否属于探索性分析",
-        "核实后续III期研究计划"
-      ],
-      "flags": [
-        "met"
-      ],
-      "endpoint_verdict": "met",
-      "_idx": 1
-    },
-    {
-      "type": "milestone",
-      "cluster_key": "drug:hs-10374",
-      "lead_id": "b8eed5efd00c5158",
-      "title": "国产首个！翰森制药氘索昔替尼上市申请获受理，1类新药TYK2变构抑制剂直指成人中重度斑块状银屑病",
-      "score": 7.6,
-      "channel": "china",
-      "member_ids": [
-        "b8eed5efd00c5158"
-      ],
-      "members": [
-        {
-          "title": "国产首个！翰森制药氘索昔替尼上市申请获受理，1类新药TYK2变构抑制剂直指成人中重度斑块状银屑病",
-          "url": "https://www.pharnexcloud.com/zixun/zcsp_397143",
-          "score": 7.6,
-          "reasoning": "国产TYK2变构抑制剂上市申请获CDE受理，且此前III期研究明确达到共同主要终点，构成重要注册进展。依据是监管受理及公司披露的终点结论，但素材缺少样本量和完整统计量。"
-        }
-      ],
-      "reasoning": "国产TYK2变构抑制剂上市申请获CDE受理，且此前III期研究明确达到共同主要终点，构成重要注册进展。依据是监管受理及公司披露的终点结论，但素材缺少样本量和完整统计量。",
-      "verify_todo": [
-        "核实CDE受理号、优先审评资格及审评时限",
-        "核实支持上市的两项III期试验名称、样本量及统计结果",
-        "核实PASI 75和sPGA 0/1共同主要终点的效应值与P值"
-      ],
-      "flags": [
-        "met"
-      ],
-      "endpoint_verdict": "met",
-      "_idx": 2
-    },
-    {
-      "type": "readout",
-      "cluster_key": "drug:rolapitant-palonosetron",
-      "lead_id": "4f697a35963128c3",
-      "title": "恒瑞医药瑞坦宁®新适应症获批！覆盖中度致吐性化疗止吐，今年第6款创新药相关进展落地",
-      "score": 7.5,
-      "channel": "china",
-      "member_ids": [
-        "4f697a35963128c3"
-      ],
-      "members": [
-        {
-          "title": "恒瑞医药瑞坦宁®新适应症获批！覆盖中度致吐性化疗止吐，今年第6款创新药相关进展落地",
-          "url": "https://www.pharnexcloud.com/zixun/zcsp_397139",
-          "score": 7.5,
-          "reasoning": "新增适应症获NMPA批准，且随机双盲III期研究以完全缓解率评价止吐疗效并报告P值。依据是具有统计检验的临床结果及监管结论，但止吐领域竞争较充分。"
-        }
-      ],
-      "reasoning": "新增适应症获NMPA批准，且随机双盲III期研究以完全缓解率评价止吐疗效并报告P值。依据是具有统计检验的临床结果及监管结论，但止吐领域竞争较充分。",
-      "verify_todo": [
-        "核实PROTECT试验注册号、样本量及主要终点定义",
-        "核实各时间窗CR率的置信区间和完整安全性数据",
-        "核实与现有三联止吐方案的直接比较证据"
-      ],
-      "flags": [
-        "met"
-      ],
-      "endpoint_verdict": "met",
-      "_idx": 3
-    },
-    {
-      "type": "landscape",
-      "cluster_key": "drug:quemliclustat",
-      "lead_id": "dd20f4c5340cb109",
-      "title": "<![CDATA[Quemliclustat Plus Gemcitabine/Nab-Paclitaxel Fails to Improve OS in Metastatic Pancreatic Cancer]]>",
-      "score": 8.6,
-      "channel": "global",
-      "member_ids": [
-        "dd20f4c5340cb109",
-        "04db0ff1ea6f38e9"
-      ],
-      "members": [
-        {
-          "title": "<![CDATA[Quemliclustat Plus Gemcitabine/Nab-Paclitaxel Fails to Improve OS in Metastatic Pancreatic Cancer]]>",
-          "url": "https://www.onclive.com/view/quemliclustat-plus-gemcitabine-nab-paclitaxel-fails-to-improve-os-in-metastatic-pancreatic-cancer",
-          "score": 8.6,
-          "reasoning": "标题明确报告quemliclustat联合化疗未改善转移性胰腺癌OS，属于主要终点失败。依据是明确的OS未改善结论，而非仅有应答率等疗效数字；高未满足需求进一步提升了行业关注度。"
-        },
-        {
-          "title": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
-          "url": "https://endpoints.news/arcus-stops-phase-3-study-of-cd73-inhibitor-novartis-leqvio-eases-heart-event-risk/",
-          "score": 8.5,
-          "reasoning": "III期PRISM-1研究被终止，是值得重点追踪的晚期开发挫折。依据是明确的研究终止状态，但素材尚未说明终止原因及是否与主要终点或安全性有关。"
-        }
-      ],
-      "reasoning": "标题明确报告quemliclustat联合化疗未改善转移性胰腺癌OS，属于主要终点失败。依据是明确的OS未改善结论，而非仅有应答率等疗效数字；高未满足需求进一步提升了行业关注度。",
-      "_idx": 4
-    },
-    {
-      "type": "readout",
       "cluster_key": null,
-      "lead_id": "1daec7248b800da3",
-      "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
-      "score": 6.8,
-      "channel": "global",
-      "member_ids": [
-        "1daec7248b800da3"
-      ],
-      "members": [
-        {
-          "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
-          "url": "https://bydrug.pharmcube.com/news/detail/3993663117760f1227df56f9a76d467d",
-          "score": 6.8,
-          "reasoning": "标题称“现货”癌症疫苗III期告捷并给出死亡风险下降41%，若原始研究确认则具有较高价值。但目前只是媒体标题中的疗效数字，未提供HR、置信区间、P值或明确主要终点，不能按确证统计结论处理。"
-        }
-      ],
-      "reasoning": "标题称“现货”癌症疫苗III期告捷并给出死亡风险下降41%，若原始研究确认则具有较高价值。但目前只是媒体标题中的疗效数字，未提供HR、置信区间、P值或明确主要终点，不能按确证统计结论处理。",
-      "verify_todo": [
-        "核实药物名称、疫苗类别和对应III期试验",
-        "核实死亡风险下降41%对应的HR、置信区间及P值",
-        "核实主要终点是否正式达到及会议报告出处",
-        "核实“全球首个现货癌症疫苗”的限定条件"
-      ],
-      "flags": [
-        "positive_data"
-      ],
-      "endpoint_verdict": "positive_data",
-      "_idx": 5
-    },
-    {
-      "type": "readout",
-      "cluster_key": "target:mRNA-cancer-vaccine",
       "lead_id": "87dcc4c74cb53fa8",
       "title": "82.2%实现2年零复发！全球首个mRNA癌症疫苗3期数据震撼发布！",
-      "score": 6.2,
+      "score": 7.1,
       "channel": "global",
       "member_ids": [
         "87dcc4c74cb53fa8"
@@ -165,20 +16,55 @@
         {
           "title": "82.2%实现2年零复发！全球首个mRNA癌症疫苗3期数据震撼发布！",
           "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397292",
-          "score": 6.2,
-          "reasoning": "III期mRNA癌症疫苗报告2年零复发比例82.2%，规模和首创性使其具备较高报道价值，但标题仅提供疗效数字，未说明是否达到预设主要终点或给出统计检验。发布日期未知。"
+          "score": 7.1,
+          "reasoning": "千例级III期、两年无复发比例及NEJM接收信息使其具有较高潜在报道价值。但标题仅提供疗效数字，尚未明确无事件生存或无复发生存主要终点是否按统计假设达成。"
         }
       ],
-      "reasoning": "III期mRNA癌症疫苗报告2年零复发比例82.2%，规模和首创性使其具备较高报道价值，但标题仅提供疗效数字，未说明是否达到预设主要终点或给出统计检验。发布日期未知。",
+      "reasoning": "千例级III期、两年无复发比例及NEJM接收信息使其具有较高潜在报道价值。但标题仅提供疗效数字，尚未明确无事件生存或无复发生存主要终点是否按统计假设达成。",
       "verify_todo": [
-        "核实候选疫苗名称、试验注册号、分期、样本量及适应症",
-        "核实82.2%的分母、随访成熟度和估计方法",
-        "核实主要终点、风险比、置信区间及是否达到统计显著性",
-        "核实“全球首个”的具体比较口径"
+        "核实候选mRNA癌症疫苗名称、申办方和适应症",
+        "核实1137例的随机分组及完整终点定义",
+        "核实主要终点是否达到、P值和置信区间",
+        "核实NEJM接收状态与ESMO报告形式",
+        "核实“全球首个”声明范围"
       ],
-      "flags": [],
+      "flags": [
+        "positive_data"
+      ],
       "endpoint_verdict": "positive_data",
-      "_idx": 6
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:pembrolizumab",
+      "lead_id": "c9d634f580338c1d",
+      "title": "2026 ESMO重磅｜PERSEE研究登陆Ann Oncol：帕博利珠单抗一线加化疗，进展风险降44%",
+      "score": 6.8,
+      "channel": "global",
+      "member_ids": [
+        "c9d634f580338c1d"
+      ],
+      "members": [
+        {
+          "title": "2026 ESMO重磅｜PERSEE研究登陆Ann Oncol：帕博利珠单抗一线加化疗，进展风险降44%",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397156",
+          "score": 6.8,
+          "reasoning": "标题给出44%的进展风险下降并称结果发表于Ann Oncology，属于含效应量的注册研究信号，明显强于单纯疗效描述；PERSEE的随机设计也使其具备较高报道价值。仍需核实HR、置信区间、P值及预设主要终点，不能只根据标题扩写具体疾病和获益结论；发布日期未知。"
+        }
+      ],
+      "reasoning": "标题给出44%的进展风险下降并称结果发表于Ann Oncology，属于含效应量的注册研究信号，明显强于单纯疗效描述；PERSEE的随机设计也使其具备较高报道价值。仍需核实HR、置信区间、P值及预设主要终点，不能只根据标题扩写具体疾病和获益结论；发布日期未知。",
+      "verify_todo": [
+        "核实PERSEE的试验编号、阶段、疾病适应症及入组人群",
+        "核实44%对应的HR、置信区间、P值和主要终点是否确为无进展生存",
+        "核实总生存期、不良事件和后续治疗结果",
+        "确认Annals of Oncology论文的DOI及正式发表信息"
+      ],
+      "flags": [
+        "met",
+        "positive_data"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
     }
   ]
 }
