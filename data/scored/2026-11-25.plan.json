@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-25",
+  "count": 3,
+  "plan": [
+    {
+      "type": "landscape",
+      "cluster_key": "drug:inclisiran",
+      "lead_id": "f4bb2822855b2eaa",
+      "title": "诺华公司siRNA疗法英克司兰在动脉粥样硬化性心血管疾病三期达标：16,124 例入组",
+      "score": 8.3,
+      "channel": "global",
+      "member_ids": [
+        "f4bb2822855b2eaa",
+        "739363fee021a3b2",
+        "74cbc66df9a7a009"
+      ],
+      "members": [
+        {
+          "title": "诺华公司siRNA疗法英克司兰在动脉粥样硬化性心血管疾病三期达标：16,124 例入组",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397794",
+          "score": 8.3,
+          "reasoning": "16124例随机III期ORION-4被报道达到主要终点，是大型心血管结局试验的明确统计结论；条目同时指出风险比、事件数和置信区间未披露，需避免把顶线结论扩写为具体疗效数值。"
+        },
+        {
+          "title": "诺华英半年一针降脂药英克司兰 Ⅲ 期达到主要终点",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397634",
+          "score": 8.3,
+          "reasoning": "该条明确报告英克司兰心血管结局III期达到主要终点，构成基于统计结论的重要读出；但摘要未提供风险比、绝对风险、事件数、置信区间或随访时间。"
+        },
+        {
+          "title": "1.6万人5年，siRNA首个心血管III期结果终于来了",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397785",
+          "score": 8.2,
+          "reasoning": "公司顶线公告明确称ORION-4达到主要终点且MACE风险差异具有统计学显著性，属于基于统计结论的III期心血管结局读出；风险比、事件数和置信区间尚未公开，需在报道中保留这一数据缺口。"
+        }
+      ],
+      "reasoning": "16124例随机III期ORION-4被报道达到主要终点，是大型心血管结局试验的明确统计结论；条目同时指出风险比、事件数和置信区间未披露，需避免把顶线结论扩写为具体疗效数值。",
+      "_idx": 1
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:giredestrant",
+      "lead_id": "883224809dc99a59",
+      "title": "First Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
+      "score": 7.5,
+      "channel": "global",
+      "member_ids": [
+        "883224809dc99a59",
+        "531909e627cc6d6d"
+      ],
+      "members": [
+        {
+          "title": "First Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
+          "url": "https://www.medpagetoday.com/hematologyoncology/breastcancer/124010",
+          "score": 7.5,
+          "reasoning": "监管批准将giredestrant扩展至早期乳腺癌，属于具有差异化治疗格局意义的临床进展；报道需补充支持辅助治疗批准的关键终点、绝对获益和随访数据。"
+        },
+        {
+          "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+          "url": "https://endpoints.news/roche-wins-second-fda-approval-for-breast-cancer-pill-opening-up-bigger-market/",
+          "score": 7.3,
+          "reasoning": "该条报道giredestrant获得早期乳腺癌相关监管批准，是重要适应症扩展；但摘要没有提供支持批准的临床效应量，无法判断获益幅度和长期数据成熟度。"
+        }
+      ],
+      "reasoning": "监管批准将giredestrant扩展至早期乳腺癌，属于具有差异化治疗格局意义的临床进展；报道需补充支持辅助治疗批准的关键终点、绝对获益和随访数据。",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:ribitol",
+      "lead_id": "ab975c4e3f9a3ea6",
+      "title": "Rare Muscle Disease Gets Its First Approved Therapy",
+      "score": 8.2,
+      "channel": "global",
+      "member_ids": [
+        "ab975c4e3f9a3ea6"
+      ],
+      "members": [
+        {
+          "title": "Rare Muscle Disease Gets Its First Approved Therapy",
+          "url": "https://www.medpagetoday.com/neurology/generalneurology/124021",
+          "score": 8.2,
+          "reasoning": "监管批准使其成为该罕见肌肉病领域的重要首创治疗进展；摘要支持监管结论，但未披露注册试验的主要终点、效应量及长期随访数据。"
+        }
+      ],
+      "reasoning": "监管批准使其成为该罕见肌肉病领域的重要首创治疗进展；摘要支持监管结论，但未披露注册试验的主要终点、效应量及长期随访数据。",
+      "verify_todo": [
+        "核实批准依据的试验名称、阶段、主要终点和效应量",
+        "核实长期功能改善及安全性数据",
+        "核实患者规模、年龄范围和批准后的上市状态"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 3
+    }
+  ]
+}
