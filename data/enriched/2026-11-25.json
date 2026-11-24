@@ -1,956 +1,8 @@
 {
-  "ab975c4e3f9a3ea6": {
-    "id": "ab975c4e3f9a3ea6",
-    "title": "Rare Muscle Disease Gets Its First Approved Therapy",
-    "score": 8.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "beab09823c142fbf": {
-    "id": "beab09823c142fbf",
-    "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
-    "score": 8.2,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:III期成功"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:III期成功"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:III期成功",
-    "registry": {
-      "best": {
-        "nct": "NCT04588922",
-        "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
-        "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
-        "acronym": "",
-        "status": "RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "Sellas Life Sciences Group",
-        "conditions": [
-          "Hematologic Malignancies"
-        ],
-        "interventions": [
-          "SLS009",
-          "venetoclax",
-          "azacitidine"
-        ],
-        "primary_outcomes": [
-          "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
-          "Safety and Tolerability: adverse events (AEs)",
-          "Efficacy: ORR"
-        ],
-        "enrollment": 160,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2021-05-10",
-        "primary_completion": "2026-12-30",
-        "completion": "2027-12-31",
-        "last_update": "2026-09-03",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "China"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04588922",
-          "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
-          "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Sellas Life Sciences Group",
-          "conditions": [
-            "Hematologic Malignancies"
-          ],
-          "interventions": [
-            "SLS009",
-            "venetoclax",
-            "azacitidine"
-          ],
-          "primary_outcomes": [
-            "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
-            "Safety and Tolerability: adverse events (AEs)",
-            "Efficacy: ORR"
-          ],
-          "enrollment": 160,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2021-05-10",
-          "primary_completion": "2026-12-30",
-          "completion": "2027-12-31",
-          "last_update": "2026-09-03",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "China"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "SLS009"
-        ],
-        "sponsor": [
-          "摩熵医药",
-          "科学院微生物",
-          "医药科技股份",
-          "入驻摩熵医药"
-        ],
-        "sponsor_en": [
-          "摩熵医药",
-          "科学院微生物",
-          "医药科技股份",
-          "入驻摩熵医药"
-        ]
-      },
-      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04588922），写入前需确认是否同一适应症"
-    }
-  },
-  "04db0ff1ea6f38e9": {
-    "id": "04db0ff1ea6f38e9",
-    "title": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
-    "score": 7.8,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {
-        "nct": "NCT04381832",
-        "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
-        "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
-        "acronym": "",
-        "status": "COMPLETED",
-        "why_stopped": "",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "Arcus Biosciences, Inc.",
-        "conditions": [
-          "Prostatic Neoplasms, Castration-Resistant",
-          "Androgen-Resistant Prostatic Neoplasms",
-          "Castration Resistant Prostatic Neoplasms",
-          "Prostatic Cancer, Castration-Resistant"
-        ],
-        "interventions": [
-          "Etrumadenant",
-          "Zimberelimab",
-          "Quemliclustat",
-          "Enzalutamide",
-          "Docetaxel",
-          "SG"
-        ],
-        "primary_outcomes": [
-          "Objective Response Rate (ORR) in Stage 1 and 2",
-          "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
-        ],
-        "enrollment": 173,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2020-07-07",
-        "primary_completion": "2024-08-30",
-        "completion": "2024-08-30",
-        "last_update": "2025-07-22",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Canada"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04381832",
-          "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
-          "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Arcus Biosciences, Inc.",
-          "conditions": [
-            "Prostatic Neoplasms, Castration-Resistant",
-            "Androgen-Resistant Prostatic Neoplasms",
-            "Castration Resistant Prostatic Neoplasms",
-            "Prostatic Cancer, Castration-Resistant"
-          ],
-          "interventions": [
-            "Etrumadenant",
-            "Zimberelimab",
-            "Quemliclustat",
-            "Enzalutamide",
-            "Docetaxel",
-            "SG"
-          ],
-          "primary_outcomes": [
-            "Objective Response Rate (ORR) in Stage 1 and 2",
-            "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
-          ],
-          "enrollment": 173,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2020-07-07",
-          "primary_completion": "2024-08-30",
-          "completion": "2024-08-30",
-          "last_update": "2025-07-22",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Canada"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT05676931",
-          "title": "Study With Various Immunotherapy Treatments in Participants With Lung Cancer",
-          "official_title": "A Phase II, Open-label, Platform Study, to Evaluate Immunotherapy-based Combinations in Participants With Advanced Non-Small Cell Lung Cancer",
-          "acronym": "EDGE-Lung",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Gilead Sciences",
-          "conditions": [
-            "Advanced Non-Small Cell Lung Cancer"
-          ],
-          "interventions": [
-            "Domvanalimab",
-            "Quemliclustat",
-            "Zimberelimab",
-            "Docetaxel",
-            "Platinum-Based Doublet"
-          ],
-          "primary_outcomes": [
-            "Objective response rate (ORR) as measured by Response Evaluation Criteria in Solid Tumors (RECIST v1.1)",
-            "The incidence and severity of adverse events (AEs) and serious adverse events (SAEs)"
-          ],
-          "enrollment": 400,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2023-02-21",
-          "primary_completion": "2027-12",
-          "completion": "2027-12",
-          "last_update": "2026-06-01",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Australia",
-            "France",
-            "Georgia",
-            "Italy",
-            "Poland",
-            "South Korea",
-            "Spain",
-            "Taiwan",
-            "United Kingdom"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06048133",
-          "title": "Study of Gemcitabine, Cisplatin, AB680 and AB122 During First Line Treatment of Advanced Biliary Tract Cancers (QUIC)",
-          "official_title": "Study of Gemcitabine, Cisplatin, Quemliclustat (AB680) and Zimberelimab (AB122) During First-line Treatment of Advanced Biliary Tract Cancers (QUIC)",
-          "acronym": "",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Nataliya Uboha",
-          "conditions": [
-            "Biliary Tract Carcinoma",
-            "Cholangiocarcinoma",
-            "Bile Duct Cancer"
-          ],
-          "interventions": [
-            "Gemcitabine",
-            "Cisplatin",
-            "Zimberelimab",
-            "Quemliclustat"
-          ],
-          "primary_outcomes": [
-            "Estimate the progression free survival (PFS) with gemcitabine, cisplatin, quemliclustat (AB680) and zimberelimab (AB122) in patients with advanced BTCs."
-          ],
-          "enrollment": 33,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2024-03-08",
-          "primary_completion": "2026-12",
-          "completion": "2027-07",
-          "last_update": "2026-08-17",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "quemliclustat"
-        ],
-        "sponsor": [
-          "Arnatar",
-          "Arcus"
-        ],
-        "sponsor_en": [
-          "Arnatar",
-          "Arcus"
-        ]
-      },
-      "note": ""
-    }
-  },
-  "74cbc66df9a7a009": {
-    "id": "74cbc66df9a7a009",
-    "title": "1.6万人5年，siRNA首个心血管III期结果终于来了",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:达到主要终点"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
-    "registry": {
-      "best": {
-        "nct": "NCT04929249",
-        "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-        "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-        "acronym": "V-INITIATE",
-        "status": "COMPLETED",
-        "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Novartis Pharmaceuticals",
-        "conditions": [
-          "Atherosclerotic Cardiovascular Disease"
-        ],
-        "interventions": [
-          "Inclisiran"
-        ],
-        "primary_outcomes": [
-          "Percent Change From Baseline in LDL-C",
-          "Percentage of Participants Who Discontinued Statin Therapy"
-        ],
-        "enrollment": 450,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-06-25",
-        "primary_completion": "2023-09-15",
-        "completion": "2023-09-15",
-        "last_update": "2025-05-16",
-        "results_first_post": "2024-09-19",
-        "has_results": true,
-        "countries": [
-          "United States"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04929249",
-          "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-          "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-          "acronym": "V-INITIATE",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Novartis Pharmaceuticals",
-          "conditions": [
-            "Atherosclerotic Cardiovascular Disease"
-          ],
-          "interventions": [
-            "Inclisiran"
-          ],
-          "primary_outcomes": [
-            "Percent Change From Baseline in LDL-C",
-            "Percentage of Participants Who Discontinued Statin Therapy"
-          ],
-          "enrollment": 450,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-06-25",
-          "primary_completion": "2023-09-15",
-          "completion": "2023-09-15",
-          "last_update": "2025-05-16",
-          "results_first_post": "2024-09-19",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03159416",
-          "title": "A Study of Inclisiran in Participants With Renal Impairment Compared to Participants With Normal Renal Function (ORION-7)",
-          "official_title": "A Single-Dose, Open-Label, Parallel-Group Study to Assess the Pharmacokinetics of Inclisiran in Subjects With Renal Impairment Compared to Subjects With Normal Renal Function (ORION-7)",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1",
-          "sponsor": "The Medicines Company",
-          "conditions": [
-            "Renal Impairment"
-          ],
-          "interventions": [
-            "Inclisiran"
-          ],
-          "primary_outcomes": [
-            "Pharmacokinetics: Maximum Observed Plasma Concentration (Cmax) Of Inclisiran",
-            "Pharmacokinetics: Tmax And t1/2 Of Inclisiran",
-            "Pharmacokinetics: AUC0-24, AUC0-48, And AUC0-inf Of Inclisiran",
-            "Pharmacokinetics: Apparent Total Clearance (CL/F) Following SC Administration Of Inclisiran",
-            "Pharmacokinetics: Vd/F During The Terminal Elimination Phase Following SC Administration Of Inclisiran",
-            "Pharmacokinetics: Amount Excreted Unchanged In Urine (Ae) Of Inclisiran Over 48 Hours Post-Dose",
-            "Pharmacokinetics: Fraction Excreted (Fe) Of Inclisiran",
-            "Pharmacokinetics: Renal Clearance (CLr) Of Inclisiran"
-          ],
-          "enrollment": 31,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-06-22",
-          "primary_completion": "2018-03-24",
-          "completion": "2018-03-24",
-          "last_update": "2018-11-09",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "New Zealand"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07023445",
-          "title": "Patterns of Inclisiran Use in the Real World: An Analysis of US Databases",
-          "official_title": "Patterns of Inclisiran Use in the Real World: A Retrospective Analysis of US Databases",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "",
-          "sponsor": "Novartis Pharmaceuticals",
-          "conditions": [
-            "Atherosclerotic Cardiovascular Disease",
-            "Familial Hypercholesterolemia"
-          ],
-          "interventions": [],
-          "primary_outcomes": [
-            "Number of Patients per Demographic Category",
-            "Number of Patients per Clinical Characteristic Category"
-          ],
-          "enrollment": 37688,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2023-01-20",
-          "primary_completion": "2024-06-28",
-          "completion": "2024-06-28",
-          "last_update": "2025-06-17",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "inclisiran"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": ""
-    }
-  },
-  "2d8e108739ee0389": {
-    "id": "2d8e108739ee0389",
-    "title": "First New Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "531909e627cc6d6d": {
-    "id": "531909e627cc6d6d",
-    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:wins"
-        ]
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "达到表述:wins"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "299813636bcfdfe2": {
-    "id": "299813636bcfdfe2",
-    "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
-    "score": 7.4,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "16e2507b02fe4674": {
-    "id": "16e2507b02fe4674",
-    "title": "<![CDATA[Arcus Ends Quemliclustat Phase 3 Trial in Metastatic Pancreatic Cancer]]>",
-    "score": 8.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {
-        "nct": "NCT05688215",
-        "title": "Zimberelimab and Quemliclustat in Combination With Chemotherapy for the Treatment of Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
-        "official_title": "A Pilot Study of Zimberelimab and Quemliclustat Combination With Chemotherapy in Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
-        "acronym": "",
-        "status": "RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE1, PHASE2",
-        "sponsor": "Jonsson Comprehensive Cancer Center",
-        "conditions": [
-          "Borderline Resectable Pancreatic Adenocarcinoma",
-          "Locally Advanced Pancreatic Ductal Adenocarcinoma"
-        ],
-        "interventions": [
-          "Biospecimen Collection",
-          "Computed Tomography",
-          "Core Biopsy",
-          "Fluorouracil",
-          "Irinotecan",
-          "Leucovorin",
-          "Leucovorin Calcium",
-          "Oxaliplatin",
-          "Quemliclustat",
-          "Zimberelimab"
-        ],
-        "primary_outcomes": [
-          "Incidence of adverse events (BPRC Cohort)",
-          "Resection rate (BPRC Cohort)",
-          "Progression free survival (PFS) (LAPC Cohort)",
-          "Number of participants who develop clinically relevant pancreatic fistula (BPRC Cohort)"
-        ],
-        "enrollment": 141,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2023-03-07",
-        "primary_completion": "2027-12-31",
-        "completion": "2028-12-31",
-        "last_update": "2026-11-09",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT05688215",
-          "title": "Zimberelimab and Quemliclustat in Combination With Chemotherapy for the Treatment of Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
-          "official_title": "A Pilot Study of Zimberelimab and Quemliclustat Combination With Chemotherapy in Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Jonsson Comprehensive Cancer Center",
-          "conditions": [
-            "Borderline Resectable Pancreatic Adenocarcinoma",
-            "Locally Advanced Pancreatic Ductal Adenocarcinoma"
-          ],
-          "interventions": [
-            "Biospecimen Collection",
-            "Computed Tomography",
-            "Core Biopsy",
-            "Fluorouracil",
-            "Irinotecan",
-            "Leucovorin",
-            "Leucovorin Calcium",
-            "Oxaliplatin",
-            "Quemliclustat",
-            "Zimberelimab"
-          ],
-          "primary_outcomes": [
-            "Incidence of adverse events (BPRC Cohort)",
-            "Resection rate (BPRC Cohort)",
-            "Progression free survival (PFS) (LAPC Cohort)",
-            "Number of participants who develop clinically relevant pancreatic fistula (BPRC Cohort)"
-          ],
-          "enrollment": 141,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2023-03-07",
-          "primary_completion": "2027-12-31",
-          "completion": "2028-12-31",
-          "last_update": "2026-11-09",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06048484",
-          "title": "Combination Therapy in Patients With Localized Pancreatic Ductal Adenocarcinoma",
-          "official_title": "A Phase 2, Open-Label, Multicenter, Randomized Study Evaluating Neoadjuvant Therapy Targeting the Adenosine Immunosuppressive Pathway in Combination With Immune Checkpoint Blockade and Radiation Therapy in Patients With Advanced PANCreatic Ductal Adenocarcinoma Who Are Candidates for Surgical Resection",
-          "acronym": "AIRPanc",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Gulam Manji",
-          "conditions": [
-            "Pancreatic Ductal Adenocarcinoma"
-          ],
-          "interventions": [
-            "Stereotactic body radiotherapy (SBRT)",
-            "Zimberelimab",
-            "Quemliclustat",
-            "Etrumadenant",
-            "Modified FOLFIRINOX"
-          ],
-          "primary_outcomes": [
-            "Change in the number of intratumoral CD8+ T-cells"
-          ],
-          "enrollment": 60,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2024-05-10",
-          "primary_completion": "2027-04",
-          "completion": "2027-04",
-          "last_update": "2026-02-27",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT04381832",
-          "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
-          "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1, PHASE2",
-          "sponsor": "Arcus Biosciences, Inc.",
-          "conditions": [
-            "Prostatic Neoplasms, Castration-Resistant",
-            "Androgen-Resistant Prostatic Neoplasms",
-            "Castration Resistant Prostatic Neoplasms",
-            "Prostatic Cancer, Castration-Resistant"
-          ],
-          "interventions": [
-            "Etrumadenant",
-            "Zimberelimab",
-            "Quemliclustat",
-            "Enzalutamide",
-            "Docetaxel",
-            "SG"
-          ],
-          "primary_outcomes": [
-            "Objective Response Rate (ORR) in Stage 1 and 2",
-            "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
-          ],
-          "enrollment": 173,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2020-07-07",
-          "primary_completion": "2024-08-30",
-          "completion": "2024-08-30",
-          "last_update": "2025-07-22",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Canada"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "Quemliclustat"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": ""
-    }
-  },
   "f4bb2822855b2eaa": {
     "id": "f4bb2822855b2eaa",
     "title": "诺华公司siRNA疗法英克司兰在动脉粥样硬化性心血管疾病三期达标：16,124 例入组",
-    "score": 7.5,
+    "score": 7.4,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1161,10 +213,546 @@
       "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04428476），写入前需确认是否同一适应症"
     }
   },
+  "beab09823c142fbf": {
+    "id": "beab09823c142fbf",
+    "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+    "score": 8.1,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:III期成功"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:III期成功"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:III期成功",
+    "registry": {
+      "best": {
+        "nct": "NCT04588922",
+        "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+        "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Sellas Life Sciences Group",
+        "conditions": [
+          "Hematologic Malignancies"
+        ],
+        "interventions": [
+          "SLS009",
+          "venetoclax",
+          "azacitidine"
+        ],
+        "primary_outcomes": [
+          "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
+          "Safety and Tolerability: adverse events (AEs)",
+          "Efficacy: ORR"
+        ],
+        "enrollment": 160,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2021-05-10",
+        "primary_completion": "2026-12-30",
+        "completion": "2027-12-31",
+        "last_update": "2026-09-03",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "China"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04588922",
+          "title": "Study of SLS009 (Formerly GFH009) a Potent Highly Selective CDK9 Inhibitor in Patients With Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+          "official_title": "A Phase I/IIa, Open-Label Dose Escalation and Dose Expansion Study of Intravenous GFH009 Single Agent and in Combination With Venetoclax and Azacitidine in Patients With Relapsed/Refractory Hematologic Malignancies and High-Risk Newly Diagnosed AML",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Sellas Life Sciences Group",
+          "conditions": [
+            "Hematologic Malignancies"
+          ],
+          "interventions": [
+            "SLS009",
+            "venetoclax",
+            "azacitidine"
+          ],
+          "primary_outcomes": [
+            "Safety and Tolerability: Dose Limiting Toxicities (DLTs)",
+            "Safety and Tolerability: adverse events (AEs)",
+            "Efficacy: ORR"
+          ],
+          "enrollment": 160,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2021-05-10",
+          "primary_completion": "2026-12-30",
+          "completion": "2027-12-31",
+          "last_update": "2026-09-03",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "SLS009"
+        ],
+        "sponsor": [
+          "摩熵医药",
+          "科学院微生物",
+          "医药科技股份",
+          "入驻摩熵医药"
+        ],
+        "sponsor_en": [
+          "摩熵医药",
+          "科学院微生物",
+          "医药科技股份",
+          "入驻摩熵医药"
+        ]
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04588922），写入前需确认是否同一适应症"
+    }
+  },
+  "ab975c4e3f9a3ea6": {
+    "id": "ab975c4e3f9a3ea6",
+    "title": "Rare Muscle Disease Gets Its First Approved Therapy",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "299813636bcfdfe2": {
+    "id": "299813636bcfdfe2",
+    "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "2d8e108739ee0389": {
+    "id": "2d8e108739ee0389",
+    "title": "First New Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "739363fee021a3b2": {
+    "id": "739363fee021a3b2",
+    "title": "诺华英半年一针降脂药英克司兰 Ⅲ 期达到主要终点",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Adimab"
+        ],
+        "sponsor": [
+          "大睿生物医药",
+          "信达生物制药",
+          "江苏豪森药业",
+          "瀚晖制药"
+        ],
+        "sponsor_en": [
+          "大睿生物医药",
+          "Innovent",
+          "Hansoh",
+          "瀚晖制药"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "531909e627cc6d6d": {
+    "id": "531909e627cc6d6d",
+    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+    "score": 6.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "74cbc66df9a7a009": {
+    "id": "74cbc66df9a7a009",
+    "title": "1.6万人5年，siRNA首个心血管III期结果终于来了",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT04929249",
+        "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+        "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+        "acronym": "V-INITIATE",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals",
+        "conditions": [
+          "Atherosclerotic Cardiovascular Disease"
+        ],
+        "interventions": [
+          "Inclisiran"
+        ],
+        "primary_outcomes": [
+          "Percent Change From Baseline in LDL-C",
+          "Percentage of Participants Who Discontinued Statin Therapy"
+        ],
+        "enrollment": 450,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-06-25",
+        "primary_completion": "2023-09-15",
+        "completion": "2023-09-15",
+        "last_update": "2025-05-16",
+        "results_first_post": "2024-09-19",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04929249",
+          "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+          "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+          "acronym": "V-INITIATE",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Atherosclerotic Cardiovascular Disease"
+          ],
+          "interventions": [
+            "Inclisiran"
+          ],
+          "primary_outcomes": [
+            "Percent Change From Baseline in LDL-C",
+            "Percentage of Participants Who Discontinued Statin Therapy"
+          ],
+          "enrollment": 450,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-06-25",
+          "primary_completion": "2023-09-15",
+          "completion": "2023-09-15",
+          "last_update": "2025-05-16",
+          "results_first_post": "2024-09-19",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03159416",
+          "title": "A Study of Inclisiran in Participants With Renal Impairment Compared to Participants With Normal Renal Function (ORION-7)",
+          "official_title": "A Single-Dose, Open-Label, Parallel-Group Study to Assess the Pharmacokinetics of Inclisiran in Subjects With Renal Impairment Compared to Subjects With Normal Renal Function (ORION-7)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "The Medicines Company",
+          "conditions": [
+            "Renal Impairment"
+          ],
+          "interventions": [
+            "Inclisiran"
+          ],
+          "primary_outcomes": [
+            "Pharmacokinetics: Maximum Observed Plasma Concentration (Cmax) Of Inclisiran",
+            "Pharmacokinetics: Tmax And t1/2 Of Inclisiran",
+            "Pharmacokinetics: AUC0-24, AUC0-48, And AUC0-inf Of Inclisiran",
+            "Pharmacokinetics: Apparent Total Clearance (CL/F) Following SC Administration Of Inclisiran",
+            "Pharmacokinetics: Vd/F During The Terminal Elimination Phase Following SC Administration Of Inclisiran",
+            "Pharmacokinetics: Amount Excreted Unchanged In Urine (Ae) Of Inclisiran Over 48 Hours Post-Dose",
+            "Pharmacokinetics: Fraction Excreted (Fe) Of Inclisiran",
+            "Pharmacokinetics: Renal Clearance (CLr) Of Inclisiran"
+          ],
+          "enrollment": 31,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-06-22",
+          "primary_completion": "2018-03-24",
+          "completion": "2018-03-24",
+          "last_update": "2018-11-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "New Zealand"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07023445",
+          "title": "Patterns of Inclisiran Use in the Real World: An Analysis of US Databases",
+          "official_title": "Patterns of Inclisiran Use in the Real World: A Retrospective Analysis of US Databases",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Atherosclerotic Cardiovascular Disease",
+            "Familial Hypercholesterolemia"
+          ],
+          "interventions": [],
+          "primary_outcomes": [
+            "Number of Patients per Demographic Category",
+            "Number of Patients per Clinical Characteristic Category"
+          ],
+          "enrollment": 37688,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-01-20",
+          "primary_completion": "2024-06-28",
+          "completion": "2024-06-28",
+          "last_update": "2025-06-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "inclisiran"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
   "0aca3b4f3966f5d6": {
     "id": "0aca3b4f3966f5d6",
     "title": "<![CDATA[Dr Shaw Breaks Down the Data Behind Neladalkib’s FDA Approval in ALK+ NSCLC]]>",
-    "score": 7.0,
+    "score": 6.4,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1199,7 +787,7 @@
   "8239dffe4a218e40": {
     "id": "8239dffe4a218e40",
     "title": "口服STAT6蛋白降解剂2b期达到主要终点；创纪录！猪肾移植患者达到重要里程碑……｜产业新闻",
-    "score": 7.0,
+    "score": 7.2,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1426,96 +1014,10 @@
       "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT07217015），写入前需确认是否同一适应症"
     }
   },
-  "739363fee021a3b2": {
-    "id": "739363fee021a3b2",
-    "title": "诺华英半年一针降脂药英克司兰 Ⅲ 期达到主要终点",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "达到表述:达到主要终点"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "Adimab"
-        ],
-        "sponsor": [
-          "大睿生物医药",
-          "信达生物制药",
-          "江苏豪森药业",
-          "瀚晖制药"
-        ],
-        "sponsor_en": [
-          "大睿生物医药",
-          "Innovent",
-          "Hansoh",
-          "瀚晖制药"
-        ]
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "e9a73273b3888a34": {
-    "id": "e9a73273b3888a34",
-    "title": "2015例随机试验给出新答案：PFA更快、更安全，但疗效未必胜过射频",
-    "score": 6.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "b5988ecd4c36b8d6": {
-    "id": "b5988ecd4c36b8d6",
-    "title": "<![CDATA[Sacituzumab Tirumotecan Improves OS in 3L+ Gastroesophageal Cancer]]>",
-    "score": 7.3,
+  "16e2507b02fe4674": {
+    "id": "16e2507b02fe4674",
+    "title": "<![CDATA[Arcus Ends Quemliclustat Phase 3 Trial in Metastatic Pancreatic Cancer]]>",
+    "score": 6.5,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1541,45 +1043,46 @@
     "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
     "registry": {
       "best": {
-        "nct": "NCT05089734",
-        "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
-        "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
-        "acronym": "EVOKE-01",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "nct": "NCT05688215",
+        "title": "Zimberelimab and Quemliclustat in Combination With Chemotherapy for the Treatment of Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
+        "official_title": "A Pilot Study of Zimberelimab and Quemliclustat Combination With Chemotherapy in Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
+        "acronym": "",
+        "status": "RECRUITING",
         "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Gilead Sciences",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Jonsson Comprehensive Cancer Center",
         "conditions": [
-          "Non-Small Cell Lung Cancer"
+          "Borderline Resectable Pancreatic Adenocarcinoma",
+          "Locally Advanced Pancreatic Ductal Adenocarcinoma"
         ],
         "interventions": [
-          "Sacituzumab Govitecan-hziy (SG)",
-          "Docetaxel"
+          "Biospecimen Collection",
+          "Computed Tomography",
+          "Core Biopsy",
+          "Fluorouracil",
+          "Irinotecan",
+          "Leucovorin",
+          "Leucovorin Calcium",
+          "Oxaliplatin",
+          "Quemliclustat",
+          "Zimberelimab"
         ],
         "primary_outcomes": [
-          "Overall Survival (OS)"
+          "Incidence of adverse events (BPRC Cohort)",
+          "Resection rate (BPRC Cohort)",
+          "Progression free survival (PFS) (LAPC Cohort)",
+          "Number of participants who develop clinically relevant pancreatic fistula (BPRC Cohort)"
         ],
-        "enrollment": 603,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-11-17",
-        "primary_completion": "2023-11-29",
-        "completion": "2027-01",
-        "last_update": "2026-05-07",
-        "results_first_post": "2025-01-14",
-        "has_results": true,
+        "enrollment": 141,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-03-07",
+        "primary_completion": "2027-12-31",
+        "completion": "2028-12-31",
+        "last_update": "2026-11-09",
+        "results_first_post": "",
+        "has_results": false,
         "countries": [
-          "United States",
-          "Australia",
-          "Austria",
-          "Belgium",
-          "Brazil",
-          "Canada",
-          "France",
-          "Germany",
-          "Greece",
-          "Israel",
-          "Italy",
-          "Japan"
+          "United States"
         ],
         "results": {
           "primary": [],
@@ -1591,86 +1094,42 @@
       },
       "trials": [
         {
-          "nct": "NCT05089734",
-          "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
-          "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
-          "acronym": "EVOKE-01",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Gilead Sciences",
-          "conditions": [
-            "Non-Small Cell Lung Cancer"
-          ],
-          "interventions": [
-            "Sacituzumab Govitecan-hziy (SG)",
-            "Docetaxel"
-          ],
-          "primary_outcomes": [
-            "Overall Survival (OS)"
-          ],
-          "enrollment": 603,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-11-17",
-          "primary_completion": "2023-11-29",
-          "completion": "2027-01",
-          "last_update": "2026-05-07",
-          "results_first_post": "2025-01-14",
-          "has_results": true,
-          "countries": [
-            "United States",
-            "Australia",
-            "Austria",
-            "Belgium",
-            "Brazil",
-            "Canada",
-            "France",
-            "Germany",
-            "Greece",
-            "Israel",
-            "Italy",
-            "Japan"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06161532",
-          "title": "Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile C...",
-          "official_title": "A Phase II Study of Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile Cancer",
+          "nct": "NCT05688215",
+          "title": "Zimberelimab and Quemliclustat in Combination With Chemotherapy for the Treatment of Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
+          "official_title": "A Pilot Study of Zimberelimab and Quemliclustat Combination With Chemotherapy in Patients With Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
           "acronym": "",
           "status": "RECRUITING",
           "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "National Cancer Institute (NCI)",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Jonsson Comprehensive Cancer Center",
           "conditions": [
-            "Small Cell Carcinoma of the Bladder",
-            "Small Cell Carcinoma of the Urinary Tract",
-            "Squamous Cell Carcinoma of the Bladder",
-            "Squamous Cell Carcinoma of the Urinary Tract",
-            "Primary Adenocarcinoma of the Bladder",
-            "Primary Adenocarcinoma of the Urinary Tract",
-            "Renal Medullary Carcinoma",
-            "Squamous Cell Carcinoma of the Penis"
+            "Borderline Resectable Pancreatic Adenocarcinoma",
+            "Locally Advanced Pancreatic Ductal Adenocarcinoma"
           ],
           "interventions": [
-            "Sacituzumab govitecan",
-            "Atezolizumab"
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Core Biopsy",
+            "Fluorouracil",
+            "Irinotecan",
+            "Leucovorin",
+            "Leucovorin Calcium",
+            "Oxaliplatin",
+            "Quemliclustat",
+            "Zimberelimab"
           ],
           "primary_outcomes": [
-            "Objective response rate (ORR)"
+            "Incidence of adverse events (BPRC Cohort)",
+            "Resection rate (BPRC Cohort)",
+            "Progression free survival (PFS) (LAPC Cohort)",
+            "Number of participants who develop clinically relevant pancreatic fistula (BPRC Cohort)"
           ],
-          "enrollment": 60,
+          "enrollment": 141,
           "enrollment_type": "ESTIMATED",
-          "start_date": "2024-08-01",
-          "primary_completion": "2027-11-01",
-          "completion": "2028-11-01",
-          "last_update": "2026-10-16",
+          "start_date": "2023-03-07",
+          "primary_completion": "2027-12-31",
+          "completion": "2028-12-31",
+          "last_update": "2026-11-09",
           "results_first_post": "",
           "has_results": false,
           "countries": [
@@ -1685,35 +1144,84 @@
           }
         },
         {
-          "nct": "NCT07343479",
-          "title": "Sacituzumab Tirumotecan Plus Third-Generation TKI With/Without Radiotherapy for EGFR-Mutant NSCLC Brain Metastases",
-          "official_title": "A Clinical Study of Sac-TMT for Injection Combined With Third-Generation Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor (EGFR-TKI) ± Radiotherapy in Subjects With EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer and Brain Metastasis Who Have Failed Prior EGFR-TKI Treatment",
-          "acronym": "",
-          "status": "NOT_YET_RECRUITING",
+          "nct": "NCT06048484",
+          "title": "Combination Therapy in Patients With Localized Pancreatic Ductal Adenocarcinoma",
+          "official_title": "A Phase 2, Open-Label, Multicenter, Randomized Study Evaluating Neoadjuvant Therapy Targeting the Adenosine Immunosuppressive Pathway in Combination With Immune Checkpoint Blockade and Radiation Therapy in Patients With Advanced PANCreatic Ductal Adenocarcinoma Who Are Candidates for Surgical Resection",
+          "acronym": "AIRPanc",
+          "status": "RECRUITING",
           "why_stopped": "",
           "phase": "PHASE2",
-          "sponsor": "Zhejiang Cancer Hospital",
+          "sponsor": "Gulam Manji",
           "conditions": [
-            "NSCLC (Advanced Non-small Cell Lung Cancer)",
-            "EGFR Gene Mutations",
-            "Brain Metastasis"
+            "Pancreatic Ductal Adenocarcinoma"
           ],
           "interventions": [
-            "sac-TMT plus EGFR-TKI"
+            "Stereotactic body radiotherapy (SBRT)",
+            "Zimberelimab",
+            "Quemliclustat",
+            "Etrumadenant",
+            "Modified FOLFIRINOX"
           ],
           "primary_outcomes": [
-            "6-month PFS rate"
+            "Change in the number of intratumoral CD8+ T-cells"
           ],
-          "enrollment": 45,
+          "enrollment": 60,
           "enrollment_type": "ESTIMATED",
-          "start_date": "2026-05-01",
-          "primary_completion": "2027-06-20",
-          "completion": "2029-12-20",
-          "last_update": "2026-01-15",
+          "start_date": "2024-05-10",
+          "primary_completion": "2027-04",
+          "completion": "2027-04",
+          "last_update": "2026-02-27",
           "results_first_post": "",
           "has_results": false,
           "countries": [
-            "China"
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04381832",
+          "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
+          "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Arcus Biosciences, Inc.",
+          "conditions": [
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Androgen-Resistant Prostatic Neoplasms",
+            "Castration Resistant Prostatic Neoplasms",
+            "Prostatic Cancer, Castration-Resistant"
+          ],
+          "interventions": [
+            "Etrumadenant",
+            "Zimberelimab",
+            "Quemliclustat",
+            "Enzalutamide",
+            "Docetaxel",
+            "SG"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) in Stage 1 and 2",
+            "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
+          ],
+          "enrollment": 173,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-07-07",
+          "primary_completion": "2024-08-30",
+          "completion": "2024-08-30",
+          "last_update": "2025-07-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada"
           ],
           "results": {
             "primary": [],
@@ -1727,18 +1235,18 @@
       "terms": {
         "nct": [],
         "drug": [
-          "Sacituzumab"
+          "Quemliclustat"
         ],
         "sponsor": [],
         "sponsor_en": []
       },
-      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT05089734），写入前需确认是否同一适应症"
+      "note": ""
     }
   },
   "a3979343acf355a6": {
     "id": "a3979343acf355a6",
     "title": "New Option Approved for Gastrointestinal Stromal Tumors",
-    "score": 6.8,
+    "score": 6.4,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -2002,10 +1510,467 @@
       "note": ""
     }
   },
+  "04db0ff1ea6f38e9": {
+    "id": "04db0ff1ea6f38e9",
+    "title": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
+    "score": 6.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04381832",
+        "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
+        "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
+        "acronym": "",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Arcus Biosciences, Inc.",
+        "conditions": [
+          "Prostatic Neoplasms, Castration-Resistant",
+          "Androgen-Resistant Prostatic Neoplasms",
+          "Castration Resistant Prostatic Neoplasms",
+          "Prostatic Cancer, Castration-Resistant"
+        ],
+        "interventions": [
+          "Etrumadenant",
+          "Zimberelimab",
+          "Quemliclustat",
+          "Enzalutamide",
+          "Docetaxel",
+          "SG"
+        ],
+        "primary_outcomes": [
+          "Objective Response Rate (ORR) in Stage 1 and 2",
+          "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
+        ],
+        "enrollment": 173,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-07-07",
+        "primary_completion": "2024-08-30",
+        "completion": "2024-08-30",
+        "last_update": "2025-07-22",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Canada"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04381832",
+          "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
+          "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Arcus Biosciences, Inc.",
+          "conditions": [
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Androgen-Resistant Prostatic Neoplasms",
+            "Castration Resistant Prostatic Neoplasms",
+            "Prostatic Cancer, Castration-Resistant"
+          ],
+          "interventions": [
+            "Etrumadenant",
+            "Zimberelimab",
+            "Quemliclustat",
+            "Enzalutamide",
+            "Docetaxel",
+            "SG"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) in Stage 1 and 2",
+            "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
+          ],
+          "enrollment": 173,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-07-07",
+          "primary_completion": "2024-08-30",
+          "completion": "2024-08-30",
+          "last_update": "2025-07-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05676931",
+          "title": "Study With Various Immunotherapy Treatments in Participants With Lung Cancer",
+          "official_title": "A Phase II, Open-label, Platform Study, to Evaluate Immunotherapy-based Combinations in Participants With Advanced Non-Small Cell Lung Cancer",
+          "acronym": "EDGE-Lung",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Advanced Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Domvanalimab",
+            "Quemliclustat",
+            "Zimberelimab",
+            "Docetaxel",
+            "Platinum-Based Doublet"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR) as measured by Response Evaluation Criteria in Solid Tumors (RECIST v1.1)",
+            "The incidence and severity of adverse events (AEs) and serious adverse events (SAEs)"
+          ],
+          "enrollment": 400,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-02-21",
+          "primary_completion": "2027-12",
+          "completion": "2027-12",
+          "last_update": "2026-06-01",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "France",
+            "Georgia",
+            "Italy",
+            "Poland",
+            "South Korea",
+            "Spain",
+            "Taiwan",
+            "United Kingdom"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06048133",
+          "title": "Study of Gemcitabine, Cisplatin, AB680 and AB122 During First Line Treatment of Advanced Biliary Tract Cancers (QUIC)",
+          "official_title": "Study of Gemcitabine, Cisplatin, Quemliclustat (AB680) and Zimberelimab (AB122) During First-line Treatment of Advanced Biliary Tract Cancers (QUIC)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Nataliya Uboha",
+          "conditions": [
+            "Biliary Tract Carcinoma",
+            "Cholangiocarcinoma",
+            "Bile Duct Cancer"
+          ],
+          "interventions": [
+            "Gemcitabine",
+            "Cisplatin",
+            "Zimberelimab",
+            "Quemliclustat"
+          ],
+          "primary_outcomes": [
+            "Estimate the progression free survival (PFS) with gemcitabine, cisplatin, quemliclustat (AB680) and zimberelimab (AB122) in patients with advanced BTCs."
+          ],
+          "enrollment": 33,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-03-08",
+          "primary_completion": "2026-12",
+          "completion": "2027-07",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "quemliclustat"
+        ],
+        "sponsor": [
+          "Arnatar",
+          "Arcus"
+        ],
+        "sponsor_en": [
+          "Arnatar",
+          "Arcus"
+        ]
+      },
+      "note": ""
+    }
+  },
+  "b5988ecd4c36b8d6": {
+    "id": "b5988ecd4c36b8d6",
+    "title": "<![CDATA[Sacituzumab Tirumotecan Improves OS in 3L+ Gastroesophageal Cancer]]>",
+    "score": 6.1,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05089734",
+        "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+        "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+        "acronym": "EVOKE-01",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Gilead Sciences",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan-hziy (SG)",
+          "Docetaxel"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 603,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-11-17",
+        "primary_completion": "2023-11-29",
+        "completion": "2027-01",
+        "last_update": "2026-05-07",
+        "results_first_post": "2025-01-14",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Germany",
+          "Greece",
+          "Israel",
+          "Italy",
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05089734",
+          "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+          "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+          "acronym": "EVOKE-01",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy (SG)",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 603,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-11-17",
+          "primary_completion": "2023-11-29",
+          "completion": "2027-01",
+          "last_update": "2026-05-07",
+          "results_first_post": "2025-01-14",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06161532",
+          "title": "Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile C...",
+          "official_title": "A Phase II Study of Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Small Cell Carcinoma of the Bladder",
+            "Small Cell Carcinoma of the Urinary Tract",
+            "Squamous Cell Carcinoma of the Bladder",
+            "Squamous Cell Carcinoma of the Urinary Tract",
+            "Primary Adenocarcinoma of the Bladder",
+            "Primary Adenocarcinoma of the Urinary Tract",
+            "Renal Medullary Carcinoma",
+            "Squamous Cell Carcinoma of the Penis"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan",
+            "Atezolizumab"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR)"
+          ],
+          "enrollment": 60,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-01",
+          "primary_completion": "2027-11-01",
+          "completion": "2028-11-01",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07343479",
+          "title": "Sacituzumab Tirumotecan Plus Third-Generation TKI With/Without Radiotherapy for EGFR-Mutant NSCLC Brain Metastases",
+          "official_title": "A Clinical Study of Sac-TMT for Injection Combined With Third-Generation Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor (EGFR-TKI) ± Radiotherapy in Subjects With EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer and Brain Metastasis Who Have Failed Prior EGFR-TKI Treatment",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Zhejiang Cancer Hospital",
+          "conditions": [
+            "NSCLC (Advanced Non-small Cell Lung Cancer)",
+            "EGFR Gene Mutations",
+            "Brain Metastasis"
+          ],
+          "interventions": [
+            "sac-TMT plus EGFR-TKI"
+          ],
+          "primary_outcomes": [
+            "6-month PFS rate"
+          ],
+          "enrollment": 45,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-05-01",
+          "primary_completion": "2027-06-20",
+          "completion": "2029-12-20",
+          "last_update": "2026-01-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT05089734），写入前需确认是否同一适应症"
+    }
+  },
   "4ab0fa19f3c95068": {
     "id": "4ab0fa19f3c95068",
     "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
-    "score": 6.2,
+    "score": 6.4,
     "channel": "global",
     "verdict": {
       "textual": {

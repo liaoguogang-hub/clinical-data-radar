@@ -4,40 +4,38 @@
   "plan": [
     {
       "type": "landscape",
-      "cluster_key": null,
-      "lead_id": "4ab0fa19f3c95068",
-      "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
-      "score": 6.2,
+      "cluster_key": "drug:galinpepimut-S",
+      "lead_id": "beab09823c142fbf",
+      "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+      "score": 8.1,
       "channel": "global",
       "member_ids": [
-        "4ab0fa19f3c95068"
+        "beab09823c142fbf",
+        "299813636bcfdfe2"
       ],
       "members": [
         {
-          "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
-          "url": "https://www.pharnexcloud.com/zixun/sd_393817",
-          "score": 6.2,
-          "reasoning": "全球栏目；ESMO盘点覆盖多项后期研究，并明确提及部分研究具有统计学显著OS获益，但各试验结论并不一致且原始p值和置信区间仍需逐项核对；发布已超过7天，属于非近日信息。"
+          "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
+          "url": "https://www.pharnexcloud.com/zixun/sx_395246",
+          "score": 8.1,
+          "reasoning": "素材明确给出随机Ⅲ期达到主要终点的统计结论，并报告OS效应量，属于高价值临床读出；AML未满足需求较高且疫苗机制具有差异化，但结论目前主要来自公司披露的二手报道，尚需以注册信息和完整统计结果核验。"
+        },
+        {
+          "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397635",
+          "score": 7.0,
+          "reasoning": "标题给出Ⅲ期成功及死亡风险下降幅度，并可与同批条目中的完整项目归并，具有较高报道价值；但当前仅有标题，缺少原始试验链接、p值、置信区间和发布日期，首创性表述也需核验。"
         }
       ],
-      "reasoning": "全球栏目；ESMO盘点覆盖多项后期研究，并明确提及部分研究具有统计学显著OS获益，但各试验结论并不一致且原始p值和置信区间仍需逐项核对；发布已超过7天，属于非近日信息。",
-      "verify_todo": [
-        "获取12项研究的完整大会摘要或幻灯片",
-        "逐项核实主要终点、OS效应量、置信区间、样本量及研究阶段",
-        "核实所谓新抗原mRNA疫苗、DLL3-CD3及PD-1/VEGF研究对应的药物和试验"
-      ],
-      "flags": [
-        "stale"
-      ],
-      "endpoint_verdict": "partial",
+      "reasoning": "素材明确给出随机Ⅲ期达到主要终点的统计结论，并报告OS效应量，属于高价值临床读出；AML未满足需求较高且疫苗机制具有差异化，但结论目前主要来自公司披露的二手报道，尚需以注册信息和完整统计结果核验。",
       "_idx": 1
     },
     {
       "type": "readout",
-      "cluster_key": "drug:kt-621",
+      "cluster_key": "drug:KT-621",
       "lead_id": "8239dffe4a218e40",
       "title": "口服STAT6蛋白降解剂2b期达到主要终点；创纪录！猪肾移植患者达到重要里程碑……｜产业新闻",
-      "score": 7.0,
+      "score": 7.2,
       "channel": "global",
       "member_ids": [
         "8239dffe4a218e40"
@@ -46,49 +44,52 @@
         {
           "title": "口服STAT6蛋白降解剂2b期达到主要终点；创纪录！猪肾移植患者达到重要里程碑……｜产业新闻",
           "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_397797",
-          "score": 7.0,
-          "reasoning": "Ⅱ期研究明确报告主要终点及全部次要终点达成，构成完整度较高的临床进展信号。现有内容仍以公司披露为主，需补齐各剂量组效应量、样本量和统计检验。"
+          "score": 7.2,
+          "reasoning": "II期BROADEN2明确报告达到主要及全部次要终点，口服蛋白降解路线也具有较强差异化。依据是顶线统计结论，但摘要未提供样本量、P值、效应量或分剂量结果，且主要疗效指标属于症状与皮损改善指标。"
         }
       ],
-      "reasoning": "Ⅱ期研究明确报告主要终点及全部次要终点达成，构成完整度较高的临床进展信号。现有内容仍以公司披露为主，需补齐各剂量组效应量、样本量和统计检验。",
+      "reasoning": "II期BROADEN2明确报告达到主要及全部次要终点，口服蛋白降解路线也具有较强差异化。依据是顶线统计结论，但摘要未提供样本量、P值、效应量或分剂量结果，且主要疗效指标属于症状与皮损改善指标。",
       "verify_todo": [
-        "核实BROADEN-2样本量、随机和盲法设计",
-        "核实EASI变化幅度、应答率、p值及安全性",
-        "确认各剂量组结果及主要终点统计假设"
+        "核实入组样本量、随机与对照设置及主要终点统计结果",
+        "核实EASI、瘙痒及其他次要终点的效应量和置信区间",
+        "核实停药率、不良事件和长期随访计划"
       ],
       "flags": [
-        "met"
+        "met",
+        "surrogate"
       ],
       "endpoint_verdict": "met",
       "_idx": 2
     },
     {
-      "type": "readout",
-      "cluster_key": "drug:bezuclastinib",
-      "lead_id": "a3979343acf355a6",
-      "title": "New Option Approved for Gastrointestinal Stromal Tumors",
-      "score": 6.8,
+      "type": "halt",
+      "cluster_key": "target:cd73",
+      "lead_id": "04db0ff1ea6f38e9",
+      "title": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
+      "score": 6.3,
       "channel": "global",
       "member_ids": [
-        "a3979343acf355a6"
+        "04db0ff1ea6f38e9"
       ],
       "members": [
         {
-          "title": "New Option Approved for Gastrointestinal Stromal Tumors",
-          "url": "https://www.medpagetoday.com/hematologyoncology/othercancers/124028",
-          "score": 6.8,
-          "reasoning": "FDA监管审批构成临床开发的关键转化结果，并覆盖经治GIST这一治疗选择有限的领域。条目提供的是监管结论而非完整临床统计结果，申报依据和关键终点仍需核对。"
+          "title": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
+          "url": "https://endpoints.news/arcus-stops-phase-3-study-of-cd73-inhibitor-novartis-leqvio-eases-heart-event-risk/",
+          "score": 6.3,
+          "reasoning": "条目同时包含III期CD73抑制剂试验终止和siRNA心血管结局阳性结果，两类事件均具有赛道级意义。由于是混合新闻而非单一读出，临床结论应拆分核实，不能合并赋予统一终点判断。"
         }
       ],
-      "reasoning": "FDA监管审批构成临床开发的关键转化结果，并覆盖经治GIST这一治疗选择有限的领域。条目提供的是监管结论而非完整临床统计结果，申报依据和关键终点仍需核对。",
+      "reasoning": "条目同时包含III期CD73抑制剂试验终止和siRNA心血管结局阳性结果，两类事件均具有赛道级意义。由于是混合新闻而非单一读出，临床结论应拆分核实，不能合并赋予统一终点判断。",
       "verify_todo": [
-        "核实支持批准的试验名称、阶段、样本量及主要终点",
-        "核实监管标签的完整适应症和联合用药范围"
+        "核实PRISM-1终止原因、期中分析状态及试验注册信息",
+        "核实ORION-4主要终点、效应量和置信区间"
       ],
       "flags": [
-        "met"
+        "halted",
+        "met",
+        "positive_data"
       ],
-      "endpoint_verdict": "met",
+      "endpoint_verdict": "partial",
       "_idx": 3
     }
   ]
