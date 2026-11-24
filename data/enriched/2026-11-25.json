@@ -2,7 +2,7 @@
   "ab975c4e3f9a3ea6": {
     "id": "ab975c4e3f9a3ea6",
     "title": "Rare Muscle Disease Gets Its First Approved Therapy",
-    "score": 8.2,
+    "score": 8.0,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -32,1085 +32,12 @@
         "sponsor_en": []
       },
       "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "f4bb2822855b2eaa": {
-    "id": "f4bb2822855b2eaa",
-    "title": "诺华公司siRNA疗法英克司兰在动脉粥样硬化性心血管疾病三期达标：16,124 例入组",
-    "score": 8.3,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {
-        "nct": "NCT04428476",
-        "title": "Open-label Extension of the HOPE-2 Trial",
-        "official_title": "Open-Label Extension of the HOPE-2 Duchenne Muscular Dystrophy Trial",
-        "acronym": "HOPE-2-OLE",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2",
-        "sponsor": "Capricor Inc.",
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ],
-        "interventions": [
-          "Deramiocel (CAP-1002)"
-        ],
-        "primary_outcomes": [
-          "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
-          "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
-          "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score."
-        ],
-        "enrollment": 13,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2020-08-05",
-        "primary_completion": "2022-02-16",
-        "completion": "2027-03",
-        "last_update": "2026-11-13",
-        "results_first_post": "2025-02-24",
-        "has_results": true,
-        "countries": [
-          "United States"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04428476",
-          "title": "Open-label Extension of the HOPE-2 Trial",
-          "official_title": "Open-Label Extension of the HOPE-2 Duchenne Muscular Dystrophy Trial",
-          "acronym": "HOPE-2-OLE",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Capricor Inc.",
-          "conditions": [
-            "Duchenne Muscular Dystrophy"
-          ],
-          "interventions": [
-            "Deramiocel (CAP-1002)"
-          ],
-          "primary_outcomes": [
-            "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
-            "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
-            "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score."
-          ],
-          "enrollment": 13,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2020-08-05",
-          "primary_completion": "2022-02-16",
-          "completion": "2027-03",
-          "last_update": "2026-11-13",
-          "results_first_post": "2025-02-24",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT05126758",
-          "title": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
-          "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Trial Evaluating the Efficacy and Safety of Human Allogeneic Cardiosphere-Derived Cells for the Treatment of Duchenne Muscular Dystrophy",
-          "acronym": "HOPE-3",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Capricor Inc.",
-          "conditions": [
-            "Muscular Dystrophies",
-            "Muscular Dystrophy, Duchenne",
-            "Muscular Disorders, Atrophic",
-            "Muscular Diseases",
-            "Neuromuscular Diseases",
-            "Genetic Diseases, X-Linked",
-            "Genetic Diseases, Inborn",
-            "Nervous System Diseases"
-          ],
-          "interventions": [
-            "Deramiocel",
-            "Placebo",
-            "Cardiac magnetic resonance imaging",
-            "Cardiac magnetic resonance imaging with contrast"
-          ],
-          "primary_outcomes": [
-            "Change in the upper limb function"
-          ],
-          "enrollment": 106,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2022-06-22",
-          "primary_completion": "2025-06-18",
-          "completion": "2027-03",
-          "last_update": "2026-11-13",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT04623671",
-          "title": "Intravenous Infusion of CAP-1002 in Patients With COVID-19",
-          "official_title": "A Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Intravenous Infusion of CAP-1002 in Patients With COVID-19 (INSPIRE)",
-          "acronym": "INSPIRE",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Capricor Inc.",
-          "conditions": [
-            "Covid19"
-          ],
-          "interventions": [
-            "CAP-1002",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Safety of CAP-1002: Incidence of All-Cause Mortality"
-          ],
-          "enrollment": 55,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2020-11-15",
-          "primary_completion": "2022-02-04",
-          "completion": "2022-02-04",
-          "last_update": "2025-02-20",
-          "results_first_post": "2025-02-20",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "Deramiocel"
-        ],
-        "sponsor": [
-          "云顶新耀医药",
-          "武汉禾元生物",
-          "科技股份",
-          "乐普生物科技"
-        ],
-        "sponsor_en": [
-          "云顶新耀医药",
-          "武汉禾元生物",
-          "科技股份",
-          "乐普生物科技"
-        ]
-      },
-      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04428476），写入前需确认是否同一适应症"
-    }
-  },
-  "a3979343acf355a6": {
-    "id": "a3979343acf355a6",
-    "title": "New Option Approved for Gastrointestinal Stromal Tumors",
-    "score": 7.8,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {
-        "nct": "NCT05208047",
-        "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
-        "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
-        "acronym": "",
-        "status": "RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Cogent Biosciences, Inc.",
-        "conditions": [
-          "Advanced Gastrointestinal Stromal Tumors",
-          "Metastatic Cancer"
-        ],
-        "interventions": [
-          "Bezuclastinib",
-          "Bezuclastinib",
-          "Sunitinib",
-          "Sunitinib",
-          "Midazolam",
-          "Bezuclastinib",
-          "Sunitinib",
-          "Bezuclastinib",
-          "Sunitinib"
-        ],
-        "primary_outcomes": [
-          "Part 1a - pharmacokinetics - Cmax",
-          "Part 1a - pharmacokinetics - AUC",
-          "Part 1b - pharmacokinetics - Cmax",
-          "Part 1b - pharmacokinetics - AUC",
-          "Part 1b - pharmacokinetics - Tmax",
-          "Part 2 - Progression Free Survival (PFS)",
-          "DDI Substudy - pharmacokinetics - AUC",
-          "DDI Substudy - pharmacokinetics - Cmax"
-        ],
-        "enrollment": 482,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2022-04-14",
-        "primary_completion": "2025-09-30",
-        "completion": "2030-01",
-        "last_update": "2026-11-19",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Argentina",
-          "Australia",
-          "Brazil",
-          "Canada",
-          "Chile",
-          "Czechia",
-          "Denmark",
-          "France",
-          "Germany",
-          "Hong Kong",
-          "Hungary"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT05208047",
-          "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
-          "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
-          "acronym": "",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Cogent Biosciences, Inc.",
-          "conditions": [
-            "Advanced Gastrointestinal Stromal Tumors",
-            "Metastatic Cancer"
-          ],
-          "interventions": [
-            "Bezuclastinib",
-            "Bezuclastinib",
-            "Sunitinib",
-            "Sunitinib",
-            "Midazolam",
-            "Bezuclastinib",
-            "Sunitinib",
-            "Bezuclastinib",
-            "Sunitinib"
-          ],
-          "primary_outcomes": [
-            "Part 1a - pharmacokinetics - Cmax",
-            "Part 1a - pharmacokinetics - AUC",
-            "Part 1b - pharmacokinetics - Cmax",
-            "Part 1b - pharmacokinetics - AUC",
-            "Part 1b - pharmacokinetics - Tmax",
-            "Part 2 - Progression Free Survival (PFS)",
-            "DDI Substudy - pharmacokinetics - AUC",
-            "DDI Substudy - pharmacokinetics - Cmax"
-          ],
-          "enrollment": 482,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2022-04-14",
-          "primary_completion": "2025-09-30",
-          "completion": "2030-01",
-          "last_update": "2026-11-19",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Australia",
-            "Brazil",
-            "Canada",
-            "Chile",
-            "Czechia",
-            "Denmark",
-            "France",
-            "Germany",
-            "Hong Kong",
-            "Hungary"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT05186753",
-          "title": "(Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
-          "official_title": "A Multi-Part, Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Study of The Safety and Efficacy of CGT9486 in Subjects With Nonadvanced Systemic Mastocytosis",
-          "acronym": "",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Cogent Biosciences, Inc.",
-          "conditions": [
-            "SSM",
-            "Mastocytosis, Indolent",
-            "Mastocytosis, Systemic",
-            "Mastocytosis",
-            "ISM",
-            "BMM",
-            "Smoldering Systemic Mastocytosis",
-            "Bone Marrow Mastocytosis"
-          ],
-          "interventions": [
-            "Bezuclastinib Tablets (Formulation A)",
-            "Bezuclastinib Tablets (Formulation B)",
-            "Placebo Tablets"
-          ],
-          "primary_outcomes": [
-            "Part 1: Determine recommended dose of bezuclastinib (CGT9486) in subjects with NonAdvSM",
-            "Part 2: Efficacy of bezuclastinib at the selected dose versus placebo",
-            "Part 3: Safety and tolerability of bezuclastinib as assessed by number of adverse events"
-          ],
-          "enrollment": 237,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2022-06-27",
-          "primary_completion": "2025-05-22",
-          "completion": "2030-01",
-          "last_update": "2026-10-22",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Australia",
-            "Belgium",
-            "Canada",
-            "Czechia",
-            "France",
-            "Germany",
-            "Ireland",
-            "Italy",
-            "Netherlands",
-            "Norway",
-            "Poland"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT06208748",
-          "title": "SARC044: A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST",
-          "official_title": "A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST Who Progressed on Sunitinib Monotherapy",
-          "acronym": "",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Sarcoma Alliance for Research through Collaboration",
-          "conditions": [
-            "Gastrointestinal Stromal Tumors",
-            "GIST"
-          ],
-          "interventions": [
-            "Bezuclastinib in combination with sunitinib"
-          ],
-          "primary_outcomes": [
-            "To estimate the median progression free survival (mPFS)"
-          ],
-          "enrollment": 40,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2024-08-01",
-          "primary_completion": "2026-06",
-          "completion": "2027-06",
-          "last_update": "2025-10-31",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "bezuclastinib",
-          "sunitinib"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": ""
-    }
-  },
-  "883224809dc99a59": {
-    "id": "883224809dc99a59",
-    "title": "First Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
-    "score": 7.5,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "74cbc66df9a7a009": {
-    "id": "74cbc66df9a7a009",
-    "title": "1.6万人5年，siRNA首个心血管III期结果终于来了",
-    "score": 8.2,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:达到主要终点"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
-    "registry": {
-      "best": {
-        "nct": "NCT04929249",
-        "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-        "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-        "acronym": "V-INITIATE",
-        "status": "COMPLETED",
-        "why_stopped": "",
-        "phase": "PHASE3",
-        "sponsor": "Novartis Pharmaceuticals",
-        "conditions": [
-          "Atherosclerotic Cardiovascular Disease"
-        ],
-        "interventions": [
-          "Inclisiran"
-        ],
-        "primary_outcomes": [
-          "Percent Change From Baseline in LDL-C",
-          "Percentage of Participants Who Discontinued Statin Therapy"
-        ],
-        "enrollment": 450,
-        "enrollment_type": "ACTUAL",
-        "start_date": "2021-06-25",
-        "primary_completion": "2023-09-15",
-        "completion": "2023-09-15",
-        "last_update": "2025-05-16",
-        "results_first_post": "2024-09-19",
-        "has_results": true,
-        "countries": [
-          "United States"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT04929249",
-          "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-          "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
-          "acronym": "V-INITIATE",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE3",
-          "sponsor": "Novartis Pharmaceuticals",
-          "conditions": [
-            "Atherosclerotic Cardiovascular Disease"
-          ],
-          "interventions": [
-            "Inclisiran"
-          ],
-          "primary_outcomes": [
-            "Percent Change From Baseline in LDL-C",
-            "Percentage of Participants Who Discontinued Statin Therapy"
-          ],
-          "enrollment": 450,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2021-06-25",
-          "primary_completion": "2023-09-15",
-          "completion": "2023-09-15",
-          "last_update": "2025-05-16",
-          "results_first_post": "2024-09-19",
-          "has_results": true,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT03159416",
-          "title": "A Study of Inclisiran in Participants With Renal Impairment Compared to Participants With Normal Renal Function (ORION-7)",
-          "official_title": "A Single-Dose, Open-Label, Parallel-Group Study to Assess the Pharmacokinetics of Inclisiran in Subjects With Renal Impairment Compared to Subjects With Normal Renal Function (ORION-7)",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "PHASE1",
-          "sponsor": "The Medicines Company",
-          "conditions": [
-            "Renal Impairment"
-          ],
-          "interventions": [
-            "Inclisiran"
-          ],
-          "primary_outcomes": [
-            "Pharmacokinetics: Maximum Observed Plasma Concentration (Cmax) Of Inclisiran",
-            "Pharmacokinetics: Tmax And t1/2 Of Inclisiran",
-            "Pharmacokinetics: AUC0-24, AUC0-48, And AUC0-inf Of Inclisiran",
-            "Pharmacokinetics: Apparent Total Clearance (CL/F) Following SC Administration Of Inclisiran",
-            "Pharmacokinetics: Vd/F During The Terminal Elimination Phase Following SC Administration Of Inclisiran",
-            "Pharmacokinetics: Amount Excreted Unchanged In Urine (Ae) Of Inclisiran Over 48 Hours Post-Dose",
-            "Pharmacokinetics: Fraction Excreted (Fe) Of Inclisiran",
-            "Pharmacokinetics: Renal Clearance (CLr) Of Inclisiran"
-          ],
-          "enrollment": 31,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2017-06-22",
-          "primary_completion": "2018-03-24",
-          "completion": "2018-03-24",
-          "last_update": "2018-11-09",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "New Zealand"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07023445",
-          "title": "Patterns of Inclisiran Use in the Real World: An Analysis of US Databases",
-          "official_title": "Patterns of Inclisiran Use in the Real World: A Retrospective Analysis of US Databases",
-          "acronym": "",
-          "status": "COMPLETED",
-          "why_stopped": "",
-          "phase": "",
-          "sponsor": "Novartis Pharmaceuticals",
-          "conditions": [
-            "Atherosclerotic Cardiovascular Disease",
-            "Familial Hypercholesterolemia"
-          ],
-          "interventions": [],
-          "primary_outcomes": [
-            "Number of Patients per Demographic Category",
-            "Number of Patients per Clinical Characteristic Category"
-          ],
-          "enrollment": 37688,
-          "enrollment_type": "ACTUAL",
-          "start_date": "2023-01-20",
-          "primary_completion": "2024-06-28",
-          "completion": "2024-06-28",
-          "last_update": "2025-06-17",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "inclisiran"
-        ],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": ""
-    }
-  },
-  "531909e627cc6d6d": {
-    "id": "531909e627cc6d6d",
-    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
-    "score": 7.3,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:wins"
-        ]
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "达到表述:wins"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "739363fee021a3b2": {
-    "id": "739363fee021a3b2",
-    "title": "诺华英半年一针降脂药英克司兰 Ⅲ 期达到主要终点",
-    "score": 8.3,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.5,
-      "evidence": [
-        "达到表述:达到主要终点"
-      ],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "Adimab"
-        ],
-        "sponsor": [
-          "大睿生物医药",
-          "信达生物制药",
-          "江苏豪森药业",
-          "瀚晖制药"
-        ],
-        "sponsor_en": [
-          "大睿生物医药",
-          "Innovent",
-          "Hansoh",
-          "瀚晖制药"
-        ]
-      },
-      "note": "注册库未找到相关度足够的试验"
-    }
-  },
-  "0aca3b4f3966f5d6": {
-    "id": "0aca3b4f3966f5d6",
-    "title": "<![CDATA[Dr Shaw Breaks Down the Data Behind Neladalkib’s FDA Approval in ALK+ NSCLC]]>",
-    "score": 7.0,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.2,
-        "evidence": []
-      },
-      "statistical": null,
-      "numbers": null,
-      "verdict": "unknown",
-      "basis": "none",
-      "confidence": 0.2,
-      "evidence": [],
-      "conflict": false,
-      "halt_reason": "",
-      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
-    },
-    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
-    "registry": {
-      "best": {},
-      "trials": [],
-      "terms": {
-        "nct": [],
-        "drug": [],
-        "sponsor": [],
-        "sponsor_en": []
-      },
-      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
-    }
-  },
-  "8239dffe4a218e40": {
-    "id": "8239dffe4a218e40",
-    "title": "口服STAT6蛋白降解剂2b期达到主要终点；创纪录！猪肾移植患者达到重要里程碑……｜产业新闻",
-    "score": 7.4,
-    "channel": "global",
-    "verdict": {
-      "textual": {
-        "verdict": "met",
-        "basis": "textual",
-        "confidence": 0.75,
-        "evidence": [
-          "达到表述:达到主要终点"
-        ]
-      },
-      "statistical": {
-        "verdict": "unknown",
-        "basis": "none",
-        "confidence": 0.0,
-        "evidence": []
-      },
-      "numbers": [],
-      "verdict": "met",
-      "basis": "textual",
-      "confidence": 0.75,
-      "evidence": [
-        "达到表述:达到主要终点"
-      ],
-      "conflict": false,
-      "halt_reason": ""
-    },
-    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
-    "registry": {
-      "best": {
-        "nct": "NCT07217015",
-        "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
-        "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study With an Open-label Period Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
-        "acronym": "BROADEN2",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "why_stopped": "",
-        "phase": "PHASE2",
-        "sponsor": "Kymera Therapeutics, Inc.",
-        "conditions": [
-          "Atopic Dermatitis"
-        ],
-        "interventions": [
-          "KT-621",
-          "Placebo"
-        ],
-        "primary_outcomes": [
-          "Change from baseline in Eczema Area and Severity Index (EASI) score"
-        ],
-        "enrollment": 200,
-        "enrollment_type": "ESTIMATED",
-        "start_date": "2025-11-24",
-        "primary_completion": "2027-06",
-        "completion": "2028-06",
-        "last_update": "2026-10-06",
-        "results_first_post": "",
-        "has_results": false,
-        "countries": [
-          "United States",
-          "Australia",
-          "Canada",
-          "Czechia",
-          "Germany",
-          "Japan",
-          "Poland",
-          "South Korea"
-        ],
-        "results": {
-          "primary": [],
-          "secondary": [],
-          "n_primary": 0,
-          "n_secondary": 0,
-          "has_analyses": false
-        }
-      },
-      "trials": [
-        {
-          "nct": "NCT07217015",
-          "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
-          "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study With an Open-label Period Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
-          "acronym": "BROADEN2",
-          "status": "ACTIVE_NOT_RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Kymera Therapeutics, Inc.",
-          "conditions": [
-            "Atopic Dermatitis"
-          ],
-          "interventions": [
-            "KT-621",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Change from baseline in Eczema Area and Severity Index (EASI) score"
-          ],
-          "enrollment": 200,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2025-11-24",
-          "primary_completion": "2027-06",
-          "completion": "2028-06",
-          "last_update": "2026-10-06",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Australia",
-            "Canada",
-            "Czechia",
-            "Germany",
-            "Japan",
-            "Poland",
-            "South Korea"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07323654",
-          "title": "A Study of KT-621 Administered Orally to Adult Participants With Moderate to Severe Eosinophilic Asthma",
-          "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Adult Participants With Uncontrolled Moderate to Severe Eosinophilic Asthma",
-          "acronym": "BREADTH",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Kymera Therapeutics, Inc.",
-          "conditions": [
-            "Eosinophilic Asthma"
-          ],
-          "interventions": [
-            "KT-621",
-            "Placebo"
-          ],
-          "primary_outcomes": [
-            "Change from baseline in pre-bronchodilator FEV1"
-          ],
-          "enrollment": 264,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2026-01-28",
-          "primary_completion": "2027-12",
-          "completion": "2027-12",
-          "last_update": "2026-10-06",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Argentina",
-            "Austria",
-            "Belgium",
-            "Germany",
-            "Italy",
-            "Poland",
-            "Romania",
-            "Serbia",
-            "Slovakia",
-            "South Korea",
-            "Spain"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        },
-        {
-          "nct": "NCT07677059",
-          "title": "A Long-term Study of KT-621 Administered Orally to Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
-          "official_title": "A Multicenter, Open-Label, Long-Term Extension Study to Evaluate the Long-Term Safety and Tolerability of KT-621 in Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
-          "acronym": "BREADTH-EXT",
-          "status": "RECRUITING",
-          "why_stopped": "",
-          "phase": "PHASE2",
-          "sponsor": "Kymera Therapeutics, Inc.",
-          "conditions": [
-            "Asthma (Diagnosis)"
-          ],
-          "interventions": [
-            "KT-621"
-          ],
-          "primary_outcomes": [
-            "Incidence of treatment-emergent adverse events (TEAEs)",
-            "Incidence of treatment-emergent serious adverse events (SAEs)"
-          ],
-          "enrollment": 264,
-          "enrollment_type": "ESTIMATED",
-          "start_date": "2026-06-25",
-          "primary_completion": "2028-12",
-          "completion": "2028-12",
-          "last_update": "2026-10-07",
-          "results_first_post": "",
-          "has_results": false,
-          "countries": [
-            "United States",
-            "Germany",
-            "Poland",
-            "Serbia"
-          ],
-          "results": {
-            "primary": [],
-            "secondary": [],
-            "n_primary": 0,
-            "n_secondary": 0,
-            "has_analyses": false
-          }
-        }
-      ],
-      "terms": {
-        "nct": [],
-        "drug": [
-          "KT-621",
-          "KT-474"
-        ],
-        "sponsor": [
-          "Kymera"
-        ],
-        "sponsor_en": [
-          "Kymera"
-        ]
-      },
-      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT07217015），写入前需确认是否同一适应症"
     }
   },
   "beab09823c142fbf": {
     "id": "beab09823c142fbf",
     "title": "WT1靶向癌症疫苗III期成功，galinpepimut-S将急性髓系白血病患者中位OS拉至24个月",
-    "score": 6.8,
+    "score": 8.2,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1480,10 +407,321 @@
       "note": ""
     }
   },
+  "74cbc66df9a7a009": {
+    "id": "74cbc66df9a7a009",
+    "title": "1.6万人5年，siRNA首个心血管III期结果终于来了",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT04929249",
+        "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+        "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+        "acronym": "V-INITIATE",
+        "status": "COMPLETED",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals",
+        "conditions": [
+          "Atherosclerotic Cardiovascular Disease"
+        ],
+        "interventions": [
+          "Inclisiran"
+        ],
+        "primary_outcomes": [
+          "Percent Change From Baseline in LDL-C",
+          "Percentage of Participants Who Discontinued Statin Therapy"
+        ],
+        "enrollment": 450,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-06-25",
+        "primary_completion": "2023-09-15",
+        "completion": "2023-09-15",
+        "last_update": "2025-05-16",
+        "results_first_post": "2024-09-19",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04929249",
+          "title": "A Randomized Study to Evaluate the Effect of an \"Inclisiran First\" Implementation Strategy Compared to Usual Care in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+          "official_title": "A Randomized, Multicenter, Open-label Trial Comparing the Effectiveness of an \"Inclisiran First\" Implementation Strategy to Usual Care on LDL Cholesterol (LDL-C) in Patients With Atherosclerotic Cardiovascular Disease and Elevated LDL-C (≥70 mg/dL) Despite Receiving Maximally Tolerated Statin Therapy (VICTORION-INITIATE)",
+          "acronym": "V-INITIATE",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Atherosclerotic Cardiovascular Disease"
+          ],
+          "interventions": [
+            "Inclisiran"
+          ],
+          "primary_outcomes": [
+            "Percent Change From Baseline in LDL-C",
+            "Percentage of Participants Who Discontinued Statin Therapy"
+          ],
+          "enrollment": 450,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-06-25",
+          "primary_completion": "2023-09-15",
+          "completion": "2023-09-15",
+          "last_update": "2025-05-16",
+          "results_first_post": "2024-09-19",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT03159416",
+          "title": "A Study of Inclisiran in Participants With Renal Impairment Compared to Participants With Normal Renal Function (ORION-7)",
+          "official_title": "A Single-Dose, Open-Label, Parallel-Group Study to Assess the Pharmacokinetics of Inclisiran in Subjects With Renal Impairment Compared to Subjects With Normal Renal Function (ORION-7)",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1",
+          "sponsor": "The Medicines Company",
+          "conditions": [
+            "Renal Impairment"
+          ],
+          "interventions": [
+            "Inclisiran"
+          ],
+          "primary_outcomes": [
+            "Pharmacokinetics: Maximum Observed Plasma Concentration (Cmax) Of Inclisiran",
+            "Pharmacokinetics: Tmax And t1/2 Of Inclisiran",
+            "Pharmacokinetics: AUC0-24, AUC0-48, And AUC0-inf Of Inclisiran",
+            "Pharmacokinetics: Apparent Total Clearance (CL/F) Following SC Administration Of Inclisiran",
+            "Pharmacokinetics: Vd/F During The Terminal Elimination Phase Following SC Administration Of Inclisiran",
+            "Pharmacokinetics: Amount Excreted Unchanged In Urine (Ae) Of Inclisiran Over 48 Hours Post-Dose",
+            "Pharmacokinetics: Fraction Excreted (Fe) Of Inclisiran",
+            "Pharmacokinetics: Renal Clearance (CLr) Of Inclisiran"
+          ],
+          "enrollment": 31,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2017-06-22",
+          "primary_completion": "2018-03-24",
+          "completion": "2018-03-24",
+          "last_update": "2018-11-09",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "New Zealand"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07023445",
+          "title": "Patterns of Inclisiran Use in the Real World: An Analysis of US Databases",
+          "official_title": "Patterns of Inclisiran Use in the Real World: A Retrospective Analysis of US Databases",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "",
+          "sponsor": "Novartis Pharmaceuticals",
+          "conditions": [
+            "Atherosclerotic Cardiovascular Disease",
+            "Familial Hypercholesterolemia"
+          ],
+          "interventions": [],
+          "primary_outcomes": [
+            "Number of Patients per Demographic Category",
+            "Number of Patients per Clinical Characteristic Category"
+          ],
+          "enrollment": 37688,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2023-01-20",
+          "primary_completion": "2024-06-28",
+          "completion": "2024-06-28",
+          "last_update": "2025-06-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "inclisiran"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "2d8e108739ee0389": {
+    "id": "2d8e108739ee0389",
+    "title": "First New Hormone Therapy Approved for Early Breast Cancer in Over 20 Years",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "531909e627cc6d6d": {
+    "id": "531909e627cc6d6d",
+    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "299813636bcfdfe2": {
+    "id": "299813636bcfdfe2",
+    "title": "死亡风险直降41%！全球首个\"现货\"癌症疫苗III期告捷，股价一夜翻三倍",
+    "score": 7.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
   "16e2507b02fe4674": {
     "id": "16e2507b02fe4674",
     "title": "<![CDATA[Arcus Ends Quemliclustat Phase 3 Trial in Metastatic Pancreatic Cancer]]>",
-    "score": 7.2,
+    "score": 8.0,
     "channel": "global",
     "verdict": {
       "textual": {
@@ -1705,6 +943,1322 @@
         ],
         "sponsor": [],
         "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "f4bb2822855b2eaa": {
+    "id": "f4bb2822855b2eaa",
+    "title": "诺华公司siRNA疗法英克司兰在动脉粥样硬化性心血管疾病三期达标：16,124 例入组",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT04428476",
+        "title": "Open-label Extension of the HOPE-2 Trial",
+        "official_title": "Open-Label Extension of the HOPE-2 Duchenne Muscular Dystrophy Trial",
+        "acronym": "HOPE-2-OLE",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Capricor Inc.",
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ],
+        "interventions": [
+          "Deramiocel (CAP-1002)"
+        ],
+        "primary_outcomes": [
+          "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
+          "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
+          "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score."
+        ],
+        "enrollment": 13,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2020-08-05",
+        "primary_completion": "2022-02-16",
+        "completion": "2027-03",
+        "last_update": "2026-11-13",
+        "results_first_post": "2025-02-24",
+        "has_results": true,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT04428476",
+          "title": "Open-label Extension of the HOPE-2 Trial",
+          "official_title": "Open-Label Extension of the HOPE-2 Duchenne Muscular Dystrophy Trial",
+          "acronym": "HOPE-2-OLE",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Capricor Inc.",
+          "conditions": [
+            "Duchenne Muscular Dystrophy"
+          ],
+          "interventions": [
+            "Deramiocel (CAP-1002)"
+          ],
+          "primary_outcomes": [
+            "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
+            "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
+            "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score."
+          ],
+          "enrollment": 13,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-08-05",
+          "primary_completion": "2022-02-16",
+          "completion": "2027-03",
+          "last_update": "2026-11-13",
+          "results_first_post": "2025-02-24",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05126758",
+          "title": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+          "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Trial Evaluating the Efficacy and Safety of Human Allogeneic Cardiosphere-Derived Cells for the Treatment of Duchenne Muscular Dystrophy",
+          "acronym": "HOPE-3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Capricor Inc.",
+          "conditions": [
+            "Muscular Dystrophies",
+            "Muscular Dystrophy, Duchenne",
+            "Muscular Disorders, Atrophic",
+            "Muscular Diseases",
+            "Neuromuscular Diseases",
+            "Genetic Diseases, X-Linked",
+            "Genetic Diseases, Inborn",
+            "Nervous System Diseases"
+          ],
+          "interventions": [
+            "Deramiocel",
+            "Placebo",
+            "Cardiac magnetic resonance imaging",
+            "Cardiac magnetic resonance imaging with contrast"
+          ],
+          "primary_outcomes": [
+            "Change in the upper limb function"
+          ],
+          "enrollment": 106,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2022-06-22",
+          "primary_completion": "2025-06-18",
+          "completion": "2027-03",
+          "last_update": "2026-11-13",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04623671",
+          "title": "Intravenous Infusion of CAP-1002 in Patients With COVID-19",
+          "official_title": "A Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Intravenous Infusion of CAP-1002 in Patients With COVID-19 (INSPIRE)",
+          "acronym": "INSPIRE",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Capricor Inc.",
+          "conditions": [
+            "Covid19"
+          ],
+          "interventions": [
+            "CAP-1002",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Safety of CAP-1002: Incidence of All-Cause Mortality"
+          ],
+          "enrollment": 55,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-11-15",
+          "primary_completion": "2022-02-04",
+          "completion": "2022-02-04",
+          "last_update": "2025-02-20",
+          "results_first_post": "2025-02-20",
+          "has_results": true,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Deramiocel"
+        ],
+        "sponsor": [
+          "云顶新耀医药",
+          "武汉禾元生物",
+          "科技股份",
+          "乐普生物科技"
+        ],
+        "sponsor_en": [
+          "云顶新耀医药",
+          "武汉禾元生物",
+          "科技股份",
+          "乐普生物科技"
+        ]
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT04428476），写入前需确认是否同一适应症"
+    }
+  },
+  "0aca3b4f3966f5d6": {
+    "id": "0aca3b4f3966f5d6",
+    "title": "<![CDATA[Dr Shaw Breaks Down the Data Behind Neladalkib’s FDA Approval in ALK+ NSCLC]]>",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "8239dffe4a218e40": {
+    "id": "8239dffe4a218e40",
+    "title": "口服STAT6蛋白降解剂2b期达到主要终点；创纪录！猪肾移植患者达到重要里程碑……｜产业新闻",
+    "score": 7.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {
+        "nct": "NCT07217015",
+        "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+        "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study With an Open-label Period Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+        "acronym": "BROADEN2",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Kymera Therapeutics, Inc.",
+        "conditions": [
+          "Atopic Dermatitis"
+        ],
+        "interventions": [
+          "KT-621",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Change from baseline in Eczema Area and Severity Index (EASI) score"
+        ],
+        "enrollment": 200,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2025-11-24",
+        "primary_completion": "2027-06",
+        "completion": "2028-06",
+        "last_update": "2026-10-06",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Australia",
+          "Canada",
+          "Czechia",
+          "Germany",
+          "Japan",
+          "Poland",
+          "South Korea"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT07217015",
+          "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+          "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study With an Open-label Period Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+          "acronym": "BROADEN2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kymera Therapeutics, Inc.",
+          "conditions": [
+            "Atopic Dermatitis"
+          ],
+          "interventions": [
+            "KT-621",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from baseline in Eczema Area and Severity Index (EASI) score"
+          ],
+          "enrollment": 200,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2025-11-24",
+          "primary_completion": "2027-06",
+          "completion": "2028-06",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Canada",
+            "Czechia",
+            "Germany",
+            "Japan",
+            "Poland",
+            "South Korea"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07323654",
+          "title": "A Study of KT-621 Administered Orally to Adult Participants With Moderate to Severe Eosinophilic Asthma",
+          "official_title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Adult Participants With Uncontrolled Moderate to Severe Eosinophilic Asthma",
+          "acronym": "BREADTH",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kymera Therapeutics, Inc.",
+          "conditions": [
+            "Eosinophilic Asthma"
+          ],
+          "interventions": [
+            "KT-621",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Change from baseline in pre-bronchodilator FEV1"
+          ],
+          "enrollment": 264,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-01-28",
+          "primary_completion": "2027-12",
+          "completion": "2027-12",
+          "last_update": "2026-10-06",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Austria",
+            "Belgium",
+            "Germany",
+            "Italy",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Slovakia",
+            "South Korea",
+            "Spain"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07677059",
+          "title": "A Long-term Study of KT-621 Administered Orally to Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
+          "official_title": "A Multicenter, Open-Label, Long-Term Extension Study to Evaluate the Long-Term Safety and Tolerability of KT-621 in Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
+          "acronym": "BREADTH-EXT",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Kymera Therapeutics, Inc.",
+          "conditions": [
+            "Asthma (Diagnosis)"
+          ],
+          "interventions": [
+            "KT-621"
+          ],
+          "primary_outcomes": [
+            "Incidence of treatment-emergent adverse events (TEAEs)",
+            "Incidence of treatment-emergent serious adverse events (SAEs)"
+          ],
+          "enrollment": 264,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-06-25",
+          "primary_completion": "2028-12",
+          "completion": "2028-12",
+          "last_update": "2026-10-07",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Germany",
+            "Poland",
+            "Serbia"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "KT-621",
+          "KT-474"
+        ],
+        "sponsor": [
+          "Kymera"
+        ],
+        "sponsor_en": [
+          "Kymera"
+        ]
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT07217015），写入前需确认是否同一适应症"
+    }
+  },
+  "739363fee021a3b2": {
+    "id": "739363fee021a3b2",
+    "title": "诺华英半年一针降脂药英克司兰 Ⅲ 期达到主要终点",
+    "score": 7.5,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Adimab"
+        ],
+        "sponsor": [
+          "大睿生物医药",
+          "信达生物制药",
+          "江苏豪森药业",
+          "瀚晖制药"
+        ],
+        "sponsor_en": [
+          "大睿生物医药",
+          "Innovent",
+          "Hansoh",
+          "瀚晖制药"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "e9a73273b3888a34": {
+    "id": "e9a73273b3888a34",
+    "title": "2015例随机试验给出新答案：PFA更快、更安全，但疗效未必胜过射频",
+    "score": 6.0,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "b5988ecd4c36b8d6": {
+    "id": "b5988ecd4c36b8d6",
+    "title": "<![CDATA[Sacituzumab Tirumotecan Improves OS in 3L+ Gastroesophageal Cancer]]>",
+    "score": 7.3,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05089734",
+        "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+        "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+        "acronym": "EVOKE-01",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Gilead Sciences",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Sacituzumab Govitecan-hziy (SG)",
+          "Docetaxel"
+        ],
+        "primary_outcomes": [
+          "Overall Survival (OS)"
+        ],
+        "enrollment": 603,
+        "enrollment_type": "ACTUAL",
+        "start_date": "2021-11-17",
+        "primary_completion": "2023-11-29",
+        "completion": "2027-01",
+        "last_update": "2026-05-07",
+        "results_first_post": "2025-01-14",
+        "has_results": true,
+        "countries": [
+          "United States",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "France",
+          "Germany",
+          "Greece",
+          "Israel",
+          "Italy",
+          "Japan"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05089734",
+          "title": "Study of Sacituzumab Govitecan (SG) Versus Docetaxel in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+          "official_title": "Open-Label, Global, Multicenter, Randomized, Phase 3 Study of Sacituzumab Govitecan Versus Docetaxel in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy",
+          "acronym": "EVOKE-01",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Gilead Sciences",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Sacituzumab Govitecan-hziy (SG)",
+            "Docetaxel"
+          ],
+          "primary_outcomes": [
+            "Overall Survival (OS)"
+          ],
+          "enrollment": 603,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2021-11-17",
+          "primary_completion": "2023-11-29",
+          "completion": "2027-01",
+          "last_update": "2026-05-07",
+          "results_first_post": "2025-01-14",
+          "has_results": true,
+          "countries": [
+            "United States",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "France",
+            "Germany",
+            "Greece",
+            "Israel",
+            "Italy",
+            "Japan"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06161532",
+          "title": "Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile C...",
+          "official_title": "A Phase II Study of Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile Cancer",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "National Cancer Institute (NCI)",
+          "conditions": [
+            "Small Cell Carcinoma of the Bladder",
+            "Small Cell Carcinoma of the Urinary Tract",
+            "Squamous Cell Carcinoma of the Bladder",
+            "Squamous Cell Carcinoma of the Urinary Tract",
+            "Primary Adenocarcinoma of the Bladder",
+            "Primary Adenocarcinoma of the Urinary Tract",
+            "Renal Medullary Carcinoma",
+            "Squamous Cell Carcinoma of the Penis"
+          ],
+          "interventions": [
+            "Sacituzumab govitecan",
+            "Atezolizumab"
+          ],
+          "primary_outcomes": [
+            "Objective response rate (ORR)"
+          ],
+          "enrollment": 60,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-01",
+          "primary_completion": "2027-11-01",
+          "completion": "2028-11-01",
+          "last_update": "2026-10-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07343479",
+          "title": "Sacituzumab Tirumotecan Plus Third-Generation TKI With/Without Radiotherapy for EGFR-Mutant NSCLC Brain Metastases",
+          "official_title": "A Clinical Study of Sac-TMT for Injection Combined With Third-Generation Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor (EGFR-TKI) ± Radiotherapy in Subjects With EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer and Brain Metastasis Who Have Failed Prior EGFR-TKI Treatment",
+          "acronym": "",
+          "status": "NOT_YET_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Zhejiang Cancer Hospital",
+          "conditions": [
+            "NSCLC (Advanced Non-small Cell Lung Cancer)",
+            "EGFR Gene Mutations",
+            "Brain Metastasis"
+          ],
+          "interventions": [
+            "sac-TMT plus EGFR-TKI"
+          ],
+          "primary_outcomes": [
+            "6-month PFS rate"
+          ],
+          "enrollment": 45,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-05-01",
+          "primary_completion": "2027-06-20",
+          "completion": "2029-12-20",
+          "last_update": "2026-01-15",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "China"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Sacituzumab"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "注册库命中的试验适应症与新闻标题不一致（首选 NCT05089734），写入前需确认是否同一适应症"
+    }
+  },
+  "a3979343acf355a6": {
+    "id": "a3979343acf355a6",
+    "title": "New Option Approved for Gastrointestinal Stromal Tumors",
+    "score": 6.8,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT05208047",
+        "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
+        "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Cogent Biosciences, Inc.",
+        "conditions": [
+          "Advanced Gastrointestinal Stromal Tumors",
+          "Metastatic Cancer"
+        ],
+        "interventions": [
+          "Bezuclastinib",
+          "Bezuclastinib",
+          "Sunitinib",
+          "Sunitinib",
+          "Midazolam",
+          "Bezuclastinib",
+          "Sunitinib",
+          "Bezuclastinib",
+          "Sunitinib"
+        ],
+        "primary_outcomes": [
+          "Part 1a - pharmacokinetics - Cmax",
+          "Part 1a - pharmacokinetics - AUC",
+          "Part 1b - pharmacokinetics - Cmax",
+          "Part 1b - pharmacokinetics - AUC",
+          "Part 1b - pharmacokinetics - Tmax",
+          "Part 2 - Progression Free Survival (PFS)",
+          "DDI Substudy - pharmacokinetics - AUC",
+          "DDI Substudy - pharmacokinetics - Cmax"
+        ],
+        "enrollment": 482,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-04-14",
+        "primary_completion": "2025-09-30",
+        "completion": "2030-01",
+        "last_update": "2026-11-19",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "Denmark",
+          "France",
+          "Germany",
+          "Hong Kong",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05208047",
+          "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
+          "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Cogent Biosciences, Inc.",
+          "conditions": [
+            "Advanced Gastrointestinal Stromal Tumors",
+            "Metastatic Cancer"
+          ],
+          "interventions": [
+            "Bezuclastinib",
+            "Bezuclastinib",
+            "Sunitinib",
+            "Sunitinib",
+            "Midazolam",
+            "Bezuclastinib",
+            "Sunitinib",
+            "Bezuclastinib",
+            "Sunitinib"
+          ],
+          "primary_outcomes": [
+            "Part 1a - pharmacokinetics - Cmax",
+            "Part 1a - pharmacokinetics - AUC",
+            "Part 1b - pharmacokinetics - Cmax",
+            "Part 1b - pharmacokinetics - AUC",
+            "Part 1b - pharmacokinetics - Tmax",
+            "Part 2 - Progression Free Survival (PFS)",
+            "DDI Substudy - pharmacokinetics - AUC",
+            "DDI Substudy - pharmacokinetics - Cmax"
+          ],
+          "enrollment": 482,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-04-14",
+          "primary_completion": "2025-09-30",
+          "completion": "2030-01",
+          "last_update": "2026-11-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "Denmark",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05186753",
+          "title": "(Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+          "official_title": "A Multi-Part, Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Study of The Safety and Efficacy of CGT9486 in Subjects With Nonadvanced Systemic Mastocytosis",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Cogent Biosciences, Inc.",
+          "conditions": [
+            "SSM",
+            "Mastocytosis, Indolent",
+            "Mastocytosis, Systemic",
+            "Mastocytosis",
+            "ISM",
+            "BMM",
+            "Smoldering Systemic Mastocytosis",
+            "Bone Marrow Mastocytosis"
+          ],
+          "interventions": [
+            "Bezuclastinib Tablets (Formulation A)",
+            "Bezuclastinib Tablets (Formulation B)",
+            "Placebo Tablets"
+          ],
+          "primary_outcomes": [
+            "Part 1: Determine recommended dose of bezuclastinib (CGT9486) in subjects with NonAdvSM",
+            "Part 2: Efficacy of bezuclastinib at the selected dose versus placebo",
+            "Part 3: Safety and tolerability of bezuclastinib as assessed by number of adverse events"
+          ],
+          "enrollment": 237,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-27",
+          "primary_completion": "2025-05-22",
+          "completion": "2030-01",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Ireland",
+            "Italy",
+            "Netherlands",
+            "Norway",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06208748",
+          "title": "SARC044: A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST",
+          "official_title": "A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST Who Progressed on Sunitinib Monotherapy",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Sarcoma Alliance for Research through Collaboration",
+          "conditions": [
+            "Gastrointestinal Stromal Tumors",
+            "GIST"
+          ],
+          "interventions": [
+            "Bezuclastinib in combination with sunitinib"
+          ],
+          "primary_outcomes": [
+            "To estimate the median progression free survival (mPFS)"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-01",
+          "primary_completion": "2026-06",
+          "completion": "2027-06",
+          "last_update": "2025-10-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "bezuclastinib",
+          "sunitinib"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "4ab0fa19f3c95068": {
+    "id": "4ab0fa19f3c95068",
+    "title": "2026 ESMO 肿瘤药物研发盘点：生存证据与临床定位如何支撑管线决策",
+    "score": 6.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:阳性结果"
+        ]
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.75,
+      "evidence": [
+        "达到表述:阳性结果"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.75\n证据：达到表述:阳性结果",
+    "registry": {
+      "best": {
+        "nct": "NCT06077760",
+        "title": "A Study of Intismeran Autogene (V940) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Non-small Cell Lung Cancer (V940-002)",
+        "official_title": "A Phase 3, Randomized, Double-blind, Placebo- and Active-Comparator-Controlled Clinical Study of Adjuvant V940 (mRNA-4157) Plus Pembrolizumab Versus Adjuvant Placebo Plus Pembrolizumab in Participants With Resected Stage II, IIIA, IIIB (N2) Non-small Cell Lung Cancer (INTerpath-002)",
+        "acronym": "INTerpath-002",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "conditions": [
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Intismeran autogene",
+          "Pembrolizumab",
+          "Placebo"
+        ],
+        "primary_outcomes": [
+          "Disease- Free Survival (DFS)"
+        ],
+        "enrollment": 868,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2023-12-06",
+        "primary_completion": "2030-06-25",
+        "completion": "2035-12-21",
+        "last_update": "2026-11-17",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Costa Rica",
+          "Czechia",
+          "Denmark",
+          "Estonia",
+          "Finland"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06077760",
+          "title": "A Study of Intismeran Autogene (V940) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Non-small Cell Lung Cancer (V940-002)",
+          "official_title": "A Phase 3, Randomized, Double-blind, Placebo- and Active-Comparator-Controlled Clinical Study of Adjuvant V940 (mRNA-4157) Plus Pembrolizumab Versus Adjuvant Placebo Plus Pembrolizumab in Participants With Resected Stage II, IIIA, IIIB (N2) Non-small Cell Lung Cancer (INTerpath-002)",
+          "acronym": "INTerpath-002",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Intismeran autogene",
+            "Pembrolizumab",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Disease- Free Survival (DFS)"
+          ],
+          "enrollment": 868,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2023-12-06",
+          "primary_completion": "2030-06-25",
+          "completion": "2035-12-21",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Costa Rica",
+            "Czechia",
+            "Denmark",
+            "Estonia",
+            "Finland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT07513376",
+          "title": "A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014)",
+          "official_title": "A Phase 3, Randomized, Placebo-Controlled Study of Adjuvant Intismeran Autogene Plus Subcutaneous Pembrolizumab and Berahyaluronidase Alfa (MK-3475A) or Intismeran Autogene Monotherapy Versus Placebo in Participants With Completely Resected High-Risk Stage I Non-Small Cell Lung Cancer (INTerpath-014)",
+          "acronym": "INTerpath-014",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "interventions": [
+            "Intismeran",
+            "Pembrolizumab coformulated with berahyaluronidase alfa",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Disease-Free Survival (DFS) as Assessed by Blinded Independent Central Review (BICR) in Participants With Nonsquamous Non-Small Cell Lung Cancer (NSCLC) in Arm A and Arm C"
+          ],
+          "enrollment": 876,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2026-05-04",
+          "primary_completion": "2034-08-22",
+          "completion": "2038-05-11",
+          "last_update": "2026-11-16",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Israel",
+            "Italy"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06623422",
+          "title": "A Study of Pembrolizumab (MK-3475) With or Without Intismeran Autogene (V940) in Participants With Non-small Cell Lung Cancer (V940-009/INTerpath-009)",
+          "official_title": "A Phase 3 Randomized Double-blind Study of Adjuvant Pembrolizumab With or Without V940 in Participants With Resectable Stage II to IIIB (N2) NSCLC Not Achieving pCR After Receiving Neoadjuvant Pembrolizumab With Platinum-based Doublet Chemotherapy (INTerpath-009)",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "conditions": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "interventions": [
+            "Pembrolizumab",
+            "Cisplatin",
+            "Carboplatin",
+            "Pemetrexed",
+            "Gemcitabine",
+            "Paclitaxel",
+            "Intismeran autogene",
+            "Placebo"
+          ],
+          "primary_outcomes": [
+            "Disease-Free Survival (DFS)"
+          ],
+          "enrollment": 680,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-10-21",
+          "primary_completion": "2033-05-16",
+          "completion": "2038-01-26",
+          "last_update": "2026-11-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "Colombia",
+            "Finland",
+            "France",
+            "Germany"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "autogene",
+          "Tarlatamab"
+        ],
+        "sponsor": [
+          "新作用机制药",
+          "方为康方生物",
+          "药明巨诺生物",
+          "信达生物制药"
+        ],
+        "sponsor_en": [
+          "新作用机制药",
+          "Akeso",
+          "药明巨诺生物",
+          "Innovent"
+        ]
       },
       "note": ""
     }

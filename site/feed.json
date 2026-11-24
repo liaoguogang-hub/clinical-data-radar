@@ -1,7 +1,22 @@
 {
   "date": "2026-11-25",
-  "count": 2,
+  "count": 4,
   "posts": [
+    {
+      "rel": "2026/11/25/03-readout-a3979343.html",
+      "date": "2026-11-25",
+      "title": "GIST新组合获FDA批准：真正关键的结果，仍藏在标签与试验记录之间",
+      "kicker": "临床数据",
+      "sub": "监管放行意味着治疗选择增加，但现有素材不足以证明关键疗效终点及效应大小。",
+      "hook": "2026年11月24日，MedPage Today报道FDA批准选择性KIT抑制剂bezuclastinib联合sunitinib，用于既往接受过治疗的胃肠道间质瘤。反常识之处在于，批准已经落地，注册库中明确匹配的III期记录NCT05208047却仍标注为“招募中”，且没有公开疗效统计结论。监管批准与单试验“达到主要终点”，不能画等号。",
+      "chars": 2488,
+      "site_rel": "posts/2026/11/25/03-readout-a3979343.html",
+      "needs_review": true,
+      "problems": [
+        "AI味句式 2 处（不在于…而在于, 不是…而是）——必须改掉，不是换词而是拆句重写"
+      ],
+      "below_threshold": false
+    },
     {
       "rel": "2026/11/25/03-milestone-ab975c4e.html",
       "date": "2026-11-25",
@@ -31,7 +46,20 @@
       "needs_review": false,
       "problems": [],
       "below_threshold": false
+    },
+    {
+      "rel": "2026/11/25/01-landscape-4ab0fa19.html",
+      "date": "2026-11-25",
+      "title": "2026 ESMO肿瘤后期研究盘点：7项OS信号背后，临床定位与证据边界成为决胜点",
+      "kicker": "临床数据｜ESMO 2026",
+      "sub": "三项代表性III期研究显示生存获益与治疗前移并行，但跨试验比较、终点口径和安全性仍需逐项核验。",
+      "hook": "2026年11月16日发布的ESMO 2026研究盘点显示，12项入选的III期研究中有7项报告了具有统计学显著性的总生存获益。反常识之处在于，同一批数据里还出现了共同主要终点结果不一致及非劣效未获证实的情况。对研发者而言，结论已经超越单纯看风险比，转向判断生存终点是否成立、获益适用于哪类患者，以及方案能否在真实诊疗流程中交付。",
+      "chars": 2958,
+      "site_rel": "posts/2026/11/25/01-landscape-4ab0fa19.html",
+      "needs_review": false,
+      "problems": [],
+      "below_threshold": false
     }
   ],
-  "all_count": 145
+  "all_count": 147
 }
