@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-26",
+  "count": 5,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:iza-bren",
+      "lead_id": "85c20f84430dbd22",
+      "title": "双终点达标！百利天恒双抗ADC再获III期突破",
+      "score": 8.4,
+      "channel": "china",
+      "member_ids": [
+        "85c20f84430dbd22"
+      ],
+      "members": [
+        {
+          "title": "双终点达标！百利天恒双抗ADC再获III期突破",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_398265",
+          "score": 8.4,
+          "reasoning": "属中国栏目，依据国产候选药物及中国开发主体判定；材料给出独立数据监查委员会判定OS主要终点和PFS关键次要终点均达到的明确文本结论，但尚无可见p值或完整效应量。"
+        }
+      ],
+      "reasoning": "属中国栏目，依据国产候选药物及中国开发主体判定；材料给出独立数据监查委员会判定OS主要终点和PFS关键次要终点均达到的明确文本结论，但尚无可见p值或完整效应量。",
+      "verify_todo": [
+        "核实BL-B01D1-304中期分析的样本量、事件数和随访时间",
+        "核实OS与PFS的HR、置信区间、p值及α控制方案",
+        "核实完整数据是否将在会议或论文披露"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:envafolimab",
+      "lead_id": "bdb51eff1bd3099f",
+      "title": "进展 I 杏泽资本伙伴企业先声再明宣布皮下PD-L1抗体药物恩沃利单抗获得常规批准",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "bdb51eff1bd3099f"
+      ],
+      "members": [
+        {
+          "title": "进展 I 杏泽资本伙伴企业先声再明宣布皮下PD-L1抗体药物恩沃利单抗获得常规批准",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_398258",
+          "score": 6.5,
+          "reasoning": "中国申办方宣布皮下PD-L1抗体获得常规批准，属于监管临床进展，依据是审批文本而非可见的试验统计结论。由于正文为空，具体适应症、此前批准状态及关键试验数据需核实；发布日期未知。"
+        }
+      ],
+      "reasoning": "中国申办方宣布皮下PD-L1抗体获得常规批准，属于监管临床进展，依据是审批文本而非可见的试验统计结论。由于正文为空，具体适应症、此前批准状态及关键试验数据需核实；发布日期未知。",
+      "verify_todo": [
+        "核实获批剂型、适应症和监管机构",
+        "区分本次是适应症扩展、剂型批准还是转为常规批准",
+        "核实支持批准的关键试验和主要终点",
+        "确认是否已获得FDA或EMA等海外批准"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "landscape",
+      "cluster_key": "drug:giredestrant",
+      "lead_id": "ef780691f525ef21",
+      "title": "口服SERD首次拿下辅助治疗，罗氏吉雷司群获FDA批准",
+      "score": 6.9,
+      "channel": "global",
+      "member_ids": [
+        "ef780691f525ef21",
+        "7e62a881254c39d3",
+        "cc8e51e569c00723"
+      ],
+      "members": [
+        {
+          "title": "口服SERD首次拿下辅助治疗，罗氏吉雷司群获FDA批准",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_398119",
+          "score": 6.9,
+          "reasoning": "监管批准构成明确临床结果，且标题强调口服SERD用于辅助治疗具有潜在首创性，但现有依据仅为媒体标题而非试验统计结论。正文缺失，需核实批准范围、关键试验及“首次”口径；FDA事件归入global，发布日期未知。"
+        },
+        {
+          "title": "全球首个！罗氏口服SERD药物新适应症获FDA批准",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_397974",
+          "score": 6.9,
+          "reasoning": "FDA批准新适应证构成临床结果，且标题包含全球首个口服SERD的潜在首创性，但现有依据仅为媒体标题，未提供支持批准的统计结果。归入global，发布日期未知，首创性口径需单独核实。"
+        },
+        {
+          "title": "22年来的第一个：FDA批准早期乳腺癌新激素疗法",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_398255",
+          "score": 6.5,
+          "reasoning": "FDA批准属于明确临床进展节点，所依据的是监管结论而非单项试验的公开统计结论，但正文缺失使适应症、药物和关键数据无法独立核验。材料指向罗氏口服SERD并称填补早期乳腺癌约22年空白，归入global；发布日期未知。"
+        }
+      ],
+      "reasoning": "监管批准构成明确临床结果，且标题强调口服SERD用于辅助治疗具有潜在首创性，但现有依据仅为媒体标题而非试验统计结论。正文缺失，需核实批准范围、关键试验及“首次”口径；FDA事件归入global，发布日期未知。",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:upadacitinib",
+      "lead_id": "a39ef4fe46f69eef",
+      "title": "白癜风迎来首款口服靶向治疗药物！乌帕替尼获FDA批准，中国已率先获批",
+      "score": 8.5,
+      "channel": "global",
+      "member_ids": [
+        "a39ef4fe46f69eef"
+      ],
+      "members": [
+        {
+          "title": "白癜风迎来首款口服靶向治疗药物！乌帕替尼获FDA批准，中国已率先获批",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/spdt_398254",
+          "score": 8.5,
+          "reasoning": "属全球栏目，依据全球申办方及FDA监管路径判定；两项随机Ⅲ期研究已发表于《柳叶刀》，监管批准和复色疗效数字共同构成较强信号，但摘要没有展示完整统计检验。"
+        }
+      ],
+      "reasoning": "属全球栏目，依据全球申办方及FDA监管路径判定；两项随机Ⅲ期研究已发表于《柳叶刀》，监管批准和复色疗效数字共同构成较强信号，但摘要没有展示完整统计检验。",
+      "verify_todo": [
+        "核实两项Ⅲ期试验各自的主要终点及预设统计假设",
+        "核实48周复色指标的分子分析集、效应量和置信区间",
+        "核实FDA标签与中美批准时间及适应症差异"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "halt",
+      "cluster_key": "drug:sotyktu",
+      "lead_id": "726cd0a0ab2f9d32",
+      "title": "",
+      "score": 7.0,
+      "channel": "global",
+      "member_ids": [
+        "726cd0a0ab2f9d32"
+      ],
+      "members": [
+        {
+          "title": null,
+          "url": null,
+          "score": 7.0,
+          "reasoning": "属全球栏目；标题明确包含一项Ⅲ期成功和一项Ⅲ期失败，属于赛道级进展，但摘要被截断且没有可见统计量，因此按混合、文本性结论评分而非确认两个终点均达到。"
+        }
+      ],
+      "reasoning": "属全球栏目；标题明确包含一项Ⅲ期成功和一项Ⅲ期失败，属于赛道级进展，但摘要被截断且没有可见统计量，因此按混合、文本性结论评分而非确认两个终点均达到。",
+      "verify_todo": [
+        "核实两项狼疮Ⅲ期试验的名称和各自主要终点",
+        "核实成功与失败分别对应哪些预设统计结论",
+        "获取样本量、效应量、置信区间及后续开发计划"
+      ],
+      "flags": [
+        "met",
+        "failed"
+      ],
+      "endpoint_verdict": "partial",
+      "_idx": 5
+    }
+  ]
+}
