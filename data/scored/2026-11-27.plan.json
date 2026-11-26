@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-27",
+  "count": 6,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:loncastuximab-tesirine",
+      "lead_id": "76b0204265bd6083",
+      "title": "全球首个！双抗ADC伦康依隆妥单抗在小细胞肺癌III期达总生存期主要终点",
+      "score": 8.7,
+      "channel": "china",
+      "member_ids": [
+        "76b0204265bd6083"
+      ],
+      "members": [
+        {
+          "title": "全球首个！双抗ADC伦康依隆妥单抗在小细胞肺癌III期达总生存期主要终点",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_398753",
+          "score": 8.7,
+          "reasoning": "报道明确称Ⅲ期研究同时达到OS和PFS主要终点，并强调双抗ADC在小细胞肺癌中的首创性，属于高价值阳性Ⅲ期读出；目前摘录未提供效应量、置信区间和p值。"
+        }
+      ],
+      "reasoning": "报道明确称Ⅲ期研究同时达到OS和PFS主要终点，并强调双抗ADC在小细胞肺癌中的首创性，属于高价值阳性Ⅲ期读出；目前摘录未提供效应量、置信区间和p值。",
+      "verify_todo": [
+        "核实候选药物标准名称、试验登记号、样本量和治疗线次",
+        "获取OS/PFS的HR、置信区间、p值及预设α分配",
+        "核实“全球首个”及第六项Ⅲ期阳性结论的原始出处"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": null,
+      "lead_id": "e45f15d3305aa916",
+      "title": "7500万慢乙肝患者迎来治愈新选择，全球首个功能性治愈新药在华获批",
+      "score": 6.5,
+      "channel": "china",
+      "member_ids": [
+        "e45f15d3305aa916"
+      ],
+      "members": [
+        {
+          "title": "7500万慢乙肝患者迎来治愈新选择，全球首个功能性治愈新药在华获批",
+          "url": "https://bydrug.pharmcube.com/news/detail/010140404990b2c0b635d9097bb56baf",
+          "score": 6.5,
+          "reasoning": "标题称一款面向慢性乙肝的功能性治愈药物已在中国获批，若核实属实将构成重要监管进展；但药物名称、批准文件、关键试验设计和统计结果均缺失。"
+        }
+      ],
+      "reasoning": "标题称一款面向慢性乙肝的功能性治愈药物已在中国获批，若核实属实将构成重要监管进展；但药物名称、批准文件、关键试验设计和统计结果均缺失。",
+      "verify_todo": [
+        "核实获批药物名称、NMPA批准文号和批准日期",
+        "核实功能性治愈的定义、HBsAg清除终点及关键试验数据",
+        "获取注册审评报告或说明书中的临床证据"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 2
+    },
+    {
+      "type": "milestone",
+      "cluster_key": "drug:nouvsight001",
+      "lead_id": "29a600f40a014592",
+      "title": "睿健医药携手北京协和医院启动NouvSight001治疗视网膜色素变性I/III期临床研究",
+      "score": 6.2,
+      "channel": "china",
+      "member_ids": [
+        "29a600f40a014592"
+      ],
+      "members": [
+        {
+          "title": "睿健医药携手北京协和医院启动NouvSight001治疗视网膜色素变性I/III期临床研究",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_398747",
+          "score": 6.2,
+          "reasoning": "I/III期细胞治疗研究正式启动是重要开发节点，且视网膜色素变性存在明确未满足需求；但目前只有试验实施信息，没有疗效或安全性读出。"
+        }
+      ],
+      "reasoning": "I/III期细胞治疗研究正式启动是重要开发节点，且视网膜色素变性存在明确未满足需求；但目前只有试验实施信息，没有疗效或安全性读出。",
+      "verify_todo": [
+        "核实中国I/III期试验登记号、样本量、分期设计及主要终点",
+        "核实中美许可文件和试验是否为同一全球开发项目"
+      ],
+      "flags": [],
+      "endpoint_verdict": "none",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "target:individualized-neoantigen-mrna-vaccine",
+      "lead_id": "4775c0f69f748e58",
+      "title": "《N. Engl. J. Med.》｜Moderna个体化mRNA肿瘤疫苗Ⅲ期结果阳性，联合PD‑1治疗延长黑色素瘤术后无复发生存",
+      "score": 9.2,
+      "channel": "global",
+      "member_ids": [
+        "4775c0f69f748e58"
+      ],
+      "members": [
+        {
+          "title": "《N. Engl. J. Med.》｜Moderna个体化mRNA肿瘤疫苗Ⅲ期结果阳性，联合PD‑1治疗延长黑色素瘤术后无复发生存",
+          "url": "https://www.pharnexcloud.com/zixun/shiye/lcyj_398754",
+          "score": 9.2,
+          "reasoning": "NEJM发表的Ⅲ期阳性结果明确达到术后无复发生存相关结论，数据成熟度最高，并具有个体化肿瘤疫苗的显著首创性价值；仍需核对具体产品、效应量和样本量。"
+        }
+      ],
+      "reasoning": "NEJM发表的Ⅲ期阳性结果明确达到术后无复发生存相关结论，数据成熟度最高，并具有个体化肿瘤疫苗的显著首创性价值；仍需核对具体产品、效应量和样本量。",
+      "verify_todo": [
+        "核实候选疫苗名称、试验登记号、样本量及主要终点定义",
+        "获取无复发生存HR、置信区间、p值和亚组结果",
+        "核实联合PD-1方案及围术期治疗背景"
+      ],
+      "flags": [
+        "met"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:sotyktu",
+      "lead_id": "726cd0e0ab2f9d32",
+      "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+      "score": 7.7,
+      "channel": "global",
+      "member_ids": [
+        "726cd0e0ab2f9d32"
+      ],
+      "members": [
+        {
+          "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+          "url": "https://endpoints.news/bristol-myers-reports-one-phase-3-success-one-failure-in-sotyktu-lupus-trials/",
+          "score": 7.7,
+          "reasoning": "公司顶线信息显示两项Ⅲ期 lupus研究一项成功、一项失败，其中明确失败部分属于高价值负面事件；摘要被截断，尚无法确认各自试验、主要终点及失败原因。"
+        }
+      ],
+      "reasoning": "公司顶线信息显示两项Ⅲ期 lupus研究一项成功、一项失败，其中明确失败部分属于高价值负面事件；摘要被截断，尚无法确认各自试验、主要终点及失败原因。",
+      "verify_todo": [
+        "核实两项Ⅲ期试验名称、样本量、主要终点和成功/失败对应关系",
+        "获取未达终点项目的效应量、置信区间和p值",
+        "核实安全性是否导致停药或终止"
+      ],
+      "flags": [
+        "met",
+        "failed"
+      ],
+      "endpoint_verdict": "partial",
+      "_idx": 5
+    },
+    {
+      "type": "halt",
+      "cluster_key": "intervention:partial-breast-irradiation",
+      "lead_id": "d67cb8bfd272baad",
+      "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+      "score": 6.7,
+      "channel": "global",
+      "member_ids": [
+        "d67cb8bfd272baad"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+          "url": "https://www.targetedonc.com/view/partial-breast-irradiation-irma-trial-low-risk-breast-cancer",
+          "score": 6.7,
+          "reasoning": "标题给出Ⅲ期IRMA试验未达到非劣效性的明确失败结论，属于行业可关注的统计性负面读出；目前摘要未提供效应量、置信区间及安全性细节。"
+        }
+      ],
+      "reasoning": "标题给出Ⅲ期IRMA试验未达到非劣效性的明确失败结论，属于行业可关注的统计性负面读出；目前摘要未提供效应量、置信区间及安全性细节。",
+      "verify_todo": [
+        "核实试验设计、样本量、非劣界值、组间差异及置信区间",
+        "核实安全性结果和论文或会议出处"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 6
+    }
+  ]
+}

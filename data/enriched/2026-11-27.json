@@ -1,0 +1,858 @@
+{
+  "76b0204265bd6083": {
+    "id": "76b0204265bd6083",
+    "title": "全球首个！双抗ADC伦康依隆妥单抗在小细胞肺癌III期达总生存期主要终点",
+    "score": 8.7,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:达到主要终点"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:达到主要终点"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:达到主要终点",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "复宏汉霖生物",
+          "技术股份",
+          "宜明昂科生物",
+          "科技股份"
+        ],
+        "sponsor_en": [
+          "复宏汉霖生物",
+          "技术股份",
+          "宜明昂科生物",
+          "科技股份"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（复宏汉霖生物、技术股份、宜明昂科生物、科技股份）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "726cd0e0ab2f9d32": {
+    "id": "726cd0e0ab2f9d32",
+    "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+    "score": 7.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "d67cb8bfd272baad": {
+    "id": "d67cb8bfd272baad",
+    "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "partial",
+        "basis": "textual",
+        "confidence": 0.6,
+        "evidence": [
+          "部分获益表述:Partial"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "partial",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "部分获益表述:Partial"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：部分达到\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：部分获益表述:Partial",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "7ba1992f650958dc": {
+    "id": "7ba1992f650958dc",
+    "title": "Antibiotic Paste Approved to Prevent Surgical Site Infections",
+    "score": 6.7,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "e45f15d3305aa916": {
+    "id": "e45f15d3305aa916",
+    "title": "7500万慢乙肝患者迎来治愈新选择，全球首个功能性治愈新药在华获批",
+    "score": 6.5,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "531909e627cc6d6d": {
+    "id": "531909e627cc6d6d",
+    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "met",
+        "basis": "textual",
+        "confidence": 0.75,
+        "evidence": [
+          "达到表述:wins"
+        ]
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "met",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "达到表述:wins"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：达到主要终点\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：达到表述:wins",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "a094ab8a1c4abfb1": {
+    "id": "a094ab8a1c4abfb1",
+    "title": "全球首个皮下注射 PD-L1 抑制剂的“常规批准”：MSI-H/dMMR实体瘤的长期生存",
+    "score": 6.4,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": "未能从标题抽出可检索的药名/公司名/NCT号"
+    }
+  },
+  "29a600f40a014592": {
+    "id": "29a600f40a014592",
+    "title": "睿健医药携手北京协和医院启动NouvSight001治疗视网膜色素变性I/III期临床研究",
+    "score": 6.2,
+    "channel": "china",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:获益"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:获益"
+      ],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:获益",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "睿健医药",
+          "院与睿健医药",
+          "志着睿健医药",
+          "是睿健医药"
+        ],
+        "sponsor_en": [
+          "睿健医药",
+          "院与睿健医药",
+          "志着睿健医药",
+          "是睿健医药"
+        ]
+      },
+      "note": "注册库无法定位：抽到的检索词只有未映射的中文主体（睿健医药、院与睿健医药、志着睿健医药、是睿健医药）。CT.gov 不收录中文公司名，需要补映射表或改用中国注册库。"
+    }
+  },
+  "4775c0f69f748e58": {
+    "id": "4775c0f69f748e58",
+    "title": "《N. Engl. J. Med.》｜Moderna个体化mRNA肿瘤疫苗Ⅲ期结果阳性，联合PD‑1治疗延长黑色素瘤术后无复发生存",
+    "score": 9.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": null,
+      "numbers": null,
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": "",
+      "note": "注册库未找到对应试验，结论仅来自新闻措辞"
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {},
+      "trials": [],
+      "terms": {
+        "nct": [],
+        "drug": [],
+        "sponsor": [
+          "复宏汉霖生物",
+          "技术股份",
+          "菲鹏生物股份",
+          "荣昌生物制药"
+        ],
+        "sponsor_en": [
+          "复宏汉霖生物",
+          "技术股份",
+          "菲鹏生物股份",
+          "RemeGen"
+        ]
+      },
+      "note": "注册库未找到相关度足够的试验"
+    }
+  },
+  "16e2507b02fe4674": {
+    "id": "16e2507b02fe4674",
+    "title": "<![CDATA[Arcus Ends Quemliclustat Phase 3 Trial in Metastatic Pancreatic Cancer]]>",
+    "score": 7.2,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.2,
+        "evidence": []
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "unknown",
+      "basis": "none",
+      "confidence": 0.2,
+      "evidence": [],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：未找到公开结论\n依据层级：无\n置信度：0.20",
+    "registry": {
+      "best": {
+        "nct": "NCT06048484",
+        "title": "Combination Therapy in Patients With Localized Pancreatic Ductal Adenocarcinoma",
+        "official_title": "A Phase 2, Open-Label, Multicenter, Randomized Study Evaluating Neoadjuvant Therapy Targeting the Adenosine Immunosuppressive Pathway in Combination With Immune Checkpoint Blockade and Radiation Therapy in Patients With Advanced PANCreatic Ductal Adenocarcinoma Who Are Candidates for Surgical Resection",
+        "acronym": "AIRPanc",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE2",
+        "sponsor": "Gulam Manji",
+        "conditions": [
+          "Pancreatic Ductal Adenocarcinoma"
+        ],
+        "interventions": [
+          "Stereotactic body radiotherapy (SBRT)",
+          "Zimberelimab",
+          "Quemliclustat",
+          "Etrumadenant",
+          "Modified FOLFIRINOX"
+        ],
+        "primary_outcomes": [
+          "Change in the number of intratumoral CD8+ T-cells"
+        ],
+        "enrollment": 60,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2024-05-10",
+        "primary_completion": "2027-04",
+        "completion": "2027-04",
+        "last_update": "2026-02-27",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT06048484",
+          "title": "Combination Therapy in Patients With Localized Pancreatic Ductal Adenocarcinoma",
+          "official_title": "A Phase 2, Open-Label, Multicenter, Randomized Study Evaluating Neoadjuvant Therapy Targeting the Adenosine Immunosuppressive Pathway in Combination With Immune Checkpoint Blockade and Radiation Therapy in Patients With Advanced PANCreatic Ductal Adenocarcinoma Who Are Candidates for Surgical Resection",
+          "acronym": "AIRPanc",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Gulam Manji",
+          "conditions": [
+            "Pancreatic Ductal Adenocarcinoma"
+          ],
+          "interventions": [
+            "Stereotactic body radiotherapy (SBRT)",
+            "Zimberelimab",
+            "Quemliclustat",
+            "Etrumadenant",
+            "Modified FOLFIRINOX"
+          ],
+          "primary_outcomes": [
+            "Change in the number of intratumoral CD8+ T-cells"
+          ],
+          "enrollment": 60,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-05-10",
+          "primary_completion": "2027-04",
+          "completion": "2027-04",
+          "last_update": "2026-02-27",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT04381832",
+          "title": "Adenosine Receptor Antagonist Combination Therapy for Metastatic Castrate Resistant Prostate Cancer",
+          "official_title": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating the Efficacy and Safety of AB928-Based Treatment Combinations in Patients With Metastatic Castrate Resistant Prostate Cancer",
+          "acronym": "",
+          "status": "COMPLETED",
+          "why_stopped": "",
+          "phase": "PHASE1, PHASE2",
+          "sponsor": "Arcus Biosciences, Inc.",
+          "conditions": [
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Androgen-Resistant Prostatic Neoplasms",
+            "Castration Resistant Prostatic Neoplasms",
+            "Prostatic Cancer, Castration-Resistant"
+          ],
+          "interventions": [
+            "Etrumadenant",
+            "Zimberelimab",
+            "Quemliclustat",
+            "Enzalutamide",
+            "Docetaxel",
+            "SG"
+          ],
+          "primary_outcomes": [
+            "Objective Response Rate (ORR) in Stage 1 and 2",
+            "Incidence and Severity of AEs and Serious Adverse Events (SAEs) in Stage 1"
+          ],
+          "enrollment": 173,
+          "enrollment_type": "ACTUAL",
+          "start_date": "2020-07-07",
+          "primary_completion": "2024-08-30",
+          "completion": "2024-08-30",
+          "last_update": "2025-07-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06048133",
+          "title": "Study of Gemcitabine, Cisplatin, AB680 and AB122 During First Line Treatment of Advanced Biliary Tract Cancers (QUIC)",
+          "official_title": "Study of Gemcitabine, Cisplatin, Quemliclustat (AB680) and Zimberelimab (AB122) During First-line Treatment of Advanced Biliary Tract Cancers (QUIC)",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Nataliya Uboha",
+          "conditions": [
+            "Biliary Tract Carcinoma",
+            "Cholangiocarcinoma",
+            "Bile Duct Cancer"
+          ],
+          "interventions": [
+            "Gemcitabine",
+            "Cisplatin",
+            "Zimberelimab",
+            "Quemliclustat"
+          ],
+          "primary_outcomes": [
+            "Estimate the progression free survival (PFS) with gemcitabine, cisplatin, quemliclustat (AB680) and zimberelimab (AB122) in patients with advanced BTCs."
+          ],
+          "enrollment": 33,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-03-08",
+          "primary_completion": "2026-12",
+          "completion": "2027-07",
+          "last_update": "2026-08-17",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [],
+        "drug": [
+          "Quemliclustat"
+        ],
+        "sponsor": [],
+        "sponsor_en": []
+      },
+      "note": ""
+    }
+  },
+  "d049097ce6847258": {
+    "id": "d049097ce6847258",
+    "title": "FDA approves bezuclastinib in combination with sunitinib for advanced gastrointestinal stromal tumours",
+    "score": 7.6,
+    "channel": "global",
+    "verdict": {
+      "textual": {
+        "verdict": "positive_data",
+        "basis": "textual",
+        "confidence": 0.5,
+        "evidence": [
+          "疗效数据表述:objective response"
+        ],
+        "caveat": "标题只给出疗效数据，未明确表述是否达到主要终点；两者不可混为一谈"
+      },
+      "statistical": {
+        "verdict": "unknown",
+        "basis": "none",
+        "confidence": 0.0,
+        "evidence": []
+      },
+      "numbers": [],
+      "verdict": "positive_data",
+      "basis": "textual",
+      "confidence": 0.5,
+      "evidence": [
+        "疗效数据表述:objective response"
+      ],
+      "conflict": false,
+      "halt_reason": ""
+    },
+    "verdict_block": "终点判定：疗效数据积极（未明确是否达到终点）\n依据层级：新闻/公告措辞（需注意出处）\n置信度：0.50\n证据：疗效数据表述:objective response",
+    "registry": {
+      "best": {
+        "nct": "NCT05208047",
+        "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
+        "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
+        "acronym": "",
+        "status": "RECRUITING",
+        "why_stopped": "",
+        "phase": "PHASE3",
+        "sponsor": "Cogent Biosciences, Inc.",
+        "conditions": [
+          "Advanced Gastrointestinal Stromal Tumors",
+          "Metastatic Cancer"
+        ],
+        "interventions": [
+          "Bezuclastinib",
+          "Bezuclastinib",
+          "Sunitinib",
+          "Sunitinib",
+          "Midazolam",
+          "Bezuclastinib",
+          "Sunitinib",
+          "Bezuclastinib",
+          "Sunitinib"
+        ],
+        "primary_outcomes": [
+          "Part 1a - pharmacokinetics - Cmax",
+          "Part 1a - pharmacokinetics - AUC",
+          "Part 1b - pharmacokinetics - Cmax",
+          "Part 1b - pharmacokinetics - AUC",
+          "Part 1b - pharmacokinetics - Tmax",
+          "Part 2 - Progression Free Survival (PFS)",
+          "DDI Substudy - pharmacokinetics - AUC",
+          "DDI Substudy - pharmacokinetics - Cmax"
+        ],
+        "enrollment": 482,
+        "enrollment_type": "ESTIMATED",
+        "start_date": "2022-04-14",
+        "primary_completion": "2025-09-30",
+        "completion": "2030-01",
+        "last_update": "2026-11-19",
+        "results_first_post": "",
+        "has_results": false,
+        "countries": [
+          "United States",
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Czechia",
+          "Denmark",
+          "France",
+          "Germany",
+          "Hong Kong",
+          "Hungary"
+        ],
+        "results": {
+          "primary": [],
+          "secondary": [],
+          "n_primary": 0,
+          "n_secondary": 0,
+          "has_analyses": false
+        }
+      },
+      "trials": [
+        {
+          "nct": "NCT05208047",
+          "title": "(Peak) A Phase 3 Randomized Trial of Bezuclastinib (CGT9486)+Sunitinib vs. Sunitinib in Participants With Gastrointestinal Stromal Tumors",
+          "official_title": "A Phase 3 Randomized, Open-Label, Multicenter Clinical Study of CGT9486+Sunitinib vs. Sunitinib in Subjects With Locally Advanced, Unresectable, or Metastatic Gastrointestinal Stromal Tumors",
+          "acronym": "",
+          "status": "RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE3",
+          "sponsor": "Cogent Biosciences, Inc.",
+          "conditions": [
+            "Advanced Gastrointestinal Stromal Tumors",
+            "Metastatic Cancer"
+          ],
+          "interventions": [
+            "Bezuclastinib",
+            "Bezuclastinib",
+            "Sunitinib",
+            "Sunitinib",
+            "Midazolam",
+            "Bezuclastinib",
+            "Sunitinib",
+            "Bezuclastinib",
+            "Sunitinib"
+          ],
+          "primary_outcomes": [
+            "Part 1a - pharmacokinetics - Cmax",
+            "Part 1a - pharmacokinetics - AUC",
+            "Part 1b - pharmacokinetics - Cmax",
+            "Part 1b - pharmacokinetics - AUC",
+            "Part 1b - pharmacokinetics - Tmax",
+            "Part 2 - Progression Free Survival (PFS)",
+            "DDI Substudy - pharmacokinetics - AUC",
+            "DDI Substudy - pharmacokinetics - Cmax"
+          ],
+          "enrollment": 482,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-04-14",
+          "primary_completion": "2025-09-30",
+          "completion": "2030-01",
+          "last_update": "2026-11-19",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Chile",
+            "Czechia",
+            "Denmark",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "Hungary"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT05186753",
+          "title": "(Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+          "official_title": "A Multi-Part, Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Study of The Safety and Efficacy of CGT9486 in Subjects With Nonadvanced Systemic Mastocytosis",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Cogent Biosciences, Inc.",
+          "conditions": [
+            "SSM",
+            "Mastocytosis, Indolent",
+            "Mastocytosis, Systemic",
+            "Mastocytosis",
+            "ISM",
+            "BMM",
+            "Smoldering Systemic Mastocytosis",
+            "Bone Marrow Mastocytosis"
+          ],
+          "interventions": [
+            "Bezuclastinib Tablets (Formulation A)",
+            "Bezuclastinib Tablets (Formulation B)",
+            "Placebo Tablets"
+          ],
+          "primary_outcomes": [
+            "Part 1: Determine recommended dose of bezuclastinib (CGT9486) in subjects with NonAdvSM",
+            "Part 2: Efficacy of bezuclastinib at the selected dose versus placebo",
+            "Part 3: Safety and tolerability of bezuclastinib as assessed by number of adverse events"
+          ],
+          "enrollment": 237,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2022-06-27",
+          "primary_completion": "2025-05-22",
+          "completion": "2030-01",
+          "last_update": "2026-10-22",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "Czechia",
+            "France",
+            "Germany",
+            "Ireland",
+            "Italy",
+            "Netherlands",
+            "Norway",
+            "Poland"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        },
+        {
+          "nct": "NCT06208748",
+          "title": "SARC044: A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST",
+          "official_title": "A Phase II Trial of Bezuclastinib in Combination With Sunitinib in Patients With GIST Who Progressed on Sunitinib Monotherapy",
+          "acronym": "",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "why_stopped": "",
+          "phase": "PHASE2",
+          "sponsor": "Sarcoma Alliance for Research through Collaboration",
+          "conditions": [
+            "Gastrointestinal Stromal Tumors",
+            "GIST"
+          ],
+          "interventions": [
+            "Bezuclastinib in combination with sunitinib"
+          ],
+          "primary_outcomes": [
+            "To estimate the median progression free survival (mPFS)"
+          ],
+          "enrollment": 40,
+          "enrollment_type": "ESTIMATED",
+          "start_date": "2024-08-01",
+          "primary_completion": "2026-06",
+          "completion": "2027-06",
+          "last_update": "2025-10-31",
+          "results_first_post": "",
+          "has_results": false,
+          "countries": [
+            "United States"
+          ],
+          "results": {
+            "primary": [],
+            "secondary": [],
+            "n_primary": 0,
+            "n_secondary": 0,
+            "has_analyses": false
+          }
+        }
+      ],
+      "terms": {
+        "nct": [
+          "NCT05208047"
+        ],
+        "drug": [
+          "bezuclastinib",
+          "sunitinib",
+          "imatinib",
+          "Bezuclastinib"
+        ],
+        "sponsor": [
+          "Cogent",
+          "Time"
+        ],
+        "sponsor_en": [
+          "Cogent",
+          "Time"
+        ]
+      },
+      "note": ""
+    }
+  }
+}
