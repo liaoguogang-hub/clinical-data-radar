@@ -1,0 +1,885 @@
+[
+  {
+    "id": "d049097ce6847258",
+    "score": 7.4,
+    "channel": "global",
+    "cluster_key": "drug:bezuclastinib",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.91,
+    "reasoning": "FDA批准明确构成监管层面的获益结论，依据是413例随机PEAK研究，对伊马替尼治疗后GIST这一未满足需求具有较高报道价值；按全球栏目归类，但具体效应量和统计阈值仍需回溯原始资料。",
+    "verify_todo": [
+      "核实PEAK主要终点、效应值、置信区间及p值",
+      "核实批准所依据的完整监管审评资料",
+      "核实各组样本量、停药率和不良反应"
+    ],
+    "article_type": "readout",
+    "title": "FDA approves bezuclastinib in combination with sunitinib for advanced gastrointestinal stromal tumours",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/fda-approves-bezuclastinib-in-combination-with-sunitinib-for-advanced-gastrointestinal-stromal-tumours",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "Evidence for efficacy is based on the results from the PEAK study\nOn 24 November 2026, the US Food and Drug Administration (FDA) approved bezuclastinib (Ekitna, Cogent Biosciences, Inc), a kinase inhibitor, in combination with sunitinib for the treatment of adult patients with advanced gastrointestinal stromal tumours (GIST) who have received prior treatment with imatinib.\nEfficacy was evaluated in the PEAK study (NCT05208047), an open-label, randomised, international, multicentre trial conducted in 413 patients with histologically confirmed, locally advanced, unresectable, or metastatic GIST with disease progression on or intolerance to imatinib. Patients were randomised to receive bezuclastinib in combination with sunitinib (both once daily) or sunitinib once daily alone until disease progression.\nThe major efficacy outcome measure was progression-free survival (PFS) as determined by blinded independent central review (BICR) using mRECIST v1.1. Additional efficacy endpoints included objective response rate (ORR) and overall survival (OS). Crossover to bezuclastinib in combination with sunitinib was allowed following BICR-confirmed disease progression for patients randomised to sunitinib alone.\nMedian PFS was 16.5 months (95% confidence interval [CI] 13.8, 19.2) in the bezuclastinib plus sunitinib arm and 9.2 months (95% CI 7.2, 11.0) in the sunitinib arm (hazard ratio 0.50, 95% CI 0.39, 0.65; two-sided p-value < 0.0001). ORR was 46% (95% CI 39, 53) in the bezuclastinib plus sunitinib arm and 26% (95% CI 20, 32) in the sunitinib arm (two-sided p-value < 0.0001). OS data were not mature at the time of the PFS analysis.\nThe prescribing information includes a boxed warning for hepatotoxicity and warnings and precautions for embryo-foetal toxicity.\nThe most common adverse reactions, (incidence ≥ 20%) including laboratory abnormalities are diarrhoea, increased liver transaminases, hypertension, dysgeusia, nausea, hair colour changes, fatigue, abdominal pain, vomiting, decreased appetite, stomatitis, gastro-oesophageal reflux disease, rash, dyspepsia, and pyrexia. The most common Grade 3 or 4 laboratory abnormalities (≥ 5%) were alanine aminotransferase increased, leukocytes decreased, neutrophils decreased, lymphocytes decreased, and haemoglobin decreased.\nThe recommended bezuclastinib dose is 600 mg orally once daily in combination with sunitinib 37.5 mg orally once daily.\nThis review used the Real-Time Oncology Review programme, which streamlined data submission prior to the filing of the entire clinical application, and the Assessment Aid , a voluntary submission from the applicant to facilitate the FDA’s assessment.\nThis application was granted priority review. Bezuclastinib in combination with sunitinib received breakthrough therapy designation. Bezuclastinib also received orphan drug designation.\nHealthcare professionals should report all serious adverse events suspected to be associated with the use of any medicine and device to FDA’s MedWatch Reporting System.\nFor assistance with single-patient INDs for investigational oncology products, healthcare professionals may contact FDA’s Oncology Center of Excellence Project Facilitate .",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-26T08:07:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "16e2507b02fe4674",
+    "score": 7.2,
+    "channel": "global",
+    "cluster_key": "drug:quemliclustat",
+    "flags": [
+      "halted"
+    ],
+    "endpoint_verdict": "halted",
+    "verdict_basis": "textual",
+    "confidence": 0.88,
+    "reasoning": "Ⅲ期转移性胰腺癌试验被终止属于高价值临床进展，即使标题未说明是无效性还是安全性原因，终止本身也应重视；胰腺癌未满足需求很高，按全球栏目归类。",
+    "verify_todo": [
+      "核实终止的正式原因、日期和试验注册状态",
+      "确认是否经过预设无效性分析或数据监查委员会建议",
+      "核实已入组人数、随访结果及是否启动其他研究"
+    ],
+    "article_type": "halt",
+    "title": "<![CDATA[Arcus Ends Quemliclustat Phase 3 Trial in Metastatic Pancreatic Cancer]]>",
+    "url": "https://www.targetedonc.com/view/arcus-ends-quemliclustat-phase-3-trial-in-metastatic-pancreatic-cancer",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-24T18:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "531909e627cc6d6d",
+    "score": 6.8,
+    "channel": "global",
+    "cluster_key": "drug:giredestrant",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.88,
+    "reasoning": "第二次FDA批准使口服SERD从晚期疾病拓展至早期乳腺癌，属于注册性临床开发和监管成果，具有明确报道价值；但素材未提供支持试验的统计量，归入全球栏目。",
+    "verify_todo": [
+      "核实本次批准的适应症和患者人群",
+      "核实支持研究名称、阶段、主要终点及效应值",
+      "核实早期疾病获益结论及绝对风险下降"
+    ],
+    "article_type": "readout",
+    "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+    "url": "https://endpoints.news/roche-wins-second-fda-approval-for-breast-cancer-pill-opening-up-bigger-market/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Roche's breast cancer pill giredestrant won its second FDA approval on Monday, opening up a much larger potential market for the Swiss drugmaker in early-stage disease. The FDA approved the drug ...",
+    "lang": "en",
+    "published": "2026-11-23T17:44:26+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "726cd0e0ab2f9d32",
+    "score": 6.4,
+    "channel": "global",
+    "cluster_key": "drug:deucravacitinib",
+    "flags": [
+      "met",
+      "failed"
+    ],
+    "endpoint_verdict": "partial",
+    "verdict_basis": "textual",
+    "confidence": 0.86,
+    "reasoning": "两项Ⅲ期试验呈现一项成功、一项失败，是明确的双向顶线结果，其中失败部分具有赛道意义；现有素材未给出各项试验的统计量和具体终点，因此依据的是公司披露经媒体转述的结论，归入全球栏目。",
+    "verify_todo": [
+      "分别核实两项Ⅲ期试验名称、主要终点和统计结论",
+      "核实成功与失败分别对应哪个适应症或人群",
+      "获取效应值、置信区间、安全性及后续开发计划"
+    ],
+    "article_type": "readout",
+    "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+    "url": "https://endpoints.news/bristol-myers-reports-one-phase-3-success-one-failure-in-sotyktu-lupus-trials/",
+    "sources": [
+      "endpoint"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Bristol Myers Squibb’s attempt to push Sotyktu, its oral TYK2 inhibitor, into lupus has hit a snag. The drug was being tested in two Phase 3 studies for systemic lupus, with Bristol Myers toplining the ...",
+    "lang": "en",
+    "published": "2026-11-25T14:27:50+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "fa67889d2f4e6f85",
+    "score": 6.3,
+    "channel": "global",
+    "cluster_key": "drug:bezuclastinib",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.76,
+    "reasoning": "条目明确包含Ekitna用于晚期GIST的监管批准，可视为临床获益结论，且有随机PEAK研究作为批准依据，但该文同时包含监管流程简讯，临床数据深度有限；归入全球栏目。",
+    "verify_todo": [
+      "核实PEAK研究主要终点、效应值和统计阈值",
+      "核实批准是基于何种监管审评结论",
+      "确认文章是否提供完整安全性数据"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[ACT Brief: Adaptive Design Pre-Specification, FDA Results Reporting Notices, and Ekitna GIST Approval]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/adaptive-design-pre-specification-fda-results-reporting-notices-ekitna-gist-approval",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-27T11:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "d67cb8bfd272baad",
+    "score": 6.1,
+    "channel": "global",
+    "cluster_key": "trial:irma-partial-breast-irradiation",
+    "flags": [
+      "failed"
+    ],
+    "endpoint_verdict": "missed",
+    "verdict_basis": "textual",
+    "confidence": 0.84,
+    "reasoning": "标题明确报告Ⅲ期IRMA试验未达到非劣效性，这是基于预设比较框架的明确失败结论，而非一般疗效数字；尽管缺乏原始统计量，失败读出本身仍值得行业级关注，归入全球栏目。",
+    "verify_todo": [
+      "核实主要终点定义、非劣界值和样本量",
+      "核实两组的绝对事件率、效应估计及置信区间",
+      "核实安全性结果及试验后续安排"
+    ],
+    "article_type": "halt",
+    "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+    "url": "https://www.targetedonc.com/view/partial-breast-irradiation-irma-trial-low-risk-breast-cancer",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-26T15:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "756dcea6c73e7449",
+    "score": 6.0,
+    "channel": "china",
+    "cluster_key": "drug:ivonescimab",
+    "flags": [
+      "met",
+      "single_arm",
+      "surrogate",
+      "small_n"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.87,
+    "reasoning": "ESMO快速口头报告明确称单臂Ⅱ期研究达到预设PFS主要终点，具有会议级临床证据价值；但仅19例、无对照且依赖PFS而非OS，需显著降权。按中国原研抗体归入中国栏目。",
+    "verify_todo": [
+      "核实主要终点的预设阈值及统计检验方法",
+      "核实完整ORR、PFS、OS和持续缓解数据",
+      "核实安全性结果及后续全球注册研究计划"
+    ],
+    "article_type": "readout",
+    "title": "First-line ivonescimab shows encouraging activity in thymic carcinoma",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/first-line-ivonescimab-shows-encouraging-activity-in-thymic-carcinoma",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "The iTHYM study achieved its primary endpoint of progression-free survival at six months, but longer follow-up data are now needed to establish whether the anti-PD-1/VEGF bispecific antibody has a role in treatment\nAll nineteen patients with recurrent or metastatic thymic carcinoma treated with first-line ivonescimab - an engineered bispecific antibody targeting PD-1 and VEGF - plus carboplatin and paclitaxel or nab-paclitaxel, remained progression-free at 6 months in the single-arm, phase II iTHYM study . These findings “are remarkable”, as noted Prof. Marina Chiara Garassino , University of Chicago, U.S., during the Rapid Oral discussion at ESMO Congress 2026 , where the study preliminary data were presented ( Abstract 4156RO ).\nIvonescimab has emerged as a promising anticancer agent in thoracic malignancies in recent years. In 2024, it was first approved in China as an add-on to chemotherapy for people with advanced non-small cell lung cancer (NSCLC) with EGFR mutations who had already used a tyrosine kinase inhibitor ( Drugs. 2024 Sep;84(9):1135-1142 ). Also, an interim overall survival (OS) analysis of the HARMONi-6 study , published earlier this year, reported that ivonescimab plus chemotherapy demonstrated a statistically significant and clinically meaningful improvement in OS compared with tislelizumab plus chemotherapy in previously untreated patients with advanced squamous NSCLC ( Lancet. 2026 Jun 27;407(10548):2620-2629 ). In a single-centre, phase II trial, an encouraging antitumour activity of ivonescimab plus paclitaxel-carboplatin was also observed in stage IVb, treatment-naïve patients with thymic carcinoma, for whom options beyond standard chemotherapy are generally limited ( J Immunother Cancer. 2026 Sep 23;14(9):e016280 ).\n“In 2026, the standard of care for this rare and aggressive subtype of thymic epithelial tumours is represented by the combination of carboplatin-paclitaxel and ramucirumab that was studied in two trials, RELEVENT and S170 , and showed response rates of 80% and 88% respectively ( Ann Oncol. 2024 Sep;35(9):817-826 ; JTO Clin Res Rep. 2024 Oct 16;5(12):100738 ),” explained Garassino in Madrid. “Other phase II trials analysed the role of immunotherapy when combined with carboplatin-paclitaxell, but the response rates were lower (56% and 37.7%) compared to those achieved with the antiangiogenics ( Lancet Oncol. 2025 Mar;26(3):331-342 ; ESMO Open. 2026 Oct;11(10):108366 )”.\nThe iTHYM study met its primary endpoint of 6-month progression-free survival (PFS), and overall response rate (ORR) was 83.3% at a median follow-up of 10.2 months. Toxicity was manageable, and predominantly chemotherapy related. Comparing the safety profile of ivonescimab plus chemotherapy to ramucirumab plus chemotherapy, Garassino highlighted that “Grade 3 or more treatment-related adverse events (TRAEs) were 75% for ivonescimab, compared to 48% and 50% reported in the ramucirumab studies. However, there was less discontinuation for TRAEs in the ivonescimab trial compared to other trials.” Most importantly, she added, is that no Grade 3 or above immuno-related adverse events were reported in the iTHYM study.\n“For thymic carcinoma , my treatment algorithm in 2026 is starting with carbo-paclitaxel and ramucirumab, followed by capecitabine plus gemcitabine, sunitinib and/or lenvatinib/pembrolizumab, after testing for myasthenia gravis and other autoimmune diseases. Looking ahead, I would be happy to consider adding carboplatin-paclitaxel and ivonescimab to the treatment armamentarium once longer follow-up data become available,” she concluded. Longer follow-up is ongoing to define the final PFS estimate, durability of benefit, and long-term outcomes.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-26T08:01:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "8ee9faaaad28073f",
+    "score": 6.0,
+    "channel": "global",
+    "cluster_key": "drug:efinopegdutide",
+    "flags": [
+      "met",
+      "stale"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.93,
+    "reasoning": "Lancet正式发表随机安慰剂对照Ⅱb期研究，并报告MASH消退且不伴纤维化恶化的比例显著提高，属于明确的统计结论；因距发布已超过14天，时效性直接扣分，归入全球栏目。",
+    "verify_todo": [
+      "核实各剂量组样本量和主要终点效应值",
+      "核实p值、置信区间及缺失数据处理方式",
+      "核实纤维化改善、肝脏相关结局和长期停药数据"
+    ],
+    "article_type": "readout",
+    "title": "[Articles] Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2–3 fibrosis: a phase 2b, randomised, placebo-controlled study",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02043-X/fulltext?rss=yes",
+    "sources": [
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "Treatment with efinopegdutide resulted in a significantly greater proportion of participants with MASH resolution without worsening of fibrosis compared with placebo. The 7 mg dose showed the most favourable benefit–risk profile, improving fibrosis by at least one stage without worsening steatohepatitis in approximately half of participants after 1 year of treatment. These findings support the potential utility of efinopegdutide as a once-weekly GLP-1–glucagon receptor co-agonist in MASH.",
+    "lang": "en",
+    "published": "2026-11-09T18:00:02+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "a1ad0670157d9783",
+    "score": 5.4,
+    "channel": "global",
+    "cluster_key": "drug:lu-psma-617",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "statistical",
+    "confidence": 0.84,
+    "reasoning": "Lancet通信提供了PSMAdditionⅢ期rPFS的HR及95%CI，属于统计结果，但通信本身并非原始试验论文，也未明确给出主要终点是否达到；按全球栏目归类，值得核查完整读出。",
+    "verify_todo": [
+      "核实原始论文中主要终点定义、样本量及是否达到预设统计阈值",
+      "核实完整rPFS结果、OS成熟度及安全性数据",
+      "确认原始报告日期和本通信日期"
+    ],
+    "article_type": "readout",
+    "title": "[Correspondence] The PSMAddition trial in metastatic prostate cancer",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02003-9/fulltext?rss=yes",
+    "sources": [
+      "lancet",
+      "lancet"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "We read with great interest the report of the phase 3 PSMAddition trial by Scott T Tagawa and colleagues,1 which evaluated [177Lu]Lu-PSMA-617 added to androgen-deprivation therapy (ADT) plus an androgen receptor pathway inhibitor (ARPI) in prostate-specific membrane antigen (PSMA)-positive metastatic hormone-sensitive prostate cancer. The investigators should be congratulated for completing a large and methodologically rigorous radioligand trial. The improvement in radiographic progression-free survival (hazard ratio [HR] 0·72; 95% CI 0·58–0·90) is clinically relevant.",
+    "lang": "en",
+    "published": "2026-11-28T00:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "daff05eb736b6d61",
+    "score": 5.0,
+    "channel": "global",
+    "cluster_key": "drug:livsayis",
+    "flags": [
+      "met",
+      "stale"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.62,
+    "reasoning": "条目包含重症肌无力新药批准，构成监管层面的临床进展，但摘要同时混合多项行业简讯，未呈现具体试验数据和统计结果；超过7天且归入全球栏目。",
+    "verify_todo": [
+      "核实Livsayis的通用名、适应症和监管批准日期",
+      "核实支持批准的试验、样本量、主要终点和效应值",
+      "确认文章是否披露完整安全性结果"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[ACT Brief: AI Trial Matching Access, IRB Oncology Expertise, and Livsayis Myasthenia Gravis Approval]]>",
+    "url": "https://www.appliedclinicaltrialsonline.com/view/ai-trial-matching-access-irb-oncology-expertise-livsayis-myasthenia-gravis-approval",
+    "sources": [
+      "applied_clinical_trials"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-20T11:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "0aca3b4f3966f5d6",
+    "score": 4.8,
+    "channel": "global",
+    "cluster_key": "drug:neladalkib",
+    "flags": [
+      "met",
+      "single_arm",
+      "surrogate"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.73,
+    "reasoning": "FDA批准及专家拆解构成重要临床结论，但支持读出主要依赖早期研究及缓解类终点，且素材未给出样本量和效应量；归入全球栏目。",
+    "verify_todo": [
+      "核实支持批准的试验名称、阶段和样本量",
+      "核实ORR、缓解持续时间、颅内疗效及PFS/OS",
+      "核实主要终点统计阈值和安全性结果"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Dr Shaw Breaks Down the Data Behind Neladalkib’s FDA Approval in ALK+ NSCLC]]>",
+    "url": "https://www.targetedonc.com/view/dr-shaw-key-findings-neladalkib-fda-approval-alk-nsclc",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-23T19:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "b3376589b6ebc635",
+    "score": 4.8,
+    "channel": "global",
+    "cluster_key": "intervention:immersive-virtual-reality",
+    "flags": [
+      "met",
+      "stale"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "statistical",
+    "confidence": 0.79,
+    "reasoning": "210例随机对照试验报告化疗相关恶心呕吐显著下降，属于明确的统计结论，且支持非药物支持治疗方向的比较；数据发表于非顶刊且已超过7天，归入全球栏目。",
+    "verify_todo": [
+      "核实主要终点、绝对发生率和组间效应量",
+      "核实盲法、随机方法及随访时间",
+      "核实原始论文和完整不良反应信息"
+    ],
+    "article_type": "readout",
+    "title": "Could virtual reality become a reality in cancer supportive care?",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/could-virtual-reality-become-a-reality-in-cancer-supportive-care",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "When administered before chemotherapy, immersive virtual reality is shown to significantly reduce chemotherapy-induced nausea and vomiting in a randomised, controlled trial\nImmersive virtual reality (IVR) offers a non-pharmacological , non-invasive approach to symptom management, complementing pharmacological therapy in cancer care. The goal is to create an engaging computer-generated environment through the stimulation of high-level visual and auditory cortex pathways that compete with incoming visceral emetic signals, thus diverting the patient’s attention away from these sensations and reducing chemotherapy-associated anxiety ( J Clin Question. 2026;3:e115 ; Semin Oncol Nurs. 2025;41:151908 ).\nIn a randomised trial of 210 chemotherapy-naïve patients scheduled to receive highly emetogenic cisplatin- or anthracycline-based chemotherapy, IVR added to standard anti-emetic prophylaxis reduced acute, delayed and anticipatory nausea and vomiting compared with standard care alone. As presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November), patients in the IVR arm experienced significant reductions in acute nausea (26.7% versus 48.6%; p=0.001) and vomiting (13.3% versus 33.3%; p<0.001), delayed vomiting (15.2% versus 31.4%; p=0.006) and anticipatory nausea (prior to chemotherapy cycle 2; 3.8% versus 15.2%; p=0.005) ( Abstract 141O ).\nIVR was administered in three 20-minute sessions; 2 hours and also 20 minutes before the first chemotherapy, and 2 hours before the second chemotherapy. Chemotherapy-induced nausea and vomiting was assessed by the Multinational Association of Supportive Care in Cancer (MASCC) Antiemesis Tool 24 hours after the first chemotherapy and immediately before the second chemotherapy.\n“The magnitude of the observed effect is remarkable and is comparable to the effects reported in landmark studies of anti-emetic medications. Importantly, it remains unclear whether patients received guideline-concordant anti-emetic prophylaxis , as recommended by MASCC/ESMO for highly emetogenic chemotherapy ( Support Care Cancer. 2023;32:45 ). Nevertheless, these findings suggest that IVR could become a valuable addition to supportive cancer care, particularly in outpatient chemotherapy settings,” comments Prof. Anne Letsch from the University Cancer Center Schleswig-Holstein, Kiel, Germany. In the study, IVR was associated with very few side-effects: only 3 patients experienced claustrophobia. “The technology could also be tailored to suit a patient’s personal preferences in terms of the type of virtual environment they find most relaxing, thus having an impact on the intervention outcomes,” she suggests, highlighting that chemotherapy-induced nausea and vomiting is also influenced by psychological factors , previous treatment experience and conditioned responses ( Int J Clin Oncol. 2024;29:889–898 ). According to Letsch, IVR may be of specific interest for anticipatory nausea. “Interestingly, the intervention consisted of only three short IVR sessions . However, we do not yet know the optimal timing, duration or frequency of IVR interventions. And it is unclear whether benefits will be sustained over multiple chemotherapy cycles,” she notes. “Future studies should also compare IVR with other relaxation-based interventions , such as guided imagery or music therapy, to determine whether the IVR offers a specific additional benefit.” Previous data suggest that music therapy significantly reduces anxiety, nausea and vomiting in adolescents undergoing chemotherapy ( J Pain Symptom Manage. 2024;68:e62–e74 ).\nDespite being promising, implementation of IVR in clinical practice – as for other non-pharmacological interventions that are emerging alongside traditional cancer care – will be subject to further randomised research to validate its clinical benefit and determine the optimal duration and timing of administration . “We should view these IVR data as a promising piece of the puzzle in the multi-dimensional treatment of nausea and vomiting that is particularly relevant, as symptom management remains a major challenge across the cancer care continuum, including for patients receiving newer targeted therapies,” Letsch concludes.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-17T12:30:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "dc8263c8094d9b2c",
+    "score": 4.8,
+    "channel": "global",
+    "cluster_key": "target:car-t",
+    "flags": [
+      "positive_data",
+      "single_arm",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.67,
+    "reasoning": "JAMA Neurology正式论文报告僵人综合征CAR-T治疗出现早期临床改善，属于罕见自身免疫神经病领域的高探索性信号；但素材仅称早期证据，发布日期字段亦未知，样本量和统计结论仍需核实，归入全球栏目。",
+    "verify_todo": [
+      "核实试验阶段、样本量、剂量和随访时间",
+      "核实预设临床改善终点、效应值及统计检验",
+      "核实CAR-T靶点、感染和神经毒性等安全性数据"
+    ],
+    "article_type": "readout",
+    "title": "JAMA Neurol：CAR-T细胞疗法攻克罕见自身免疫性神经疾病，梅奥诊所多中心试验显示僵人综合征患者获得实质性临床改善",
+    "url": "http://news.bioon.com/article/57b996632e07.html",
+    "sources": [
+      "bioon_trials",
+      "bioon_celltherapy"
+    ],
+    "content": "JAMA Neurol：CAR-T细胞疗法攻克罕见自身免疫性神经疾病，梅奥诊所多中心试验显示僵人综合征患者获得实质性临床改善\n来源：生物谷原创 2026-11-26 14:17\n研究发现，接受CAR-T细胞治疗的参与者中出现了实质性临床改善的早期证据。研究人员表示，这些发现值得在更大规模的研究中进一步调查。\n一项评估嵌合抗原受体T细胞疗法（CAR-T细胞疗法）治疗僵人综合征（SPS）——一种罕见自身免疫性神经疾病的多中心临床试验，已产生有希望的早期结果。\n这项发表于《JAMA Neurology》的研究发现，接受CAR-T细胞治疗的参与者中出现了实质性临床改善的早期证据。研究人员表示，这些发现值得在更大规模的研究中进一步调查。\n“最引人注目的是我们在一些患者身上看到的改善程度。用现有治疗，我们或许能够改善症状，但我们很少看到患者恢复到以前的的功能水平。这些早期结果非常令人鼓舞，现在的关键问题是这些改善是否会随时间持续，”罗切斯特梅奥诊所神经学家兼研究员Anastasia Zekeridou医学博士、哲学博士说。\nCAR-T细胞疗法重新工程化改造患者自身的免疫细胞，以靶向导致疾病的其他细胞。研究参与者接受了一次旨在重置免疫系统并减轻可能严重限制日常生活的症状的治疗。\nSPS导致进行性肌肉僵硬和疼痛性痉挛，可使行走、驾驶、工作和社交变得越来越困难。梅奥诊所于1956年首次描述了该疾病。\n“CAR-T疗法已经改变了某些癌症的治疗，我们现在开始看到它在自身免疫性神经疾病中的潜力。僵人综合征的结果带来了巨大希望，不仅对患有这种疾病的人，而且可能对其他有效治疗选择仍然有限的免疫介导神经疾病患者也是如此。我们还有很多需要学习，但这为该领域开辟了一条令人兴奋的新途径，”罗切斯特梅奥诊所神经内科主任Sean Pittock医学博士说。（生物谷Bioon.com）\n参考文献：\nAmanda L. Piquet et al., Mivocabtagene Autoleucel CD19 Chimeric Antigen Receptor T-Cell Therapy in Stiff Person Syndrome A Nonrandomized Clinical Trial, JAMA Neurology (2026). DOI: 10.1001/jamaneurol.2026.4155.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "0d46646e53dc3f04",
+    "score": 4.7,
+    "channel": "china",
+    "cluster_key": "drug:ivonescimab",
+    "flags": [
+      "halted"
+    ],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "textual",
+    "confidence": 0.69,
+    "reasoning": "CRL构成重要监管受阻事件，可能直接影响后续开发节奏，但标题未显示试验已明确未达终点，因而不能将其表述为统计失败；按中国原研抗体归入中国栏目。",
+    "verify_todo": [
+      "核实CRL的具体原因和监管方要求",
+      "确认相关试验阶段、OS数据状态及后续分析计划",
+      "核实公司披露原文及是否存在补充临床研究要求"
+    ],
+    "article_type": "halt",
+    "title": "<![CDATA[Ivonescimab CRL Sharpens Focus on OS in EGFR-Mutated NSCLC After TKI Progression]]>",
+    "url": "https://www.onclive.com/view/ivonescimab-crl-sharpens-focus-on-os-in-egfr-mutated-nsclc-after-tki-progression",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-25T19:16:20+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "7ba1992f650958dc",
+    "score": 4.6,
+    "channel": "global",
+    "cluster_key": "drug:doxycycline",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.79,
+    "reasoning": "FDA批准构成局部抗生素预防结直肠手术感染的产品获益结论，但现有素材未给出支持试验的效应量、统计阈值和样本量，报道优先级低于关键肿瘤Ⅲ期读出；归入全球栏目。",
+    "verify_todo": [
+      "核实支持批准的试验名称、阶段和样本量",
+      "核实感染发生率、效应值及统计检验",
+      "核实适用手术范围和安全性要求"
+    ],
+    "article_type": "readout",
+    "title": "Antibiotic Paste Approved to Prevent Surgical Site Infections",
+    "url": "https://www.medpagetoday.com/surgery/generalsurgery/124056",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "(MedPage Today) -- The FDA approved doxycycline hyclate (Bacfenssi) to reduce the risk of surgical site infections (SSIs) in adults and kids undergoing colorectal surgery, the agency announced on Tuesday. Sold as a powder to be reconstituted into...",
+    "lang": "en",
+    "published": "2026-11-25T15:48:46+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "6a836ccb77beda18",
+    "score": 4.3,
+    "channel": "global",
+    "cluster_key": "drug:bezuclastinib",
+    "flags": [
+      "met"
+    ],
+    "endpoint_verdict": "met",
+    "verdict_basis": "textual",
+    "confidence": 0.74,
+    "reasoning": "专家评论围绕bezuclastinib联合sunitinib的FDA批准，可补充临床定位和监管解读，但并非新的独立数据读出；与PEAK批准条目应合并，归入全球栏目。",
+    "verify_todo": [
+      "核实评论中引用的PEAK数据与批准结论是否一致",
+      "确认专家对获益人群、疗效持续时间和安全性的判断"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[Dr Pollack on the FDA Approval of Bezuclastinib Plus Sunitinib in Previously Treated GIST]]>",
+    "url": "https://www.onclive.com/view/dr-pollack-on-the-fda-approval-of-bezuclastinib-plus-sunitinib-in-previously-treated-gist",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-25T15:46:17+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "0f759157076e30fc",
+    "score": 4.3,
+    "channel": "china",
+    "cluster_key": "target:neutrophil",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.62,
+    "reasoning": "多队列整合计算病理和空间多组学，提出与三阴性乳腺癌预后及免疫治疗获益相关的空间中性粒细胞特征，具有转化潜力；但目前主要是关联性疗效数字而非临床干预终点，且发布日期未知，按中国团队研究归入中国栏目。",
+    "verify_todo": [
+      "核实各队列样本量、主要终点和统计模型",
+      "确认五年无复发生存率结果是否经过校正和独立验证",
+      "核实免疫治疗获益分析是否为预设或事后分析",
+      "确认原始发表日期"
+    ],
+    "article_type": "readout",
+    "title": "别只看细胞多少！中性粒细胞的肿瘤“落脚地”决定三阴性乳腺癌预后与免疫疗效｜Cancer Cell",
+    "url": "http://news.bioon.com/article/aada96364005.html",
+    "sources": [
+      "bioon_tumor_immunotherapy"
+    ],
+    "content": "别只看细胞多少！中性粒细胞的肿瘤“落脚地”决定三阴性乳腺癌预后与免疫疗效｜Cancer Cell\n来源：生物谷原创 2026-11-11 11:31\n该研究整合计算病理学与单细胞空间多组学，解析乳腺癌中性粒细胞空间异质性，明确两类空间模式的临床价值及作用机制，助力三阴性乳腺癌患者风险分层。\n谈到肿瘤免疫评估，很多人习惯直接数免疫细胞的数量。但肿瘤组织并不是均匀的整体，免疫细胞处在什么位置、和哪些细胞相邻，往往比单纯的细胞数量更有参考意义。\n中性粒细胞是人体外周血里数量最多的固有免疫细胞，在乳腺癌中有着双向作用。它能够参与杀伤癌细胞，也会被肿瘤微环境重塑，反过来促进癌细胞侵袭转移。以往多数研究聚焦中性粒细胞内部分子特征的变化，很少关注它在肿瘤组织中的空间分布，不少实验室成果很难真正落地到日常病理诊断。复旦大学团队在Cancer Cell发表这项研究，跳出只统计细胞数量的思路，从空间分布角度解析中性粒细胞，寻找适合三阴性乳腺癌临床评估的标志物。\n图1 研究整体技术路线概览\n研究分析多套乳腺癌临床队列，结合人工智能计算病理学与单细胞空间多组学，划分出四种中性粒细胞空间亚型。其中两种亚型和三阴性乳腺癌的临床结局密切相关。当中性粒细胞紧贴肿瘤细胞分布，也就是肿瘤浸润型，患者预后更好；当中性粒细胞和其他免疫细胞聚集在一起，即免疫聚集型，提示患者更有可能从免疫检查点抑制剂治疗中获益。\n图2 不同中性粒细胞空间模式的病理代表图\n把中性粒细胞空间特征和现有成熟标志物联合使用，评估效果还能进一步提升。单独依靠肿瘤浸润淋巴细胞判断预后存在局限，叠加中性粒细胞靠近肿瘤细胞这一特征后，对复发风险的识别会更加精准。同时具备两项有利特征的三阴性乳腺癌患者，五年无复发生存率超过96%。针对新辅助免疫治疗，结合中性粒细胞免疫聚集特征与CD8指标，能够筛选出更容易实现病理完全缓解的获益人群。\n图3 中性粒细胞调控免疫应答的机制示意图\n从机制层面来看，紧贴肿瘤的中性粒细胞会和肿瘤细胞产生炎症信号交流，激活Toll样受体2通路，上调肿瘤细胞I类主要组织相容性复合体表达，方便CD8阳性T细胞识别并清除肿瘤细胞，带来生存获益。和免疫细胞聚集的中性粒细胞具备抗原呈递能力，干扰素γ、粒细胞‑巨噬细胞集落刺激因子可以诱导该表型。在此基础上抑制多胺代谢，还能进一步强化抗原呈递功能，激活T细胞，提升免疫检查点抑制剂的治疗效果。\n这项研究说明，评估肿瘤内中性粒细胞不能只看数量，细胞所处微环境、周边相邻细胞类型，才是决定它功能走向的关键。整套分析依托临床常规HE病理切片即可完成，不需要昂贵的测序检测，临床转化门槛低。研究也为三阴性乳腺癌联合治疗提供新方向，多胺代谢抑制类药物，有潜力作为免疫治疗的增效手段，推动三阴性乳腺癌精准诊疗发展。（生物谷Bioon.com）\n参考文献：\nXu YZ, Wu XR, Qiu ZY, et al. Decoding neutrophil spatial heterogeneity and clinical implications in breast cancer. Cancer Cell. 2026;44(11):2249-2266.e9. doi:10.1016/j.ccell.2026.10.005\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "b9e8819a41c3a533",
+    "score": 3.8,
+    "channel": "global",
+    "cluster_key": "drug:trastuzumab-deruxtecan",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.52,
+    "reasoning": "标题指向DESTINY-Lung04的OS更新及治疗排序，但未提供OS数值、置信区间或主要终点状态，无法区分统计结论与一般疗效描述；作为T-DXd在HER2突变NSCLC的补充读出归入全球栏目。",
+    "verify_todo": [
+      "核实研究阶段、样本量和研究设计",
+      "核实OS成熟度、估计值及统计检验",
+      "核实治疗排序分析是否预设或属于探索性分析"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[HER2-Mutant NSCLC: DESTINY-Lung04 Overall Survival and Treatment Sequencing]]>",
+    "url": "https://www.onclive.com/view/her2-mutant-nsclc-destiny-lung04-overall-survival-and-treatment-sequencing",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-27T13:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "c1060b603d1ddb0c",
+    "score": 3.8,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "positive_data",
+      "stale"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.67,
+    "reasoning": "661例队列中的多模态AI模型显示PFS预测改善，属于回顾性模型性能证据而非治疗试验终点，不能等同于临床获益；超过7天，归入全球栏目。",
+    "verify_todo": [
+      "核实训练集与独立验证集划分",
+      "核实PFS预测的C-index、校准度及统计检验",
+      "确认模型是否在外部队列复现及是否改变治疗决策"
+    ],
+    "article_type": "landscape",
+    "title": "A multimodal AI model shows promise in predicting survival in non-small cell lung cancer",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/a-multimodal-ai-model-shows-promise-in-predicting-survival-in-non-small-cell-lung-cancer",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "The DANTES framework suggests that adding PET imaging to clinical data can improve the prediction of progression-free survival in patients with advanced disease treated with immunotherapy\nIn a study presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November), researchers showed that a novel multimodal artificial intelligence (AI) model improved the prediction of progression-free survival (PFS) over clinical data alone in patients with advanced non-small cell lung cancer (NSCLC) treated with immunotherapy or chemo-immunotherapy ( Abstract 332RO ). The DANTES framework – a model that combines computed tomography (CT) and positron emission tomography (PET) images with clinical data – was trained on 661 patients from the APOLLO11 consortium , an Italian nationwide lung cancer network designed to build a population-based, long-term, real-world data repository and a multi-level biobank, which ultimately aims to build a framework for clinical data-driven precision oncology ( NPJ Precis Oncol. 2026;10:96 ).\nFor each patient in the training phase,128 chest CT slices, 16 PET maximum intensity projection views taken at different angles, and 19 classical clinical covariates were used. DANTES was then tested on a further 136 patients from the same population and validated in an ‘external’ cohort of 130 patients. “What is most interesting is that in the external validation cohort – the stress test of the model – adding PET scan image data improved the concordance (C)-index for PFS from 0.56 to 0.72, which is encouraging,” notes Dr Julien Vibert from the Gustave Roussy Cancer Campus, Villejuif, France.\nThe framework’s largest gains were in predicting PFS : based on the combination of PET scan and clinical data, the 6-month PFS area under the curve was 0.83 versus 0.57 with clinical data only (Benjamini–Hochberg-adjusted one-sided p=0.0015 for both).\nWhile the study’s methodology is rigorous, Vibert cautions that, “The study included only patients in Italy with NSCLC who received immunotherapy-based treatment.” This is a hypothesis-generating study that requires validation in other settings and populations, however, “While the results are not sufficient on their own, they point to the addition of PET data providing a better prognostic indicator of survival than relying solely on clinical data.”\nDeveloping an AI model capable of providing a predictive score for outcomes is the ultimate goal, thinks Vibert. “True clinical impact will depend on whether patient-specific model scores can reliably guide treatment escalation or de-escalation to improve outcomes.” He thinks that the DANTES model, as it is a multimodal framework based on flexible architecture, could potentially be adapted in the future – perhaps with the addition of genomic information – to achieve such a goal.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-16T14:15:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "863abd3e6d0dbd46",
+    "score": 3.7,
+    "channel": "global",
+    "cluster_key": "target:car-t",
+    "flags": [
+      "positive_data",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.65,
+    "reasoning": "91例CAR-T患者中的血浆游离RNA特征与一年缓解相关，属于回顾性生物标志物证据；80%的风险差异是疗效关联数字，不能视为治疗终点达到，归入全球栏目。",
+    "verify_todo": [
+      "核实研究设计、终点、效应估计和置信区间",
+      "确认高风险与低风险分组的样本量及是否存在混杂",
+      "核实该标志物是否经过独立队列验证"
+    ],
+    "article_type": "readout",
+    "title": "抽一管血，预判CAR-T细胞疗效：Cell子刊发现血浆游离RNA携带肿瘤微环境信号，高风险患者进展风险降低80%",
+    "url": "http://news.bioon.com/article/b50d96632577.html",
+    "sources": [
+      "bioon_tumor_immunotherapy"
+    ],
+    "content": "抽一管血，预判CAR-T细胞疗效：Cell子刊发现血浆游离RNA携带肿瘤微环境信号，高风险患者进展风险降低80%\n来源：生物谷原创 2026-11-27 14:14\n该遗传特征来自细胞游离RNA——细胞脱落到血流中的遗传物质碎片。研究人员表示，它提供了一窥肿瘤局部环境的机会，而无需进行活检。\n康奈尔大学工程师和丹娜-法伯癌症研究所肿瘤学家发现，血浆中漂浮的RNA携带淋巴瘤肿瘤周围环境的特征信号，该信号与患者一年后是否仍处于缓解期相关。\n在丹娜-法伯癌症研究所接受强效细胞治疗的91名淋巴瘤患者中，治疗前血液中携带特定基因表达特征的患者，癌症进展的可能性远低。根据康奈尔大学和丹娜-法伯的一项新研究，该特征高分患者的进展风险比低分患者低80%。该研究于11月18日发表在《Cell Reports Medicine》期刊上。\n该遗传特征来自细胞游离RNA——细胞脱落到血流中的遗传物质碎片。研究人员表示，它提供了一窥肿瘤局部环境的机会，而无需进行活检。\n这项研究解决了当前一种针对侵袭性血液癌症——大B细胞淋巴瘤——治疗中的一个缺陷。抗CD19 CAR-T细胞疗法——将患者自身免疫细胞工程化改造以猎杀癌症——已经改变了大B细胞淋巴瘤患者的护理。但近一半患者要么无应答，要么在一年内复发。迄今为止，医生几乎没有可靠方法来预测谁会表现良好。\n“CAR-T细胞疗法是过去几十年重大突破之一，但并非每位患者都有应答，”领导该研究的康奈尔大学Duffield工程学院Meinig生物医学工程学院教授Iwijn De Vlaminck说。\nDe Vlaminck实验室博士生、该研究共同第一作者之一Glory Feyisayo Agun说，该治疗的复杂性使结果难以预测。“CAR-T细胞疗法具有较高的总体缓解率，但会随时间下降，而驱动患者应答差异的因素尚未完全理解，”她说。\n读取“邻里环境”\n近期研究指出，肿瘤微环境——围绕肿瘤的免疫细胞、结构细胞和血管细胞的混合物——是一个关键因素。之前的一项研究基于活检样本将淋巴瘤分为三种原型。具有“淋巴结样”环境的肿瘤在CAR-T治疗中表现更好。另外两种——一种以耗竭T细胞为主，一种以滤泡巨噬细胞和辅助细胞为主——与治疗失败相关。\n“如果你分析患者的骨髓组织，你可以捕捉到应答特征，”De Vlaminck说。“你可以采集组织和活检，但那是相当侵入性的。”\n他的团队想知道抽血能否完成同样的工作。“血浆中循环的RNA可能提供信号，为你打开一扇不仅通往免疫系统、还可能通往组织的窗口，”他说。“优势在于你可以非侵入性地采样。”\n研究人员分析了来自三个独立组的接受特定CAR-T细胞治疗产品患者治疗前采集的血浆。患者中位年龄为65岁。\n淋巴结样特征清晰显现。应答者在血浆RNA中的评分高于无应答者，与早期活检研究在肿瘤组织中的发现一致。在三个组中，评分高于中位数的患者生存期显著更长。\n该信号在血液中循环的免疫细胞中不存在——团队在匹配样本中进行了检查。这表明血浆RNA反映的是组织本身的活动，而非血液细胞组成的变化。\n“我们在循环细胞中没有看到这一点，”Agun说。“这是首次看到血浆作为肿瘤环境代理指标的情况之一。”\n“能够从血液而非组织中获取它——在我们看来是一项重大进展，因为它是微创的，”De Vlaminck说。\n一个明显的担忧是，该特征只是衡量患者有多少癌症。研究人员对照了肿瘤负荷的标准代理指标——乳酸脱氢酶，发现在化疗准备前没有显著相关性。在统计模型中，该评分也比临床因素更好地预测应答。他们还进行了其他几项测试，表明该特征对CAR-T应答具有特异性。\n下一步\n作者表示，该模型需要在更大规模、多机构队列中验证。这些发现尚未被证明能改变患者结局。\n“该研究聚焦于特定患者群体，”Agun说。“下一步是将其扩展到其他接受CAR-T治疗的患者。再下一步是在队列中验证，并观察这是否在不同背景下可重复。”\n如果发现成立，作者设想两种用途。医生可以在输注前识别具有不利肿瘤环境的患者，或许可以为他们提供旨在重塑该环境的额外治疗，如靶向放疗或针对巨噬细胞的药物。血液检测还可以在给予CAR-T细胞之前确认此类干预是否有效。\n“这种方法有超越淋巴瘤的潜力，”共同第一作者、博士Conor Loy说。他是Romix Biosciences的联合创始人，这是一家结合细胞游离RNA和AI推进精准医学的生物技术初创公司。“这项技术可以帮助指导治疗决策，将患者匹配到适合他们的治疗，并帮助医生选择与免疫疗法配对的治疗。”（生物谷Bioon.com）\n参考文献：\nConor Loy et al., Cell-free RNA signatures derived from the tumor microenvironment predict outcomes of CAR T therapy in large B cell lymphoma, Cell Reports Medicine (2026). DOI: 10.1016/j.xcrm.2026.103176.\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "cab835afb177b364",
+    "score": 3.6,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "positive_data",
+      "surrogate"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.44,
+    "reasoning": "标题仅给出32%缓解这一疗效数字，未说明主要终点是否达到、统计检验是否通过或研究是否对照，不能视为确证性终点结论；归入全球栏目并需补齐原始试验信息。",
+    "verify_todo": [
+      "确认MIRACLE试验对应的药物、疾病阶段和试验设计",
+      "核实样本量、主要终点及32%缓解的分子类型",
+      "核实统计检验、随访时间、生存和安全性数据"
+    ],
+    "article_type": "readout",
+    "title": "<![CDATA[MIRACLE Trial Reports 32% Blinded Remission in Post-Venetoclax AML ]]>",
+    "url": "https://www.targetedonc.com/view/miracle-trial-reports-32-blinded-remission-in-post-venetoclax-aml",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-24T17:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "ed39f923c381f24f",
+    "score": 3.4,
+    "channel": "global",
+    "cluster_key": "trial:alliance",
+    "flags": [
+      "stale",
+      "small_n"
+    ],
+    "endpoint_verdict": "partial",
+    "verdict_basis": "textual",
+    "confidence": 0.78,
+    "reasoning": "随机ALLIANCE中期分析显示不良事件记录增加，但未改善毒性管理或患者生活质量，属于部分临床效用信号且无治疗获益；仅56例并超过14天，需明显降权，归入全球栏目。",
+    "verify_todo": [
+      "核实预设主要终点及中期分析统计规则",
+      "核实各组不良事件记录、管理质量和生活质量数值",
+      "核实最终样本量及后续研究安排"
+    ],
+    "article_type": "readout",
+    "title": "Study shows AI-assisted chemotherapy toxicity assessment is feasible but its clinical value remains uncertain",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/study-shows-ai-assisted-chemotherapy-toxicity-assessment-is-feasible-but-its-clinical-value-remains-uncertain",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "The randomised ALLIANCE trial found that clinician use of ChatGPT Plus was associated with more chemotherapy-related adverse events being recorded, however did not improve toxicity management or patients’ quality of life.\nAccurate assessment of cancer treatment-toxicities is paramount for patient wellbeing, and large language models (LLMs) may help oncologists document them. However, the use of artificial intelligence-based systems does not necessarily turn into better patient outcomes, according to findings from an interim analysis of the single-centre, randomised ALLIANCE trial , presented at the ESMO Congress 2026 .\nA total of 56 patients with breast or colorectal cancer treated with chemotherapy were randomised to either receive standard care or LLM-assisted care. In the intervention arm, five physicians could use ChatGPT Plus during consultations to support the identification and assessment of adverse events. All AI-generated recommendations were reviewed by clinicians, who retained responsibility for treatment decisions. Patients in the LLM-assisted arm had a higher mean number of recorded toxicities than those receiving standard care (5.4 versus 2.8; p=0.006). However, this difference did not translate into significant improvements in chemotherapy management nor a benefit in terms of quality of life (QoL). Dose reductions occurred in 43% of patients in the intervention group, compared with 50% in the control group.\nCommenting on the results at the Proferred paper session, Dr Vanja Miskovic , Fondazione IRCCS Istituto Nazionale dei Tumori and Department of Electronics, Milan, Italy, noted: “Do more recorded toxicity mean better toxicity management? Not necessarily, it means that maybe clinicians (in the trial) just had an increase in the documentation. How robust is this unfavorable QoL estimate? Since a small number of patients had an assessment of end of the treatment, it might be also possibility of the bias estimate in this case.”\nA possible caveat of the study was the suboptimal uptake of LLMs by clinicians, which was used in only 47% of the monthly reports in the LLN-assisted care arm.  Also, although LLM output was generally considered appropriate when used under physician review, advice provided by the tool was partially adopted, thus failing to prove its potential value in guiding toxicity management . “These observations open a lot of questions about what drives the selective use and adoption of AI devices among oncology professionals,” Miskovic added. “Were the clinicians trained to actually use this kind of tools? And based on what they decided the tool was needed or not?”\nAlthough the study did not demonstrate a positive change in global health status of patients, it provides some basis to further research on how to integrate LLM-assisted assessment in clinical routine workflow .\n“I would really like to compliment the prospective and randomised design of this study. Even though the number of patients is small, (investigators) have really tried to show how these tools that are already being used in our clinical workflows,” she stated, stressing the need for solid evidence in the field. Despite a growing body of research in LLM use for clinical evaluations, prospective randomised trials are scarce. In a recent systematic review identifying 4,609 peer-reviewed studies on this topic, 1,048 studies used real-world patient data and of these only 19 were prospective randomised trials ( Nat Med. 2026 Mar;32(3):1152-1159 ).\n“The next challenge should be to define effective intervention and establish meaningful patient benefit. Building on top of these finding, there is a need to standardise the AI intervention , assess education of clinicians in using LLMs , measure meaningful outcomes , validate the clinical impact , compare it with standard of care, and assess harms in depth ,” she concluded. “I believe that the next breakthrough of oncology and AI must be clinical, and not just technological like we have seen until now.”",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-12T15:01:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "4a52e4cf0d8f1c5e",
+    "score": 3.1,
+    "channel": "global",
+    "cluster_key": "drug:trastuzumab-deruxtecan",
+    "flags": [],
+    "endpoint_verdict": "unclear",
+    "verdict_basis": "none",
+    "confidence": 0.42,
+    "reasoning": "标题涉及HER2突变NSCLC的后续治疗和T-DXd安全性，但素材没有具体疗效数字、终点结论或统计结果，可作为同药多适应症梳理素材而非独立数据读出；归入全球栏目。",
+    "verify_todo": [
+      "确认文章涵盖的具体试验及数据来源",
+      "核实安全性事件、暴露时间及是否存在对照组",
+      "确认是否包含新的数据读出"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[HER2-Mutant NSCLC: Subsequent Therapies and T-DXd Safety]]>",
+    "url": "https://www.onclive.com/view/her2-mutant-nsclc-subsequent-therapies-and-t-dxd-safety",
+    "sources": [
+      "onclive"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-27T13:05:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "45080d42323bee16",
+    "score": 3.1,
+    "channel": "global",
+    "cluster_key": "drug:dwp216262",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.82,
+    "reasoning": "韩国MFDS批准Ⅰ期IND属于启动临床试验的关键节点，但尚无人体疗效或安全性数据，当前价值主要来自新靶点和差异化策略；按韩国申办方归入全球栏目。",
+    "verify_todo": [
+      "核实获批临床方案、试验注册号和首个患者入组时间",
+      "核实Ⅰa期剂量爬坡及Ⅰb期扩展计划",
+      "核实是否存在可公开的人体安全性或药代数据"
+    ],
+    "article_type": "milestone",
+    "title": "大熊制药自研TEAD1/2抑制剂DWP216262获一期IND批准！",
+    "url": "http://news.bioon.com/article/6a4e9029365e.html",
+    "sources": [
+      "bioon_trials",
+      "bioon_tumor_immunotherapy",
+      "bioon_celltherapy"
+    ],
+    "content": "大熊制药自研TEAD1/2抑制剂DWP216262获一期IND批准\n来源：生物谷 2026-11-26 09:25\n大熊制药于2026年11月26日宣布，该公司自主研发的可选择性抑制TEAD1/2的新型抗癌候选药物DWP216262已于20日获得韩国食品药品安全部(MFDS)一期临床试验方案(IND)批准。\n• 靶向参与癌细胞生长的Hippo信号通路\n• 通过选择性抑制TEAD1/2，有望实现差异化疗效与安全性\n• 计划先在韩国开展1a期试验，继而推进至全球1b期试验\n大熊制药（Daewoong Pharmaceutical，联合首席执行官Seongsoo Park和Changjae Lee）于2026年11月26日宣布，该公司自主研发的可选择性抑制TEAD1/2的新型抗癌候选药物DWP216262已于20日获得韩国食品药品安全部(MFDS)一期临床试验方案(IND)批准。\nA Daewoong Pharmaceutical researcher conducting research\nDWP216262是一款合成候选药物，作用机制新颖，靶向参与癌细胞生长与存活的Hippo-YAP/TAZ-TEAD信号通路。该通路正常情况下可抑制细胞过度增殖，但NF2等相关基因发生异常时，则会促进癌细胞的生长与存活。\nDWP216262通过阻断参与该过程的TEAD蛋白的活性来抑制癌细胞生长。具体而言，该药物能够抑制TEAD1/2蛋白的棕榈酰化，进而阻断由YAP/TAZ-TEAD复合物介导的基因转录激活。棕榈酰化是脂肪酸与蛋白质结合，从而影响其结构与功能的过程。\nDWP216262的核心差异化特征在于：在四种TEAD蛋白中仅选择性抑制TEAD1与TEAD2。大熊制药基于自有生物信息学分析，确立了这一选择性抑制策略。在临床前研究中，该公司发现该候选药物的抗肿瘤疗效可媲美甚至优于能够抑制全部四种TEAD蛋白（TEAD1至TEAD4）的泛TEAD抑制剂，同时降低肾毒性风险。\n此外，已知YAP/TAZ-TEAD信号通路参与对现有靶向抗癌药（如EGFR、KRAS抑制剂）耐药性的产生。因此，抑制该通路的策略作为一种提升现有靶向抗癌药疗效并克服耐药性难题的新方法，正受到行业关注。大熊制药在临床前研究中证实，DWP216262与多款靶向抗癌药联用，可延缓耐药性的产生，相关后续研究仍在推进。\n本次一期临床试验将评估DWP216262在晚期实体瘤患者中的安全性、耐受性、药代动力学(PK)、药效动力学(PD)特征以及初步抗肿瘤疗效。韩国1a期试验将采用\"剂量递增+扩展入组\"的方案，计划招募约40至50名患者，确定最优临床给药剂量并评估初步抗肿瘤活性。这项多中心试验将在韩国多家核心医院开展，包括首尔大学医院、峨山医疗中心、首尔圣母医院和蔚山大学医院，由首尔大学医院的Taemin Kim教授担任协调研究者(CI)。\n大熊制药将基于从韩国1a期试验中获取的安全性、PK/PD及初步抗肿瘤活性数据，确定最优给药剂量，继而推进至全球1b期临床试验。通过该研究，大熊制药旨在进一步评估该药物在携带NF2等Hippo通路相关基因变异的实体瘤患者身上的抗肿瘤效果与安全性。同时，该公司还将探索单药治疗之外的开发方向，包括与现有标准疗法、各类抗癌药物的联合用药方案，并推进商业化布局。\n大熊制药首席执行官Seongsoo Park表示：\"DWP216262是依托我们自主研发能力打造的新一代抗癌候选药物，我们期待它能够突破现有疗法的局限，为患者带来全新治疗选择。随着这款药物进入临床试验阶段，我们将进一步夯实创新抗癌药研发实力，推动DWP216262成为具备全球竞争力的治疗方案。\"\n版权声明\n本网站所有注明“来源：生物谷”或“来源：bioon”的文字、图片和音视频资料，版权均属于生物谷网站所有。非经授权，任何媒体、网站或个人不得转载，否则将追究法律责任。取得书面授权转载时，须注明“来源：生物谷”。其它来源的文章系转载文章，本网所有转载文章系出于传递更多信息之目的，转载内容不代表本站立场。不希望被转载的媒体或个人可与我们联系，我们将立即进行删除处理。\n87%用户都在用生物谷APP 随时阅读、评论、分享交流 请扫描二维码下载->\n资讯分类\n热点推荐\n医药产业\n制药\n转化医学\n生物产业\n生物研究\n医疗健康\n医疗器械\n最新会议\n查看更多\n空中讲坛\n查看更多\n单细胞代谢组学在肿瘤领域的应用及方案设计\n开播时间: 2026-11-12 13:58\n解码细胞异质性 单细胞测序技术迭代与多组学转化应用\n开播时间: 2026-11-03 13:55\n解锁科研第一桶金：国自然项目申报经验分享\n开播时间: 2026-09-23 13:58\n查看更多",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-26T00:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "29fc637ea6484fd9",
+    "score": 2.9,
+    "channel": "global",
+    "cluster_key": "intervention:glucocorticoid-withdrawal",
+    "flags": [
+      "positive_data"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.68,
+    "reasoning": "480例前瞻性队列提供了停用激素后复发风险未增加的文字结论，但没有p值、置信区间或预设终点信息，属于观察性疗效数据而非确证性统计结论；归入全球栏目。",
+    "verify_todo": [
+      "核实原始论文、队列构成及停药入组标准",
+      "核实复发风险估计值、置信区间和统计检验",
+      "核实主要终点及停药后随访时长"
+    ],
+    "article_type": "readout",
+    "title": "Most Lupus Patients in Remission Can Safely Stop Steroids, Study Finds",
+    "url": "https://www.medpagetoday.com/rheumatology/lupus/124063",
+    "sources": [
+      "medpage_today"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "(MedPage Today) -- For patients with systemic lupus erythematosus (SLE) in remission, flare risk was not increased after stopping all glucocorticoids in a small Italian study. Among 480 SLE patients in a prospectively followed cohort achieving...",
+    "lang": "en",
+    "published": "2026-11-27T16:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "6c08a93e6a3110e1",
+    "score": 2.8,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "positive_data",
+      "small_n"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "numeric",
+    "confidence": 0.38,
+    "reasoning": "标题仅给出4名患者的叙事性生存数字，未提供试验设计、统计检验或主要终点结论，因此依据的是疗效数字而非统计结论；胰腺癌未满足需求较高，但来源可信度有限，归入全球栏目。",
+    "verify_todo": [
+      "查明原始研究名称、产品、试验注册号及研究设计",
+      "核实样本量、患者基线、随访时间和生存数据定义",
+      "核实是否存在统计检验及明确的终点结论"
+    ],
+    "article_type": "readout",
+    "title": "4名患者靠癌症疫苗重获新生！美国国会山传来抗癌奇迹，胰腺癌6年生存率近90%！",
+    "url": "https://bydrug.pharmcube.com/news/detail/07ebdf040f38a455f9b305f03284b500",
+    "sources": [
+      "pharmcube"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "cn",
+    "published": "2026-11-28T00:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "dce36ecd16439ba0",
+    "score": 2.8,
+    "channel": "global",
+    "cluster_key": "target:ros1",
+    "flags": [],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.51,
+    "reasoning": "素材是ROS1抑制剂耐受性比较的标题型内容，没有明确试验、发生率、组间数据或终点结论，更适合作为同靶点安全性横向梳理；归入全球栏目。",
+    "verify_todo": [
+      "确认纳入的药物、试验和不良反应定义",
+      "核实发生率、暴露校正数据及统计方法",
+      "确认文章是否包含原始试验数据还是专家观点"
+    ],
+    "article_type": "landscape",
+    "title": "<![CDATA[Distinct Tolerability Profiles Across ROS1 Inhibitors]]>",
+    "url": "https://www.targetedonc.com/view/distinct-tolerability-profiles-across-ros1-inhibitors",
+    "sources": [
+      "targeted_oncology"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-24T13:00:00+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "5e35741da4eb125e",
+    "score": 2.6,
+    "channel": "global",
+    "cluster_key": "",
+    "flags": [
+      "stale"
+    ],
+    "endpoint_verdict": "positive_data",
+    "verdict_basis": "textual",
+    "confidence": 0.61,
+    "reasoning": "两项研究显示AI辅助MDT可减少错误并提高专业意见一致性，但没有患者结局改善或药物疗效终点，属于临床决策工具研究；超过7天，归入全球栏目。",
+    "verify_todo": [
+      "核实两项研究的设计、样本量和预设终点",
+      "核实错误率、一致性指标及统计检验",
+      "确认是否存在患者结局或治疗改变数据"
+    ],
+    "article_type": "landscape",
+    "title": "Artificial intelligence can assist multidisciplinary tumour boards make faster and data-informed decisions",
+    "url": "https://www.esmo.org/insights-by-esmo/all-news/artificial-intelligence-can-assist-multidisciplinary-tumour-boards-make-faster-and-data-informed-decisions",
+    "sources": [
+      "esmo_news"
+    ],
+    "content": "Two studies report fewer errors and higher agreement between professionals with the support of AI\n“Half the challenge of a multidisciplinary tumour board (MTB) is gathering the relevant data from disparate sources, and artificial intelligence (AI) can help aggregate and also harmonise information to generate a better understanding of a patient, so that the time and expertise of the multidisciplinary team are focused on the nuanced judgement and coordination of care,” says Dr Caroline Chung from the MD Anderson Cancer Center, Houston, TX, USA, commenting on the findings from two studies that suggest AI may have a role in enabling a coordinated and data-informed management of patients with cancer.\nBy gathering and organising unstructured data from multiple sources into a consistent, coherent summary of a patient, a single-region, non-randomised study of 450 patients with breast, colorectal and lung cancer reported a 50–60% lower cumulative error risk with AI-assisted MTB over a 6-month period (14.0% risk with AI versus 28.3% risk without AI at 6 months) ( Abstract 143RO ). Approximately 6.5 minutes was saved per AI-assisted patient (28.1 minutes with AI versus 34.6 minutes without AI). Chung says that findings presented at the ESMO AI & Digital Oncology Congress 2026 (Berlin, 16–18 November) appear promising but cautions that a deep dive into all the factors that contribute to the time costs was lacking. She adds: “Time to recommendation captures the board’s work, but what about time spent preparing data for the AI model, reviewing and verifying its output, or setting up and maintaining the system? Those hidden costs could narrow the saving.” The cost-effectiveness of AI was predicted to improve with greater numbers of patients assessed; a €5,421 saving was estimated for 4,000 patients, suggesting that AI-assisted MTB is justified in large oncology centres or clinics with a high volume of newly diagnosed patients.\nIn a second study, an agentic system, ‘ ASTRA ’, was developed and validated to assist the MTB in the pre-operative assessment of patients with perihilar cholangiocarcinoma ( Abstract 146P ). The design followed a phased framework approach that included a reader study, comparing unaided versus ASTRA-assisted assessment, external validation and real-world deployment. Each study phase asked a different question relating to technical accuracy, the extent to which AI assisted clinicians, and whether the tool could be applied successfully at other centres and in routine clinical practice. The system extracted 21 key imaging features with 97% accuracy. With ASTRA’s help, surgeons’ accuracy increased from ~79% to 90–92%. Agreement between surgeons also improved substantially (kappa 0.57 to 0.86), and assessment time roughly halved. In real-world use, accuracy was 0.90 versus 0.72, and pre-MTB briefing time fell from ~8.5 minutes to just over 4 minutes.\n“At external centres, the system’s accuracy was 0.81, meaning it disagreed with expert consensus in roughly 1 in 5 cases and suggesting the need for further evaluation and refinement in either the specifics of the implementation or the fit of the model to the external centres’ data, population or practice itself,” Chung highlights. “Additionally, the reference standard was the board’s consensus , not what surgery or pathology eventually showed, and the system is based on radiology reports rather than the original images, so it is only as good as the reports.” Surgeons accepted the system’s judgement in nearly 90% of cases, potentially reflecting well-placed trust in technology. “However, this may also point to a potential risk of automation bias , so we need to be careful when integrating these systems into routine clinical workflows and when interpreting the metrics we use for success,” she concludes. “The presented studies provide some clue on the role of AI as a ‘co-worker’ in MTBs , but robust evidence is still needed on how AI-based tools perform in different settings, how teams actually use them and their impact on patient outcomes. Within this, the role of the clinician is predicted to shift from information gathering towards critical interpretation of information to make better informed decisions.”\nAI is already having an impact on clinical work and the clinician’s role . Data generation, integration into imaging scanners and software, and the flow of data to clinicians are all affected. In the future, a key question will relate to how AI can be deliberately shaped to improve clinical workflow, quality, safety and clinical decision-making while accounting for uncertainty.",
+    "entity_tags": [],
+    "summary": "",
+    "lang": "en",
+    "published": "2026-11-16T14:15:00Z",
+    "scored_at": "2026-11-27T22:03:30Z"
+  },
+  {
+    "id": "3bd0c9b4da2641df",
+    "score": 2.1,
+    "channel": "global",
+    "cluster_key": "drug:karxt",
+    "flags": [
+      "not_clinical",
+      "stale"
+    ],
+    "endpoint_verdict": "none",
+    "verdict_basis": "none",
+    "confidence": 0.83,
+    "reasoning": "标题主要讨论交易估值、商业化和既有不良事件，未显示新的临床试验读出或统计结论，因此按非临床内容处理；超过7天，归入全球栏目。",
+    "verify_todo": [
+      "核实不良事件数据是否来自新的临床试验读出",
+      "核实数据来源、发生率、暴露人群和统计方法",
+      "区分交易评论与临床证据内容"
+    ],
+    "article_type": "landscape",
+    "title": "不良事件超50%！140亿BMS豪赌KarXT，买亏了吗？",
+    "url": "https://www.drugtimes.cn/2026/11/19/buliangshijianchao50140yibmshaodukarxtmaikuilema/",
+    "sources": [
+      "drugtimes"
+    ],
+    "content": "",
+    "entity_tags": [],
+    "summary": "就在11月，苏州｜把澳洲临床开发“聊透”的1:1对接来了 正文共：2209字 预计阅读时间：6分钟&#160; BMS豪掷140亿美元收入囊中的KarXT，在精神分裂症赛道商业化开…",
+    "lang": "cn",
+    "published": "2026-11-19T10:21:55+00:00",
+    "scored_at": "2026-11-27T22:03:30Z"
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-28",
+  "count": 4,
+  "plan": [
+    {
+      "type": "readout",
+      "cluster_key": "drug:ivonescimab",
+      "lead_id": "756dcea6c73e7449",
+      "title": "First-line ivonescimab shows encouraging activity in thymic carcinoma",
+      "score": 6.0,
+      "channel": "china",
+      "member_ids": [
+        "756dcea6c73e7449"
+      ],
+      "members": [
+        {
+          "title": "First-line ivonescimab shows encouraging activity in thymic carcinoma",
+          "url": "https://www.esmo.org/insights-by-esmo/all-news/first-line-ivonescimab-shows-encouraging-activity-in-thymic-carcinoma",
+          "score": 6.0,
+          "reasoning": "ESMO快速口头报告明确称单臂Ⅱ期研究达到预设PFS主要终点，具有会议级临床证据价值；但仅19例、无对照且依赖PFS而非OS，需显著降权。按中国原研抗体归入中国栏目。"
+        }
+      ],
+      "reasoning": "ESMO快速口头报告明确称单臂Ⅱ期研究达到预设PFS主要终点，具有会议级临床证据价值；但仅19例、无对照且依赖PFS而非OS，需显著降权。按中国原研抗体归入中国栏目。",
+      "verify_todo": [
+        "核实主要终点的预设阈值及统计检验方法",
+        "核实完整ORR、PFS、OS和持续缓解数据",
+        "核实安全性结果及后续全球注册研究计划"
+      ],
+      "flags": [
+        "met",
+        "single_arm",
+        "surrogate",
+        "small_n"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 1
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:deucravacitinib",
+      "lead_id": "726cd0e0ab2f9d32",
+      "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+      "score": 6.4,
+      "channel": "global",
+      "member_ids": [
+        "726cd0e0ab2f9d32"
+      ],
+      "members": [
+        {
+          "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
+          "url": "https://endpoints.news/bristol-myers-reports-one-phase-3-success-one-failure-in-sotyktu-lupus-trials/",
+          "score": 6.4,
+          "reasoning": "两项Ⅲ期试验呈现一项成功、一项失败，是明确的双向顶线结果，其中失败部分具有赛道意义；现有素材未给出各项试验的统计量和具体终点，因此依据的是公司披露经媒体转述的结论，归入全球栏目。"
+        }
+      ],
+      "reasoning": "两项Ⅲ期试验呈现一项成功、一项失败，是明确的双向顶线结果，其中失败部分具有赛道意义；现有素材未给出各项试验的统计量和具体终点，因此依据的是公司披露经媒体转述的结论，归入全球栏目。",
+      "verify_todo": [
+        "分别核实两项Ⅲ期试验名称、主要终点和统计结论",
+        "核实成功与失败分别对应哪个适应症或人群",
+        "获取效应值、置信区间、安全性及后续开发计划"
+      ],
+      "flags": [
+        "met",
+        "failed"
+      ],
+      "endpoint_verdict": "partial",
+      "_idx": 2
+    },
+    {
+      "type": "halt",
+      "cluster_key": "trial:irma-partial-breast-irradiation",
+      "lead_id": "d67cb8bfd272baad",
+      "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+      "score": 6.1,
+      "channel": "global",
+      "member_ids": [
+        "d67cb8bfd272baad"
+      ],
+      "members": [
+        {
+          "title": "<![CDATA[Partial Breast Irradiation Misses Noninferiority in Phase 3 IRMA Trial]]>",
+          "url": "https://www.targetedonc.com/view/partial-breast-irradiation-irma-trial-low-risk-breast-cancer",
+          "score": 6.1,
+          "reasoning": "标题明确报告Ⅲ期IRMA试验未达到非劣效性，这是基于预设比较框架的明确失败结论，而非一般疗效数字；尽管缺乏原始统计量，失败读出本身仍值得行业级关注，归入全球栏目。"
+        }
+      ],
+      "reasoning": "标题明确报告Ⅲ期IRMA试验未达到非劣效性，这是基于预设比较框架的明确失败结论，而非一般疗效数字；尽管缺乏原始统计量，失败读出本身仍值得行业级关注，归入全球栏目。",
+      "verify_todo": [
+        "核实主要终点定义、非劣界值和样本量",
+        "核实两组的绝对事件率、效应估计及置信区间",
+        "核实安全性结果及试验后续安排"
+      ],
+      "flags": [
+        "failed"
+      ],
+      "endpoint_verdict": "missed",
+      "_idx": 3
+    },
+    {
+      "type": "readout",
+      "cluster_key": "drug:efinopegdutide",
+      "lead_id": "8ee9faaaad28073f",
+      "title": "[Articles] Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2–3 fibrosis: a phase 2b, randomised, placebo-controlled study",
+      "score": 6.0,
+      "channel": "global",
+      "member_ids": [
+        "8ee9faaaad28073f"
+      ],
+      "members": [
+        {
+          "title": "[Articles] Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2–3 fibrosis: a phase 2b, randomised, placebo-controlled study",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)02043-X/fulltext?rss=yes",
+          "score": 6.0,
+          "reasoning": "Lancet正式发表随机安慰剂对照Ⅱb期研究，并报告MASH消退且不伴纤维化恶化的比例显著提高，属于明确的统计结论；因距发布已超过14天，时效性直接扣分，归入全球栏目。"
+        }
+      ],
+      "reasoning": "Lancet正式发表随机安慰剂对照Ⅱb期研究，并报告MASH消退且不伴纤维化恶化的比例显著提高，属于明确的统计结论；因距发布已超过14天，时效性直接扣分，归入全球栏目。",
+      "verify_todo": [
+        "核实各剂量组样本量和主要终点效应值",
+        "核实p值、置信区间及缺失数据处理方式",
+        "核实纤维化改善、肝脏相关结局和长期停药数据"
+      ],
+      "flags": [
+        "met",
+        "stale"
+      ],
+      "endpoint_verdict": "met",
+      "_idx": 4
+    }
+  ]
+}
